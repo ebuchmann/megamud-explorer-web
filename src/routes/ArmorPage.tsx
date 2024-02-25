@@ -149,6 +149,7 @@ const defaultColumnVisibility = {
 export function ArmorPage() {
   const [searchValue, setSearchValue] = createSignal<string>('');
   const [levelValue, setLevelValue] = createSignal<string>('');
+  const [wornValue, setWornValue] = createSignal<string>('Anywhere');
   const [armorTypes, setArmorTypes] = createSignal<number[]>(
     defaultArmorTypeFilter,
   );
@@ -222,6 +223,7 @@ export function ArmorPage() {
           column={table.getColumn('MinLevel')!}
         />
         <select
+          value={wornValue()}
           onChange={(e) => {
             const value = e.target.value;
             const column = table.getColumn('Worn');
@@ -229,6 +231,8 @@ export function ArmorPage() {
             value === 'Anywhere'
               ? column?.setFilterValue('')
               : column?.setFilterValue(value);
+
+            setWornValue(value);
           }}
         >
           <option value="Anywhere">Anywhere</option>
@@ -251,6 +255,7 @@ export function ArmorPage() {
             setSearchValue('');
             setLevelValue('');
             setGlobalFilter('');
+            setWornValue('Anywhere');
             setArmorTypes(defaultArmorTypeFilter);
           }}
         >
