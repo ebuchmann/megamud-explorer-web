@@ -1,7 +1,9 @@
 export const specialProperties = new Map([
+  [2, 'AC'],
   [3, 'Rcol'],
   [4, 'MaxDamage'],
   [5, 'Rfir'],
+  [7, 'DR'],
   [9, 'Shadow'],
   [10, 'AC(Blur)'],
   [13, 'Illu'],
@@ -12,12 +14,14 @@ export const specialProperties = new Map([
   [25, 'ProtGood'],
   [27, 'Stealth'],
   [28, 'Magical'],
+  [31, 'Bash'],
   [34, 'Dodge'],
   [36, 'M.R.'],
   [43, 'CastsSp'],
   [45, 'Wisdom'],
   [46, 'Strength'],
   [48, 'Agility'],
+  [51, 'AntiMagic'],
   [54, 'IlluTarget'],
   [58, 'Crits'],
   [59, 'ClassOk'],
@@ -39,6 +43,8 @@ export const specialProperties = new Map([
   [97, 'GoodOnly'], // maybe not used?
   [98, 'EvilOnly'],
   [100, 'LoyalItem'],
+  [102, 'RacialStealth'],
+  [103, 'ClassStealth'],
   [110, 'NotGood'],
   [112, 'NeutralOnly'], // unused?
   [114, '% Spell'],
@@ -55,7 +61,13 @@ export const specialProperties = new Map([
   [165, 'AlterSpDmg'],
   [179, 'FindTrapsValue'],
   [180, 'PickLocksValue'],
-  [999, 'Classes'],
+  [1001, 'Thievery'],
+  [1002, 'Lockpicking'],
+  [1003, 'Traps'],
+  [1004, 'Tracking'],
+  [1103, 'Shadowrest'],
+  [9998, 'HPPerLVL'],
+  [9999, 'Classes'],
 ]);
 
 export const armorValues = [58, 135];
@@ -72,4 +84,8 @@ export const allArmorValuesAbilities = allValues.filter(
 // Used to display the Abilities column for weapons
 export const allWeaponValuesAbilities = allValues.filter(
   (value) => ![58, 87, 96, 116, 135].includes(value),
+);
+
+export const allClassValuesAbilities = allValues.filter(
+  (value) => ![59].includes(value),
 );

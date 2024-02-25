@@ -34,3 +34,36 @@ export type Armor = {
 
   Dodge?: number;
 };
+
+export type Class = {
+  Number: number;
+  Name: string;
+  ExpTable: number;
+  WeaponType: number;
+  ArmourType: number;
+  MageryLVL: number;
+  MageryType: number;
+  CombatLVL: number;
+  MinHits: number;
+  MaxHits: number;
+};
+
+export type Race = {
+  Number: number;
+  Name: string;
+  mINT: number;
+  mWIL: number;
+  mSTR: number;
+  mHEA: number;
+  mAGL: number;
+  mCHM: number;
+  xINT: number;
+  xWIL: number;
+  xSTR: number;
+  xHEA: number;
+  xAGL: number;
+  xCHM: number;
+  HPPerLVL?: number;
+  ExpTable: number;
+  BaseCP: number;
+};

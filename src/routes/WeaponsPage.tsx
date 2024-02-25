@@ -1,5 +1,6 @@
 import {
   ColumnFiltersState,
+  VisibilityState,
   createColumnHelper,
   createSolidTable,
   getCoreRowModel,
@@ -14,6 +15,8 @@ import { Table } from '../components/Table';
 import { allWeaponValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
+import { makePersisted } from '@solid-primitives/storage';
+import { getNumberString } from '../utils/formatting';
 
 type Weapon = {
   Number: number;
@@ -39,9 +42,6 @@ type Weapon = {
 };
 
 const defaultWeaponTypeFilter = [0, 1, 2, 3];
-
-const getNumberString = (value: number): string =>
-  value > 0 ? `+${value}` : `${value}`;
 
 const getClassList = (values: number[]): string =>
   values
@@ -146,6 +146,10 @@ const columns = [
   }),
 ];
 
+const defaultColumnVisibility = {
+  Number: false,
+};
+
 export function WeaponsPage() {
   const [searchValue, setSearchValue] = createSignal<string>('');
   const [levelValue, setLevelValue] = createSignal<string>('');
@@ -154,6 +158,10 @@ export function WeaponsPage() {
   const [globalFilter, setGlobalFilter] = createSignal('');
   const [columnFilters, setColumnFilters] = createSignal<ColumnFiltersState>(
     [],
+  );
+  const [columnVisibility, setColumnVisibility] = makePersisted(
+    createSignal<VisibilityState>(defaultColumnVisibility),
+    { name: 'weapon-table-columns' },
   );
 
   const table = createSolidTable({
@@ -164,6 +172,9 @@ export function WeaponsPage() {
     state: {
       get columnFilters() {
         return columnFilters();
+      },
+      get columnVisibility() {
+        return columnVisibility();
       },
     },
     globalFilterFn: ({ original }, _field, value) => {
@@ -203,6 +214,7 @@ export function WeaponsPage() {
       return false;
     },
     onColumnFiltersChange: setColumnFilters,
+    onColumnVisibilityChange: setColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),

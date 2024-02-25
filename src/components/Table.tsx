@@ -10,7 +10,10 @@ export function Table({ table }) {
             <tr>
               <For each={headerGroup.headers}>
                 {(header) => (
-                  <th class="border border-slate-600 p-2 text-left">
+                  <th
+                    colSpan={header.colSpan}
+                    class="border border-slate-600 p-2 text-left"
+                  >
                     <div
                       class={
                         header.column.getCanSort()

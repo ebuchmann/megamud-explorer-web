@@ -1,5 +1,6 @@
 import {
   ColumnFiltersState,
+  VisibilityState,
   createColumnHelper,
   createSolidTable,
   getCoreRowModel,
@@ -14,19 +15,10 @@ import { debounce } from '@solid-primitives/scheduled';
 import { allArmorValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
-
-const ArmorTypes = [
-  'Natural',
-  'Silk',
-  'Ninja',
-  'Leather',
-  'Unused (Leather)',
-  'Unused (Leather)',
-  'Unused (Leather)',
-  'Chain',
-  'Scale',
-  'Plate',
-];
+import { makePersisted } from '@solid-primitives/storage';
+import { ColumnVisibilityMenu } from '../components/ColumnVisibilityMenu';
+import { ArmorTypes } from '../utils/data-types';
+import { getNumberString } from '../utils/formatting';
 
 const WornSpots = [
   '',
@@ -51,7 +43,7 @@ const WornSpots = [
   'Face',
 ];
 
-const defaultArmorTypeFilter = [0, 1, 2, 3, 7, 8, 9];
+const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
 
 type Armor = {
   Number: number;
@@ -70,9 +62,6 @@ type Armor = {
   ClassOk?: number[];
   Classes?: number[];
 };
-
-const getNumberString = (value: number): string =>
-  value > 0 ? `+${value}` : `${value}`;
 
 const getClassList = (values: number[]): string =>
   values
@@ -129,10 +118,6 @@ const columns = [
   }),
   columnHelper.display({
     header: 'Abilities',
-    filterFn: () => {
-      console.log('aaa');
-      return true;
-    },
     cell: (info) => {
       const combinedValues = allArmorValuesAbilities.reduce(
         (curr: string, mapKey: number) => {
@@ -157,6 +142,10 @@ const columns = [
   }),
 ];
 
+const defaultColumnVisibility = {
+  Number: false,
+};
+
 export function ArmorPage() {
   const [searchValue, setSearchValue] = createSignal<string>('');
   const [levelValue, setLevelValue] = createSignal<string>('');
@@ -167,6 +156,10 @@ export function ArmorPage() {
   const [columnFilters, setColumnFilters] = createSignal<ColumnFiltersState>(
     [],
   );
+  const [columnVisibility, setColumnVisibility] = makePersisted(
+    createSignal<VisibilityState>(defaultColumnVisibility),
+    { name: 'armor-table-columns' },
+  );
 
   const table = createSolidTable({
     get data() {
@@ -176,6 +169,9 @@ export function ArmorPage() {
     state: {
       get columnFilters() {
         return columnFilters();
+      },
+      get columnVisibility() {
+        return columnVisibility();
       },
     },
     globalFilterFn: ({ original }, _field, value) => {
@@ -200,6 +196,7 @@ export function ArmorPage() {
       return false;
     },
     onColumnFiltersChange: setColumnFilters,
+    onColumnVisibilityChange: setColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
@@ -207,6 +204,7 @@ export function ArmorPage() {
 
   return (
     <>
+      {/* <ColumnVisibilityMenu<Armor> columns={table.getAllLeafColumns()} /> */}
       <div class="flex gap-4">
         <input
           placeholder="Search"

@@ -24,6 +24,13 @@ export function App({ children }: AppProps) {
           >
             Armor
           </A>
+          <A
+            activeClass="text-blue-400"
+            inactiveClass="text-neutral-100"
+            href="/classes-races"
+          >
+            Classes / Races
+          </A>
         </nav>
       </header>
       <div class="p-4">{children}</div>
