@@ -1,0 +1,29 @@
+{
+  "name": "mmexplorer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate": "ts-node formatter.js",
+    "type-check": "tsx",
+    "css": "yarn tailwindcss -i ./src/index.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@solid-primitives/scheduled": "1.4.2",
+    "@solidjs/router": "0.12.4",
+    "@tanstack/solid-table": "8.12.0",
+    "solid-js": "^1.8.15",
+    "tailwindcss": "3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.20",
+    "prettier": "3.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-solid": "^2.10.1"
+  }
+}
