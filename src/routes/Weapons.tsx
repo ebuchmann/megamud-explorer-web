@@ -210,8 +210,6 @@ export function WeaponsPage() {
 
   return (
     <>
-      {JSON.stringify(columnFilters())}
-      <br />
       <div class="flex gap-4">
         <input
           placeholder="Search"

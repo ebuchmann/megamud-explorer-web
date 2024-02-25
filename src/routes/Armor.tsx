@@ -207,7 +207,6 @@ export function ArmorPage() {
 
   return (
     <>
-      {JSON.stringify(columnFilters())}
       <div class="flex gap-4">
         <input
           placeholder="Search"
