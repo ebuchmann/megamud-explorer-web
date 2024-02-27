@@ -10,38 +10,22 @@ import {
 import armor from '../data/armor.json';
 import classData from '../data/classes.json';
 import { For, createSignal } from 'solid-js';
-import { Table } from '../components/Table';
+import {
+  DataTable,
+  globalFilter,
+  levelFilter,
+  setGlobalFilter,
+  setLevelFilter,
+} from '../components/DataTable';
 import { debounce } from '@solid-primitives/scheduled';
 import { allArmorValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
 import { ColumnVisibilityMenu } from '../components/ColumnVisibilityMenu';
-import { ArmorTypes } from '../utils/data-types';
+import { ArmorTypes, WornSpots } from '../utils/data-types';
 import { getNumberString } from '../utils/formatting';
-
-const WornSpots = [
-  '',
-  '',
-  'Head',
-  'Hands',
-  'Finger',
-  'Feet',
-  'Arms',
-  'Back',
-  'Neck',
-  'Legs',
-  'Waist',
-  'Torso',
-  'Off-Hand',
-  '',
-  'Wrist',
-  'Ears',
-  'Worn',
-  '',
-  '',
-  'Face',
-];
+import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 
 const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
 
@@ -148,12 +132,10 @@ const defaultColumnVisibility = {
 
 export function ArmorPage() {
   const [searchValue, setSearchValue] = createSignal<string>('');
-  const [levelValue, setLevelValue] = createSignal<string>('');
   const [wornValue, setWornValue] = createSignal<string>('Anywhere');
   const [armorTypes, setArmorTypes] = createSignal<number[]>(
     defaultArmorTypeFilter,
   );
-  const [globalFilter, setGlobalFilter] = createSignal('');
   const [columnFilters, setColumnFilters] = createSignal<ColumnFiltersState>(
     [],
   );
@@ -203,6 +185,9 @@ export function ArmorPage() {
     getSortedRowModel: getSortedRowModel(),
   });
 
+  table.setGlobalFilter(Number(globalFilter()));
+  table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
+
   return (
     <>
       {/* <ColumnVisibilityMenu<Armor> columns={table.getAllLeafColumns()} /> */}
@@ -218,8 +203,8 @@ export function ArmorPage() {
           }, 500)}
         />
         <LevelInput
-          value={levelValue}
-          setValue={setLevelValue}
+          value={levelFilter}
+          setValue={setLevelFilter}
           column={table.getColumn('MinLevel')!}
         />
         <select
@@ -253,7 +238,7 @@ export function ArmorPage() {
             table.resetColumnFilters(true);
             table.resetGlobalFilter(true);
             setSearchValue('');
-            setLevelValue('');
+            setLevelFilter('');
             setGlobalFilter('');
             setWornValue('Anywhere');
             setArmorTypes(defaultArmorTypeFilter);
@@ -261,6 +246,7 @@ export function ArmorPage() {
         >
           Clear Filters
         </button>
+        <GlobalFilterMenu />
       </div>
       <div class="grid grid-cols-4 gap-1">
         <For each={ArmorTypes}>
@@ -294,7 +280,7 @@ export function ArmorPage() {
         </For>
       </div>
 
-      <Table table={table} />
+      <DataTable highlightEquipment table={table} />
     </>
   );
 }

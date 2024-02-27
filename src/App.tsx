@@ -1,15 +1,27 @@
 import { A } from '@solidjs/router';
-import { JSX } from 'solid-js';
+import { JSX, createEffect } from 'solid-js';
+import { CharacterPanel } from './components/CharacterPanel';
+import {
+  characters,
+  selectedCharacter,
+  setSelectedCharacterData,
+} from './state/character-state';
 
 type AppProps = {
   children?: JSX.Element;
 };
 
 export function App({ children }: AppProps) {
+  createEffect(() => {
+    setSelectedCharacterData(
+      characters.find((char) => char.id === selectedCharacter()),
+    );
+  });
+
   return (
     <div class="w-full">
       <header>
-        <nav class="p-4 relative gap-4 flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 md:flex-wrap md:justify-start">
+        <nav class="p-4 relative gap-8 flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 md:flex-wrap md:justify-start">
           <A
             activeClass="text-blue-400"
             inactiveClass="text-neutral-100"
@@ -30,6 +42,20 @@ export function App({ children }: AppProps) {
             href="/classes-races"
           >
             Classes / Races
+          </A>
+          <A
+            activeClass="text-blue-400"
+            inactiveClass="text-neutral-100"
+            href="/monsters"
+          >
+            Monsters
+          </A>
+          <A
+            activeClass="text-blue-400"
+            inactiveClass="text-neutral-100"
+            href="/characters"
+          >
+            Characters
           </A>
         </nav>
       </header>

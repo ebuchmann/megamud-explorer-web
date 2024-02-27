@@ -11,12 +11,19 @@ import weapons from '../data/weapons.json';
 import classData from '../data/classes.json';
 import { For, createSignal } from 'solid-js';
 import { debounce } from '@solid-primitives/scheduled';
-import { Table } from '../components/Table';
+import {
+  DataTable,
+  globalFilter,
+  levelFilter,
+  setGlobalFilter,
+  setLevelFilter,
+} from '../components/DataTable';
 import { allWeaponValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
 import { getNumberString } from '../utils/formatting';
+import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 
 type Weapon = {
   Number: number;
@@ -155,7 +162,6 @@ export function WeaponsPage() {
   const [levelValue, setLevelValue] = createSignal<string>('');
   const [bsValue, setBsValue] = createSignal<boolean>(false);
   const [weaponTypes, setWeaponTypes] = createSignal(defaultWeaponTypeFilter);
-  const [globalFilter, setGlobalFilter] = createSignal('');
   const [columnFilters, setColumnFilters] = createSignal<ColumnFiltersState>(
     [],
   );
@@ -220,6 +226,9 @@ export function WeaponsPage() {
     getSortedRowModel: getSortedRowModel(),
   });
 
+  table.setGlobalFilter(Number(globalFilter()));
+  table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
+
   return (
     <>
       <div class="flex gap-4">
@@ -234,8 +243,8 @@ export function WeaponsPage() {
           }, 500)}
         />
         <LevelInput
-          value={levelValue}
-          setValue={setLevelValue}
+          value={levelFilter}
+          setValue={setLevelFilter}
           column={table.getColumn('MinLevel')!}
         />
         <ClassSelect
@@ -248,7 +257,7 @@ export function WeaponsPage() {
             table.resetColumnFilters(true);
             table.resetGlobalFilter(true);
             setSearchValue('');
-            setLevelValue('');
+            setLevelFilter('');
             setBsValue(false);
             setGlobalFilter('');
             setWeaponTypes(defaultWeaponTypeFilter);
@@ -256,6 +265,7 @@ export function WeaponsPage() {
         >
           Clear Filters
         </button>
+        <GlobalFilterMenu />
       </div>
       <div class="grid grid-cols-4 gap-1">
         <For each={WeaponTypes}>
@@ -295,7 +305,7 @@ export function WeaponsPage() {
           BS'able
         </label>
       </div>
-      <Table table={table} />
+      <DataTable highlightEquipment table={table} />
       <div class="h-4" />
     </>
   );

@@ -67,3 +67,38 @@ export type Race = {
   ExpTable: number;
   BaseCP: number;
 };
+
+export type Monster = {
+  Number: number;
+  Name: string;
+  Weapon: number;
+  ArmourClass: number;
+  DamageResist: number;
+  MagicRes: number;
+  EXP: number;
+  HP: number;
+  Undead: number;
+  Magical: number;
+  Rcol?: number;
+  Rfir?: number;
+  Rlit?: number;
+  Dodge?: number;
+  ResistStone?: number;
+  ImmuPoison?: number;
+  ResistWater?: number;
+};
+
+export type Character = {
+  id: string;
+  name: string;
+  cls: number;
+  race: number;
+  level: number;
+  str: number;
+  int: number;
+  wil: number;
+  agl: number;
+  hea: number;
+  chm: number;
+  worn: Record<number, number>;
+};

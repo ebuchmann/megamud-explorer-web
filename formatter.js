@@ -4,11 +4,13 @@ import { allValues, specialProperties } from './src/utils/values.js';
 const itemData = JSON.parse(fs.readFileSync('./db/items.json', 'utf8'));
 const classData = JSON.parse(fs.readFileSync('./db/classes.json', 'utf8'));
 const raceData = JSON.parse(fs.readFileSync('./db/races.json', 'utf8'));
+const monsterData = JSON.parse(fs.readFileSync('./db/monsters.json', 'utf8'));
 
 const allWeapons = [];
 const allArmor = [];
 const allClasses = [];
 const allRaces = [];
+const allMonsters = [];
 
 for (const index in itemData) {
   const original = itemData[index];
@@ -161,6 +163,45 @@ for (const index in raceData) {
   allRaces.push(item);
 }
 
+for (const index in monsterData) {
+  const original = monsterData[index];
+
+  if (original['In Game'] === 0) continue;
+
+  const item = {
+    Number: original.Number,
+    Name: original.Name,
+    Weapon: original.Weapon,
+    ArmourClass: original.ArmourClass,
+    DamageResist: original.DamageResist,
+    // 'Follow%': 20,
+    MagicRes: original.MagicRes,
+    EXP: original.EXP,
+    // ExpMulti: 1,
+    HP: original.HP,
+    // Energy: 1000,
+    // AvgDmg: 9.9,
+    // GreetTXT: 23,
+    // HPRegen: 7,
+    // CharmLVL: 12,
+    // Type: 0,
+    Undead: original.Undead,
+    // Align: 2,
+    // RegenTime: 0,
+    Magical: 0,
+  };
+
+  for (let x = 0; x < 10; x++) {
+    if (allValues.includes(original[`Abil-${x}`])) {
+      const key = specialProperties.get(original[`Abil-${x}`]);
+
+      item[key] = original[`AbilVal-${x}`];
+    }
+  }
+
+  allMonsters.push(item);
+}
+
 try {
   fs.writeFileSync(
     './src/data/weapons.json',
@@ -172,6 +213,10 @@ try {
     JSON.stringify(allClasses, null, 2),
   );
   fs.writeFileSync('./src/data/races.json', JSON.stringify(allRaces, null, 2));
+  fs.writeFileSync(
+    './src/data/monsters.json',
+    JSON.stringify(allMonsters, null, 2),
+  );
 } catch (err) {
   console.error(err);
 }

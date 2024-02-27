@@ -1,7 +1,20 @@
-import { flexRender } from '@tanstack/solid-table';
+import { Table, flexRender } from '@tanstack/solid-table';
 import { For } from 'solid-js';
+import { selectedCharacterData } from '../state/character-state';
+import { createSignal } from 'solid-js';
 
-export function Table({ table }) {
+export const [levelFilter, setLevelFilter] = createSignal<string>('');
+export const [globalFilter, setGlobalFilter] = createSignal<string>('');
+
+type TableProps<T> = {
+  table: Table<T>;
+  highlightEquipment?: boolean;
+};
+
+export function DataTable<T extends { Number: number }>({
+  highlightEquipment = false,
+  table,
+}: TableProps<T>) {
   return (
     <table class="w-full border-collapse border border-slate-500 table-auto">
       <thead class="sticky top-0 bg-gray-900">
@@ -41,7 +54,18 @@ export function Table({ table }) {
       <tbody>
         <For each={table.getRowModel().rows}>
           {(row) => (
-            <tr class="hover:bg-cyan-900">
+            <tr
+              onClick={() => row.getCanSelect() && row.toggleSelected()}
+              class={`hover:bg-cyan-900 ${
+                (highlightEquipment &&
+                  selectedCharacterData() &&
+                  Object.values(selectedCharacterData()!.worn).some(
+                    (val) => val === row.original.Number,
+                  ) &&
+                  'font-bold text-cyan-100',
+                row.getIsSelected() && 'font-bold text-cyan-100')
+              }`}
+            >
               <For each={row.getVisibleCells()}>
                 {(cell) => (
                   <td class="p-2">

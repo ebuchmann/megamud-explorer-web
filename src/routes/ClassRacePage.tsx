@@ -7,7 +7,7 @@ import {
 } from '@tanstack/solid-table';
 import classData from '../data/classes.json';
 import raceData from '../data/races.json';
-import { Table } from '../components/Table';
+import { DataTable } from '../components/DataTable';
 import { ArmorTypes, MageryTypes } from '../utils/data-types';
 import { allClassValuesAbilities, specialProperties } from '../utils/values';
 import { Class, Race } from '../types';
@@ -127,8 +127,8 @@ const racesColumns = [
     ],
   },
   {
-    id: 'Intelligence',
-    header: <div class="text-center">Intelligence</div>,
+    id: 'Intellect',
+    header: <div class="text-center">Intellect</div>,
     columns: [
       columnHelperRaces.accessor('mINT', {
         header: 'Min',
@@ -267,9 +267,9 @@ export function ClassRacePage() {
   return (
     <div class="flex flex-col gap-2">
       <h2>Classes</h2>
-      <Table table={classesTable} />
+      <DataTable table={classesTable} />
       <h2>Races</h2>
-      <Table table={racesTable} />
+      <DataTable table={racesTable} />
     </div>
   );
 }
