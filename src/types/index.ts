@@ -68,16 +68,40 @@ export type Race = {
   BaseCP: number;
 };
 
+export type MonsterAttack = {
+  Name: string;
+  Acc: number;
+  'AttTrue%': number;
+  Min: number;
+  Max: number;
+  Energy: number;
+  HitSpell?: number;
+};
+
+export type MonsterSpell = {
+  Name: string;
+  'AttTrue%': number;
+  Number: number;
+  Success: number;
+  Level: number;
+  Energy: number;
+};
+
 export type Monster = {
   Number: number;
   Name: string;
   Weapon: number;
   ArmourClass: number;
   DamageResist: number;
+  'Follow%': number;
   MagicRes: number;
   EXP: number;
   HP: number;
+  HPRegen: number;
+  CharmLVL: number;
+  Type: number;
   Undead: number;
+  Align: number;
   Magical: number;
   Rcol?: number;
   Rfir?: number;
@@ -86,6 +110,8 @@ export type Monster = {
   ResistStone?: number;
   ImmuPoison?: number;
   ResistWater?: number;
+  Attacks?: MonsterAttack[];
+  Spells?: MonsterSpell[];
 };
 
 export type Character = {

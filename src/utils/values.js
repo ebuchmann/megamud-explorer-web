@@ -45,6 +45,7 @@ export const specialProperties = new Map([
   [100, 'LoyalItem'],
   [102, 'RacialStealth'],
   [103, 'ClassStealth'],
+  [109, 'NonLiving'], // monsters, not that useful as undead -> 1 is the same
   [110, 'NotGood'],
   [112, 'NeutralOnly'], // unused?
   [114, '% Spell'],
@@ -86,6 +87,12 @@ export const allWeaponValuesAbilities = allValues.filter(
   (value) => ![58, 87, 96, 116, 135].includes(value),
 );
 
+// Used to display the Abilities for classes
 export const allClassValuesAbilities = allValues.filter(
   (value) => ![59].includes(value),
+);
+
+// Used to display the Abilities for monsters
+export const allMonsterValuesAbilities = allValues.filter(
+  (value) => ![109, 123].includes(value),
 );

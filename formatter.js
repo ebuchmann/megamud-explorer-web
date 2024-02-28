@@ -174,7 +174,7 @@ for (const index in monsterData) {
     Weapon: original.Weapon,
     ArmourClass: original.ArmourClass,
     DamageResist: original.DamageResist,
-    // 'Follow%': 20,
+    'Follow%': original['Follow%'],
     MagicRes: original.MagicRes,
     EXP: original.EXP,
     // ExpMulti: 1,
@@ -182,11 +182,11 @@ for (const index in monsterData) {
     // Energy: 1000,
     // AvgDmg: 9.9,
     // GreetTXT: 23,
-    // HPRegen: 7,
-    // CharmLVL: 12,
-    // Type: 0,
+    HPRegen: original.HPRegen,
+    CharmLVL: original.CharmLVL,
+    Type: original.Type,
     Undead: original.Undead,
-    // Align: 2,
+    Align: original.Align,
     // RegenTime: 0,
     Magical: 0,
   };
@@ -196,6 +196,61 @@ for (const index in monsterData) {
       const key = specialProperties.get(original[`Abil-${x}`]);
 
       item[key] = original[`AbilVal-${x}`];
+    }
+  }
+
+  for (let x = 0; x < 5; x++) {
+    if (original[`AttName-${x}`] === 'None') continue;
+
+    if (original[`AttType-${x}`] === 1) {
+      if (!item.Attacks) item.Attacks = [];
+
+      const attack = {
+        Name: original[`AttName-${x}`],
+        Acc: original[`AttAcc-${x}`],
+        'AttTrue%': original[`AttTrue%-${x}`].toFixed(1),
+        Min: original[`AttMin-${x}`],
+        Max: original[`AttMax-${x}`],
+        Energy: original[`AttEnergy-${x}`],
+      };
+
+      const hitSpell = original[`AttHitSpell-${x}`];
+      if (hitSpell > 0) attack.HitSpell = hitSpell;
+
+      item.Attacks.push(attack);
+    } else {
+      if (!item.Spells) item.Spells = [];
+
+      // "AttName-1": "spiritual hammer",
+      // "AttType-1": 2,
+      // "AttAcc-1": 5038,
+      // "Att%-1": 80,
+      // "AttTrue%-1": 47.8,
+      // "AttMin-1": 70,
+      // "AttMax-1": 10,
+      // "AttEnergy-1": 1000,
+      // "AttHitSpell-1": 0,
+      // "AttName-2": "spiritual hammer",
+      // "AttType-2": 2,
+      // "AttAcc-2": 5038,
+      // "Att%-2": 100,
+      // "AttTrue%-2": 19.9,
+      // "AttMin-2": 70,
+      // "AttMax-2": 10,
+      // "AttEnergy-2": 1000,
+      // "AttHitSpell-2": 0,
+
+      const spell = {
+        Name: original[`AttName-${x}`],
+        'AttTrue%': original[`AttTrue%-${x}`].toFixed(1),
+        Number: original[`AttAcc-${x}`],
+        Success: original[`AttMin-${x}`],
+        Level: original[`AttMax-${x}`],
+        Energy: original[`AttEnergy-${x}`],
+      };
+
+      // Number, Success, Energy, Level
+      item.Spells.push(spell);
     }
   }
 
