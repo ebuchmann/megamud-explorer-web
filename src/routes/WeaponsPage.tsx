@@ -24,6 +24,7 @@ import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
 import { getNumberString } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
+import { ScrollContainer } from '../components/layout/ScrollContainer';
 
 type Weapon = {
   Number: number;
@@ -159,7 +160,6 @@ const defaultColumnVisibility = {
 
 export function WeaponsPage() {
   const [searchValue, setSearchValue] = createSignal<string>('');
-  const [levelValue, setLevelValue] = createSignal<string>('');
   const [bsValue, setBsValue] = createSignal<boolean>(false);
   const [weaponTypes, setWeaponTypes] = createSignal(defaultWeaponTypeFilter);
   const [columnFilters, setColumnFilters] = createSignal<ColumnFiltersState>(
@@ -214,11 +214,11 @@ export function WeaponsPage() {
         return true;
       }
 
-      if (original.Name === 'greatsword') console.log(original);
       // WeaponType 9 (Priest & Mage) How?
 
       return false;
     },
+    enableRowSelection: false,
     onColumnFiltersChange: setColumnFilters,
     onColumnVisibilityChange: setColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
@@ -226,8 +226,9 @@ export function WeaponsPage() {
     getSortedRowModel: getSortedRowModel(),
   });
 
-  table.setGlobalFilter(Number(globalFilter()));
-  table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
+  if (!!globalFilter()) table.setGlobalFilter(Number(globalFilter()));
+  if (!!levelFilter())
+    table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
 
   return (
     <>
@@ -305,8 +306,9 @@ export function WeaponsPage() {
           BS'able
         </label>
       </div>
-      <DataTable highlightEquipment table={table} />
-      <div class="h-4" />
+      <ScrollContainer>
+        <DataTable highlightEquipment table={table} />
+      </ScrollContainer>
     </>
   );
 }

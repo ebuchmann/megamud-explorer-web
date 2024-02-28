@@ -16,17 +16,14 @@ export function DataTable<T extends { Number: number }>({
   table,
 }: TableProps<T>) {
   return (
-    <table class="w-full border-collapse border border-slate-500 table-auto">
+    <table class="w-full table-auto">
       <thead class="sticky top-0 bg-gray-900">
         <For each={table.getHeaderGroups()}>
           {(headerGroup) => (
             <tr>
               <For each={headerGroup.headers}>
                 {(header) => (
-                  <th
-                    colSpan={header.colSpan}
-                    class="border border-slate-600 p-2 text-left"
-                  >
+                  <th colSpan={header.colSpan} class="p-2 text-left">
                     <div
                       class={
                         header.column.getCanSort()
@@ -56,15 +53,14 @@ export function DataTable<T extends { Number: number }>({
           {(row) => (
             <tr
               onClick={() => row.getCanSelect() && row.toggleSelected()}
-              class={`hover:bg-cyan-900 ${
-                (highlightEquipment &&
-                  selectedCharacterData() &&
-                  Object.values(selectedCharacterData()!.worn).some(
-                    (val) => val === row.original.Number,
-                  ) &&
-                  'font-bold text-cyan-100',
-                row.getIsSelected() && 'font-bold text-cyan-100')
-              }`}
+              class={`hover:bg-cyan-900 border-b-stone-600 border-b ${
+                highlightEquipment &&
+                selectedCharacterData() &&
+                Object.values(selectedCharacterData()!.worn).some(
+                  (val) => val === row.original.Number,
+                ) &&
+                'font-bold text-cyan-100'
+              } ${row.getIsSelected() && 'font-bold text-cyan-100'} `}
             >
               <For each={row.getVisibleCells()}>
                 {(cell) => (

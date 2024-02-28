@@ -26,6 +26,7 @@ import { ColumnVisibilityMenu } from '../components/ColumnVisibilityMenu';
 import { ArmorTypes, WornSpots } from '../utils/data-types';
 import { getNumberString } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
+import { ScrollContainer } from '../components/layout/ScrollContainer';
 
 const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
 
@@ -86,7 +87,7 @@ const columns = [
     cell: (info) => info.getValue(),
   }),
   columnHelper.accessor('ArmourClass', {
-    header: 'AC',
+    header: 'AC/DR',
     cell: (info) => {
       return `${info.row.original.ArmourClass / 10}/${
         info.row.original.DamageResist / 10
@@ -178,6 +179,7 @@ export function ArmorPage() {
 
       return false;
     },
+    enableRowSelection: false,
     onColumnFiltersChange: setColumnFilters,
     onColumnVisibilityChange: setColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
@@ -185,8 +187,9 @@ export function ArmorPage() {
     getSortedRowModel: getSortedRowModel(),
   });
 
-  table.setGlobalFilter(Number(globalFilter()));
-  table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
+  if (!!globalFilter()) table.setGlobalFilter(Number(globalFilter()));
+  if (!!levelFilter())
+    table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
 
   return (
     <>
@@ -279,8 +282,9 @@ export function ArmorPage() {
           }}
         </For>
       </div>
-
-      <DataTable highlightEquipment table={table} />
+      <ScrollContainer>
+        <DataTable highlightEquipment table={table} />
+      </ScrollContainer>
     </>
   );
 }

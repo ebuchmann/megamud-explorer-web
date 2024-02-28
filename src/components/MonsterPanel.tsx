@@ -62,53 +62,58 @@ export function MonsterPanel() {
             )}
           </div>
         </div>
-        <h3 class="my-4">Attacks</h3>
-        <For each={monster()?.Attacks}>
-          {(attack) => (
-            <div class="mb-4">
-              <div>
-                {attack.Name} ({attack['AttTrue%']}%)
-              </div>
-              <div class="grid grid-cols-[1fr,2fr]">
-                <div>Damage</div>
+        <Show when={monster()?.Attacks}>
+          <h3 class="my-4">Attacks</h3>
+          <For each={monster()?.Attacks}>
+            {(attack) => (
+              <div class="mb-4">
                 <div>
-                  {attack.Min} - {attack.Max}
+                  {attack.Name} ({attack['AttTrue%']}%)
                 </div>
-                <div>Accuracy</div>
-                <div>{attack.Acc}</div>
-                <div>Energy</div>
-                <div>
-                  {attack.Energy} (Max {Math.floor(1000 / attack.Energy)}
-                  x/round)
-                </div>
-                <Show when={attack.HitSpell}>
-                  <div>Hit spell</div>
-                  <div>{attack.HitSpell}</div>
-                </Show>
-              </div>
-            </div>
-          )}
-        </For>
-        <For each={monster()?.Spells}>
-          {(spell) => (
-            <div class="mb-4">
-              <div>
-                {spell.Name} ({spell['AttTrue%']}%)
-              </div>
-              <div class="grid grid-cols-[1fr,2fr]">
-                <div>Spell</div>
-                <div>{spell.Number}</div>
-                <div>Success</div>
-                <div>{spell.Success}%</div>
-                <div>Energy</div>
-                <div>
-                  {spell.Energy} (Max {Math.floor(1000 / spell.Energy)}
-                  x/round)
+                <div class="grid grid-cols-[1fr,2fr]">
+                  <div>Damage</div>
+                  <div>
+                    {attack.Min} - {attack.Max}
+                  </div>
+                  <div>Accuracy</div>
+                  <div>{attack.Acc}</div>
+                  <div>Energy</div>
+                  <div>
+                    {attack.Energy} (Max {Math.floor(1000 / attack.Energy)}
+                    x/round)
+                  </div>
+                  <Show when={attack.HitSpell}>
+                    <div>Hit spell</div>
+                    <div>{attack.HitSpell}</div>
+                  </Show>
                 </div>
               </div>
-            </div>
-          )}
-        </For>
+            )}
+          </For>
+        </Show>
+        <Show when={monster()?.Spells}>
+          <h3 class="my-4">Spells</h3>
+          <For each={monster()?.Spells}>
+            {(spell) => (
+              <div class="mb-4">
+                <div>
+                  {spell.Name} ({spell['AttTrue%']}%)
+                </div>
+                <div class="grid grid-cols-[1fr,2fr]">
+                  <div>Spell</div>
+                  <div>{spell.Number}</div>
+                  <div>Success</div>
+                  <div>{spell.Success}%</div>
+                  <div>Energy</div>
+                  <div>
+                    {spell.Energy} (Max {Math.floor(1000 / spell.Energy)}
+                    x/round)
+                  </div>
+                </div>
+              </div>
+            )}
+          </For>
+        </Show>
       </Show>
     </>
   );

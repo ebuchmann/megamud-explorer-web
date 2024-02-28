@@ -19,7 +19,7 @@ export function App({ children }: AppProps) {
   });
 
   return (
-    <div class="w-full">
+    <div class="w-full h-screen">
       <header>
         <nav class="p-4 relative gap-8 flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 md:flex-wrap md:justify-start">
           <A
@@ -59,7 +59,12 @@ export function App({ children }: AppProps) {
           </A>
         </nav>
       </header>
-      <div class="p-4">{children}</div>
+      <div
+        class="p-4 flex flex-col gap-2"
+        style={{ height: 'calc(100% - 40px)' }}
+      >
+        {children}
+      </div>
     </div>
   );
 }

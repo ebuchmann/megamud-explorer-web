@@ -14,6 +14,7 @@ import { Class, Race } from '../types';
 import { getNumberString } from '../utils/formatting';
 import { makePersisted } from '@solid-primitives/storage';
 import { createSignal } from 'solid-js';
+import { ScrollContainer } from '../components/layout/ScrollContainer';
 
 const WeaponTypes: Record<number, string> = {
   4: 'Any 1H',
@@ -265,11 +266,13 @@ export function ClassRacePage() {
   });
 
   return (
-    <div class="flex flex-col gap-2">
-      <h2>Classes</h2>
-      <DataTable table={classesTable} />
-      <h2>Races</h2>
-      <DataTable table={racesTable} />
-    </div>
+    <ScrollContainer>
+      <div class="flex flex-col gap-4">
+        <h2>Classes</h2>
+        <DataTable table={classesTable} />
+        <h2>Races</h2>
+        <DataTable table={racesTable} />
+      </div>
+    </ScrollContainer>
   );
 }

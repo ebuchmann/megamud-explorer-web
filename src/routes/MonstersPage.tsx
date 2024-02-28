@@ -15,6 +15,7 @@ import { DataTable } from '../components/DataTable';
 import { TextSearch } from '../components/TextSearch';
 import { MonsterPanel } from '../components/MonsterPanel';
 import { useLocation, useNavigate, useParams } from '@solidjs/router';
+import { ScrollContainer } from '../components/layout/ScrollContainer';
 
 const columnHelper = createColumnHelper<Monster>();
 
@@ -26,7 +27,7 @@ const columns = [
     cell: (info) => info.getValue(),
   }),
   columnHelper.accessor('ArmourClass', {
-    header: 'AC',
+    header: 'AC/DR',
     cell: (info) => {
       return `${info.row.original.ArmourClass}/${info.row.original.DamageResist}`;
     },
@@ -105,21 +106,21 @@ export function MonstersPage() {
   });
 
   return (
-    <div class="flex gap-4 flex-col">
-      <div class="flex gap-4">
-        <div class="w-9/12">
-          <div class="flex gap-4">
-            <TextSearch
-              value={searchValue}
-              setValue={setSearchValue}
-              column={table.getColumn('Name')}
-            />
-          </div>
+    <div class="flex gap-4 h-[100%]">
+      <div class="w-9/12 h-[100%] flex flex-col gap-4">
+        <div class="flex">
+          <TextSearch
+            value={searchValue}
+            setValue={setSearchValue}
+            column={table.getColumn('Name')}
+          />
+        </div>
+        <ScrollContainer>
           <DataTable table={table} />
-        </div>
-        <div class="w-3/12">
-          <MonsterPanel />
-        </div>
+        </ScrollContainer>
+      </div>
+      <div class="w-3/12 overflow-auto">
+        <MonsterPanel />
       </div>
     </div>
   );
