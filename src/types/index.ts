@@ -128,3 +128,12 @@ export type Character = {
   chm: number;
   worn: Record<number, number>;
 };
+
+export type Spell = {
+  Number: number;
+  Name: string;
+  MinBase: number;
+  MaxBase: number;
+  Dur: number;
+  NonMagicalSpell?: number;
+};

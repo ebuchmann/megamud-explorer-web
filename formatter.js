@@ -5,12 +5,14 @@ const itemData = JSON.parse(fs.readFileSync('./db/items.json', 'utf8'));
 const classData = JSON.parse(fs.readFileSync('./db/classes.json', 'utf8'));
 const raceData = JSON.parse(fs.readFileSync('./db/races.json', 'utf8'));
 const monsterData = JSON.parse(fs.readFileSync('./db/monsters.json', 'utf8'));
+const spellData = JSON.parse(fs.readFileSync('./db/spells.json', 'utf8'));
 
 const allWeapons = [];
 const allArmor = [];
 const allClasses = [];
 const allRaces = [];
 const allMonsters = [];
+const allSpells = [];
 
 for (const index in itemData) {
   const original = itemData[index];
@@ -221,25 +223,6 @@ for (const index in monsterData) {
     } else {
       if (!item.Spells) item.Spells = [];
 
-      // "AttName-1": "spiritual hammer",
-      // "AttType-1": 2,
-      // "AttAcc-1": 5038,
-      // "Att%-1": 80,
-      // "AttTrue%-1": 47.8,
-      // "AttMin-1": 70,
-      // "AttMax-1": 10,
-      // "AttEnergy-1": 1000,
-      // "AttHitSpell-1": 0,
-      // "AttName-2": "spiritual hammer",
-      // "AttType-2": 2,
-      // "AttAcc-2": 5038,
-      // "Att%-2": 100,
-      // "AttTrue%-2": 19.9,
-      // "AttMin-2": 70,
-      // "AttMax-2": 10,
-      // "AttEnergy-2": 1000,
-      // "AttHitSpell-2": 0,
-
       const spell = {
         Name: original[`AttName-${x}`],
         'AttTrue%': original[`AttTrue%-${x}`].toFixed(1),
@@ -249,12 +232,50 @@ for (const index in monsterData) {
         Energy: original[`AttEnergy-${x}`],
       };
 
-      // Number, Success, Energy, Level
       item.Spells.push(spell);
     }
   }
 
   allMonsters.push(item);
+}
+
+for (const index in spellData) {
+  const original = spellData[index];
+
+  // "Number": 266,
+  //   "Name": "dragonfire",
+  //   "Short": "dfir",
+  //   "ReqLevel": 0,
+  //   "EnergyCost": 1000,
+  //   "ManaCost": 0,
+  //   "MinBase": 0,
+  //   "MaxBase": 0,
+  //   "Diff": 100,
+  //   "TypeOfResists": 0,
+  //   "Targets": 12,
+  //   "Dur": 0,
+  //   "AttType": 1,
+  //   "Magery": 0,
+  //   "MageryLVL": 0,
+  //   "Cap": 0,
+
+  const item = {
+    Number: original.Number,
+    Name: original.Name,
+    MinBase: original.MinBase,
+    MaxBase: original.MaxBase,
+    Dur: original.Dur,
+  };
+
+  for (let x = 0; x < 10; x++) {
+    if (allValues.includes(original[`Abil-${x}`])) {
+      const key = specialProperties.get(original[`Abil-${x}`]);
+
+      item[key] = original[`AbilVal-${x}`];
+    }
+  }
+
+  allSpells.push(item);
 }
 
 try {
@@ -271,6 +292,10 @@ try {
   fs.writeFileSync(
     './src/data/monsters.json',
     JSON.stringify(allMonsters, null, 2),
+  );
+  fs.writeFileSync(
+    './src/data/spells.json',
+    JSON.stringify(allSpells, null, 2),
   );
 } catch (err) {
   console.error(err);

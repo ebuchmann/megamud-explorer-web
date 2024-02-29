@@ -13,7 +13,7 @@ import { makePersisted } from '@solid-primitives/storage';
 import { createEffect, createSignal } from 'solid-js';
 import { DataTable } from '../components/DataTable';
 import { TextSearch } from '../components/TextSearch';
-import { MonsterPanel } from '../components/MonsterPanel';
+import { MonsterPanel } from '../components/monsters/MonsterPanel';
 import { useLocation, useNavigate, useParams } from '@solidjs/router';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 

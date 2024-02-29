@@ -8,6 +8,7 @@ export const specialProperties = new Map([
   [10, 'AC(Blur)'],
   [13, 'Illu'],
   [14, 'RoomIllu'],
+  [19, 'Poison'],
   [21, 'ImmuPoison'], // armor
   [22, 'Accuracy'],
   [24, 'ProtEvil'],
@@ -45,6 +46,8 @@ export const specialProperties = new Map([
   [100, 'LoyalItem'],
   [102, 'RacialStealth'],
   [103, 'ClassStealth'],
+  [107, 'BlindUser'],
+  [108, 'AffectsLivingOnly'],
   [109, 'NonLiving'], // monsters, not that useful as undead -> 1 is the same
   [110, 'NotGood'],
   [112, 'NeutralOnly'], // unused?
@@ -57,7 +60,9 @@ export const specialProperties = new Map([
   [123, 'HPRegen'],
   [135, 'MinLevel'],
   [142, 'HitMagic'],
+  [144, 'NonMagicalSpell'],
   [145, 'ManaRgn'],
+  [146, 'MonsGuards'],
   [147, 'ResistWater'],
   [165, 'AlterSpDmg'],
   [179, 'FindTrapsValue'],
@@ -95,4 +100,9 @@ export const allClassValuesAbilities = allValues.filter(
 // Used to display the Abilities for monsters
 export const allMonsterValuesAbilities = allValues.filter(
   (value) => ![109, 123].includes(value),
+);
+
+// Used to display extra info on spells
+export const allSpellValuesAbilities = allValues.filter(
+  (value) => ![144].includes(value),
 );

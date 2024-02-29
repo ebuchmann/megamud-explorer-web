@@ -1,10 +1,16 @@
 import { createEffect, createSignal } from 'solid-js';
-import monsterJSON from '../data/monsters.json';
+import monsterJSON from '../../data/monsters.json';
+import spellJSON from '../../data/spells.json';
 import { Show, For } from 'solid-js';
 import { useParams } from '@solidjs/router';
-import { Monster } from '../types';
-import { allMonsterValuesAbilities, specialProperties } from '../utils/values';
-import { getNumberString } from '../utils/formatting';
+import { Monster, Spell } from '../../types';
+import {
+  allMonsterValuesAbilities,
+  specialProperties,
+  allSpellValuesAbilities,
+} from '../../utils/values';
+import { getNumberString } from '../../utils/formatting';
+import { SpellListing } from './SpellListing';
 
 export function MonsterPanel() {
   const params = useParams();
@@ -94,24 +100,7 @@ export function MonsterPanel() {
         <Show when={monster()?.Spells}>
           <h3 class="my-4">Spells</h3>
           <For each={monster()?.Spells}>
-            {(spell) => (
-              <div class="mb-4">
-                <div>
-                  {spell.Name} ({spell['AttTrue%']}%)
-                </div>
-                <div class="grid grid-cols-[1fr,2fr]">
-                  <div>Spell</div>
-                  <div>{spell.Number}</div>
-                  <div>Success</div>
-                  <div>{spell.Success}%</div>
-                  <div>Energy</div>
-                  <div>
-                    {spell.Energy} (Max {Math.floor(1000 / spell.Energy)}
-                    x/round)
-                  </div>
-                </div>
-              </div>
-            )}
+            {(spell) => <SpellListing spell={spell} />}
           </For>
         </Show>
       </Show>
