@@ -12,7 +12,7 @@ export function SpellListing({ spell }: SpellListingProps) {
     (data) => data.Number === spell.Number,
   ) as Spell;
 
-  if (spellData.hasOwnProperty('NonMagicalSpell')) {
+  if (spellData.AttType === 4 && spellData.hasOwnProperty('NonMagicalSpell')) {
     return (
       <>
         <div class="mb-4">
@@ -37,6 +37,8 @@ export function SpellListing({ spell }: SpellListingProps) {
                 if (spellData.hasOwnProperty(key)) {
                   if (key === 'Accuracy') {
                     curr += `${key} ${spellData.MinBase}, `;
+                  } else if (key === 'HoldPerson') {
+                    curr += `${spellData.MinBase} damage, ${key}${getNumberString(spellData[key])}`;
                   } else if (key === 'Poison') {
                     curr += `${key} ${spellData.MinBase} to ${spellData.MaxBase}, `;
                   } else {

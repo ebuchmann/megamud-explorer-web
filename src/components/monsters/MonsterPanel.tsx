@@ -1,16 +1,15 @@
 import { createEffect, createSignal } from 'solid-js';
 import monsterJSON from '../../data/monsters.json';
-import spellJSON from '../../data/spells.json';
 import { Show, For } from 'solid-js';
 import { useParams } from '@solidjs/router';
-import { Monster, Spell } from '../../types';
+import { Monster } from '../../types';
 import {
   allMonsterValuesAbilities,
   specialProperties,
-  allSpellValuesAbilities,
 } from '../../utils/values';
 import { getNumberString } from '../../utils/formatting';
 import { SpellListing } from './SpellListing';
+import { Alignments, MonsterTypes } from '../../utils/data-types';
 
 export function MonsterPanel() {
   const params = useParams();
@@ -24,6 +23,18 @@ export function MonsterPanel() {
     }
   });
 
+  const abilities = (): string =>
+    allMonsterValuesAbilities
+      .reduce((curr: string, mapKey: number) => {
+        const key: keyof Monster = specialProperties.get(mapKey);
+        if (monster()?.[key]) {
+          curr += `${key} ${getNumberString(monster()[key])}, `;
+        }
+
+        return curr;
+      }, '')
+      .replace(/,\s*$/, '');
+
   return (
     <>
       <Show when={!monster()}>Select a monster...</Show>
@@ -36,9 +47,9 @@ export function MonsterPanel() {
           <div>Experience</div>
           <div>{monster()!.EXP}</div>
           <div>Type</div>
-          <div>{monster()!.Type}</div>
+          <div>{MonsterTypes[monster()!.Type]}</div>
           <div>Alignment</div>
-          <div>{monster()!.Align}</div>
+          <div>{Alignments[monster()!.Align]}</div>
           <div>Hps</div>
           <div>
             {monster()!.HP} (+{monster()?.HPRegen} HPs/tick)
@@ -53,20 +64,16 @@ export function MonsterPanel() {
           <div>{monster()!['Follow%']}%</div>
           <div>Charm LVL</div>
           <div>{monster()!.CharmLVL}</div>
-          <div>Abilities</div>
-          <div>
-            {allMonsterValuesAbilities.reduce(
-              (curr: string, mapKey: number) => {
-                const key: keyof Monster = specialProperties.get(mapKey);
-                if (monster()![key]) {
-                  curr += `${key} ${getNumberString(monster()[key])}, `;
-                }
-
-                return curr;
-              },
-              '',
-            )}
-          </div>
+          <Show when={monster()?.Weapon}>
+            <div>Weapon</div>
+            <div>{monster()!.Weapon}</div>
+          </Show>
+          <Show when={abilities()}>
+            <>
+              <div>Abilities</div>
+              <div>{abilities()}</div>
+            </>
+          </Show>
         </div>
         <Show when={monster()?.Attacks}>
           <h3 class="my-4">Attacks</h3>

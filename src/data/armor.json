@@ -5710,7 +5710,8 @@
     "StrReq": 0,
     "Speed": 8224,
     "MinLevel": 0,
-    "Percep": -10
+    "Percep": -10,
+    "RemovesSpell": 514
   },
   {
     "Number": 930,
@@ -9296,6 +9297,7 @@
     "Speed": 0,
     "MinLevel": 30,
     "Magical": 1,
+    "Intellect": 5,
     "Wisdom": 5,
     "Percep": 10,
     "BsAccu": 10
@@ -18150,6 +18152,7 @@
     "Speed": 0,
     "MinLevel": 50,
     "Magical": 1,
+    "Intellect": -10,
     "Wisdom": -10,
     "Percep": -10,
     "BsAccu": -10,

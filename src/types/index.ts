@@ -90,7 +90,7 @@ export type MonsterSpell = {
 export type Monster = {
   Number: number;
   Name: string;
-  Weapon: number;
+  Weapon?: number;
   ArmourClass: number;
   DamageResist: number;
   'Follow%': number;
@@ -135,5 +135,7 @@ export type Spell = {
   MinBase: number;
   MaxBase: number;
   Dur: number;
+  AttType: number;
+  TypeOfResists: number;
   NonMagicalSpell?: number;
 };

@@ -56,3 +56,15 @@ export const CharacterWornSlots = [
   'Face',
   'Weapon Hand',
 ];
+
+export const MonsterTypes = ['Solo', 'Leader', 'Follower', 'Stationary'];
+
+export const Alignments = [
+  'Good',
+  'Evil',
+  'Chaotic Evil',
+  'Neutral',
+  'Lawful Good',
+  'Neutral Evil',
+  'Lawful Evil',
+];

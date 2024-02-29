@@ -265,6 +265,8 @@ for (const index in spellData) {
     MinBase: original.MinBase,
     MaxBase: original.MaxBase,
     Dur: original.Dur,
+    AttType: original.AttType,
+    TypeOfResists: original.TypeOfResists,
   };
 
   for (let x = 0; x < 10; x++) {
