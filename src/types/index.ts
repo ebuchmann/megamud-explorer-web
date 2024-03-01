@@ -33,6 +33,17 @@ export type Armor = {
   //ac/enc
 
   Dodge?: number;
+  ClassOk?: number[];
+  Classes?: number[];
+};
+
+export type Item = {
+  Number: number;
+  Name: string;
+  ItemType: number;
+  UseCount: number;
+  Encum: number;
+  Magical?: number;
 };
 
 export type Class = {
@@ -87,6 +98,11 @@ export type MonsterSpell = {
   Energy: number;
 };
 
+export type MonsterDrop = {
+  Number: number;
+  Percent: number;
+};
+
 export type Monster = {
   Number: number;
   Name: string;
@@ -110,6 +126,7 @@ export type Monster = {
   ResistStone?: number;
   ImmuPoison?: number;
   ResistWater?: number;
+  Drops?: MonsterDrop[];
   Attacks?: MonsterAttack[];
   Spells?: MonsterSpell[];
 };
@@ -138,4 +155,5 @@ export type Spell = {
   AttType: number;
   TypeOfResists: number;
   NonMagicalSpell?: number;
+  RemovesSpell?: number[];
 };

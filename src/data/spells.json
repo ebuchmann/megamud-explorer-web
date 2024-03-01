@@ -27,7 +27,12 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "AC(Blur)": 0,
-    "RemovesSpell": 1041,
+    "RemovesSpell": [
+      132,
+      1046,
+      1004,
+      1041
+    ],
     "DR": 10
   },
   {
@@ -49,7 +54,11 @@
     "AttType": 0,
     "TypeOfResists": 1,
     "Rcol": 0,
-    "RemovesSpell": 792
+    "RemovesSpell": [
+      29,
+      897,
+      792
+    ]
   },
   {
     "Number": 7,
@@ -60,7 +69,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "MaxDamage": 0,
-    "RemovesSpell": 5572
+    "RemovesSpell": [
+      5572
+    ]
   },
   {
     "Number": 8,
@@ -81,7 +92,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rfir": 0,
-    "RemovesSpell": 792
+    "RemovesSpell": [
+      28,
+      897,
+      792
+    ]
   },
   {
     "Number": 12,
@@ -113,7 +128,14 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 668
+    "RemovesSpell": [
+      15,
+      75,
+      23,
+      62,
+      146,
+      668
+    ]
   },
   {
     "Number": 15,
@@ -124,7 +146,10 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Accuracy": 0,
-    "RemovesSpell": 23
+    "RemovesSpell": [
+      14,
+      23
+    ]
   },
   {
     "Number": 16,
@@ -163,7 +188,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 798
+    "CurePoison": 0,
+    "Dispel": 19,
+    "RemovesSpell": [
+      794,
+      798
+    ]
   },
   {
     "Number": 20,
@@ -174,7 +204,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "ProtEvil": 0,
-    "RemovesSpell": 108
+    "RemovesSpell": [
+      21,
+      107,
+      108
+    ]
   },
   {
     "Number": 21,
@@ -185,7 +219,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "EvilOnly": 0,
-    "RemovesSpell": 108
+    "RemovesSpell": [
+      107,
+      20,
+      108
+    ]
   },
   {
     "Number": 22,
@@ -207,7 +245,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 14
+    "RemovesSpell": [
+      75,
+      15,
+      14
+    ]
   },
   {
     "Number": 24,
@@ -258,7 +300,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rfir": 0,
-    "RemovesSpell": 9
+    "RemovesSpell": [
+      897,
+      9
+    ]
   },
   {
     "Number": 29,
@@ -269,7 +314,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rcol": 0,
-    "RemovesSpell": 792
+    "RemovesSpell": [
+      6,
+      897,
+      792
+    ]
   },
   {
     "Number": 30,
@@ -289,7 +338,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 798
+    "CurePoison": 0,
+    "Dispel": 19,
+    "RemovesSpell": [
+      794,
+      798
+    ]
   },
   {
     "Number": 32,
@@ -300,7 +354,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rlit": 0,
-    "RemovesSpell": 792
+    "RemovesSpell": [
+      1013,
+      897,
+      792
+    ]
   },
   {
     "Number": 33,
@@ -322,7 +380,13 @@
     "TypeOfResists": 1,
     "DR": 0,
     "AC": 10,
-    "RemovesSpell": 1062
+    "RemovesSpell": [
+      422,
+      289,
+      1194,
+      1381,
+      1062
+    ]
   },
   {
     "Number": 35,
@@ -435,7 +499,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Intellect": 0,
-    "RemovesSpell": 97
+    "RemovesSpell": [
+      97
+    ]
   },
   {
     "Number": 46,
@@ -446,7 +512,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Wisdom": 0,
-    "RemovesSpell": 96
+    "RemovesSpell": [
+      96
+    ]
   },
   {
     "Number": 47,
@@ -457,7 +525,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Strength": 0,
-    "RemovesSpell": 1106
+    "RemovesSpell": [
+      98,
+      1106
+    ]
   },
   {
     "Number": 48,
@@ -468,7 +539,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Agility": 0,
-    "RemovesSpell": 1108
+    "RemovesSpell": [
+      99,
+      1108
+    ]
   },
   {
     "Number": 49,
@@ -479,7 +553,10 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 92
+    "RemovesSpell": [
+      55,
+      92
+    ]
   },
   {
     "Number": 50,
@@ -541,7 +618,10 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 49
+    "RemovesSpell": [
+      92,
+      49
+    ]
   },
   {
     "Number": 56,
@@ -562,7 +642,16 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 5077
+    "RemovesSpell": [
+      59,
+      271,
+      282,
+      256,
+      396,
+      106,
+      1310,
+      5077
+    ]
   },
   {
     "Number": 58,
@@ -584,7 +673,14 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Dodge": -10,
-    "RemovesSpell": 168
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106,
+      183,
+      168
+    ]
   },
   {
     "Number": 60,
@@ -604,7 +700,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Accuracy": 0,
-    "RemovesSpell": 146
+    "RemovesSpell": [
+      146
+    ]
   },
   {
     "Number": 62,
@@ -615,7 +713,13 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 61
+    "RemovesSpell": [
+      67,
+      14,
+      15,
+      23,
+      61
+    ]
   },
   {
     "Number": 63,
@@ -643,7 +747,8 @@
     "MaxBase": 0,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 1
+    "TypeOfResists": 1,
+    "Dispel": 0
   },
   {
     "Number": 66,
@@ -664,7 +769,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Accuracy": 0,
-    "RemovesSpell": 62
+    "RemovesSpell": [
+      62
+    ]
   },
   {
     "Number": 68,
@@ -750,7 +857,10 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Accuracy": 0,
-    "RemovesSpell": 14
+    "RemovesSpell": [
+      23,
+      14
+    ]
   },
   {
     "Number": 77,
@@ -871,7 +981,8 @@
     "MaxBase": 9999,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 1
+    "TypeOfResists": 1,
+    "Dispel": 107
   },
   {
     "Number": 88,
@@ -911,7 +1022,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Percep": 0,
-    "RemovesSpell": 137
+    "RemovesSpell": [
+      137
+    ]
   },
   {
     "Number": 92,
@@ -921,7 +1034,10 @@
     "Dur": 60,
     "AttType": 4,
     "TypeOfResists": 2,
-    "RemovesSpell": 49
+    "RemovesSpell": [
+      55,
+      49
+    ]
   },
   {
     "Number": 93,
@@ -962,7 +1078,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Wisdom": 0,
-    "RemovesSpell": 46
+    "RemovesSpell": [
+      46
+    ]
   },
   {
     "Number": 97,
@@ -973,7 +1091,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Intellect": -5,
-    "RemovesSpell": 45
+    "RemovesSpell": [
+      45
+    ]
   },
   {
     "Number": 98,
@@ -984,7 +1104,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Strength": 0,
-    "RemovesSpell": 47
+    "RemovesSpell": [
+      47
+    ]
   },
   {
     "Number": 99,
@@ -995,7 +1117,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Agility": 0,
-    "RemovesSpell": 48
+    "RemovesSpell": [
+      48
+    ]
   },
   {
     "Number": 100,
@@ -1084,7 +1208,10 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 513
+    "RemovesSpell": [
+      512,
+      513
+    ]
   },
   {
     "Number": 516,
@@ -1183,7 +1310,16 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "Speed": 85,
-    "RemovesSpell": 183
+    "RemovesSpell": [
+      59,
+      282,
+      271,
+      57,
+      5077,
+      396,
+      168,
+      183
+    ]
   },
   {
     "Number": 107,
@@ -1194,7 +1330,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "ProtEvil": 0,
-    "RemovesSpell": 108
+    "RemovesSpell": [
+      20,
+      21,
+      108
+    ]
   },
   {
     "Number": 108,
@@ -1205,7 +1345,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "NotGood": 0,
-    "RemovesSpell": 21
+    "RemovesSpell": [
+      107,
+      20,
+      21
+    ]
   },
   {
     "Number": 109,
@@ -1245,7 +1389,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 798,
+    "CurePoison": 0,
+    "Dispel": 19,
+    "RemovesSpell": [
+      794,
+      798
+    ],
     "NonMagicalSpell": 0
   },
   {
@@ -1453,7 +1602,12 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "AC": 0,
-    "RemovesSpell": 1041,
+    "RemovesSpell": [
+      4,
+      1046,
+      1004,
+      1041
+    ],
     "DR": 10
   },
   {
@@ -1510,7 +1664,9 @@
     "TypeOfResists": 2,
     "Percep": 0,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 91
+    "RemovesSpell": [
+      91
+    ]
   },
   {
     "Number": 138,
@@ -1522,7 +1678,11 @@
     "TypeOfResists": 1,
     "HPRegen": 100,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 1056
+    "RemovesSpell": [
+      674,
+      831,
+      1056
+    ]
   },
   {
     "Number": 139,
@@ -1616,7 +1776,14 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 668
+    "RemovesSpell": [
+      61,
+      14,
+      15,
+      23,
+      62,
+      668
+    ]
   },
   {
     "Number": 147,
@@ -1641,7 +1808,11 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "AC": 0,
-    "RemovesSpell": 1384,
+    "RemovesSpell": [
+      149,
+      1383,
+      1384
+    ],
     "DR": 0,
     "Dodge": 10
   },
@@ -1655,7 +1826,11 @@
     "TypeOfResists": 0,
     "AC": 0,
     "EvilOnly": 0,
-    "RemovesSpell": 1384,
+    "RemovesSpell": [
+      148,
+      1383,
+      1384
+    ],
     "Dodge": 5
   },
   {
@@ -1666,7 +1841,18 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 5120
+    "RemovesSpell": [
+      0,
+      992,
+      294,
+      323,
+      362,
+      445,
+      446,
+      952,
+      1024,
+      5120
+    ]
   },
   {
     "Number": 151,
@@ -1725,7 +1911,9 @@
     "MaxBase": 8,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 0
+    "TypeOfResists": 0,
+    "CurePoison": 0,
+    "Dispel": 19
   },
   {
     "Number": 157,
@@ -1736,7 +1924,9 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "Dodge": 0,
-    "RemovesSpell": 129
+    "RemovesSpell": [
+      129
+    ]
   },
   {
     "Number": 158,
@@ -1825,7 +2015,16 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "Speed": 0,
-    "RemovesSpell": 183
+    "RemovesSpell": [
+      59,
+      271,
+      282,
+      218,
+      396,
+      57,
+      106,
+      183
+    ]
   },
   {
     "Number": 169,
@@ -1855,7 +2054,10 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Accuracy": 0,
-    "RemovesSpell": 14,
+    "RemovesSpell": [
+      23,
+      14
+    ],
     "StartMsg": 138
   },
   {
@@ -1957,7 +2159,11 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 5700
+    "Dispel": 107,
+    "RemovesSpell": [
+      5505,
+      5700
+    ]
   },
   {
     "Number": 182,
@@ -1977,7 +2183,16 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 168
+    "RemovesSpell": [
+      57,
+      59,
+      271,
+      282,
+      218,
+      396,
+      106,
+      168
+    ]
   },
   {
     "Number": 184,
@@ -1988,7 +2203,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "AlterSpDmg": 0,
-    "RemovesSpell": 1127
+    "RemovesSpell": [
+      1127
+    ]
   },
   {
     "Number": 185,
@@ -2025,7 +2242,9 @@
     "TypeOfResists": 1,
     "Accuracy": 0,
     "MaxDamage": 1,
-    "RemovesSpell": 202
+    "RemovesSpell": [
+      202
+    ]
   },
   {
     "Number": 188,
@@ -2297,7 +2516,8 @@
     "MaxBase": 0,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 0
+    "TypeOfResists": 0,
+    "Dispel": 0
   },
   {
     "Number": 214,
@@ -2387,7 +2607,8 @@
     "MaxBase": 8,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 1
+    "TypeOfResists": 1,
+    "CurePoison": 0
   },
   {
     "Number": 223,
@@ -2397,7 +2618,15 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 446
+    "RemovesSpell": [
+      143,
+      210,
+      294,
+      323,
+      362,
+      445,
+      446
+    ]
   },
   {
     "Number": 224,
@@ -2518,7 +2747,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 234,
+    "RemovesSpell": [
+      234
+    ],
     "NonMagicalSpell": 0
   },
   {
@@ -2751,7 +2982,12 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Speed": 0,
-    "RemovesSpell": 106,
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106
+    ],
     "Dodge": -20
   },
   {
@@ -2908,7 +3144,12 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Speed": 0,
-    "RemovesSpell": 106,
+    "RemovesSpell": [
+      272,
+      57,
+      283,
+      106
+    ],
     "Dodge": -10
   },
   {
@@ -2920,7 +3161,15 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 5077
+    "RemovesSpell": [
+      271,
+      59,
+      282,
+      218,
+      396,
+      1310,
+      5077
+    ]
   },
   {
     "Number": 273,
@@ -2962,7 +3211,9 @@
     "Strength": 10,
     "Agility": 10,
     "MaxDamage": 2,
-    "RemovesSpell": 5597
+    "RemovesSpell": [
+      5597
+    ]
   },
   {
     "Number": 277,
@@ -3028,7 +3279,12 @@
     "TypeOfResists": 2,
     "Dodge": -20,
     "StartMsg": 566,
-    "RemovesSpell": 106
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106
+    ]
   },
   {
     "Number": 283,
@@ -3039,7 +3295,15 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 183,
+    "RemovesSpell": [
+      59,
+      282,
+      271,
+      1310,
+      57,
+      106,
+      183
+    ],
     "StartMsg": 568
   },
   {
@@ -3108,7 +3372,12 @@
     "DR": 0,
     "AC": 10,
     "M.R.": 5,
-    "RemovesSpell": 1062,
+    "RemovesSpell": [
+      422,
+      34,
+      1381,
+      1062
+    ],
     "ResistStone": 10
   },
   {
@@ -3277,7 +3546,13 @@
     "Crits": 0,
     "Accuracy": 0,
     "BsMinDmg": 0,
-    "RemovesSpell": 5480
+    "RemovesSpell": [
+      5581,
+      347,
+      816,
+      1315,
+      5480
+    ]
   },
   {
     "Number": 305,
@@ -3347,7 +3622,8 @@
     "MaxBase": 0,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 0
+    "TypeOfResists": 0,
+    "Dispel": 0
   },
   {
     "Number": 311,
@@ -3653,6 +3929,7 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "HPRegen": 200,
+    "CurePoison": 50,
     "ImmuPoison": 100,
     "StartMsg": 770,
     "NonMagicalSpell": 0
@@ -3746,7 +4023,10 @@
     "Crits": 0,
     "Dodge": -5,
     "AC": -5,
-    "RemovesSpell": 346,
+    "RemovesSpell": [
+      801,
+      346
+    ],
     "Accuracy": 0,
     "StartMsg": 810,
     "DR": 50
@@ -3764,7 +4044,10 @@
     "Dodge": -5,
     "DR": 50,
     "AC": -5,
-    "RemovesSpell": 801,
+    "RemovesSpell": [
+      345,
+      801
+    ],
     "StartMsg": 814,
     "Accuracy": 0
   },
@@ -3778,7 +4061,12 @@
     "TypeOfResists": 1,
     "Accuracy": 6,
     "StartMsg": 815,
-    "RemovesSpell": 348
+    "RemovesSpell": [
+      304,
+      816,
+      1315,
+      348
+    ]
   },
   {
     "Number": 348,
@@ -3792,7 +4080,12 @@
     "MaxDamage": 1,
     "EvilOnly": 0,
     "StartMsg": 819,
-    "RemovesSpell": 347
+    "RemovesSpell": [
+      304,
+      816,
+      1315,
+      347
+    ]
   },
   {
     "Number": 349,
@@ -3803,7 +4096,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "StartMsg": 822,
-    "RemovesSpell": 1012
+    "RemovesSpell": [
+      1012
+    ]
   },
   {
     "Number": 350,
@@ -3875,7 +4170,13 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 323,
+    "CurePoison": 9999,
+    "RemovesSpell": [
+      143,
+      210,
+      294,
+      323
+    ],
     "StartMsg": 901
   },
   {
@@ -4156,7 +4457,9 @@
     "TypeOfResists": 0,
     "AC(Blur)": 0,
     "StartMsg": 1030,
-    "RemovesSpell": 5477
+    "RemovesSpell": [
+      5477
+    ]
   },
   {
     "Number": 385,
@@ -4241,7 +4544,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 769,
+    "RemovesSpell": [
+      392,
+      141,
+      289,
+      769
+    ],
     "StartMsg": 1052
   },
   {
@@ -4274,7 +4582,14 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Speed": 0,
-    "RemovesSpell": 183,
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106,
+      168,
+      183
+    ],
     "StartMsg": 2746
   },
   {
@@ -4379,7 +4694,9 @@
     "TypeOfResists": 1,
     "ManaRgn": 0,
     "StartMsg": 1111,
-    "RemovesSpell": 748
+    "RemovesSpell": [
+      748
+    ]
   },
   {
     "Number": 407,
@@ -4541,7 +4858,12 @@
     "TypeOfResists": 1,
     "DR": 0,
     "AC": 5,
-    "RemovesSpell": 1062
+    "RemovesSpell": [
+      34,
+      289,
+      1194,
+      1062
+    ]
   },
   {
     "Number": 423,
@@ -6649,6 +6971,7 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
+    "Dispel": 0,
     "NonMagicalSpell": 0
   },
   {
@@ -6823,7 +7146,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 75
+    "RemovesSpell": [
+      15,
+      75
+    ]
   },
   {
     "Number": 665,
@@ -6865,8 +7191,18 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
+    "Dispel": 107,
     "StartMsg": 8773,
-    "RemovesSpell": 5700
+    "RemovesSpell": [
+      1310,
+      440,
+      1102,
+      1033,
+      933,
+      5077,
+      5505,
+      5700
+    ]
   },
   {
     "Number": 669,
@@ -6930,7 +7266,10 @@
     "TypeOfResists": 1,
     "HPRegen": 0,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 831
+    "RemovesSpell": [
+      138,
+      831
+    ]
   },
   {
     "Number": 675,
@@ -6951,7 +7290,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 282
+    "RemovesSpell": [
+      59,
+      271,
+      282
+    ]
   },
   {
     "Number": 677,
@@ -7502,7 +7845,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 734
+    "RemovesSpell": [
+      734
+    ]
   },
   {
     "Number": 738,
@@ -7611,7 +7956,9 @@
     "HPRegen": -150,
     "DR": -50,
     "M.R.": 20,
-    "RemovesSpell": 406,
+    "RemovesSpell": [
+      406
+    ],
     "StartMsg": 570
   },
   {
@@ -8065,7 +8412,14 @@
     "Rfir": 0,
     "Rcol": 15,
     "Rlit": 15,
-    "RemovesSpell": 1013
+    "RemovesSpell": [
+      28,
+      29,
+      9,
+      6,
+      32,
+      1013
+    ]
   },
   {
     "Number": 794,
@@ -8097,7 +8451,10 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 795,
+    "RemovesSpell": [
+      0,
+      795
+    ],
     "NonMagicalSpell": 0
   },
   {
@@ -8155,7 +8512,11 @@
     "Dodge": 5,
     "Crits": 5,
     "DR": 10,
-    "RemovesSpell": 5480
+    "RemovesSpell": [
+      345,
+      346,
+      5480
+    ]
   },
   {
     "Number": 802,
@@ -8186,7 +8547,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "StartMsg": 2351
+    "CurePoison": 8,
+    "StartMsg": 2351,
+    "Dispel": 107
   },
   {
     "Number": 805,
@@ -8236,7 +8599,8 @@
     "MaxBase": 0,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 0
+    "TypeOfResists": 0,
+    "Dispel": 0
   },
   {
     "Number": 811,
@@ -8256,7 +8620,12 @@
     "Dur": 20,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 283
+    "RemovesSpell": [
+      272,
+      106,
+      57,
+      283
+    ]
   },
   {
     "Number": 813,
@@ -8290,7 +8659,12 @@
     "TypeOfResists": 0,
     "Accuracy": 15,
     "MaxDamage": 3,
-    "RemovesSpell": 348
+    "RemovesSpell": [
+      304,
+      347,
+      1315,
+      348
+    ]
   },
   {
     "Number": 818,
@@ -8370,7 +8744,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 15
+    "RemovesSpell": [
+      75,
+      15
+    ]
   },
   {
     "Number": 826,
@@ -8391,7 +8768,13 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 396
+    "RemovesSpell": [
+      59,
+      271,
+      282,
+      218,
+      396
+    ]
   },
   {
     "Number": 828,
@@ -8402,7 +8785,12 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Speed": 0,
-    "RemovesSpell": 106
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106
+    ]
   },
   {
     "Number": 829,
@@ -8433,7 +8821,10 @@
     "TypeOfResists": 1,
     "HPRegen": 100,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 674
+    "RemovesSpell": [
+      138,
+      674
+    ]
   },
   {
     "Number": 832,
@@ -8674,7 +9065,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 798
+    "CurePoison": 0,
+    "Dispel": 19,
+    "RemovesSpell": [
+      794,
+      798
+    ]
   },
   {
     "Number": 856,
@@ -8876,7 +9272,16 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 183
+    "RemovesSpell": [
+      59,
+      271,
+      282,
+      218,
+      396,
+      57,
+      168,
+      183
+    ]
   },
   {
     "Number": 875,
@@ -8918,7 +9323,13 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 882
+    "RemovesSpell": [
+      879,
+      858,
+      880,
+      881,
+      882
+    ]
   },
   {
     "Number": 879,
@@ -9061,7 +9472,8 @@
     "MaxBase": 0,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 1
+    "TypeOfResists": 1,
+    "Dispel": 0
   },
   {
     "Number": 892,
@@ -9121,7 +9533,12 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rcol": 0,
-    "RemovesSpell": 32,
+    "RemovesSpell": [
+      1053,
+      28,
+      29,
+      32
+    ],
     "Rfir": 0,
     "Rlit": 0,
     "ResistStone": 0
@@ -9423,7 +9840,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 0,
-    "RemovesSpell": 146
+    "RemovesSpell": [
+      146
+    ]
   },
   {
     "Number": 929,
@@ -9788,7 +10207,10 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 960,
+    "RemovesSpell": [
+      0,
+      960
+    ],
     "NonMagicalSpell": 0
   },
   {
@@ -10240,7 +10662,10 @@
     "AC": 20,
     "GoodOnly": 0,
     "Dodge": 15,
-    "RemovesSpell": 4
+    "RemovesSpell": [
+      132,
+      4
+    ]
   },
   {
     "Number": 1005,
@@ -10331,7 +10756,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "StartMsg": 570,
-    "RemovesSpell": 349
+    "RemovesSpell": [
+      349
+    ]
   },
   {
     "Number": 1013,
@@ -10342,7 +10769,11 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "Rlit": 0,
-    "RemovesSpell": 732
+    "RemovesSpell": [
+      897,
+      32,
+      732
+    ]
   },
   {
     "Number": 1014,
@@ -10380,7 +10811,9 @@
     "BsMinDmg": 0,
     "BsMaxDmg": 0,
     "Crits": 0,
-    "RemovesSpell": 5596
+    "RemovesSpell": [
+      5596
+    ]
   },
   {
     "Number": 1017,
@@ -10635,7 +11068,8 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "StartMsg": 635
+    "StartMsg": 635,
+    "CurePoison": 0
   },
   {
     "Number": 1040,
@@ -10658,7 +11092,10 @@
     "DR": 50,
     "EvilOnly": 0,
     "AC": 20,
-    "RemovesSpell": 4
+    "RemovesSpell": [
+      132,
+      4
+    ]
   },
   {
     "Number": 1042,
@@ -10703,7 +11140,10 @@
     "DR": 50,
     "AC": 20,
     "NeutralOnly": 0,
-    "RemovesSpell": 4,
+    "RemovesSpell": [
+      132,
+      4
+    ],
     "M.R.": 30
   },
   {
@@ -10777,7 +11217,9 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "ResistStone": 0,
-    "RemovesSpell": 897
+    "RemovesSpell": [
+      897
+    ]
   },
   {
     "Number": 1054,
@@ -10809,7 +11251,9 @@
     "ManaRgn": 0,
     "StartMsg": 822,
     "EvilOnly": 0,
-    "RemovesSpell": 138
+    "RemovesSpell": [
+      138
+    ]
   },
   {
     "Number": 1057,
@@ -10875,7 +11319,12 @@
     "TypeOfResists": 0,
     "DR": 50,
     "AC": 0,
-    "RemovesSpell": 1381,
+    "RemovesSpell": [
+      422,
+      34,
+      289,
+      1381
+    ],
     "NeutralOnly": 0
   },
   {
@@ -11309,7 +11758,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Crits": 2,
-    "RemovesSpell": 45,
+    "RemovesSpell": [
+      97,
+      45
+    ],
     "ManaRgn": 10,
     "Percep": 10,
     "M.R.": 5
@@ -11323,7 +11775,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "M.R.": 10,
-    "RemovesSpell": 46,
+    "RemovesSpell": [
+      96,
+      46
+    ],
     "ManaRgn": 5,
     "Percep": 5
   },
@@ -11345,7 +11800,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "MaxDamage": 1,
-    "RemovesSpell": 5597,
+    "RemovesSpell": [
+      98,
+      47,
+      5597
+    ],
     "Encum": 10,
     "Accuracy": 5
   },
@@ -11367,7 +11826,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Accuracy": 5,
-    "RemovesSpell": 48,
+    "RemovesSpell": [
+      99,
+      48
+    ],
     "Crits": 1,
     "Dodge": 5,
     "Quickness": 10
@@ -11444,6 +11906,7 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
+    "Dispel": 0,
     "ManaRgn": -100
   },
   {
@@ -11559,7 +12022,9 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "AlterSpDmg": 0,
-    "RemovesSpell": 184
+    "RemovesSpell": [
+      184
+    ]
   },
   {
     "Number": 1128,
@@ -11579,7 +12044,14 @@
     "Dur": 5,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 1310
+    "RemovesSpell": [
+      440,
+      443,
+      933,
+      1102,
+      1113,
+      1310
+    ]
   },
   {
     "Number": 1130,
@@ -12136,7 +12608,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "AC(Blur)": 0,
-    "RemovesSpell": 132
+    "RemovesSpell": [
+      4,
+      132
+    ]
   },
   {
     "Number": 1186,
@@ -12235,7 +12710,12 @@
     "DR": 0,
     "AC": 10,
     "M.R.": 5,
-    "RemovesSpell": 1062,
+    "RemovesSpell": [
+      422,
+      34,
+      289,
+      1062
+    ],
     "ResistStone": 20
   },
   {
@@ -12676,7 +13156,8 @@
     "MaxBase": 0,
     "Dur": 0,
     "AttType": 4,
-    "TypeOfResists": 0
+    "TypeOfResists": 0,
+    "Dispel": 0
   },
   {
     "Number": 1240,
@@ -12978,7 +13459,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 798
+    "CurePoison": 0,
+    "Dispel": 19,
+    "RemovesSpell": [
+      794,
+      798
+    ]
   },
   {
     "Number": 1269,
@@ -12989,7 +13475,11 @@
     "AttType": 0,
     "TypeOfResists": 1,
     "Rcol": 0,
-    "RemovesSpell": 32
+    "RemovesSpell": [
+      9,
+      28,
+      32
+    ]
   },
   {
     "Number": 1270,
@@ -13000,7 +13490,11 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rfir": 0,
-    "RemovesSpell": 32
+    "RemovesSpell": [
+      6,
+      29,
+      32
+    ]
   },
   {
     "Number": 1271,
@@ -13011,7 +13505,12 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rlit": 0,
-    "RemovesSpell": 29
+    "RemovesSpell": [
+      6,
+      9,
+      28,
+      29
+    ]
   },
   {
     "Number": 1272,
@@ -13458,7 +13957,12 @@
     "TypeOfResists": 0,
     "MaxDamage": 5,
     "Crits": 4,
-    "RemovesSpell": 816,
+    "RemovesSpell": [
+      348,
+      304,
+      347,
+      816
+    ],
     "EvilOnly": 0
   },
   {
@@ -13469,8 +13973,18 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 5505,
-    "StartMsg": 2808
+    "RemovesSpell": [
+      440,
+      443,
+      933,
+      1102,
+      1113,
+      1310,
+      5077,
+      5505
+    ],
+    "StartMsg": 2808,
+    "Dispel": 107
   },
   {
     "Number": 1317,
@@ -13480,7 +13994,8 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "StartMsg": 2351
+    "StartMsg": 2351,
+    "CurePoison": 100
   },
   {
     "Number": 1318,
@@ -13997,7 +14512,12 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 5547
+    "RemovesSpell": [
+      193,
+      1250,
+      5486,
+      5547
+    ]
   },
   {
     "Number": 1369,
@@ -14096,7 +14616,9 @@
     "TypeOfResists": 0,
     "ManaRgn": 0,
     "MaxDamage": -5,
-    "RemovesSpell": 1378
+    "RemovesSpell": [
+      1378
+    ]
   },
   {
     "Number": 1378,
@@ -14109,7 +14631,9 @@
     "ManaRgn": 0,
     "HPRegen": -25,
     "EvilOnly": 0,
-    "RemovesSpell": 1377
+    "RemovesSpell": [
+      1377
+    ]
   },
   {
     "Number": 1379,
@@ -14120,7 +14644,11 @@
     "AttType": 0,
     "TypeOfResists": 1,
     "Rcol": 0,
-    "RemovesSpell": 32
+    "RemovesSpell": [
+      9,
+      28,
+      32
+    ]
   },
   {
     "Number": 1380,
@@ -14131,7 +14659,12 @@
     "AttType": 1,
     "TypeOfResists": 1,
     "Rfir": 0,
-    "RemovesSpell": 897
+    "RemovesSpell": [
+      6,
+      29,
+      32,
+      897
+    ]
   },
   {
     "Number": 1381,
@@ -14145,7 +14678,12 @@
     "AC": 5,
     "Rcol": 20,
     "Rfir": -50,
-    "RemovesSpell": 1062
+    "RemovesSpell": [
+      34,
+      422,
+      289,
+      1062
+    ]
   },
   {
     "Number": 1382,
@@ -14167,7 +14705,11 @@
     "TypeOfResists": 0,
     "AC": 0,
     "StartMsg": 2808,
-    "RemovesSpell": 1384,
+    "RemovesSpell": [
+      148,
+      149,
+      1384
+    ],
     "DR": 50
   },
   {
@@ -14179,7 +14721,11 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "AC": 0,
-    "RemovesSpell": 1383,
+    "RemovesSpell": [
+      148,
+      149,
+      1383
+    ],
     "StartMsg": 2831,
     "DR": 50
   },
@@ -14219,7 +14765,9 @@
     "Dur": 40,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 1389
+    "RemovesSpell": [
+      1389
+    ]
   },
   {
     "Number": 1389,
@@ -14229,7 +14777,9 @@
     "Dur": 40,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 1388
+    "RemovesSpell": [
+      1388
+    ]
   },
   {
     "Number": 1390,
@@ -14675,7 +15225,10 @@
     "DR": 50,
     "EvilOnly": 0,
     "AC": 20,
-    "RemovesSpell": 4
+    "RemovesSpell": [
+      132,
+      4
+    ]
   },
   {
     "Number": 5016,
@@ -14944,7 +15497,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 821
+    "RemovesSpell": [
+      821
+    ]
   },
   {
     "Number": 5041,
@@ -15053,7 +15608,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 440
+    "RemovesSpell": [
+      440
+    ]
   },
   {
     "Number": 5053,
@@ -15378,7 +15935,9 @@
     "AttType": 4,
     "TypeOfResists": 2,
     "Accuracy": 0,
-    "RemovesSpell": 62
+    "RemovesSpell": [
+      62
+    ]
   },
   {
     "Number": 5088,
@@ -15434,7 +15993,12 @@
     "TypeOfResists": 2,
     "Dodge": -20,
     "StartMsg": 566,
-    "RemovesSpell": 106
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106
+    ]
   },
   {
     "Number": 5093,
@@ -15455,7 +16019,12 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Rcol": 0,
-    "RemovesSpell": 32,
+    "RemovesSpell": [
+      1053,
+      28,
+      29,
+      32
+    ],
     "Rfir": 0,
     "Rlit": 0,
     "ResistStone": 0
@@ -15643,7 +16212,9 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "StartMsg": 8732,
-    "RemovesSpell": 1012
+    "RemovesSpell": [
+      1012
+    ]
   },
   {
     "Number": 5112,
@@ -15751,7 +16322,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 1033,
+    "RemovesSpell": [
+      1033
+    ],
     "NonMagicalSpell": 0
   },
   {
@@ -15950,7 +16523,8 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "StartMsg": 8801
+    "StartMsg": 8801,
+    "Dispel": 19
   },
   {
     "Number": 5141,
@@ -15996,7 +16570,16 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 972
+    "RemovesSpell": [
+      965,
+      966,
+      967,
+      968,
+      969,
+      970,
+      971,
+      972
+    ]
   },
   {
     "Number": 5146,
@@ -16050,7 +16633,12 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "Speed": 0,
-    "RemovesSpell": 106
+    "RemovesSpell": [
+      57,
+      272,
+      283,
+      106
+    ]
   },
   {
     "Number": 5152,
@@ -17761,7 +18349,9 @@
     "TypeOfResists": 0,
     "AC(Blur)": 0,
     "StartMsg": 9049,
-    "RemovesSpell": 384
+    "RemovesSpell": [
+      384
+    ]
   },
   {
     "Number": 5478,
@@ -17817,7 +18407,10 @@
     "AttType": 4,
     "TypeOfResists": 1,
     "ResistWater": 0,
-    "RemovesSpell": 9
+    "RemovesSpell": [
+      32,
+      9
+    ]
   },
   {
     "Number": 5483,
@@ -18526,7 +19119,18 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 0
+    "RemovesSpell": [
+      5614,
+      5551,
+      5619,
+      1024,
+      5707,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "Number": 5549,
@@ -18543,7 +19147,9 @@
     "AC": -10,
     "S.C.": -50,
     "Agility": -10,
-    "RemovesSpell": 5551
+    "RemovesSpell": [
+      5551
+    ]
   },
   {
     "Number": 5550,
@@ -18564,7 +19170,9 @@
     "TypeOfResists": 0,
     "Damage(-MR)": 0,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 5549,
+    "RemovesSpell": [
+      5549
+    ],
     "Dodge": -10,
     "Strength": -10,
     "AC": -10,
@@ -18626,7 +19234,9 @@
     "Dodge": 0,
     "ImmuPoison": 100,
     "Rfir": -15,
-    "RemovesSpell": 52
+    "RemovesSpell": [
+      52
+    ]
   },
   {
     "Number": 5557,
@@ -18636,7 +19246,18 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 1024
+    "CurePoison": 100,
+    "RemovesSpell": [
+      992,
+      294,
+      323,
+      5707,
+      445,
+      446,
+      952,
+      143,
+      1024
+    ]
   },
   {
     "Number": 5558,
@@ -18799,7 +19420,9 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "MaxDamage": 0,
-    "RemovesSpell": 7
+    "RemovesSpell": [
+      7
+    ]
   },
   {
     "Number": 5573,
@@ -18822,7 +19445,11 @@
     "AttType": 4,
     "TypeOfResists": 0,
     "Strength": 0,
-    "RemovesSpell": 47,
+    "RemovesSpell": [
+      276,
+      1106,
+      47
+    ],
     "Encum": 5
   },
   {
@@ -18905,7 +19532,13 @@
     "Crits": 0,
     "Accuracy": 0,
     "BsMinDmg": 0,
-    "RemovesSpell": 5480
+    "RemovesSpell": [
+      304,
+      347,
+      816,
+      1315,
+      5480
+    ]
   },
   {
     "Number": 5582,
@@ -18931,8 +19564,18 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 1,
-    "RemovesSpell": 5505,
-    "StartMsg": 2808
+    "RemovesSpell": [
+      440,
+      443,
+      933,
+      1102,
+      1113,
+      1310,
+      5077,
+      5505
+    ],
+    "StartMsg": 2808,
+    "Dispel": 107
   },
   {
     "Number": 5584,
@@ -18984,7 +19627,9 @@
     "BsMinDmg": 0,
     "BsMaxDmg": 0,
     "Stealth": 20,
-    "RemovesSpell": 130,
+    "RemovesSpell": [
+      130
+    ],
     "BsAccu": 10
   },
   {
@@ -19087,7 +19732,9 @@
     "BsMinDmg": 10,
     "BsMaxDmg": 10,
     "Crits": 0,
-    "RemovesSpell": 1016
+    "RemovesSpell": [
+      1016
+    ]
   },
   {
     "Number": 5597,
@@ -19104,7 +19751,10 @@
     "Accuracy": 5,
     "BsMinDmg": 5,
     "BsMaxDmg": 5,
-    "RemovesSpell": 276
+    "RemovesSpell": [
+      1106,
+      276
+    ]
   },
   {
     "Number": 5598,
@@ -19280,7 +19930,9 @@
     "TypeOfResists": 0,
     "Damage(-MR)": 0,
     "AffectsLivingOnly": 0,
-    "RemovesSpell": 5549,
+    "RemovesSpell": [
+      5549
+    ],
     "Dodge": -10,
     "Strength": -10,
     "AC": -10,
@@ -19715,7 +20367,10 @@
     "Percep": -25,
     "S.C.": -50,
     "Wisdom": -10,
-    "RemovesSpell": 5549
+    "RemovesSpell": [
+      5551,
+      5549
+    ]
   },
   {
     "Number": 5657,
@@ -20054,7 +20709,9 @@
     "Dur": 0,
     "AttType": 4,
     "TypeOfResists": 0,
-    "RemovesSpell": 5687
+    "RemovesSpell": [
+      5687
+    ]
   },
   {
     "Number": 5689,

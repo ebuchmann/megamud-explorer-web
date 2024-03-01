@@ -11,6 +11,7 @@ export const specialProperties = new Map([
   [15, 'AlterHunger'],
   [17, 'Damage(-MR)'],
   [19, 'Poison'],
+  [20, 'CurePoison'],
   [21, 'ImmuPoison'], // armor
   [22, 'Accuracy'],
   [24, 'ProtEvil'],
@@ -35,6 +36,7 @@ export const specialProperties = new Map([
   [67, 'Quickness'],
   [69, 'MaxMana'],
   [70, 'S.C.'],
+  [73, 'Dispel'],
   [74, 'HoldPerson'],
   [77, 'Percep'],
   [82, 'Cursed'],
@@ -114,4 +116,8 @@ export const allMonsterValuesAbilities = allValues.filter(
 // Used to display extra info on spells
 export const allSpellValuesAbilities = allValues.filter(
   (value) => ![144].includes(value),
+);
+
+export const allItemValuesAbilities = allValues.filter(
+  (value) => ![28, 96].includes(value),
 );

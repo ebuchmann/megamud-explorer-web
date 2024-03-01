@@ -9,6 +9,7 @@ const spellData = JSON.parse(fs.readFileSync('./db/spells.json', 'utf8'));
 
 const allWeapons = [];
 const allArmor = [];
+const allItems = [];
 const allClasses = [];
 const allRaces = [];
 const allMonsters = [];
@@ -90,6 +91,30 @@ for (const index in itemData) {
       }
     }
     allArmor.push(item);
+  } else if (original['ItemType'] > 1) {
+    const newItem = {
+      Number: original.Number,
+      Name: original.Name,
+      ItemType: original.ItemType,
+      UseCount: original.UseCount,
+      Price: original.Price,
+      Currency: original.Currency,
+      Encum: original.Encum,
+    };
+
+    for (let x = 0; x < 20; x++) {
+      if (allValues.includes(original[`Abil-${x}`])) {
+        const key = specialProperties.get(original[`Abil-${x}`]);
+        if (key === 'ClassOk') {
+          if (!newItem[key]) newItem[key] = [];
+          newItem[key].push(original[`AbilVal-${x}`]);
+        } else {
+          newItem[key] = original[`AbilVal-${x}`];
+        }
+      }
+    }
+
+    allItems.push(newItem);
   }
 }
 
@@ -201,6 +226,19 @@ for (const index in monsterData) {
     }
   }
 
+  for (let x = 0; x < 10; x++) {
+    if (original[`DropItem-${x}`] !== 0) {
+      if (!item.Drops) item.Drops = [];
+
+      const droppedItem = {
+        Number: original[`DropItem-${x}`],
+        Percent: original[`DropItem%-${x}`],
+      };
+
+      item.Drops.push(droppedItem);
+    }
+  }
+
   for (let x = 0; x < 5; x++) {
     if (original[`AttName-${x}`] === 'None') continue;
 
@@ -273,7 +311,12 @@ for (const index in spellData) {
     if (allValues.includes(original[`Abil-${x}`])) {
       const key = specialProperties.get(original[`Abil-${x}`]);
 
-      item[key] = original[`AbilVal-${x}`];
+      if (key === 'RemovesSpell') {
+        if (!item.RemovesSpell) item.RemovesSpell = [];
+        item.RemovesSpell.push(original[`AbilVal-${x}`]);
+      } else {
+        item[key] = original[`AbilVal-${x}`];
+      }
     }
   }
 
@@ -286,6 +329,7 @@ try {
     JSON.stringify(allWeapons, null, 2),
   );
   fs.writeFileSync('./src/data/armor.json', JSON.stringify(allArmor, null, 2));
+  fs.writeFileSync('./src/data/items.json', JSON.stringify(allItems, null, 2));
   fs.writeFileSync(
     './src/data/classes.json',
     JSON.stringify(allClasses, null, 2),

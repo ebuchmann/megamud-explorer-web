@@ -27,26 +27,10 @@ import { ArmorTypes, WornSpots } from '../utils/data-types';
 import { getNumberString } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
+import { Armor } from '../types';
+import { TextSearch } from '../components/TextSearch';
 
 const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
-
-type Armor = {
-  Number: number;
-  Name: string;
-  ArmourType: number;
-  Worn: number;
-  Encum: number;
-  ArmourClass: number;
-  DamageResist: number;
-  MinLevel: number;
-  Accy: number;
-  Crits: number;
-  //ac/enc
-
-  Dodge?: number;
-  ClassOk?: number[];
-  Classes?: number[];
-};
 
 const getClassList = (values: number[]): string =>
   values
@@ -107,7 +91,7 @@ const columns = [
       const combinedValues = allArmorValuesAbilities.reduce(
         (curr: string, mapKey: number) => {
           const key: keyof Armor = specialProperties.get(mapKey);
-          if (info.row.original[key]) {
+          if (info.row.original.hasOwnProperty(key)) {
             if (key === 'ClassOk') {
               curr += `${getClassList(info.row.original[key])} Ok, `;
             } else if (key === 'Classes') {
@@ -195,15 +179,10 @@ export function ArmorPage() {
     <>
       {/* <ColumnVisibilityMenu<Armor> columns={table.getAllLeafColumns()} /> */}
       <div class="flex gap-4">
-        <input
-          placeholder="Search"
-          class="p-2"
-          type="search"
-          value={searchValue()}
-          onInput={debounce((e) => {
-            table.getColumn('Name')?.setFilterValue(e.target.value);
-            setSearchValue(e.target.value);
-          }, 500)}
+        <TextSearch
+          value={searchValue}
+          setValue={setSearchValue}
+          column={table.getColumn('Name')}
         />
         <LevelInput
           value={levelFilter}

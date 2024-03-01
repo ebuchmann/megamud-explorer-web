@@ -39,6 +39,13 @@ export function App({ children }: AppProps) {
           <A
             activeClass="text-blue-400"
             inactiveClass="text-neutral-100"
+            href="/items"
+          >
+            Items
+          </A>
+          <A
+            activeClass="text-blue-400"
+            inactiveClass="text-neutral-100"
             href="/classes-races"
           >
             Classes / Races

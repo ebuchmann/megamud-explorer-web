@@ -68,3 +68,17 @@ export const Alignments = [
   'Neutral Evil',
   'Lawful Evil',
 ];
+
+export const ItemTypes = [
+  'Armor',
+  'Weapon',
+  'Projectile',
+  'Sign',
+  'Food',
+  'Drink',
+  'Light',
+  'Key',
+  'Container',
+  'Scroll',
+  'Special',
+];

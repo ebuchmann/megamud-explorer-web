@@ -25,6 +25,7 @@ import { makePersisted } from '@solid-primitives/storage';
 import { getNumberString } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
+import { TextSearch } from '../components/TextSearch';
 
 type Weapon = {
   Number: number;
@@ -233,15 +234,10 @@ export function WeaponsPage() {
   return (
     <>
       <div class="flex gap-4">
-        <input
-          placeholder="Search"
-          class="p-2"
-          type="search"
-          value={searchValue()}
-          onInput={debounce((e) => {
-            table.getColumn('Name')?.setFilterValue(e.target.value);
-            setSearchValue(e.target.value);
-          }, 500)}
+        <TextSearch
+          value={searchValue}
+          setValue={setSearchValue}
+          column={table.getColumn('Name')}
         />
         <LevelInput
           value={levelFilter}

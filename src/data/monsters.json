@@ -330,6 +330,20 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 14,
+        "Percent": 10
+      },
+      {
+        "Number": 65,
+        "Percent": 10
+      },
+      {
+        "Number": 59,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -367,6 +381,20 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 14,
+        "Percent": 10
+      },
+      {
+        "Number": 65,
+        "Percent": 10
+      },
+      {
+        "Number": 59,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -534,6 +562,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1357,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -666,6 +700,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 101,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -711,6 +751,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 71,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -746,6 +792,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 65,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -781,6 +833,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 89,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -816,6 +874,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 67,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -903,6 +967,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 172,
+        "Percent": 10
+      },
+      {
+        "Number": 1337,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -977,6 +1051,24 @@
     "NonLiving": 0,
     "Rfir": -100,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 161,
+        "Percent": 1
+      },
+      {
+        "Number": 162,
+        "Percent": 1
+      },
+      {
+        "Number": 164,
+        "Percent": 1
+      },
+      {
+        "Number": 177,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its arm",
@@ -1067,6 +1159,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1337,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -1159,6 +1257,12 @@
     "Magical": 0,
     "Rfir": 50,
     "Rcol": -50,
+    "Drops": [
+      {
+        "Number": 190,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely rips you",
@@ -1196,6 +1300,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1358,
+        "Percent": 1
+      },
+      {
+        "Number": 1358,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips you with a tentacle",
@@ -1278,6 +1392,20 @@
     "Align": 4,
     "Magical": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 1348,
+        "Percent": 3
+      },
+      {
+        "Number": 1416,
+        "Percent": 3
+      },
+      {
+        "Number": 167,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -1315,6 +1443,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 570,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -1369,6 +1503,12 @@
     "Align": 4,
     "Magical": 0,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 284,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you",
@@ -1403,7 +1543,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 4,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 161,
+        "Percent": 10
+      }
+    ]
   },
   {
     "Number": 45,
@@ -1599,6 +1745,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 216,
+        "Percent": 25
+      },
+      {
+        "Number": 1273,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you savagely",
@@ -1697,6 +1853,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -1822,6 +1984,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 211,
+        "Percent": 5
+      },
+      {
+        "Number": 209,
+        "Percent": 5
+      },
+      {
+        "Number": 1271,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -1884,6 +2060,20 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 111,
+    "Drops": [
+      {
+        "Number": 258,
+        "Percent": 25
+      },
+      {
+        "Number": 259,
+        "Percent": 100
+      },
+      {
+        "Number": 1359,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -1962,6 +2152,24 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 216,
+        "Percent": 10
+      },
+      {
+        "Number": 428,
+        "Percent": 10
+      },
+      {
+        "Number": 361,
+        "Percent": 10
+      },
+      {
+        "Number": 473,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you with its incredible bulk",
@@ -2029,6 +2237,12 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -2104,6 +2318,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1001,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -2133,6 +2353,28 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 214,
+        "Percent": 10
+      },
+      {
+        "Number": 212,
+        "Percent": 10
+      },
+      {
+        "Number": 215,
+        "Percent": 10
+      },
+      {
+        "Number": 213,
+        "Percent": 10
+      },
+      {
+        "Number": 210,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its fist",
@@ -2170,6 +2412,24 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 267,
+        "Percent": 20
+      },
+      {
+        "Number": 266,
+        "Percent": 25
+      },
+      {
+        "Number": 265,
+        "Percent": 20
+      },
+      {
+        "Number": 268,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -2230,6 +2490,16 @@
     "Rcol": 75,
     "Rfir": 75,
     "Rlit": 75,
+    "Drops": [
+      {
+        "Number": 330,
+        "Percent": 1
+      },
+      {
+        "Number": 216,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "oozes over you",
@@ -2412,6 +2682,12 @@
     "Align": 2,
     "Magical": 0,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 338,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -2466,6 +2742,12 @@
     "Magical": 0,
     "Rcol": -25,
     "Rfir": 100,
+    "Drops": [
+      {
+        "Number": 341,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -2521,6 +2803,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 344,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -2696,6 +2984,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 346,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -2862,6 +3156,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 360,
+        "Percent": 100
+      }
+    ],
     "Spells": [
       {
         "Name": "breathes a jet of frost",
@@ -3025,6 +3325,16 @@
     "MonsGuards": 211,
     "Rfir": -100,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 456,
+        "Percent": 5
+      },
+      {
+        "Number": 974,
+        "Percent": 10
+      }
+    ],
     "Spells": [
       {
         "Name": "ice blast",
@@ -3208,6 +3518,16 @@
     "NonLiving": 0,
     "Rfir": -50,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 408,
+        "Percent": 10
+      },
+      {
+        "Number": 906,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "touches you with a ghostly hand",
@@ -3236,6 +3556,16 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 111,
+    "Drops": [
+      {
+        "Number": 226,
+        "Percent": 10
+      },
+      {
+        "Number": 906,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -3280,6 +3610,16 @@
     "Align": 2,
     "Magical": 0,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 1462,
+        "Percent": 10
+      },
+      {
+        "Number": 1462,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips you with a thorny stem",
@@ -3502,6 +3842,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 459,
+        "Percent": 3
+      },
+      {
+        "Number": 474,
+        "Percent": 5
+      },
+      {
+        "Number": 631,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -3547,6 +3901,28 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 460,
+        "Percent": 10
+      },
+      {
+        "Number": 474,
+        "Percent": 25
+      },
+      {
+        "Number": 412,
+        "Percent": 10
+      },
+      {
+        "Number": 1006,
+        "Percent": 10
+      },
+      {
+        "Number": 974,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -3593,6 +3969,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 458,
+        "Percent": 1
+      },
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -3628,6 +4014,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -3702,6 +4094,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 475,
+        "Percent": 100
+      },
+      {
+        "Number": 457,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lashes you",
@@ -3740,6 +4142,16 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 56,
+    "Drops": [
+      {
+        "Number": 476,
+        "Percent": 100
+      },
+      {
+        "Number": 403,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -3826,6 +4238,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 410,
+        "Percent": 5
+      },
+      {
+        "Number": 223,
+        "Percent": 10
+      },
+      {
+        "Number": 470,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -3918,6 +4344,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 438,
+        "Percent": 15
+      },
+      {
+        "Number": 479,
+        "Percent": 25
+      },
+      {
+        "Number": 478,
+        "Percent": 1
+      }
+    ],
     "Spells": [
       {
         "Name": "eye beam",
@@ -4234,6 +4674,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 481,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -4281,6 +4727,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 463,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -4318,6 +4770,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 172,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -4353,6 +4811,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 629,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -4390,6 +4854,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 630,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -4579,6 +5049,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 627,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -4616,6 +5092,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -4651,6 +5133,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -4826,6 +5314,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 481,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -4900,6 +5394,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 463,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -5081,6 +5581,12 @@
     "Magical": 0,
     "Rfir": 100,
     "Rcol": -50,
+    "Drops": [
+      {
+        "Number": 486,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely rips you",
@@ -5151,6 +5657,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 463,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -5189,6 +5701,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 482,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -5235,6 +5753,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 483,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whacks you",
@@ -5289,6 +5813,16 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 482,
+        "Percent": 1
+      },
+      {
+        "Number": 484,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -5335,6 +5869,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 483,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whacks you",
@@ -5442,6 +5982,16 @@
     "Magical": 0,
     "Dodge": 25,
     "MonsGuards": 40,
+    "Drops": [
+      {
+        "Number": 1361,
+        "Percent": 5
+      },
+      {
+        "Number": 1649,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -5470,6 +6020,12 @@
     "Align": 2,
     "Magical": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 906,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -5506,6 +6062,12 @@
     "Align": 3,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 650,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws at you",
@@ -5617,6 +6179,12 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "ProtGood": 15,
+    "Drops": [
+      {
+        "Number": 1415,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -5644,6 +6212,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3303,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -5687,6 +6261,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -5714,6 +6294,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -5742,6 +6328,20 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 685,
+        "Percent": 10
+      },
+      {
+        "Number": 1485,
+        "Percent": 20
+      },
+      {
+        "Number": 3607,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "impales you",
@@ -5861,6 +6461,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 90,
+    "Drops": [
+      {
+        "Number": 1657,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -5923,6 +6529,28 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 1802,
+        "Percent": 10
+      },
+      {
+        "Number": 1808,
+        "Percent": 10
+      },
+      {
+        "Number": 1047,
+        "Percent": 10
+      },
+      {
+        "Number": 1051,
+        "Percent": 100
+      },
+      {
+        "Number": 1667,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -5998,6 +6626,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 1515,
+        "Percent": 20
+      }
+    ],
     "Spells": [
       {
         "Name": "frozen spike",
@@ -6158,6 +6792,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1899,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -6214,6 +6854,32 @@
     "Align": 2,
     "Magical": 4,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3291,
+        "Percent": 20
+      },
+      {
+        "Number": 3292,
+        "Percent": 20
+      },
+      {
+        "Number": 3293,
+        "Percent": 20
+      },
+      {
+        "Number": 3294,
+        "Percent": 20
+      },
+      {
+        "Number": 3295,
+        "Percent": 20
+      },
+      {
+        "Number": 3716,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -6275,6 +6941,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1910,
+        "Percent": 100
+      },
+      {
+        "Number": 1245,
+        "Percent": 7
+      },
+      {
+        "Number": 774,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its beak",
@@ -6330,6 +7010,16 @@
     "Magical": 4,
     "Rfir": 300,
     "Dodge": 33,
+    "Drops": [
+      {
+        "Number": 1911,
+        "Percent": 100
+      },
+      {
+        "Number": 1513,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "impales you",
@@ -6431,6 +7121,12 @@
     "Align": 2,
     "Magical": 4,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1943,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -6468,6 +7164,12 @@
     "Align": 2,
     "Magical": 4,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1945,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -6505,6 +7207,12 @@
     "Align": 2,
     "Magical": 4,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1941,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -6542,6 +7250,12 @@
     "Align": 2,
     "Magical": 4,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1942,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -6578,6 +7292,20 @@
     "Align": 6,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1699,
+        "Percent": 100
+      },
+      {
+        "Number": 1960,
+        "Percent": 5
+      },
+      {
+        "Number": 2120,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -6614,6 +7342,12 @@
     "Align": 2,
     "Magical": 4,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1944,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -6651,6 +7385,32 @@
     "Align": 2,
     "Magical": 4,
     "Rlit": 100,
+    "Drops": [
+      {
+        "Number": 974,
+        "Percent": 25
+      },
+      {
+        "Number": 914,
+        "Percent": 25
+      },
+      {
+        "Number": 911,
+        "Percent": 25
+      },
+      {
+        "Number": 1840,
+        "Percent": 25
+      },
+      {
+        "Number": 1982,
+        "Percent": 100
+      },
+      {
+        "Number": 907,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with her talons",
@@ -6776,6 +7536,16 @@
     "Magical": 4,
     "NonLiving": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1906,
+        "Percent": 100
+      },
+      {
+        "Number": 1023,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -6858,6 +7628,12 @@
     "Magical": 4,
     "Dodge": 40,
     "Rfir": 300,
+    "Drops": [
+      {
+        "Number": 1902,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with a huge fist",
@@ -6913,6 +7689,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 45,
+    "Drops": [
+      {
+        "Number": 1116,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -6961,6 +7743,20 @@
     "Magical": 4,
     "Dodge": 50,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1906,
+        "Percent": 100
+      },
+      {
+        "Number": 1301,
+        "Percent": 5
+      },
+      {
+        "Number": 3218,
+        "Percent": 20
+      }
+    ],
     "Spells": [
       {
         "Name": "frozen spike",
@@ -7104,6 +7900,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 490,
+        "Percent": 100
+      },
+      {
+        "Number": 454,
+        "Percent": 10
+      },
+      {
+        "Number": 1708,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -7151,6 +7961,24 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 505,
+        "Percent": 2
+      },
+      {
+        "Number": 465,
+        "Percent": 2
+      },
+      {
+        "Number": 467,
+        "Percent": 2
+      },
+      {
+        "Number": 468,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -7204,6 +8032,24 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 491,
+        "Percent": 100
+      },
+      {
+        "Number": 455,
+        "Percent": 10
+      },
+      {
+        "Number": 628,
+        "Percent": 50
+      },
+      {
+        "Number": 1465,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -7267,6 +8113,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 492,
+        "Percent": 100
+      },
+      {
+        "Number": 497,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -7302,6 +8158,28 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 493,
+        "Percent": 15
+      },
+      {
+        "Number": 443,
+        "Percent": 25
+      },
+      {
+        "Number": 498,
+        "Percent": 25
+      },
+      {
+        "Number": 1842,
+        "Percent": 25
+      },
+      {
+        "Number": 1841,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -7366,6 +8244,16 @@
     "Magical": 0,
     "Rfir": 100,
     "Rcol": -25,
+    "Drops": [
+      {
+        "Number": 494,
+        "Percent": 100
+      },
+      {
+        "Number": 499,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its claws",
@@ -7423,6 +8311,12 @@
     "Align": 2,
     "Magical": 1,
     "Rfir": 50,
+    "Drops": [
+      {
+        "Number": 1423,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -7477,6 +8371,12 @@
     "Align": 2,
     "Magical": 1,
     "Rfir": 50,
+    "Drops": [
+      {
+        "Number": 1429,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -7531,6 +8431,16 @@
     "Align": 2,
     "Magical": 1,
     "Rfir": 50,
+    "Drops": [
+      {
+        "Number": 1424,
+        "Percent": 1
+      },
+      {
+        "Number": 1429,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -7586,6 +8496,28 @@
     "Magical": 4,
     "Rfir": 150,
     "Rcol": -33,
+    "Drops": [
+      {
+        "Number": 480,
+        "Percent": 100
+      },
+      {
+        "Number": 1819,
+        "Percent": 100
+      },
+      {
+        "Number": 450,
+        "Percent": 10
+      },
+      {
+        "Number": 415,
+        "Percent": 10
+      },
+      {
+        "Number": 907,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with her talons",
@@ -7712,6 +8644,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3300,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "pecks at you",
@@ -7739,6 +8677,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3299,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "pecks at you",
@@ -7766,6 +8710,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3298,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "pecks at you",
@@ -7792,7 +8742,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 3,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 1
+      }
+    ]
   },
   {
     "Number": 191,
@@ -7811,6 +8767,24 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1356,
+        "Percent": 100
+      },
+      {
+        "Number": 1356,
+        "Percent": 50
+      },
+      {
+        "Number": 1356,
+        "Percent": 5
+      },
+      {
+        "Number": 1356,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -8336,6 +9310,12 @@
     "Undead": 0,
     "Align": 1,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 459,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -8383,6 +9363,12 @@
     "Magical": 0,
     "Rfir": -50,
     "Rcol": 50,
+    "Drops": [
+      {
+        "Number": 520,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you with its claws",
@@ -8418,6 +9404,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 519,
+        "Percent": 15
+      },
+      {
+        "Number": 974,
+        "Percent": 10
+      },
+      {
+        "Number": 3212,
+        "Percent": 35
+      }
+    ],
     "Attacks": [
       {
         "Name": "whaps you",
@@ -8457,6 +9457,12 @@
     "Magical": 0,
     "Rcol": 100,
     "Rfir": -100,
+    "Drops": [
+      {
+        "Number": 1269,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you with its fists",
@@ -8496,6 +9502,16 @@
     "Magical": 3,
     "Dodge": 25,
     "Rfir": 150,
+    "Drops": [
+      {
+        "Number": 1004,
+        "Percent": 3
+      },
+      {
+        "Number": 1081,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -8531,6 +9547,20 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 19,
+        "Percent": 5
+      },
+      {
+        "Number": 78,
+        "Percent": 25
+      },
+      {
+        "Number": 166,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -8568,6 +9598,28 @@
     "Magical": 5,
     "Dodge": 70,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1579,
+        "Percent": 5
+      },
+      {
+        "Number": 1231,
+        "Percent": 10
+      },
+      {
+        "Number": 1531,
+        "Percent": 100
+      },
+      {
+        "Number": 404,
+        "Percent": 100
+      },
+      {
+        "Number": 3219,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -8632,6 +9684,28 @@
     "Dodge": 35,
     "Rfir": 250,
     "Rcol": -100,
+    "Drops": [
+      {
+        "Number": 1183,
+        "Percent": 100
+      },
+      {
+        "Number": 567,
+        "Percent": 50
+      },
+      {
+        "Number": 541,
+        "Percent": 10
+      },
+      {
+        "Number": 609,
+        "Percent": 10
+      },
+      {
+        "Number": 1078,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -8731,6 +9805,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 568,
+        "Percent": 25
+      },
+      {
+        "Number": 569,
+        "Percent": 25
+      },
+      {
+        "Number": 906,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -8793,6 +9881,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 589,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with a tentacle",
@@ -8837,6 +9931,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 590,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with a paw",
@@ -9209,6 +10309,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 593,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -9444,6 +10550,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 594,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its pincers",
@@ -9491,6 +10603,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 594,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its pincers",
@@ -9538,6 +10656,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 594,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its pincers",
@@ -9575,6 +10699,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 594,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its pincers",
@@ -9630,6 +10760,24 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 225,
+    "Drops": [
+      {
+        "Number": 597,
+        "Percent": 5
+      },
+      {
+        "Number": 596,
+        "Percent": 2
+      },
+      {
+        "Number": 601,
+        "Percent": 100
+      },
+      {
+        "Number": 906,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -9683,7 +10831,13 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 99,
-    "Dodge": 100
+    "Dodge": 100,
+    "Drops": [
+      {
+        "Number": 1602,
+        "Percent": 1
+      }
+    ]
   },
   {
     "Number": 239,
@@ -9730,6 +10884,28 @@
     "Align": 2,
     "Magical": 1,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 594,
+        "Percent": 50
+      },
+      {
+        "Number": 594,
+        "Percent": 50
+      },
+      {
+        "Number": 594,
+        "Percent": 50
+      },
+      {
+        "Number": 594,
+        "Percent": 35
+      },
+      {
+        "Number": 594,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with her huge pincers",
@@ -9776,7 +10952,37 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 610,
+        "Percent": 100
+      },
+      {
+        "Number": 612,
+        "Percent": 100
+      },
+      {
+        "Number": 611,
+        "Percent": 100
+      },
+      {
+        "Number": 635,
+        "Percent": 100
+      },
+      {
+        "Number": 613,
+        "Percent": 100
+      },
+      {
+        "Number": 447,
+        "Percent": 100
+      },
+      {
+        "Number": 3315,
+        "Percent": 50
+      }
+    ]
   },
   {
     "Number": 242,
@@ -9794,7 +11000,45 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 614,
+        "Percent": 100
+      },
+      {
+        "Number": 116,
+        "Percent": 1
+      },
+      {
+        "Number": 295,
+        "Percent": 1
+      },
+      {
+        "Number": 459,
+        "Percent": 1
+      },
+      {
+        "Number": 428,
+        "Percent": 1
+      },
+      {
+        "Number": 1325,
+        "Percent": 1
+      },
+      {
+        "Number": 170,
+        "Percent": 1
+      },
+      {
+        "Number": 3365,
+        "Percent": 2
+      },
+      {
+        "Number": 3221,
+        "Percent": 5
+      }
+    ]
   },
   {
     "Number": 243,
@@ -9917,7 +11161,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 4,
-    "Magical": 999
+    "Magical": 999,
+    "Drops": [
+      {
+        "Number": 101,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 248,
@@ -9935,6 +11185,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -10178,6 +11434,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 593,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -10239,6 +11501,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -10542,6 +11810,32 @@
     "Magical": 3,
     "ImmuPoison": 0,
     "Illu": 200,
+    "Drops": [
+      {
+        "Number": 703,
+        "Percent": 20
+      },
+      {
+        "Number": 692,
+        "Percent": 25
+      },
+      {
+        "Number": 744,
+        "Percent": 100
+      },
+      {
+        "Number": 1007,
+        "Percent": 100
+      },
+      {
+        "Number": 3213,
+        "Percent": 100
+      },
+      {
+        "Number": 913,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "tears you with her iron claws",
@@ -10589,6 +11883,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 65,
+    "Drops": [
+      {
+        "Number": 711,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -10793,6 +12093,12 @@
     "Align": 1,
     "Magical": 0,
     "Dodge": 68,
+    "Drops": [
+      {
+        "Number": 1270,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "shoots you",
@@ -10831,6 +12137,12 @@
     "Align": 1,
     "Magical": 0,
     "Dodge": 68,
+    "Drops": [
+      {
+        "Number": 712,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -10914,6 +12226,12 @@
     "NonLiving": 0,
     "ImmuPoison": 0,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 718,
+        "Percent": 100
+      }
+    ],
     "Spells": [
       {
         "Name": "summon huorn",
@@ -11030,6 +12348,32 @@
     "Align": 2,
     "Magical": 2,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 686,
+        "Percent": 25
+      },
+      {
+        "Number": 752,
+        "Percent": 20
+      },
+      {
+        "Number": 753,
+        "Percent": 20
+      },
+      {
+        "Number": 754,
+        "Percent": 20
+      },
+      {
+        "Number": 755,
+        "Percent": 20
+      },
+      {
+        "Number": 909,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -11154,6 +12498,12 @@
     "Magical": 0,
     "Dodge": 40,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 722,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "impales you with its horn",
@@ -11189,6 +12539,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -11216,6 +12572,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -11253,6 +12615,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -11280,6 +12648,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -11307,6 +12681,16 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 727,
+        "Percent": 5
+      },
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -11343,6 +12727,12 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -11388,6 +12778,12 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 776,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -11433,6 +12829,20 @@
     "Align": 3,
     "Magical": 2,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 1528,
+        "Percent": 10
+      },
+      {
+        "Number": 728,
+        "Percent": 5
+      },
+      {
+        "Number": 777,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "strikes you",
@@ -11486,6 +12896,12 @@
     "Undead": 0,
     "Align": 1,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 190,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely rips you",
@@ -11601,6 +13017,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 732,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -11636,6 +13058,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 733,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -11674,6 +13102,12 @@
     "Align": 1,
     "Magical": 0,
     "Rcol": 25,
+    "Drops": [
+      {
+        "Number": 736,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -11712,6 +13146,12 @@
     "Align": 1,
     "Magical": 0,
     "ResistWater": 25,
+    "Drops": [
+      {
+        "Number": 737,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -11750,6 +13190,12 @@
     "Align": 1,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 738,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -11788,6 +13234,12 @@
     "Align": 1,
     "Magical": 0,
     "Rlit": 25,
+    "Drops": [
+      {
+        "Number": 739,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -11826,6 +13278,12 @@
     "Align": 1,
     "Magical": 0,
     "Rfir": 25,
+    "Drops": [
+      {
+        "Number": 740,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -11864,6 +13322,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 711,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -12086,6 +13550,12 @@
     "Magical": 2,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 203,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "attempts",
@@ -12171,6 +13641,24 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 2,
+    "Drops": [
+      {
+        "Number": 741,
+        "Percent": 10
+      },
+      {
+        "Number": 733,
+        "Percent": 20
+      },
+      {
+        "Number": 743,
+        "Percent": 10
+      },
+      {
+        "Number": 684,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "whomps you",
@@ -12224,6 +13712,20 @@
     "Undead": 0,
     "Align": 1,
     "Magical": 2,
+    "Drops": [
+      {
+        "Number": 745,
+        "Percent": 10
+      },
+      {
+        "Number": 746,
+        "Percent": 100
+      },
+      {
+        "Number": 909,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -12269,6 +13771,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 2,
+    "Drops": [
+      {
+        "Number": 747,
+        "Percent": 10
+      },
+      {
+        "Number": 1838,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -12322,6 +13834,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 2,
+    "Drops": [
+      {
+        "Number": 748,
+        "Percent": 10
+      },
+      {
+        "Number": 764,
+        "Percent": 25
+      },
+      {
+        "Number": 778,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -12383,6 +13909,32 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 2,
+    "Drops": [
+      {
+        "Number": 749,
+        "Percent": 10
+      },
+      {
+        "Number": 736,
+        "Percent": 20
+      },
+      {
+        "Number": 737,
+        "Percent": 20
+      },
+      {
+        "Number": 738,
+        "Percent": 20
+      },
+      {
+        "Number": 740,
+        "Percent": 20
+      },
+      {
+        "Number": 911,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -12438,6 +13990,12 @@
     "Magical": 2,
     "Rcol": 100,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 750,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -12478,6 +14036,12 @@
     "Rfir": -50,
     "NonLiving": 0,
     "Rcol": 200,
+    "Drops": [
+      {
+        "Number": 742,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -12527,6 +14091,20 @@
     "NonLiving": 0,
     "Rfir": 100,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 763,
+        "Percent": 10
+      },
+      {
+        "Number": 765,
+        "Percent": 10
+      },
+      {
+        "Number": 909,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -12705,6 +14283,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 793,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -12813,6 +14397,12 @@
     "Align": 2,
     "Magical": 2,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 798,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "hurls its chakram at you",
@@ -12879,6 +14469,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 3301,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "swoops down and rips you",
@@ -12924,6 +14520,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 3334,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slams into you",
@@ -12969,6 +14571,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 784,
+        "Percent": 15
+      },
+      {
+        "Number": 800,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "hurls his nexus spear at you",
@@ -13088,6 +14700,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 807,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "stabs you",
@@ -13115,6 +14733,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 793,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -13395,6 +15019,16 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 821,
+        "Percent": 25
+      },
+      {
+        "Number": 3653,
+        "Percent": 30
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -13434,6 +15068,20 @@
     "Magical": 2,
     "ImmuPoison": 0,
     "Rfir": 33,
+    "Drops": [
+      {
+        "Number": 822,
+        "Percent": 10
+      },
+      {
+        "Number": 1524,
+        "Percent": 10
+      },
+      {
+        "Number": 419,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -13479,6 +15127,16 @@
     "Magical": 3,
     "MonsGuards": 342,
     "Rfir": 33,
+    "Drops": [
+      {
+        "Number": 823,
+        "Percent": 20
+      },
+      {
+        "Number": 813,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -13532,6 +15190,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 824,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "lashes you",
@@ -13568,6 +15232,28 @@
     "Align": 2,
     "Magical": 2,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 687,
+        "Percent": 5
+      },
+      {
+        "Number": 810,
+        "Percent": 100
+      },
+      {
+        "Number": 839,
+        "Percent": 100
+      },
+      {
+        "Number": 1818,
+        "Percent": 25
+      },
+      {
+        "Number": 548,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -13615,6 +15301,20 @@
     "Align": 2,
     "Magical": 2,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 825,
+        "Percent": 5
+      },
+      {
+        "Number": 826,
+        "Percent": 5
+      },
+      {
+        "Number": 811,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -13663,6 +15363,12 @@
     "ImmuPoison": 0,
     "Rfir": 100,
     "Rlit": 50,
+    "Drops": [
+      {
+        "Number": 806,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -13853,6 +15559,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 637,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "lashes you",
@@ -13890,6 +15602,12 @@
     "Align": 1,
     "Magical": 0,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 190,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -13934,6 +15652,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 100
+      },
+      {
+        "Number": 974,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -13961,6 +15689,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 793,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -14130,6 +15864,12 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "Dodge": 60,
+    "Drops": [
+      {
+        "Number": 828,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -14222,6 +15962,16 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 817,
+        "Percent": 100
+      },
+      {
+        "Number": 841,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -14265,7 +16015,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 2,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 815,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 366,
@@ -14284,6 +16040,20 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 1739,
+        "Percent": 30
+      },
+      {
+        "Number": 3509,
+        "Percent": 20
+      },
+      {
+        "Number": 913,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -14336,6 +16106,16 @@
     "Undead": 0,
     "Align": 0,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1084,
+        "Percent": 1
+      },
+      {
+        "Number": 1529,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -14391,6 +16171,20 @@
     "Magical": 4,
     "ImmuPoison": 99,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 952,
+        "Percent": 100
+      },
+      {
+        "Number": 218,
+        "Percent": 3
+      },
+      {
+        "Number": 327,
+        "Percent": 40
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -14464,6 +16258,24 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 561,
+        "Percent": 10
+      },
+      {
+        "Number": 1638,
+        "Percent": 10
+      },
+      {
+        "Number": 1640,
+        "Percent": 10
+      },
+      {
+        "Number": 1989,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you",
@@ -14512,6 +16324,24 @@
     "Magical": 5,
     "Rcol": 50,
     "Rfir": 200,
+    "Drops": [
+      {
+        "Number": 325,
+        "Percent": 25
+      },
+      {
+        "Number": 1248,
+        "Percent": 25
+      },
+      {
+        "Number": 1352,
+        "Percent": 50
+      },
+      {
+        "Number": 1485,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -14616,6 +16446,12 @@
     "Magical": 3,
     "ImmuPoison": 0,
     "Rlit": 100,
+    "Drops": [
+      {
+        "Number": 917,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with a tentacle",
@@ -14656,6 +16492,12 @@
     "Magical": 2,
     "ImmuPoison": 0,
     "Rfir": 50,
+    "Drops": [
+      {
+        "Number": 920,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -14893,6 +16735,20 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 1,
+    "Drops": [
+      {
+        "Number": 418,
+        "Percent": 1
+      },
+      {
+        "Number": 857,
+        "Percent": 1
+      },
+      {
+        "Number": 872,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -15062,6 +16918,12 @@
     "Align": 3,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1080,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "strikes you with its tail",
@@ -15118,6 +16980,12 @@
     "Undead": 0,
     "Align": 5,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1268,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -15145,6 +17013,12 @@
     "Undead": 0,
     "Align": 5,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1268,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -15209,6 +17083,16 @@
     "Align": 2,
     "Magical": 3,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 908,
+        "Percent": 25
+      },
+      {
+        "Number": 909,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -15246,6 +17130,32 @@
     "Magical": 4,
     "ImmuPoison": 0,
     "ResistWater": 200,
+    "Drops": [
+      {
+        "Number": 911,
+        "Percent": 50
+      },
+      {
+        "Number": 913,
+        "Percent": 50
+      },
+      {
+        "Number": 909,
+        "Percent": 100
+      },
+      {
+        "Number": 1277,
+        "Percent": 25
+      },
+      {
+        "Number": 1980,
+        "Percent": 100
+      },
+      {
+        "Number": 907,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -15613,6 +17523,16 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 405,
+    "Drops": [
+      {
+        "Number": 931,
+        "Percent": 100
+      },
+      {
+        "Number": 906,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -15713,6 +17633,16 @@
     "NonLiving": 0,
     "Rcol": 150,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 932,
+        "Percent": 10
+      },
+      {
+        "Number": 912,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -15950,6 +17880,12 @@
     "Magical": 3,
     "Rfir": 200,
     "Rcol": -50,
+    "Drops": [
+      {
+        "Number": 913,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -16493,6 +18429,32 @@
     "Magical": 5,
     "ImmuPoison": 0,
     "Rfir": 75,
+    "Drops": [
+      {
+        "Number": 3532,
+        "Percent": 50
+      },
+      {
+        "Number": 1819,
+        "Percent": 100
+      },
+      {
+        "Number": 1344,
+        "Percent": 100
+      },
+      {
+        "Number": 1840,
+        "Percent": 100
+      },
+      {
+        "Number": 914,
+        "Percent": 100
+      },
+      {
+        "Number": 3513,
+        "Percent": 30
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -16700,6 +18662,12 @@
     "Align": 5,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1272,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its pincers",
@@ -16953,6 +18921,28 @@
     "Magical": 3,
     "Rlit": 200,
     "Dodge": 80,
+    "Drops": [
+      {
+        "Number": 830,
+        "Percent": 1
+      },
+      {
+        "Number": 862,
+        "Percent": 1
+      },
+      {
+        "Number": 1836,
+        "Percent": 1
+      },
+      {
+        "Number": 1837,
+        "Percent": 1
+      },
+      {
+        "Number": 1839,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -17082,6 +19072,12 @@
     "Align": 5,
     "Magical": 0,
     "MonsGuards": 449,
+    "Drops": [
+      {
+        "Number": 869,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -17111,6 +19107,12 @@
     "Magical": 3,
     "NonLiving": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 948,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -17160,6 +19162,16 @@
     "ImmuPoison": 0,
     "Rfir": 25,
     "ResistStone": 100,
+    "Drops": [
+      {
+        "Number": 896,
+        "Percent": 1
+      },
+      {
+        "Number": 898,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -17282,6 +19294,20 @@
     "Align": 6,
     "Magical": 3,
     "MonsGuards": 455,
+    "Drops": [
+      {
+        "Number": 912,
+        "Percent": 10
+      },
+      {
+        "Number": 909,
+        "Percent": 15
+      },
+      {
+        "Number": 1710,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -17329,6 +19355,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 868,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -17661,6 +19693,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 1709,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -17801,6 +19839,12 @@
     "Magical": 0,
     "NonLiving": 0,
     "Rfir": 25,
+    "Drops": [
+      {
+        "Number": 1984,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips you with a pseudopod",
@@ -17839,6 +19883,12 @@
     "Magical": 0,
     "NonLiving": 0,
     "Rlit": 25,
+    "Drops": [
+      {
+        "Number": 165,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips you with a pseudopod",
@@ -17916,6 +19966,12 @@
     "NonLiving": 0,
     "Rcol": 100,
     "Rfir": -150,
+    "Drops": [
+      {
+        "Number": 650,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -18096,6 +20152,12 @@
     "Undead": 0,
     "Align": 5,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -18230,6 +20292,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 969,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -18320,6 +20388,16 @@
     "Align": 5,
     "Magical": 0,
     "MonsGuards": 484,
+    "Drops": [
+      {
+        "Number": 1001,
+        "Percent": 25
+      },
+      {
+        "Number": 1001,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -18358,6 +20436,16 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 378,
+    "Drops": [
+      {
+        "Number": 369,
+        "Percent": 10
+      },
+      {
+        "Number": 975,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -18448,6 +20536,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 593,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -18510,6 +20604,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 593,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -18572,6 +20672,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 988,
+        "Percent": 35
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -18637,6 +20743,16 @@
     "NonLiving": 0,
     "Rcol": 25,
     "Rlit": 50,
+    "Drops": [
+      {
+        "Number": 1002,
+        "Percent": 100
+      },
+      {
+        "Number": 3652,
+        "Percent": 70
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its fist",
@@ -18740,6 +20856,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 1,
+    "Drops": [
+      {
+        "Number": 999,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -18786,6 +20908,12 @@
     "Undead": 0,
     "Align": 5,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 650,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "whaps you",
@@ -19132,6 +21260,12 @@
     "Align": 6,
     "Magical": 0,
     "MonsGuards": 455,
+    "Drops": [
+      {
+        "Number": 1710,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -19923,6 +22057,16 @@
     "Align": 2,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1069,
+        "Percent": 1
+      },
+      {
+        "Number": 1067,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you",
@@ -19968,6 +22112,16 @@
     "Align": 2,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1492,
+        "Percent": 1
+      },
+      {
+        "Number": 1005,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -20043,6 +22197,16 @@
     "Align": 2,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1493,
+        "Percent": 1
+      },
+      {
+        "Number": 1070,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -20078,6 +22242,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1071,
+        "Percent": 20
+      },
+      {
+        "Number": 1491,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -20153,7 +22327,17 @@
     "Type": 3,
     "Undead": 0,
     "Align": 2,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1077,
+        "Percent": 50
+      },
+      {
+        "Number": 1532,
+        "Percent": 25
+      }
+    ]
   },
   {
     "Number": 533,
@@ -20381,6 +22565,16 @@
     "Dodge": 40,
     "Rfir": 200,
     "Rcol": -40,
+    "Drops": [
+      {
+        "Number": 2032,
+        "Percent": 5
+      },
+      {
+        "Number": 2033,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slaps you",
@@ -20429,6 +22623,12 @@
     "Dodge": 40,
     "Rfir": 200,
     "Rcol": -40,
+    "Drops": [
+      {
+        "Number": 2034,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slaps you",
@@ -20521,6 +22721,28 @@
     "Align": 2,
     "Magical": 4,
     "NonLiving": 1,
+    "Drops": [
+      {
+        "Number": 1452,
+        "Percent": 20
+      },
+      {
+        "Number": 1668,
+        "Percent": 20
+      },
+      {
+        "Number": 1447,
+        "Percent": 20
+      },
+      {
+        "Number": 1679,
+        "Percent": 20
+      },
+      {
+        "Number": 1504,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -20555,7 +22777,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 4,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 2041,
+        "Percent": 1
+      }
+    ]
   },
   {
     "Number": 546,
@@ -20572,7 +22800,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 4,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 49,
+        "Percent": 1
+      }
+    ]
   },
   {
     "Number": 548,
@@ -21141,6 +23375,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 2,
+    "Drops": [
+      {
+        "Number": 1155,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -21178,6 +23418,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 1,
+    "Drops": [
+      {
+        "Number": 1529,
+        "Percent": 5
+      },
+      {
+        "Number": 2012,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -21215,6 +23465,24 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 1157,
+        "Percent": 10
+      },
+      {
+        "Number": 1156,
+        "Percent": 100
+      },
+      {
+        "Number": 3215,
+        "Percent": 25
+      },
+      {
+        "Number": 912,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -21277,6 +23545,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1152,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -21528,6 +23802,12 @@
     "Undead": 0,
     "Align": 0,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 283,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -21563,6 +23843,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1992,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -21590,6 +23876,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1167,
+        "Percent": 100
+      },
+      {
+        "Number": 1174,
+        "Percent": 10
+      },
+      {
+        "Number": 3518,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -21665,6 +23965,12 @@
     "Align": 2,
     "Magical": 1,
     "MonsGuards": 579,
+    "Drops": [
+      {
+        "Number": 913,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "devours you",
@@ -21720,6 +24026,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1168,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -21763,6 +24075,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1168,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -21806,6 +24124,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1168,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -21844,6 +24168,12 @@
     "Magical": 0,
     "Rcol": 50,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 3653,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -21882,6 +24212,12 @@
     "Align": 5,
     "Magical": 3,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1169,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -21919,6 +24255,16 @@
     "Align": 5,
     "Magical": 3,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1169,
+        "Percent": 1
+      },
+      {
+        "Number": 1990,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -21966,6 +24312,28 @@
     "Align": 5,
     "Magical": 3,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1166,
+        "Percent": 100
+      },
+      {
+        "Number": 1170,
+        "Percent": 20
+      },
+      {
+        "Number": 1171,
+        "Percent": 100
+      },
+      {
+        "Number": 1840,
+        "Percent": 25
+      },
+      {
+        "Number": 3214,
+        "Percent": 30
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -22196,6 +24564,20 @@
     "Align": 5,
     "Magical": 0,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1173,
+        "Percent": 10
+      },
+      {
+        "Number": 1172,
+        "Percent": 10
+      },
+      {
+        "Number": 3504,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "strikes you",
@@ -22268,6 +24650,16 @@
     "Magical": 0,
     "ImmuPoison": 100,
     "ResistStone": 100,
+    "Drops": [
+      {
+        "Number": 1177,
+        "Percent": 25
+      },
+      {
+        "Number": 1176,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -22305,7 +24697,13 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 2,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1175,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 599,
@@ -22403,6 +24801,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1149,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -22617,6 +25021,20 @@
     "Align": 2,
     "Magical": 0,
     "ResistStone": 200,
+    "Drops": [
+      {
+        "Number": 1072,
+        "Percent": 20
+      },
+      {
+        "Number": 1826,
+        "Percent": 30
+      },
+      {
+        "Number": 3550,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -22672,6 +25090,20 @@
     "Align": 2,
     "Magical": 0,
     "Rfir": 200,
+    "Drops": [
+      {
+        "Number": 1073,
+        "Percent": 20
+      },
+      {
+        "Number": 1827,
+        "Percent": 30
+      },
+      {
+        "Number": 3550,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -22711,6 +25143,20 @@
     "Align": 2,
     "Magical": 0,
     "Rlit": 200,
+    "Drops": [
+      {
+        "Number": 1074,
+        "Percent": 20
+      },
+      {
+        "Number": 1828,
+        "Percent": 30
+      },
+      {
+        "Number": 3550,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -22767,6 +25213,20 @@
     "Align": 2,
     "Magical": 0,
     "Rcol": 200,
+    "Drops": [
+      {
+        "Number": 1075,
+        "Percent": 20
+      },
+      {
+        "Number": 1829,
+        "Percent": 30
+      },
+      {
+        "Number": 3550,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -22822,6 +25282,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1261,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -22868,6 +25334,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1261,
+        "Percent": 1
+      },
+      {
+        "Number": 1190,
+        "Percent": 1
+      },
+      {
+        "Number": 1189,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -22917,6 +25397,16 @@
     "ImmuPoison": 0,
     "MonsGuards": 623,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1191,
+        "Percent": 5
+      },
+      {
+        "Number": 1354,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -22964,6 +25454,24 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "MonsGuards": 618,
+    "Drops": [
+      {
+        "Number": 1195,
+        "Percent": 3
+      },
+      {
+        "Number": 1242,
+        "Percent": 5
+      },
+      {
+        "Number": 1203,
+        "Percent": 5
+      },
+      {
+        "Number": 1232,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -23038,6 +25546,28 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "MonsGuards": 615,
+    "Drops": [
+      {
+        "Number": 1188,
+        "Percent": 5
+      },
+      {
+        "Number": 1187,
+        "Percent": 5
+      },
+      {
+        "Number": 1186,
+        "Percent": 10
+      },
+      {
+        "Number": 1262,
+        "Percent": 10
+      },
+      {
+        "Number": 3324,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -23168,6 +25698,12 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "MonsGuards": 621,
+    "Drops": [
+      {
+        "Number": 1184,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -23205,6 +25741,16 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1261,
+        "Percent": 1
+      },
+      {
+        "Number": 1189,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -23250,7 +25796,29 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1226,
+        "Percent": 1
+      },
+      {
+        "Number": 651,
+        "Percent": 2
+      },
+      {
+        "Number": 274,
+        "Percent": 5
+      },
+      {
+        "Number": 435,
+        "Percent": 1
+      },
+      {
+        "Number": 614,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 625,
@@ -23321,7 +25889,17 @@
     "Type": 3,
     "Undead": 0,
     "Align": 3,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1234,
+        "Percent": 1
+      },
+      {
+        "Number": 1260,
+        "Percent": 1
+      }
+    ]
   },
   {
     "Number": 628,
@@ -23339,6 +25917,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1235,
+        "Percent": 1
+      },
+      {
+        "Number": 1235,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "pinches you",
@@ -23438,6 +26026,12 @@
     "Align": 2,
     "Magical": 0,
     "RoomIllu": 999,
+    "Drops": [
+      {
+        "Number": 1233,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -23540,6 +26134,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1205,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "mauls you",
@@ -23660,6 +26260,28 @@
     "Magical": 4,
     "Rlit": 200,
     "MonsGuards": 638,
+    "Drops": [
+      {
+        "Number": 877,
+        "Percent": 15
+      },
+      {
+        "Number": 1216,
+        "Percent": 10
+      },
+      {
+        "Number": 1214,
+        "Percent": 10
+      },
+      {
+        "Number": 1243,
+        "Percent": 10
+      },
+      {
+        "Number": 1215,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -23723,6 +26345,12 @@
     "Magical": 3,
     "Rlit": 200,
     "MonsGuards": 638,
+    "Drops": [
+      {
+        "Number": 1215,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -23771,6 +26399,24 @@
     "ImmuPoison": 0,
     "Rlit": 200,
     "MonsGuards": 638,
+    "Drops": [
+      {
+        "Number": 1213,
+        "Percent": 5
+      },
+      {
+        "Number": 1298,
+        "Percent": 7
+      },
+      {
+        "Number": 1835,
+        "Percent": 5
+      },
+      {
+        "Number": 1700,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -23818,6 +26464,12 @@
     "Magical": 3,
     "ResistStone": 100,
     "MonsGuards": 641,
+    "Drops": [
+      {
+        "Number": 1207,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you",
@@ -23919,6 +26571,28 @@
     "Magical": 4,
     "ImmuPoison": 1,
     "MonsGuards": 640,
+    "Drops": [
+      {
+        "Number": 1217,
+        "Percent": 5
+      },
+      {
+        "Number": 1212,
+        "Percent": 2
+      },
+      {
+        "Number": 1297,
+        "Percent": 100
+      },
+      {
+        "Number": 1209,
+        "Percent": 25
+      },
+      {
+        "Number": 3600,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -24033,6 +26707,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 646,
+    "Drops": [
+      {
+        "Number": 1206,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -24071,6 +26751,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 645,
+    "Drops": [
+      {
+        "Number": 1208,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -24107,6 +26793,16 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 646,
+    "Drops": [
+      {
+        "Number": 1211,
+        "Percent": 10
+      },
+      {
+        "Number": 1210,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -24183,6 +26879,16 @@
     "Magical": 4,
     "ResistStone": 100,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1246,
+        "Percent": 75
+      },
+      {
+        "Number": 1354,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -24378,6 +27084,12 @@
     "Magical": 0,
     "MonsGuards": 652,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1306,
+        "Percent": 1
+      }
+    ],
     "Spells": [
       {
         "Name": "plasma bolt",
@@ -24429,6 +27141,16 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 412,
+        "Percent": 1
+      },
+      {
+        "Number": 1194,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -24499,7 +27221,29 @@
     "Type": 3,
     "Undead": 0,
     "Align": 3,
-    "Magical": 0
+    "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1228,
+        "Percent": 1
+      },
+      {
+        "Number": 1229,
+        "Percent": 4
+      },
+      {
+        "Number": 642,
+        "Percent": 2
+      },
+      {
+        "Number": 436,
+        "Percent": 5
+      },
+      {
+        "Number": 614,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 659,
@@ -24970,6 +27714,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1190,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -24997,7 +27747,29 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1225,
+        "Percent": 1
+      },
+      {
+        "Number": 1230,
+        "Percent": 1
+      },
+      {
+        "Number": 355,
+        "Percent": 1
+      },
+      {
+        "Number": 634,
+        "Percent": 5
+      },
+      {
+        "Number": 614,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 675,
@@ -25015,7 +27787,29 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 645,
+        "Percent": 2
+      },
+      {
+        "Number": 422,
+        "Percent": 5
+      },
+      {
+        "Number": 1232,
+        "Percent": 1
+      },
+      {
+        "Number": 1227,
+        "Percent": 1
+      },
+      {
+        "Number": 614,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 676,
@@ -25037,6 +27831,12 @@
     "Rfir": 200,
     "RoomIllu": 100,
     "Rcol": -80,
+    "Drops": [
+      {
+        "Number": 1265,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its fist",
@@ -25170,6 +27970,12 @@
     "Dodge": 10,
     "Rcol": -50,
     "ResistWater": -50,
+    "Drops": [
+      {
+        "Number": 1264,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -25364,6 +28170,12 @@
     "ImmuPoison": 7,
     "Rfir": 100,
     "Rcol": -75,
+    "Drops": [
+      {
+        "Number": 1267,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -25403,6 +28215,12 @@
     "Dodge": 10,
     "Rfir": 125,
     "Rcol": -50,
+    "Drops": [
+      {
+        "Number": 1263,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -25605,6 +28423,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1289,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "pinches you",
@@ -25633,6 +28457,12 @@
     "Align": 3,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1274,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -25662,6 +28492,12 @@
     "Magical": 0,
     "Rfir": 100,
     "Rcol": -75,
+    "Drops": [
+      {
+        "Number": 1305,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely bites you",
@@ -25812,6 +28648,24 @@
     "Magical": 4,
     "Rfir": 200,
     "Rcol": -30,
+    "Drops": [
+      {
+        "Number": 1352,
+        "Percent": 10
+      },
+      {
+        "Number": 956,
+        "Percent": 5
+      },
+      {
+        "Number": 957,
+        "Percent": 5
+      },
+      {
+        "Number": 958,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its beak",
@@ -25861,6 +28715,16 @@
     "Magical": 0,
     "Dodge": 60,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1275,
+        "Percent": 20
+      },
+      {
+        "Number": 1280,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -25901,6 +28765,12 @@
     "NonLiving": 0,
     "Rcol": 50,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1190,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -25979,6 +28849,12 @@
     "Rfir": -100,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1276,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you with its wing",
@@ -26056,6 +28932,12 @@
     "NonLiving": 0,
     "Rcol": 150,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1278,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you with its fist",
@@ -26095,6 +28977,12 @@
     "NonLiving": 0,
     "Dodge": 70,
     "Rfir": -75,
+    "Drops": [
+      {
+        "Number": 1279,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "hits you with its fist",
@@ -26176,6 +29064,12 @@
     "Magical": 0,
     "Rfir": -50,
     "Rlit": -25,
+    "Drops": [
+      {
+        "Number": 1233,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "releases a bolt of force from its palm",
@@ -26244,6 +29138,12 @@
     "Magical": 0,
     "Rfir": -50,
     "Rlit": -25,
+    "Drops": [
+      {
+        "Number": 1294,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -26446,6 +29346,12 @@
     "Magical": 0,
     "ImmuPoison": 7,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 1300,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you",
@@ -26542,6 +29448,12 @@
     "Rfir": 200,
     "Rcol": -50,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 1266,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you with its claws",
@@ -26652,6 +29564,20 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 725,
+    "Drops": [
+      {
+        "Number": 1335,
+        "Percent": 25
+      },
+      {
+        "Number": 1330,
+        "Percent": 10
+      },
+      {
+        "Number": 908,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "hacks you",
@@ -26689,6 +29615,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 727,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -26724,6 +29656,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 732,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -26760,6 +29698,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 730,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -26795,6 +29739,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -26830,6 +29780,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -26865,6 +29821,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -26901,6 +29863,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 1332,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -26929,6 +29897,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 1332,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -26968,6 +29942,28 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1107,
+        "Percent": 2
+      },
+      {
+        "Number": 1108,
+        "Percent": 2
+      },
+      {
+        "Number": 1109,
+        "Percent": 2
+      },
+      {
+        "Number": 1110,
+        "Percent": 2
+      },
+      {
+        "Number": 1332,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -27016,6 +30012,12 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 1332,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -27062,6 +30064,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1332,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -27109,6 +30117,12 @@
     "ImmuPoison": 0,
     "Dodge": 25,
     "RoomIllu": -200,
+    "Drops": [
+      {
+        "Number": 1332,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -27155,6 +30169,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1327,
+        "Percent": 1
+      },
+      {
+        "Number": 1329,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -27191,6 +30215,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 1328,
+        "Percent": 3
+      },
+      {
+        "Number": 1253,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -27226,6 +30260,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 364,
+        "Percent": 1
+      },
+      {
+        "Number": 1329,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -27262,6 +30306,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 1349,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -27326,6 +30376,12 @@
     "Magical": 0,
     "Rcol": 100,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1269,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you with its fists",
@@ -27457,6 +30513,24 @@
     "Magical": 3,
     "Rcol": 100,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1981,
+        "Percent": 100
+      },
+      {
+        "Number": 1344,
+        "Percent": 100
+      },
+      {
+        "Number": 913,
+        "Percent": 25
+      },
+      {
+        "Number": 907,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -27538,6 +30612,28 @@
     "Align": 2,
     "Magical": 2,
     "Dodge": 35,
+    "Drops": [
+      {
+        "Number": 1331,
+        "Percent": 10
+      },
+      {
+        "Number": 1332,
+        "Percent": 100
+      },
+      {
+        "Number": 1326,
+        "Percent": 100
+      },
+      {
+        "Number": 1332,
+        "Percent": 100
+      },
+      {
+        "Number": 1332,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -27584,6 +30680,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -27619,6 +30721,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -27654,6 +30762,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -27756,6 +30870,12 @@
     "Magical": 2,
     "Rcol": 150,
     "Rfir": -75,
+    "Drops": [
+      {
+        "Number": 1355,
+        "Percent": 8
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -27793,6 +30913,12 @@
     "Magical": 0,
     "ImmuPoison": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 1361,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -27983,6 +31109,12 @@
     "Magical": 1,
     "Rcol": 150,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 523,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -28205,6 +31337,12 @@
     "NonLiving": 0,
     "Rfir": -100,
     "Rcol": 125,
+    "Drops": [
+      {
+        "Number": 650,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -28341,6 +31479,12 @@
     "Align": 2,
     "Magical": 3,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1118,
+        "Percent": 1
+      }
+    ],
     "Spells": [
       {
         "Name": "necromantic beam",
@@ -28430,6 +31574,12 @@
     "Magical": 0,
     "NonLiving": 0,
     "Rcol": 80,
+    "Drops": [
+      {
+        "Number": 1190,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -28483,6 +31633,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1338,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -28595,6 +31751,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -28639,6 +31801,12 @@
     "Undead": 0,
     "Align": 0,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1438,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "whaps you",
@@ -28666,6 +31834,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1651,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -28701,6 +31875,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1653,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -28834,6 +32014,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1652,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -28957,6 +32143,12 @@
     "NonLiving": 0,
     "Rfir": -100,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1473,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -29032,6 +32224,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 1479,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "stings you",
@@ -29189,6 +32387,28 @@
     "Rcol": 200,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 3256,
+        "Percent": 10
+      },
+      {
+        "Number": 3257,
+        "Percent": 15
+      },
+      {
+        "Number": 3258,
+        "Percent": 15
+      },
+      {
+        "Number": 3259,
+        "Percent": 15
+      },
+      {
+        "Number": 3260,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "touches you with a ghostly hand",
@@ -29268,6 +32488,28 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 1459,
+        "Percent": 10
+      },
+      {
+        "Number": 1484,
+        "Percent": 5
+      },
+      {
+        "Number": 1460,
+        "Percent": 5
+      },
+      {
+        "Number": 1461,
+        "Percent": 10
+      },
+      {
+        "Number": 3374,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -29315,6 +32557,20 @@
     "Magical": 4,
     "Rfir": -50,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1730,
+        "Percent": 100
+      },
+      {
+        "Number": 1731,
+        "Percent": 100
+      },
+      {
+        "Number": 1444,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -29442,6 +32698,12 @@
     "Magical": 4,
     "Dodge": 60,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1437,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "impales you with its horn",
@@ -29489,6 +32751,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 60,
+    "Drops": [
+      {
+        "Number": 1435,
+        "Percent": 7
+      },
+      {
+        "Number": 1851,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -29546,6 +32818,28 @@
     "Magical": 5,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 524,
+        "Percent": 100
+      },
+      {
+        "Number": 524,
+        "Percent": 100
+      },
+      {
+        "Number": 1632,
+        "Percent": 1
+      },
+      {
+        "Number": 1496,
+        "Percent": 10
+      },
+      {
+        "Number": 1444,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its branches",
@@ -29610,6 +32904,12 @@
     "Align": 2,
     "Magical": 3,
     "Dodge": 32,
+    "Drops": [
+      {
+        "Number": 1463,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips you with a thorny stem",
@@ -29658,6 +32958,12 @@
     "Align": 2,
     "Magical": 2,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 1481,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely claws you",
@@ -29733,6 +33039,16 @@
     "Magical": 2,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1440,
+        "Percent": 10
+      },
+      {
+        "Number": 1440,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -29891,6 +33207,12 @@
     "Dodge": 50,
     "Rcol": 200,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1454,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "stabs you",
@@ -29931,6 +33253,16 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 40,
+    "Drops": [
+      {
+        "Number": 1190,
+        "Percent": 1
+      },
+      {
+        "Number": 1821,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -30209,6 +33541,12 @@
     "Magical": 4,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1816,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -30321,6 +33659,20 @@
     "Magical": 5,
     "NonLiving": 0,
     "MonsGuards": 835,
+    "Drops": [
+      {
+        "Number": 1487,
+        "Percent": 15
+      },
+      {
+        "Number": 1458,
+        "Percent": 25
+      },
+      {
+        "Number": 1444,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "savages you",
@@ -30470,6 +33822,12 @@
     "Magical": 3,
     "Rfir": -200,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1439,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "bashes you with its arm",
@@ -30606,6 +33964,12 @@
     "Align": 3,
     "Magical": 4,
     "MonsGuards": 845,
+    "Drops": [
+      {
+        "Number": 1443,
+        "Percent": 10
+      }
+    ],
     "Spells": [
       {
         "Name": "dragonfire",
@@ -30650,6 +34014,16 @@
     "Align": 3,
     "Magical": 0,
     "MonsGuards": 845,
+    "Drops": [
+      {
+        "Number": 1651,
+        "Percent": 1
+      },
+      {
+        "Number": 3515,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -30819,6 +34193,20 @@
     "Magical": 5,
     "Dodge": 50,
     "MonsGuards": 851,
+    "Drops": [
+      {
+        "Number": 3342,
+        "Percent": 20
+      },
+      {
+        "Number": 1749,
+        "Percent": 100
+      },
+      {
+        "Number": 3217,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you with his staff",
@@ -30882,6 +34270,20 @@
     "Magical": 5,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1485,
+        "Percent": 50
+      },
+      {
+        "Number": 1444,
+        "Percent": 20
+      },
+      {
+        "Number": 1667,
+        "Percent": 35
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -30936,6 +34338,40 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 1495,
+        "Percent": 5
+      },
+      {
+        "Number": 1790,
+        "Percent": 100
+      },
+      {
+        "Number": 1961,
+        "Percent": 15
+      },
+      {
+        "Number": 1676,
+        "Percent": 15
+      },
+      {
+        "Number": 1843,
+        "Percent": 15
+      },
+      {
+        "Number": 3296,
+        "Percent": 15
+      },
+      {
+        "Number": 3297,
+        "Percent": 15
+      },
+      {
+        "Number": 3641,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -30979,6 +34415,20 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1653,
+        "Percent": 35
+      },
+      {
+        "Number": 1777,
+        "Percent": 10
+      },
+      {
+        "Number": 1456,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "cuts you",
@@ -31094,6 +34544,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1480,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -31130,6 +34586,28 @@
     "Align": 3,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1778,
+        "Percent": 100
+      },
+      {
+        "Number": 1067,
+        "Percent": 1
+      },
+      {
+        "Number": 1336,
+        "Percent": 1
+      },
+      {
+        "Number": 1492,
+        "Percent": 1
+      },
+      {
+        "Number": 1491,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -31199,6 +34677,16 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 400,
+        "Percent": 10
+      },
+      {
+        "Number": 275,
+        "Percent": 10
+      }
+    ],
     "Spells": [
       {
         "Name": "soulstrike",
@@ -31347,6 +34835,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1814,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -31517,6 +35011,12 @@
     "Magical": 5,
     "Rlit": -100,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 3388,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you with its tentacle",
@@ -31577,6 +35077,12 @@
     "NonLiving": 0,
     "Rfir": -50,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1972,
+        "Percent": 12
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its fists",
@@ -31607,6 +35113,20 @@
     "MonsGuards": 874,
     "NonLiving": 0,
     "Rcol": 200,
+    "Drops": [
+      {
+        "Number": 1654,
+        "Percent": 10
+      },
+      {
+        "Number": 1496,
+        "Percent": 10
+      },
+      {
+        "Number": 1959,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -31645,6 +35165,20 @@
     "Dodge": 45,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1471,
+        "Percent": 10
+      },
+      {
+        "Number": 1561,
+        "Percent": 100
+      },
+      {
+        "Number": 1655,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -31700,6 +35234,12 @@
     "Align": 2,
     "Magical": 3,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 220,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -31728,6 +35268,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 45,
+    "Drops": [
+      {
+        "Number": 1116,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -31879,6 +35425,12 @@
     "Align": 2,
     "Magical": 3,
     "Dodge": 90,
+    "Drops": [
+      {
+        "Number": 1476,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "shoots you",
@@ -31943,6 +35495,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 1205,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally rips you",
@@ -32313,6 +35871,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1001,
+        "Percent": 25
+      },
+      {
+        "Number": 1001,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -32359,6 +35927,20 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 3625,
+        "Percent": 15
+      },
+      {
+        "Number": 3627,
+        "Percent": 10
+      },
+      {
+        "Number": 1436,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -32600,6 +36182,28 @@
     "Align": 2,
     "Magical": 4,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1683,
+        "Percent": 100
+      },
+      {
+        "Number": 1683,
+        "Percent": 100
+      },
+      {
+        "Number": 1683,
+        "Percent": 100
+      },
+      {
+        "Number": 1683,
+        "Percent": 100
+      },
+      {
+        "Number": 1683,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally bites you",
@@ -32836,6 +36440,28 @@
     "Magical": 4,
     "Dodge": 30,
     "MonsGuards": 893,
+    "Drops": [
+      {
+        "Number": 1341,
+        "Percent": 100
+      },
+      {
+        "Number": 1496,
+        "Percent": 25
+      },
+      {
+        "Number": 443,
+        "Percent": 10
+      },
+      {
+        "Number": 1455,
+        "Percent": 25
+      },
+      {
+        "Number": 1526,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -32928,6 +36554,12 @@
     "Align": 2,
     "Magical": 5,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1678,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you with its toothy maw",
@@ -32965,6 +36597,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -33010,6 +36648,12 @@
     "Align": 3,
     "Magical": 5,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1448,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -33046,7 +36690,13 @@
     "Type": 3,
     "Undead": 0,
     "Align": 4,
-    "Magical": 999
+    "Magical": 999,
+    "Drops": [
+      {
+        "Number": 101,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 917,
@@ -33108,6 +36758,12 @@
     "Undead": 0,
     "Align": 0,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1438,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "whaps you",
@@ -33136,6 +36792,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 60,
+    "Drops": [
+      {
+        "Number": 1746,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "punches you in the head",
@@ -33218,6 +36880,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1001,
+        "Percent": 25
+      },
+      {
+        "Number": 1001,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -33296,6 +36968,12 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 40,
+    "Drops": [
+      {
+        "Number": 1823,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -33334,6 +37012,16 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 40,
+    "Drops": [
+      {
+        "Number": 873,
+        "Percent": 1
+      },
+      {
+        "Number": 1822,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -33373,6 +37061,16 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 40,
+    "Drops": [
+      {
+        "Number": 1478,
+        "Percent": 1
+      },
+      {
+        "Number": 1820,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -33410,6 +37108,20 @@
     "Magical": 5,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1436,
+        "Percent": 1
+      },
+      {
+        "Number": 743,
+        "Percent": 1
+      },
+      {
+        "Number": 1631,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -33466,6 +37178,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 1813,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -33571,6 +37289,24 @@
     "Magical": 3,
     "Dodge": 20,
     "MonsGuards": 321,
+    "Drops": [
+      {
+        "Number": 1641,
+        "Percent": 5
+      },
+      {
+        "Number": 1642,
+        "Percent": 5
+      },
+      {
+        "Number": 1888,
+        "Percent": 5
+      },
+      {
+        "Number": 3517,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips you with a tentacle",
@@ -33777,6 +37513,32 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3276,
+        "Percent": 10
+      },
+      {
+        "Number": 3277,
+        "Percent": 10
+      },
+      {
+        "Number": 3278,
+        "Percent": 10
+      },
+      {
+        "Number": 3279,
+        "Percent": 10
+      },
+      {
+        "Number": 3280,
+        "Percent": 10
+      },
+      {
+        "Number": 3393,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "chomps you",
@@ -33859,7 +37621,13 @@
     "Align": 3,
     "Magical": 999,
     "ImmuPoison": 100,
-    "Dodge": 100
+    "Dodge": 100,
+    "Drops": [
+      {
+        "Number": 1686,
+        "Percent": 100
+      }
+    ]
   },
   {
     "Number": 946,
@@ -33999,6 +37767,20 @@
     "Align": 2,
     "Magical": 3,
     "MonsGuards": 947,
+    "Drops": [
+      {
+        "Number": 1690,
+        "Percent": 75
+      },
+      {
+        "Number": 3216,
+        "Percent": 50
+      },
+      {
+        "Number": 1444,
+        "Percent": 25
+      }
+    ],
     "Spells": [
       {
         "Name": "gnaj bolt",
@@ -34053,6 +37835,12 @@
     "ImmuPoison": 7,
     "ResistWater": 200,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 3318,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you with its claws",
@@ -34122,6 +37910,12 @@
     "ResistWater": 200,
     "Dodge": 20,
     "Rlit": -30,
+    "Drops": [
+      {
+        "Number": 3318,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you with its claws",
@@ -34189,6 +37983,12 @@
     "Rlit": 200,
     "Dodge": 20,
     "ResistStone": -30,
+    "Drops": [
+      {
+        "Number": 3319,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you with its claws",
@@ -34257,6 +38057,12 @@
     "Rfir": 200,
     "Rcol": -30,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3320,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you with its claws",
@@ -34322,6 +38128,12 @@
     "Magical": 3,
     "Rfir": 200,
     "Rcol": -60,
+    "Drops": [
+      {
+        "Number": 3316,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you with its claws",
@@ -34494,6 +38306,12 @@
     "NonLiving": 0,
     "Rfir": -100,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1692,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -34534,6 +38352,16 @@
     "NonLiving": 0,
     "Rfir": -100,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1693,
+        "Percent": 5
+      },
+      {
+        "Number": 974,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -34609,6 +38437,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 103,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -34644,6 +38478,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 81,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -34722,6 +38562,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3222,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "swoops down and grips you in its claws, droppi...",
@@ -34766,6 +38612,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 78,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "goes berserk on you",
@@ -34864,6 +38716,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 1856,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -35038,6 +38896,12 @@
     "Magical": 1,
     "ResistWater": 50,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1736,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35093,6 +38957,12 @@
     "Magical": 1,
     "ResistWater": 50,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1736,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35256,6 +39126,12 @@
     "Align": 2,
     "Magical": 1,
     "Rcol": 50,
+    "Drops": [
+      {
+        "Number": 1735,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35310,6 +39186,12 @@
     "Align": 2,
     "Magical": 1,
     "Rcol": 50,
+    "Drops": [
+      {
+        "Number": 1735,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35417,6 +39299,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -35456,6 +39344,12 @@
     "Magical": 0,
     "Dodge": 40,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 722,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "impales you with its horn",
@@ -35584,6 +39478,12 @@
     "Align": 2,
     "Magical": 1,
     "Rlit": 50,
+    "Drops": [
+      {
+        "Number": 1737,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35638,6 +39538,12 @@
     "Align": 2,
     "Magical": 1,
     "Rlit": 50,
+    "Drops": [
+      {
+        "Number": 1737,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35746,6 +39652,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 3531,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -35782,6 +39694,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1854,
+        "Percent": 1
+      },
+      {
+        "Number": 3378,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -35872,6 +39794,12 @@
     "Align": 2,
     "Magical": 1,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1745,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -35926,6 +39854,12 @@
     "Align": 2,
     "Magical": 1,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1745,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -36033,6 +39967,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1933,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -36069,6 +40009,12 @@
     "Align": 2,
     "Magical": 4,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 1934,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -36104,6 +40050,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1935,
+        "Percent": 100
+      }
+    ],
     "Spells": [
       {
         "Name": "soul rip",
@@ -36147,6 +40099,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1939,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -36191,6 +40149,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1936,
+        "Percent": 100
+      }
+    ],
     "Spells": [
       {
         "Name": "frozen spike",
@@ -36226,6 +40190,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1937,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -36271,6 +40241,12 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 100,
+    "Drops": [
+      {
+        "Number": 56,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "backhands you",
@@ -36421,6 +40397,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 1929,
+        "Percent": 100
+      },
+      {
+        "Number": 1824,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -36467,6 +40453,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 35,
+    "Drops": [
+      {
+        "Number": 1930,
+        "Percent": 100
+      },
+      {
+        "Number": 1691,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with his fist",
@@ -36531,6 +40527,16 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 40,
+    "Drops": [
+      {
+        "Number": 1476,
+        "Percent": 1
+      },
+      {
+        "Number": 1881,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "shoots you",
@@ -37154,6 +41160,28 @@
     "Align": 2,
     "Magical": 4,
     "Rcol": -20,
+    "Drops": [
+      {
+        "Number": 1912,
+        "Percent": 20
+      },
+      {
+        "Number": 1912,
+        "Percent": 20
+      },
+      {
+        "Number": 1912,
+        "Percent": 20
+      },
+      {
+        "Number": 1912,
+        "Percent": 20
+      },
+      {
+        "Number": 1912,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with a huge fist",
@@ -37496,6 +41524,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1923,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -37567,6 +41601,28 @@
     "Align": 2,
     "Magical": 3,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 974,
+        "Percent": 100
+      },
+      {
+        "Number": 914,
+        "Percent": 25
+      },
+      {
+        "Number": 907,
+        "Percent": 75
+      },
+      {
+        "Number": 909,
+        "Percent": 50
+      },
+      {
+        "Number": 1983,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with her talons",
@@ -37629,6 +41685,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1921,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -37665,6 +41727,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1923,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -37701,6 +41769,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1922,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -37745,6 +41819,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1924,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "hurls a throwing knife and strikes you",
@@ -38010,6 +42090,12 @@
     "Align": 2,
     "Magical": 4,
     "MonsGuards": 1069,
+    "Drops": [
+      {
+        "Number": 1940,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -38264,6 +42350,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 1893,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -38426,6 +42518,12 @@
     "Align": 2,
     "Magical": 998,
     "MonsGuards": 1083,
+    "Drops": [
+      {
+        "Number": 3539,
+        "Percent": 1
+      }
+    ],
     "Spells": [
       {
         "Name": "magma blast",
@@ -38481,7 +42579,13 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
-    "MonsGuards": 1081
+    "MonsGuards": 1081,
+    "Drops": [
+      {
+        "Number": 3540,
+        "Percent": 1
+      }
+    ]
   },
   {
     "Number": 1083,
@@ -38501,6 +42605,12 @@
     "Magical": 5,
     "MonsGuards": 1082,
     "Dodge": 100,
+    "Drops": [
+      {
+        "Number": 3541,
+        "Percent": 1
+      }
+    ],
     "Spells": [
       {
         "Name": "chain lightning",
@@ -38874,6 +42984,20 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 725,
+    "Drops": [
+      {
+        "Number": 1335,
+        "Percent": 1
+      },
+      {
+        "Number": 908,
+        "Percent": 25
+      },
+      {
+        "Number": 1330,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "hacks you",
@@ -38911,6 +43035,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 727,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -38946,6 +43076,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 732,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -38982,6 +43118,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 730,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -39017,6 +43159,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -39052,6 +43200,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1101,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -39087,6 +43241,16 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 172,
+        "Percent": 1
+      },
+      {
+        "Number": 295,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -39122,6 +43286,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -39626,6 +43796,12 @@
     "Align": 6,
     "Magical": 0,
     "MonsGuards": 1112,
+    "Drops": [
+      {
+        "Number": 1710,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -39732,6 +43908,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1152,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -39921,6 +44103,12 @@
     "Rfir": -25,
     "ImmuPoison": 100,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1440,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -39973,6 +44161,12 @@
     "Rlit": -15,
     "Rfir": -25,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 1001,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -40050,6 +44244,20 @@
     "Rfir": -25,
     "ImmuPoison": 100,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 1444,
+        "Percent": 25
+      },
+      {
+        "Number": 1667,
+        "Percent": 25
+      },
+      {
+        "Number": 2161,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you with his staff",
@@ -40243,6 +44451,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 2219,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips a chunk out of you",
@@ -40314,6 +44528,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3220,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "tears you",
@@ -40360,6 +44580,12 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 18,
+    "Drops": [
+      {
+        "Number": 906,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -40396,6 +44622,16 @@
     "Align": 2,
     "Magical": 0,
     "MonsGuards": 227,
+    "Drops": [
+      {
+        "Number": 906,
+        "Percent": 10
+      },
+      {
+        "Number": 969,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -40512,6 +44748,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 71,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -40623,6 +44865,12 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 295,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -40710,7 +44958,25 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 613,
+        "Percent": 100
+      },
+      {
+        "Number": 3516,
+        "Percent": 50
+      },
+      {
+        "Number": 3347,
+        "Percent": 30
+      },
+      {
+        "Number": 1909,
+        "Percent": 30
+      }
+    ]
   },
   {
     "Number": 1132,
@@ -40728,7 +44994,25 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3563,
+        "Percent": 25
+      },
+      {
+        "Number": 3338,
+        "Percent": 50
+      },
+      {
+        "Number": 3344,
+        "Percent": 50
+      },
+      {
+        "Number": 3399,
+        "Percent": 50
+      }
+    ]
   },
   {
     "Number": 1133,
@@ -40746,7 +45030,21 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3563,
+        "Percent": 25
+      },
+      {
+        "Number": 3341,
+        "Percent": 50
+      },
+      {
+        "Number": 3346,
+        "Percent": 50
+      }
+    ]
   },
   {
     "Number": 1134,
@@ -40764,7 +45062,21 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3401,
+        "Percent": 50
+      },
+      {
+        "Number": 3338,
+        "Percent": 50
+      },
+      {
+        "Number": 3340,
+        "Percent": 50
+      }
+    ]
   },
   {
     "Number": 1135,
@@ -40782,7 +45094,25 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
-    "NonLiving": 0
+    "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3343,
+        "Percent": 50
+      },
+      {
+        "Number": 3336,
+        "Percent": 50
+      },
+      {
+        "Number": 3337,
+        "Percent": 50
+      },
+      {
+        "Number": 3400,
+        "Percent": 50
+      }
+    ]
   },
   {
     "Number": 1136,
@@ -40908,6 +45238,12 @@
     "Undead": 0,
     "Align": 6,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 1436,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -40943,6 +45279,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -41152,6 +45494,12 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 732,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -41263,6 +45611,12 @@
     "Rfir": 25,
     "Rlit": 25,
     "ResistStone": 25,
+    "Drops": [
+      {
+        "Number": 1106,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "Physical",
@@ -41318,6 +45672,12 @@
     "Magical": 5,
     "ImmuPoison": 0,
     "ResistStone": -50,
+    "Drops": [
+      {
+        "Number": 1105,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -41430,6 +45790,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 1205,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally rips you",
@@ -41493,6 +45859,12 @@
     "Align": 2,
     "Magical": 0,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 1103,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you",
@@ -41529,6 +45901,12 @@
     "Align": 2,
     "Magical": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 2224,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "bites you with its toothy maw",
@@ -41566,6 +45944,12 @@
     "Align": 2,
     "Magical": 5,
     "ResistStone": -50,
+    "Drops": [
+      {
+        "Number": 1104,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its fist",
@@ -41803,6 +46187,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 2189,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -42450,6 +46840,12 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3803,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -42827,6 +47223,12 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1168,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -43096,6 +47498,16 @@
     "ResistWater": -50,
     "MonsGuards": 1204,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 1840,
+        "Percent": 20
+      },
+      {
+        "Number": 3503,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "rakes you",
@@ -43164,6 +47576,12 @@
     "ResistStone": 100,
     "ResistWater": -50,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3502,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally rips you with a pincer",
@@ -43227,6 +47645,24 @@
     "Align": 3,
     "Magical": 2,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 1204,
+        "Percent": 10
+      },
+      {
+        "Number": 1238,
+        "Percent": 3
+      },
+      {
+        "Number": 1220,
+        "Percent": 3
+      },
+      {
+        "Number": 3506,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "hurls its chakram at you",
@@ -43315,6 +47751,32 @@
     "Align": 3,
     "Magical": 5,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3510,
+        "Percent": 5
+      },
+      {
+        "Number": 3286,
+        "Percent": 20
+      },
+      {
+        "Number": 3287,
+        "Percent": 20
+      },
+      {
+        "Number": 3288,
+        "Percent": 20
+      },
+      {
+        "Number": 3289,
+        "Percent": 20
+      },
+      {
+        "Number": 3290,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves through your armor",
@@ -43522,6 +47984,12 @@
     "Magical": 2,
     "NonLiving": 0,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 1440,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -43560,6 +48028,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 222,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves through your armor",
@@ -43752,6 +48226,12 @@
     "Align": 2,
     "Magical": 3,
     "Dodge": 90,
+    "Drops": [
+      {
+        "Number": 1476,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "shoots you",
@@ -43817,6 +48297,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 1001,
+        "Percent": 25
+      },
+      {
+        "Number": 1001,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -43863,6 +48353,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 45,
+    "Drops": [
+      {
+        "Number": 1116,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -43909,6 +48405,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 1205,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally rips you",
@@ -43973,6 +48475,12 @@
     "Magical": 5,
     "Dodge": 50,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3511,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "hurls a hammer and strikes you",
@@ -44384,6 +48892,12 @@
     "NonLiving": 0,
     "Dodge": 50,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 3525,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "stabs you",
@@ -44513,6 +49027,20 @@
     "ImmuPoison": 100,
     "Rcol": 100,
     "Rfir": -30,
+    "Drops": [
+      {
+        "Number": 2051,
+        "Percent": 30
+      },
+      {
+        "Number": 3653,
+        "Percent": 30
+      },
+      {
+        "Number": 3736,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices you",
@@ -44682,6 +49210,16 @@
     "ImmuPoison": 1,
     "ResistWater": 30,
     "Rlit": 100,
+    "Drops": [
+      {
+        "Number": 3532,
+        "Percent": 100
+      },
+      {
+        "Number": 1244,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with its talons",
@@ -44891,6 +49429,12 @@
     "Magical": 0,
     "Rfir": 100,
     "Rcol": -75,
+    "Drops": [
+      {
+        "Number": 1305,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely bites you",
@@ -44997,6 +49541,12 @@
     "Rfir": 200,
     "Rcol": -20,
     "ResistWater": -10,
+    "Drops": [
+      {
+        "Number": 3586,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely bites through your armor",
@@ -45149,6 +49699,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 3552,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you",
@@ -45250,6 +49806,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 3551,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "gleefully jabs you",
@@ -45539,6 +50101,16 @@
     "Align": 2,
     "Magical": 5,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 3335,
+        "Percent": 15
+      },
+      {
+        "Number": 3726,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with a sweeping strike",
@@ -45778,6 +50350,20 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 4,
+    "Drops": [
+      {
+        "Number": 3545,
+        "Percent": 5
+      },
+      {
+        "Number": 3546,
+        "Percent": 10
+      },
+      {
+        "Number": 3547,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -46017,6 +50603,20 @@
     "MonsGuards": 410,
     "Dodge": 50,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3629,
+        "Percent": 35
+      },
+      {
+        "Number": 1496,
+        "Percent": 55
+      },
+      {
+        "Number": 914,
+        "Percent": 45
+      }
+    ],
     "Attacks": [
       {
         "Name": "eviscerates you with its huge talons",
@@ -46109,6 +50709,12 @@
     "Align": 3,
     "Magical": 5,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 3713,
+        "Percent": 12
+      }
+    ],
     "Attacks": [
       {
         "Name": "tears through your defenses",
@@ -46175,6 +50781,16 @@
     "Magical": 5,
     "Dodge": 20,
     "MonsGuards": 2576,
+    "Drops": [
+      {
+        "Number": 3611,
+        "Percent": 1
+      },
+      {
+        "Number": 3616,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "leaps in and batters you",
@@ -46242,6 +50858,16 @@
     "Rlit": -25,
     "ResistStone": -25,
     "MonsGuards": 2616,
+    "Drops": [
+      {
+        "Number": 3711,
+        "Percent": 10
+      },
+      {
+        "Number": 3712,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "disembowels you with its curved beak",
@@ -46324,6 +50950,20 @@
     "Rcol": -25,
     "Rfir": 200,
     "ResistStone": -25,
+    "Drops": [
+      {
+        "Number": 3579,
+        "Percent": 10
+      },
+      {
+        "Number": 3665,
+        "Percent": 10
+      },
+      {
+        "Number": 3666,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with a huge fist",
@@ -46390,6 +51030,16 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 3588,
+        "Percent": 7
+      },
+      {
+        "Number": 3669,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -46455,6 +51105,28 @@
     "Align": 2,
     "Magical": 5,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 191,
+        "Percent": 100
+      },
+      {
+        "Number": 283,
+        "Percent": 100
+      },
+      {
+        "Number": 880,
+        "Percent": 20
+      },
+      {
+        "Number": 3670,
+        "Percent": 7
+      },
+      {
+        "Number": 3671,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "cracks you over the head",
@@ -46521,6 +51193,20 @@
     "MonsGuards": 2648,
     "NonLiving": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3672,
+        "Percent": 1
+      },
+      {
+        "Number": 1667,
+        "Percent": 10
+      },
+      {
+        "Number": 3637,
+        "Percent": 7
+      }
+    ],
     "Spells": [
       {
         "Name": "bone dust",
@@ -46586,6 +51272,20 @@
     "Align": 2,
     "Magical": 5,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 3673,
+        "Percent": 7
+      },
+      {
+        "Number": 3674,
+        "Percent": 7
+      },
+      {
+        "Number": 3675,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -46704,6 +51404,20 @@
     "Rfir": -25,
     "Dodge": 30,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3691,
+        "Percent": 7
+      },
+      {
+        "Number": 3692,
+        "Percent": 7
+      },
+      {
+        "Number": 3601,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "touches you with a ghostly hand",
@@ -46858,6 +51572,20 @@
     "Rlit": -10,
     "ImmuPoison": 0,
     "MonsGuards": 2645,
+    "Drops": [
+      {
+        "Number": 3699,
+        "Percent": 7
+      },
+      {
+        "Number": 3710,
+        "Percent": 25
+      },
+      {
+        "Number": 3700,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you with its hammer",
@@ -46949,6 +51677,20 @@
     "Undead": 1,
     "Align": 2,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 3638,
+        "Percent": 7
+      },
+      {
+        "Number": 3602,
+        "Percent": 7
+      },
+      {
+        "Number": 3702,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "tears into you",
@@ -47005,6 +51747,16 @@
     "Magical": 5,
     "MonsGuards": 2657,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 3642,
+        "Percent": 8
+      },
+      {
+        "Number": 3705,
+        "Percent": 8
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -47068,6 +51820,20 @@
     "Align": 2,
     "Magical": 5,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 3706,
+        "Percent": 3
+      },
+      {
+        "Number": 3635,
+        "Percent": 5
+      },
+      {
+        "Number": 3710,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "carves you up",
@@ -47133,6 +51899,12 @@
     "Align": 5,
     "Magical": 0,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 3703,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -47170,6 +51942,16 @@
     "Magical": 5,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1444,
+        "Percent": 100
+      },
+      {
+        "Number": 3397,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you with its branches",
@@ -47236,6 +52018,16 @@
     "Magical": 5,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 3396,
+        "Percent": 10
+      },
+      {
+        "Number": 3398,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -47290,6 +52082,12 @@
     "Align": 2,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1067,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you",
@@ -47335,6 +52133,12 @@
     "Align": 2,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1492,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -47371,6 +52175,16 @@
     "Align": 2,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1493,
+        "Percent": 1
+      },
+      {
+        "Number": 1070,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -47411,6 +52225,12 @@
     "Rlit": -15,
     "Rfir": -15,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 1182,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you with its barbed spear",
@@ -47816,6 +52636,12 @@
     "Rlit": -15,
     "Rfir": -15,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 1257,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you with its fists",
@@ -48139,6 +52965,16 @@
     "Rlit": -15,
     "Rfir": -15,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 2159,
+        "Percent": 20
+      },
+      {
+        "Number": 2160,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -48211,6 +53047,16 @@
     "Align": 3,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1492,
+        "Percent": 1
+      },
+      {
+        "Number": 1005,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -48247,6 +53093,16 @@
     "Align": 3,
     "Magical": 0,
     "AntiMagic": 0,
+    "Drops": [
+      {
+        "Number": 1493,
+        "Percent": 1
+      },
+      {
+        "Number": 1070,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -48989,6 +53845,12 @@
     "Rfir": -25,
     "Rlit": -50,
     "ResistWater": 100,
+    "Drops": [
+      {
+        "Number": 1233,
+        "Percent": 2
+      }
+    ],
     "Attacks": [
       {
         "Name": "releases a bolt of force from its palm",
@@ -49067,6 +53929,12 @@
     "Rfir": -25,
     "Rlit": -50,
     "ResistWater": 100,
+    "Drops": [
+      {
+        "Number": 1294,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -49103,6 +53971,12 @@
     "Align": 2,
     "Magical": 0,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 906,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -49698,6 +54572,12 @@
     "Undead": 0,
     "Align": 6,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 1436,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -49733,6 +54613,16 @@
     "Undead": 0,
     "Align": 6,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 2121,
+        "Percent": 1
+      },
+      {
+        "Number": 3703,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -49813,6 +54703,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 2222,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "whaps you",
@@ -49859,6 +54755,12 @@
     "Align": 3,
     "Magical": 0,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 2221,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -49993,6 +54895,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 732,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -50109,6 +55017,12 @@
     "Undead": 0,
     "Align": 5,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3703,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -51972,6 +56886,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 2188,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -52372,6 +57292,12 @@
     "Rcol": -50,
     "Rfir": 125,
     "MonsGuards": 2246,
+    "Drops": [
+      {
+        "Number": 2220,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -53103,6 +58029,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3000,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lunges and stabs you",
@@ -53195,6 +58127,12 @@
     "Rlit": 25,
     "ResistWater": -25,
     "Rcol": -25,
+    "Drops": [
+      {
+        "Number": 883,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lumbers forward and smashes you",
@@ -53240,6 +58178,24 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3000,
+        "Percent": 100
+      },
+      {
+        "Number": 3005,
+        "Percent": 1
+      },
+      {
+        "Number": 2143,
+        "Percent": 20
+      },
+      {
+        "Number": 3580,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "darts forward and skewers you",
@@ -53331,6 +58287,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3006,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smashes you",
@@ -53666,6 +58628,12 @@
     "Align": 2,
     "Magical": 3,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3007,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "draws an arrow and shoots you",
@@ -53845,6 +58813,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3548,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips into you with its talons",
@@ -53989,6 +58963,20 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 14,
+        "Percent": 10
+      },
+      {
+        "Number": 65,
+        "Percent": 10
+      },
+      {
+        "Number": 59,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -54024,6 +59012,20 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 19,
+        "Percent": 5
+      },
+      {
+        "Number": 78,
+        "Percent": 25
+      },
+      {
+        "Number": 166,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -54087,6 +59089,20 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 14,
+        "Percent": 10
+      },
+      {
+        "Number": 65,
+        "Percent": 10
+      },
+      {
+        "Number": 59,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -54314,6 +59330,12 @@
     "Rfir": -10,
     "NonLiving": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3702,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -54406,6 +59428,12 @@
     "ResistStone": -30,
     "ImmuPoison": 0,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 1473,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "winds up and pulverizes you",
@@ -54623,6 +59651,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -54650,6 +59684,12 @@
     "Undead": 0,
     "Align": 0,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3017,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds you",
@@ -55174,6 +60214,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3549,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "roars and slashes you",
@@ -55275,6 +60321,12 @@
     "Rlit": 10,
     "Rcol": 10,
     "Rfir": 10,
+    "Drops": [
+      {
+        "Number": 3798,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "spins and kicks you in the head",
@@ -55523,6 +60575,20 @@
     "Align": 3,
     "Magical": 0,
     "MonsGuards": 2360,
+    "Drops": [
+      {
+        "Number": 846,
+        "Percent": 1
+      },
+      {
+        "Number": 3027,
+        "Percent": 1
+      },
+      {
+        "Number": 3025,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lunges forward and skewers you",
@@ -55560,6 +60626,16 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 856,
+        "Percent": 1
+      },
+      {
+        "Number": 3026,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "hacks you",
@@ -55699,6 +60775,12 @@
     "Align": 3,
     "Magical": 0,
     "MonsGuards": 2367,
+    "Drops": [
+      {
+        "Number": 3028,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -55744,6 +60826,12 @@
     "Align": 3,
     "Magical": 0,
     "MonsGuards": 2367,
+    "Drops": [
+      {
+        "Number": 3029,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lunges forward and skewers you",
@@ -55779,6 +60867,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 3,
+    "Drops": [
+      {
+        "Number": 3030,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "draws an arrow and shoots you",
@@ -55822,6 +60916,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3032,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -55902,6 +61002,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3033,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes in an upward arc, wounding you",
@@ -55948,6 +61054,24 @@
     "Align": 4,
     "Magical": 0,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 3339,
+        "Percent": 7
+      },
+      {
+        "Number": 3034,
+        "Percent": 25
+      },
+      {
+        "Number": 3035,
+        "Percent": 10
+      },
+      {
+        "Number": 3036,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you",
@@ -56176,6 +61300,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 204,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you",
@@ -56323,6 +61453,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -56350,6 +61486,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3037,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "bludgeons you",
@@ -56731,6 +61873,16 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Rcol": 40,
+    "Drops": [
+      {
+        "Number": 1476,
+        "Percent": 1
+      },
+      {
+        "Number": 1881,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "shoots you",
@@ -56770,6 +61922,20 @@
     "NonLiving": 0,
     "Rcol": 300,
     "Rfir": -10,
+    "Drops": [
+      {
+        "Number": 3345,
+        "Percent": 25
+      },
+      {
+        "Number": 3724,
+        "Percent": 15
+      },
+      {
+        "Number": 3725,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -56839,6 +62005,28 @@
     "ResistStone": -15,
     "ResistWater": -15,
     "Dodge": 75,
+    "Drops": [
+      {
+        "Number": 3554,
+        "Percent": 10
+      },
+      {
+        "Number": 3560,
+        "Percent": 10
+      },
+      {
+        "Number": 3572,
+        "Percent": 10
+      },
+      {
+        "Number": 3716,
+        "Percent": 35
+      },
+      {
+        "Number": 3739,
+        "Percent": 30
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you with her talons",
@@ -56902,6 +62090,20 @@
     "Align": 2,
     "Magical": 6,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 1249,
+        "Percent": 25
+      },
+      {
+        "Number": 3722,
+        "Percent": 10
+      },
+      {
+        "Number": 3723,
+        "Percent": 15
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally cleaves you",
@@ -57017,6 +62219,12 @@
     "Magical": 4,
     "NonLiving": 0,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 1816,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -57479,6 +62687,12 @@
     "Magical": 4,
     "ImmuPoison": 0,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 3561,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lashes you",
@@ -57632,6 +62846,12 @@
     "Align": 6,
     "Magical": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3009,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -57669,6 +62889,12 @@
     "Magical": 0,
     "Dodge": 10,
     "MonsGuards": 2412,
+    "Drops": [
+      {
+        "Number": 3009,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -57706,6 +62932,16 @@
     "Magical": 0,
     "Dodge": 30,
     "MonsGuards": 2413,
+    "Drops": [
+      {
+        "Number": 3395,
+        "Percent": 5
+      },
+      {
+        "Number": 3562,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -57751,6 +62987,16 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3009,
+        "Percent": 1
+      },
+      {
+        "Number": 3404,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -58236,6 +63482,12 @@
     "Undead": 0,
     "Align": 4,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 649,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -58964,6 +64216,12 @@
     "Magical": 4,
     "Rcol": 200,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 3574,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -59050,6 +64308,12 @@
     "Magical": 1,
     "Rcol": 200,
     "Rfir": -25,
+    "Drops": [
+      {
+        "Number": 3406,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips you savagely",
@@ -59136,6 +64400,12 @@
     "Magical": 0,
     "Rfir": -35,
     "Rcol": 200,
+    "Drops": [
+      {
+        "Number": 3659,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "stomps on you",
@@ -59192,6 +64462,12 @@
     "Magical": 0,
     "Rcol": 200,
     "Rfir": -40,
+    "Drops": [
+      {
+        "Number": 3658,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "roars and slashes you",
@@ -59249,6 +64525,12 @@
     "Rfir": -40,
     "Dodge": 10,
     "Rcol": 200,
+    "Drops": [
+      {
+        "Number": 3575,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -59345,6 +64627,12 @@
     "Magical": 3,
     "Rcol": 200,
     "Rfir": -35,
+    "Drops": [
+      {
+        "Number": 3575,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you",
@@ -59402,6 +64690,12 @@
     "Magical": 4,
     "Rfir": -25,
     "MonsGuards": 2545,
+    "Drops": [
+      {
+        "Number": 3576,
+        "Percent": 10
+      }
+    ],
     "Attacks": [
       {
         "Name": "impales you",
@@ -59467,6 +64761,24 @@
     "Rcol": 200,
     "Rfir": -40,
     "MonsGuards": 2539,
+    "Drops": [
+      {
+        "Number": 3577,
+        "Percent": 1
+      },
+      {
+        "Number": 3578,
+        "Percent": 25
+      },
+      {
+        "Number": 3632,
+        "Percent": 5
+      },
+      {
+        "Number": 3717,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -59533,6 +64845,12 @@
     "Align": 3,
     "Magical": 0,
     "MonsGuards": 2552,
+    "Drops": [
+      {
+        "Number": 3029,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lunges forward and skewers you",
@@ -59568,6 +64886,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3030,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "draws an arrow and shoots you",
@@ -59603,6 +64927,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3583,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "Physical",
@@ -59917,6 +65247,12 @@
     "Align": 1,
     "Magical": 4,
     "Dodge": 50,
+    "Drops": [
+      {
+        "Number": 3833,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "shoots you",
@@ -60509,6 +65845,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3611,
+        "Percent": 1
+      },
+      {
+        "Number": 3616,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "leaps forward and wallops you",
@@ -60670,6 +66016,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3612,
+        "Percent": 1
+      },
+      {
+        "Number": 3615,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "gleefully guts you",
@@ -60733,6 +66089,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 3612,
+        "Percent": 1
+      },
+      {
+        "Number": 3615,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "gleefully guts you",
@@ -60796,6 +66162,12 @@
     "Align": 1,
     "Magical": 4,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 3613,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "looses a tiny arrow at you",
@@ -60859,6 +66231,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3618,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "chops you",
@@ -60904,6 +66282,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3618,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "lunges and skewers you",
@@ -60952,6 +66336,16 @@
     "ResistStone": 200,
     "Rcol": -25,
     "ResistWater": -40,
+    "Drops": [
+      {
+        "Number": 3620,
+        "Percent": 1
+      },
+      {
+        "Number": 898,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lurches and smashes you with a limb",
@@ -60987,6 +66381,12 @@
     "Undead": 0,
     "Align": 2,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3621,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "leaps onto you, biting you",
@@ -61113,6 +66513,12 @@
     "Align": 1,
     "Magical": 4,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 3622,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "laughs as it skewers you",
@@ -61176,6 +66582,12 @@
     "Align": 1,
     "Magical": 4,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 3614,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "looses a tiny arrow at you",
@@ -61240,6 +66652,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3612,
+        "Percent": 1
+      },
+      {
+        "Number": 3615,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "gleefully guts you",
@@ -61304,6 +66726,12 @@
     "Align": 1,
     "Magical": 4,
     "Dodge": 80,
+    "Drops": [
+      {
+        "Number": 3834,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "happily pounds you",
@@ -61770,6 +67198,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3623,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -62162,6 +67596,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3611,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "leaps forward and wallops you",
@@ -62217,6 +67657,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3611,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "headbutts you",
@@ -62770,6 +68216,12 @@
     "ImmuPoison": 0,
     "Rlit": -35,
     "Rcol": -25,
+    "Drops": [
+      {
+        "Number": 3633,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "chomps you",
@@ -62853,6 +68305,12 @@
     "NonLiving": 0,
     "Rlit": -25,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3634,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -63559,6 +69017,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 3612,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "brutally guts you",
@@ -64183,6 +69647,16 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3703,
+        "Percent": 1
+      },
+      {
+        "Number": 3704,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices and dices you",
@@ -64280,6 +69754,16 @@
     "Dodge": 50,
     "Rcol": 200,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 3707,
+        "Percent": 1
+      },
+      {
+        "Number": 3636,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "stabs you",
@@ -64399,6 +69883,28 @@
     "Rfir": -25,
     "MonsGuards": 2660,
     "Dodge": 15,
+    "Drops": [
+      {
+        "Number": 3719,
+        "Percent": 7
+      },
+      {
+        "Number": 3720,
+        "Percent": 7
+      },
+      {
+        "Number": 3721,
+        "Percent": 7
+      },
+      {
+        "Number": 3532,
+        "Percent": 15
+      },
+      {
+        "Number": 3718,
+        "Percent": 100
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -64647,6 +70153,12 @@
     "NonLiving": 0,
     "Rfir": -20,
     "Rcol": 150,
+    "Drops": [
+      {
+        "Number": 3727,
+        "Percent": 18
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you",
@@ -64698,6 +70210,24 @@
     "NonLiving": 0,
     "Rcol": 100,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 902,
+        "Percent": 20
+      },
+      {
+        "Number": 903,
+        "Percent": 20
+      },
+      {
+        "Number": 904,
+        "Percent": 20
+      },
+      {
+        "Number": 905,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "claws you",
@@ -65312,6 +70842,20 @@
     "Rfir": -10,
     "ImmuPoison": 0,
     "MonsGuards": 2673,
+    "Drops": [
+      {
+        "Number": 3733,
+        "Percent": 12
+      },
+      {
+        "Number": 3734,
+        "Percent": 12
+      },
+      {
+        "Number": 3735,
+        "Percent": 6
+      }
+    ],
     "Spells": [
       {
         "Name": "arcane assault",
@@ -65390,6 +70934,16 @@
     "Magical": 0,
     "ResistWater": 200,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3737,
+        "Percent": 30
+      },
+      {
+        "Number": 3738,
+        "Percent": 20
+      }
+    ],
     "Attacks": [
       {
         "Name": "smacks you",
@@ -65565,6 +71119,16 @@
     "ResistStone": 100,
     "ResistWater": -30,
     "Rcol": -30,
+    "Drops": [
+      {
+        "Number": 3741,
+        "Percent": 1
+      },
+      {
+        "Number": 3740,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "gleefully pounds you",
@@ -65633,6 +71197,16 @@
     "ResistStone": 200,
     "Rcol": -25,
     "ResistWater": -40,
+    "Drops": [
+      {
+        "Number": 3620,
+        "Percent": 1
+      },
+      {
+        "Number": 898,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "lurches and smashes you with a limb",
@@ -65799,6 +71373,16 @@
     "ResistStone": 100,
     "ResistWater": -30,
     "Rcol": -30,
+    "Drops": [
+      {
+        "Number": 3741,
+        "Percent": 1
+      },
+      {
+        "Number": 3740,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "gleefully pounds you",
@@ -65935,6 +71519,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3623,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -65976,6 +71566,12 @@
     "Rfir": 100,
     "Rcol": -40,
     "ResistWater": -50,
+    "Drops": [
+      {
+        "Number": 3747,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "crushes you with a stone limb",
@@ -66249,6 +71845,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3623,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -66303,6 +71905,12 @@
     "Magical": 4,
     "ImmuPoison": 100,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3752,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips out a chunk of your flesh",
@@ -66365,6 +71973,12 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3776,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "hacks at your vitals",
@@ -66618,6 +72232,12 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3751,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "skewers you deeply",
@@ -67010,6 +72630,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3753,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "jabs you with his spear",
@@ -67045,6 +72671,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3583,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "Physical",
@@ -67541,6 +73173,16 @@
     "Dodge": 50,
     "Rcol": 200,
     "Rfir": -50,
+    "Drops": [
+      {
+        "Number": 3755,
+        "Percent": 1
+      },
+      {
+        "Number": 3754,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "slashes you to the bone",
@@ -67618,6 +73260,24 @@
     "Align": 2,
     "Magical": 0,
     "Dodge": 80,
+    "Drops": [
+      {
+        "Number": 3757,
+        "Percent": 7
+      },
+      {
+        "Number": 3756,
+        "Percent": 10
+      },
+      {
+        "Number": 3758,
+        "Percent": 7
+      },
+      {
+        "Number": 3774,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "swiftly slashes you",
@@ -67684,6 +73344,20 @@
     "ImmuPoison": 0,
     "NonLiving": 0,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3759,
+        "Percent": 7
+      },
+      {
+        "Number": 3760,
+        "Percent": 10
+      },
+      {
+        "Number": 3640,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "slams you with a mighty blow",
@@ -67741,6 +73415,20 @@
     "Magical": 5,
     "ImmuPoison": 100,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3762,
+        "Percent": 7
+      },
+      {
+        "Number": 3761,
+        "Percent": 10
+      },
+      {
+        "Number": 3763,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "swings in a wide arc, cleaving you",
@@ -67808,6 +73496,20 @@
     "Dodge": 40,
     "ImmuPoison": 100,
     "NonLiving": 0,
+    "Drops": [
+      {
+        "Number": 3764,
+        "Percent": 7
+      },
+      {
+        "Number": 3765,
+        "Percent": 7
+      },
+      {
+        "Number": 3766,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "rapidly draws and shoots you",
@@ -67873,6 +73575,20 @@
     "ImmuPoison": 100,
     "Dodge": 40,
     "MonsGuards": 2736,
+    "Drops": [
+      {
+        "Number": 3767,
+        "Percent": 10
+      },
+      {
+        "Number": 3216,
+        "Percent": 10
+      },
+      {
+        "Number": 3769,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "cackles as he smacks you",
@@ -67977,6 +73693,12 @@
     "Rfir": -10,
     "NonLiving": 0,
     "ImmuPoison": 0,
+    "Drops": [
+      {
+        "Number": 3768,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "cleaves you",
@@ -68015,6 +73737,16 @@
     "NonLiving": 0,
     "ImmuPoison": 100,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 3770,
+        "Percent": 7
+      },
+      {
+        "Number": 3771,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips into you with its claws",
@@ -68071,6 +73803,20 @@
     "Magical": 5,
     "ImmuPoison": 100,
     "Dodge": 30,
+    "Drops": [
+      {
+        "Number": 3772,
+        "Percent": 3
+      },
+      {
+        "Number": 3773,
+        "Percent": 5
+      },
+      {
+        "Number": 3710,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "Physical",
@@ -68250,6 +73996,12 @@
     "Magical": 5,
     "Dodge": 10,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 3808,
+        "Percent": 5
+      }
+    ],
     "Attacks": [
       {
         "Name": "whaps you",
@@ -68452,6 +74204,16 @@
     "Align": 2,
     "Magical": 4,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3777,
+        "Percent": 1
+      },
+      {
+        "Number": 3832,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "looses a missile, striking you",
@@ -68975,6 +74737,12 @@
     "Magical": 5,
     "MonsGuards": 2749,
     "Dodge": 35,
+    "Drops": [
+      {
+        "Number": 3806,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "slices and dices you",
@@ -69039,6 +74807,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3779,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "darts forward, slashing you",
@@ -69074,6 +74848,12 @@
     "Undead": 0,
     "Align": 3,
     "Magical": 0,
+    "Drops": [
+      {
+        "Number": 3030,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "draws an arrow and shoots you",
@@ -69297,6 +75077,12 @@
     "Rfir": -15,
     "ResistStone": -15,
     "Rcol": 100,
+    "Drops": [
+      {
+        "Number": 3781,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "pounds the hell out of you",
@@ -69430,6 +75216,12 @@
     "NonLiving": 0,
     "Rfir": -10,
     "ImmuPoison": 100,
+    "Drops": [
+      {
+        "Number": 3783,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "darts forward, slashing you",
@@ -69561,6 +75353,20 @@
     "Magical": 5,
     "ImmuPoison": 100,
     "Dodge": 25,
+    "Drops": [
+      {
+        "Number": 3784,
+        "Percent": 3
+      },
+      {
+        "Number": 3785,
+        "Percent": 5
+      },
+      {
+        "Number": 3710,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "delivers an angled strike, slashing you",
@@ -69627,6 +75433,12 @@
     "NonLiving": 0,
     "ImmuPoison": 100,
     "Dodge": 40,
+    "Drops": [
+      {
+        "Number": 3783,
+        "Percent": 50
+      }
+    ],
     "Attacks": [
       {
         "Name": "rips into you with its claws",
@@ -69730,6 +75542,12 @@
     "Undead": 0,
     "Align": 6,
     "Magical": 5,
+    "Drops": [
+      {
+        "Number": 3778,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "mercilessly hacks you",
@@ -69938,6 +75756,20 @@
     "ImmuPoison": 0,
     "MonsGuards": 2775,
     "Illu": 100,
+    "Drops": [
+      {
+        "Number": 3792,
+        "Percent": 7
+      },
+      {
+        "Number": 3793,
+        "Percent": 7
+      },
+      {
+        "Number": 929,
+        "Percent": 7
+      }
+    ],
     "Attacks": [
       {
         "Name": "batters you with a wrench",
@@ -70076,6 +75908,12 @@
     "Rcol": 100,
     "ResistWater": 300,
     "MonsGuards": 2771,
+    "Drops": [
+      {
+        "Number": 3799,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "whips a tentacle, bludgeoning you",
@@ -70142,6 +75980,12 @@
     "Align": 2,
     "Magical": 5,
     "Dodge": 20,
+    "Drops": [
+      {
+        "Number": 3802,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "stabs you with a dagger",
@@ -70303,6 +76147,12 @@
     "Rfir": 10,
     "Rcol": 10,
     "Rlit": 10,
+    "Drops": [
+      {
+        "Number": 3805,
+        "Percent": 4
+      }
+    ],
     "Attacks": [
       {
         "Name": "savagely slashes you",
@@ -70369,6 +76219,12 @@
     "Magical": 5,
     "ImmuPoison": 100,
     "Dodge": 10,
+    "Drops": [
+      {
+        "Number": 3807,
+        "Percent": 3
+      }
+    ],
     "Attacks": [
       {
         "Name": "spins and hacks you",
@@ -70515,6 +76371,16 @@
     "Dodge": 25,
     "ImmuPoison": 100,
     "NonLiving": 1,
+    "Drops": [
+      {
+        "Number": 3815,
+        "Percent": 7
+      },
+      {
+        "Number": 3830,
+        "Percent": 25
+      }
+    ],
     "Attacks": [
       {
         "Name": "lunges and impales you",
@@ -70780,6 +76646,28 @@
     "Magical": 6,
     "ImmuPoison": 100,
     "Dodge": 70,
+    "Drops": [
+      {
+        "Number": 3818,
+        "Percent": 1
+      },
+      {
+        "Number": 704,
+        "Percent": 1
+      },
+      {
+        "Number": 3822,
+        "Percent": 1
+      },
+      {
+        "Number": 3823,
+        "Percent": 1
+      },
+      {
+        "Number": 3824,
+        "Percent": 1
+      }
+    ],
     "Attacks": [
       {
         "Name": "carves through you",

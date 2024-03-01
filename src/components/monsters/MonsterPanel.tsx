@@ -1,5 +1,7 @@
 import { createEffect, createSignal } from 'solid-js';
 import monsterJSON from '../../data/monsters.json';
+import weaponsJSON from '../../data/weapons.json';
+import armorJSON from '../../data/armor.json';
 import { Show, For } from 'solid-js';
 import { useParams } from '@solidjs/router';
 import { Monster } from '../../types';
@@ -10,6 +12,7 @@ import {
 import { getNumberString } from '../../utils/formatting';
 import { SpellListing } from './SpellListing';
 import { Alignments, MonsterTypes } from '../../utils/data-types';
+import { ItemInfo } from '../ItemInfo';
 
 export function MonsterPanel() {
   const params = useParams();
@@ -66,7 +69,9 @@ export function MonsterPanel() {
           <div>{monster()!.CharmLVL}</div>
           <Show when={monster()?.Weapon}>
             <div>Weapon</div>
-            <div>{monster()!.Weapon}</div>
+            <div>
+              <ItemInfo Number={monster()!.Weapon} />
+            </div>
           </Show>
           <Show when={abilities()}>
             <>
@@ -75,6 +80,16 @@ export function MonsterPanel() {
             </>
           </Show>
         </div>
+        <Show when={monster()?.Drops}>
+          <h3 class="my-4">Drops</h3>
+          <For each={monster()!.Drops}>
+            {(drop) => (
+              <div>
+                <ItemInfo Number={drop.Number} /> ({drop.Percent}%)
+              </div>
+            )}
+          </For>
+        </Show>
         <Show when={monster()?.Attacks}>
           <h3 class="my-4">Attacks</h3>
           <For each={monster()?.Attacks}>
