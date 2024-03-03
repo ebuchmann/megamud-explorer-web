@@ -1,7 +1,5 @@
 import { createEffect, createSignal } from 'solid-js';
-import monsterJSON from '../../data/monsters.json';
-import weaponsJSON from '../../data/weapons.json';
-import armorJSON from '../../data/armor.json';
+import { monsterData } from '../../data';
 import { Show, For } from 'solid-js';
 import { useParams } from '@solidjs/router';
 import { Monster } from '../../types';
@@ -12,7 +10,7 @@ import {
 import { getNumberString } from '../../utils/formatting';
 import { SpellListing } from './SpellListing';
 import { Alignments, MonsterTypes } from '../../utils/data-types';
-import { ItemInfo } from '../ItemInfo';
+import { UnknownReference, WeaponReference } from '../references';
 
 export function MonsterPanel() {
   const params = useParams();
@@ -21,7 +19,7 @@ export function MonsterPanel() {
   createEffect(() => {
     const number = Number(params.number);
     if (number) {
-      const monster = monsterJSON.find((mon: Monster) => mon.Number === number);
+      const monster = monsterData.find((mon: Monster) => mon.Number === number);
       setMonster(monster);
     }
   });
@@ -70,7 +68,7 @@ export function MonsterPanel() {
           <Show when={monster()?.Weapon}>
             <div>Weapon</div>
             <div>
-              <ItemInfo Number={monster()!.Weapon} />
+              <WeaponReference number={monster()!.Weapon} />
             </div>
           </Show>
           <Show when={abilities()}>
@@ -85,7 +83,7 @@ export function MonsterPanel() {
           <For each={monster()!.Drops}>
             {(drop) => (
               <div>
-                <ItemInfo Number={drop.Number} /> ({drop.Percent}%)
+                <UnknownReference number={drop.Number} /> ({drop.Percent}%)
               </div>
             )}
           </For>

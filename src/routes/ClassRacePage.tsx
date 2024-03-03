@@ -5,8 +5,7 @@ import {
   getCoreRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
-import classData from '../data/classes.json';
-import raceData from '../data/races.json';
+import { classData, raceData } from '../data';
 import { DataTable } from '../components/DataTable';
 import { ArmorTypes, MageryTypes } from '../utils/data-types';
 import { allClassValuesAbilities, specialProperties } from '../utils/values';

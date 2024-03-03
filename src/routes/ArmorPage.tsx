@@ -7,8 +7,7 @@ import {
   getFilteredRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
-import armor from '../data/armor.json';
-import classData from '../data/classes.json';
+import { armorData, classData } from '../data';
 import { For, createSignal } from 'solid-js';
 import {
   DataTable,
@@ -17,7 +16,6 @@ import {
   setGlobalFilter,
   setLevelFilter,
 } from '../components/DataTable';
-import { debounce } from '@solid-primitives/scheduled';
 import { allArmorValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
@@ -131,7 +129,7 @@ export function ArmorPage() {
 
   const table = createSolidTable({
     get data() {
-      return armor as Armor[];
+      return armorData;
     },
     columns,
     state: {

@@ -8,13 +8,13 @@ import {
   getSortedRowModel,
 } from '@tanstack/solid-table';
 import { Monster } from '../types';
-import monsters from '../data/monsters.json';
+import { monsterData } from '../data';
 import { makePersisted } from '@solid-primitives/storage';
 import { createEffect, createSignal } from 'solid-js';
 import { DataTable } from '../components/DataTable';
 import { TextSearch } from '../components/TextSearch';
 import { MonsterPanel } from '../components/monsters/MonsterPanel';
-import { useLocation, useNavigate, useParams } from '@solidjs/router';
+import { useNavigate, useParams } from '@solidjs/router';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 
 const columnHelper = createColumnHelper<Monster>();
@@ -74,7 +74,7 @@ export function MonstersPage() {
 
   const table = createSolidTable({
     get data() {
-      return monsters as Monster[];
+      return monsterData;
     },
     columns,
     state: {

@@ -82,3 +82,21 @@ export const ItemTypes = [
   'Scroll',
   'Special',
 ];
+
+export const CurrencyTypes = ['Copper', 'Silver', 'Gold', 'Platinum', 'Runic'];
+
+export const ShopTypes = [
+  'General',
+  'Weapons',
+  'Armor',
+  'Items',
+  'Spells',
+  'Hospital',
+  'Tavern',
+  'Bank',
+  'Trainer',
+  '<empty>',
+  'Specific',
+  'Gang Shop',
+  'Deed Shop',
+];

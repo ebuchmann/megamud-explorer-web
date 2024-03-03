@@ -1,11 +1,15 @@
 import fs from 'fs';
+import prettier from 'prettier';
 import { allValues, specialProperties } from './src/utils/values.js';
+
+const numberRegex = /([0-9.]+)/g;
 
 const itemData = JSON.parse(fs.readFileSync('./db/items.json', 'utf8'));
 const classData = JSON.parse(fs.readFileSync('./db/classes.json', 'utf8'));
 const raceData = JSON.parse(fs.readFileSync('./db/races.json', 'utf8'));
 const monsterData = JSON.parse(fs.readFileSync('./db/monsters.json', 'utf8'));
 const spellData = JSON.parse(fs.readFileSync('./db/spells.json', 'utf8'));
+const shopData = JSON.parse(fs.readFileSync('./db/shops.json', 'utf8'));
 
 const allWeapons = [];
 const allArmor = [];
@@ -14,6 +18,7 @@ const allClasses = [];
 const allRaces = [];
 const allMonsters = [];
 const allSpells = [];
+const allShops = [];
 
 for (const index in itemData) {
   const original = itemData[index];
@@ -66,7 +71,7 @@ for (const index in itemData) {
       }
     }
     allWeapons.push(item);
-  } else if (original['Worn'] > 0) {
+  } else if (original['ItemType'] === 0) {
     // Merge the "Leather" ArmourTypes into one for easier usage
     if ([3, 4, 5, 6].includes(original['ArmourType'])) {
       item.ArmourType = 6;
@@ -112,6 +117,10 @@ for (const index in itemData) {
           newItem[key] = original[`AbilVal-${x}`];
         }
       }
+    }
+
+    if (original['Obtained From']) {
+      newItem.Obtained = obtainedFrom(original['Obtained From']);
     }
 
     allItems.push(newItem);
@@ -280,26 +289,9 @@ for (const index in monsterData) {
 for (const index in spellData) {
   const original = spellData[index];
 
-  // "Number": 266,
-  //   "Name": "dragonfire",
-  //   "Short": "dfir",
-  //   "ReqLevel": 0,
-  //   "EnergyCost": 1000,
-  //   "ManaCost": 0,
-  //   "MinBase": 0,
-  //   "MaxBase": 0,
-  //   "Diff": 100,
-  //   "TypeOfResists": 0,
-  //   "Targets": 12,
-  //   "Dur": 0,
-  //   "AttType": 1,
-  //   "Magery": 0,
-  //   "MageryLVL": 0,
-  //   "Cap": 0,
-
   const item = {
     Number: original.Number,
-    Name: original.Name,
+    Name: original.Name ?? '',
     MinBase: original.MinBase,
     MaxBase: original.MaxBase,
     Dur: original.Dur,
@@ -323,25 +315,119 @@ for (const index in spellData) {
   allSpells.push(item);
 }
 
+for (const index in shopData) {
+  const original = shopData[index];
+
+  if (original['In Game'] === 0) continue;
+
+  const shop = {
+    Number: original.Number,
+    Name: original.Name,
+    ShopType: original.ShopType,
+    MinLVL: original.MinLVL,
+    MaxLVL: original.MaxLVL,
+    'Markup%': original['Markup%'],
+    ClassRest: original.ClassRest,
+  };
+
+  for (let x = 0; x < 20; x++) {
+    if (original[`Item-${x}`] === 0) continue;
+
+    if (!shop.Inventory) shop.Inventory = [];
+
+    const item = {
+      Number: original[`Item-${x}`],
+      Max: original[`Max-${x}`],
+      Time: original[`Time-${x}`],
+      Amount: original[`Amount-${x}`],
+      Percent: original[`%-${x}`],
+    };
+
+    shop.Inventory.push(item);
+  }
+
+  allShops.push(shop);
+}
+
+function obtainedFrom(value) {
+  const values = value.split(',');
+  const Obtained = {};
+
+  values.forEach((val) => {
+    if (val.includes('Shop')) {
+      if (val.includes('sell')) {
+        if (!Obtained.sell) Obtained.sell = [];
+        Obtained.sell.push(Number(val.match(numberRegex)[0]));
+      } else if (val.includes('nogen')) {
+        if (!Obtained.nogen) Obtained.nogen = [];
+        Obtained.nogen.push(Number(val.match(numberRegex)[0]));
+      } else {
+        if (!Obtained.buy) Obtained.buy = [];
+        Obtained.buy.push(Number(val.match(numberRegex)[0]));
+      }
+    } else if (val.includes('Monster')) {
+      if (!Obtained.monster) Obtained.monster = [];
+      Obtained.monster.push(val.match(numberRegex).join('|'));
+    } else if (val.includes('Item')) {
+      if (!Obtained.item) Obtained.item = [];
+      Obtained.item.push(val.match(numberRegex).join('|'));
+    } else if (val.includes('Room')) {
+      if (!Obtained.room) Obtained.room = [];
+      Obtained.room.push(val.match(numberRegex).join('|'));
+    } else if (val.includes('Textblock')) {
+      if (!Obtained.text) Obtained.text = [];
+      const result = val.match(numberRegex);
+      result.length > 1
+        ? Obtained.text.push(result.join('|'))
+        : Obtained.text.push(Number(result[0]));
+    }
+  });
+
+  return Obtained;
+}
+
+async function formatFile(content, type, name) {
+  const contentString = `
+    import { ${type} } from '../types'
+
+    export const ${name}: ${type}[] = ${JSON.stringify(content)}
+  `;
+
+  return await prettier.format(contentString, { parser: 'babel-ts' });
+}
+
 try {
   fs.writeFileSync(
-    './src/data/weapons.json',
-    JSON.stringify(allWeapons, null, 2),
-  );
-  fs.writeFileSync('./src/data/armor.json', JSON.stringify(allArmor, null, 2));
-  fs.writeFileSync('./src/data/items.json', JSON.stringify(allItems, null, 2));
-  fs.writeFileSync(
-    './src/data/classes.json',
-    JSON.stringify(allClasses, null, 2),
-  );
-  fs.writeFileSync('./src/data/races.json', JSON.stringify(allRaces, null, 2));
-  fs.writeFileSync(
-    './src/data/monsters.json',
-    JSON.stringify(allMonsters, null, 2),
+    './src/data/weapons.ts',
+    await formatFile(allWeapons, 'Weapon', 'weaponData'),
   );
   fs.writeFileSync(
-    './src/data/spells.json',
-    JSON.stringify(allSpells, null, 2),
+    './src/data/armor.ts',
+    await formatFile(allArmor, 'Armor', 'armorData'),
+  );
+  fs.writeFileSync(
+    './src/data/classes.ts',
+    await formatFile(allClasses, 'Class', 'classData'),
+  );
+  fs.writeFileSync(
+    './src/data/races.ts',
+    await formatFile(allRaces, 'Race', 'raceData'),
+  );
+  fs.writeFileSync(
+    './src/data/monsters.ts',
+    await formatFile(allMonsters, 'Monster', 'monsterData'),
+  );
+  fs.writeFileSync(
+    './src/data/items.ts',
+    await formatFile(allItems, 'Item', 'itemData'),
+  );
+  fs.writeFileSync(
+    './src/data/spells.ts',
+    await formatFile(allSpells, 'Spell', 'spellData'),
+  );
+  fs.writeFileSync(
+    './src/data/shops.ts',
+    await formatFile(allShops, 'Shop', 'shopData'),
   );
 } catch (err) {
   console.error(err);

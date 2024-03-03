@@ -1,5 +1,5 @@
 import { Accessor, Setter } from 'solid-js';
-import classData from '../data/classes.json';
+import { classData } from '../data';
 
 type ClassSelectProps = {
   onChange: (val: number) => void;

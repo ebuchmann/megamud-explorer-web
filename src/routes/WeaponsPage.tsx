@@ -7,10 +7,8 @@ import {
   getFilteredRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
-import weapons from '../data/weapons.json';
-import classData from '../data/classes.json';
+import { classData, weaponData } from '../data';
 import { For, createSignal } from 'solid-js';
-import { debounce } from '@solid-primitives/scheduled';
 import {
   DataTable,
   globalFilter,
@@ -173,7 +171,7 @@ export function WeaponsPage() {
 
   const table = createSolidTable({
     get data() {
-      return weapons as Weapon[];
+      return weaponData;
     },
     columns,
     state: {

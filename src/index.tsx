@@ -13,18 +13,20 @@ import {
   CharactersPage,
 } from './routes';
 import { ItemsPage } from './routes/ItemsPage';
+import { ShopsPage } from './routes/ShopsPage';
 
 const root = document.getElementById('root');
 
 render(
   () => (
     <Router root={App}>
-      <Route path="/weapons" component={WeaponsPage} />
-      <Route path="/armor" component={ArmorPage} />
-      <Route path="/items" component={ItemsPage} />
+      <Route path="/weapons/*number" component={WeaponsPage} />
+      <Route path="/armor/*number" component={ArmorPage} />
+      <Route path="/items/*number" component={ItemsPage} />
       <Route path="/classes-races" component={ClassRacePage} />
       <Route path="/monsters/*number" component={MonstersPage} />
-      <Route path="/characters" component={CharactersPage} />
+      <Route path="/shops/*number" component={ShopsPage} />
+      <Route path="/characters/*id" component={CharactersPage} />
       <Route path="/" />
     </Router>
   ),

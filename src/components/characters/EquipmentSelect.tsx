@@ -1,19 +1,21 @@
-import { For } from 'solid-js';
-import armorData from '../../data/armor.json';
-import weaponData from '../../data/weapons.json';
+import { Accessor, For } from 'solid-js';
+import { armorData, weaponData } from '../../data';
 import { CharacterWornSlots, WornSpots } from '../../utils/data-types';
 import { setCharacters } from '../../state/character-state';
 import { produce } from 'solid-js/store';
+import { Character } from '../../types';
 
 type EquipmentSelectProps = {
-  characterIndex: number;
+  characterIndex: Accessor<number>;
+  character: Accessor<Character>;
   wornSlot: number;
-  value: number;
+  index: Accessor<number>;
 };
 
 export function EquipmentSelect({
   characterIndex,
-  value,
+  character,
+  index,
   wornSlot,
 }: EquipmentSelectProps) {
   const slot = WornSpots.findIndex(
@@ -21,14 +23,16 @@ export function EquipmentSelect({
   );
   const validEquipment =
     wornSlot === 17 ? weaponData : armorData.filter((arm) => arm.Worn === slot);
+  const sortedEquipment = validEquipment.sort((a, b) =>
+    a.Name.localeCompare(b.Name),
+  );
 
   return (
     <select
-      value={String(value)}
+      value={String(character().worn[index()])}
       onChange={(e) => {
-        console.log(e.target.value);
         setCharacters(
-          characterIndex,
+          characterIndex(),
           'worn',
           produce((worn) => {
             worn[wornSlot] = Number(e.target.value);
@@ -37,7 +41,7 @@ export function EquipmentSelect({
       }}
     >
       <option value="0">Nothing</option>
-      <For each={validEquipment}>
+      <For each={sortedEquipment}>
         {(eq) => <option value={eq.Number}>{eq.Name}</option>}
       </For>
     </select>

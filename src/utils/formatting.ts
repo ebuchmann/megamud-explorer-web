@@ -1,5 +1,5 @@
 import { specialProperties } from './values';
-import spellJSON from '../data/spells.json';
+import { spellData } from '../data';
 import { Spell } from '../types';
 
 export const getNumberString = (value: number): string => {
@@ -26,7 +26,8 @@ export const expandKeyValue = (key: string, value: number): string => {
 const spellEffects = [20, 58, 87];
 
 export const formatSpell = (number: number): string => {
-  const spell = spellJSON.find((sp) => sp.Number === number) as Spell;
+  const spell = spellData.find((sp) => sp.Number === number);
+  if (!spell) return '<spell not found>';
 
   let value = spell.Name + ' [';
 
@@ -55,7 +56,7 @@ export const formatSpell = (number: number): string => {
   // Effects with single values
   if (spell.hasOwnProperty(specialProperties.get(4))) {
     const property = specialProperties.get(4);
-    value += `${property} ${getNumberString(spell[property])}`;
+    value += `${property} ${getNumberString(spell[property] || spell.MinBase)}`;
   }
 
   if (spell.Dur) value += ` for ${spell.Dur} rounds`;
@@ -63,7 +64,7 @@ export const formatSpell = (number: number): string => {
   if (spell.hasOwnProperty('RemovesSpell')) {
     value += ` - Removes Spell(`;
     spell.RemovesSpell?.forEach((removeNumber) => {
-      const spellToRemove = spellJSON.find(
+      const spellToRemove = spellData.find(
         (sp) => sp.Number === removeNumber,
       ) as Spell;
       value += spellToRemove.Name + ', ';

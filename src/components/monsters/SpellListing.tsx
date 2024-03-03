@@ -1,4 +1,4 @@
-import spellJSON from '../../data/spells.json';
+import { spellData } from '../../data';
 import { MonsterSpell, Spell } from '../../types';
 import { getNumberString } from '../../utils/formatting';
 import { specialProperties, allSpellValuesAbilities } from '../../utils/values';
@@ -8,11 +8,11 @@ type SpellListingProps = {
 };
 
 export function SpellListing({ spell }: SpellListingProps) {
-  const spellData: Spell = spellJSON.find(
+  const sp: Spell = spellData.find(
     (data) => data.Number === spell.Number,
   ) as Spell;
 
-  if (spellData.AttType === 4 && spellData.hasOwnProperty('NonMagicalSpell')) {
+  if (sp.AttType === 4 && sp.hasOwnProperty('NonMagicalSpell')) {
     return (
       <>
         <div class="mb-4">
@@ -34,22 +34,22 @@ export function SpellListing({ spell }: SpellListingProps) {
             {allSpellValuesAbilities
               .reduce((curr: string, mapKey: number) => {
                 const key = specialProperties.get(mapKey);
-                if (spellData.hasOwnProperty(key)) {
+                if (sp.hasOwnProperty(key)) {
                   if (key === 'Accuracy') {
-                    curr += `${key} ${spellData.MinBase}, `;
+                    curr += `${key} ${sp.MinBase}, `;
                   } else if (key === 'HoldPerson') {
-                    curr += `${spellData.MinBase} damage, ${key}${getNumberString(spellData[key])}`;
+                    curr += `${sp.MinBase} damage, ${key}${getNumberString(sp[key])}`;
                   } else if (key === 'Poison') {
-                    curr += `${key} ${spellData.MinBase} to ${spellData.MaxBase}, `;
+                    curr += `${key} ${sp.MinBase} to ${sp.MaxBase}, `;
                   } else {
-                    curr += `${key}${getNumberString(spellData[key])}, `;
+                    curr += `${key}${getNumberString(sp[key])}, `;
                   }
                 }
 
                 return curr;
               }, '')
               .replace(/,\s*$/, '')}
-            {spellData.Dur && ` for ${spellData.Dur} rounds`}
+            {sp.Dur && ` for ${sp.Dur} rounds`}
           </div>
         </div>
       </>
@@ -64,7 +64,7 @@ export function SpellListing({ spell }: SpellListingProps) {
       <div class="grid grid-cols-[1fr,2fr]">
         <div>Damage</div>
         <div>
-          {spellData.MinBase} - {spellData.MaxBase}
+          {sp.MinBase} - {sp.MaxBase}
         </div>
         <div>Success</div>
         <div>{spell.Success}%</div>
