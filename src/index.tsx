@@ -1,5 +1,6 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
+import { inject } from '@vercel/analytics';
 
 import './output.css';
 import { App } from './App';
@@ -14,6 +15,8 @@ import {
 } from './routes';
 import { ItemsPage } from './routes/ItemsPage';
 import { ShopsPage } from './routes/ShopsPage';
+
+inject();
 
 const root = document.getElementById('root');
 
