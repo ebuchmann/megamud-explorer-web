@@ -184,6 +184,7 @@ export type Item = {
   LoyalItem?: number;
   Illu?: number;
   IlluTarget?: number;
+  RoomIllu?: number;
   Cursed?: number;
 
   Obtained?: Obtained;

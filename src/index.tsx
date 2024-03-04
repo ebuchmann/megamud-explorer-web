@@ -15,6 +15,7 @@ import {
 } from './routes';
 import { ItemsPage } from './routes/ItemsPage';
 import { ShopsPage } from './routes/ShopsPage';
+import { MainPage } from './routes/MainPage';
 
 inject();
 
@@ -30,7 +31,7 @@ render(
       <Route path="/monsters/*number" component={MonstersPage} />
       <Route path="/shops/*number" component={ShopsPage} />
       <Route path="/characters/*id" component={CharactersPage} />
-      <Route path="/" />
+      <Route path="/" component={MainPage} />
     </Router>
   ),
   root!,

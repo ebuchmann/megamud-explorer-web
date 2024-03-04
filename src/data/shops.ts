@@ -3222,7 +3222,10 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
-    Inventory: [{ Number: 2224, Max: 0, Time: 0, Amount: 0, Percent: 0 }],
+    Inventory: [
+      { Number: 732, Max: 30, Time: 240, Amount: 1, Percent: 100 },
+      { Number: 2224, Max: 0, Time: 0, Amount: 0, Percent: 0 },
+    ],
   },
   {
     Number: 197,
