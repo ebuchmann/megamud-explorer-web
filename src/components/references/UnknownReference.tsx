@@ -11,7 +11,7 @@ export function UnknownReference({ number }: UnknownReferenceProps) {
     weaponData.find((weapon) => weapon.Number === number) ||
     itemData.find((item) => item.Number === number);
 
-  if (!item) return null;
+  if (!item) return <div>Unknown item ({number})</div>;
   if (item.ItemType === 0) return <ArmorReference number={item.Number} />;
   if (item.ItemType === 1) return <WeaponReference number={item.Number} />;
 

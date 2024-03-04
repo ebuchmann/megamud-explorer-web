@@ -68,9 +68,9 @@ export function InventoryTable({ shop }: InventoryTableProps) {
 
       return {
         ...shopItem,
-        Price: found!.Price,
-        Currency: found!.Currency,
-        ItemType: found!.ItemType,
+        Price: found?.Price ?? 0,
+        Currency: found?.Currency ?? 0,
+        ItemType: found?.ItemType ?? 0,
         Markup: shop()!['Markup%'],
       };
     });
