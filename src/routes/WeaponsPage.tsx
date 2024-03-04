@@ -24,29 +24,12 @@ import { getNumberString } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { TextSearch } from '../components/TextSearch';
-
-type Weapon = {
-  Number: number;
-  Name: string;
-  WeaponType: number;
-  Min: number;
-  Max: number;
-  Speed: number;
-  MinLevel: number;
-  StrReq: number;
-  Encum: number;
-  ArmourClass: number;
-  DamageResist: number;
-  Accy: number;
-  BsAccu: number;
-  Crits: number;
-  Limit: number;
-  // dmg/spd
-  // dmg*5
-  Magical: number;
-  ClassOk?: number[];
-  Classes?: number[];
-};
+import { MainPanel } from '../components/layout/MainPanel';
+import { SidePanel } from '../components/layout/SidePanel';
+import { useNavigate } from '@solidjs/router';
+import { Weapon } from '../types';
+import { WeaponPanel } from '../components/weapons/WeaponPanel';
+import { WeaponTypes } from '../utils/data-types';
 
 const defaultWeaponTypeFilter = [0, 1, 2, 3];
 
@@ -56,8 +39,6 @@ const getClassList = (values: number[]): string =>
     .join(' / ');
 
 const columnHelper = createColumnHelper<Weapon>();
-
-const WeaponTypes = ['1H Blunt', '2H Blunt', '1H Sharp', '2H Sharp'];
 
 const columns = [
   columnHelper.accessor('Number', {
@@ -158,6 +139,7 @@ const defaultColumnVisibility = {
 };
 
 export function WeaponsPage() {
+  const navigate = useNavigate();
   const [searchValue, setSearchValue] = createSignal<string>('');
   const [bsValue, setBsValue] = createSignal<boolean>(false);
   const [weaponTypes, setWeaponTypes] = createSignal(defaultWeaponTypeFilter);
@@ -217,9 +199,15 @@ export function WeaponsPage() {
 
       return false;
     },
-    enableRowSelection: false,
+    enableRowSelection: true,
+    enableMultiRowSelection: false,
+    onRowSelectionChange: (select) => {
+      const val = Object.keys(select())[0];
+      navigate(`/weapons/${val}`, { replace: true });
+    },
     onColumnFiltersChange: setColumnFilters,
     onColumnVisibilityChange: setColumnVisibility,
+    getRowId: (row) => String(row.Number),
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
@@ -230,79 +218,87 @@ export function WeaponsPage() {
     table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
 
   return (
-    <>
-      <div class="flex gap-4">
-        <TextSearch
-          value={searchValue}
-          setValue={setSearchValue}
-          column={table.getColumn('Name')}
-        />
-        <LevelInput
-          value={levelFilter}
-          setValue={setLevelFilter}
-          column={table.getColumn('MinLevel')!}
-        />
-        <ClassSelect
-          value={globalFilter}
-          setValue={setGlobalFilter}
-          onChange={(val) => table.setGlobalFilter(val)}
-        />
-        <button
-          onClick={() => {
-            table.resetColumnFilters(true);
-            table.resetGlobalFilter(true);
-            setSearchValue('');
-            setLevelFilter('');
-            setBsValue(false);
-            setGlobalFilter('');
-            setWeaponTypes(defaultWeaponTypeFilter);
-          }}
-        >
-          Clear Filters
-        </button>
-        <GlobalFilterMenu />
-      </div>
-      <div class="grid grid-cols-4 gap-1">
-        <For each={WeaponTypes}>
-          {(type, index) => (
-            <label>
-              <input
-                type="checkbox"
-                value={index()}
-                onChange={(e) => {
-                  const column = table.getColumn('WeaponType');
-                  e.target.checked
-                    ? setWeaponTypes([...weaponTypes(), Number(e.target.value)])
-                    : setWeaponTypes(
-                        weaponTypes().filter(
-                          (type) => type !== Number(e.target.value),
-                        ),
-                      );
-                  weaponTypes().length === 4
-                    ? column?.setFilterValue('')
-                    : column?.setFilterValue(weaponTypes());
-                }}
-                checked={weaponTypes().includes(index())}
-              />{' '}
-              {type}
-            </label>
-          )}
-        </For>
-        <label>
-          <input
-            type="checkbox"
-            checked={bsValue()}
-            onChange={(e) => {
-              table.getColumn('BsAccu')?.setFilterValue(e.target.checked);
-              setBsValue(e.target.checked);
+    <div class="flex gap-4 h-[100%]">
+      <MainPanel>
+        <div class="flex gap-4">
+          <TextSearch
+            value={searchValue}
+            setValue={setSearchValue}
+            column={table.getColumn('Name')}
+          />
+          <LevelInput
+            value={levelFilter}
+            setValue={setLevelFilter}
+            column={table.getColumn('MinLevel')!}
+          />
+          <ClassSelect
+            value={globalFilter}
+            setValue={setGlobalFilter}
+            onChange={(val) => table.setGlobalFilter(val)}
+          />
+          <button
+            onClick={() => {
+              table.resetColumnFilters(true);
+              table.resetGlobalFilter(true);
+              setSearchValue('');
+              setLevelFilter('');
+              setBsValue(false);
+              setGlobalFilter('');
+              setWeaponTypes(defaultWeaponTypeFilter);
             }}
-          />{' '}
-          BS'able
-        </label>
-      </div>
-      <ScrollContainer>
-        <DataTable highlightEquipment table={table} />
-      </ScrollContainer>
-    </>
+          >
+            Clear Filters
+          </button>
+          <GlobalFilterMenu />
+        </div>
+        <div class="grid grid-cols-4 gap-1">
+          <For each={WeaponTypes}>
+            {(type, index) => (
+              <label>
+                <input
+                  type="checkbox"
+                  value={index()}
+                  onChange={(e) => {
+                    const column = table.getColumn('WeaponType');
+                    e.target.checked
+                      ? setWeaponTypes([
+                          ...weaponTypes(),
+                          Number(e.target.value),
+                        ])
+                      : setWeaponTypes(
+                          weaponTypes().filter(
+                            (type) => type !== Number(e.target.value),
+                          ),
+                        );
+                    weaponTypes().length === 4
+                      ? column?.setFilterValue('')
+                      : column?.setFilterValue(weaponTypes());
+                  }}
+                  checked={weaponTypes().includes(index())}
+                />{' '}
+                {type}
+              </label>
+            )}
+          </For>
+          <label>
+            <input
+              type="checkbox"
+              checked={bsValue()}
+              onChange={(e) => {
+                table.getColumn('BsAccu')?.setFilterValue(e.target.checked);
+                setBsValue(e.target.checked);
+              }}
+            />{' '}
+            BS'able
+          </label>
+        </div>
+        <ScrollContainer>
+          <DataTable highlightEquipment table={table} />
+        </ScrollContainer>
+      </MainPanel>
+      <SidePanel>
+        <WeaponPanel />
+      </SidePanel>
+    </div>
   );
 }

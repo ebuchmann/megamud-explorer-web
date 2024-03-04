@@ -23,7 +23,6 @@ const allShops = [];
 for (const index in itemData) {
   const original = itemData[index];
   if (original['In Game'] === 0) continue;
-  if (original['Gettable'] === 0) continue;
 
   const item = {
     Number: original.Number,
@@ -70,6 +69,11 @@ for (const index in itemData) {
         item.Classes.push(original[`ClassRest-${x}`]);
       }
     }
+
+    if (original['Obtained From']) {
+      item.Obtained = obtainedFrom(original['Obtained From']);
+    }
+
     allWeapons.push(item);
   } else if (original['ItemType'] === 0) {
     // Merge the "Leather" ArmourTypes into one for easier usage
@@ -95,6 +99,11 @@ for (const index in itemData) {
         item.Classes.push(original[`ClassRest-${x}`]);
       }
     }
+
+    if (original['Obtained From']) {
+      item.Obtained = obtainedFrom(original['Obtained From']);
+    }
+
     allArmor.push(item);
   } else if (original['ItemType'] > 1) {
     const newItem = {

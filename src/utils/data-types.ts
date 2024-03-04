@@ -100,3 +100,5 @@ export const ShopTypes = [
   'Gang Shop',
   'Deed Shop',
 ];
+
+export const WeaponTypes = ['1H Blunt', '2H Blunt', '1H Sharp', '2H Sharp'];

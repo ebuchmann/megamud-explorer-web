@@ -15,7 +15,7 @@ import { SidePanel } from '../components/layout/SidePanel';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';
 import { ShopTypes } from '../utils/data-types';
-import { ShopPanel } from '../components/ShopPanel';
+import { ShopPanel } from '../components/shops/ShopPanel';
 
 const columnHelper = createColumnHelper<Shop>();
 
@@ -42,7 +42,7 @@ export function ShopsPage() {
 
   const table = createSolidTable({
     get data() {
-      return shopData as Shop[];
+      return shopData;
     },
     columns,
     enableRowSelection: true,

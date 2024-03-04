@@ -16,6 +16,8 @@ import { TextSearch } from '../components/TextSearch';
 import { MonsterPanel } from '../components/monsters/MonsterPanel';
 import { useNavigate, useParams } from '@solidjs/router';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
+import { MainPanel } from '../components/layout/MainPanel';
+import { SidePanel } from '../components/layout/SidePanel';
 
 const columnHelper = createColumnHelper<Monster>();
 
@@ -107,7 +109,7 @@ export function MonstersPage() {
 
   return (
     <div class="flex gap-4 h-[100%]">
-      <div class="w-9/12 h-[100%] flex flex-col gap-4">
+      <MainPanel>
         <div class="flex">
           <TextSearch
             value={searchValue}
@@ -118,10 +120,10 @@ export function MonstersPage() {
         <ScrollContainer>
           <DataTable table={table} />
         </ScrollContainer>
-      </div>
-      <div class="w-3/12 overflow-auto">
+      </MainPanel>
+      <SidePanel>
         <MonsterPanel />
-      </div>
+      </SidePanel>
     </div>
   );
 }

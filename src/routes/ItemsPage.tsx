@@ -17,7 +17,7 @@ import { allItemValuesAbilities, specialProperties } from '../utils/values';
 import { SidePanel } from '../components/layout/SidePanel';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';
-import { ItemPanel } from '../components/ItemPanel';
+import { ItemPanel } from '../components/items/ItemPanel';
 
 const columnHelper = createColumnHelper<Item>();
 

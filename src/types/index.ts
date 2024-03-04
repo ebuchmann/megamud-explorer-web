@@ -81,6 +81,7 @@ export type Weapon = {
   Shadow?: number;
   Classes?: number[];
   ClassOk?: number[];
+  Obtained?: Obtained;
 };
 
 export type Armor = {
@@ -158,6 +159,7 @@ export type Armor = {
   AlterSpDmg?: number;
   ClassOk?: number[];
   Classes?: number[];
+  Obtained?: Obtained;
 };
 
 export type Item = {
@@ -389,6 +391,14 @@ export type Spell = {
   HitMagic?: number;
 };
 
+export type ShopInventory = {
+  Number: number;
+  Max: number;
+  Time: number;
+  Amount: number;
+  Percent: number;
+};
+
 export type Shop = {
   Number: number;
   Name: string;
@@ -397,11 +407,5 @@ export type Shop = {
   MaxLVL: number;
   'Markup%': number;
   ClassRest: number;
-  Inventory?: {
-    Number: number;
-    Max: number;
-    Time: number;
-    Amount: number;
-    Percent: number;
-  }[];
+  Inventory?: ShopInventory[];
 };

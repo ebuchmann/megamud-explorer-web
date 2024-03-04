@@ -25,6 +25,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -15,
     Dodge: -5,
+    Obtained: { nogen: [6], monster: ["72|1"] },
   },
   {
     Number: 332,
@@ -48,6 +49,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { buy: [46], text: ["9123|1", "9126|1"] },
   },
   {
     Number: 333,
@@ -71,6 +73,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { buy: [46] },
   },
   {
     Number: 334,
@@ -94,6 +97,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { buy: [46], text: ["9126|4"] },
   },
   {
     Number: 335,
@@ -117,6 +121,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { buy: [46] },
   },
   {
     Number: 336,
@@ -140,6 +145,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { buy: [46] },
   },
   {
     Number: 355,
@@ -167,6 +173,12 @@ export const armorData: Armor[] = [
     Crits: 3,
     BsMinDmg: 5,
     Classes: [9],
+    Obtained: {
+      sell: [146],
+      monster: ["674|1"],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 357,
@@ -193,6 +205,7 @@ export const armorData: Armor[] = [
     PunchDmg: 3,
     PunchAcc: 3,
     Classes: [15],
+    Obtained: { room: ["1|2240"], sell: [146] },
   },
   {
     Number: 362,
@@ -219,6 +232,11 @@ export const armorData: Armor[] = [
     Stealth: -12,
     Dodge: -6,
     ManaRgn: 10,
+    Obtained: {
+      buy: [70],
+      text: ["874|2", "882|2"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 366,
@@ -243,6 +261,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: 2,
     Classes: [7],
+    Obtained: { buy: [66, 82] },
   },
   {
     Number: 367,
@@ -267,6 +286,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: 3,
     Classes: [7],
+    Obtained: { buy: [66, 82], text: ["9126|10"] },
   },
   {
     Number: 368,
@@ -292,6 +312,7 @@ export const armorData: Armor[] = [
     Stealth: 2,
     Dodge: 2,
     Classes: [7],
+    Obtained: { buy: [66, 82] },
   },
   {
     Number: 370,
@@ -315,6 +336,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [41, 239] },
   },
   {
     Number: 9,
@@ -337,6 +359,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [40, 102] },
   },
   {
     Number: 12,
@@ -359,6 +382,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12, 78, 103, 119], text: ["9123|1"] },
   },
   {
     Number: 13,
@@ -381,6 +405,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12] },
   },
   {
     Number: 14,
@@ -405,6 +430,10 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -5,
     Dodge: -6,
+    Obtained: {
+      buy: [6, 78, 115],
+      monster: ["14|10", "2324|10", "13|10", "2327|10"],
+    },
   },
   {
     Number: 15,
@@ -428,6 +457,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -12,
+    Obtained: { buy: [6, 114, 115] },
   },
   {
     Number: 16,
@@ -451,6 +481,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 5,
     Stealth: -10,
+    Obtained: { buy: [12, 78] },
   },
   {
     Number: 17,
@@ -475,6 +506,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -14,
     Dodge: -11,
+    Obtained: { buy: [6] },
   },
   {
     Number: 18,
@@ -499,6 +531,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -16,
     Dodge: -14,
+    Obtained: { buy: [6] },
   },
   {
     Number: 19,
@@ -523,6 +556,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -18,
     Dodge: -17,
+    Obtained: { buy: [6], monster: ["214|5", "2325|5"] },
   },
   {
     Number: 20,
@@ -545,6 +579,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12, 80, 102], text: ["9123|1", "9125|1", "9126|3"] },
   },
   {
     Number: 22,
@@ -567,6 +602,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { text: ["9123|1"] },
   },
   {
     Number: 23,
@@ -589,6 +625,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12, 78, 103, 119] },
   },
   {
     Number: 24,
@@ -613,6 +650,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -3,
     Dodge: -2,
+    Obtained: { buy: [6, 78], text: ["9122|1"] },
   },
   {
     Number: 25,
@@ -637,6 +675,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -3,
     Dodge: -3,
+    Obtained: { buy: [6, 115], nogen: [114], text: ["9122|1"] },
   },
   {
     Number: 26,
@@ -661,6 +700,7 @@ export const armorData: Armor[] = [
     MinLevel: 5,
     Stealth: -5,
     Dodge: -4,
+    Obtained: { buy: [12, 78] },
   },
   {
     Number: 27,
@@ -685,6 +725,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -5,
     Dodge: -5,
+    Obtained: { buy: [6] },
   },
   {
     Number: 28,
@@ -709,6 +750,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -5,
     Dodge: -7,
+    Obtained: { buy: [6], text: ["9122|1"] },
   },
   {
     Number: 30,
@@ -731,6 +773,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [16], text: ["9123|1"] },
   },
   {
     Number: 33,
@@ -753,6 +796,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [16, 78, 103], text: ["9123|1"] },
   },
   {
     Number: 34,
@@ -775,6 +819,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [43, 78], text: ["9122|1"] },
   },
   {
     Number: 35,
@@ -797,6 +842,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [43, 115] },
   },
   {
     Number: 36,
@@ -820,6 +866,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Percep: -5,
+    Obtained: { buy: [43, 78, 114] },
   },
   {
     Number: 37,
@@ -843,6 +890,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Percep: -10,
+    Obtained: { buy: [43] },
   },
   {
     Number: 38,
@@ -865,6 +913,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12, 80, 102] },
   },
   {
     Number: 40,
@@ -887,6 +936,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12] },
   },
   {
     Number: 41,
@@ -909,6 +959,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12, 78, 103] },
   },
   {
     Number: 42,
@@ -931,6 +982,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [43, 78], text: ["9122|1"] },
   },
   {
     Number: 43,
@@ -953,6 +1005,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [43] },
   },
   {
     Number: 44,
@@ -975,6 +1028,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [43, 114] },
   },
   {
     Number: 45,
@@ -997,6 +1051,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [16, 102] },
   },
   {
     Number: 46,
@@ -1020,6 +1075,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: 3,
+    Obtained: { buy: [82], text: ["9123|1", "9126|5", "882|4"] },
   },
   {
     Number: 47,
@@ -1044,6 +1100,7 @@ export const armorData: Armor[] = [
     MinLevel: 15,
     Magical: 1,
     Classes: [14, 13],
+    Obtained: { buy: [87, 242, 313] },
   },
   {
     Number: 49,
@@ -1066,6 +1123,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [16, 78, 103], monster: ["546|1"] },
   },
   {
     Number: 50,
@@ -1089,6 +1147,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -7,
+    Obtained: { buy: [43, 78, 115] },
   },
   {
     Number: 51,
@@ -1112,6 +1171,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [43, 114], text: ["9122|1"] },
   },
   {
     Number: 53,
@@ -1134,6 +1194,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [35, 78, 97, 103, 218, 256] },
   },
   {
     Number: 55,
@@ -1156,6 +1217,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [35, 79, 102, 151, 218, 256], text: ["9125|1"] },
   },
   {
     Number: 56,
@@ -1179,6 +1241,11 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -10,
+    Obtained: {
+      buy: [35, 78, 97, 103, 218, 256],
+      monster: ["1000|1"],
+      text: ["9122|2"],
+    },
   },
   {
     Number: 57,
@@ -1202,6 +1269,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -2,
+    Obtained: { buy: [41, 242] },
   },
   {
     Number: 58,
@@ -1225,6 +1293,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -2,
+    Obtained: { buy: [41] },
   },
   {
     Number: 59,
@@ -1248,6 +1317,10 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -3,
+    Obtained: {
+      buy: [41, 78],
+      monster: ["14|10", "2324|10", "13|10", "2327|10"],
+    },
   },
   {
     Number: 60,
@@ -1271,6 +1344,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [41] },
   },
   {
     Number: 61,
@@ -1294,6 +1368,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [41] },
   },
   {
     Number: 62,
@@ -1317,6 +1392,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [41, 221, 239] },
   },
   {
     Number: 105,
@@ -1339,6 +1415,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [16, 111] },
   },
   {
     Number: 113,
@@ -1363,6 +1440,25 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     GoodOnly: 0,
     MaxDamage: 1,
+    Obtained: {
+      sell: [88],
+      text: ["874|2", "889|2", "2922|1"],
+      item: [
+        "906|2",
+        "908|9.6",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|21.5",
+        "957|21.5",
+        "958|21.5",
+        "974|7.3",
+        "1727|3",
+        "1819|0.5",
+        "1834|3.5",
+        "1840|6.7",
+      ],
+    },
   },
   {
     Number: 118,
@@ -1386,6 +1482,21 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 20,
     Magical: 1,
+    Obtained: {
+      room: ["1|2249"],
+      nogen: [169],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 161,
@@ -1408,6 +1519,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [33], monster: ["31|1", "43|10"] },
   },
   {
     Number: 162,
@@ -1430,6 +1542,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [33], monster: ["31|1"] },
   },
   {
     Number: 163,
@@ -1453,6 +1566,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     ManaRgn: 5,
+    Obtained: { buy: [33] },
   },
   {
     Number: 164,
@@ -1475,6 +1589,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [33, 96], monster: ["31|1"] },
   },
   {
     Number: 165,
@@ -1497,6 +1612,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [33, 96], monster: ["470|1"] },
   },
   {
     Number: 166,
@@ -1522,6 +1638,7 @@ export const armorData: Armor[] = [
     "S.C.": 1,
     Magical: 1,
     Classes: [3, 4, 5, 6],
+    Obtained: { buy: [33], monster: ["214|50", "2325|50"] },
   },
   {
     Number: 167,
@@ -1549,6 +1666,12 @@ export const armorData: Armor[] = [
     GoodOnly: -51,
     "Alter HP": 20,
     Crits: 2,
+    Obtained: {
+      sell: [88],
+      monster: ["40|3"],
+      text: ["5168|4", "5447|6", "9825|3"],
+      item: ["3532|8.7", "3629|4", "3710|6.9", "3728|6"],
+    },
   },
   {
     Number: 168,
@@ -1572,6 +1695,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { room: ["1|2249"] },
   },
   {
     Number: 169,
@@ -1597,6 +1721,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     MaxDamage: -2,
     Magical: 1,
+    Obtained: { buy: [169] },
   },
   {
     Number: 170,
@@ -1620,6 +1745,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Illu: 25,
+    Obtained: {
+      room: ["1|2249"],
+      buy: [33],
+      monster: ["242|1"],
+      text: ["9126|1"],
+    },
   },
   {
     Number: 179,
@@ -1644,6 +1775,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -5,
     Dodge: -8,
+    Obtained: { buy: [67, 69, 78], text: ["4106|10"], item: ["1738|41"] },
   },
   {
     Number: 180,
@@ -1667,6 +1799,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [67, 78], text: ["9126|4"] },
   },
   {
     Number: 190,
@@ -1691,6 +1824,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: { nogen: [67], monster: ["36|5", "293|5", "354|1"] },
   },
   {
     Number: 202,
@@ -1716,6 +1850,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     EvilOnly: 100,
     Classes: [5],
+    Obtained: {
+      nogen: [67],
+      buy: [69, 80],
+      text: ["4106|10"],
+      item: ["1738|41"],
+    },
   },
   {
     Number: 210,
@@ -1743,6 +1883,7 @@ export const armorData: Armor[] = [
     "M.R.": 5,
     "Alter HP": 10,
     MaxDamage: 1,
+    Obtained: { sell: [88], monster: ["68|10"] },
   },
   {
     Number: 211,
@@ -1768,6 +1909,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Illu: 25,
     MaxDamage: 3,
+    Obtained: { sell: [88], monster: ["59|5"] },
   },
   {
     Number: 212,
@@ -1794,6 +1936,7 @@ export const armorData: Armor[] = [
     "M.R.": 5,
     Crits: 1,
     MaxDamage: 2,
+    Obtained: { sell: [88], monster: ["68|10"] },
   },
   {
     Number: 213,
@@ -1820,6 +1963,7 @@ export const armorData: Armor[] = [
     Stealth: 10,
     BsMinDmg: 5,
     BsMaxDmg: 2,
+    Obtained: { sell: [88], monster: ["68|10"] },
   },
   {
     Number: 214,
@@ -1846,6 +1990,12 @@ export const armorData: Armor[] = [
     "S.C.": 3,
     MaxMana: 10,
     Classes: [3, 4, 5, 6],
+    Obtained: {
+      sell: [88],
+      monster: ["68|10"],
+      text: ["5168|4"],
+      item: ["3629|4", "3710|4"],
+    },
   },
   {
     Number: 215,
@@ -1871,6 +2021,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     ManaRgn: 15,
     Crits: 4,
+    Obtained: {
+      sell: [88],
+      monster: ["68|10"],
+      text: ["9820|1"],
+      item: ["3518|2", "3629|1"],
+    },
   },
   {
     Number: 216,
@@ -1895,6 +2051,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     "S.C.": 3,
+    Obtained: { sell: [88], buy: [251], monster: ["52|25", "63|10", "72|1"] },
   },
   {
     Number: 266,
@@ -1921,6 +2078,7 @@ export const armorData: Armor[] = [
     Stealth: -8,
     Dodge: -9,
     MaxDamage: 1,
+    Obtained: { sell: [148], monster: ["69|25"] },
   },
   {
     Number: 268,
@@ -1948,6 +2106,7 @@ export const armorData: Armor[] = [
     MaxMana: 5,
     ManaRgn: 10,
     Classes: [5],
+    Obtained: { sell: [148], monster: ["69|25"] },
   },
   {
     Number: 273,
@@ -1970,6 +2129,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40], text: ["9125|1"] },
   },
   {
     Number: 274,
@@ -1992,6 +2152,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40, 80], monster: ["624|5"], text: ["9125|1", "9126|3"] },
   },
   {
     Number: 275,
@@ -2014,6 +2175,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40, 111], monster: ["863|10"] },
   },
   {
     Number: 276,
@@ -2036,6 +2198,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40] },
   },
   {
     Number: 277,
@@ -2058,6 +2221,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40] },
   },
   {
     Number: 278,
@@ -2080,6 +2244,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40] },
   },
   {
     Number: 279,
@@ -2102,6 +2267,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40] },
   },
   {
     Number: 280,
@@ -2124,6 +2290,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40] },
   },
   {
     Number: 281,
@@ -2146,6 +2313,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [12, 241] },
   },
   {
     Number: 285,
@@ -2171,6 +2339,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Crits: 1,
     Dodge: 1,
+    Obtained: { buy: [42] },
   },
   {
     Number: 287,
@@ -2193,6 +2362,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [42] },
   },
   {
     Number: 288,
@@ -2220,6 +2390,11 @@ export const armorData: Armor[] = [
     CastsSp: 917,
     Recharge: 3,
     Percep: 3,
+    Obtained: {
+      buy: [42, 247],
+      text: ["3343|5"],
+      item: ["907|9.8", "3532|14.3", "3629|5", "3728|5"],
+    },
   },
   {
     Number: 289,
@@ -2242,6 +2417,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [42, 79, 102, 115, 151], text: ["9125|1"] },
   },
   {
     Number: 400,
@@ -2269,6 +2445,12 @@ export const armorData: Armor[] = [
     ProtEvil: 3,
     "S.C.": 5,
     Classes: [5],
+    Obtained: {
+      buy: [68, 215],
+      monster: ["863|10"],
+      text: ["9646|25"],
+      item: ["1801|54.4"],
+    },
   },
   {
     Number: 401,
@@ -2296,6 +2478,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     "S.C.": 15,
     "M.R.": 10,
+    Obtained: { buy: [42, 234], text: ["9820|1"], item: ["3518|2", "3629|1"] },
   },
   {
     Number: 402,
@@ -2322,6 +2505,22 @@ export const armorData: Armor[] = [
     Percep: 5,
     CastsSp: 155,
     Recharge: 3,
+    Obtained: {
+      buy: [170],
+      text: ["874|1", "882|1", "889|3"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|11.5",
+        "910|5.9",
+        "911|14.1",
+        "956|24.7",
+        "957|24.7",
+        "958|24.7",
+        "1819|0.7",
+        "1840|8",
+      ],
+    },
   },
   {
     Number: 403,
@@ -2344,6 +2543,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [43], monster: ["127|1"], text: ["9126|1"] },
   },
   {
     Number: 404,
@@ -2369,6 +2569,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     "S.C.": 5,
     ManaRgn: 5,
+    Obtained: {
+      buy: [80, 169, 243],
+      text: ["874|2", "882|3"],
+      monster: ["215|100"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 405,
@@ -2393,6 +2599,20 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Percep: -5,
     Magical: 1,
+    Obtained: {
+      buy: [170],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 406,
@@ -2418,6 +2638,22 @@ export const armorData: Armor[] = [
     Magical: 1,
     Recharge: 3,
     CastsSp: 156,
+    Obtained: {
+      nogen: [68, 172, 215],
+      text: ["874|1", "882|1", "889|2"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|18.3",
+        "957|18.3",
+        "958|18.3",
+        "1819|0.5",
+        "1840|5.9",
+      ],
+    },
   },
   {
     Number: 407,
@@ -2443,6 +2679,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     CastsSp: 157,
     Recharge: 3,
+    Obtained: {
+      buy: [172],
+      text: [181, "874|2", "882|5"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 408,
@@ -2467,6 +2708,23 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     "M.R.": 5,
+    Obtained: {
+      buy: [172],
+      monster: ["113|10"],
+      text: ["874|1", "882|1", "889|2"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|18.3",
+        "957|18.3",
+        "958|18.3",
+        "1819|0.5",
+        "1840|5.9",
+      ],
+    },
   },
   {
     Number: 409,
@@ -2494,6 +2752,7 @@ export const armorData: Armor[] = [
     ProtEvil: 10,
     "S.C.": 5,
     Classes: [5],
+    Obtained: { buy: [68, 215], text: ["9646|50"], item: ["1801|62.5"] },
   },
   {
     Number: 410,
@@ -2517,6 +2776,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Magical: 1,
+    Obtained: {
+      buy: [102, 169],
+      monster: ["129|5"],
+      text: ["882|4", "2944|7"],
+      item: ["1344|32.6", "1485|17.4", "1496|22", "1667|17.4"],
+    },
   },
   {
     Number: 411,
@@ -2542,6 +2807,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     "S.C.": 5,
     ManaRgn: 10,
+    Obtained: {
+      buy: [169],
+      text: ["874|2", "882|2"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 412,
@@ -2564,6 +2834,26 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 15,
+    Obtained: {
+      buy: [119, 183, 225],
+      monster: ["122|10", "655|1"],
+      text: ["889|2", "9059|5"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1352|18.6",
+        "1354|9.8",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 413,
@@ -2589,6 +2879,24 @@ export const armorData: Armor[] = [
     Crits: 2,
     Magical: 1,
     MaxDamage: 1,
+    Obtained: {
+      buy: [42],
+      text: ["889|1", "3343|3"],
+      item: [
+        "907|5.9",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "956|7.7",
+        "957|7.7",
+        "958|7.7",
+        "1819|0.2",
+        "1840|2.8",
+        "3532|8.7",
+        "3629|3",
+        "3728|3",
+      ],
+    },
   },
   {
     Number: 414,
@@ -2611,6 +2919,25 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: {
+      buy: [70, 103],
+      text: ["874|5", "882|3", "2922|5", "2944|1"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "974|21.4",
+        "1344|9.2",
+        "1485|3.3",
+        "1496|5.3",
+        "1667|3.3",
+        "1727|14.3",
+        "1834|16.3",
+        "1840|5.1",
+      ],
+    },
   },
   {
     Number: 415,
@@ -2637,6 +2964,12 @@ export const armorData: Armor[] = [
     Rfir: 20,
     Stealth: -5,
     Dodge: -3,
+    Obtained: {
+      sell: [148],
+      monster: ["185|10"],
+      text: ["9817|2"],
+      item: ["3517|2"],
+    },
   },
   {
     Number: 416,
@@ -2661,6 +2994,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Stealth: -5,
     Dodge: -6,
+    Obtained: { buy: [6], text: ["9126|1"] },
   },
   {
     Number: 417,
@@ -2684,6 +3018,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Stealth: -8,
+    Obtained: { buy: [6] },
   },
   {
     Number: 418,
@@ -2708,6 +3043,12 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -16,
     Dodge: -14,
+    Obtained: {
+      buy: [6, 99, 221],
+      monster: ["383|1"],
+      text: ["874|2", "882|1"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 419,
@@ -2732,6 +3073,30 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -10,
     Dodge: -8,
+    Obtained: {
+      buy: [70, 99, 114, 221, 237],
+      monster: ["342|5"],
+      text: ["889|1", "898|1", "4102|6"],
+      item: [
+        "908|4.9",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|13.1",
+        "957|13.1",
+        "958|13.1",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|25",
+        "1840|4.8",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 420,
@@ -2760,6 +3125,23 @@ export const armorData: Armor[] = [
     Stealth: 10,
     BsAccu: 15,
     BsMinDmg: 5,
+    Obtained: {
+      buy: [69, 82, 172],
+      text: ["874|1", "882|1", "889|3", "4106|19"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|11.5",
+        "910|5.9",
+        "911|14.1",
+        "956|24.7",
+        "957|24.7",
+        "958|24.7",
+        "1738|65.1",
+        "1819|0.7",
+        "1840|8",
+      ],
+    },
   },
   {
     Number: 421,
@@ -2782,6 +3164,18 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: {
+      buy: [172, 218, 256],
+      text: ["2922|2", "4102|9", "4438|15"],
+      item: [
+        "974|12.6",
+        "1727|5.9",
+        "1819|37.6",
+        "1834|6.9",
+        "1840|0.8",
+        "2013|62.3",
+      ],
+    },
   },
   {
     Number: 422,
@@ -2807,6 +3201,23 @@ export const armorData: Armor[] = [
     Stealth: 5,
     Magical: 1,
     BsAccu: 10,
+    Obtained: {
+      buy: [87, 313],
+      monster: ["675|5"],
+      text: ["874|1", "882|1", "889|3"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|11.5",
+        "910|5.9",
+        "911|14.1",
+        "956|24.7",
+        "957|24.7",
+        "958|24.7",
+        "1819|0.7",
+        "1840|8",
+      ],
+    },
   },
   {
     Number: 423,
@@ -2829,6 +3240,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 15,
+    Obtained: { buy: [99, 171, 221, 240] },
   },
   {
     Number: 424,
@@ -2851,6 +3263,29 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: {
+      buy: [171],
+      text: ["874|1", "882|1", "889|2", "2922|2", "2944|2", "4102|2"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|18.3",
+        "957|18.3",
+        "958|18.3",
+        "974|12.6",
+        "1344|16.3",
+        "1485|6.3",
+        "1496|9.6",
+        "1667|6.3",
+        "1727|5.9",
+        "1819|9.7",
+        "1834|6.9",
+        "1840|6.4",
+      ],
+    },
   },
   {
     Number: 425,
@@ -2878,6 +3313,31 @@ export const armorData: Armor[] = [
     CastsSp: 159,
     Rfir: 10,
     Dodge: 1,
+    Obtained: {
+      buy: [171],
+      text: [181, "889|1", "898|4", "9061|4"],
+      item: [
+        "908|18.5",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|7.8",
+        "913|11.5",
+        "914|38.7",
+        "956|27.8",
+        "957|27.8",
+        "958|27.8",
+        "1344|15.1",
+        "1352|19.6",
+        "1354|19.9",
+        "1485|11",
+        "1496|15.4",
+        "1667|11",
+        "1819|3.2",
+        "1840|9.7",
+        "3728|4",
+      ],
+    },
   },
   {
     Number: 426,
@@ -2903,6 +3363,21 @@ export const armorData: Armor[] = [
     MaxMana: 5,
     ManaRgn: 5,
     Magical: 1,
+    Obtained: {
+      buy: [33],
+      text: ["2922|5", "2944|2", "4102|2"],
+      item: [
+        "974|21.4",
+        "1344|16.3",
+        "1485|6.3",
+        "1496|9.6",
+        "1667|6.3",
+        "1727|14.3",
+        "1819|9.6",
+        "1834|16.3",
+        "1840|1.9",
+      ],
+    },
   },
   {
     Number: 427,
@@ -2927,6 +3402,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     MaxDamage: 2,
+    Obtained: { buy: [67, 69] },
   },
   {
     Number: 428,
@@ -2951,6 +3427,22 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     BsMinDmg: 5,
+    Obtained: {
+      buy: [67],
+      monster: ["63|10", "242|1"],
+      text: ["2922|3", "2944|6", "4102|6"],
+      item: [
+        "974|16.5",
+        "1344|30.8",
+        "1485|15.6",
+        "1496|20.4",
+        "1667|15.6",
+        "1727|8.7",
+        "1819|26.6",
+        "1834|10.2",
+        "1840|1.2",
+      ],
+    },
   },
   {
     Number: 429,
@@ -2973,6 +3465,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [42, 79, 102, 115, 151], text: ["9125|1"] },
   },
   {
     Number: 430,
@@ -2997,6 +3490,29 @@ export const armorData: Armor[] = [
     MinLevel: 25,
     Magical: 1,
     MaxDamage: 2,
+    Obtained: {
+      buy: [171],
+      text: ["889|2", "898|4"],
+      item: [
+        "908|18.5",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "912|7.8",
+        "913|11.5",
+        "914|38.7",
+        "956|33.4",
+        "957|33.4",
+        "958|33.4",
+        "1344|15.1",
+        "1485|1.2",
+        "1496|1.9",
+        "1667|1.2",
+        "1819|3.4",
+        "1840|11.4",
+        "3728|4",
+      ],
+    },
   },
   {
     Number: 431,
@@ -3022,6 +3538,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Recharge: 3,
     CastsSp: 161,
+    Obtained: { sell: [148] },
   },
   {
     Number: 432,
@@ -3049,6 +3566,11 @@ export const armorData: Armor[] = [
     Recharge: 5,
     CastsSp: 162,
     BsMinDmg: 15,
+    Obtained: {
+      sell: [88],
+      text: ["4106|5", "9820|4"],
+      item: ["1738|22.6", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 433,
@@ -3073,6 +3595,11 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     Rcol: 25,
+    Obtained: {
+      buy: [33, 96, 104, 171],
+      text: ["874|1", "882|2"],
+      item: ["906|1", "908|4.9", "956|3.9", "957|3.9", "958|3.9", "1840|0.8"],
+    },
   },
   {
     Number: 434,
@@ -3097,6 +3624,31 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     Crits: 1,
+    Obtained: {
+      buy: [171],
+      text: ["889|1", "898|4", "9061|4"],
+      item: [
+        "908|18.5",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|7.8",
+        "913|11.5",
+        "914|38.7",
+        "956|27.8",
+        "957|27.8",
+        "958|27.8",
+        "1344|15.1",
+        "1352|19.6",
+        "1354|19.9",
+        "1485|11",
+        "1496|15.4",
+        "1667|11",
+        "1819|3.2",
+        "1840|9.7",
+        "3728|4",
+      ],
+    },
   },
   {
     Number: 435,
@@ -3124,6 +3676,12 @@ export const armorData: Armor[] = [
     CastsSp: 163,
     Recharge: 3,
     ManaRgn: 5,
+    Obtained: {
+      buy: [69, 80, 96, 104],
+      monster: ["624|1"],
+      text: ["4106|11"],
+      item: ["1738|44.2"],
+    },
   },
   {
     Number: 436,
@@ -3149,6 +3707,32 @@ export const armorData: Armor[] = [
     Magical: 1,
     "S.C.": 1,
     "M.R.": 3,
+    Obtained: {
+      buy: [33, 96, 104, 171],
+      monster: ["658|5"],
+      text: ["889|1", "898|4", "4102|1", "9061|4"],
+      item: [
+        "908|18.5",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|7.8",
+        "913|11.5",
+        "914|38.7",
+        "956|27.8",
+        "957|27.8",
+        "958|27.8",
+        "1344|15.1",
+        "1352|19.6",
+        "1354|19.9",
+        "1485|11",
+        "1496|15.4",
+        "1667|11",
+        "1819|6.6",
+        "1840|9.7",
+        "3728|4",
+      ],
+    },
   },
   {
     Number: 437,
@@ -3173,6 +3757,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     "S.C.": 10,
+    Obtained: { buy: [67] },
   },
   {
     Number: 438,
@@ -3197,6 +3782,30 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     MaxDamage: 1,
+    Obtained: {
+      buy: [172, 239],
+      monster: ["131|15"],
+      text: ["889|3", "898|3"],
+      item: [
+        "908|14.1",
+        "909|11.5",
+        "910|5.9",
+        "911|14.1",
+        "912|5.9",
+        "913|8.7",
+        "914|30.6",
+        "956|34.7",
+        "957|34.7",
+        "958|34.7",
+        "1344|11.5",
+        "1485|0.9",
+        "1496|1.4",
+        "1667|0.9",
+        "1819|3",
+        "1840|11.7",
+        "3728|3",
+      ],
+    },
   },
   {
     Number: 439,
@@ -3219,6 +3828,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [172] },
   },
   {
     Number: 440,
@@ -3241,6 +3851,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [42, 79, 102, 115, 151] },
   },
   {
     Number: 441,
@@ -3263,6 +3874,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [12], text: ["9123|1"] },
   },
   {
     Number: 442,
@@ -3288,6 +3900,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -5,
     Dodge: -2,
+    Obtained: { buy: [70] },
   },
   {
     Number: 443,
@@ -3313,6 +3926,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -5,
     Dodge: -3,
+    Obtained: { nogen: [6], monster: ["180|25", "906|10"] },
   },
   {
     Number: 444,
@@ -3336,6 +3950,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Stealth: -5,
+    Obtained: { buy: [43, 99, 221] },
   },
   {
     Number: 445,
@@ -3359,6 +3974,22 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 15,
     Stealth: 5,
+    Obtained: {
+      buy: [87, 313],
+      text: ["874|1", "882|1", "889|2"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|18.3",
+        "957|18.3",
+        "958|18.3",
+        "1819|0.5",
+        "1840|5.9",
+      ],
+    },
   },
   {
     Number: 446,
@@ -3385,6 +4016,7 @@ export const armorData: Armor[] = [
     Recharge: 10,
     CastsSp: 168,
     Quickness: 10,
+    Obtained: { buy: [71], text: ["9820|1"], item: ["3518|2", "3629|1"] },
   },
   {
     Number: 447,
@@ -3408,6 +4040,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Stealth: 5,
+    Obtained: { monster: ["241|100"] },
   },
   {
     Number: 448,
@@ -3434,6 +4067,7 @@ export const armorData: Armor[] = [
     CastsSp: 169,
     Recharge: 10,
     Stealth: -5,
+    Obtained: { buy: [170] },
   },
   {
     Number: 473,
@@ -3460,6 +4094,7 @@ export const armorData: Armor[] = [
     "S.C.": 5,
     MaxMana: 10,
     Classes: [4, 5, 6],
+    Obtained: { sell: [88], monster: ["63|10"] },
   },
   {
     Number: 474,
@@ -3483,6 +4118,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { buy: [171], monster: ["121|5", "122|25"] },
   },
   {
     Number: 487,
@@ -3506,6 +4142,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { text: [181, 2833] },
   },
   {
     Number: 498,
@@ -3531,6 +4168,7 @@ export const armorData: Armor[] = [
     Stealth: -20,
     Magical: 1,
     Dodge: -17,
+    Obtained: { nogen: [69], monster: ["180|25"] },
   },
   {
     Number: 499,
@@ -3558,6 +4196,7 @@ export const armorData: Armor[] = [
     MaxMana: 10,
     ManaRgn: 10,
     Classes: [3, 4, 5, 6],
+    Obtained: { monster: ["181|100"], text: [2399] },
   },
   {
     Number: 504,
@@ -3584,6 +4223,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     CastsSp: 165,
     Dodge: 2,
+    Obtained: { buy: [172] },
   },
   {
     Number: 521,
@@ -3609,6 +4249,18 @@ export const armorData: Armor[] = [
     Stealth: -12,
     Magical: 1,
     Dodge: -14,
+    Obtained: {
+      buy: [170],
+      text: ["874|5", "882|3"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 522,
@@ -3634,6 +4286,7 @@ export const armorData: Armor[] = [
     Stealth: -5,
     Quality: 1,
     Magical: 1,
+    Obtained: { buy: [170] },
   },
   {
     Number: 524,
@@ -3657,6 +4310,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { monster: ["818|100"] },
   },
   {
     Number: 558,
@@ -3680,6 +4334,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     Classes: [7],
+    Obtained: { buy: [66, 82] },
   },
   {
     Number: 561,
@@ -3710,6 +4365,7 @@ export const armorData: Armor[] = [
     Percep: -25,
     Magical: 1,
     Classes: [5, 6],
+    Obtained: { sell: [89], monster: ["371|10"] },
   },
   {
     Number: 611,
@@ -3738,6 +4394,11 @@ export const armorData: Armor[] = [
     BsMinDmg: 5,
     Accuracy: 5,
     "S.C.": 5,
+    Obtained: {
+      monster: ["241|100"],
+      text: ["874|1", "882|1"],
+      item: ["906|1", "908|4.9", "956|3.9", "957|3.9", "958|3.9", "1840|0.8"],
+    },
   },
   {
     Number: 621,
@@ -3761,6 +4422,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { text: [2100] },
   },
   {
     Number: 634,
@@ -3785,6 +4447,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Quality: 1,
     Classes: [1, 2, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { buy: [79], monster: ["674|5"] },
   },
   {
     Number: 638,
@@ -3808,6 +4471,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 10,
     Percep: -5,
+    Obtained: { nogen: [79] },
   },
   {
     Number: 639,
@@ -3832,6 +4496,18 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -8,
     HPRegen: 20,
+    Obtained: {
+      nogen: [79],
+      text: ["874|5"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 640,
@@ -3856,6 +4532,7 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -5,
     Dodge: -4,
+    Obtained: { nogen: [79] },
   },
   {
     Number: 641,
@@ -3879,6 +4556,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 10,
     Stealth: -5,
+    Obtained: { nogen: [79] },
   },
   {
     Number: 642,
@@ -3905,6 +4583,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     HPRegen: 25,
     Dodge: 5,
+    Obtained: { monster: ["658|2"], text: [1450, 4355] },
   },
   {
     Number: 645,
@@ -3932,6 +4611,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     "Alter HP": 10,
     MaxMana: 10,
+    Obtained: { monster: ["675|2"], text: [1450, 4355] },
   },
   {
     Number: 651,
@@ -3959,6 +4639,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     HPRegen: 25,
     ManaRgn: 10,
+    Obtained: { monster: ["624|2"], text: [1450, 4355] },
   },
   {
     Number: 657,
@@ -3984,6 +4665,7 @@ export const armorData: Armor[] = [
     Cursed: 0,
     AC: -20,
     "Del@Maint": 0,
+    Obtained: { buy: [85] },
   },
   {
     Number: 684,
@@ -4010,6 +4692,7 @@ export const armorData: Armor[] = [
     MaxMana: 50,
     "S.C.": 20,
     Magical: 1,
+    Obtained: { monster: ["311|100"], text: [1450, 2396] },
   },
   {
     Number: 704,
@@ -4037,6 +4720,7 @@ export const armorData: Armor[] = [
     MaxMana: 50,
     AlterSpDmg: 1,
     "AC(Blur)": 6,
+    Obtained: { monster: ["2794|1"] },
   },
   {
     Number: 719,
@@ -4064,6 +4748,7 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     ManaRgn: 10,
     Classes: [13],
+    Obtained: { room: ["3|214"], sell: [89] },
   },
   {
     Number: 720,
@@ -4089,6 +4774,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxMana: 10,
     ManaRgn: 5,
+    Obtained: { room: ["3|214"], sell: [89] },
   },
   {
     Number: 727,
@@ -4114,6 +4800,7 @@ export const armorData: Armor[] = [
     Stealth: -10,
     Magical: 1,
     Dodge: -9,
+    Obtained: { buy: [87], monster: ["289|5"] },
   },
   {
     Number: 728,
@@ -4139,6 +4826,7 @@ export const armorData: Armor[] = [
     Stealth: -14,
     Magical: 2,
     Dodge: -11,
+    Obtained: { buy: [87, 313], monster: ["292|5"] },
   },
   {
     Number: 733,
@@ -4163,6 +4851,7 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     "Del@Maint": 0,
     MaxDamage: 1,
+    Obtained: { buy: [170], monster: ["297|5", "311|20"] },
   },
   {
     Number: 743,
@@ -4188,6 +4877,7 @@ export const armorData: Armor[] = [
     Stealth: -16,
     Magical: 1,
     Dodge: -17,
+    Obtained: { buy: [170], monster: ["311|10", "928|1"] },
   },
   {
     Number: 747,
@@ -4214,6 +4904,21 @@ export const armorData: Armor[] = [
     PunchDmg: 2,
     PunchAcc: 5,
     Classes: [15],
+    Obtained: {
+      nogen: [171],
+      monster: ["313|10"],
+      text: ["889|1"],
+      item: [
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "956|7.7",
+        "957|7.7",
+        "958|7.7",
+        "1819|0.2",
+        "1840|2.8",
+      ],
+    },
   },
   {
     Number: 748,
@@ -4238,6 +4943,7 @@ export const armorData: Armor[] = [
     MinLevel: 25,
     Percep: -10,
     Magical: 2,
+    Obtained: { sell: [89], monster: ["314|10"] },
   },
   {
     Number: 752,
@@ -4262,6 +4968,7 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Magical: 2,
     Dodge: 5,
+    Obtained: { buy: [115, 169], monster: ["281|20"] },
   },
   {
     Number: 753,
@@ -4285,6 +4992,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 20,
     Magical: 2,
+    Obtained: { buy: [115, 169], monster: ["281|20"] },
   },
   {
     Number: 754,
@@ -4308,6 +5016,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 20,
     Magical: 2,
+    Obtained: { buy: [169], monster: ["281|20"] },
   },
   {
     Number: 755,
@@ -4331,6 +5040,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 20,
     Magical: 2,
+    Obtained: { buy: [169], monster: ["281|20"] },
   },
   {
     Number: 988,
@@ -4354,6 +5064,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 10,
     PunchDmg: 1,
+    Obtained: { nogen: [43], monster: ["490|35"] },
   },
   {
     Number: 999,
@@ -4378,6 +5089,13 @@ export const armorData: Armor[] = [
     MinLevel: 15,
     Magical: 1,
     Illu: 200,
+    Obtained: {
+      sell: [89],
+      nogen: [247],
+      monster: ["494|5"],
+      text: ["5168|3"],
+      item: ["3629|3", "3710|3"],
+    },
   },
   {
     Number: 1000,
@@ -4403,6 +5121,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     Rfir: 10,
     "Alter HP": 25,
+    Obtained: { sell: [176], text: [1450, 1458] },
   },
   {
     Number: 1006,
@@ -4429,6 +5148,12 @@ export const armorData: Armor[] = [
     "S.C.": 15,
     Magical: 1,
     Classes: [13],
+    Obtained: {
+      sell: [172],
+      monster: ["122|10"],
+      text: ["9820|1"],
+      item: ["3518|2", "3629|1"],
+    },
   },
   {
     Number: 1022,
@@ -4454,6 +5179,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Rfir: 10,
     LoyalItem: 0,
+    Obtained: { text: [1613, 9001, 6624] },
   },
   {
     Number: 1026,
@@ -4479,6 +5205,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Illu: 10,
     LoyalItem: 0,
+    Obtained: { text: [1614, 9002, 6625] },
   },
   {
     Number: 1030,
@@ -4504,6 +5231,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     HPRegen: 10,
     LoyalItem: 0,
+    Obtained: { text: [1615, 9003, 6626] },
   },
   {
     Number: 1034,
@@ -4530,6 +5258,7 @@ export const armorData: Armor[] = [
     Rcol: 10,
     LoyalItem: 0,
     HPRegen: 5,
+    Obtained: { text: [1616, 9004, 6627] },
   },
   {
     Number: 1038,
@@ -4557,6 +5286,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     HPRegen: 5,
     ManaRgn: 5,
+    Obtained: { text: [1617, 9005, 6628] },
   },
   {
     Number: 776,
@@ -4580,6 +5310,18 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: {
+      monster: [
+        "285|50",
+        "286|50",
+        "287|50",
+        "288|50",
+        "289|50",
+        "290|50",
+        "291|50",
+      ],
+      text: [1450],
+    },
   },
   {
     Number: 777,
@@ -4608,6 +5350,7 @@ export const armorData: Armor[] = [
     ProtGood: -10,
     EvilOnly: 0,
     ClassOk: [6, 8, 9, 10],
+    Obtained: { monster: ["292|100"], text: [1450, 2398] },
   },
   {
     Number: 797,
@@ -4631,6 +5374,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Illu: 75,
+    Obtained: { buy: [163, 272] },
   },
   {
     Number: 800,
@@ -4657,6 +5401,12 @@ export const armorData: Armor[] = [
     Magical: 5,
     Dodge: 25,
     MaxMana: 20,
+    Obtained: {
+      sell: [89],
+      monster: ["329|15"],
+      text: ["5438|3", "9825|3"],
+      item: ["3532|8.7", "3710|8.7"],
+    },
   },
   {
     Number: 811,
@@ -4680,6 +5430,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { monster: ["346|100"] },
   },
   {
     Number: 815,
@@ -4703,6 +5454,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { monster: ["365|100"] },
   },
   {
     Number: 817,
@@ -4726,6 +5478,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { monster: ["364|100"] },
   },
   {
     Number: 826,
@@ -4752,6 +5505,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Rfir: 30,
     Dodge: -8,
+    Obtained: { nogen: [91], sell: [147], monster: ["346|5"] },
   },
   {
     Number: 829,
@@ -4778,6 +5532,12 @@ export const armorData: Armor[] = [
     Recharge: 3,
     CastsSp: 447,
     Accuracy: 3,
+    Obtained: {
+      nogen: [91],
+      sell: [147],
+      text: ["4104|15"],
+      item: ["1727|27.8"],
+    },
   },
   {
     Number: 830,
@@ -4801,6 +5561,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     Magical: 1,
+    Obtained: { buy: [87, 313], monster: ["448|1"] },
   },
   {
     Number: 831,
@@ -4829,6 +5590,12 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     MaxDamage: 3,
     Classes: [3, 4, 5, 6],
+    Obtained: {
+      nogen: [91],
+      sell: [147],
+      text: ["4104|15", "5168|3"],
+      item: ["1727|27.8", "3629|3", "3710|3"],
+    },
   },
   {
     Number: 832,
@@ -4855,6 +5622,11 @@ export const armorData: Armor[] = [
     "M.R.": 5,
     MaxMana: 8,
     ManaRgn: 10,
+    Obtained: {
+      nogen: [91],
+      text: ["3343|5", "4149|20", "9820|1"],
+      item: ["907|9.8", "1834|36", "3518|2", "3532|14.3", "3629|6", "3728|5"],
+    },
   },
   {
     Number: 833,
@@ -4883,6 +5655,11 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     MaxMana: 20,
     Classes: [10, 11, 12],
+    Obtained: {
+      nogen: [91],
+      text: ["4149|10", "5168|3"],
+      item: ["1834|19", "3629|3", "3710|3"],
+    },
   },
   {
     Number: 834,
@@ -4910,6 +5687,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     MaxDamage: 2,
     Classes: [14, 13],
+    Obtained: { nogen: [91], text: ["4149|10"], item: ["1834|19"] },
   },
   {
     Number: 836,
@@ -4937,6 +5715,12 @@ export const armorData: Armor[] = [
     BsMinDmg: 10,
     BsAccu: 5,
     ManaRgn: 10,
+    Obtained: {
+      nogen: [91],
+      sell: [147],
+      text: ["4104|15", "9820|1"],
+      item: ["1727|27.8", "3518|2", "3629|1"],
+    },
   },
   {
     Number: 843,
@@ -4962,6 +5746,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Rfir: 5,
     LoyalItem: 0,
+    Obtained: { text: [1612, 9000, 6620] },
   },
   {
     Number: 845,
@@ -4986,6 +5771,26 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Stealth: -5,
     Dodge: -8,
+    Obtained: {
+      buy: [149, 238],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 846,
@@ -5010,6 +5815,19 @@ export const armorData: Armor[] = [
     MinLevel: 15,
     Stealth: -6,
     Dodge: -5,
+    Obtained: {
+      buy: [70, 99, 115, 221, 237],
+      monster: ["2359|1"],
+      text: ["874|5", "882|3"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 847,
@@ -5032,6 +5850,11 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 10,
+    Obtained: {
+      buy: [103],
+      text: ["874|2", "882|2"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 848,
@@ -5056,6 +5879,12 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -5,
     Magical: 1,
+    Obtained: {
+      nogen: [170],
+      buy: [239],
+      text: ["874|2", "882|1"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 850,
@@ -5080,6 +5909,20 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Stealth: -12,
     Dodge: -8,
+    Obtained: {
+      buy: [99, 221],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 851,
@@ -5105,6 +5948,20 @@ export const armorData: Armor[] = [
     Stealth: -8,
     Magical: 3,
     Dodge: -14,
+    Obtained: {
+      buy: [170],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 852,
@@ -5128,6 +5985,20 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 20,
     Stealth: -5,
+    Obtained: {
+      nogen: [99, 221],
+      text: ["889|1"],
+      item: [
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "956|7.7",
+        "957|7.7",
+        "958|7.7",
+        "1819|0.2",
+        "1840|2.8",
+      ],
+    },
   },
   {
     Number: 853,
@@ -5152,6 +6023,30 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Magical: 4,
     Dodge: 5,
+    Obtained: {
+      nogen: [42],
+      buy: [169],
+      text: ["889|1", "898|5"],
+      item: [
+        "908|22.6",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|9.8",
+        "913|14.3",
+        "914|46",
+        "956|32.2",
+        "957|32.2",
+        "958|32.2",
+        "1344|18.6",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "1819|3.8",
+        "1840|11",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 854,
@@ -5174,6 +6069,30 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 25,
+    Obtained: {
+      nogen: [70],
+      buy: [225],
+      text: ["889|1", "898|5"],
+      item: [
+        "908|22.6",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|9.8",
+        "913|14.3",
+        "914|46",
+        "956|32.2",
+        "957|32.2",
+        "958|32.2",
+        "1344|18.6",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "1819|3.8",
+        "1840|11",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 856,
@@ -5198,6 +6117,30 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -15,
     Dodge: -14,
+    Obtained: {
+      buy: [170],
+      monster: ["2360|1"],
+      text: ["889|1", "898|5"],
+      item: [
+        "908|22.6",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|9.8",
+        "913|14.3",
+        "914|46",
+        "956|32.2",
+        "957|32.2",
+        "958|32.2",
+        "1344|18.6",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "1819|3.8",
+        "1840|11",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 857,
@@ -5222,6 +6165,31 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -5,
     Magical: 3,
+    Obtained: {
+      nogen: [170],
+      buy: [239],
+      monster: ["383|1"],
+      text: ["889|4", "898|4"],
+      item: [
+        "908|18.5",
+        "909|15.1",
+        "910|7.8",
+        "911|18.5",
+        "912|7.8",
+        "913|11.5",
+        "914|38.7",
+        "956|43.5",
+        "957|43.5",
+        "958|43.5",
+        "1344|15.1",
+        "1485|1.2",
+        "1496|1.9",
+        "1667|1.2",
+        "1819|3.6",
+        "1840|14.2",
+        "3728|4",
+      ],
+    },
   },
   {
     Number: 858,
@@ -5246,6 +6214,27 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     Dodge: 5,
+    Obtained: {
+      nogen: [42],
+      buy: [169, 243],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 859,
@@ -5268,6 +6257,26 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: {
+      buy: [183],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 860,
@@ -5292,6 +6301,28 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Stealth: -25,
     Dodge: -17,
+    Obtained: {
+      nogen: [170],
+      buy: [238],
+      text: ["898|1", "9817|4"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3517|4",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 861,
@@ -5316,6 +6347,27 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Stealth: -5,
     Magical: 6,
+    Obtained: {
+      nogen: [170],
+      buy: [239],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 862,
@@ -5340,6 +6392,28 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 2,
     Dodge: 10,
+    Obtained: {
+      buy: [87, 313],
+      monster: ["448|1"],
+      text: ["898|1", "9817|4"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3517|4",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 921,
@@ -5364,6 +6438,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     "S.C.": 2,
     Classes: [9],
+    Obtained: { buy: [93] },
   },
   {
     Number: 922,
@@ -5390,6 +6465,7 @@ export const armorData: Armor[] = [
     ManaRgn: 5,
     Illu: 25,
     Classes: [9],
+    Obtained: { buy: [93, 267] },
   },
   {
     Number: 923,
@@ -5414,6 +6490,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     "S.C.": 5,
     Classes: [9],
+    Obtained: { buy: [93] },
   },
   {
     Number: 925,
@@ -5437,6 +6514,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 30,
     Stealth: -10,
+    Obtained: { buy: [94, 97, 152, 255, 261, 311] },
   },
   {
     Number: 929,
@@ -5461,6 +6539,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Percep: -10,
     RemovesSpell: 514,
+    Obtained: { buy: [122, 272], monster: ["2776|7"] },
   },
   {
     Number: 930,
@@ -5483,6 +6562,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 15,
+    Obtained: { buy: [3, 97, 98, 219, 255, 266, 272, 311] },
   },
   {
     Number: 931,
@@ -5505,6 +6585,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 5,
+    Obtained: { nogen: [99, 221], monster: ["406|100"] },
   },
   {
     Number: 948,
@@ -5530,6 +6611,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Recharge: 1,
     CastsSp: 546,
+    Obtained: { monster: ["452|100"], text: [1307] },
   },
   {
     Number: 950,
@@ -5555,6 +6637,7 @@ export const armorData: Armor[] = [
     EvilOnly: 0,
     Crits: 2,
     Dodge: 1,
+    Obtained: { nogen: [33], text: [1323] },
   },
   {
     Number: 967,
@@ -5578,6 +6661,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 15,
     Illu: 25,
+    Obtained: {},
   },
   {
     Number: 1042,
@@ -5604,6 +6688,7 @@ export const armorData: Armor[] = [
     HPRegen: 10,
     LoyalItem: 0,
     ManaRgn: 10,
+    Obtained: { text: [1618, 9006, 6629] },
   },
   {
     Number: 1046,
@@ -5634,6 +6719,7 @@ export const armorData: Armor[] = [
     ResistStone: 5,
     Rlit: 5,
     ResistWater: 5,
+    Obtained: { text: [1619, 9007, 6630] },
   },
   {
     Number: 1047,
@@ -5660,6 +6746,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     Recharge: 3,
     Classes: [1],
+    Obtained: {
+      sell: [146],
+      monster: ["934|10"],
+      text: ["5438|3", "9825|3"],
+      item: ["3532|8.7", "3710|8.7"],
+    },
   },
   {
     Number: 1050,
@@ -5686,6 +6778,7 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     LoyalItem: 0,
     Dodge: 5,
+    Obtained: { text: [1620, 9008, 6631] },
   },
   {
     Number: 1054,
@@ -5711,6 +6804,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     MaxDamage: 2,
     LoyalItem: 0,
+    Obtained: { text: [1621, 9009, 6632] },
   },
   {
     Number: 1067,
@@ -5734,6 +6828,14 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 25,
     Stealth: -5,
+    Obtained: {
+      sell: [41],
+      buy: [239],
+      nogen: [312],
+      monster: ["526|1", "860|1", "2103|1"],
+      text: ["4438|10", "9470|10"],
+      item: ["1444|15", "1485|12.6", "1496|5.5", "1667|13.1", "2013|46.8"],
+    },
   },
   {
     Number: 1322,
@@ -5765,6 +6867,7 @@ export const armorData: Armor[] = [
     HPRegen: 25,
     MaxDamage: 4,
     Classes: [14],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1323,
@@ -5793,6 +6896,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     CastsSp: 870,
     Classes: [15],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1325,
@@ -5820,6 +6924,22 @@ export const armorData: Armor[] = [
     Rlit: 5,
     FindTrapsValue: 10,
     PickLocksValue: 10,
+    Obtained: {
+      monster: ["242|1"],
+      text: ["2922|4", "2944|1", "9059|5", "9062|5"],
+      item: [
+        "974|19.4",
+        "1344|9.2",
+        "1352|25.9",
+        "1354|25.4",
+        "1485|14.6",
+        "1496|19",
+        "1667|14.6",
+        "1727|11.5",
+        "1834|13.3",
+        "1840|1.6",
+      ],
+    },
   },
   {
     Number: 1329,
@@ -5845,6 +6965,7 @@ export const armorData: Armor[] = [
     Stealth: 10,
     ClassOk: [4],
     Classes: [1, 4, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { monster: ["737|2", "739|2"] },
   },
   {
     Number: 1331,
@@ -5874,6 +6995,12 @@ export const armorData: Armor[] = [
     Illu: 75,
     Dodge: 10,
     RoomIllu: -50,
+    Obtained: {
+      sell: [148],
+      monster: ["751|10"],
+      text: ["9820|1"],
+      item: ["3518|2", "3629|1"],
+    },
   },
   {
     Number: 1335,
@@ -5900,6 +7027,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     Crits: 2,
+    Obtained: { monster: ["724|25", "1093|1"] },
   },
   {
     Number: 1336,
@@ -5925,6 +7053,22 @@ export const armorData: Armor[] = [
     Quality: 5,
     "M.R.": 5,
     MaxDamage: 2,
+    Obtained: {
+      nogen: [43],
+      buy: [238, 312],
+      monster: ["860|1"],
+      text: ["2944|1", "4438|12", "9062|4", "9470|10"],
+      item: [
+        "1344|9.2",
+        "1352|18.2",
+        "1354|18.3",
+        "1444|15",
+        "1485|19.3",
+        "1496|17.7",
+        "1667|19.5",
+        "2013|53.6",
+      ],
+    },
   },
   {
     Number: 1346,
@@ -5947,6 +7091,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [40] },
   },
   {
     Number: 1347,
@@ -5969,6 +7114,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [33] },
   },
   {
     Number: 1364,
@@ -5994,6 +7140,11 @@ export const armorData: Armor[] = [
     Stealth: 5,
     Crits: 2,
     Classes: [7],
+    Obtained: {
+      buy: [66],
+      text: ["3343|3"],
+      item: ["907|5.9", "3532|8.7", "3629|3", "3728|3"],
+    },
   },
   {
     Number: 1099,
@@ -6018,6 +7169,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     LoyalItem: 1,
     Classes: [2],
+    Obtained: { sell: [175, 261] },
   },
   {
     Number: 1100,
@@ -6042,6 +7194,7 @@ export const armorData: Armor[] = [
     MinLevel: 50,
     LoyalItem: 1,
     Classes: [2],
+    Obtained: { sell: [175, 261] },
   },
   {
     Number: 1101,
@@ -6065,6 +7218,26 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: {
+      sell: [123],
+      monster: [
+        "55|1",
+        "123|1",
+        "124|1",
+        "725|3",
+        "727|3",
+        "728|1",
+        "729|1",
+        "730|1",
+        "752|1",
+        "753|1",
+        "754|1",
+        "1094|3",
+        "1096|3",
+        "1097|1",
+        "1098|1",
+      ],
+    },
   },
   {
     Number: 1102,
@@ -6089,6 +7262,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     LoyalItem: 1,
     Classes: [2],
+    Obtained: { sell: [175, 261] },
   },
   {
     Number: 1148,
@@ -6111,6 +7285,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: {},
   },
   {
     Number: 1155,
@@ -6135,6 +7310,12 @@ export const armorData: Armor[] = [
     MinLevel: 25,
     Dodge: 12,
     Magical: 1,
+    Obtained: {
+      nogen: [172],
+      monster: ["565|1"],
+      text: ["3343|4", "9820|1"],
+      item: ["907|7.8", "3518|2", "3532|11.5", "3629|5", "3728|4"],
+    },
   },
   {
     Number: 1157,
@@ -6161,6 +7342,7 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     Accuracy: 5,
     ManaRgn: 5,
+    Obtained: { sell: [147], monster: ["567|10"] },
   },
   {
     Number: 1173,
@@ -6185,6 +7367,12 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Magical: 1,
     ImmuPoison: 100,
+    Obtained: {
+      sell: [147],
+      monster: ["594|10"],
+      text: ["9820|1"],
+      item: ["3518|2", "3629|1"],
+    },
   },
   {
     Number: 1176,
@@ -6209,6 +7397,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Quality: 5,
     MaxDamage: 1,
+    Obtained: { sell: [148], monster: ["597|25"] },
   },
   {
     Number: 1177,
@@ -6237,6 +7426,7 @@ export const armorData: Armor[] = [
     ManaRgn: 20,
     MaxMana: 25,
     Classes: [5, 12, 13],
+    Obtained: { sell: [148], monster: ["597|25"] },
   },
   {
     Number: 1180,
@@ -6263,6 +7453,7 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     LoyalItem: 1,
     MaxMana: 10,
+    Obtained: { sell: [148], text: [1450] },
   },
   {
     Number: 1183,
@@ -6290,6 +7481,7 @@ export const armorData: Armor[] = [
     MaxDamage: 5,
     Magical: 1,
     MaxMana: 25,
+    Obtained: { monster: ["216|100"] },
   },
   {
     Number: 1184,
@@ -6314,6 +7506,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     PunchDmg: 2,
     Classes: [15],
+    Obtained: { nogen: [115], monster: ["622|1"] },
   },
   {
     Number: 1186,
@@ -6339,6 +7532,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: 5,
     "Alter HP": 10,
+    Obtained: {
+      nogen: [119],
+      monster: ["619|10"],
+      text: ["9820|1", "9817|2"],
+      item: ["3517|2", "3518|2", "3629|1"],
+    },
   },
   {
     Number: 1187,
@@ -6366,6 +7565,7 @@ export const armorData: Armor[] = [
     Recharge: 5,
     CastsSp: 1249,
     MaxMana: 20,
+    Obtained: { nogen: [120], monster: ["619|5"] },
   },
   {
     Number: 1188,
@@ -6392,6 +7592,12 @@ export const armorData: Armor[] = [
     "S.C.": 15,
     MaxMana: 100,
     ManaRgn: 10,
+    Obtained: {
+      nogen: [119],
+      monster: ["619|5"],
+      text: ["9817|2"],
+      item: ["3517|2"],
+    },
   },
   {
     Number: 1192,
@@ -6417,6 +7623,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -2,
     Dodge: -2,
+    Obtained: {
+      buy: [114],
+      text: ["9059|2"],
+      item: ["1352|7.8", "1354|4", "1485|0.6", "1496|1", "1667|0.6"],
+    },
   },
   {
     Number: 1193,
@@ -6441,6 +7652,11 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Stealth: -2,
     Dodge: -2,
+    Obtained: {
+      buy: [114, 149, 238],
+      text: ["9059|3"],
+      item: ["1352|11.5", "1354|5.9", "1485|0.9", "1496|1.4", "1667|0.9"],
+    },
   },
   {
     Number: 1194,
@@ -6463,6 +7679,12 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 15,
+    Obtained: {
+      buy: [119, 183, 225],
+      monster: ["655|1"],
+      text: ["9059|5"],
+      item: ["1352|18.6", "1354|9.8", "1485|1.5", "1496|2.4", "1667|1.5"],
+    },
   },
   {
     Number: 1195,
@@ -6490,6 +7712,7 @@ export const armorData: Armor[] = [
     Quality: 5,
     BsAccu: 5,
     BsMinDmg: 2,
+    Obtained: { buy: [119], monster: ["617|3"] },
   },
   {
     Number: 1196,
@@ -6515,6 +7738,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: 40,
     BsAccu: 5,
+    Obtained: { buy: [119] },
   },
   {
     Number: 1197,
@@ -6538,6 +7762,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     Dodge: -5,
+    Obtained: { nogen: [114] },
   },
   {
     Number: 1198,
@@ -6561,6 +7786,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     Percep: -10,
+    Obtained: { nogen: [114] },
   },
   {
     Number: 1199,
@@ -6585,6 +7811,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Stealth: -7,
     HPRegen: 20,
+    Obtained: { nogen: [114], text: ["9817|2"], item: ["3517|2"] },
   },
   {
     Number: 1200,
@@ -6608,6 +7835,11 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     Stealth: -5,
+    Obtained: {
+      nogen: [114],
+      text: ["9059|5"],
+      item: ["1352|18.6", "1354|9.8", "1485|1.5", "1496|2.4", "1667|1.5"],
+    },
   },
   {
     Number: 1205,
@@ -6633,6 +7865,12 @@ export const armorData: Armor[] = [
     Quality: 5,
     MaxDamage: 1,
     "Del@Maint": 0,
+    Obtained: {
+      nogen: [114],
+      monster: ["634|1", "883|5", "1155|5", "1224|5"],
+      text: ["3343|5"],
+      item: ["907|9.8", "3532|14.3", "3629|5", "3728|5"],
+    },
   },
   {
     Number: 1206,
@@ -6659,6 +7897,13 @@ export const armorData: Armor[] = [
     "M.R.": 10,
     Magical: 1,
     MaxMana: 10,
+    Obtained: {
+      nogen: [119],
+      buy: [241],
+      monster: ["645|1"],
+      text: ["3343|5"],
+      item: ["907|9.8", "3532|14.3", "3629|5", "3728|5"],
+    },
   },
   {
     Number: 1209,
@@ -6683,6 +7928,19 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     MaxDamage: 2,
+    Obtained: {
+      nogen: [119],
+      monster: ["642|25"],
+      text: ["9059|5", "9817|2"],
+      item: [
+        "1352|18.6",
+        "1354|9.8",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "3517|2",
+      ],
+    },
   },
   {
     Number: 1210,
@@ -6708,6 +7966,12 @@ export const armorData: Armor[] = [
     Quality: 3,
     MaxDamage: 3,
     Magical: 1,
+    Obtained: {
+      nogen: [119],
+      monster: ["647|5"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1212,
@@ -6732,6 +7996,12 @@ export const armorData: Armor[] = [
     MinLevel: 50,
     Stealth: -30,
     Dodge: -30,
+    Obtained: {
+      sell: [147],
+      monster: ["642|2"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1214,
@@ -6757,6 +8027,20 @@ export const armorData: Armor[] = [
     Rlit: 20,
     Stealth: -15,
     Dodge: -15,
+    Obtained: {
+      nogen: [114],
+      monster: ["637|10"],
+      text: ["9059|5", "9825|3"],
+      item: [
+        "1352|18.6",
+        "1354|9.8",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "3532|8.7",
+        "3710|3",
+      ],
+    },
   },
   {
     Number: 1215,
@@ -6783,6 +8067,19 @@ export const armorData: Armor[] = [
     CastsSp: 789,
     Rlit: 10,
     Recharge: 2,
+    Obtained: {
+      nogen: [114],
+      monster: ["637|25", "638|1"],
+      text: ["9062|12", "9817|2"],
+      item: [
+        "1352|23.7",
+        "1354|24.7",
+        "1485|23.7",
+        "1496|27.9",
+        "1667|23.7",
+        "3517|2",
+      ],
+    },
   },
   {
     Number: 1216,
@@ -6811,6 +8108,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     ManaRgn: 10,
     "AC(Blur)": 5,
+    Obtained: { sell: [147], monster: ["637|10"] },
   },
   {
     Number: 1218,
@@ -6836,6 +8134,21 @@ export const armorData: Armor[] = [
     "Alter HP": 20,
     Magical: 1,
     Dodge: 5,
+    Obtained: {
+      buy: [115],
+      text: ["3343|5", "9059|9"],
+      item: [
+        "907|9.8",
+        "1352|31.4",
+        "1354|17.2",
+        "1485|2.6",
+        "1496|4",
+        "1667|2.6",
+        "3532|14.3",
+        "3629|5",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 1219,
@@ -6861,6 +8174,11 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     Magical: 1,
     ManaRgn: 10,
+    Obtained: {
+      buy: [115],
+      text: ["3343|5"],
+      item: ["907|9.8", "3532|14.3", "3629|5", "3728|5"],
+    },
   },
   {
     Number: 1220,
@@ -6885,6 +8203,22 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     MaxDamage: 1,
     Magical: 1,
+    Obtained: {
+      buy: [120],
+      monster: ["1209|3"],
+      text: ["3343|2", "9059|2"],
+      item: [
+        "907|4",
+        "1352|7.8",
+        "1354|4",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "3532|5.9",
+        "3629|2",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1221,
@@ -6911,6 +8245,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     NotGood: 1,
+    Obtained: {
+      buy: [120, 251],
+      text: ["3343|2", "9817|2"],
+      item: ["907|4", "3517|2", "3532|5.9", "3629|2", "3728|2"],
+    },
   },
   {
     Number: 1222,
@@ -6936,6 +8275,7 @@ export const armorData: Armor[] = [
     Stealth: 15,
     Magical: 1,
     Classes: [8, 9, 10],
+    Obtained: { buy: [114] },
   },
   {
     Number: 1223,
@@ -6961,6 +8301,11 @@ export const armorData: Armor[] = [
     ProtEvil: 5,
     Magical: 1,
     "M.R.": 5,
+    Obtained: {
+      buy: [120, 251],
+      text: ["3343|2"],
+      item: ["907|4", "3532|5.9", "3629|2", "3728|2"],
+    },
   },
   {
     Number: 1224,
@@ -6987,6 +8332,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     NeutralOnly: 0,
+    Obtained: {
+      buy: [120, 251],
+      text: ["3343|2"],
+      item: ["907|4", "3532|5.9", "3629|2", "3728|2"],
+    },
   },
   {
     Number: 1225,
@@ -7012,6 +8362,7 @@ export const armorData: Armor[] = [
     MaxMana: 30,
     ManaRgn: 15,
     Classes: [9],
+    Obtained: { nogen: [93, 115], buy: [267], monster: ["674|1"] },
   },
   {
     Number: 1227,
@@ -7038,6 +8389,12 @@ export const armorData: Armor[] = [
     BsAccu: 10,
     Magical: 1,
     BsMaxDmg: 2,
+    Obtained: {
+      nogen: [119],
+      monster: ["675|1"],
+      text: ["9062|5"],
+      item: ["1352|20.2", "1354|19.9", "1485|12.5", "1496|17.4", "1667|12.5"],
+    },
   },
   {
     Number: 1228,
@@ -7066,6 +8423,12 @@ export const armorData: Armor[] = [
     Stealth: 10,
     Magical: 1,
     Classes: [5, 12, 13],
+    Obtained: {
+      buy: [119],
+      monster: ["658|1"],
+      text: ["9820|1"],
+      item: ["3518|2", "3629|1"],
+    },
   },
   {
     Number: 1230,
@@ -7095,6 +8458,20 @@ export const armorData: Armor[] = [
     BsAccu: 5,
     Magical: 1,
     Classes: [9],
+    Obtained: {
+      nogen: [115],
+      buy: [267],
+      monster: ["674|1"],
+      text: ["4102|1", "9059|1"],
+      item: [
+        "1352|3.9",
+        "1354|2",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|4.9",
+      ],
+    },
   },
   {
     Number: 1232,
@@ -7120,6 +8497,13 @@ export const armorData: Armor[] = [
     Magical: 1,
     HPRegen: 10,
     Rfir: -20,
+    Obtained: {
+      nogen: [119],
+      buy: [183],
+      monster: ["617|5", "675|1"],
+      text: ["9059|8", "9062|5"],
+      item: ["1352|29", "1354|28.5", "1485|13.2", "1496|17.3", "1667|13.2"],
+    },
   },
   {
     Number: 1237,
@@ -7144,6 +8528,21 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Magical: 1,
     MaxDamage: 1,
+    Obtained: {
+      buy: [120],
+      text: ["3343|2", "9059|1", "9059|4"],
+      item: [
+        "907|4",
+        "1352|18.6",
+        "1354|9.8",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "3532|5.9",
+        "3629|2",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1238,
@@ -7168,6 +8567,23 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     Crits: 5,
+    Obtained: {
+      buy: [120],
+      monster: ["1209|3"],
+      text: ["3343|2", "5168|4", "9059|3"],
+      item: [
+        "907|4",
+        "1352|11.5",
+        "1354|5.9",
+        "1485|0.9",
+        "1496|1.4",
+        "1667|0.9",
+        "3532|5.9",
+        "3629|5.9",
+        "3710|4",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1240,
@@ -7192,6 +8608,11 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     ManaRgn: 5,
+    Obtained: {
+      buy: [120, 251],
+      text: ["3343|5", "9820|1"],
+      item: ["907|9.8", "3518|2", "3532|14.3", "3629|6", "3728|5"],
+    },
   },
   {
     Number: 1242,
@@ -7216,6 +8637,12 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     HPRegen: 20,
     Magical: 1,
+    Obtained: {
+      nogen: [120],
+      monster: ["617|5"],
+      text: ["3343|3", "9820|1"],
+      item: ["907|5.9", "3518|2", "3532|8.7", "3629|4", "3728|3"],
+    },
   },
   {
     Number: 1251,
@@ -7242,6 +8669,11 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     Crits: 1,
     Classes: [7],
+    Obtained: {
+      nogen: [115],
+      text: ["3343|5"],
+      item: ["907|9.8", "3532|14.3", "3629|5", "3728|5"],
+    },
   },
   {
     Number: 1253,
@@ -7265,6 +8697,22 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 20,
     Classes: [7],
+    Obtained: {
+      buy: [115],
+      monster: ["738|2"],
+      text: ["3343|5", "9062|6"],
+      item: [
+        "907|9.8",
+        "1352|21.5",
+        "1354|21",
+        "1485|14.5",
+        "1496|19.6",
+        "1667|14.5",
+        "3532|14.3",
+        "3629|5",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 1256,
@@ -7287,6 +8735,11 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 25,
+    Obtained: {
+      buy: [122],
+      text: ["9062|3"],
+      item: ["1352|15.5", "1354|16", "1485|8.1", "1496|12", "1667|8.1"],
+    },
   },
   {
     Number: 1262,
@@ -7312,6 +8765,21 @@ export const armorData: Armor[] = [
     Magical: 1,
     "Alter HP": 10,
     Dodge: 10,
+    Obtained: {
+      nogen: [119],
+      monster: ["619|10"],
+      text: ["9062|5", "9820|1", "9817|2"],
+      item: [
+        "1352|20.2",
+        "1354|19.9",
+        "1485|12.5",
+        "1496|17.4",
+        "1667|12.5",
+        "3517|2",
+        "3518|2",
+        "3629|1",
+      ],
+    },
   },
   {
     Number: 1309,
@@ -7339,6 +8807,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     Recharge: 3,
     Classes: [1],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1310,
@@ -7366,6 +8835,7 @@ export const armorData: Armor[] = [
     Crits: 1,
     LoyalItem: 0,
     Classes: [2],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1311,
@@ -7393,6 +8863,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     MaxDamage: 4,
     Classes: [3],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1312,
@@ -7422,6 +8893,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     MaxDamage: 3,
     Classes: [4],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1313,
@@ -7451,6 +8923,7 @@ export const armorData: Armor[] = [
     "Alter HP": 25,
     ManaRgn: 15,
     Classes: [5],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1314,
@@ -7480,6 +8953,7 @@ export const armorData: Armor[] = [
     BsMaxDmg: 20,
     Recharge: 3,
     Classes: [6],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1315,
@@ -7509,6 +8983,7 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     Recharge: 3,
     Classes: [7],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1316,
@@ -7540,6 +9015,7 @@ export const armorData: Armor[] = [
     CastsSp: 1220,
     Recharge: 5,
     Classes: [8],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1317,
@@ -7569,6 +9045,7 @@ export const armorData: Armor[] = [
     CastsSp: 1055,
     Recharge: 3,
     Classes: [9],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1318,
@@ -7598,6 +9075,7 @@ export const armorData: Armor[] = [
     CastsSp: 865,
     Recharge: 3,
     Classes: [10],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1319,
@@ -7627,6 +9105,7 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     "Alter HP": 50,
     Classes: [11],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1320,
@@ -7656,6 +9135,7 @@ export const armorData: Armor[] = [
     "Alter HP": 25,
     MaxMana: 50,
     Classes: [12],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1321,
@@ -7685,6 +9165,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     ManaRgn: 15,
     Classes: [13],
+    Obtained: { sell: [175] },
   },
   {
     Number: 1422,
@@ -7711,6 +9192,7 @@ export const armorData: Armor[] = [
     Recharge: 3,
     MaxDamage: 1,
     Classes: [9],
+    Obtained: { nogen: [93], text: [9228] },
   },
   {
     Number: 1430,
@@ -7735,6 +9217,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rfir: 5,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1431,
@@ -7759,6 +9242,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rfir: 5,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1432,
@@ -7783,6 +9267,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Rfir: 10,
     Magical: 1,
+    Obtained: { nogen: [232], text: ["4102|5"], item: ["1819|22.6"] },
   },
   {
     Number: 1433,
@@ -7807,6 +9292,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rfir: 5,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1434,
@@ -7831,6 +9317,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rfir: 2,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1441,
@@ -7856,6 +9343,7 @@ export const armorData: Armor[] = [
     CastsSp: 5144,
     LoyalItem: 0,
     Classes: [10],
+    Obtained: {},
   },
   {
     Number: 1442,
@@ -7881,6 +9369,18 @@ export const armorData: Armor[] = [
     ManaRgn: 100,
     HPRegen: -100,
     Magical: 1,
+    Obtained: {
+      text: ["5438|3", "9469|2", "9825|3"],
+      item: [
+        "1444|3.1",
+        "1485|3",
+        "1496|1.9",
+        "1667|3.2",
+        "3532|8.7",
+        "3629|2",
+        "3710|8.7",
+      ],
+    },
   },
   {
     Number: 1446,
@@ -7910,6 +9410,7 @@ export const armorData: Armor[] = [
     Crits: 5,
     CastsSp: 1009,
     Classes: [3, 4, 5, 6],
+    Obtained: { nogen: [184], text: ["5168|4"], item: ["3629|4", "3710|4"] },
   },
   {
     Number: 1447,
@@ -7939,6 +9440,7 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     Dodge: -6,
     Classes: [1, 3, 4],
+    Obtained: { monster: ["544|20"] },
   },
   {
     Number: 1959,
@@ -7964,6 +9466,11 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     Crits: 1,
     Magical: 1,
+    Obtained: {
+      monster: ["876|10"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1961,
@@ -7990,6 +9497,7 @@ export const armorData: Armor[] = [
     BsMaxDmg: 10,
     Stealth: 5,
     Classes: [7, 15, 6, 8, 9, 10, 14],
+    Obtained: { nogen: [151], monster: ["852|15"] },
   },
   {
     Number: 1964,
@@ -8015,6 +9523,11 @@ export const armorData: Armor[] = [
     Crits: 2,
     RoomIllu: 50,
     "S.C.": 5,
+    Obtained: {
+      buy: [85, 171, 251],
+      text: ["3343|2"],
+      item: ["907|4", "3532|5.9", "3629|2", "3728|2"],
+    },
   },
   {
     Number: 1970,
@@ -8040,6 +9553,7 @@ export const armorData: Armor[] = [
     ManaRgn: 5,
     MaxMana: 5,
     Magical: 1,
+    Obtained: { buy: [169] },
   },
   {
     Number: 1971,
@@ -8065,6 +9579,7 @@ export const armorData: Armor[] = [
     ManaRgn: 5,
     "S.C.": 5,
     Magical: 1,
+    Obtained: { buy: [169] },
   },
   {
     Number: 1973,
@@ -8087,6 +9602,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 10,
+    Obtained: { nogen: [79] },
   },
   {
     Number: 1974,
@@ -8111,6 +9627,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     MaxDamage: 1,
     Crits: 1,
+    Obtained: {},
   },
   {
     Number: 1984,
@@ -8133,6 +9650,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [33, 251], monster: ["469|1"] },
   },
   {
     Number: 1988,
@@ -8159,6 +9677,7 @@ export const armorData: Armor[] = [
     NotGood: 0,
     ManaRgn: 10,
     Classes: [5, 3, 4, 6],
+    Obtained: { buy: [69] },
   },
   {
     Number: 1996,
@@ -8183,6 +9702,7 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     ClassOk: [4],
     Classes: [1, 2, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { buy: [99, 221] },
   },
   {
     Number: 1997,
@@ -8210,6 +9730,7 @@ export const armorData: Armor[] = [
     ManaRgn: 5,
     ClassOk: [4],
     Classes: [4, 3, 6, 9, 10, 11, 14],
+    Obtained: { buy: [70] },
   },
   {
     Number: 1998,
@@ -8232,6 +9753,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 40,
+    Obtained: { buy: [149, 238] },
   },
   {
     Number: 1999,
@@ -8259,6 +9781,7 @@ export const armorData: Armor[] = [
     Dodge: 5,
     ManaRgn: 5,
     Classes: [10],
+    Obtained: { buy: [94] },
   },
   {
     Number: 2000,
@@ -8285,6 +9808,7 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     Dodge: 5,
     Classes: [10],
+    Obtained: { buy: [94] },
   },
   {
     Number: 2001,
@@ -8310,6 +9834,7 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     BsMinDmg: 10,
     Classes: [10],
+    Obtained: { buy: [94] },
   },
   {
     Number: 2002,
@@ -8335,6 +9860,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     "M.R.": 10,
     Classes: [10],
+    Obtained: { buy: [94] },
   },
   {
     Number: 2003,
@@ -8360,6 +9886,7 @@ export const armorData: Armor[] = [
     Dodge: 5,
     ManaRgn: 10,
     Classes: [10],
+    Obtained: { buy: [94] },
   },
   {
     Number: 2004,
@@ -8385,6 +9912,7 @@ export const armorData: Armor[] = [
     Illu: 25,
     Dodge: 5,
     Classes: [10],
+    Obtained: { buy: [94] },
   },
   {
     Number: 1450,
@@ -8409,6 +9937,7 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -8,
     Rcol: 10,
+    Obtained: { buy: [151, 159] },
   },
   {
     Number: 1451,
@@ -8432,6 +9961,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 10,
     Rcol: 5,
+    Obtained: { buy: [151, 159] },
   },
   {
     Number: 1452,
@@ -8460,6 +9990,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: -17,
     Classes: [1, 3, 4],
+    Obtained: { monster: ["544|20"] },
   },
   {
     Number: 1456,
@@ -8486,6 +10017,12 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     NeutralOnly: 0,
     "Alter HP": 20,
+    Obtained: {
+      nogen: [159],
+      monster: ["854|10"],
+      text: ["9817|2"],
+      item: ["3517|2"],
+    },
   },
   {
     Number: 1457,
@@ -8513,6 +10050,11 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     FindTrapsValue: 25,
     PickLocksValue: 35,
+    Obtained: {
+      nogen: [184],
+      text: ["3343|3", "9825|3"],
+      item: ["907|5.9", "3532|16.7", "3629|3", "3710|3", "3728|3"],
+    },
   },
   {
     Number: 1458,
@@ -8539,6 +10081,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     ManaRgn: 20,
     MaxDamage: 3,
+    Obtained: {
+      monster: ["836|25"],
+      text: ["5438|3", "9825|3"],
+      item: ["3532|8.7", "3710|8.7"],
+    },
   },
   {
     Number: 1459,
@@ -8568,6 +10115,11 @@ export const armorData: Armor[] = [
     Crits: 3,
     DR: -10,
     Magical: 1,
+    Obtained: {
+      monster: ["811|10"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1460,
@@ -8597,6 +10149,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     BsMinDmg: 15,
     EvilOnly: 150,
+    Obtained: {
+      monster: ["811|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1461,
@@ -8622,6 +10179,12 @@ export const armorData: Armor[] = [
     Recharge: 3,
     Magical: 1,
     CastsSp: 1028,
+    Obtained: {
+      nogen: [151],
+      monster: ["811|10"],
+      text: ["5447|4", "9825|3"],
+      item: ["3532|8.7", "3710|3", "3728|4"],
+    },
   },
   {
     Number: 1462,
@@ -8645,6 +10208,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { room: ["1|817"], monster: ["115|10", "115|1"] },
   },
   {
     Number: 1463,
@@ -8668,6 +10232,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { monster: ["819|10"] },
   },
   {
     Number: 1468,
@@ -8695,6 +10260,17 @@ export const armorData: Armor[] = [
     "Alter HP": 25,
     DR: -20,
     "M.R.": 10,
+    Obtained: {
+      text: ["5168|4", "9469|7"],
+      item: [
+        "1444|10",
+        "1485|8.6",
+        "1496|5.5",
+        "1667|8.8",
+        "3629|10.7",
+        "3710|4",
+      ],
+    },
   },
   {
     Number: 1469,
@@ -8720,6 +10296,7 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     ManaRgn: 10,
     Classes: [9],
+    Obtained: { buy: [87, 313] },
   },
   {
     Number: 1470,
@@ -8745,6 +10322,20 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: 10,
     BsMinDmg: 10,
+    Obtained: {
+      text: ["3343|2", "9469|4", "9817|2"],
+      item: [
+        "907|4",
+        "1444|6",
+        "1485|5.5",
+        "1496|3.5",
+        "1667|5.8",
+        "3517|2",
+        "3532|5.9",
+        "3629|5.9",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1472,
@@ -8768,6 +10359,19 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Magical: 1,
+    Obtained: {
+      text: ["3343|2", "9469|3"],
+      item: [
+        "907|4",
+        "1444|4.6",
+        "1485|4.3",
+        "1496|2.7",
+        "1667|4.6",
+        "3532|5.9",
+        "3629|4.9",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1477,
@@ -8795,6 +10399,10 @@ export const armorData: Armor[] = [
     Wisdom: 5,
     Percep: 10,
     BsAccu: 10,
+    Obtained: {
+      text: ["3343|4", "9820|1"],
+      item: ["907|7.8", "3518|2", "3532|11.5", "3629|5", "3728|4"],
+    },
   },
   {
     Number: 1479,
@@ -8819,6 +10427,11 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Illu: 50,
     Percep: 10,
+    Obtained: {
+      monster: ["805|5"],
+      text: ["5168|4"],
+      item: ["3629|4", "3710|4"],
+    },
   },
   {
     Number: 1482,
@@ -8845,6 +10458,10 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     Dodge: 5,
     "S.C.": 10,
+    Obtained: {
+      text: ["9469|5"],
+      item: ["1444|7.4", "1485|6.6", "1496|4.2", "1667|6.9", "3629|5"],
+    },
   },
   {
     Number: 1483,
@@ -8868,6 +10485,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Dodge: 5,
+    Obtained: { buy: [69, 183, 218, 256] },
   },
   {
     Number: 1491,
@@ -8893,6 +10511,20 @@ export const armorData: Armor[] = [
     Stealth: -10,
     "M.R.": 15,
     Dodge: -12,
+    Obtained: {
+      nogen: [170, 312],
+      buy: [238],
+      monster: ["530|10", "860|1"],
+      text: ["4438|3", "9470|10", "9817|4"],
+      item: [
+        "1444|15",
+        "1485|12.6",
+        "1496|5.5",
+        "1667|13.1",
+        "2013|16.7",
+        "3517|4",
+      ],
+    },
   },
   {
     Number: 1492,
@@ -8918,6 +10550,13 @@ export const armorData: Armor[] = [
     Quality: 5,
     "M.R.": 7,
     Dodge: -4,
+    Obtained: {
+      nogen: [170],
+      buy: [238],
+      monster: ["527|1", "860|1", "2104|1", "2131|1"],
+      text: ["4438|2", "9470|10"],
+      item: ["1444|15", "1485|12.6", "1496|5.5", "1667|13.1", "2013|11.4"],
+    },
   },
   {
     Number: 1493,
@@ -8941,6 +10580,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     "M.R.": 5,
+    Obtained: {
+      nogen: [43],
+      monster: ["529|1", "2105|1", "2132|1"],
+      text: ["4438|6", "9470|10"],
+      item: ["1444|15", "1485|12.6", "1496|5.5", "1667|13.1", "2013|31"],
+    },
   },
   {
     Number: 1504,
@@ -8966,6 +10611,7 @@ export const armorData: Armor[] = [
     Percep: -10,
     GoodOnly: 0,
     Classes: [1, 3, 4],
+    Obtained: { monster: ["544|20"] },
   },
   {
     Number: 1516,
@@ -8990,6 +10636,20 @@ export const armorData: Armor[] = [
     MinLevel: 15,
     Magical: 1,
     Dodge: 5,
+    Obtained: {
+      buy: [251],
+      text: ["3343|3", "9469|5", "9469|1"],
+      item: [
+        "907|5.9",
+        "1444|8.7",
+        "1485|7.6",
+        "1496|4.9",
+        "1667|7.9",
+        "3532|8.7",
+        "3629|8.8",
+        "3728|3",
+      ],
+    },
   },
   {
     Number: 1518,
@@ -9015,6 +10675,19 @@ export const armorData: Armor[] = [
     Quickness: 100,
     Magical: 1,
     Crits: 5,
+    Obtained: {
+      nogen: [242],
+      text: ["5438|3", "9469|1", "9825|3"],
+      item: [
+        "1444|1.6",
+        "1485|1.5",
+        "1496|1",
+        "1667|1.7",
+        "3532|8.7",
+        "3629|1",
+        "3710|8.7",
+      ],
+    },
   },
   {
     Number: 1520,
@@ -9043,6 +10716,18 @@ export const armorData: Armor[] = [
     Crits: 10,
     EvilOnly: 0,
     Classes: [1, 3, 6, 7, 8, 9, 10, 14, 11],
+    Obtained: {
+      sell: [176],
+      text: ["4102|2", "9469|11"],
+      item: [
+        "1444|14.8",
+        "1485|11.8",
+        "1496|7.5",
+        "1667|11.4",
+        "1819|9.6",
+        "3629|11",
+      ],
+    },
   },
   {
     Number: 1521,
@@ -9067,6 +10752,11 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     ManaRgn: 10,
     Magical: 1,
+    Obtained: {
+      nogen: [184],
+      text: ["9469|11"],
+      item: ["1444|14.8", "1485|11.8", "1496|7.5", "1667|11.4", "3629|11"],
+    },
   },
   {
     Number: 1522,
@@ -9094,6 +10784,11 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     Crits: 3,
     Dodge: -5,
+    Obtained: {
+      sell: [175],
+      text: ["9469|8", "9817|2"],
+      item: ["1444|11.3", "1485|9.4", "1496|6", "1667|9.5", "3517|2", "3629|8"],
+    },
   },
   {
     Number: 1523,
@@ -9118,6 +10813,18 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -7,
     MaxDamage: 2,
+    Obtained: {
+      sell: [41],
+      text: ["2944|1", "9469|6"],
+      item: [
+        "1344|9.2",
+        "1444|8.7",
+        "1485|9.7",
+        "1496|8.3",
+        "1667|10",
+        "3629|6",
+      ],
+    },
   },
   {
     Number: 1524,
@@ -9143,6 +10850,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     Crits: 2,
     MaxDamage: 1,
+    Obtained: {
+      monster: ["342|10"],
+      text: ["9469|4", "9817|2"],
+      item: ["1444|6", "1485|5.5", "1496|3.5", "1667|5.8", "3517|2", "3629|4"],
+    },
   },
   {
     Number: 1525,
@@ -9167,6 +10879,11 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     "M.R.": 5,
     HPRegen: 10,
+    Obtained: {
+      buy: [251, 312],
+      text: ["3343|5", "4438|10"],
+      item: ["907|9.8", "2013|46.8", "3532|14.3", "3629|5", "3728|5"],
+    },
   },
   {
     Number: 1526,
@@ -9193,6 +10910,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     Classes: [3, 4],
+    Obtained: {
+      monster: ["906|15"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1527,
@@ -9220,6 +10942,7 @@ export const armorData: Armor[] = [
     MaxMana: 5,
     ManaRgn: 10,
     Classes: [13, 14],
+    Obtained: { buy: [171, 251] },
   },
   {
     Number: 1528,
@@ -9245,6 +10968,7 @@ export const armorData: Armor[] = [
     Accuracy: 3,
     ManaRgn: 10,
     Classes: [14],
+    Obtained: { monster: ["292|10"] },
   },
   {
     Number: 1529,
@@ -9272,6 +10996,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     BsAccu: 5,
     BsMinDmg: 5,
+    Obtained: {
+      monster: ["368|1", "566|5"],
+      text: ["5168|3", "9824|4"],
+      item: ["3532|11.5", "3629|3", "3710|6.9"],
+    },
   },
   {
     Number: 1555,
@@ -9295,6 +11024,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     LoyalItem: 0,
+    Obtained: { text: [9513] },
   },
   {
     Number: 1579,
@@ -9325,6 +11055,7 @@ export const armorData: Armor[] = [
     Cursed: 100,
     ManaRgn: 100,
     HPRegen: -50,
+    Obtained: { monster: ["215|5"] },
   },
   {
     Number: 1599,
@@ -9351,6 +11082,7 @@ export const armorData: Armor[] = [
     MaxDamage: 5,
     LoyalItem: 0,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1632,
@@ -9374,6 +11106,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     CastsSp: 1232,
+    Obtained: { monster: ["818|1"] },
   },
   {
     Number: 1635,
@@ -9401,6 +11134,18 @@ export const armorData: Armor[] = [
     PunchDmg: 5,
     ManaRgn: 50,
     Classes: [15],
+    Obtained: {
+      text: ["5438|3", "9469|2", "9825|3"],
+      item: [
+        "1444|3.1",
+        "1485|3",
+        "1496|1.9",
+        "1667|3.2",
+        "3532|8.7",
+        "3629|2",
+        "3710|8.7",
+      ],
+    },
   },
   {
     Number: 1640,
@@ -9429,6 +11174,11 @@ export const armorData: Armor[] = [
     ManaRgn: 40,
     "S.C.": 10,
     Classes: [5],
+    Obtained: {
+      monster: ["371|10"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1642,
@@ -9456,6 +11206,7 @@ export const armorData: Armor[] = [
     Cursed: 100,
     Magical: 1,
     "M.R.": -25,
+    Obtained: { monster: ["937|5"] },
   },
   {
     Number: 1645,
@@ -9482,6 +11233,11 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     Stealth: 10,
     Classes: [14, 13],
+    Obtained: {
+      nogen: [152],
+      text: ["9469|2", "9469|4"],
+      item: ["1444|8.7", "1485|7.6", "1496|4.9", "1667|7.9", "3629|6"],
+    },
   },
   {
     Number: 1649,
@@ -9508,6 +11264,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     "S.C.": 10,
     GoodOnly: -51,
+    Obtained: { monster: ["784|5"] },
   },
   {
     Number: 1650,
@@ -9535,6 +11292,12 @@ export const armorData: Armor[] = [
     "S.C.": 15,
     Dodge: 10,
     Classes: [9],
+    Obtained: {
+      nogen: [93],
+      buy: [267],
+      text: ["9469|5"],
+      item: ["1444|7.4", "1485|6.6", "1496|4.2", "1667|6.9", "3629|5"],
+    },
   },
   {
     Number: 1655,
@@ -9562,6 +11325,7 @@ export const armorData: Armor[] = [
     "Alter HP": 20,
     Magical: 1,
     Classes: [1, 3, 6, 5, 4],
+    Obtained: { monster: ["877|100"] },
   },
   {
     Number: 1656,
@@ -9589,6 +11353,7 @@ export const armorData: Armor[] = [
     RoomIllu: 25,
     ManaRgn: 10,
     Classes: [3, 4, 5, 6],
+    Obtained: { buy: [234], text: ["9646|5", "9646|20"], item: ["1801|54.4"] },
   },
   {
     Number: 1657,
@@ -9614,6 +11379,12 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     ManaRgn: 15,
     Magical: 1,
+    Obtained: {
+      sell: [151],
+      monster: ["933|5"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1666,
@@ -9640,6 +11411,11 @@ export const armorData: Armor[] = [
     ManaRgn: 40,
     MaxDamage: 2,
     Classes: [5, 3, 4, 6],
+    Obtained: {
+      nogen: [151],
+      text: ["5438|3", "9646|5", "9825|3"],
+      item: ["1801|23.5", "3532|8.7", "3710|8.7"],
+    },
   },
   {
     Number: 1668,
@@ -9667,6 +11443,7 @@ export const armorData: Armor[] = [
     MaxMana: 10,
     Magical: 1,
     Classes: [1, 3, 4],
+    Obtained: { monster: ["544|20"] },
   },
   {
     Number: 1676,
@@ -9694,6 +11471,7 @@ export const armorData: Armor[] = [
     BsMinDmg: 25,
     MaxDamage: 2,
     Classes: [7],
+    Obtained: { nogen: [151], monster: ["852|15"] },
   },
   {
     Number: 1678,
@@ -9718,6 +11496,11 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Dodge: -10,
+    Obtained: {
+      monster: ["912|5"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1679,
@@ -9746,6 +11529,7 @@ export const armorData: Armor[] = [
     Recharge: 10,
     GoodOnly: 0,
     Classes: [1, 3, 4],
+    Obtained: { monster: ["544|20"] },
   },
   {
     Number: 1695,
@@ -9769,6 +11553,21 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Illu: 25,
+    Obtained: {
+      text: ["874|1", 4088, "2922|1", "4106|1"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "956|3.9",
+        "957|3.9",
+        "958|3.9",
+        "974|7.3",
+        "1727|3",
+        "1738|4.9",
+        "1834|3.5",
+        "1840|1.2",
+      ],
+    },
   },
   {
     Number: 1700,
@@ -9794,6 +11593,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 4,
     Rlit: 10,
+    Obtained: {
+      monster: ["639|5"],
+      text: ["5168|4", "9825|3"],
+      item: ["3532|8.7", "3629|4", "3710|6.9"],
+    },
   },
   {
     Number: 1707,
@@ -9820,6 +11624,27 @@ export const armorData: Armor[] = [
     Dodge: -15,
     Magical: 1,
     Illu: 10,
+    Obtained: {
+      buy: [6, 237],
+      text: ["898|1", "9817|2"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3517|2",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1708,
@@ -9847,6 +11672,7 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     ManaRgn: 10,
     Classes: [5],
+    Obtained: { buy: [69], monster: ["174|10"] },
   },
   {
     Number: 1711,
@@ -9871,6 +11697,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     ResistWater: 5,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1712,
@@ -9895,6 +11722,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     ResistWater: 5,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1713,
@@ -9919,6 +11747,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     ResistWater: 10,
     Magical: 1,
+    Obtained: { nogen: [232], text: ["9817|4"], item: ["3517|4"] },
   },
   {
     Number: 1714,
@@ -9943,6 +11772,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     ResistWater: 5,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1715,
@@ -9967,6 +11797,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     ResistWater: 2,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1716,
@@ -9991,6 +11822,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     Rcol: 5,
+    Obtained: { nogen: [232], buy: [241] },
   },
   {
     Number: 1717,
@@ -10015,6 +11847,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     Rcol: 5,
+    Obtained: { nogen: [232], buy: [241] },
   },
   {
     Number: 1718,
@@ -10039,6 +11872,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Rcol: 10,
     Magical: 1,
+    Obtained: { nogen: [232], buy: [241], text: ["9817|4"], item: ["3517|4"] },
   },
   {
     Number: 1719,
@@ -10063,6 +11897,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     Rcol: 5,
+    Obtained: { nogen: [232], buy: [241] },
   },
   {
     Number: 1720,
@@ -10087,6 +11922,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     Magical: 1,
     Rcol: 2,
+    Obtained: { nogen: [232], buy: [241] },
   },
   {
     Number: 1721,
@@ -10111,6 +11947,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rlit: 5,
+    Obtained: { nogen: [229] },
   },
   {
     Number: 1722,
@@ -10135,6 +11972,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rlit: 5,
+    Obtained: { nogen: [229] },
   },
   {
     Number: 1723,
@@ -10159,6 +11997,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Rlit: 10,
     Magical: 1,
+    Obtained: { nogen: [229] },
   },
   {
     Number: 1724,
@@ -10183,6 +12022,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rlit: 5,
+    Obtained: { nogen: [229] },
   },
   {
     Number: 1725,
@@ -10207,6 +12047,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Rlit: 2,
+    Obtained: { nogen: [229] },
   },
   {
     Number: 1746,
@@ -10235,6 +12076,7 @@ export const armorData: Armor[] = [
     PunchAcc: 5,
     KickDmg: 5,
     JumpKDmg: 4,
+    Obtained: { monster: ["921|100"] },
   },
   {
     Number: 1777,
@@ -10261,6 +12103,7 @@ export const armorData: Armor[] = [
     NeutralOnly: 0,
     Magical: 1,
     "S.C.": 10,
+    Obtained: { monster: ["854|10"] },
   },
   {
     Number: 1788,
@@ -10285,6 +12128,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     CastsSp: 1151,
     ClassOk: [6, 8, 9, 10, 11, 12, 15],
+    Obtained: { buy: [152], text: [9356, "9540|25", "9540|10", "9540|45"] },
   },
   {
     Number: 1808,
@@ -10310,6 +12154,12 @@ export const armorData: Armor[] = [
     Stealth: -20,
     Illu: -25,
     Dodge: -20,
+    Obtained: {
+      nogen: [152],
+      monster: ["934|10"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1813,
@@ -10333,6 +12183,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 40,
     Percep: -15,
+    Obtained: { monster: ["929|15"] },
   },
   {
     Number: 1814,
@@ -10356,6 +12207,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 40,
     Percep: -15,
+    Obtained: { monster: ["867|1"] },
   },
   {
     Number: 1820,
@@ -10384,6 +12236,12 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     Stealth: -5,
     Dodge: -7,
+    Obtained: {
+      nogen: [70, 152],
+      monster: ["927|1"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1821,
@@ -10411,6 +12269,7 @@ export const armorData: Armor[] = [
     MaxMana: 5,
     Stealth: -5,
     Dodge: -2,
+    Obtained: { nogen: [70, 152], monster: ["827|1"] },
   },
   {
     Number: 1822,
@@ -10437,6 +12296,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Illu: 10,
     MaxMana: 2,
+    Obtained: { nogen: [70, 152], monster: ["926|1"] },
   },
   {
     Number: 1823,
@@ -10461,6 +12321,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     MaxDamage: 1,
     Magical: 1,
+    Obtained: { nogen: [70, 152], monster: ["925|1"] },
   },
   {
     Number: 1835,
@@ -10486,6 +12347,12 @@ export const armorData: Armor[] = [
     Stealth: -40,
     Rlit: 30,
     Dodge: -30,
+    Obtained: {
+      nogen: [114],
+      monster: ["639|5"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1836,
@@ -10509,6 +12376,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     Magical: 1,
+    Obtained: { buy: [87, 313], monster: ["448|1"] },
   },
   {
     Number: 1837,
@@ -10532,6 +12400,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     Magical: 1,
+    Obtained: { buy: [87, 313], monster: ["448|1"] },
   },
   {
     Number: 1838,
@@ -10558,6 +12427,7 @@ export const armorData: Armor[] = [
     KickDmg: 3,
     JumpKDmg: 4,
     Classes: [15],
+    Obtained: { nogen: [171], monster: ["313|10"] },
   },
   {
     Number: 1839,
@@ -10586,6 +12456,11 @@ export const armorData: Armor[] = [
     PunchAcc: 5,
     PunchDmg: 5,
     Classes: [15],
+    Obtained: {
+      monster: ["448|10"],
+      text: ["9820|1", "9817|2"],
+      item: ["3517|2", "3518|2", "3629|1"],
+    },
   },
   {
     Number: 1841,
@@ -10610,6 +12485,7 @@ export const armorData: Armor[] = [
     MinLevel: 15,
     Stealth: -5,
     Magical: 1,
+    Obtained: { nogen: [43], monster: ["180|25"] },
   },
   {
     Number: 1842,
@@ -10634,6 +12510,7 @@ export const armorData: Armor[] = [
     MinLevel: 15,
     Magical: 1,
     Stealth: -5,
+    Obtained: { nogen: [43], monster: ["180|25"] },
   },
   {
     Number: 1843,
@@ -10660,6 +12537,7 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     BsMinDmg: 5,
     Classes: [7, 15, 6, 8, 14, 9, 10],
+    Obtained: { nogen: [151], monster: ["852|15"] },
   },
   {
     Number: 1844,
@@ -10685,6 +12563,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -2,
     MaxDamage: 2,
+    Obtained: { buy: [114] },
   },
   {
     Number: 1845,
@@ -10708,6 +12587,27 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Magical: 4,
+    Obtained: {
+      nogen: [42],
+      buy: [169],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1846,
@@ -10731,6 +12631,27 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Magical: 3,
+    Obtained: {
+      nogen: [42],
+      buy: [169],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1847,
@@ -10754,6 +12675,27 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Magical: 3,
+    Obtained: {
+      nogen: [42],
+      buy: [169],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1848,
@@ -10777,6 +12719,27 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     Magical: 1,
+    Obtained: {
+      nogen: [42],
+      buy: [169, 243],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1849,
@@ -10800,6 +12763,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     Magical: 1,
+    Obtained: { nogen: [42], buy: [169, 243] },
   },
   {
     Number: 1850,
@@ -10823,6 +12787,27 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     Magical: 1,
+    Obtained: {
+      nogen: [42],
+      buy: [169, 243],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1851,
@@ -10851,6 +12836,12 @@ export const armorData: Armor[] = [
     Crits: 5,
     ManaRgn: 15,
     Classes: [3, 6, 11, 4, 9, 5, 10, 14],
+    Obtained: {
+      nogen: [184],
+      monster: ["817|5"],
+      text: ["5168|4", "9824|3"],
+      item: ["3532|8.7", "3629|4", "3710|6.9"],
+    },
   },
   {
     Number: 1852,
@@ -10873,6 +12864,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 15,
+    Obtained: { buy: [183, 225] },
   },
   {
     Number: 1853,
@@ -10895,6 +12887,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 15,
+    Obtained: { buy: [183, 225] },
   },
   {
     Number: 1856,
@@ -10919,6 +12912,7 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Crits: 1,
     Magical: 1,
+    Obtained: { nogen: [91], monster: ["970|1"] },
   },
   {
     Number: 1857,
@@ -10943,6 +12937,7 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -10,
     Dodge: -3,
+    Obtained: { buy: [70, 99, 114, 221, 237] },
   },
   {
     Number: 1858,
@@ -10965,6 +12960,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [70, 99, 221, 237] },
   },
   {
     Number: 1859,
@@ -10987,6 +12983,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [70, 99, 221, 237] },
   },
   {
     Number: 1860,
@@ -11011,6 +13008,7 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -12,
     Dodge: -10,
+    Obtained: { buy: [99, 221, 237] },
   },
   {
     Number: 1861,
@@ -11035,6 +13033,7 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -12,
     Dodge: -3,
+    Obtained: { buy: [99, 221, 237] },
   },
   {
     Number: 1862,
@@ -11057,6 +13056,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [99, 221, 237] },
   },
   {
     Number: 1863,
@@ -11080,6 +13080,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Stealth: -5,
+    Obtained: { buy: [99, 221, 237] },
   },
   {
     Number: 1864,
@@ -11104,6 +13105,26 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -5,
     Magical: 1,
+    Obtained: {
+      buy: [43, 237],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1865,
@@ -11127,6 +13148,26 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 30,
     Magical: 1,
+    Obtained: {
+      buy: [43, 237],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1866,
@@ -11150,6 +13191,26 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 30,
     Magical: 1,
+    Obtained: {
+      buy: [43, 237],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1867,
@@ -11175,6 +13236,26 @@ export const armorData: Armor[] = [
     Stealth: -5,
     Dodge: -7,
     Magical: 1,
+    Obtained: {
+      buy: [6, 237],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1868,
@@ -11198,6 +13279,27 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Magical: 1,
+    Obtained: {
+      sell: [171, 176],
+      buy: [237],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1870,
@@ -11221,6 +13323,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 45,
     Magical: 1,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1871,
@@ -11244,6 +13347,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 45,
     Magical: 1,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1872,
@@ -11267,6 +13371,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 45,
     Magical: 1,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1873,
@@ -11290,6 +13395,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 45,
     Magical: 1,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1874,
@@ -11313,6 +13419,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 45,
     Magical: 1,
+    Obtained: { nogen: [232] },
   },
   {
     Number: 1875,
@@ -11335,6 +13442,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 15,
+    Obtained: { buy: [183, 225] },
   },
   {
     Number: 1880,
@@ -11360,6 +13468,10 @@ export const armorData: Armor[] = [
     Stealth: -5,
     Magical: 1,
     GoodOnly: 0,
+    Obtained: {
+      text: ["9469|5"],
+      item: ["1444|7.4", "1485|6.6", "1496|4.2", "1667|6.9", "3629|5"],
+    },
   },
   {
     Number: 1881,
@@ -11384,6 +13496,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     ManaRgn: 5,
+    Obtained: { nogen: [70, 152], monster: ["1007|1", "2395|1"] },
   },
   {
     Number: 1882,
@@ -11408,6 +13521,11 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     "M.R.": 5,
     HPRegen: 10,
+    Obtained: {
+      buy: [312],
+      text: ["4438|2", "9817|2"],
+      item: ["2013|11.4", "3517|2"],
+    },
   },
   {
     Number: 1883,
@@ -11430,6 +13548,20 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 20,
+    Obtained: {
+      buy: [79, 87, 239, 241, 313],
+      text: ["2944|1", "3343|5"],
+      item: [
+        "907|9.8",
+        "1344|9.2",
+        "1485|3.3",
+        "1496|5.3",
+        "1667|3.3",
+        "3532|14.3",
+        "3629|5",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 1884,
@@ -11454,6 +13586,11 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Percep: -10,
     "M.R.": 10,
+    Obtained: {
+      buy: [312],
+      text: ["3343|2", "4438|5", "9817|2"],
+      item: ["907|4", "2013|26.5", "3517|2", "3532|5.9", "3629|2", "3728|2"],
+    },
   },
   {
     Number: 1905,
@@ -11481,6 +13618,18 @@ export const armorData: Armor[] = [
     ManaRgn: 50,
     Dodge: 5,
     Classes: [15],
+    Obtained: {
+      text: ["5438|3", "9469|2", "9825|3"],
+      item: [
+        "1444|3.1",
+        "1485|3",
+        "1496|1.9",
+        "1667|3.2",
+        "3532|8.7",
+        "3629|2",
+        "3710|8.7",
+      ],
+    },
   },
   {
     Number: 1914,
@@ -11506,6 +13655,7 @@ export const armorData: Armor[] = [
     "S.C.": 5,
     MaxMana: 5,
     Classes: [3, 4, 5, 6],
+    Obtained: { buy: [68, 215, 234] },
   },
   {
     Number: 2010,
@@ -11528,6 +13678,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { buy: [102] },
   },
   {
     Number: 2015,
@@ -11551,6 +13702,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Alter HP": 10,
+    Obtained: { room: ["1|2411", "1|2412"] },
   },
   {
     Number: 2016,
@@ -11574,6 +13726,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Alter HP": 10,
+    Obtained: { room: ["6|3109"] },
   },
   {
     Number: 2032,
@@ -11601,6 +13754,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     CastsSp: 1397,
     Recharge: 3,
+    Obtained: {
+      monster: ["540|5"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 2033,
@@ -11629,6 +13787,11 @@ export const armorData: Armor[] = [
     MaxMana: 15,
     "Alter HP": 25,
     Percep: 10,
+    Obtained: {
+      monster: ["540|5"],
+      text: ["5168|4", "9824|3"],
+      item: ["3532|8.7", "3629|4", "3710|6.9"],
+    },
   },
   {
     Number: 2035,
@@ -11657,6 +13820,7 @@ export const armorData: Armor[] = [
     HPRegen: 25,
     Percep: 10,
     Classes: [2],
+    Obtained: { sell: [312] },
   },
   {
     Number: 2041,
@@ -11679,6 +13843,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { monster: ["545|1"] },
   },
   {
     Number: 2048,
@@ -11702,6 +13867,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     LoyalItem: 1,
+    Obtained: {},
   },
   {
     Number: 2049,
@@ -11725,6 +13891,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     LoyalItem: 1,
+    Obtained: {},
   },
   {
     Number: 2050,
@@ -11748,6 +13915,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 0,
     LoyalItem: 1,
+    Obtained: {},
   },
   {
     Number: 2120,
@@ -11774,6 +13942,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     BsAccu: 20,
     MaxDamage: 3,
+    Obtained: { monster: ["1023|5"] },
   },
   {
     Number: 2121,
@@ -11797,6 +13966,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 50,
     MaxDamage: 2,
+    Obtained: { monster: ["2176|1"] },
   },
   {
     Number: 2124,
@@ -11822,6 +13992,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Crits: 1,
     LoyalItem: 0,
+    Obtained: { text: [6001, 6609, 6633] },
   },
   {
     Number: 2125,
@@ -11849,6 +14020,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     HPRegen: 5,
     "S.C.": 5,
+    Obtained: { text: [6002, 6610, 6634] },
   },
   {
     Number: 2136,
@@ -11874,6 +14046,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Illu: 10,
     LoyalItem: 0,
+    Obtained: { text: [6003, 6611, 6635] },
   },
   {
     Number: 2138,
@@ -11900,6 +14073,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     LoyalItem: 0,
     "S.C.": 10,
+    Obtained: { text: [6004, 6612, 6636] },
   },
   {
     Number: 2161,
@@ -11925,6 +14099,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     MaxDamage: 3,
     Crits: 2,
+    Obtained: { monster: ["2114|100"] },
   },
   {
     Number: 2162,
@@ -11952,6 +14127,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     LoyalItem: 0,
     Classes: [5, 12, 13],
+    Obtained: {},
   },
   {
     Number: 2190,
@@ -11977,6 +14153,7 @@ export const armorData: Armor[] = [
     Dodge: -20,
     Stealth: -18,
     Magical: 1,
+    Obtained: { buy: [201] },
   },
   {
     Number: 2191,
@@ -12002,6 +14179,7 @@ export const armorData: Armor[] = [
     Dodge: -20,
     Stealth: -18,
     Magical: 1,
+    Obtained: { buy: [201] },
   },
   {
     Number: 2192,
@@ -12027,6 +14205,7 @@ export const armorData: Armor[] = [
     Stealth: -30,
     Magical: 1,
     Dodge: -20,
+    Obtained: { buy: [316] },
   },
   {
     Number: 2193,
@@ -12050,6 +14229,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 75,
     Magical: 1,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2194,
@@ -12073,6 +14253,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 75,
     Magical: 1,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2195,
@@ -12096,6 +14277,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 75,
     Magical: 1,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2196,
@@ -12125,6 +14307,7 @@ export const armorData: Armor[] = [
     Rcol: 5,
     Rlit: 5,
     ResistWater: 5,
+    Obtained: { buy: [201] },
   },
   {
     Number: 2197,
@@ -12149,6 +14332,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Stealth: -10,
     Dodge: -10,
+    Obtained: { buy: [201] },
   },
   {
     Number: 2198,
@@ -12172,6 +14356,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 75,
     MaxDamage: 3,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2199,
@@ -12194,6 +14379,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2200,
@@ -12216,6 +14402,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2201,
@@ -12239,6 +14426,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 75,
     Stealth: -5,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2204,
@@ -12261,6 +14449,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2205,
@@ -12285,6 +14474,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Stealth: -5,
     Dodge: -4,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2206,
@@ -12307,6 +14497,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [200] },
   },
   {
     Number: 2207,
@@ -12329,6 +14520,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [203] },
   },
   {
     Number: 2208,
@@ -12351,6 +14543,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [203] },
   },
   {
     Number: 2209,
@@ -12373,6 +14566,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [203] },
   },
   {
     Number: 2210,
@@ -12395,6 +14589,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [203] },
   },
   {
     Number: 2211,
@@ -12417,6 +14612,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 75,
+    Obtained: { buy: [203] },
   },
   {
     Number: 2212,
@@ -12442,6 +14638,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     ClassOk: [8, 9, 10, 11],
+    Obtained: { buy: [204] },
   },
   {
     Number: 2213,
@@ -12466,6 +14663,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Magical: 1,
     Dodge: 10,
+    Obtained: { buy: [202] },
   },
   {
     Number: 2214,
@@ -12490,6 +14688,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Magical: 1,
     Dodge: 10,
+    Obtained: { buy: [202] },
   },
   {
     Number: 2215,
@@ -12514,6 +14713,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Magical: 1,
     Dodge: 10,
+    Obtained: { buy: [202] },
   },
   {
     Number: 2216,
@@ -12538,6 +14738,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Magical: 1,
     Dodge: 10,
+    Obtained: { buy: [202] },
   },
   {
     Number: 2217,
@@ -12562,6 +14763,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Magical: 1,
     Dodge: 10,
+    Obtained: { buy: [202] },
   },
   {
     Number: 2218,
@@ -12587,6 +14789,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     ClassOk: [8, 9, 10, 11],
+    Obtained: { buy: [204] },
   },
   {
     Number: 2226,
@@ -12615,6 +14818,7 @@ export const armorData: Armor[] = [
     BsAccu: 20,
     Stealth: 20,
     Classes: [8],
+    Obtained: {},
   },
   {
     Number: 3001,
@@ -12641,6 +14845,7 @@ export const armorData: Armor[] = [
     BsAccu: 5,
     Stealth: 8,
     BsMinDmg: 8,
+    Obtained: { nogen: [82], text: ["4901|5"], item: ["3000|5"] },
   },
   {
     Number: 3002,
@@ -12666,6 +14871,7 @@ export const armorData: Armor[] = [
     Stealth: 10,
     Magical: 1,
     BsMinDmg: 5,
+    Obtained: { nogen: [82], text: ["4901|5"], item: ["3000|5"] },
   },
   {
     Number: 3003,
@@ -12690,6 +14896,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     BsMinDmg: 5,
     Stealth: 5,
+    Obtained: { nogen: [82], text: ["4901|5"], item: ["3000|5"] },
   },
   {
     Number: 3020,
@@ -12713,6 +14920,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     ResistWater: 5,
+    Obtained: { buy: [218, 256] },
   },
   {
     Number: 3021,
@@ -12736,6 +14944,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 35,
     ManaRgn: 10,
+    Obtained: { buy: [222], text: ["4102|1"], item: ["1819|4.9"] },
   },
   {
     Number: 3022,
@@ -12761,6 +14970,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     "S.C.": 5,
     Magical: 1,
+    Obtained: { buy: [224] },
   },
   {
     Number: 3023,
@@ -12786,6 +14996,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     MaxMana: 10,
     Magical: 1,
+    Obtained: { buy: [224] },
   },
   {
     Number: 3024,
@@ -12810,6 +15021,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     ManaRgn: 10,
     Magical: 1,
+    Obtained: { buy: [222] },
   },
   {
     Number: 3027,
@@ -12832,6 +15044,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 25,
+    Obtained: { buy: [237], monster: ["2359|1"] },
   },
   {
     Number: 3035,
@@ -12857,6 +15070,12 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     Magical: 1,
     "Alter HP": 40,
+    Obtained: {
+      nogen: [251],
+      monster: ["2370|10"],
+      text: ["5438|3", "5447|4"],
+      item: ["3710|5.9", "3728|4"],
+    },
   },
   {
     Number: 3036,
@@ -12885,6 +15104,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Crits: 1,
     NotGood: 0,
+    Obtained: { monster: ["2370|10"] },
   },
   {
     Number: 3207,
@@ -12909,6 +15129,7 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -8,
     Rcol: 10,
+    Obtained: { buy: [260] },
   },
   {
     Number: 3211,
@@ -12936,6 +15157,7 @@ export const armorData: Armor[] = [
     "S.C.": 5,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { buy: [42] },
   },
   {
     Number: 3212,
@@ -12963,6 +15185,7 @@ export const armorData: Armor[] = [
     "S.C.": 8,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71], monster: ["210|35"] },
   },
   {
     Number: 3213,
@@ -12990,6 +15213,7 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71], monster: ["269|100"] },
   },
   {
     Number: 3214,
@@ -13017,6 +15241,7 @@ export const armorData: Armor[] = [
     "S.C.": 15,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71], monster: ["588|30"] },
   },
   {
     Number: 3215,
@@ -13044,6 +15269,7 @@ export const armorData: Armor[] = [
     "S.C.": 20,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71], buy: [247], monster: ["567|25"] },
   },
   {
     Number: 3216,
@@ -13071,6 +15297,12 @@ export const armorData: Armor[] = [
     "S.C.": 25,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: {
+      nogen: [71, 247],
+      monster: ["949|50", "2734|10"],
+      text: ["5438|3", "5447|4"],
+      item: ["3710|5.9", "3728|4"],
+    },
   },
   {
     Number: 3550,
@@ -13099,6 +15331,10 @@ export const armorData: Armor[] = [
     Dodge: 5,
     Percep: 10,
     Classes: [13],
+    Obtained: {
+      sell: [175],
+      monster: ["609|10", "610|10", "611|10", "612|10"],
+    },
   },
   {
     Number: 3554,
@@ -13122,6 +15358,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 80,
     Stealth: -10,
+    Obtained: {
+      sell: [178],
+      monster: ["2397|10"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3555,
@@ -13145,6 +15387,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Crits: 1,
+    Obtained: { buy: [222] },
   },
   {
     Number: 3556,
@@ -13169,6 +15412,7 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Illu: 50,
     Percep: -10,
+    Obtained: { buy: [222] },
   },
   {
     Number: 3557,
@@ -13192,6 +15436,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     "Alter HP": 20,
+    Obtained: { buy: [225, 241] },
   },
   {
     Number: 3558,
@@ -13215,6 +15460,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     "Alter HP": 10,
+    Obtained: { buy: [225, 241] },
   },
   {
     Number: 3559,
@@ -13239,6 +15485,7 @@ export const armorData: Armor[] = [
     MinLevel: 35,
     MaxDamage: 2,
     "Alter HP": 10,
+    Obtained: { buy: [225, 241] },
   },
   {
     Number: 3560,
@@ -13264,6 +15511,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     AlterSpDmg: 3,
     Dodge: -10,
+    Obtained: {
+      nogen: [251],
+      monster: ["2397|10"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3562,
@@ -13287,6 +15540,12 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 55,
     MaxDamage: 3,
+    Obtained: {
+      nogen: [225],
+      monster: ["2414|7"],
+      text: ["5438|4", "5447|4"],
+      item: ["3710|7.8", "3728|4"],
+    },
   },
   {
     Number: 3563,
@@ -13309,6 +15568,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: { monster: ["1132|25", "1133|25"] },
   },
   {
     Number: 3813,
@@ -13331,6 +15591,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 60,
+    Obtained: { sell: [251] },
   },
   {
     Number: 3815,
@@ -13359,6 +15620,12 @@ export const armorData: Armor[] = [
     "S.C.": 25,
     Stealth: -20,
     Classes: [6, 8, 9, 10, 14],
+    Obtained: {
+      nogen: [267],
+      monster: ["2788|7"],
+      text: ["10102|3"],
+      item: ["3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3816,
@@ -13387,6 +15654,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     AlterSpDmg: 2,
     Classes: [9],
+    Obtained: { nogen: [267] },
   },
   {
     Number: 3822,
@@ -13414,6 +15682,7 @@ export const armorData: Armor[] = [
     MaxMana: 30,
     Magical: 1,
     Classes: [1, 14, 3, 4, 6, 8, 9, 10, 11],
+    Obtained: { monster: ["2794|1"] },
   },
   {
     Number: 3823,
@@ -13442,6 +15711,7 @@ export const armorData: Armor[] = [
     JumpKDmg: 2,
     KickDmg: 7,
     PunchDmg: 12,
+    Obtained: { monster: ["2794|1"] },
   },
   {
     Number: 3824,
@@ -13471,6 +15741,7 @@ export const armorData: Armor[] = [
     BsMinDmg: 35,
     BsMaxDmg: 35,
     Classes: [6, 7, 8, 9, 10, 11, 14, 15],
+    Obtained: { monster: ["2794|1"] },
   },
   {
     Number: 3825,
@@ -13500,6 +15771,7 @@ export const armorData: Armor[] = [
     BsAccu: 15,
     Stealth: 15,
     Percep: -20,
+    Obtained: { text: [10089] },
   },
   {
     Number: 3826,
@@ -13530,6 +15802,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     CastsSp: 5756,
     Classes: [7],
+    Obtained: { sell: [66] },
   },
   {
     Number: 3827,
@@ -13560,6 +15833,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     CastsSp: 5757,
     Classes: [7],
+    Obtained: { sell: [66] },
   },
   {
     Number: 3828,
@@ -13590,6 +15864,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     CastsSp: 5758,
     Classes: [7],
+    Obtained: { sell: [66] },
   },
   {
     Number: 3217,
@@ -13617,6 +15892,7 @@ export const armorData: Armor[] = [
     "S.C.": 30,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71, 247], monster: ["850|100"] },
   },
   {
     Number: 3218,
@@ -13644,6 +15920,7 @@ export const armorData: Armor[] = [
     "S.C.": 30,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71, 247], monster: ["1032|20"] },
   },
   {
     Number: 3219,
@@ -13671,6 +15948,7 @@ export const armorData: Armor[] = [
     "S.C.": 30,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { nogen: [71], monster: ["215|100"] },
   },
   {
     Number: 3221,
@@ -13693,6 +15971,19 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    Obtained: {
+      buy: [172],
+      monster: ["242|5"],
+      text: ["871|6", "874|9"],
+      item: [
+        "906|19.6",
+        "908|37.6",
+        "956|31.4",
+        "957|31.4",
+        "958|31.4",
+        "1840|6.2",
+      ],
+    },
   },
   {
     Number: 3223,
@@ -13719,6 +16010,7 @@ export const armorData: Armor[] = [
     Quality: 1,
     Magical: 1,
     Classes: [1, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { buy: [71] },
   },
   {
     Number: 3224,
@@ -13745,6 +16037,7 @@ export const armorData: Armor[] = [
     Quality: 1,
     Magical: 1,
     Classes: [14, 3, 6, 11, 10, 9],
+    Obtained: { buy: [71] },
   },
   {
     Number: 3225,
@@ -13768,6 +16061,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 20,
     Classes: [1, 2, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { buy: [99, 221, 239] },
   },
   {
     Number: 3226,
@@ -13793,6 +16087,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Crits: 3,
     Classes: [1, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { buy: [149] },
   },
   {
     Number: 3227,
@@ -13818,6 +16113,7 @@ export const armorData: Armor[] = [
     Rcol: 10,
     Magical: 1,
     Classes: [1, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { buy: [71] },
   },
   {
     Number: 3228,
@@ -13840,6 +16136,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 25,
+    Obtained: { buy: [122] },
   },
   {
     Number: 3229,
@@ -13865,6 +16162,19 @@ export const armorData: Armor[] = [
     Stealth: -10,
     Magical: 1,
     Dodge: -9,
+    Obtained: {
+      nogen: [87, 313],
+      text: ["2944|1", "9820|1", "9817|2"],
+      item: [
+        "1344|9.2",
+        "1485|3.3",
+        "1496|5.3",
+        "1667|3.3",
+        "3517|2",
+        "3518|2",
+        "3629|1",
+      ],
+    },
   },
   {
     Number: 3230,
@@ -13888,6 +16198,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Rfir: 15,
+    Obtained: { buy: [103], text: [10025] },
   },
   {
     Number: 3231,
@@ -13911,6 +16222,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Rfir: 5,
+    Obtained: { buy: [103], text: [10025] },
   },
   {
     Number: 3232,
@@ -13934,6 +16246,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Rfir: 5,
+    Obtained: { buy: [103], text: [10025] },
   },
   {
     Number: 3233,
@@ -13957,6 +16270,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Rfir: 5,
+    Obtained: { buy: [103], text: [10025] },
   },
   {
     Number: 3234,
@@ -13980,6 +16294,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rfir: 15,
+    Obtained: { text: ["9825|4", 10034], item: ["3532|11.5", "3710|4"] },
   },
   {
     Number: 3235,
@@ -14003,6 +16318,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Rfir: 5,
+    Obtained: { buy: [103], text: [10025] },
   },
   {
     Number: 3236,
@@ -14026,6 +16342,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rfir: 5,
+    Obtained: { text: [10034] },
   },
   {
     Number: 3237,
@@ -14049,6 +16366,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rfir: 5,
+    Obtained: { text: [10034] },
   },
   {
     Number: 3238,
@@ -14072,6 +16390,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rfir: 5,
+    Obtained: { text: [10034] },
   },
   {
     Number: 3239,
@@ -14095,6 +16414,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rfir: 5,
+    Obtained: { text: [10034] },
   },
   {
     Number: 3240,
@@ -14117,6 +16437,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 25,
+    Obtained: { buy: [122] },
   },
   {
     Number: 3242,
@@ -14139,6 +16460,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 25,
+    Obtained: { buy: [122] },
   },
   {
     Number: 3243,
@@ -14162,6 +16484,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rlit: 15,
+    Obtained: { text: [10038] },
   },
   {
     Number: 3244,
@@ -14185,6 +16508,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rlit: 5,
+    Obtained: { text: [10038] },
   },
   {
     Number: 3245,
@@ -14208,6 +16532,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rlit: 5,
+    Obtained: { text: [10038] },
   },
   {
     Number: 3246,
@@ -14231,6 +16556,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rlit: 5,
+    Obtained: { text: [10038] },
   },
   {
     Number: 3247,
@@ -14254,6 +16580,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rlit: 5,
+    Obtained: { text: [10038] },
   },
   {
     Number: 3248,
@@ -14277,6 +16604,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     ImmuPoison: 20,
+    Obtained: { text: [10030] },
   },
   {
     Number: 3249,
@@ -14300,6 +16628,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     ImmuPoison: 20,
+    Obtained: { text: [10030] },
   },
   {
     Number: 3250,
@@ -14323,6 +16652,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     ImmuPoison: 20,
+    Obtained: { text: [10030] },
   },
   {
     Number: 3251,
@@ -14346,6 +16676,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     ImmuPoison: 20,
+    Obtained: { text: [10030] },
   },
   {
     Number: 3252,
@@ -14368,6 +16699,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [12] },
   },
   {
     Number: 3253,
@@ -14392,6 +16724,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     ImmuPoison: 20,
     Magical: 1,
+    Obtained: { text: [10030] },
   },
   {
     Number: 3254,
@@ -14414,6 +16747,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 0,
+    Obtained: { buy: [16] },
   },
   {
     Number: 3256,
@@ -14438,6 +16772,12 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     Dodge: 10,
+    Obtained: {
+      nogen: [151],
+      monster: ["809|10"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 3257,
@@ -14463,6 +16803,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: 5,
     HPRegen: 10,
+    Obtained: { nogen: [151], monster: ["809|15"] },
   },
   {
     Number: 3258,
@@ -14486,6 +16827,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Magical: 1,
+    Obtained: { nogen: [151], monster: ["809|15"] },
   },
   {
     Number: 3259,
@@ -14510,6 +16852,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     Stealth: 5,
+    Obtained: { nogen: [151], monster: ["809|15"] },
   },
   {
     Number: 3260,
@@ -14534,6 +16877,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     "M.R.": 10,
+    Obtained: { nogen: [151], monster: ["809|15"] },
   },
   {
     Number: 3261,
@@ -14558,6 +16902,7 @@ export const armorData: Armor[] = [
     MinLevel: 80,
     Magical: 1,
     Dodge: 10,
+    Obtained: { text: [3227] },
   },
   {
     Number: 3262,
@@ -14583,6 +16928,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: 5,
     HPRegen: 10,
+    Obtained: { sell: [180], text: [3227] },
   },
   {
     Number: 3263,
@@ -14606,6 +16952,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Magical: 1,
+    Obtained: { sell: [180], text: [3227] },
   },
   {
     Number: 3264,
@@ -14630,6 +16977,7 @@ export const armorData: Armor[] = [
     MinLevel: 80,
     Magical: 1,
     Stealth: 5,
+    Obtained: { sell: [180], text: [3227] },
   },
   {
     Number: 3265,
@@ -14654,6 +17002,7 @@ export const armorData: Armor[] = [
     MinLevel: 80,
     Magical: 1,
     "M.R.": 10,
+    Obtained: { sell: [180], text: [3227] },
   },
   {
     Number: 3266,
@@ -14681,6 +17030,7 @@ export const armorData: Armor[] = [
     Dodge: -5,
     Illu: 25,
     MaxDamage: 3,
+    Obtained: { nogen: [184], text: ["9825|3"], item: ["3532|8.7", "3710|3"] },
   },
   {
     Number: 3267,
@@ -14707,6 +17057,7 @@ export const armorData: Armor[] = [
     Stealth: -5,
     Dodge: -5,
     Illu: 15,
+    Obtained: { nogen: [184] },
   },
   {
     Number: 3268,
@@ -14731,6 +17082,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     MaxDamage: 2,
+    Obtained: { nogen: [184] },
   },
   {
     Number: 3269,
@@ -14757,6 +17109,7 @@ export const armorData: Armor[] = [
     Stealth: -3,
     Dodge: -3,
     ManaRgn: 10,
+    Obtained: { nogen: [184] },
   },
   {
     Number: 3270,
@@ -14783,6 +17136,7 @@ export const armorData: Armor[] = [
     Percep: 10,
     Illu: 10,
     MaxMana: 10,
+    Obtained: { nogen: [184] },
   },
   {
     Number: 3271,
@@ -14808,6 +17162,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: -4,
     Stealth: -2,
+    Obtained: { buy: [184] },
   },
   {
     Number: 3272,
@@ -14833,6 +17188,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: -1,
     Stealth: -1,
+    Obtained: { buy: [184] },
   },
   {
     Number: 3273,
@@ -14857,6 +17213,7 @@ export const armorData: Armor[] = [
     MinLevel: 80,
     Magical: 1,
     MaxDamage: 2,
+    Obtained: { buy: [184] },
   },
   {
     Number: 3274,
@@ -14880,6 +17237,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Magical: 1,
+    Obtained: { buy: [184] },
   },
   {
     Number: 3275,
@@ -14903,6 +17261,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Magical: 1,
+    Obtained: { buy: [184] },
   },
   {
     Number: 3276,
@@ -14927,6 +17286,12 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Dodge: -18,
     Stealth: -15,
+    Obtained: {
+      sell: [180],
+      monster: ["943|10"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 3277,
@@ -14951,6 +17316,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Dodge: -10,
     Stealth: -10,
+    Obtained: { sell: [180], monster: ["943|10"] },
   },
   {
     Number: 3278,
@@ -14974,6 +17340,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     MaxDamage: 2,
+    Obtained: { sell: [180], monster: ["943|10"] },
   },
   {
     Number: 3279,
@@ -14996,6 +17363,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 60,
+    Obtained: { sell: [180], monster: ["943|10"] },
   },
   {
     Number: 3280,
@@ -15018,6 +17386,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 60,
+    Obtained: { sell: [180], monster: ["943|10"] },
   },
   {
     Number: 3281,
@@ -15047,6 +17416,7 @@ export const armorData: Armor[] = [
     Rcol: 5,
     Rlit: 5,
     ResistWater: 5,
+    Obtained: { sell: [179, 180] },
   },
   {
     Number: 3282,
@@ -15071,6 +17441,7 @@ export const armorData: Armor[] = [
     MinLevel: 80,
     Stealth: -10,
     Dodge: -10,
+    Obtained: { sell: [179, 180] },
   },
   {
     Number: 3283,
@@ -15094,6 +17465,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     MaxDamage: 3,
+    Obtained: { sell: [179, 180] },
   },
   {
     Number: 3284,
@@ -15116,6 +17488,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 80,
+    Obtained: { sell: [179, 180] },
   },
   {
     Number: 3285,
@@ -15138,6 +17511,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 80,
+    Obtained: { sell: [179, 180] },
   },
   {
     Number: 3286,
@@ -15164,6 +17538,12 @@ export const armorData: Armor[] = [
     Stealth: -18,
     Magical: 1,
     Rlit: 10,
+    Obtained: {
+      sell: [180],
+      monster: ["1211|20"],
+      text: ["9825|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 3287,
@@ -15190,6 +17570,7 @@ export const armorData: Armor[] = [
     Stealth: -18,
     Magical: 1,
     Rlit: 5,
+    Obtained: { sell: [180], monster: ["1211|20"] },
   },
   {
     Number: 3288,
@@ -15215,6 +17596,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Rlit: 5,
     MaxDamage: 2,
+    Obtained: { sell: [180], monster: ["1211|20"] },
   },
   {
     Number: 3289,
@@ -15239,6 +17621,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     Rlit: 5,
+    Obtained: { sell: [180], monster: ["1211|20"] },
   },
   {
     Number: 3290,
@@ -15263,6 +17646,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     Rlit: 5,
+    Obtained: { sell: [180], monster: ["1211|20"] },
   },
   {
     Number: 3291,
@@ -15288,6 +17672,12 @@ export const armorData: Armor[] = [
     Dodge: -20,
     Stealth: -18,
     Magical: 1,
+    Obtained: {
+      sell: [179],
+      monster: ["1013|20"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 3292,
@@ -15313,6 +17703,12 @@ export const armorData: Armor[] = [
     Dodge: -20,
     Stealth: -18,
     Magical: 1,
+    Obtained: {
+      sell: [179],
+      monster: ["1013|20"],
+      text: ["5440|5"],
+      item: ["3716|9.8"],
+    },
   },
   {
     Number: 3293,
@@ -15337,6 +17733,12 @@ export const armorData: Armor[] = [
     MinLevel: 80,
     Magical: 1,
     MaxDamage: 3,
+    Obtained: {
+      sell: [179],
+      monster: ["1013|20"],
+      text: ["5440|5"],
+      item: ["3716|9.8"],
+    },
   },
   {
     Number: 3294,
@@ -15360,6 +17762,12 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Magical: 1,
+    Obtained: {
+      sell: [179],
+      monster: ["1013|20"],
+      text: ["5440|5"],
+      item: ["3716|9.8"],
+    },
   },
   {
     Number: 3295,
@@ -15383,6 +17791,12 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     Magical: 1,
+    Obtained: {
+      sell: [179],
+      monster: ["1013|20"],
+      text: ["5440|5"],
+      item: ["3716|9.8"],
+    },
   },
   {
     Number: 3296,
@@ -15408,6 +17822,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 2,
     Classes: [7, 15, 6, 8, 9, 10, 14],
+    Obtained: { nogen: [151], monster: ["852|15"] },
   },
   {
     Number: 3297,
@@ -15433,6 +17848,7 @@ export const armorData: Armor[] = [
     "Alter HP": 10,
     Magical: 1,
     Classes: [7, 15, 6, 8, 9, 10, 14],
+    Obtained: { nogen: [151], monster: ["852|15"] },
   },
   {
     Number: 3302,
@@ -15456,6 +17872,10 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Percep: 10,
+    Obtained: {
+      text: ["2944|1"],
+      item: ["1344|9.2", "1485|3.3", "1496|5.3", "1667|3.3"],
+    },
   },
   {
     Number: 3304,
@@ -15485,6 +17905,7 @@ export const armorData: Armor[] = [
     BsMinDmg: 25,
     MaxDamage: 3,
     Classes: [7],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3305,
@@ -15511,6 +17932,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: 10,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3306,
@@ -15536,6 +17958,7 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     Magical: 1,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3307,
@@ -15564,6 +17987,7 @@ export const armorData: Armor[] = [
     BsAccu: 10,
     BsMinDmg: 5,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3308,
@@ -15592,6 +18016,7 @@ export const armorData: Armor[] = [
     BsAccu: 10,
     BsMaxDmg: 10,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3309,
@@ -15620,6 +18045,7 @@ export const armorData: Armor[] = [
     BsMinDmg: 25,
     MaxDamage: 2,
     Classes: [7],
+    Obtained: { sell: [179], text: ["9825|3"], item: ["3532|8.7", "3710|3"] },
   },
   {
     Number: 3310,
@@ -15645,6 +18071,7 @@ export const armorData: Armor[] = [
     "Alter HP": 10,
     Magical: 1,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3311,
@@ -15670,6 +18097,7 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     Magical: 1,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3312,
@@ -15698,6 +18126,7 @@ export const armorData: Armor[] = [
     BsAccu: 10,
     Quickness: 25,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
   },
   {
     Number: 3313,
@@ -15726,6 +18155,35 @@ export const armorData: Armor[] = [
     BsAccu: 10,
     Percep: 10,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: { sell: [179] },
+  },
+  {
+    Number: 3314,
+    Name: "kai stone",
+    Limit: 0,
+    Encum: 0,
+    ItemType: 0,
+    UseCount: -1,
+    Price: 1000,
+    Currency: 2,
+    Min: 0,
+    Max: 0,
+    ArmourClass: 0,
+    DamageResist: 0,
+    WeaponType: 0,
+    ArmourType: 0,
+    Worn: 0,
+    Accy: 1,
+    Gettable: 0,
+    StrReq: 0,
+    Speed: 0,
+    MinLevel: 27,
+    Magical: 1,
+    ManaRgn: 100,
+    LoyalItem: 0,
+    "Del@Maint": 0,
+    Classes: [15],
+    Obtained: {},
   },
   {
     Number: 3315,
@@ -15751,6 +18209,12 @@ export const armorData: Armor[] = [
     Crits: 1,
     Magical: 1,
     Accuracy: 5,
+    Obtained: {
+      buy: [71],
+      monster: ["241|50"],
+      text: ["2922|4"],
+      item: ["974|19.4", "1727|11.5", "1834|13.3", "1840|1.6"],
+    },
   },
   {
     Number: 3327,
@@ -15773,6 +18237,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 40,
+    Obtained: { buy: [149, 238] },
   },
   {
     Number: 3328,
@@ -15795,6 +18260,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 40,
+    Obtained: { buy: [149, 238] },
   },
   {
     Number: 3329,
@@ -15817,6 +18283,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [99, 221, 237] },
   },
   {
     Number: 3330,
@@ -15839,6 +18306,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [183] },
   },
   {
     Number: 3331,
@@ -15861,6 +18329,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [183] },
   },
   {
     Number: 3332,
@@ -15883,6 +18352,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [183] },
   },
   {
     Number: 3333,
@@ -15905,6 +18375,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 30,
+    Obtained: { buy: [183] },
   },
   {
     Number: 3362,
@@ -15932,6 +18403,7 @@ export const armorData: Armor[] = [
     JumpKDmg: 2,
     HPRegen: 10,
     Classes: [15],
+    Obtained: { sell: [177], text: ["3321|5"], item: ["909|9.8", "911|9.8"] },
   },
   {
     Number: 3364,
@@ -15954,6 +18426,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 30,
+    Obtained: { buy: [172, 218, 256] },
   },
   {
     Number: 3365,
@@ -15979,6 +18452,27 @@ export const armorData: Armor[] = [
     Magical: 1,
     "Alter HP": 10,
     HPRegen: 10,
+    Obtained: {
+      buy: [183],
+      monster: ["242|2"],
+      text: ["898|2"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 3366,
@@ -16003,6 +18497,7 @@ export const armorData: Armor[] = [
     MinLevel: 25,
     Magical: 1,
     MaxDamage: 1,
+    Obtained: { buy: [183] },
   },
   {
     Number: 3367,
@@ -16025,6 +18520,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 25,
+    Obtained: { buy: [122] },
   },
   {
     Number: 3368,
@@ -16051,6 +18547,7 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     Magical: 1,
     Classes: [13, 12, 5],
+    Obtained: { buy: [48] },
   },
   {
     Number: 3369,
@@ -16074,6 +18571,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     Magical: 1,
+    Obtained: { buy: [87, 313] },
   },
   {
     Number: 3374,
@@ -16097,6 +18595,20 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 50,
     MaxDamage: 2,
+    Obtained: {
+      sell: [176],
+      monster: ["811|10"],
+      text: ["5168|4", "9469|3", "9825|3"],
+      item: [
+        "1444|4.6",
+        "1485|4.3",
+        "1496|2.7",
+        "1667|4.6",
+        "3532|8.7",
+        "3629|6.9",
+        "3710|6.9",
+      ],
+    },
   },
   {
     Number: 3376,
@@ -16121,6 +18633,7 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Stealth: -5,
     Dodge: -4,
+    Obtained: { buy: [99, 221, 237] },
   },
   {
     Number: 3377,
@@ -16146,6 +18659,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -5,
     Dodge: -2,
+    Obtained: { buy: [70] },
   },
   {
     Number: 3378,
@@ -16172,6 +18686,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: 5,
     Percep: 5,
+    Obtained: { nogen: [91], sell: [176], monster: ["989|2"] },
   },
   {
     Number: 3379,
@@ -16197,6 +18712,11 @@ export const armorData: Armor[] = [
     Illu: 200,
     Magical: 1,
     Percep: 5,
+    Obtained: {
+      sell: [176],
+      text: ["4104|15", "4149|10", "5168|3"],
+      item: ["1727|27.8", "1834|19", "3629|3", "3710|3"],
+    },
   },
   {
     Number: 3380,
@@ -16220,6 +18740,26 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 40,
     Magical: 1,
+    Obtained: {
+      buy: [170, 238],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 3382,
@@ -16245,6 +18785,27 @@ export const armorData: Armor[] = [
     Magical: 1,
     Stealth: -5,
     Dodge: -7,
+    Obtained: {
+      nogen: [170],
+      buy: [238],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 3383,
@@ -16269,6 +18830,26 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     Stealth: -5,
+    Obtained: {
+      buy: [170, 238],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 3384,
@@ -16292,6 +18873,26 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 40,
     Magical: 1,
+    Obtained: {
+      buy: [170, 238],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 3393,
@@ -16315,6 +18916,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 55,
     Stealth: -5,
+    Obtained: { monster: ["943|10"] },
   },
   {
     Number: 3394,
@@ -16339,6 +18941,12 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Quality: 5,
     "M.R.": 5,
+    Obtained: {
+      nogen: [43],
+      buy: [238, 312],
+      text: ["4438|5"],
+      item: ["2013|26.5"],
+    },
   },
   {
     Number: 3405,
@@ -16365,6 +18973,7 @@ export const armorData: Armor[] = [
     "Alter HP": 25,
     MaxMana: 25,
     ManaRgn: 10,
+    Obtained: { buy: [251], text: ["5168|1"], item: ["3629|1", "3710|1"] },
   },
   {
     Number: 3410,
@@ -16388,6 +18997,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 20,
     Stealth: -12,
+    Obtained: { buy: [99] },
   },
   {
     Number: 3502,
@@ -16412,6 +19022,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     "Del@Maint": 0,
     ResistStone: 28,
+    Obtained: { monster: ["1207|100"] },
   },
   {
     Number: 3504,
@@ -16439,6 +19050,7 @@ export const armorData: Armor[] = [
     Strength: 5,
     ManaRgn: 5,
     ClassOk: [6, 8, 9, 10],
+    Obtained: { monster: ["594|100"] },
   },
   {
     Number: 3506,
@@ -16464,6 +19076,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 1,
     ClassOk: [8, 9, 10, 11],
+    Obtained: {
+      nogen: [119],
+      monster: ["1209|10"],
+      text: ["9817|2"],
+      item: ["3517|2"],
+    },
   },
   {
     Number: 3509,
@@ -16492,6 +19110,12 @@ export const armorData: Armor[] = [
     Shadow: 100,
     Magical: 1,
     Classes: [7, 8, 9, 10, 6, 14],
+    Obtained: {
+      sell: [176],
+      monster: ["366|20"],
+      text: ["5168|3", "9820|1", "9825|3", "9817|2"],
+      item: ["3517|2", "3518|2", "3532|8.7", "3629|4", "3710|5.9"],
+    },
   },
   {
     Number: 3510,
@@ -16517,6 +19141,12 @@ export const armorData: Armor[] = [
     Stealth: -30,
     Magical: 1,
     Dodge: -20,
+    Obtained: {
+      sell: [176],
+      monster: ["1211|5"],
+      text: ["5438|3", "9825|3"],
+      item: ["3532|8.7", "3710|8.7"],
+    },
   },
   {
     Number: 3513,
@@ -16542,6 +19172,12 @@ export const armorData: Armor[] = [
     "Alter HP": 100,
     HPRegen: 50,
     NeutralOnly: 0,
+    Obtained: {
+      sell: [176],
+      text: ["5447|4"],
+      monster: ["434|30"],
+      item: ["3728|4"],
+    },
   },
   {
     Number: 3515,
@@ -16566,6 +19202,12 @@ export const armorData: Armor[] = [
     MinLevel: 30,
     Magical: 1,
     BsMinDmg: 10,
+    Obtained: {
+      nogen: [159],
+      monster: ["845|1"],
+      text: ["9817|2"],
+      item: ["3517|2"],
+    },
   },
   {
     Number: 3516,
@@ -16590,6 +19232,12 @@ export const armorData: Armor[] = [
     MinLevel: 65,
     Magical: 1,
     MaxDamage: 2,
+    Obtained: {
+      sell: [176],
+      monster: ["1131|50"],
+      text: ["5438|4"],
+      item: ["3710|7.8"],
+    },
   },
   {
     Number: 3520,
@@ -16617,6 +19265,11 @@ export const armorData: Armor[] = [
     "AC(Blur)": 5,
     BsMinDmg: 12,
     BsAccu: 10,
+    Obtained: {
+      buy: [184],
+      text: ["5168|4", "5438|3", "9824|3"],
+      item: ["3532|8.7", "3629|4", "3710|12.4"],
+    },
   },
   {
     Number: 3521,
@@ -16641,6 +19294,11 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     MaxDamage: 3,
+    Obtained: {
+      buy: [184],
+      text: ["5168|3", "9824|3"],
+      item: ["3532|8.7", "3629|3", "3710|5.9"],
+    },
   },
   {
     Number: 3522,
@@ -16669,6 +19327,7 @@ export const armorData: Armor[] = [
     "Alter HP": -50,
     HPRegen: -20,
     Dodge: -14,
+    Obtained: { nogen: [184] },
   },
   {
     Number: 3523,
@@ -16696,6 +19355,11 @@ export const armorData: Armor[] = [
     "M.R.": 5,
     MaxDamage: 2,
     RoomIllu: 50,
+    Obtained: {
+      buy: [184],
+      text: ["5168|3", "9824|3"],
+      item: ["3532|8.7", "3629|3", "3710|5.9"],
+    },
   },
   {
     Number: 3526,
@@ -16723,6 +19387,7 @@ export const armorData: Armor[] = [
     Quickness: 15,
     KickDmg: 3,
     JumpKDmg: 4,
+    Obtained: { buy: [184, 247], text: ["5168|5"], item: ["3629|5", "3710|5"] },
   },
   {
     Number: 3527,
@@ -16748,6 +19413,7 @@ export const armorData: Armor[] = [
     ManaRgn: 15,
     Crits: 4,
     Magical: 1,
+    Obtained: { buy: [184], text: ["5168|3"], item: ["3629|3", "3710|3"] },
   },
   {
     Number: 3528,
@@ -16777,6 +19443,7 @@ export const armorData: Armor[] = [
     Rfir: 10,
     AlterSpDmg: 1,
     Dodge: -4,
+    Obtained: { text: ["5438|4"], item: ["3710|7.8"] },
   },
   {
     Number: 3529,
@@ -16803,6 +19470,7 @@ export const armorData: Armor[] = [
     KickDmg: 3,
     JumpKDmg: 4,
     Classes: [15],
+    Obtained: { buy: [111, 224, 243] },
   },
   {
     Number: 3530,
@@ -16829,6 +19497,7 @@ export const armorData: Armor[] = [
     PunchDmg: 2,
     PunchAcc: 5,
     Classes: [15],
+    Obtained: { buy: [111, 224, 243] },
   },
   {
     Number: 3531,
@@ -16855,6 +19524,7 @@ export const armorData: Armor[] = [
     BsMinDmg: 3,
     ClassOk: [4],
     Classes: [1, 4, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { nogen: [91], monster: ["988|1"] },
   },
   {
     Number: 3539,
@@ -16881,6 +19551,7 @@ export const armorData: Armor[] = [
     HPRegen: 50,
     MaxDamage: 1,
     "Alter HP": 100,
+    Obtained: { sell: [178], monster: ["1080|1"] },
   },
   {
     Number: 3540,
@@ -16906,6 +19577,7 @@ export const armorData: Armor[] = [
     Quickness: 10,
     Dodge: 10,
     "Alter HP": 100,
+    Obtained: { sell: [178], monster: ["1082|1"] },
   },
   {
     Number: 3541,
@@ -16934,6 +19606,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     MaxMana: 25,
     "Alter HP": 25,
+    Obtained: { sell: [178], monster: ["1083|1"] },
   },
   {
     Number: 3546,
@@ -16962,6 +19635,12 @@ export const armorData: Armor[] = [
     CastsSp: 162,
     BsMinDmg: 20,
     BsMaxDmg: 20,
+    Obtained: {
+      nogen: [79],
+      monster: ["1269|10"],
+      text: ["5168|3", "9817|2"],
+      item: ["3517|2", "3629|3", "3710|3"],
+    },
   },
   {
     Number: 3547,
@@ -16989,6 +19668,7 @@ export const armorData: Armor[] = [
     ManaRgn: 15,
     MaxMana: 25,
     Classes: [5, 3, 4, 6, 9, 10, 11, 12, 13, 14],
+    Obtained: { nogen: [79], monster: ["1269|15"] },
   },
   {
     Number: 3572,
@@ -17012,6 +19692,12 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 80,
     MaxDamage: 2,
+    Obtained: {
+      sell: [176],
+      monster: ["2397|10"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3573,
@@ -17039,6 +19725,7 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     ManaRgn: 20,
     Classes: [13, 14],
+    Obtained: { buy: [247], text: ["5168|4"], item: ["3629|8", "3710|8"] },
   },
   {
     Number: 3578,
@@ -17063,6 +19750,12 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     MaxDamage: 3,
+    Obtained: {
+      nogen: [225, 260],
+      monster: ["2549|25"],
+      text: ["5438|4"],
+      item: ["3710|7.8"],
+    },
   },
   {
     Number: 3580,
@@ -17088,6 +19781,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     Magical: 1,
     "Alter HP": 20,
+    Obtained: { monster: ["2307|100"] },
   },
   {
     Number: 3587,
@@ -17112,6 +19806,11 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     CastsSp: 5480,
     Classes: [1, 2, 3],
+    Obtained: {
+      nogen: [71],
+      text: ["2922|3"],
+      item: ["974|16.5", "1727|8.7", "1834|10.2", "1840|1.2"],
+    },
   },
   {
     Number: 3588,
@@ -17139,6 +19838,12 @@ export const armorData: Armor[] = [
     BsMinDmg: 25,
     BsAccu: 10,
     BsMaxDmg: 30,
+    Obtained: {
+      nogen: [235],
+      monster: ["1284|7"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 3589,
@@ -17166,6 +19871,11 @@ export const armorData: Armor[] = [
     BsAccu: 5,
     BsMinDmg: 8,
     BsMaxDmg: 8,
+    Obtained: {
+      nogen: [235, 241],
+      text: ["5438|4", "10102|2"],
+      item: ["3710|7.8", "3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3590,
@@ -17192,6 +19902,11 @@ export const armorData: Armor[] = [
     Stealth: 10,
     Magical: 1,
     BsAccu: 2,
+    Obtained: {
+      nogen: [235],
+      text: ["9967|5", "10101|3"],
+      item: ["3618|5", "3835|3", "3837|3", "3838|5.9"],
+    },
   },
   {
     Number: 3591,
@@ -17218,6 +19933,11 @@ export const armorData: Armor[] = [
     Stealth: 20,
     Magical: 1,
     BsMaxDmg: 15,
+    Obtained: {
+      nogen: [235],
+      text: ["5438|4", "10101|3"],
+      item: ["3710|7.8", "3835|3", "3837|3", "3838|5.9"],
+    },
   },
   {
     Number: 3592,
@@ -17245,6 +19965,7 @@ export const armorData: Armor[] = [
     Crits: 1,
     MaxDamage: 1,
     Classes: [2],
+    Obtained: { sell: [268, 312] },
   },
   {
     Number: 3593,
@@ -17272,6 +19993,11 @@ export const armorData: Armor[] = [
     Stealth: 15,
     BsMinDmg: 12,
     BsMaxDmg: 12,
+    Obtained: {
+      nogen: [235],
+      text: ["5438|4", "10101|3", "10101|2"],
+      item: ["3710|7.8", "3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3594,
@@ -17296,6 +20022,11 @@ export const armorData: Armor[] = [
     MinLevel: 55,
     Percep: -15,
     MaxDamage: 2,
+    Obtained: {
+      nogen: [268, 312],
+      text: ["5168|3", "10101|2"],
+      item: ["3629|3", "3710|3", "3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3595,
@@ -17325,6 +20056,7 @@ export const armorData: Armor[] = [
     BsAccu: -10,
     Crits: -10,
     Dodge: -10,
+    Obtained: { text: ["5447|4"], item: ["3728|4"] },
   },
   {
     Number: 3596,
@@ -17350,6 +20082,10 @@ export const armorData: Armor[] = [
     Magical: 1,
     ManaRgn: 10,
     MaxMana: 10,
+    Obtained: {
+      text: ["5168|3", "10101|2"],
+      item: ["3629|3", "3710|3", "3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3597,
@@ -17377,6 +20113,11 @@ export const armorData: Armor[] = [
     Stealth: 15,
     BsMinDmg: 10,
     BsMaxDmg: 10,
+    Obtained: {
+      nogen: [235],
+      text: ["5168|3", "10101|2"],
+      item: ["3629|3", "3710|3", "3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3598,
@@ -17403,6 +20144,11 @@ export const armorData: Armor[] = [
     BsMinDmg: 15,
     Stealth: 10,
     BsMaxDmg: 15,
+    Obtained: {
+      nogen: [235],
+      text: ["5168|3", "10101|2"],
+      item: ["3629|3", "3710|3", "3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3599,
@@ -17428,6 +20174,11 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     Stealth: 10,
     Classes: [14, 13],
+    Obtained: {
+      nogen: [41, 242],
+      text: ["5438|3", "10102|5"],
+      item: ["3710|5.9", "3836|5", "3837|5", "3838|5"],
+    },
   },
   {
     Number: 3600,
@@ -17450,6 +20201,12 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 8224,
     MinLevel: 45,
+    Obtained: {
+      nogen: [114],
+      monster: ["642|15"],
+      text: ["10101|3"],
+      item: ["3835|3", "3837|3", "3838|5.9"],
+    },
   },
   {
     Number: 3601,
@@ -17476,6 +20233,12 @@ export const armorData: Armor[] = [
     MaxDamage: 4,
     Dodge: 5,
     Crits: 3,
+    Obtained: {
+      nogen: [242],
+      monster: ["1291|7"],
+      text: ["5438|4", "10102|2"],
+      item: ["3710|7.8", "3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3602,
@@ -17505,6 +20268,12 @@ export const armorData: Armor[] = [
     BsMinDmg: 5,
     BsMaxDmg: 10,
     Classes: [4, 5, 6],
+    Obtained: {
+      nogen: [234],
+      monster: ["1298|7"],
+      text: ["10102|3"],
+      item: ["3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3603,
@@ -17532,6 +20301,7 @@ export const armorData: Armor[] = [
     Dodge: 7,
     ManaRgn: 5,
     Classes: [10],
+    Obtained: { buy: [159] },
   },
   {
     Number: 3604,
@@ -17560,6 +20330,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     ManaRgn: 5,
     Classes: [10],
+    Obtained: { buy: [159] },
   },
   {
     Number: 3605,
@@ -17588,6 +20359,7 @@ export const armorData: Armor[] = [
     BsMaxDmg: 5,
     BsMinDmg: 5,
     Classes: [10],
+    Obtained: { buy: [159] },
   },
   {
     Number: 3606,
@@ -17614,6 +20386,7 @@ export const armorData: Armor[] = [
     ManaRgn: 15,
     Stealth: 30,
     Classes: [10],
+    Obtained: { buy: [159] },
   },
   {
     Number: 3619,
@@ -17639,6 +20412,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     BsMinDmg: 10,
     Stealth: 10,
+    Obtained: {
+      buy: [235],
+      text: ["9967|5", "10101|2"],
+      item: ["3618|5", "3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3625,
@@ -17666,6 +20444,7 @@ export const armorData: Armor[] = [
     Crits: 2,
     NotGood: 0,
     Classes: [1, 3, 4],
+    Obtained: { nogen: [152], monster: ["893|15"] },
   },
   {
     Number: 3626,
@@ -17690,6 +20469,11 @@ export const armorData: Armor[] = [
     MinLevel: 50,
     Stealth: -5,
     Magical: 1,
+    Obtained: {
+      nogen: [152],
+      text: ["9469|3", "9469|2"],
+      item: ["1444|7.4", "1485|6.6", "1496|4.2", "1667|6.9", "3629|5"],
+    },
   },
   {
     Number: 3627,
@@ -17719,6 +20503,7 @@ export const armorData: Armor[] = [
     Dodge: -17,
     MaxDamage: 2,
     Classes: [1, 3, 4],
+    Obtained: { nogen: [152], monster: ["893|10"] },
   },
   {
     Number: 3631,
@@ -17746,6 +20531,11 @@ export const armorData: Armor[] = [
     BsMaxDmg: 10,
     Stealth: 10,
     BsAccu: 5,
+    Obtained: {
+      buy: [235],
+      text: ["10101|3"],
+      item: ["3835|3", "3837|3", "3838|5.9"],
+    },
   },
   {
     Number: 3632,
@@ -17772,6 +20562,12 @@ export const armorData: Armor[] = [
     Rcol: 10,
     Dodge: -25,
     Stealth: -35,
+    Obtained: {
+      nogen: [260],
+      monster: ["2549|5"],
+      text: ["5438|3", "10102|3"],
+      item: ["3710|5.9", "3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3635,
@@ -17796,6 +20592,12 @@ export const armorData: Armor[] = [
     MinLevel: 65,
     MaxDamage: 1,
     Magical: 1,
+    Obtained: {
+      nogen: [239],
+      monster: ["1300|5"],
+      text: ["10102|2"],
+      item: ["3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3636,
@@ -17823,6 +20625,12 @@ export const armorData: Armor[] = [
     Stealth: -5,
     BsMinDmg: 8,
     BsMaxDmg: 12,
+    Obtained: {
+      nogen: [235],
+      monster: ["2658|1"],
+      text: ["5438|4", "10102|2"],
+      item: ["3710|7.8", "3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3637,
@@ -17849,6 +20657,11 @@ export const armorData: Armor[] = [
     Dodge: -25,
     Magical: 1,
     MaxDamage: 1,
+    Obtained: {
+      monster: ["1286|7"],
+      text: ["5438|5", "10102|4"],
+      item: ["3710|9.8", "3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3638,
@@ -17873,6 +20686,12 @@ export const armorData: Armor[] = [
     MinLevel: 55,
     Stealth: -10,
     MaxDamage: 1,
+    Obtained: {
+      nogen: [239],
+      monster: ["1298|7"],
+      text: ["10102|4"],
+      item: ["3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3640,
@@ -17896,6 +20715,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 50,
     Illu: 80,
+    Obtained: {
+      buy: [247],
+      monster: ["2731|7"],
+      text: ["5447|4", "10101|1"],
+      item: ["3728|4", "3835|1", "3837|1", "3838|2"],
+    },
   },
   {
     Number: 3641,
@@ -17922,6 +20747,7 @@ export const armorData: Armor[] = [
     Stealth: 5,
     BsMinDmg: 4,
     BsMaxDmg: 7,
+    Obtained: { nogen: [151], monster: ["852|15"] },
   },
   {
     Number: 3642,
@@ -17949,6 +20775,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     "S.C.": 10,
     Dodge: -4,
+    Obtained: {
+      nogen: [247],
+      monster: ["1299|8"],
+      text: ["10102|2"],
+      item: ["3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3647,
@@ -17973,6 +20805,7 @@ export const armorData: Armor[] = [
     MinLevel: 45,
     Magical: 1,
     Strength: 10,
+    Obtained: { sell: [269] },
   },
   {
     Number: 3648,
@@ -17997,6 +20830,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     Strength: 20,
+    Obtained: { sell: [269] },
   },
   {
     Number: 3660,
@@ -18020,6 +20854,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rcol: 15,
+    Obtained: { text: ["10102|2"], item: ["3836|2", "3837|2", "3838|2"] },
   },
   {
     Number: 3661,
@@ -18043,6 +20878,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rcol: 5,
+    Obtained: {},
   },
   {
     Number: 3662,
@@ -18066,6 +20902,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rcol: 5,
+    Obtained: {},
   },
   {
     Number: 3663,
@@ -18089,6 +20926,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rcol: 5,
+    Obtained: {},
   },
   {
     Number: 3664,
@@ -18112,6 +20950,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rcol: 5,
+    Obtained: {},
   },
   {
     Number: 3665,
@@ -18138,6 +20977,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: -15,
     Quickness: 30,
+    Obtained: {
+      sell: [269],
+      monster: ["1283|10"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 3666,
@@ -18164,6 +21009,12 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     ManaRgn: 15,
     AlterSpDmg: 3,
+    Obtained: {
+      sell: [269],
+      monster: ["1283|10"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 3669,
@@ -18192,6 +21043,12 @@ export const armorData: Armor[] = [
     JumpKDmg: 5,
     MaxDamage: 1,
     Classes: [7, 6, 8, 9, 10, 14, 15],
+    Obtained: {
+      sell: [269],
+      monster: ["1284|7"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 3670,
@@ -18220,6 +21077,12 @@ export const armorData: Armor[] = [
     MaxMana: 50,
     "AC(Blur)": 4,
     Classes: [12, 5, 13],
+    Obtained: {
+      sell: [269],
+      monster: ["1285|7"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3671,
@@ -18245,6 +21108,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     Dodge: 10,
     Quickness: 10,
+    Obtained: {
+      sell: [269],
+      monster: ["1285|7"],
+      text: ["5440|5"],
+      item: ["3716|9.8"],
+    },
   },
   {
     Number: 3673,
@@ -18269,6 +21138,12 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     MaxDamage: 3,
     Crits: 2,
+    Obtained: {
+      sell: [269],
+      monster: ["1287|7"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3674,
@@ -18294,6 +21169,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 4,
     Strength: 5,
+    Obtained: {
+      sell: [269],
+      monster: ["1287|7"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3675,
@@ -18321,6 +21202,12 @@ export const armorData: Armor[] = [
     JumpKDmg: 2,
     MaxDamage: 1,
     Crits: 1,
+    Obtained: {
+      sell: [269],
+      monster: ["1287|7"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 3691,
@@ -18347,6 +21234,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxMana: 20,
     Percep: 10,
+    Obtained: {
+      nogen: [247],
+      monster: ["1291|7"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3692,
@@ -18373,6 +21266,12 @@ export const armorData: Armor[] = [
     Dodge: 12,
     ManaRgn: 10,
     Percep: 10,
+    Obtained: {
+      nogen: [243],
+      monster: ["1291|7"],
+      text: ["10102|2"],
+      item: ["3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3698,
@@ -18398,6 +21297,7 @@ export const armorData: Armor[] = [
     BsMinDmg: 5,
     BsMaxDmg: 5,
     Classes: [8, 9, 10],
+    Obtained: { sell: [25] },
   },
   {
     Number: 3701,
@@ -18421,6 +21321,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 3704,
@@ -18446,6 +21347,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     ManaRgn: 20,
     Classes: [1, 4, 3, 6, 7, 8, 9, 10, 11, 14],
+    Obtained: { nogen: [239], monster: ["2656|1"] },
   },
   {
     Number: 3705,
@@ -18474,6 +21376,12 @@ export const armorData: Armor[] = [
     Crits: -5,
     NotGood: 0,
     Classes: [5, 6, 9, 10, 11, 12, 13],
+    Obtained: {
+      nogen: [247],
+      monster: ["1299|8"],
+      text: ["10102|2"],
+      item: ["3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3712,
@@ -18497,6 +21405,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 55,
     MaxDamage: 3,
+    Obtained: {
+      nogen: [241],
+      monster: ["1281|10"],
+      text: ["10102|3"],
+      item: ["3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3713,
@@ -18521,6 +21435,12 @@ export const armorData: Armor[] = [
     MinLevel: 55,
     Magical: 1,
     Dodge: 12,
+    Obtained: {
+      nogen: [241],
+      monster: ["1279|12"],
+      text: ["10101|2", "10102|5"],
+      item: ["3835|2", "3836|5", "3837|6.9", "3838|8.8"],
+    },
   },
   {
     Number: 3719,
@@ -18546,6 +21466,7 @@ export const armorData: Armor[] = [
     Rfir: -20,
     MaxDamage: 1,
     Rcol: 10,
+    Obtained: { nogen: [225, 260], monster: ["2661|7"] },
   },
   {
     Number: 3720,
@@ -18572,6 +21493,7 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     ManaRgn: 10,
     Percep: 20,
+    Obtained: { nogen: [222, 260], monster: ["2661|7"] },
   },
   {
     Number: 3721,
@@ -18597,6 +21519,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Rcol: 10,
     Quickness: 50,
+    Obtained: { nogen: [225, 260], monster: ["2661|7"] },
   },
   {
     Number: 3722,
@@ -18626,6 +21549,7 @@ export const armorData: Armor[] = [
     Crits: 3,
     EvilOnly: 200,
     Dodge: -10,
+    Obtained: { sell: [177], monster: ["2398|10"] },
   },
   {
     Number: 3723,
@@ -18651,6 +21575,7 @@ export const armorData: Armor[] = [
     ManaRgn: 30,
     Magical: 1,
     HPRegen: -30,
+    Obtained: { sell: [177], monster: ["2398|15"] },
   },
   {
     Number: 3724,
@@ -18679,6 +21604,7 @@ export const armorData: Armor[] = [
     AlterSpDmg: 2,
     Magical: 1,
     Dodge: -8,
+    Obtained: { sell: [180], monster: ["2396|15"] },
   },
   {
     Number: 3725,
@@ -18703,6 +21629,7 @@ export const armorData: Armor[] = [
     MinLevel: 75,
     Magical: 1,
     Dodge: 35,
+    Obtained: { nogen: [243], monster: ["2396|10"] },
   },
   {
     Number: 3726,
@@ -18728,6 +21655,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 3,
     Strength: 5,
+    Obtained: { nogen: [239], monster: ["1263|15"] },
   },
   {
     Number: 3733,
@@ -18753,6 +21681,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxDamage: 3,
     Crits: 2,
+    Obtained: { nogen: [222], monster: ["2679|12"] },
   },
   {
     Number: 3734,
@@ -18781,6 +21710,7 @@ export const armorData: Armor[] = [
     Crits: 3,
     BsMinDmg: 5,
     BsMaxDmg: 5,
+    Obtained: { nogen: [222], monster: ["2679|12"] },
   },
   {
     Number: 3735,
@@ -18808,6 +21738,7 @@ export const armorData: Armor[] = [
     Rcol: 7,
     Rlit: 7,
     ResistStone: 7,
+    Obtained: { nogen: [222], monster: ["2679|6"] },
   },
   {
     Number: 3750,
@@ -18834,6 +21765,11 @@ export const armorData: Armor[] = [
     BsMinDmg: 15,
     BsMaxDmg: 15,
     Stealth: 10,
+    Obtained: {
+      nogen: [235],
+      text: ["5550|5", "10102|4"],
+      item: ["3751|5", "3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3754,
@@ -18862,6 +21798,12 @@ export const armorData: Armor[] = [
     PunchDmg: 5,
     BsAccu: 10,
     Classes: [7, 15, 6, 8, 9, 10, 14, 15],
+    Obtained: {
+      nogen: [235],
+      monster: ["2728|1"],
+      text: ["10102|4"],
+      item: ["3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3758,
@@ -18888,6 +21830,12 @@ export const armorData: Armor[] = [
     MaxDamage: 3,
     Crits: 1,
     Classes: [7],
+    Obtained: {
+      nogen: [235],
+      monster: ["2730|7"],
+      text: ["10102|3"],
+      item: ["3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3759,
@@ -18913,6 +21861,12 @@ export const armorData: Armor[] = [
     Magical: 1,
     ProtEvil: 3,
     GoodOnly: 0,
+    Obtained: {
+      nogen: [243],
+      monster: ["2731|7"],
+      text: ["10102|5"],
+      item: ["3836|5", "3837|5", "3838|5"],
+    },
   },
   {
     Number: 3760,
@@ -18937,6 +21891,12 @@ export const armorData: Armor[] = [
     MinLevel: 55,
     Stealth: -10,
     Dodge: -4,
+    Obtained: {
+      nogen: [238],
+      monster: ["2731|10"],
+      text: ["10102|5", "10102|1"],
+      item: ["3836|6", "3837|6", "3838|6"],
+    },
   },
   {
     Number: 3761,
@@ -18959,6 +21919,12 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 50,
+    Obtained: {
+      nogen: [239],
+      monster: ["2732|10"],
+      text: ["10102|4"],
+      item: ["3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3762,
@@ -18982,6 +21948,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 55,
     Percep: -10,
+    Obtained: {
+      nogen: [240],
+      monster: ["2732|7"],
+      text: ["10101|2", "10102|2"],
+      item: ["3835|2", "3836|2", "3837|4", "3838|5.9"],
+    },
   },
   {
     Number: 3763,
@@ -19005,6 +21977,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     Crits: 1,
+    Obtained: {
+      nogen: [251],
+      monster: ["2732|7"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3765,
@@ -19028,6 +22006,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 55,
     Crits: 2,
+    Obtained: {
+      nogen: [241],
+      monster: ["2733|7"],
+      text: ["10102|4"],
+      item: ["3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3766,
@@ -19055,6 +22039,12 @@ export const armorData: Armor[] = [
     Percep: -15,
     Magical: 1,
     Classes: [14],
+    Obtained: {
+      nogen: [241],
+      monster: ["2733|7"],
+      text: ["10102|4"],
+      item: ["3836|4", "3837|4", "3838|4"],
+    },
   },
   {
     Number: 3768,
@@ -19078,6 +22068,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 40,
     Magical: 1,
+    Obtained: {
+      nogen: [251],
+      monster: ["2736|5"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3769,
@@ -19102,6 +22098,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     Magical: 1,
     "AC(Blur)": 6,
+    Obtained: { nogen: [243], monster: ["2734|7"] },
   },
   {
     Number: 3770,
@@ -19128,6 +22125,12 @@ export const armorData: Armor[] = [
     NeutralOnly: 0,
     MaxDamage: 1,
     Crits: 1,
+    Obtained: {
+      nogen: [251],
+      monster: ["2737|7"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3773,
@@ -19155,6 +22158,11 @@ export const armorData: Armor[] = [
     Crits: 3,
     EvilOnly: 150,
     Dodge: -5,
+    Obtained: {
+      monster: ["2738|5"],
+      text: ["10102|1"],
+      item: ["3836|1", "3837|1", "3838|1"],
+    },
   },
   {
     Number: 3785,
@@ -19182,6 +22190,12 @@ export const armorData: Armor[] = [
     Crits: 3,
     HPRegen: -25,
     NotGood: 0,
+    Obtained: {
+      nogen: [251],
+      monster: ["2769|5"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3792,
@@ -19205,6 +22219,12 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 50,
     CastsSp: 5692,
+    Obtained: {
+      nogen: [247],
+      monster: ["2776|7"],
+      text: ["10102|3"],
+      item: ["3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3793,
@@ -19230,6 +22250,12 @@ export const armorData: Armor[] = [
     Illu: 100,
     Crits: 2,
     Percep: -20,
+    Obtained: {
+      nogen: [247],
+      monster: ["2776|7"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3794,
@@ -19256,6 +22282,11 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     ManaRgn: 5,
     Classes: [5, 12, 13],
+    Obtained: {
+      nogen: [243],
+      text: ["5704|4", "10102|2"],
+      item: ["3796|4", "3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3798,
@@ -19285,6 +22316,11 @@ export const armorData: Armor[] = [
     PunchDmg: 8,
     JumpKDmg: 1,
     Classes: [15],
+    Obtained: {
+      monster: ["2353|4"],
+      text: ["10102|1"],
+      item: ["3836|1", "3837|1", "3838|1"],
+    },
   },
   {
     Number: 3799,
@@ -19311,6 +22347,12 @@ export const armorData: Armor[] = [
     MaxDamage: 2,
     Crits: -2,
     Dodge: -5,
+    Obtained: {
+      nogen: [241],
+      monster: ["2779|4"],
+      text: ["10102|2"],
+      item: ["3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3805,
@@ -19338,6 +22380,12 @@ export const armorData: Armor[] = [
     ManaRgn: 15,
     Crits: 1,
     MaxDamage: 2,
+    Obtained: {
+      nogen: [236],
+      monster: ["2783|4"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3807,
@@ -19363,5 +22411,11 @@ export const armorData: Armor[] = [
     Magical: 1,
     Crits: -1,
     Dodge: -5,
+    Obtained: {
+      nogen: [239],
+      monster: ["2784|3"],
+      text: ["10102|1"],
+      item: ["3836|1", "3837|1", "3838|1"],
+    },
   },
 ];

@@ -27,6 +27,10 @@ import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { Armor } from '../types';
 import { TextSearch } from '../components/TextSearch';
+import { useNavigate } from '@solidjs/router';
+import { MainPanel } from '../components/layout/MainPanel';
+import { SidePanel } from '../components/layout/SidePanel';
+import { ArmorPanel } from '../components/armor/ArmorPanel';
 
 const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
 
@@ -114,6 +118,7 @@ const defaultColumnVisibility = {
 };
 
 export function ArmorPage() {
+  const navigate = useNavigate();
   const [searchValue, setSearchValue] = createSignal<string>('');
   const [wornValue, setWornValue] = createSignal<string>('Anywhere');
   const [armorTypes, setArmorTypes] = createSignal<number[]>(
@@ -161,9 +166,15 @@ export function ArmorPage() {
 
       return false;
     },
-    enableRowSelection: false,
+    enableRowSelection: true,
+    enableMultiRowSelection: false,
+    onRowSelectionChange: (select) => {
+      const val = Object.keys(select())[0];
+      navigate(`/armor/${val}`, { replace: true });
+    },
     onColumnFiltersChange: setColumnFilters,
     onColumnVisibilityChange: setColumnVisibility,
+    getRowId: (row) => String(row.Number),
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
@@ -174,94 +185,102 @@ export function ArmorPage() {
     table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
 
   return (
-    <>
-      {/* <ColumnVisibilityMenu<Armor> columns={table.getAllLeafColumns()} /> */}
-      <div class="flex gap-4">
-        <TextSearch
-          value={searchValue}
-          setValue={setSearchValue}
-          column={table.getColumn('Name')}
-        />
-        <LevelInput
-          value={levelFilter}
-          setValue={setLevelFilter}
-          column={table.getColumn('MinLevel')!}
-        />
-        <select
-          value={wornValue()}
-          onChange={(e) => {
-            const value = e.target.value;
-            const column = table.getColumn('Worn');
+    <div class="flex gap-4 h-[100%]">
+      <MainPanel>
+        {/* <ColumnVisibilityMenu<Armor> columns={table.getAllLeafColumns()} /> */}
+        <div class="flex gap-4">
+          <TextSearch
+            value={searchValue}
+            setValue={setSearchValue}
+            column={table.getColumn('Name')}
+          />
+          <LevelInput
+            value={levelFilter}
+            setValue={setLevelFilter}
+            column={table.getColumn('MinLevel')!}
+          />
+          <select
+            value={wornValue()}
+            onChange={(e) => {
+              const value = e.target.value;
+              const column = table.getColumn('Worn');
 
-            value === 'Anywhere'
-              ? column?.setFilterValue('')
-              : column?.setFilterValue(value);
+              value === 'Anywhere'
+                ? column?.setFilterValue('')
+                : column?.setFilterValue(value);
 
-            setWornValue(value);
-          }}
-        >
-          <option value="Anywhere">Anywhere</option>
-          <For each={WornSpots}>
-            {(slot, index) => {
-              if (slot === '') return null;
-              return <option value={index()}>{slot}</option>;
+              setWornValue(value);
+            }}
+          >
+            <option value="Anywhere">Anywhere</option>
+            <For each={WornSpots}>
+              {(slot, index) => {
+                if (slot === '') return null;
+                return <option value={index()}>{slot}</option>;
+              }}
+            </For>
+          </select>
+          <ClassSelect
+            value={globalFilter}
+            setValue={setGlobalFilter}
+            onChange={(val) => table.setGlobalFilter(val)}
+          />
+          <button
+            onClick={() => {
+              table.resetColumnFilters(true);
+              table.resetGlobalFilter(true);
+              setSearchValue('');
+              setLevelFilter('');
+              setGlobalFilter('');
+              setWornValue('Anywhere');
+              setArmorTypes(defaultArmorTypeFilter);
+            }}
+          >
+            Clear Filters
+          </button>
+          <GlobalFilterMenu />
+        </div>
+        <div class="grid grid-cols-4 gap-1">
+          <For each={ArmorTypes}>
+            {(type, index) => {
+              if (type === 'Unused (Leather)') return null;
+
+              return (
+                <label>
+                  <input
+                    type="checkbox"
+                    value={index()}
+                    onChange={(e) => {
+                      const column = table.getColumn('ArmourType');
+                      e.target.checked
+                        ? setArmorTypes([
+                            ...armorTypes(),
+                            Number(e.target.value),
+                          ])
+                        : setArmorTypes(
+                            armorTypes().filter(
+                              (type) => type !== Number(e.target.value),
+                            ),
+                          );
+                      armorTypes().length === 7
+                        ? column?.setFilterValue('')
+                        : column?.setFilterValue(armorTypes());
+                    }}
+                    checked={armorTypes().includes(index())}
+                  />{' '}
+                  {type}
+                </label>
+              );
             }}
           </For>
-        </select>
-        <ClassSelect
-          value={globalFilter}
-          setValue={setGlobalFilter}
-          onChange={(val) => table.setGlobalFilter(val)}
-        />
-        <button
-          onClick={() => {
-            table.resetColumnFilters(true);
-            table.resetGlobalFilter(true);
-            setSearchValue('');
-            setLevelFilter('');
-            setGlobalFilter('');
-            setWornValue('Anywhere');
-            setArmorTypes(defaultArmorTypeFilter);
-          }}
-        >
-          Clear Filters
-        </button>
-        <GlobalFilterMenu />
-      </div>
-      <div class="grid grid-cols-4 gap-1">
-        <For each={ArmorTypes}>
-          {(type, index) => {
-            if (type === 'Unused (Leather)') return null;
-
-            return (
-              <label>
-                <input
-                  type="checkbox"
-                  value={index()}
-                  onChange={(e) => {
-                    const column = table.getColumn('ArmourType');
-                    e.target.checked
-                      ? setArmorTypes([...armorTypes(), Number(e.target.value)])
-                      : setArmorTypes(
-                          armorTypes().filter(
-                            (type) => type !== Number(e.target.value),
-                          ),
-                        );
-                    armorTypes().length === 7
-                      ? column?.setFilterValue('')
-                      : column?.setFilterValue(armorTypes());
-                  }}
-                  checked={armorTypes().includes(index())}
-                />{' '}
-                {type}
-              </label>
-            );
-          }}
-        </For>
-      </div>
-      <ScrollContainer>
-        <DataTable highlightEquipment table={table} />
-      </ScrollContainer>
-    </>
+        </div>
+        <ScrollContainer>
+          <DataTable highlightEquipment table={table} />
+        </ScrollContainer>
+      </MainPanel>
+      <SidePanel>
+        <ArmorPanel />
+      </SidePanel>
+    </div>
   );
 }

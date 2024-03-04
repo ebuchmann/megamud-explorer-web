@@ -24,6 +24,29 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     Quality: 1,
     BsAccu: -15,
+    Obtained: {
+      buy: [5, 101, 118],
+      monster: [
+        "65|1",
+        "150|1",
+        "151|1",
+        "242|1",
+        "356|100",
+        "478|1",
+        "1128|2",
+        "1099|1",
+        "1100|1",
+      ],
+      text: ["874|5", "882|4"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 325,
@@ -52,6 +75,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 408,
     Crits: 5,
+    Obtained: { sell: [88], monster: ["372|25"] },
   },
   {
     Number: 339,
@@ -81,6 +105,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 5,
     CastsSp: 201,
     Classes: [1],
+    Obtained: { room: ["1|2231"], sell: [146] },
   },
   {
     Number: 342,
@@ -108,6 +133,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 353,
     Classes: [2],
+    Obtained: { room: ["1|2236"], sell: [146] },
   },
   {
     Number: 347,
@@ -135,6 +161,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 170,
     "% Spell": 40,
     Classes: [3],
+    Obtained: { room: ["1|2260"], sell: [146] },
   },
   {
     Number: 348,
@@ -166,6 +193,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     ClassOk: [5],
     Classes: [5],
+    Obtained: { room: ["1|2256"], sell: [146] },
   },
   {
     Number: 349,
@@ -194,6 +222,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 2,
     ManaRgn: 10,
     Classes: [4],
+    Obtained: { room: ["1|2258"], sell: [146] },
   },
   {
     Number: 350,
@@ -224,6 +253,7 @@ export const weaponData: Weapon[] = [
     FindTrapsValue: 10,
     PickLocksValue: 10,
     Classes: [8],
+    Obtained: { room: ["1|2275"], sell: [146] },
   },
   {
     Number: 351,
@@ -251,6 +281,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Stealth: 5,
     Classes: [7],
+    Obtained: { room: ["1|2273"], sell: [146] },
   },
   {
     Number: 352,
@@ -282,6 +313,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     Illu: 100,
     Classes: [11],
+    Obtained: { room: ["1|2301"], sell: [146] },
   },
   {
     Number: 353,
@@ -312,6 +344,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 849,
     Classes: [13],
+    Obtained: { room: ["1|2303"], sell: [146] },
   },
   {
     Number: 354,
@@ -341,6 +374,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 5,
     ManaRgn: 15,
     Classes: [12],
+    Obtained: { room: ["1|2302"], sell: [146] },
   },
   {
     Number: 356,
@@ -372,6 +406,7 @@ export const weaponData: Weapon[] = [
     Crits: 4,
     "S.C.": 2,
     Classes: [10],
+    Obtained: { room: ["1|2300"], sell: [146] },
   },
   {
     Number: 358,
@@ -402,6 +437,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 1,
     ManaRgn: 5,
     Classes: [14],
+    Obtained: { room: ["1|2241"], sell: [146] },
   },
   {
     Number: 359,
@@ -431,6 +467,7 @@ export const weaponData: Weapon[] = [
     ManaRgn: 10,
     CastsSp: 114,
     Classes: [6],
+    Obtained: { room: ["1|2262"], sell: [146] },
   },
   {
     Number: 361,
@@ -456,6 +493,27 @@ export const weaponData: Weapon[] = [
     Magical: 1,
     Quality: 2,
     BsAccu: -15,
+    Obtained: {
+      buy: [77, 101, 167],
+      monster: ["63|10"],
+      text: ["874|2", "9126|1", "882|3", "2922|11", "2944|15", "4102|5"],
+      item: [
+        "906|2",
+        "908|9.6",
+        "956|7.8",
+        "957|7.8",
+        "958|7.8",
+        "974|26.5",
+        "1344|38.5",
+        "1485|27.6",
+        "1496|29.7",
+        "1667|27.6",
+        "1727|29.5",
+        "1819|22.6",
+        "1834|31.9",
+        "1840|4.9",
+      ],
+    },
   },
   {
     Number: 363,
@@ -480,6 +538,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 0,
     Classes: [7],
+    Obtained: { buy: [66, 82] },
   },
   {
     Number: 364,
@@ -504,6 +563,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 0,
     Classes: [7],
+    Obtained: { buy: [66, 82], monster: ["739|1"] },
   },
   {
     Number: 365,
@@ -527,6 +587,7 @@ export const weaponData: Weapon[] = [
     Speed: 2000,
     MinLevel: 0,
     Classes: [7],
+    Obtained: { buy: [66] },
   },
   {
     Number: 369,
@@ -552,6 +613,7 @@ export const weaponData: Weapon[] = [
     Magical: 2,
     BsAccu: -5,
     Crits: 4,
+    Obtained: { nogen: [5], monster: ["486|10"] },
   },
   {
     Number: 372,
@@ -578,6 +640,20 @@ export const weaponData: Weapon[] = [
     Quality: 2,
     LoyalItem: 1,
     Cursed: 1,
+    Obtained: {
+      nogen: [167],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 64,
@@ -601,6 +677,12 @@ export const weaponData: Weapon[] = [
     Speed: 1350,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: {
+      buy: [5],
+      sell: [123],
+      text: ["9122|1", "9123|1", "9125|1", "2944|3"],
+      item: ["1344|21.5", "1485|9", "1496|13.1", "1667|9"],
+    },
   },
   {
     Number: 65,
@@ -624,6 +706,11 @@ export const weaponData: Weapon[] = [
     Speed: 1500,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: {
+      buy: [5, 77],
+      monster: ["14|10", "24|10", "2324|10", "13|10", "2327|10"],
+      text: ["9122|1", "9125|1"],
+    },
   },
   {
     Number: 67,
@@ -647,6 +734,7 @@ export const weaponData: Weapon[] = [
     Speed: 1000,
     MinLevel: 0,
     BsAccu: 5,
+    Obtained: { buy: [5, 77], monster: ["26|10"] },
   },
   {
     Number: 68,
@@ -671,6 +759,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [12, 15],
     BsAccu: 10,
+    Obtained: { buy: [5, 77] },
   },
   {
     Number: 69,
@@ -695,6 +784,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [12, 15],
     BsAccu: 10,
+    Obtained: { buy: [5] },
   },
   {
     Number: 70,
@@ -719,6 +809,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [12, 15],
     BsAccu: 10,
+    Obtained: { buy: [5] },
   },
   {
     Number: 71,
@@ -742,6 +833,11 @@ export const weaponData: Weapon[] = [
     Speed: 1725,
     MinLevel: 0,
     BsAccu: -20,
+    Obtained: {
+      buy: [10, 77, 100],
+      monster: ["23|10", "1125|10"],
+      text: ["9122|1", "9125|1"],
+    },
   },
   {
     Number: 72,
@@ -765,6 +861,7 @@ export const weaponData: Weapon[] = [
     Speed: 1175,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: { buy: [5, 77, 111] },
   },
   {
     Number: 73,
@@ -788,6 +885,7 @@ export const weaponData: Weapon[] = [
     Speed: 1100,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: { room: ["8|436"], buy: [10] },
   },
   {
     Number: 74,
@@ -812,6 +910,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [13],
     BsAccu: 0,
+    Obtained: { buy: [5] },
   },
   {
     Number: 75,
@@ -835,6 +934,7 @@ export const weaponData: Weapon[] = [
     Speed: 1000,
     MinLevel: 0,
     BsAccu: -5,
+    Obtained: { buy: [10, 100], text: ["9123|1"] },
   },
   {
     Number: 76,
@@ -858,6 +958,7 @@ export const weaponData: Weapon[] = [
     Speed: 1550,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { buy: [5], text: ["9122|1", "9123|1", "9125|1"] },
   },
   {
     Number: 78,
@@ -880,6 +981,11 @@ export const weaponData: Weapon[] = [
     StrReq: 75,
     Speed: 2200,
     MinLevel: 0,
+    Obtained: {
+      buy: [5],
+      monster: ["214|25", "966|1", "2325|25"],
+      text: ["9122|1"],
+    },
   },
   {
     Number: 79,
@@ -902,6 +1008,7 @@ export const weaponData: Weapon[] = [
     StrReq: 70,
     Speed: 1925,
     MinLevel: 0,
+    Obtained: { buy: [5, 77] },
   },
   {
     Number: 80,
@@ -924,6 +1031,7 @@ export const weaponData: Weapon[] = [
     StrReq: 60,
     Speed: 1700,
     MinLevel: 0,
+    Obtained: { buy: [5], text: ["9122|1", "9123|1"] },
   },
   {
     Number: 81,
@@ -946,6 +1054,7 @@ export const weaponData: Weapon[] = [
     StrReq: 80,
     Speed: 2250,
     MinLevel: 0,
+    Obtained: { buy: [10, 77, 100], monster: ["963|1"] },
   },
   {
     Number: 82,
@@ -968,6 +1077,7 @@ export const weaponData: Weapon[] = [
     StrReq: 80,
     Speed: 2325,
     MinLevel: 0,
+    Obtained: { buy: [10], text: ["9122|1", "9125|1"] },
   },
   {
     Number: 83,
@@ -990,6 +1100,7 @@ export const weaponData: Weapon[] = [
     StrReq: 60,
     Speed: 1525,
     MinLevel: 0,
+    Obtained: { buy: [10] },
   },
   {
     Number: 85,
@@ -1013,6 +1124,7 @@ export const weaponData: Weapon[] = [
     Speed: 1400,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: { buy: [10, 122] },
   },
   {
     Number: 86,
@@ -1035,6 +1147,7 @@ export const weaponData: Weapon[] = [
     StrReq: 65,
     Speed: 1800,
     MinLevel: 0,
+    Obtained: { buy: [10] },
   },
   {
     Number: 87,
@@ -1058,6 +1171,7 @@ export const weaponData: Weapon[] = [
     Speed: 1350,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: { buy: [18, 77], text: ["9123|1"] },
   },
   {
     Number: 88,
@@ -1081,6 +1195,7 @@ export const weaponData: Weapon[] = [
     Speed: 1625,
     MinLevel: 0,
     BsAccu: -20,
+    Obtained: { buy: [18, 77] },
   },
   {
     Number: 89,
@@ -1104,6 +1219,7 @@ export const weaponData: Weapon[] = [
     Speed: 1550,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { buy: [18], monster: ["25|10"] },
   },
   {
     Number: 90,
@@ -1128,6 +1244,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 0,
     "Del@Maint": 1,
+    Obtained: { buy: [45, 77], text: ["9123|1"] },
   },
   {
     Number: 91,
@@ -1151,6 +1268,7 @@ export const weaponData: Weapon[] = [
     Speed: 1625,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { buy: [18], text: ["9122|1", "9123|1", "9125|1"] },
   },
   {
     Number: 92,
@@ -1175,6 +1293,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -10,
     "Del@Maint": 1,
+    Obtained: { buy: [77] },
   },
   {
     Number: 95,
@@ -1198,6 +1317,7 @@ export const weaponData: Weapon[] = [
     Speed: 1550,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { buy: [18] },
   },
   {
     Number: 100,
@@ -1221,6 +1341,7 @@ export const weaponData: Weapon[] = [
     Speed: 1200,
     MinLevel: 0,
     ClassOk: [15, 12, 5],
+    Obtained: { buy: [18, 45, 98], text: ["9123|1"] },
   },
   {
     Number: 101,
@@ -1245,6 +1366,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [12, 15],
     "Del@Maint": 1,
+    Obtained: { buy: [18, 77], monster: ["22|100", "247|100", "916|100"] },
   },
   {
     Number: 102,
@@ -1267,6 +1389,7 @@ export const weaponData: Weapon[] = [
     StrReq: 70,
     Speed: 2000,
     MinLevel: 0,
+    Obtained: { buy: [18, 77] },
   },
   {
     Number: 103,
@@ -1289,6 +1412,7 @@ export const weaponData: Weapon[] = [
     StrReq: 80,
     Speed: 2250,
     MinLevel: 0,
+    Obtained: { buy: [18], monster: ["962|1"], text: ["9123|1"] },
   },
   {
     Number: 115,
@@ -1317,6 +1441,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 5053,
     MaxMana: 15,
     Classes: [9],
+    Obtained: { room: ["1|2278"], sell: [146] },
   },
   {
     Number: 116,
@@ -1342,6 +1467,22 @@ export const weaponData: Weapon[] = [
     Magical: 1,
     Quality: 1,
     BsAccu: -15,
+    Obtained: {
+      buy: [18, 77, 101],
+      monster: ["242|1"],
+      text: ["874|2", "9126|9", "882|3", "2922|1"],
+      item: [
+        "906|2",
+        "908|9.6",
+        "956|7.8",
+        "957|7.8",
+        "958|7.8",
+        "974|7.3",
+        "1727|3",
+        "1834|3.5",
+        "1840|1.9",
+      ],
+    },
   },
   {
     Number: 171,
@@ -1364,6 +1505,7 @@ export const weaponData: Weapon[] = [
     StrReq: 90,
     Speed: 2600,
     MinLevel: 0,
+    Obtained: { buy: [18, 77], text: ["9123|1"] },
   },
   {
     Number: 178,
@@ -1393,6 +1535,7 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     Quality: 2,
     ClassOk: [5],
+    Obtained: { buy: [68, 215] },
   },
   {
     Number: 203,
@@ -1422,6 +1565,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 384,
     ClassOk: [5],
     Classes: [5],
+    Obtained: {
+      sell: [89],
+      monster: ["309|5"],
+      text: ["9820|2", "9817|1"],
+      item: ["3517|1", "3518|4", "3629|2"],
+    },
   },
   {
     Number: 204,
@@ -1450,6 +1599,13 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 5,
     BsMaxDmg: 12,
     EvilOnly: 100,
+    Obtained: {
+      nogen: [67, 77, 235],
+      buy: [69],
+      monster: ["2376|1"],
+      text: ["4106|10"],
+      item: ["1738|41"],
+    },
   },
   {
     Number: 205,
@@ -1477,6 +1633,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 20,
     CastsSp: 180,
     BsAccu: -15,
+    Obtained: { room: ["1|2249"], buy: [87, 313] },
   },
   {
     Number: 208,
@@ -1501,6 +1658,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 5,
     Dodge: 5,
+    Obtained: { buy: [76, 81, 155, 205] },
   },
   {
     Number: 209,
@@ -1526,6 +1684,7 @@ export const weaponData: Weapon[] = [
     Magical: 2,
     "% Spell": 10,
     CastsSp: 318,
+    Obtained: { sell: [148], monster: ["59|5"] },
   },
   {
     Number: 217,
@@ -1551,6 +1710,20 @@ export const weaponData: Weapon[] = [
     Quality: 2,
     BsAccu: 0,
     Magical: 2,
+    Obtained: {
+      buy: [87],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 218,
@@ -1578,6 +1751,12 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     "% Spell": 25,
     CastsSp: 894,
+    Obtained: {
+      sell: [88],
+      monster: ["369|3"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 220,
@@ -1604,6 +1783,31 @@ export const weaponData: Weapon[] = [
     Quality: 4,
     BsAccu: -30,
     Crits: 10,
+    Obtained: {
+      sell: [123],
+      nogen: [150, 167],
+      monster: ["878|3"],
+      text: ["898|2", "2944|1", "9062|6", "9817|1"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|15.1",
+        "1352|21.5",
+        "1354|21",
+        "1485|16",
+        "1496|20.7",
+        "1667|16",
+        "1819|1.8",
+        "1840|4.3",
+        "3517|1",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 221,
@@ -1632,6 +1836,32 @@ export const weaponData: Weapon[] = [
     CastsSp: 408,
     BsAccu: -15,
     RoomIllu: 100,
+    Obtained: {
+      room: ["1|2249"],
+      nogen: [167],
+      text: ["889|1", "898|5", "9062|5"],
+      item: [
+        "908|22.6",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|9.8",
+        "913|14.3",
+        "914|46",
+        "956|32.2",
+        "957|32.2",
+        "958|32.2",
+        "1344|18.6",
+        "1352|20.2",
+        "1354|19.9",
+        "1485|13.1",
+        "1496|17.7",
+        "1667|13.1",
+        "1819|3.8",
+        "1840|11",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 222,
@@ -1658,6 +1888,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 1187,
     BsAccu: 0,
+    Obtained: {
+      buy: [167],
+      monster: ["1217|3"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 226,
@@ -1684,6 +1920,13 @@ export const weaponData: Weapon[] = [
     Quality: 100,
     Recharge: 3,
     CastsSp: 171,
+    Obtained: {
+      nogen: [67, 77],
+      buy: [69, 100],
+      monster: ["114|10"],
+      text: ["2944|2", "4106|5"],
+      item: ["1344|16.3", "1485|6.3", "1496|9.6", "1667|6.3", "1738|22.6"],
+    },
   },
   {
     Number: 258,
@@ -1708,6 +1951,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     HitMagic: 2,
     Quality: 100,
+    Obtained: { sell: [88], monster: ["60|25"] },
   },
   {
     Number: 264,
@@ -1735,6 +1979,29 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 5, 15],
     "% Spell": 25,
     CastsSp: 81,
+    Obtained: {
+      nogen: [18],
+      text: ["889|1", "898|3"],
+      item: [
+        "908|14.1",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|5.9",
+        "913|8.7",
+        "914|30.6",
+        "956|23.1",
+        "957|23.1",
+        "958|23.1",
+        "1344|11.5",
+        "1485|0.9",
+        "1496|1.4",
+        "1667|0.9",
+        "1819|2.6",
+        "1840|8.2",
+        "3728|3",
+      ],
+    },
   },
   {
     Number: 265,
@@ -1763,6 +2030,7 @@ export const weaponData: Weapon[] = [
     Illu: 50,
     "% Spell": 5,
     CastsSp: 411,
+    Obtained: { sell: [88], monster: ["69|20"] },
   },
   {
     Number: 267,
@@ -1791,6 +2059,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 5,
     MaxMana: 2,
     Classes: [12],
+    Obtained: { sell: [88], monster: ["69|20"] },
   },
   {
     Number: 272,
@@ -1816,6 +2085,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     Magical: 3,
     Quality: 3,
+    Obtained: { buy: [167], text: ["4102|2"], item: ["1819|9.6"] },
   },
   {
     Number: 449,
@@ -1842,6 +2112,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 5,
     CastsSp: 128,
     Quality: 1,
+    Obtained: { buy: [18] },
   },
   {
     Number: 450,
@@ -1865,6 +2136,12 @@ export const weaponData: Weapon[] = [
     Speed: 2900,
     MinLevel: 40,
     Magical: 4,
+    Obtained: {
+      sell: [147],
+      monster: ["185|10"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 451,
@@ -1889,6 +2166,20 @@ export const weaponData: Weapon[] = [
     MinLevel: 20,
     Quality: 2,
     Magical: 3,
+    Obtained: {
+      buy: [72],
+      text: ["889|2"],
+      item: [
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|14.9",
+        "957|14.9",
+        "958|14.9",
+        "1819|0.5",
+        "1840|5.3",
+      ],
+    },
   },
   {
     Number: 452,
@@ -1911,6 +2202,7 @@ export const weaponData: Weapon[] = [
     StrReq: 65,
     Speed: 1900,
     MinLevel: 0,
+    Obtained: { buy: [10, 122], text: ["9122|1", "9125|1"] },
   },
   {
     Number: 453,
@@ -1937,6 +2229,7 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: -15,
     BsAccu: -15,
     BsMinDmg: -5,
+    Obtained: { buy: [167] },
   },
   {
     Number: 454,
@@ -1964,6 +2257,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 172,
     EvilOnly: 100,
+    Obtained: { sell: [148], monster: ["174|10"] },
   },
   {
     Number: 455,
@@ -1994,6 +2288,12 @@ export const weaponData: Weapon[] = [
     "S.C.": 2,
     ClassOk: [12, 15, 5],
     Classes: [5, 13, 12, 15],
+    Obtained: {
+      sell: [148],
+      monster: ["176|10"],
+      text: ["9820|2"],
+      item: ["3518|4", "3629|2"],
+    },
   },
   {
     Number: 456,
@@ -2024,6 +2324,7 @@ export const weaponData: Weapon[] = [
     Recharge: 3,
     ManaRgn: 5,
     ClassOk: [12, 15],
+    Obtained: { sell: [148], monster: ["108|5"] },
   },
   {
     Number: 457,
@@ -2050,6 +2351,7 @@ export const weaponData: Weapon[] = [
     Magical: 2,
     CastsSp: 178,
     "% Spell": 100,
+    Obtained: { sell: [148], monster: ["126|1"] },
   },
   {
     Number: 458,
@@ -2073,6 +2375,12 @@ export const weaponData: Weapon[] = [
     Speed: 1650,
     MinLevel: 0,
     BsAccu: -20,
+    Obtained: {
+      buy: [67, 69, 77],
+      monster: ["123|1"],
+      text: ["9126|3", "9126|1", "4106|20"],
+      item: ["1738|67.2"],
+    },
   },
   {
     Number: 459,
@@ -2097,6 +2405,19 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     Quality: 1,
     ClassOk: [12, 15, 5],
+    Obtained: {
+      buy: [101, 118, 168],
+      monster: ["121|3", "208|1", "242|1"],
+      text: ["874|5", "882|4"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 460,
@@ -2126,6 +2447,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 20,
     CastsSp: 201,
     Crits: 2,
+    Obtained: {
+      sell: [88],
+      monster: ["122|10"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 461,
@@ -2149,6 +2476,22 @@ export const weaponData: Weapon[] = [
     Speed: 1900,
     MinLevel: 15,
     Quality: 1,
+    Obtained: {
+      buy: [168],
+      text: ["874|1", "9122|1", "9125|1", "882|1", "889|4"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|15.1",
+        "910|7.8",
+        "911|18.5",
+        "956|30.7",
+        "957|30.7",
+        "958|30.7",
+        "1819|1",
+        "1840|10",
+      ],
+    },
   },
   {
     Number: 462,
@@ -2176,6 +2519,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 179,
     ClassOk: [5],
+    Obtained: { buy: [72] },
   },
   {
     Number: 463,
@@ -2199,6 +2543,7 @@ export const weaponData: Weapon[] = [
     Speed: 1575,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: { nogen: [67, 69], monster: ["141|1", "158|1", "165|1"] },
   },
   {
     Number: 478,
@@ -2221,6 +2566,7 @@ export const weaponData: Weapon[] = [
     StrReq: 150,
     Speed: 8000,
     MinLevel: 35,
+    Obtained: { sell: [88], monster: ["131|1"] },
   },
   {
     Number: 482,
@@ -2243,6 +2589,7 @@ export const weaponData: Weapon[] = [
     StrReq: 60,
     Speed: 1900,
     MinLevel: 0,
+    Obtained: { nogen: [67, 69], monster: ["166|1", "168|1"] },
   },
   {
     Number: 483,
@@ -2266,6 +2613,7 @@ export const weaponData: Weapon[] = [
     Speed: 1650,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { nogen: [67, 69], monster: ["167|1", "169|1"] },
   },
   {
     Number: 493,
@@ -2295,6 +2643,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 361,
     BsMaxDmg: 15,
     BsMinDmg: 5,
+    Obtained: { monster: ["180|15"], text: ["9817|1"], item: ["3517|1"] },
   },
   {
     Number: 497,
@@ -2320,6 +2669,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -5,
     Quality: 5,
     Crits: 2,
+    Obtained: { sell: [88], monster: ["178|20"] },
   },
   {
     Number: 512,
@@ -2347,6 +2697,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 1138,
     "M.R.": 10,
     Classes: [2],
+    Obtained: { nogen: [268], text: ["9824|3"], item: ["3532|8.7", "3710|3"] },
   },
   {
     Number: 514,
@@ -2371,6 +2722,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     Quality: 1,
     BsAccu: -15,
+    Obtained: { buy: [79], text: ["9126|4"] },
   },
   {
     Number: 519,
@@ -2396,6 +2748,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Quality: 1,
     Magical: 2,
+    Obtained: { monster: ["210|15"] },
   },
   {
     Number: 523,
@@ -2421,6 +2774,12 @@ export const weaponData: Weapon[] = [
     Quality: 2,
     BsAccu: -10,
     Magical: 1,
+    Obtained: {
+      buy: [167],
+      monster: ["763|15"],
+      text: ["2922|5"],
+      item: ["974|21.4", "1727|14.3", "1834|16.3", "1840|1.9"],
+    },
   },
   {
     Number: 541,
@@ -2447,6 +2806,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 172,
     BsAccu: 0,
+    Obtained: {
+      sell: [89],
+      monster: ["216|10"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 559,
@@ -2473,6 +2838,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 80,
     BsAccu: 0,
     Classes: [7],
+    Obtained: { buy: [66, 82] },
   },
   {
     Number: 568,
@@ -2497,6 +2863,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -20,
     Quality: 1,
+    Obtained: { nogen: [10], buy: [100, 167], monster: ["218|25"] },
   },
   {
     Number: 570,
@@ -2520,6 +2887,7 @@ export const weaponData: Weapon[] = [
     Speed: 1750,
     MinLevel: 0,
     BsAccu: -10,
+    Obtained: { buy: [3, 152, 219, 263, 266, 272, 311], monster: ["41|10"] },
   },
   {
     Number: 589,
@@ -2544,6 +2912,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -20,
     "Del@Maint": 0,
+    Obtained: { monster: ["219|10"] },
   },
   {
     Number: 590,
@@ -2567,6 +2936,7 @@ export const weaponData: Weapon[] = [
     Speed: 2400,
     MinLevel: 0,
     "Del@Maint": 0,
+    Obtained: { monster: ["220|10"] },
   },
   {
     Number: 591,
@@ -2591,6 +2961,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 10,
     Dodge: 5,
+    Obtained: { buy: [76, 81, 155, 205] },
   },
   {
     Number: 592,
@@ -2615,6 +2986,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     Dodge: 5,
     BsAccu: 10,
+    Obtained: { buy: [81, 155, 205] },
   },
   {
     Number: 596,
@@ -2638,6 +3010,7 @@ export const weaponData: Weapon[] = [
     Speed: 1425,
     MinLevel: 10,
     BsAccu: -20,
+    Obtained: { buy: [72], monster: ["237|2"] },
   },
   {
     Number: 597,
@@ -2663,6 +3036,7 @@ export const weaponData: Weapon[] = [
     Magical: 1,
     CastsSp: 332,
     ClassOk: [12, 5],
+    Obtained: { monster: ["237|5"] },
   },
   {
     Number: 609,
@@ -2692,6 +3066,12 @@ export const weaponData: Weapon[] = [
     Illu: 25,
     "% Spell": 100,
     CastsSp: 979,
+    Obtained: {
+      sell: [89],
+      monster: ["216|10"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 610,
@@ -2717,6 +3097,7 @@ export const weaponData: Weapon[] = [
     Dodge: 5,
     BsAccu: 10,
     HitMagic: 2,
+    Obtained: { buy: [155, 168, 205], monster: ["241|100"] },
   },
   {
     Number: 612,
@@ -2745,6 +3126,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 30,
     CastsSp: 342,
     ClassOk: [12, 15],
+    Obtained: { nogen: [167], monster: ["241|100"] },
   },
   {
     Number: 623,
@@ -2768,6 +3150,7 @@ export const weaponData: Weapon[] = [
     Speed: 1800,
     MinLevel: 0,
     Dodge: 5,
+    Obtained: { room: ["8|436"], buy: [76, 81, 155, 205], text: ["9126|4"] },
   },
   {
     Number: 624,
@@ -2791,6 +3174,7 @@ export const weaponData: Weapon[] = [
     Speed: 2025,
     MinLevel: 0,
     Dodge: 5,
+    Obtained: { buy: [76, 81, 155, 205] },
   },
   {
     Number: 625,
@@ -2813,6 +3197,7 @@ export const weaponData: Weapon[] = [
     StrReq: 30,
     Speed: 1200,
     MinLevel: 0,
+    Obtained: { buy: [76, 81, 155, 205] },
   },
   {
     Number: 626,
@@ -2836,6 +3221,7 @@ export const weaponData: Weapon[] = [
     Speed: 1500,
     MinLevel: 0,
     ClassOk: [12, 5],
+    Obtained: { buy: [76, 81, 155, 205] },
   },
   {
     Number: 632,
@@ -2860,6 +3246,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     Quality: 1,
     Dodge: 5,
+    Obtained: { buy: [76, 79, 155, 205] },
   },
   {
     Number: 633,
@@ -2885,6 +3272,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     Quality: 1,
     Crits: 2,
+    Obtained: { buy: [79] },
   },
   {
     Number: 635,
@@ -2909,6 +3297,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -15,
     Quality: 1,
+    Obtained: { buy: [79], monster: ["241|100"] },
   },
   {
     Number: 636,
@@ -2934,6 +3323,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 5,
     Quality: 1,
     ClassOk: [12, 15],
+    Obtained: { buy: [79, 118] },
   },
   {
     Number: 637,
@@ -2960,6 +3350,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 351,
     Quality: 1,
     "Del@Maint": 0,
+    Obtained: { buy: [79], monster: ["353|100"] },
   },
   {
     Number: 646,
@@ -2987,6 +3378,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 353,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 647,
@@ -3011,6 +3403,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     PickLocksValue: 5,
     Classes: [6, 7, 8, 9, 10],
+    Obtained: { buy: [82] },
   },
   {
     Number: 648,
@@ -3037,6 +3430,7 @@ export const weaponData: Weapon[] = [
     FindTrapsValue: 5,
     PickLocksValue: 5,
     Classes: [6, 7, 8, 9, 10],
+    Obtained: { buy: [82] },
   },
   {
     Number: 649,
@@ -3061,6 +3455,22 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 0,
     "Del@Maint": 1,
+    Obtained: {
+      monster: [
+        "190|1",
+        "248|1",
+        "259|100",
+        "781|100",
+        "793|100",
+        "794|100",
+        "913|1",
+        "981|100",
+        "1142|100",
+        "2335|1",
+        "2380|1",
+        "2447|1",
+      ],
+    },
   },
   {
     Number: 650,
@@ -3086,6 +3496,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     "Del@Maint": 1,
     ClassOk: [12],
+    Obtained: { monster: ["472|50", "495|100", "769|50", "786|100"] },
   },
   {
     Number: 685,
@@ -3113,6 +3524,13 @@ export const weaponData: Weapon[] = [
     CastsSp: 443,
     "% Spell": 25,
     Classes: [14],
+    Obtained: {
+      sell: [89],
+      nogen: [159],
+      monster: ["930|10"],
+      text: ["5438|3"],
+      item: ["3710|5.9"],
+    },
   },
   {
     Number: 686,
@@ -3143,6 +3561,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     "% Spell": 25,
     CastsSp: 5113,
+    Obtained: { nogen: [167], monster: ["281|25"] },
   },
   {
     Number: 687,
@@ -3173,6 +3592,13 @@ export const weaponData: Weapon[] = [
     CastsSp: 361,
     ClassOk: [12, 5, 15],
     Classes: [5, 12, 13, 15],
+    Obtained: {
+      sell: [89],
+      nogen: [91],
+      monster: ["345|5"],
+      text: ["9820|2"],
+      item: ["3518|4", "3629|2"],
+    },
   },
   {
     Number: 703,
@@ -3201,6 +3627,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 333,
     ClassOk: [12, 15, 5],
     MaxMana: 10,
+    Obtained: { sell: [89], monster: ["269|20"] },
   },
   {
     Number: 711,
@@ -3226,6 +3653,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 5,
     Quality: 1,
     ClassOk: [12, 15],
+    Obtained: { nogen: [167], monster: ["270|5", "303|5"] },
   },
   {
     Number: 712,
@@ -3254,6 +3682,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -5,
     BsMaxDmg: -8,
     BsMinDmg: -4,
+    Obtained: { nogen: [87, 313], monster: ["276|3"] },
   },
   {
     Number: 722,
@@ -3280,6 +3709,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Magical: 2,
     NotGood: 0,
+    Obtained: { nogen: [167], monster: ["284|5", "982|5"] },
   },
   {
     Number: 732,
@@ -3303,6 +3733,10 @@ export const weaponData: Weapon[] = [
     Speed: 3000,
     MinLevel: 15,
     "Del@Maint": 0,
+    Obtained: {
+      buy: [72],
+      monster: ["296|5", "726|5", "2182|1", "1148|100", "1095|5"],
+    },
   },
   {
     Number: 736,
@@ -3328,6 +3762,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: 10,
     "Del@Maint": 0,
+    Obtained: { monster: ["298|50", "315|20"] },
   },
   {
     Number: 737,
@@ -3353,6 +3788,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: 10,
     "Del@Maint": 0,
+    Obtained: { monster: ["299|50", "315|20"] },
   },
   {
     Number: 738,
@@ -3378,6 +3814,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: 10,
     "Del@Maint": 0,
+    Obtained: { monster: ["300|50", "315|20"] },
   },
   {
     Number: 739,
@@ -3403,6 +3840,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: 10,
     "Del@Maint": 0,
+    Obtained: { monster: ["301|50"] },
   },
   {
     Number: 740,
@@ -3428,6 +3866,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: 10,
     "Del@Maint": 0,
+    Obtained: { monster: ["302|50", "315|20"] },
   },
   {
     Number: 741,
@@ -3458,6 +3897,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 385,
     Recharge: 10,
     Classes: [12],
+    Obtained: {
+      sell: [89],
+      monster: ["311|10"],
+      text: ["9820|2", "9817|1"],
+      item: ["3517|1", "3518|4", "3629|2"],
+    },
   },
   {
     Number: 742,
@@ -3486,6 +3931,12 @@ export const weaponData: Weapon[] = [
     ManaRgn: 20,
     CastsSp: 1241,
     Classes: [13],
+    Obtained: {
+      sell: [89],
+      monster: ["317|10"],
+      text: ["9820|2", "9817|1"],
+      item: ["3517|1", "3518|4", "3629|2"],
+    },
   },
   {
     Number: 745,
@@ -3514,6 +3965,7 @@ export const weaponData: Weapon[] = [
     Crits: 3,
     ProtEvil: 5,
     ProtGood: 5,
+    Obtained: { sell: [89], monster: ["312|10"] },
   },
   {
     Number: 749,
@@ -3542,6 +3994,12 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     ProtEvil: 10,
     Crits: 5,
+    Obtained: {
+      sell: [89],
+      monster: ["315|10"],
+      text: ["9820|2", "9817|1"],
+      item: ["3517|1", "3518|4", "3629|2"],
+    },
   },
   {
     Number: 750,
@@ -3571,6 +4029,7 @@ export const weaponData: Weapon[] = [
     Rcol: 50,
     Rfir: -25,
     BsAccu: -35,
+    Obtained: { sell: [89], monster: ["316|20"] },
   },
   {
     Number: 763,
@@ -3599,6 +4058,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 894,
     Crits: 2,
+    Obtained: { sell: [89], monster: ["318|10"] },
   },
   {
     Number: 983,
@@ -3623,6 +4083,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     Quality: 1,
     BsAccu: 0,
+    Obtained: {},
   },
   {
     Number: 996,
@@ -3648,6 +4109,7 @@ export const weaponData: Weapon[] = [
     Quality: 100,
     Recharge: 9999,
     LoyalItem: 0,
+    Obtained: {},
   },
   {
     Number: 1001,
@@ -3672,6 +4134,9 @@ export const weaponData: Weapon[] = [
     MinLevel: 8,
     BsAccu: -20,
     "Del@Maint": 0,
+    Obtained: {
+      monster: ["67|1", "485|25", "923|25", "1222|25", "2112|1", "892|25"],
+    },
   },
   {
     Number: 1004,
@@ -3702,6 +4167,11 @@ export const weaponData: Weapon[] = [
     "% Spell": 50,
     CastsSp: 979,
     Classes: [7],
+    Obtained: {
+      monster: ["212|3"],
+      text: ["9824|3", "9817|1"],
+      item: ["3517|1", "3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1005,
@@ -3726,6 +4196,19 @@ export const weaponData: Weapon[] = [
     MinLevel: 25,
     BsAccu: 0,
     HitMagic: 2,
+    Obtained: {
+      buy: [167, 312],
+      monster: ["527|1", "2131|1"],
+      text: ["4438|10", "9470|10", "9817|1"],
+      item: [
+        "1444|15",
+        "1485|12.6",
+        "1496|5.5",
+        "1667|13.1",
+        "2013|46.8",
+        "3517|1",
+      ],
+    },
   },
   {
     Number: 1023,
@@ -3752,6 +4235,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 60,
     CastsSp: 431,
     BsAccu: 15,
+    Obtained: {
+      sell: [178],
+      monster: ["1028|5"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 784,
@@ -3778,6 +4267,12 @@ export const weaponData: Weapon[] = [
     Quality: 100,
     CastsSp: 431,
     "% Spell": 25,
+    Obtained: {
+      sell: [89],
+      monster: ["329|15"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 788,
@@ -3805,6 +4300,20 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 13, 15, 5],
     "% Spell": 25,
     CastsSp: 416,
+    Obtained: {
+      buy: [18],
+      text: ["889|1"],
+      item: [
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "956|7.7",
+        "957|7.7",
+        "958|7.7",
+        "1819|0.2",
+        "1840|2.8",
+      ],
+    },
   },
   {
     Number: 793,
@@ -3828,6 +4337,7 @@ export const weaponData: Weapon[] = [
     Speed: 1600,
     MinLevel: 0,
     Quality: 1,
+    Obtained: { nogen: [91], monster: ["322|2", "333|2", "357|2"] },
   },
   {
     Number: 798,
@@ -3855,6 +4365,12 @@ export const weaponData: Weapon[] = [
     Crits: 5,
     CastsSp: 428,
     BsAccu: -20,
+    Obtained: {
+      sell: [89],
+      monster: ["325|3"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 821,
@@ -3884,6 +4400,13 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     ManaRgn: 10,
     MaxMana: 10,
+    Obtained: {
+      nogen: [91],
+      sell: [147],
+      monster: ["341|25"],
+      text: ["9820|2"],
+      item: ["3518|4", "3629|2"],
+    },
   },
   {
     Number: 822,
@@ -3910,6 +4433,13 @@ export const weaponData: Weapon[] = [
     Quality: 5,
     Crits: 3,
     Magical: 3,
+    Obtained: {
+      nogen: [91],
+      sell: [147],
+      monster: ["342|10"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 823,
@@ -3937,6 +4467,7 @@ export const weaponData: Weapon[] = [
     Magical: 3,
     BsMinDmg: 10,
     BsMaxDmg: 10,
+    Obtained: { nogen: [91], sell: [147], monster: ["343|20"] },
   },
   {
     Number: 824,
@@ -3961,6 +4492,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     "% Spell": 5,
     CastsSp: 351,
+    Obtained: { nogen: [91], monster: ["344|5"] },
   },
   {
     Number: 825,
@@ -3988,6 +4520,7 @@ export const weaponData: Weapon[] = [
     Magical: 2,
     Quality: 1,
     BsAccu: -10,
+    Obtained: { nogen: [91], sell: [147], monster: ["346|5"] },
   },
   {
     Number: 863,
@@ -4011,6 +4544,18 @@ export const weaponData: Weapon[] = [
     Speed: 2200,
     MinLevel: 0,
     Quality: 1,
+    Obtained: {
+      buy: [101],
+      text: ["874|5", "882|4"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 864,
@@ -4035,6 +4580,18 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -10,
     Quality: 1,
+    Obtained: {
+      buy: [18, 101, 118],
+      text: ["874|5", "882|4"],
+      item: [
+        "906|5",
+        "908|22.6",
+        "956|18.6",
+        "957|18.6",
+        "958|18.6",
+        "1840|3.7",
+      ],
+    },
   },
   {
     Number: 865,
@@ -4058,6 +4615,11 @@ export const weaponData: Weapon[] = [
     Speed: 2325,
     MinLevel: 10,
     Quality: 1,
+    Obtained: {
+      nogen: [168],
+      text: ["874|2", "882|2"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 866,
@@ -4082,6 +4644,11 @@ export const weaponData: Weapon[] = [
     MinLevel: 10,
     Quality: 1,
     HitMagic: 2,
+    Obtained: {
+      nogen: [168],
+      text: ["874|2", "882|2"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 867,
@@ -4107,6 +4674,11 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     Quality: 1,
     HitMagic: 2,
+    Obtained: {
+      nogen: [18],
+      text: ["874|2", "882|2"],
+      item: ["906|2", "908|9.6", "956|7.8", "957|7.8", "958|7.8", "1840|1.6"],
+    },
   },
   {
     Number: 868,
@@ -4132,6 +4704,23 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Quality: 2,
     HitMagic: 1,
+    Obtained: {
+      buy: [100],
+      monster: ["457|3"],
+      text: ["874|1", "882|2", "889|4"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|15.1",
+        "910|7.8",
+        "911|18.5",
+        "956|30.7",
+        "957|30.7",
+        "958|30.7",
+        "1819|1",
+        "1840|10",
+      ],
+    },
   },
   {
     Number: 869,
@@ -4157,6 +4746,12 @@ export const weaponData: Weapon[] = [
     BsAccu: -15,
     Quality: 2,
     HitMagic: 1,
+    Obtained: {
+      buy: [101],
+      monster: ["451|1"],
+      text: ["874|1", "882|2"],
+      item: ["906|1", "908|4.9", "956|3.9", "957|3.9", "958|3.9", "1840|0.8"],
+    },
   },
   {
     Number: 870,
@@ -4180,6 +4775,22 @@ export const weaponData: Weapon[] = [
     Speed: 1900,
     MinLevel: 15,
     Quality: 2,
+    Obtained: {
+      buy: [18, 72, 168],
+      text: ["874|1", "882|1", "889|4"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|15.1",
+        "910|7.8",
+        "911|18.5",
+        "956|30.7",
+        "957|30.7",
+        "958|30.7",
+        "1819|1",
+        "1840|10",
+      ],
+    },
   },
   {
     Number: 871,
@@ -4205,6 +4816,22 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 2,
     Quality: 2,
+    Obtained: {
+      buy: [18, 168],
+      text: ["874|1", "882|1", "889|2"],
+      item: [
+        "906|1",
+        "908|4.9",
+        "909|7.8",
+        "910|4",
+        "911|9.6",
+        "956|18.3",
+        "957|18.3",
+        "958|18.3",
+        "1819|0.5",
+        "1840|5.9",
+      ],
+    },
   },
   {
     Number: 872,
@@ -4230,6 +4857,21 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Quality: 2,
     Magical: 3,
+    Obtained: {
+      buy: [101],
+      monster: ["383|5"],
+      text: ["889|1"],
+      item: [
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "956|7.7",
+        "957|7.7",
+        "958|7.7",
+        "1819|0.2",
+        "1840|2.8",
+      ],
+    },
   },
   {
     Number: 873,
@@ -4256,6 +4898,19 @@ export const weaponData: Weapon[] = [
     CastsSp: 979,
     EvilOnly: 120,
     Magical: 5,
+    Obtained: {
+      sell: [176],
+      monster: ["926|1"],
+      text: ["9467|4"],
+      item: [
+        "1444|6.6",
+        "1485|5.8",
+        "1496|2.4",
+        "1667|6.5",
+        "3532|4",
+        "3629|4",
+      ],
+    },
   },
   {
     Number: 874,
@@ -4281,6 +4936,32 @@ export const weaponData: Weapon[] = [
     Quality: 3,
     Magical: 3,
     Crits: 3,
+    Obtained: {
+      buy: [168],
+      text: ["889|1", "898|2", "9062|9", 9817],
+      item: [
+        "908|9.6",
+        "909|3.9",
+        "910|2",
+        "911|4.9",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|18.3",
+        "957|18.3",
+        "958|18.3",
+        "1344|7.8",
+        "1352|23.5",
+        "1354|23.1",
+        "1485|19.7",
+        "1496|24.4",
+        "1667|19.7",
+        "1819|1.9",
+        "1840|6.6",
+        "3517|0",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 875,
@@ -4306,6 +4987,29 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     Magical: 3,
     Quality: 3,
+    Obtained: {
+      buy: [72, 253],
+      text: ["889|4", "898|5"],
+      item: [
+        "908|22.6",
+        "909|15.1",
+        "910|7.8",
+        "911|18.5",
+        "912|9.8",
+        "913|14.3",
+        "914|46",
+        "956|47",
+        "957|47",
+        "958|47",
+        "1344|18.6",
+        "1485|1.5",
+        "1496|2.4",
+        "1667|1.5",
+        "1819|4.1",
+        "1840|15.2",
+        "3728|5",
+      ],
+    },
   },
   {
     Number: 876,
@@ -4330,6 +5034,28 @@ export const weaponData: Weapon[] = [
     MinLevel: 40,
     Magical: 4,
     Quality: 4,
+    Obtained: {
+      nogen: [168],
+      buy: [252],
+      text: ["898|2", "9817|1"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|1.8",
+        "1840|4.3",
+        "3517|1",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 877,
@@ -4357,6 +5083,31 @@ export const weaponData: Weapon[] = [
     Quality: 4,
     "% Spell": 25,
     CastsSp: 411,
+    Obtained: {
+      nogen: [18, 72],
+      buy: [253],
+      monster: ["637|15"],
+      text: ["898|2", "9059|2", "9817|1"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1352|7.8",
+        "1354|4",
+        "1485|1.2",
+        "1496|1.9",
+        "1667|1.2",
+        "1819|1.8",
+        "1840|4.3",
+        "3517|1",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 917,
@@ -4382,6 +5133,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Quality: 9,
     "Del@Maint": 0,
+    Obtained: { monster: ["374|100"] },
   },
   {
     Number: 926,
@@ -4408,6 +5160,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: -10,
     BsMinDmg: -15,
+    Obtained: { buy: [94] },
   },
   {
     Number: 932,
@@ -4434,6 +5187,7 @@ export const weaponData: Weapon[] = [
     Quality: 1,
     BsAccu: -25,
     "M.R.": 5,
+    Obtained: { nogen: [167], monster: ["409|10"] },
   },
   {
     Number: 936,
@@ -4459,6 +5213,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     ClassOk: [4, 5, 12, 13, 15],
     "Del@Maint": 0,
+    Obtained: { buy: [98, 163, 272], text: [5509] },
   },
   {
     Number: 953,
@@ -4484,6 +5239,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Quality: 9,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 954,
@@ -4510,6 +5266,7 @@ export const weaponData: Weapon[] = [
     "Del@Maint": 0,
     ClassOk: [4, 5, 12, 13, 15],
     GoodOnly: 0,
+    Obtained: {},
   },
   {
     Number: 955,
@@ -4536,6 +5293,7 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     "Del@Maint": 0,
     ClassOk: [4, 5, 12, 13, 15],
+    Obtained: { text: [1241] },
   },
   {
     Number: 969,
@@ -4561,6 +5319,7 @@ export const weaponData: Weapon[] = [
     Quality: 1,
     BsAccu: -15,
     HitMagic: 2,
+    Obtained: { nogen: [5, 67], monster: ["482|10", "1122|10"] },
   },
   {
     Number: 970,
@@ -4585,6 +5344,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [12, 15],
     "Del@Maint": 1,
+    Obtained: { room: ["9|497"], buy: [153] },
   },
   {
     Number: 1068,
@@ -4609,6 +5369,11 @@ export const weaponData: Weapon[] = [
     MinLevel: 40,
     "% Spell": 25,
     CastsSp: 953,
+    Obtained: {
+      buy: [122],
+      text: ["9059|9"],
+      item: ["1352|31.4", "1354|17.2", "1485|2.6", "1496|4", "1667|2.6"],
+    },
   },
   {
     Number: 1327,
@@ -4637,6 +5402,7 @@ export const weaponData: Weapon[] = [
     Stealth: 2,
     Magical: 2,
     ClassOk: [12, 15],
+    Obtained: { nogen: [5], monster: ["737|1"] },
   },
   {
     Number: 1328,
@@ -4664,6 +5430,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Magical: 2,
     Classes: [7],
+    Obtained: { nogen: [66], monster: ["738|3"] },
   },
   {
     Number: 1330,
@@ -4692,6 +5459,7 @@ export const weaponData: Weapon[] = [
     Magical: 3,
     "% Spell": 25,
     CastsSp: 894,
+    Obtained: { sell: [148], monster: ["724|10", "1093|1"] },
   },
   {
     Number: 1334,
@@ -4721,6 +5489,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 1138,
     BsAccu: 0,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1337,
@@ -4747,6 +5516,7 @@ export const weaponData: Weapon[] = [
     EvilOnly: 0,
     "% Spell": 2,
     CastsSp: 201,
+    Obtained: { nogen: [67], monster: ["29|1", "34|1"] },
   },
   {
     Number: 1338,
@@ -4773,6 +5543,7 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 10,
     BsAccu: 10,
     EvilOnly: 0,
+    Obtained: { sell: [148], monster: ["777|1"] },
   },
   {
     Number: 1348,
@@ -4798,6 +5569,11 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     Magical: 5,
     BsAccu: -30,
+    Obtained: {
+      monster: ["40|3"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1349,
@@ -4823,6 +5599,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     Magical: 3,
     Crits: 4,
+    Obtained: { sell: [148], monster: ["740|10"] },
   },
   {
     Number: 1350,
@@ -4852,6 +5629,11 @@ export const weaponData: Weapon[] = [
     Rcol: 5,
     BsMinDmg: 12,
     BsMaxDmg: 12,
+    Obtained: {
+      sell: [148],
+      text: ["2944|3", "9817|1"],
+      item: ["1344|21.5", "1485|9", "1496|13.1", "1667|9", "3517|1"],
+    },
   },
   {
     Number: 1355,
@@ -4882,6 +5664,11 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 400,
     BsAccu: 0,
+    Obtained: {
+      monster: ["756|8"],
+      text: ["9820|2", "9817|1"],
+      item: ["3517|1", "3518|4", "3629|2"],
+    },
   },
   {
     Number: 1356,
@@ -4906,6 +5693,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -5,
     "Del@Maint": 0,
+    Obtained: { monster: ["191|100", "191|50", "191|5"] },
   },
   {
     Number: 1357,
@@ -4930,6 +5718,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: -15,
     "Del@Maint": 0,
+    Obtained: { monster: ["18|1"] },
   },
   {
     Number: 1358,
@@ -4956,6 +5745,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 1,
     CastsSp: 201,
     "Del@Maint": 0,
+    Obtained: { monster: ["37|1"] },
   },
   {
     Number: 1359,
@@ -4980,6 +5770,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     "Del@Maint": 0,
     BsAccu: -20,
+    Obtained: { monster: ["60|10"] },
   },
   {
     Number: 1361,
@@ -5005,6 +5796,7 @@ export const weaponData: Weapon[] = [
     Magical: 2,
     Accuracy: 5,
     Crits: 2,
+    Obtained: { nogen: [5], monster: ["757|1", "784|5"] },
   },
   {
     Number: 1069,
@@ -5029,6 +5821,19 @@ export const weaponData: Weapon[] = [
     MinLevel: 30,
     BsAccu: -10,
     HitMagic: 2,
+    Obtained: {
+      buy: [72, 312],
+      monster: ["526|1"],
+      text: ["4438|20", "9470|10", "9817|1"],
+      item: [
+        "1444|15",
+        "1485|12.6",
+        "1496|5.5",
+        "1667|13.1",
+        "2013|73.8",
+        "3517|1",
+      ],
+    },
   },
   {
     Number: 1070,
@@ -5052,6 +5857,13 @@ export const weaponData: Weapon[] = [
     Speed: 2400,
     MinLevel: 20,
     HitMagic: 2,
+    Obtained: {
+      nogen: [168],
+      buy: [312],
+      monster: ["529|1", "2105|1", "2132|1"],
+      text: ["9470|10", "9817|1"],
+      item: ["1444|15", "1485|12.6", "1496|5.5", "1667|13.1", "3517|1"],
+    },
   },
   {
     Number: 1071,
@@ -5079,6 +5891,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 408,
     "Alter HP": 100,
     EvilOnly: 120,
+    Obtained: { sell: [146], monster: ["530|20"] },
   },
   {
     Number: 1072,
@@ -5108,6 +5921,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 318,
     Classes: [13],
+    Obtained: { monster: ["609|20"] },
   },
   {
     Number: 1073,
@@ -5138,6 +5952,7 @@ export const weaponData: Weapon[] = [
     Rfir: 25,
     Rcol: -50,
     Classes: [13],
+    Obtained: { sell: [146], monster: ["610|20"] },
   },
   {
     Number: 1074,
@@ -5168,6 +5983,7 @@ export const weaponData: Weapon[] = [
     Rlit: 25,
     ResistWater: -50,
     Classes: [13],
+    Obtained: { monster: ["611|20"] },
   },
   {
     Number: 1075,
@@ -5198,6 +6014,7 @@ export const weaponData: Weapon[] = [
     Rcol: 25,
     Rfir: -50,
     Classes: [13],
+    Obtained: { sell: [146], monster: ["612|20"] },
   },
   {
     Number: 1079,
@@ -5222,6 +6039,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 0,
     Classes: [7],
+    Obtained: { buy: [66] },
   },
   {
     Number: 1081,
@@ -5249,6 +6067,7 @@ export const weaponData: Weapon[] = [
     Magical: 3,
     BsAccu: 0,
     Classes: [7],
+    Obtained: { monster: ["212|10"] },
   },
   {
     Number: 1082,
@@ -5276,6 +6095,7 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 20,
     Magical: 4,
     Classes: [10],
+    Obtained: {},
   },
   {
     Number: 1084,
@@ -5305,6 +6125,7 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 25,
     BsMinDmg: 15,
     Classes: [6],
+    Obtained: { monster: ["368|1"] },
   },
   {
     Number: 1091,
@@ -5329,6 +6150,9 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     CastsSp: 757,
     ClassOk: [6, 8, 9, 10, 11, 12, 15],
+    Obtained: {
+      room: ["1|311", "1|315", "1|391", "15|1101", "8|1852", "2|2550"],
+    },
   },
   {
     Number: 1107,
@@ -5355,6 +6179,11 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     "Del@Maint": 0,
     Magical: 1,
+    Obtained: {
+      monster: ["733|2"],
+      text: ["9820|4"],
+      item: ["3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 1108,
@@ -5381,6 +6210,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     "Del@Maint": 0,
     Magical: 1,
+    Obtained: { monster: ["733|2"] },
   },
   {
     Number: 1109,
@@ -5407,6 +6237,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     "Del@Maint": 0,
     Magical: 1,
+    Obtained: { monster: ["733|2"] },
   },
   {
     Number: 1110,
@@ -5433,6 +6264,11 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     "Del@Maint": 0,
     Magical: 1,
+    Obtained: {
+      monster: ["733|2"],
+      text: ["9820|4"],
+      item: ["3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 1111,
@@ -5459,6 +6295,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 1112,
@@ -5485,6 +6322,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 1113,
@@ -5511,6 +6349,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 1114,
@@ -5537,6 +6376,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 1115,
@@ -5563,6 +6403,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: {},
   },
   {
     Number: 1118,
@@ -5586,6 +6427,7 @@ export const weaponData: Weapon[] = [
     Speed: 1500,
     MinLevel: 0,
     ClassOk: [12, 15],
+    Obtained: { monster: ["773|1"] },
   },
   {
     Number: 1163,
@@ -5610,6 +6452,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 20,
     BsAccu: -20,
     Quality: 2,
+    Obtained: { sell: [147] },
   },
   {
     Number: 1164,
@@ -5635,6 +6478,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Quality: 2,
     ClassOk: [5],
+    Obtained: { sell: [147] },
   },
   {
     Number: 1165,
@@ -5660,6 +6504,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Quality: 2,
     ClassOk: [12, 15],
+    Obtained: { sell: [147] },
   },
   {
     Number: 1168,
@@ -5683,6 +6528,7 @@ export const weaponData: Weapon[] = [
     Speed: 1550,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { sell: [111], monster: ["582|1", "583|1", "584|1", "1200|1"] },
   },
   {
     Number: 1169,
@@ -5707,6 +6553,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 15,
     Quality: 2,
     "Del@Maint": 0,
+    Obtained: { nogen: [111, 168], monster: ["586|1", "587|1"] },
   },
   {
     Number: 1170,
@@ -5731,6 +6578,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 30,
     Quality: 3,
     HitMagic: 3,
+    Obtained: { sell: [148], monster: ["588|20"] },
   },
   {
     Number: 1172,
@@ -5760,6 +6608,12 @@ export const weaponData: Weapon[] = [
     ManaRgn: 10,
     ClassOk: [5],
     Classes: [4, 5],
+    Obtained: {
+      sell: [148],
+      monster: ["594|10"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1174,
@@ -5787,6 +6641,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     CastsSp: 738,
     Recharge: 3,
+    Obtained: { sell: [147], monster: ["578|10"] },
   },
   {
     Number: 1182,
@@ -5809,6 +6664,7 @@ export const weaponData: Weapon[] = [
     StrReq: 50,
     Speed: 1500,
     MinLevel: 10,
+    Obtained: { buy: [118], monster: ["2106|1"] },
   },
   {
     Number: 1190,
@@ -5834,6 +6690,12 @@ export const weaponData: Weapon[] = [
     Quality: 3,
     HitMagic: 3,
     BsAccu: -1,
+    Obtained: {
+      buy: [118],
+      monster: ["615|1", "673|1", "702|1", "775|1", "827|1"],
+      text: ["9059|5"],
+      item: ["1352|18.6", "1354|9.8", "1485|1.5", "1496|2.4", "1667|1.5"],
+    },
   },
   {
     Number: 1191,
@@ -5859,6 +6721,12 @@ export const weaponData: Weapon[] = [
     Quality: 5,
     HitMagic: 4,
     BsAccu: 5,
+    Obtained: {
+      nogen: [117],
+      monster: ["616|5"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1201,
@@ -5887,6 +6755,11 @@ export const weaponData: Weapon[] = [
     Dodge: 5,
     "% Spell": 15,
     CastsSp: 354,
+    Obtained: {
+      buy: [76, 117, 155, 205],
+      text: ["9059|4"],
+      item: ["1352|15.1", "1354|7.8", "1485|1.2", "1496|1.9", "1667|1.2"],
+    },
   },
   {
     Number: 1202,
@@ -5916,6 +6789,7 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 7,
     BsMaxDmg: 10,
     BsAccu: 15,
+    Obtained: { buy: [117] },
   },
   {
     Number: 1203,
@@ -5941,6 +6815,19 @@ export const weaponData: Weapon[] = [
     Crits: 3,
     Quality: 100,
     BsAccu: -20,
+    Obtained: {
+      buy: [117],
+      monster: ["617|5"],
+      text: ["9059|3", "9062|10", 9817],
+      item: [
+        "1352|24.9",
+        "1354|25.9",
+        "1485|21",
+        "1496|25.3",
+        "1667|21",
+        "3517|0",
+      ],
+    },
   },
   {
     Number: 1204,
@@ -5969,6 +6856,12 @@ export const weaponData: Weapon[] = [
     Magical: 4,
     BsMinDmg: 22,
     BsMaxDmg: 12,
+    Obtained: {
+      nogen: [117],
+      monster: ["1209|10"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1207,
@@ -5994,6 +6887,19 @@ export const weaponData: Weapon[] = [
     Quality: 5,
     HitMagic: 5,
     "Del@Maint": 0,
+    Obtained: {
+      nogen: [117],
+      monster: ["640|1"],
+      text: ["9059|4", "9817|1"],
+      item: [
+        "1352|15.1",
+        "1354|7.8",
+        "1485|1.2",
+        "1496|1.9",
+        "1667|1.2",
+        "3517|1",
+      ],
+    },
   },
   {
     Number: 1208,
@@ -6019,6 +6925,7 @@ export const weaponData: Weapon[] = [
     Quality: 5,
     HitMagic: 3,
     "Del@Maint": 0,
+    Obtained: { nogen: [117], monster: ["646|1"] },
   },
   {
     Number: 1211,
@@ -6043,6 +6950,13 @@ export const weaponData: Weapon[] = [
     MinLevel: 35,
     Quality: 4,
     HitMagic: 4,
+    Obtained: {
+      nogen: [117, 118],
+      buy: [253],
+      monster: ["647|10"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1213,
@@ -6070,6 +6984,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 411,
     Crits: 3,
     Quality: 100,
+    Obtained: {
+      nogen: [100, 117],
+      monster: ["639|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1217,
@@ -6095,6 +7015,12 @@ export const weaponData: Weapon[] = [
     HitMagic: 5,
     "% Spell": 25,
     CastsSp: 318,
+    Obtained: {
+      nogen: [117],
+      monster: ["642|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1226,
@@ -6123,6 +7049,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 5,
     Magical: 3,
     Classes: [12, 5, 13],
+    Obtained: { nogen: [118], monster: ["624|1"] },
   },
   {
     Number: 1229,
@@ -6152,6 +7079,28 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 10,
     BsMaxDmg: 10,
     BsAccu: 5,
+    Obtained: {
+      buy: [76],
+      nogen: [117],
+      monster: ["658|4"],
+      text: ["898|1"],
+      item: [
+        "908|4.9",
+        "912|2",
+        "913|3",
+        "914|11.4",
+        "956|5.8",
+        "957|5.8",
+        "958|5.8",
+        "1344|3.9",
+        "1485|0.3",
+        "1496|0.5",
+        "1667|0.3",
+        "1819|1",
+        "1840|2.3",
+        "3728|1",
+      ],
+    },
   },
   {
     Number: 1231,
@@ -6182,6 +7131,7 @@ export const weaponData: Weapon[] = [
     ManaRgn: 35,
     Recharge: 5,
     Classes: [12, 13, 5],
+    Obtained: { sell: [147], monster: ["215|10"] },
   },
   {
     Number: 1244,
@@ -6209,6 +7159,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 421,
     ManaRgn: 30,
     Classes: [5, 12, 13],
+    Obtained: { monster: ["1245|25"] },
   },
   {
     Number: 1245,
@@ -6235,6 +7186,7 @@ export const weaponData: Weapon[] = [
     Magical: 6,
     "% Spell": 50,
     CastsSp: 420,
+    Obtained: { monster: ["1014|7"], text: ["5440|4"], item: ["3716|7.8"] },
   },
   {
     Number: 1246,
@@ -6262,6 +7214,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 20,
     CastsSp: 201,
     ClassOk: [6, 12, 13, 15],
+    Obtained: { nogen: [118], buy: [264], monster: ["649|75"] },
   },
   {
     Number: 1248,
@@ -6289,6 +7242,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 20,
     CastsSp: 953,
     Crits: 8,
+    Obtained: {
+      sell: [147],
+      monster: ["372|25"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1249,
@@ -6319,6 +7278,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 950,
     BsMaxDmg: 30,
     BsMinDmg: 20,
+    Obtained: { sell: [178], monster: ["2398|25"] },
   },
   {
     Number: 1252,
@@ -6346,6 +7306,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 848,
     Classes: [7],
+    Obtained: { buy: [118] },
   },
   {
     Number: 1254,
@@ -6371,6 +7332,7 @@ export const weaponData: Weapon[] = [
     HitMagic: 2,
     Quality: 10,
     Classes: [7],
+    Obtained: { buy: [118] },
   },
   {
     Number: 1255,
@@ -6397,6 +7359,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Quality: 20,
     Classes: [8],
+    Obtained: { buy: [82, 118] },
   },
   {
     Number: 1257,
@@ -6424,6 +7387,7 @@ export const weaponData: Weapon[] = [
     Magical: 2,
     EvilOnly: 100,
     BsAccu: 0,
+    Obtained: { buy: [67], monster: ["2121|1"] },
   },
   {
     Number: 1293,
@@ -6446,6 +7410,7 @@ export const weaponData: Weapon[] = [
     StrReq: 130,
     Speed: 3700,
     MinLevel: 20,
+    Obtained: { buy: [122] },
   },
   {
     Number: 1294,
@@ -6468,6 +7433,7 @@ export const weaponData: Weapon[] = [
     StrReq: 55,
     Speed: 1650,
     MinLevel: 10,
+    Obtained: { buy: [10, 100, 122], monster: ["712|1", "2159|1"] },
   },
   {
     Number: 1295,
@@ -6496,6 +7462,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 15,
     BsMaxDmg: 20,
     CastsSp: 845,
+    Obtained: {},
   },
   {
     Number: 1301,
@@ -6526,6 +7493,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 5141,
     Strength: 10,
     Classes: [5, 12, 13, 15],
+    Obtained: {
+      sell: [269],
+      monster: ["1032|5"],
+      text: ["5440|4"],
+      item: ["3716|7.8"],
+    },
   },
   {
     Number: 1415,
@@ -6549,6 +7522,7 @@ export const weaponData: Weapon[] = [
     Speed: 3000,
     MinLevel: 0,
     ClassOk: [12, 15],
+    Obtained: { monster: ["790|50"] },
   },
   {
     Number: 1423,
@@ -6572,6 +7546,7 @@ export const weaponData: Weapon[] = [
     Speed: 2650,
     MinLevel: 25,
     "Del@Maint": 0,
+    Obtained: { sell: [161], monster: ["182|1"] },
   },
   {
     Number: 1424,
@@ -6597,6 +7572,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     Magical: 1,
     "Del@Maint": 0,
+    Obtained: { sell: [161], monster: ["184|1"] },
   },
   {
     Number: 1425,
@@ -6620,6 +7596,7 @@ export const weaponData: Weapon[] = [
     Speed: 2000,
     MinLevel: 30,
     HitMagic: 2,
+    Obtained: {},
   },
   {
     Number: 1435,
@@ -6650,6 +7627,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 33,
     CastsSp: 950,
     Classes: [6, 11, 8, 10, 9],
+    Obtained: {
+      nogen: [159],
+      monster: ["817|7"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1436,
@@ -6675,6 +7658,20 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 42,
     CastsSp: 952,
+    Obtained: {
+      sell: [150, 176],
+      buy: [199],
+      monster: ["928|1", "1141|1", "2175|1", "893|10"],
+      text: ["9467|10"],
+      item: [
+        "1444|15",
+        "1485|12.6",
+        "1496|5.5",
+        "1667|13.1",
+        "3532|10",
+        "3629|10",
+      ],
+    },
   },
   {
     Number: 1437,
@@ -6702,6 +7699,12 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     "% Spell": 38,
     CastsSp: 953,
+    Obtained: {
+      sell: [150],
+      monster: ["816|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1438,
@@ -6724,6 +7727,7 @@ export const weaponData: Weapon[] = [
     StrReq: 60,
     Speed: 2450,
     MinLevel: 0,
+    Obtained: { monster: ["795|10", "920|10"] },
   },
   {
     Number: 1439,
@@ -6749,6 +7753,7 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 100,
     CastsSp: 979,
+    Obtained: { nogen: [152], monster: ["839|10"] },
   },
   {
     Number: 1440,
@@ -6774,6 +7779,10 @@ export const weaponData: Weapon[] = [
     "% Spell": 5,
     CastsSp: 951,
     "Del@Maint": 0,
+    Obtained: {
+      nogen: [152],
+      monster: ["822|10", "822|1", "1216|1", "2111|1"],
+    },
   },
   {
     Number: 1443,
@@ -6799,6 +7808,11 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15, 5],
     Magical: 5,
     NeutralOnly: 0,
+    Obtained: {
+      monster: ["844|10"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1445,
@@ -6825,6 +7839,11 @@ export const weaponData: Weapon[] = [
     Quality: 4,
     BsAccu: 0,
     Crits: 5,
+    Obtained: {
+      buy: [150, 159],
+      text: ["9468|5"],
+      item: ["1444|8.8", "1485|8.5", "1496|3.5", "1667|9.3"],
+    },
   },
   {
     Number: 1960,
@@ -6854,6 +7873,7 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 10,
     BsMaxDmg: 10,
     Classes: [7, 8, 6, 9, 10],
+    Obtained: { monster: ["1023|5"] },
   },
   {
     Number: 1972,
@@ -6880,6 +7900,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 75,
     CastsSp: 411,
     BsAccu: -10,
+    Obtained: {
+      buy: [253],
+      monster: ["875|12"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1448,
@@ -6907,6 +7933,19 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 964,
     GoodOnly: 0,
+    Obtained: {
+      monster: ["915|1"],
+      text: ["9467|5", "9467|3", "9824|3"],
+      item: [
+        "1444|12.4",
+        "1485|10.5",
+        "1496|4.5",
+        "1667|11.2",
+        "3532|16",
+        "3629|8",
+        "3710|3",
+      ],
+    },
   },
   {
     Number: 1449,
@@ -6937,6 +7976,7 @@ export const weaponData: Weapon[] = [
     Crits: 3,
     BsAccu: 0,
     Classes: [1, 3, 6],
+    Obtained: { sell: [150] },
   },
   {
     Number: 1454,
@@ -6966,6 +8006,13 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 978,
     Magical: 5,
+    Obtained: {
+      nogen: [150],
+      buy: [159],
+      monster: ["826|2"],
+      text: ["9468|10", 9817, "9817|1"],
+      item: ["1444|16.4", "1485|15", "1496|6.6", "1667|15.6", "3517|1"],
+    },
   },
   {
     Number: 1455,
@@ -6994,6 +8041,13 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 987,
     EvilOnly: 200,
+    Obtained: {
+      sell: [150],
+      nogen: [159],
+      monster: ["906|25"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1467,
@@ -7019,6 +8073,7 @@ export const weaponData: Weapon[] = [
     BsMinDmg: -5,
     ClassOk: [12, 15, 5],
     BsAccu: 0,
+    Obtained: { buy: [101] },
   },
   {
     Number: 1471,
@@ -7045,6 +8100,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 952,
     EvilOnly: 300,
+    Obtained: { sell: [150], monster: ["877|10"] },
   },
   {
     Number: 1473,
@@ -7073,6 +8129,11 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 318,
     "Del@Maint": 0,
+    Obtained: {
+      monster: ["803|1", "2648|1"],
+      text: ["9468|10", "9817|1"],
+      item: ["1444|16.4", "1485|15", "1496|6.6", "1667|15.6", "3517|1"],
+    },
   },
   {
     Number: 1474,
@@ -7099,6 +8160,11 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 1,
     CastsSp: 1201,
+    Obtained: {
+      nogen: [150, 159],
+      text: ["9468|5", "9817|1"],
+      item: ["1444|8.8", "1485|8.5", "1496|3.5", "1667|9.3", "3517|1"],
+    },
   },
   {
     Number: 1475,
@@ -7125,6 +8191,18 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     Crits: 5,
     Classes: [4, 3, 5, 6],
+    Obtained: {
+      text: ["5438|3", "9467|3", "9824|3"],
+      item: [
+        "1444|5",
+        "1485|4.5",
+        "1496|1.8",
+        "1667|5",
+        "3532|11.5",
+        "3629|3",
+        "3710|8.7",
+      ],
+    },
   },
   {
     Number: 1476,
@@ -7150,6 +8228,12 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Magical: 4,
     Dodge: 5,
+    Obtained: {
+      nogen: [155, 205, 245],
+      monster: ["882|1", "1007|1", "1221|1", "2395|1"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1478,
@@ -7176,6 +8260,7 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 25,
     CastsSp: 953,
+    Obtained: { sell: [176], monster: ["927|1"] },
   },
   {
     Number: 1480,
@@ -7200,6 +8285,12 @@ export const weaponData: Weapon[] = [
     MinLevel: 40,
     Magical: 5,
     GoodOnly: 0,
+    Obtained: {
+      sell: [150],
+      monster: ["859|10"],
+      text: ["9468|5"],
+      item: ["1444|8.8", "1485|8.5", "1496|3.5", "1667|9.3"],
+    },
   },
   {
     Number: 1481,
@@ -7230,6 +8321,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     Magical: 5,
     "Del@Maint": 0,
+    Obtained: { monster: ["820|1"] },
   },
   {
     Number: 1484,
@@ -7256,6 +8348,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 985,
     HitMagic: 2,
+    Obtained: {
+      nogen: [100, 150],
+      monster: ["811|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1487,
@@ -7284,6 +8382,12 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     EvilOnly: 300,
     Crits: 2,
+    Obtained: {
+      nogen: [150],
+      monster: ["836|15"],
+      text: ["5438|3"],
+      item: ["3710|5.9"],
+    },
   },
   {
     Number: 1495,
@@ -7313,6 +8417,12 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 25,
     Crits: 5,
     Classes: [7],
+    Obtained: {
+      nogen: [150],
+      monster: ["852|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1497,
@@ -7344,6 +8454,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     GoodOnly: 0,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1498,
@@ -7374,6 +8485,7 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     LoyalItem: 0,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1499,
@@ -7404,6 +8516,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     GoodOnly: 0,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1500,
@@ -7434,6 +8547,7 @@ export const weaponData: Weapon[] = [
     ProtEvil: 15,
     GoodOnly: 0,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1501,
@@ -7464,6 +8578,7 @@ export const weaponData: Weapon[] = [
     LoyalItem: 0,
     GoodOnly: 0,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1502,
@@ -7494,6 +8609,7 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     LoyalItem: 0,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1503,
@@ -7519,6 +8635,19 @@ export const weaponData: Weapon[] = [
     Magical: 1,
     CastsSp: 1155,
     ClassOk: [12, 5],
+    Obtained: {
+      sell: [150],
+      text: ["9467|10", "9817|1"],
+      item: [
+        "1444|15",
+        "1485|12.6",
+        "1496|5.5",
+        "1667|13.1",
+        "3517|1",
+        "3532|10",
+        "3629|10",
+      ],
+    },
   },
   {
     Number: 1505,
@@ -7550,6 +8679,7 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     GoodOnly: 0,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1506,
@@ -7582,6 +8712,7 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     LoyalItem: 0,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1507,
@@ -7614,6 +8745,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 982,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1508,
@@ -7646,6 +8778,7 @@ export const weaponData: Weapon[] = [
     JumpKDmg: 3,
     BsMinDmg: 15,
     Classes: [15],
+    Obtained: {},
   },
   {
     Number: 1509,
@@ -7674,6 +8807,7 @@ export const weaponData: Weapon[] = [
     ProtEvil: 15,
     GoodOnly: 0,
     Classes: [15],
+    Obtained: {},
   },
   {
     Number: 1510,
@@ -7700,6 +8834,7 @@ export const weaponData: Weapon[] = [
     LoyalItem: 0,
     BsAccu: 0,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1511,
@@ -7727,6 +8862,7 @@ export const weaponData: Weapon[] = [
     GoodOnly: 0,
     LoyalItem: 0,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1512,
@@ -7756,6 +8892,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 20,
     CastsSp: 1138,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1513,
@@ -7779,6 +8916,12 @@ export const weaponData: Weapon[] = [
     Speed: 4400,
     MinLevel: 75,
     HitMagic: 6,
+    Obtained: {
+      sell: [269],
+      monster: ["1015|7"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 1514,
@@ -7806,6 +8949,21 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     Recharge: 5,
     Magical: 4,
+    Obtained: {
+      sell: [150],
+      nogen: [159],
+      buy: [247],
+      text: ["9467|5", "9817|1"],
+      item: [
+        "1444|8.1",
+        "1485|7.1",
+        "1496|2.9",
+        "1667|7.8",
+        "3517|1",
+        "3532|5",
+        "3629|5",
+      ],
+    },
   },
   {
     Number: 1515,
@@ -7833,6 +8991,7 @@ export const weaponData: Weapon[] = [
     ManaRgn: 20,
     CastsSp: 5477,
     Classes: [5],
+    Obtained: { monster: ["1009|20"], text: ["5440|3"], item: ["3716|5.9"] },
   },
   {
     Number: 1584,
@@ -7865,6 +9024,7 @@ export const weaponData: Weapon[] = [
     NeutralOnly: 0,
     Crits: 1,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1585,
@@ -7898,6 +9058,7 @@ export const weaponData: Weapon[] = [
     ProtEvil: 5,
     Crits: 1,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1586,
@@ -7928,6 +9089,7 @@ export const weaponData: Weapon[] = [
     NeutralOnly: 0,
     BsAccu: 0,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1587,
@@ -7959,6 +9121,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 978,
     Crits: 1,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1588,
@@ -7990,6 +9153,7 @@ export const weaponData: Weapon[] = [
     NeutralOnly: 0,
     Crits: 1,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1589,
@@ -8022,6 +9186,7 @@ export const weaponData: Weapon[] = [
     ResistStone: 25,
     Crits: 1,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1590,
@@ -8054,6 +9219,7 @@ export const weaponData: Weapon[] = [
     Crits: 2,
     BsAccu: 0,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1591,
@@ -8087,6 +9253,7 @@ export const weaponData: Weapon[] = [
     ProtEvil: 5,
     Crits: 1,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1592,
@@ -8119,6 +9286,7 @@ export const weaponData: Weapon[] = [
     ResistWater: 25,
     ProtEvil: 10,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1593,
@@ -8147,6 +9315,7 @@ export const weaponData: Weapon[] = [
     NeutralOnly: 0,
     Dodge: 10,
     Classes: [15],
+    Obtained: {},
   },
   {
     Number: 1594,
@@ -8176,6 +9345,7 @@ export const weaponData: Weapon[] = [
     HPRegen: 50,
     BsMinDmg: 15,
     Classes: [15],
+    Obtained: {},
   },
   {
     Number: 1595,
@@ -8202,6 +9372,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     NeutralOnly: 0,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1596,
@@ -8229,6 +9400,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     NeutralOnly: 0,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1597,
@@ -8258,6 +9430,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 35,
     CastsSp: 1138,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1616,
@@ -8288,6 +9461,7 @@ export const weaponData: Weapon[] = [
     LoyalItem: 0,
     CastsSp: 950,
     Classes: [1, 3, 14, 7],
+    Obtained: {},
   },
   {
     Number: 1617,
@@ -8318,6 +9492,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 952,
     Crits: 2,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1618,
@@ -8348,6 +9523,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 987,
     Crits: 2,
     Classes: [1, 3, 7, 14],
+    Obtained: {},
   },
   {
     Number: 1619,
@@ -8378,6 +9554,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 952,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1620,
@@ -8407,6 +9584,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 45,
     CastsSp: 987,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1621,
@@ -8437,6 +9615,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 40,
     CastsSp: 987,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 1622,
@@ -8468,6 +9647,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 985,
     Crits: 3,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1623,
@@ -8499,6 +9679,7 @@ export const weaponData: Weapon[] = [
     LoyalItem: 0,
     Crits: 3,
     Classes: [6, 8, 9, 10, 11],
+    Obtained: {},
   },
   {
     Number: 1624,
@@ -8530,6 +9711,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 988,
     Crits: 3,
     Classes: [6, 8, 9, 11, 10],
+    Obtained: {},
   },
   {
     Number: 1625,
@@ -8559,6 +9741,7 @@ export const weaponData: Weapon[] = [
     KickDmg: 5,
     JumpKDmg: 5,
     Classes: [15],
+    Obtained: {},
   },
   {
     Number: 1626,
@@ -8590,6 +9773,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 985,
     Classes: [15],
+    Obtained: {},
   },
   {
     Number: 1627,
@@ -8619,6 +9803,7 @@ export const weaponData: Weapon[] = [
     Crits: 4,
     BsAccu: -10,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1628,
@@ -8648,6 +9833,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 985,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1629,
@@ -8676,6 +9862,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     BsMinDmg: 25,
     Classes: [2],
+    Obtained: {},
   },
   {
     Number: 1638,
@@ -8706,6 +9893,11 @@ export const weaponData: Weapon[] = [
     CastsSp: 979,
     BsAccu: 0,
     Classes: [5],
+    Obtained: {
+      monster: ["371|10"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1641,
@@ -8733,6 +9925,11 @@ export const weaponData: Weapon[] = [
     MaxMana: 50,
     "S.C.": 20,
     Classes: [12],
+    Obtained: {
+      monster: ["937|5"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1644,
@@ -8756,6 +9953,7 @@ export const weaponData: Weapon[] = [
     Speed: 1800,
     MinLevel: 0,
     Dodge: 5,
+    Obtained: { buy: [77] },
   },
   {
     Number: 1647,
@@ -8781,6 +9979,11 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     HitMagic: 4,
     Crits: 10,
+    Obtained: {
+      buy: [167],
+      text: ["4102|3", "9817|1"],
+      item: ["1819|14.1", "3517|1"],
+    },
   },
   {
     Number: 1651,
@@ -8805,6 +10008,12 @@ export const weaponData: Weapon[] = [
     MinLevel: 50,
     BsAccu: -10,
     HitMagic: 5,
+    Obtained: {
+      buy: [150],
+      monster: ["796|1", "845|1"],
+      text: ["9468|10", "9817|1"],
+      item: ["1444|16.4", "1485|15", "1496|6.6", "1667|15.6", "3517|1"],
+    },
   },
   {
     Number: 1652,
@@ -8830,6 +10039,12 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     HitMagic: 5,
     ClassOk: [5],
+    Obtained: {
+      buy: [150, 253],
+      monster: ["800|1"],
+      text: ["9468|10", "9817|1"],
+      item: ["1444|16.4", "1485|15", "1496|6.6", "1667|15.6", "3517|1"],
+    },
   },
   {
     Number: 1653,
@@ -8855,6 +10070,12 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsAccu: 10,
     HitMagic: 5,
+    Obtained: {
+      buy: [150, 252],
+      monster: ["797|1", "854|35"],
+      text: ["9468|10", "9817|1"],
+      item: ["1444|16.4", "1485|15", "1496|6.6", "1667|15.6", "3517|1"],
+    },
   },
   {
     Number: 1654,
@@ -8882,6 +10103,11 @@ export const weaponData: Weapon[] = [
     CastsSp: 978,
     BsAccu: -5,
     "M.R.": 5,
+    Obtained: {
+      monster: ["876|10"],
+      text: ["9824|3"],
+      item: ["3532|8.7", "3710|3"],
+    },
   },
   {
     Number: 1691,
@@ -8908,6 +10134,7 @@ export const weaponData: Weapon[] = [
     Dodge: 10,
     ManaRgn: 100,
     Classes: [15],
+    Obtained: { monster: ["1006|10"] },
   },
   {
     Number: 1692,
@@ -8936,6 +10163,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 10,
     ClassOk: [5],
     Classes: [13, 12, 5],
+    Obtained: { sell: [176], monster: ["958|5"] },
   },
   {
     Number: 1693,
@@ -8960,6 +10188,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 10,
     HitMagic: 2,
+    Obtained: { nogen: [67], monster: ["959|5"] },
   },
   {
     Number: 1709,
@@ -8988,6 +10217,12 @@ export const weaponData: Weapon[] = [
     Magical: 4,
     GoodOnly: 0,
     Classes: [1, 3, 14],
+    Obtained: {
+      nogen: [100],
+      monster: ["465|50"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 1710,
@@ -9014,6 +10249,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     HitMagic: 1,
     CastsSp: 80,
+    Obtained: { nogen: [100, 101], monster: ["456|1", "506|1", "1111|1"] },
   },
   {
     Number: 1739,
@@ -9040,6 +10276,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Crits: 3,
     Classes: [7],
+    Obtained: { monster: ["366|30"] },
   },
   {
     Number: 1802,
@@ -9069,6 +10306,12 @@ export const weaponData: Weapon[] = [
     Dodge: -10,
     "% Spell": 100,
     CastsSp: 979,
+    Obtained: {
+      sell: [178],
+      monster: ["934|10"],
+      text: ["5438|3"],
+      item: ["3710|5.9"],
+    },
   },
   {
     Number: 1803,
@@ -9093,6 +10336,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 20,
     BsAccu: -10,
     Magical: 2,
+    Obtained: { buy: [167] },
   },
   {
     Number: 1824,
@@ -9120,6 +10364,7 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 20,
     BsAccu: 20,
     Classes: [7],
+    Obtained: { monster: ["1005|10"] },
   },
   {
     Number: 1854,
@@ -9147,6 +10392,7 @@ export const weaponData: Weapon[] = [
     Crits: 3,
     Magical: 3,
     Classes: [7],
+    Obtained: { nogen: [91], monster: ["989|1"] },
   },
   {
     Number: 1904,
@@ -9174,6 +10420,26 @@ export const weaponData: Weapon[] = [
     Quality: 3,
     BsMinDmg: 10,
     BsMaxDmg: 15,
+    Obtained: {
+      nogen: [167],
+      text: ["898|2", "4102|3"],
+      item: [
+        "908|9.6",
+        "912|4",
+        "913|5.9",
+        "914|21.5",
+        "956|11.4",
+        "957|11.4",
+        "958|11.4",
+        "1344|7.8",
+        "1485|0.6",
+        "1496|1",
+        "1667|0.6",
+        "1819|13.8",
+        "1840|4.3",
+        "3728|2",
+      ],
+    },
   },
   {
     Number: 1909,
@@ -9200,6 +10466,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -30,
     Crits: 10,
     Classes: [2],
+    Obtained: { monster: ["1131|30"], text: ["5440|2"], item: ["3716|4"] },
   },
   {
     Number: 1916,
@@ -9226,6 +10493,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     "Del@Maint": 0,
     ClassOk: [5, 12, 15],
+    Obtained: {},
   },
   {
     Number: 2159,
@@ -9251,6 +10519,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 25,
     CastsSp: 354,
     Crits: 5,
+    Obtained: { nogen: [312], monster: ["2129|20"] },
   },
   {
     Number: 2160,
@@ -9277,6 +10546,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 354,
     ClassOk: [5],
     HitMagic: 5,
+    Obtained: { monster: ["2129|100"] },
   },
   {
     Number: 2167,
@@ -9307,6 +10577,7 @@ export const weaponData: Weapon[] = [
     Crits: 3,
     BsAccu: 0,
     Classes: [4],
+    Obtained: {},
   },
   {
     Number: 2185,
@@ -9331,6 +10602,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 75,
     BsAccu: 10,
     Magical: 6,
+    Obtained: { buy: [199] },
   },
   {
     Number: 2187,
@@ -9358,6 +10630,7 @@ export const weaponData: Weapon[] = [
     Rfir: 10,
     BsMinDmg: 10,
     BsMaxDmg: 15,
+    Obtained: { buy: [199] },
   },
   {
     Number: 2188,
@@ -9385,6 +10658,7 @@ export const weaponData: Weapon[] = [
     Rfir: 10,
     BsMinDmg: 10,
     BsMaxDmg: 15,
+    Obtained: { buy: [199], monster: ["2241|1"] },
   },
   {
     Number: 2189,
@@ -9409,6 +10683,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 75,
     Magical: 6,
     IlluTarget: 25,
+    Obtained: { monster: ["1166|3"] },
   },
   {
     Number: 2220,
@@ -9433,6 +10708,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 75,
     Magical: 6,
     Rfir: 25,
+    Obtained: { monster: ["2249|1"] },
   },
   {
     Number: 2221,
@@ -9458,6 +10734,7 @@ export const weaponData: Weapon[] = [
     Quality: 2,
     BsAccu: 0,
     Magical: 5,
+    Obtained: { buy: [313], monster: ["2179|1"] },
   },
   {
     Number: 2222,
@@ -9482,6 +10759,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 75,
     Magical: 5,
     Classes: [5, 12, 13],
+    Obtained: { monster: ["2178|1"] },
   },
   {
     Number: 2223,
@@ -9509,6 +10787,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     CastsSp: 5276,
     "% Spell": 25,
+    Obtained: { buy: [313] },
   },
   {
     Number: 2224,
@@ -9535,6 +10814,7 @@ export const weaponData: Weapon[] = [
     Magical: 6,
     "% Spell": 50,
     CastsSp: 5274,
+    Obtained: { sell: [196], monster: ["1157|5"] },
   },
   {
     Number: 3005,
@@ -9561,6 +10841,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     Crits: 2,
     BsMaxDmg: 10,
+    Obtained: { nogen: [82, 220], monster: ["2307|1"] },
   },
   {
     Number: 3006,
@@ -9585,6 +10866,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 35,
     HitMagic: 3,
     "Del@Maint": 0,
+    Obtained: { nogen: [220], monster: ["2309|1"] },
   },
   {
     Number: 3009,
@@ -9609,6 +10891,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 20,
     BsAccu: -25,
     HitMagic: 3,
+    Obtained: { buy: [220], monster: ["2412|1", "2415|1", "2413|1"] },
   },
   {
     Number: 3017,
@@ -9632,6 +10915,7 @@ export const weaponData: Weapon[] = [
     Speed: 1600,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { monster: ["2336|1"] },
   },
   {
     Number: 3025,
@@ -9656,6 +10940,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 45,
     BsAccu: -25,
     HitMagic: 5,
+    Obtained: { buy: [252], monster: ["2359|1"] },
   },
   {
     Number: 3026,
@@ -9679,6 +10964,7 @@ export const weaponData: Weapon[] = [
     Speed: 1800,
     MinLevel: 45,
     HitMagic: 5,
+    Obtained: { nogen: [252], monster: ["2360|1"] },
   },
   {
     Number: 3028,
@@ -9702,6 +10988,7 @@ export const weaponData: Weapon[] = [
     Speed: 2450,
     MinLevel: 45,
     HitMagic: 5,
+    Obtained: { nogen: [252], monster: ["2364|1"] },
   },
   {
     Number: 3029,
@@ -9725,6 +11012,7 @@ export const weaponData: Weapon[] = [
     Speed: 3350,
     MinLevel: 45,
     HitMagic: 5,
+    Obtained: { nogen: [252], monster: ["2365|1", "2550|1"] },
   },
   {
     Number: 3030,
@@ -9750,6 +11038,12 @@ export const weaponData: Weapon[] = [
     Dodge: 5,
     BsAccu: 5,
     HitMagic: 5,
+    Obtained: {
+      nogen: [245],
+      monster: ["2366|1", "2551|1", "2758|1"],
+      text: ["5447|4"],
+      item: ["3728|4"],
+    },
   },
   {
     Number: 3032,
@@ -9773,6 +11067,7 @@ export const weaponData: Weapon[] = [
     Speed: 3450,
     MinLevel: 50,
     HitMagic: 6,
+    Obtained: { nogen: [252], monster: ["2367|1"] },
   },
   {
     Number: 3033,
@@ -9796,6 +11091,12 @@ export const weaponData: Weapon[] = [
     Speed: 3400,
     MinLevel: 55,
     HitMagic: 6,
+    Obtained: {
+      nogen: [252],
+      monster: ["2369|1"],
+      text: ["5438|2", "5447|4"],
+      item: ["3710|4", "3728|4"],
+    },
   },
   {
     Number: 3037,
@@ -9820,6 +11121,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     BsAccu: 0,
     "Del@Maint": 1,
+    Obtained: { monster: ["2381|1"] },
   },
   {
     Number: 3561,
@@ -9846,6 +11148,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 5,
     CastsSp: 351,
     Quality: 1,
+    Obtained: {
+      nogen: [220],
+      monster: ["2409|1"],
+      text: ["5447|4"],
+      item: ["3728|4"],
+    },
   },
   {
     Number: 3818,
@@ -9876,6 +11184,7 @@ export const weaponData: Weapon[] = [
     Crits: 1,
     "AC(Blur)": 12,
     BsAccu: -10,
+    Obtained: { monster: ["2794|1"] },
   },
   {
     Number: 3335,
@@ -9902,6 +11211,7 @@ export const weaponData: Weapon[] = [
     Crits: 3,
     "% Spell": 35,
     CastsSp: 5427,
+    Obtained: { sell: [178], monster: ["1263|15"] },
   },
   {
     Number: 3336,
@@ -9926,6 +11236,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 75,
     HitMagic: 6,
     Crits: 10,
+    Obtained: { sell: [178], monster: ["1135|50"] },
   },
   {
     Number: 3337,
@@ -9953,6 +11264,7 @@ export const weaponData: Weapon[] = [
     Agility: 10,
     "AC(Blur)": 3,
     Classes: [15],
+    Obtained: { sell: [178], monster: ["1135|50"] },
   },
   {
     Number: 3338,
@@ -9980,6 +11292,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     "% Spell": 40,
     CastsSp: 5141,
+    Obtained: { sell: [178], monster: ["1132|50", "1134|50"] },
   },
   {
     Number: 3339,
@@ -10005,6 +11318,13 @@ export const weaponData: Weapon[] = [
     BsAccu: -20,
     Magical: 6,
     Crits: 3,
+    Obtained: {
+      sell: [178],
+      nogen: [253],
+      monster: ["2370|7"],
+      text: ["5447|4"],
+      item: ["3728|4"],
+    },
   },
   {
     Number: 3340,
@@ -10033,6 +11353,7 @@ export const weaponData: Weapon[] = [
     Dodge: -10,
     "% Spell": 25,
     CastsSp: 5118,
+    Obtained: { nogen: [100], sell: [178], monster: ["1134|50"] },
   },
   {
     Number: 3341,
@@ -10060,6 +11381,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 953,
     BsAccu: -20,
     Crits: 5,
+    Obtained: { nogen: [100], sell: [178], monster: ["1133|50"] },
   },
   {
     Number: 3342,
@@ -10087,6 +11409,12 @@ export const weaponData: Weapon[] = [
     MaxMana: 30,
     "Alter HP": 30,
     Classes: [5, 12, 13],
+    Obtained: {
+      sell: [178],
+      monster: ["850|20"],
+      text: ["5438|3", "9824|3"],
+      item: ["3532|8.7", "3710|8.7"],
+    },
   },
   {
     Number: 3343,
@@ -10113,6 +11441,7 @@ export const weaponData: Weapon[] = [
     Quality: 1,
     BsAccu: 0,
     Agility: 10,
+    Obtained: { sell: [178], monster: ["1135|50"] },
   },
   {
     Number: 3344,
@@ -10141,6 +11470,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 75,
     CastsSp: 5172,
     Rfir: 10,
+    Obtained: { sell: [178], monster: ["1132|50"] },
   },
   {
     Number: 3345,
@@ -10170,6 +11500,7 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 30,
     "% Spell": 50,
     CastsSp: 5171,
+    Obtained: { sell: [178], monster: ["2396|25"] },
   },
   {
     Number: 3346,
@@ -10196,6 +11527,7 @@ export const weaponData: Weapon[] = [
     Magical: 6,
     "% Spell": 75,
     CastsSp: 5046,
+    Obtained: { sell: [178], monster: ["1133|50"] },
   },
   {
     Number: 3347,
@@ -10221,6 +11553,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Dodge: 5,
     Magical: 5,
+    Obtained: { sell: [178], nogen: [245], monster: ["1131|30"] },
   },
   {
     Number: 3348,
@@ -10248,6 +11581,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 170,
     "% Spell": 40,
     Classes: [3],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 3349,
@@ -10274,6 +11613,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 353,
     Classes: [2],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 3350,
@@ -10303,6 +11648,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 5,
     CastsSp: 201,
     Classes: [1],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 3351,
@@ -10333,6 +11684,12 @@ export const weaponData: Weapon[] = [
     "S.C.": 5,
     CastsSp: 114,
     Classes: [5],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|6"],
+      item: ["909|9.8", "911|9.8", "3518|11.6", "3629|6"],
+    },
   },
   {
     Number: 3352,
@@ -10361,6 +11718,12 @@ export const weaponData: Weapon[] = [
     "S.C.": 2,
     ManaRgn: 15,
     Classes: [4],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3353,
@@ -10391,6 +11754,12 @@ export const weaponData: Weapon[] = [
     FindTrapsValue: 10,
     PickLocksValue: 10,
     Classes: [8],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 3354,
@@ -10418,6 +11787,12 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Stealth: 10,
     Classes: [7],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 3355,
@@ -10449,6 +11824,12 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     Illu: 100,
     Classes: [11],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3356,
@@ -10479,6 +11860,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 318,
     Classes: [13],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3357,
@@ -10509,6 +11896,12 @@ export const weaponData: Weapon[] = [
     ManaRgn: 20,
     Quality: 50,
     Classes: [12],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3358,
@@ -10540,6 +11933,12 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 10,
     "S.C.": 5,
     Classes: [10],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3359,
@@ -10569,6 +11968,12 @@ export const weaponData: Weapon[] = [
     "S.C.": 5,
     ManaRgn: 10,
     Classes: [14],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5"],
+      item: ["909|9.8", "911|9.8"],
+    },
   },
   {
     Number: 3360,
@@ -10598,6 +12003,12 @@ export const weaponData: Weapon[] = [
     ManaRgn: 15,
     CastsSp: 114,
     Classes: [6],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3361,
@@ -10627,6 +12038,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 5053,
     MaxMana: 15,
     Classes: [9],
+    Obtained: {
+      sell: [177],
+      buy: [226],
+      text: ["3321|5", "9820|4"],
+      item: ["909|9.8", "911|9.8", "3518|7.8", "3629|4"],
+    },
   },
   {
     Number: 3395,
@@ -10652,6 +12069,12 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     Dodge: 5,
     BsAccu: 0,
+    Obtained: {
+      nogen: [220],
+      monster: ["2414|5"],
+      text: ["5447|6"],
+      item: ["3728|6"],
+    },
   },
   {
     Number: 3396,
@@ -10679,6 +12102,7 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     Recharge: 5,
     Classes: [12, 13, 5],
+    Obtained: { nogen: [159], monster: ["2101|10"] },
   },
   {
     Number: 3397,
@@ -10705,6 +12129,7 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 20,
     CastsSp: 5162,
+    Obtained: { monster: ["2100|25"] },
   },
   {
     Number: 3404,
@@ -10728,6 +12153,7 @@ export const weaponData: Weapon[] = [
     Speed: 3000,
     MinLevel: 0,
     ClassOk: [12, 15],
+    Obtained: { monster: ["2415|1"] },
   },
   {
     Number: 3507,
@@ -10757,6 +12183,19 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 30,
     CastsSp: 5114,
+    Obtained: {
+      nogen: [150],
+      text: ["9468|5", "9824|3", "9817|1"],
+      item: [
+        "1444|8.8",
+        "1485|8.5",
+        "1496|3.5",
+        "1667|9.3",
+        "3517|1",
+        "3532|8.7",
+        "3710|3",
+      ],
+    },
   },
   {
     Number: 3508,
@@ -10784,6 +12223,19 @@ export const weaponData: Weapon[] = [
     Dodge: 5,
     BsMinDmg: 35,
     BsMaxDmg: 20,
+    Obtained: {
+      nogen: [155, 245],
+      text: ["9468|5", "9824|3", "9817|1"],
+      item: [
+        "1444|8.8",
+        "1485|8.5",
+        "1496|3.5",
+        "1667|9.3",
+        "3517|1",
+        "3532|8.7",
+        "3710|3",
+      ],
+    },
   },
   {
     Number: 3511,
@@ -10811,6 +12263,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 5127,
     BsAccu: -20,
     Wisdom: 10,
+    Obtained: { nogen: [253], monster: ["1225|7"] },
   },
   {
     Number: 3525,
@@ -10840,6 +12293,12 @@ export const weaponData: Weapon[] = [
     "% Spell": 100,
     CastsSp: 979,
     Magical: 5,
+    Obtained: {
+      nogen: [150, 159],
+      monster: ["1239|1"],
+      text: ["9817|1"],
+      item: ["3517|1"],
+    },
   },
   {
     Number: 3536,
@@ -10868,6 +12327,7 @@ export const weaponData: Weapon[] = [
     Magical: 6,
     "% Spell": 75,
     CastsSp: 201,
+    Obtained: { sell: [177], text: ["9843|2"], item: ["3552|2"] },
   },
   {
     Number: 3537,
@@ -10895,6 +12355,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [12, 15],
     BsMaxDmg: 35,
     Magical: 6,
+    Obtained: { sell: [177], text: ["9841|2"], item: ["3551|2"] },
   },
   {
     Number: 3545,
@@ -10923,6 +12384,7 @@ export const weaponData: Weapon[] = [
     ProtGood: 5,
     ClassOk: [5],
     BsAccu: 0,
+    Obtained: { nogen: [79], monster: ["1269|5"] },
   },
   {
     Number: 3574,
@@ -10948,6 +12410,7 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     "% Spell": 30,
     CastsSp: 5475,
+    Obtained: { nogen: [100, 220], buy: [260], monster: ["2539|1"] },
   },
   {
     Number: 3575,
@@ -10974,6 +12437,7 @@ export const weaponData: Weapon[] = [
     Magical: 6,
     "% Spell": 30,
     CastsSp: 5475,
+    Obtained: { nogen: [220], buy: [260], monster: ["2545|1", "2547|1"] },
   },
   {
     Number: 3576,
@@ -10998,6 +12462,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 60,
     HitMagic: 5,
     Classes: [2],
+    Obtained: { nogen: [220, 260], monster: ["2548|10"] },
   },
   {
     Number: 3577,
@@ -11024,6 +12489,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 50,
     CastsSp: 201,
     Crits: 2,
+    Obtained: { nogen: [260], monster: ["2549|1"] },
   },
   {
     Number: 3579,
@@ -11051,6 +12517,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 5130,
     EvilOnly: 300,
     Dodge: -20,
+    Obtained: {
+      sell: [177],
+      monster: ["1283|10"],
+      text: ["5440|3"],
+      item: ["3716|5.9"],
+    },
   },
   {
     Number: 3583,
@@ -11074,6 +12546,7 @@ export const weaponData: Weapon[] = [
     Speed: 4000,
     MinLevel: 45,
     HitMagic: 5,
+    Obtained: { nogen: [252], monster: ["2552|1", "2717|1"] },
   },
   {
     Number: 3586,
@@ -11100,6 +12573,7 @@ export const weaponData: Weapon[] = [
     Magical: 4,
     "Del@Maint": 0,
     BsAccu: 30,
+    Obtained: { monster: ["1251|100"] },
   },
   {
     Number: 3608,
@@ -11130,6 +12604,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 5485,
     Crits: 3,
     Classes: [10],
+    Obtained: {},
   },
   {
     Number: 3611,
@@ -11152,6 +12627,7 @@ export const weaponData: Weapon[] = [
     StrReq: 150,
     Speed: 5000,
     MinLevel: 15,
+    Obtained: { monster: ["1280|1", "2576|1", "2611|1", "2612|1"] },
   },
   {
     Number: 3612,
@@ -11180,6 +12656,7 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 25,
     BsAccu: 20,
     ClassOk: [13],
+    Obtained: { buy: [235], monster: ["2579|1", "2580|1", "2590|1", "2637|1"] },
   },
   {
     Number: 3613,
@@ -11206,6 +12683,7 @@ export const weaponData: Weapon[] = [
     Dodge: 5,
     Magical: 4,
     "Del@Maint": 0,
+    Obtained: { nogen: [245], monster: ["2581|1"] },
   },
   {
     Number: 3623,
@@ -11229,6 +12707,12 @@ export const weaponData: Weapon[] = [
     Speed: 3300,
     MinLevel: 45,
     HitMagic: 5,
+    Obtained: {
+      nogen: [252],
+      monster: ["2602|1", "2693|1", "2700|1"],
+      text: ["5447|4"],
+      item: ["3728|4"],
+    },
   },
   {
     Number: 3624,
@@ -11251,6 +12735,7 @@ export const weaponData: Weapon[] = [
     StrReq: 80,
     Speed: 2250,
     MinLevel: 0,
+    Obtained: { buy: [266, 311] },
   },
   {
     Number: 3634,
@@ -11274,6 +12759,7 @@ export const weaponData: Weapon[] = [
     Speed: 1500,
     MinLevel: 0,
     BsAccu: -15,
+    Obtained: { nogen: [252], monster: ["2624|1"] },
   },
   {
     Number: 3651,
@@ -11301,6 +12787,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 5530,
     ClassOk: [5],
     Classes: [5],
+    Obtained: { buy: [68] },
   },
   {
     Number: 3652,
@@ -11329,6 +12816,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [5],
     ManaRgn: 5,
     Classes: [5],
+    Obtained: { nogen: [67, 68], sell: [80], monster: ["491|70"] },
   },
   {
     Number: 3653,
@@ -11357,6 +12845,11 @@ export const weaponData: Weapon[] = [
     ClassOk: [5],
     ManaRgn: 5,
     Classes: [5],
+    Obtained: {
+      nogen: [68],
+      buy: [215],
+      monster: ["341|30", "585|10", "1242|30"],
+    },
   },
   {
     Number: 3654,
@@ -11385,6 +12878,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [5],
     ManaRgn: 5,
     Classes: [5],
+    Obtained: { nogen: [68], buy: [152] },
   },
   {
     Number: 3655,
@@ -11413,6 +12907,7 @@ export const weaponData: Weapon[] = [
     ClassOk: [5],
     ManaRgn: 10,
     Classes: [5],
+    Obtained: { nogen: [68], buy: [234] },
   },
   {
     Number: 3672,
@@ -11438,6 +12933,7 @@ export const weaponData: Weapon[] = [
     HitMagic: 6,
     "% Spell": 30,
     CastsSp: 5544,
+    Obtained: { nogen: [253], monster: ["1286|1"] },
   },
   {
     Number: 3699,
@@ -11465,6 +12961,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 40,
     CastsSp: 361,
     EvilOnly: 200,
+    Obtained: { nogen: [253], monster: ["1296|7"] },
   },
   {
     Number: 3703,
@@ -11489,6 +12986,13 @@ export const weaponData: Weapon[] = [
     MinLevel: 50,
     Magical: 5,
     ManaRgn: 10,
+    Obtained: {
+      buy: [199],
+      nogen: [252],
+      monster: ["2099|5", "2176|1", "2185|1", "2656|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3706,
@@ -11518,6 +13022,12 @@ export const weaponData: Weapon[] = [
     Crits: 4,
     ManaRgn: 15,
     "S.C.": 25,
+    Obtained: {
+      nogen: [252],
+      monster: ["1300|3"],
+      text: ["10102|2"],
+      item: ["3836|2", "3837|2", "3838|2"],
+    },
   },
   {
     Number: 3707,
@@ -11545,6 +13055,12 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 10,
     BsMaxDmg: 20,
     Magical: 5,
+    Obtained: {
+      nogen: [252],
+      monster: ["2658|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3711,
@@ -11574,6 +13090,12 @@ export const weaponData: Weapon[] = [
     ClassOk: [15],
     BsAccu: 0,
     HitMagic: 6,
+    Obtained: {
+      nogen: [252],
+      monster: ["1281|10"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3736,
@@ -11602,6 +13124,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     ProtEvil: 5,
     Crits: 2,
+    Obtained: { monster: ["1242|5"] },
   },
   {
     Number: 3738,
@@ -11633,6 +13156,7 @@ export const weaponData: Weapon[] = [
     Rlit: -50,
     MaxMana: 20,
     Classes: [13],
+    Obtained: { sell: [269], monster: ["2681|20"] },
   },
   {
     Number: 3739,
@@ -11660,6 +13184,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 5645,
     ClassOk: [5],
     Classes: [5],
+    Obtained: {
+      nogen: [68],
+      monster: ["2397|30"],
+      text: ["5440|2"],
+      item: ["3716|4"],
+    },
   },
   {
     Number: 3741,
@@ -11688,6 +13218,12 @@ export const weaponData: Weapon[] = [
     CastsSp: 1201,
     MaxMana: 50,
     ManaRgn: 10,
+    Obtained: {
+      nogen: [253],
+      monster: ["2684|1", "2689|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3742,
@@ -11713,6 +13249,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -10,
     HitMagic: 5,
     ClassOk: [5],
+    Obtained: { buy: [253] },
   },
   {
     Number: 3743,
@@ -11737,6 +13274,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 45,
     ClassOk: [12, 15, 5],
     HitMagic: 5,
+    Obtained: { buy: [247] },
   },
   {
     Number: 3753,
@@ -11760,6 +13298,7 @@ export const weaponData: Weapon[] = [
     Speed: 3350,
     MinLevel: 50,
     HitMagic: 5,
+    Obtained: { nogen: [252], monster: ["2716|1"] },
   },
   {
     Number: 3755,
@@ -11785,6 +13324,12 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     Crits: 10,
     Classes: [7],
+    Obtained: {
+      nogen: [235],
+      monster: ["2728|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3756,
@@ -11814,6 +13359,12 @@ export const weaponData: Weapon[] = [
     BsMinDmg: 5,
     BsMaxDmg: 5,
     Classes: [7],
+    Obtained: {
+      nogen: [235],
+      monster: ["2730|10"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3757,
@@ -11844,6 +13395,12 @@ export const weaponData: Weapon[] = [
     BsMaxDmg: 12,
     Crits: 5,
     Classes: [7],
+    Obtained: {
+      nogen: [235],
+      monster: ["2730|7"],
+      text: ["10101|1"],
+      item: ["3835|1", "3837|1", "3838|2"],
+    },
   },
   {
     Number: 3764,
@@ -11870,6 +13427,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 5,
     HitMagic: 6,
     Crits: 3,
+    Obtained: { nogen: [245], monster: ["2733|7"] },
   },
   {
     Number: 3767,
@@ -11897,6 +13455,12 @@ export const weaponData: Weapon[] = [
     Magical: 5,
     EvilOnly: 0,
     ClassOk: [12, 5],
+    Obtained: {
+      nogen: [247],
+      monster: ["2734|10"],
+      text: ["10102|3"],
+      item: ["3836|3", "3837|3", "3838|3"],
+    },
   },
   {
     Number: 3772,
@@ -11924,6 +13488,12 @@ export const weaponData: Weapon[] = [
     Crits: 2,
     "% Spell": 36,
     CastsSp: 5673,
+    Obtained: {
+      sell: [269],
+      monster: ["2738|3"],
+      text: ["10102|1"],
+      item: ["3836|1", "3837|1", "3838|1"],
+    },
   },
   {
     Number: 3777,
@@ -11948,6 +13518,12 @@ export const weaponData: Weapon[] = [
     MinLevel: 45,
     Magical: 5,
     Dodge: 5,
+    Obtained: {
+      nogen: [245],
+      monster: ["2746|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3778,
@@ -11973,6 +13549,12 @@ export const weaponData: Weapon[] = [
     HitMagic: 5,
     BsAccu: -35,
     Crits: 10,
+    Obtained: {
+      nogen: [252],
+      monster: ["2772|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3779,
@@ -11996,6 +13578,12 @@ export const weaponData: Weapon[] = [
     Speed: 1700,
     MinLevel: 45,
     HitMagic: 5,
+    Obtained: {
+      nogen: [252],
+      monster: ["2757|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3781,
@@ -12020,6 +13608,12 @@ export const weaponData: Weapon[] = [
     MinLevel: 50,
     BsAccu: -10,
     HitMagic: 5,
+    Obtained: {
+      nogen: [253],
+      monster: ["2763|1"],
+      text: ["10101|5"],
+      item: ["3835|5", "3837|5", "3838|9.8"],
+    },
   },
   {
     Number: 3784,
@@ -12046,6 +13640,12 @@ export const weaponData: Weapon[] = [
     Magical: 6,
     BsAccu: -20,
     Crits: 5,
+    Obtained: {
+      nogen: [252],
+      monster: ["2769|3"],
+      text: ["10102|1"],
+      item: ["3836|1", "3837|1", "3838|1"],
+    },
   },
   {
     Number: 3795,
@@ -12073,6 +13673,11 @@ export const weaponData: Weapon[] = [
     EvilOnly: 120,
     Magical: 5,
     Classes: [12, 5, 13],
+    Obtained: {
+      nogen: [235],
+      text: ["5704|4", "10102|1"],
+      item: ["3796|4", "3836|1", "3837|1", "3838|1"],
+    },
   },
   {
     Number: 3802,
@@ -12101,6 +13706,12 @@ export const weaponData: Weapon[] = [
     AlterSpDmg: 1,
     Dodge: -4,
     Magical: 5,
+    Obtained: {
+      nogen: [235],
+      monster: ["2780|4"],
+      text: ["10101|1"],
+      item: ["3835|1", "3837|1", "3838|2"],
+    },
   },
   {
     Number: 3806,
@@ -12128,6 +13739,12 @@ export const weaponData: Weapon[] = [
     BsAccu: 15,
     BsMaxDmg: 15,
     ClassOk: [12, 15],
+    Obtained: {
+      nogen: [252],
+      monster: ["2756|4"],
+      text: ["10101|2"],
+      item: ["3835|2", "3837|2", "3838|4"],
+    },
   },
   {
     Number: 3808,
@@ -12157,5 +13774,6 @@ export const weaponData: Weapon[] = [
     Crits: 1,
     "% Spell": 30,
     CastsSp: 318,
+    Obtained: { nogen: [247], monster: ["2742|5"] },
   },
 ];

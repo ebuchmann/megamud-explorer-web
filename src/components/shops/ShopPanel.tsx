@@ -1,10 +1,10 @@
 import { useParams } from '@solidjs/router';
-import { Shop } from '../types';
-import { For, createEffect, createSignal } from 'solid-js';
-import { shopData } from '../data';
+import { Shop } from '../../types';
+import { createEffect, createSignal } from 'solid-js';
+import { shopData } from '../../data';
 import { Show } from 'solid-js';
-import { ShopTypes } from '../utils/data-types';
-import { UnknownReference } from './references';
+import { ShopTypes } from '../../utils/data-types';
+import { InventoryTable } from './InventoryTable';
 
 export function ShopPanel() {
   const params = useParams();
@@ -37,16 +37,7 @@ export function ShopPanel() {
         </div>
         <Show when={shop()?.Inventory}>
           <h3 class="my-4">Inventory</h3>
-          <div>item name - max - regen time - cost</div>
-          <For each={shop()?.Inventory}>
-            {(inv) => {
-              return (
-                <div>
-                  {inv.Max} <UnknownReference number={inv.Number} /> for 30 Gold
-                </div>
-              );
-            }}
-          </For>
+          <InventoryTable shop={shop} />
         </Show>
       </Show>
     </>
