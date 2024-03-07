@@ -301,11 +301,17 @@ for (const index in spellData) {
   const item = {
     Number: original.Number,
     Name: original.Name ?? '',
+    ReqLevel: original.ReqLevel,
     MinBase: original.MinBase,
     MaxBase: original.MaxBase,
+    Magery: original.Magery,
+    MageryLVL: original.MageryLVL,
+    ManaCost: original.ManaCost,
     Dur: original.Dur,
     AttType: original.AttType,
     TypeOfResists: original.TypeOfResists,
+    Learnable: original.Learnable,
+    Short: original.Short,
   };
 
   for (let x = 0; x < 10; x++) {

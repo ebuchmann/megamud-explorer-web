@@ -18,6 +18,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -45,6 +46,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "darts forward and bites you",
@@ -72,6 +74,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "claws you with its pincers",
@@ -99,6 +102,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -219,6 +223,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     ImmuPoison: 0,
     Illu: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -426,6 +431,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 0,
+    "Damage(No AC)": 0,
     ImmuPoison: 0,
     NonLiving: 0,
     Rfir: -100,
@@ -679,6 +685,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 101, Percent: 100 }],
     Attacks: [
       {
@@ -725,6 +732,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 71, Percent: 10 }],
     Attacks: [
       {
@@ -761,6 +769,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 65, Percent: 10 }],
     Attacks: [
       {
@@ -797,6 +806,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 89, Percent: 10 }],
     Attacks: [
       {
@@ -833,6 +843,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 67, Percent: 10 }],
     Attacks: [
       {
@@ -869,6 +880,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "slashes you",
@@ -904,6 +916,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
   },
   {
     Number: 29,
@@ -960,6 +973,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -1267,6 +1281,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 39,
@@ -1312,6 +1327,8 @@ export const monsterData: Monster[] = [
     Align: 4,
     Magical: 0,
     Dodge: 10,
+    SpellImmune: 20,
+    Freedom: 0,
     Drops: [
       { Number: 1348, Percent: 3 },
       { Number: 1416, Percent: 3 },
@@ -1354,6 +1371,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 570, Percent: 10 }],
     Attacks: [
       {
@@ -1408,6 +1426,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Drops: [{ Number: 284, Percent: 10 }],
     Attacks: [
@@ -1445,6 +1464,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 161, Percent: 10 }],
   },
   {
@@ -1463,6 +1483,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 46,
@@ -1480,6 +1501,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 47,
@@ -1497,6 +1519,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
     Attacks: [
       {
         Name: "Physical",
@@ -1578,6 +1601,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -1605,6 +1629,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -1779,6 +1804,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you savagely",
@@ -1984,6 +2010,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 62,
@@ -2001,6 +2028,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 63,
@@ -2019,6 +2047,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SpellImmune: 10,
     Drops: [
       { Number: 216, Percent: 10 },
       { Number: 428, Percent: 10 },
@@ -2168,6 +2197,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1001, Percent: 1 }],
     Attacks: [
       {
@@ -2275,6 +2305,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 20,
     Attacks: [
       {
@@ -2339,6 +2370,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 74,
@@ -2356,6 +2388,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 75,
@@ -2373,6 +2406,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 76,
@@ -2390,6 +2424,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 77,
@@ -2407,6 +2442,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 78,
@@ -2424,6 +2460,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 80,
@@ -2441,6 +2478,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -2476,6 +2514,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 82,
@@ -2530,6 +2569,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 84,
@@ -2588,6 +2628,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 86,
@@ -2633,6 +2674,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 88,
@@ -2650,6 +2692,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 89,
@@ -2713,6 +2756,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 92,
@@ -2730,6 +2774,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 93,
@@ -2747,6 +2792,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 94,
@@ -2764,6 +2810,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 95,
@@ -2817,6 +2864,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 97,
@@ -2834,6 +2882,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 98,
@@ -2851,6 +2900,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 99,
@@ -2994,6 +3044,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 103,
@@ -3011,6 +3062,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 104,
@@ -3028,6 +3080,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 105,
@@ -3045,6 +3098,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 106,
@@ -3062,6 +3116,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
     ImmuPoison: 0,
     Dodge: 100,
     AntiMagic: 0,
@@ -3110,6 +3165,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     MonsGuards: 211,
+    SpellImmune: 10,
     Rfir: -100,
     Rcol: 100,
     Drops: [
@@ -3152,6 +3208,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -3260,6 +3317,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -4004,6 +4062,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 3,
+    SpellImmune: 30,
     ImmuPoison: 0,
     NonLiving: 0,
     Attacks: [
@@ -4117,6 +4176,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 133,
@@ -4191,6 +4251,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you with its toothy maw",
@@ -4309,6 +4370,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -4345,6 +4407,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -4372,6 +4435,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 481, Percent: 5 }],
     Attacks: [
       {
@@ -4936,6 +5000,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -4972,6 +5037,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 481, Percent: 4 }],
     Attacks: [
       {
@@ -5019,6 +5085,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -5197,6 +5264,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rfir: 100,
     Rcol: -50,
     Attacks: [
@@ -5545,6 +5613,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -5580,6 +5649,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
   },
   {
     Number: 784,
@@ -5667,7 +5737,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Drops: [{ Number: 650, Percent: 100 }],
     Attacks: [
       {
@@ -5724,6 +5796,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -5908,6 +5981,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 30,
     Dodge: 40,
     Drops: [
       { Number: 685, Percent: 10 },
@@ -6033,6 +6107,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 90,
+    SpellImmune: 30,
+    SeeHidden: 0,
     Drops: [{ Number: 1657, Percent: 5 }],
     Attacks: [
       {
@@ -6096,6 +6172,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     Drops: [
       { Number: 1802, Percent: 10 },
       { Number: 1808, Percent: 10 },
@@ -6178,6 +6255,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 75,
+    SpellImmune: 45,
     Drops: [{ Number: 1515, Percent: 20 }],
     Spells: [
       {
@@ -6225,6 +6303,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 60,
+    SpellImmune: 45,
     MonsGuards: 1082,
     Attacks: [
       {
@@ -6283,6 +6362,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 75,
+    SpellImmune: 45,
     Attacks: [
       {
         Name: "slashes you",
@@ -6339,6 +6419,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 50,
+    SeeHidden: 0,
+    SpellImmune: 35,
     Drops: [{ Number: 1899, Percent: 100 }],
     Attacks: [
       {
@@ -6395,6 +6477,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
+    SpellImmune: 20,
     ImmuPoison: 0,
     Drops: [
       { Number: 3291, Percent: 20 },
@@ -6465,6 +6549,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [
       { Number: 1910, Percent: 100 },
       { Number: 1245, Percent: 7 },
@@ -6523,6 +6609,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
+    SpellImmune: 40,
     Rfir: 300,
     Dodge: 33,
     Drops: [
@@ -6592,7 +6680,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     MonsGuards: 1029,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "stomps on you",
@@ -6629,6 +6719,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 45,
     AntiMagic: 0,
     Drops: [{ Number: 1943, Percent: 100 }],
     Attacks: [
@@ -6667,6 +6758,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 45,
     AntiMagic: 0,
     Drops: [{ Number: 1945, Percent: 100 }],
     Attacks: [
@@ -6705,6 +6797,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 45,
     AntiMagic: 0,
     Drops: [{ Number: 1941, Percent: 100 }],
     Attacks: [
@@ -6743,6 +6836,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 45,
     AntiMagic: 0,
     Drops: [{ Number: 1942, Percent: 100 }],
     Attacks: [
@@ -6781,6 +6875,7 @@ export const monsterData: Monster[] = [
     Align: 6,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Drops: [
       { Number: 1699, Percent: 100 },
       { Number: 1960, Percent: 5 },
@@ -6821,6 +6916,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 45,
     AntiMagic: 0,
     Drops: [{ Number: 1944, Percent: 100 }],
     Attacks: [
@@ -6860,6 +6956,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Rlit: 100,
+    SeeHidden: 0,
+    SpellImmune: 35,
     Drops: [
       { Number: 974, Percent: 25 },
       { Number: 914, Percent: 25 },
@@ -6947,6 +7045,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 90,
+    SpellImmune: 40,
     NonLiving: 0,
     Attacks: [
       {
@@ -6992,6 +7091,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 40,
+    SeeHidden: 0,
     AntiMagic: 0,
     Drops: [
       { Number: 1906, Percent: 100 },
@@ -7050,6 +7151,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "chomps you",
@@ -7077,8 +7179,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Dodge: 40,
     Rfir: 300,
+    SeeHidden: 0,
     Drops: [{ Number: 1902, Percent: 100 }],
     Attacks: [
       {
@@ -7135,6 +7239,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 45,
+    SpellImmune: 20,
     Drops: [{ Number: 1116, Percent: 1 }],
     Attacks: [
       {
@@ -7183,6 +7288,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 50,
+    SpellImmune: 40,
     NonLiving: 0,
     Drops: [
       { Number: 1906, Percent: 100 },
@@ -7232,6 +7338,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 9,
+    SpellImmune: 99,
   },
   {
     Number: 171,
@@ -7683,6 +7790,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 5,
     Drops: [{ Number: 1423, Percent: 1 }],
     Attacks: [
       {
@@ -7738,6 +7846,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 5,
     Drops: [{ Number: 1429, Percent: 1 }],
     Attacks: [
       {
@@ -7793,6 +7902,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 10,
     Drops: [
       { Number: 1424, Percent: 1 },
       { Number: 1429, Percent: 1 },
@@ -7851,6 +7961,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Rfir: 150,
+    SeeHidden: 0,
+    SpellImmune: 20,
     Rcol: -33,
     Drops: [
       { Number: 480, Percent: 100 },
@@ -7920,8 +8032,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 0,
     Dodge: 50,
     ImmuPoison: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "pounds you with his fist",
@@ -7985,6 +8099,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Freedom: 0,
+    Animal: 0,
     Drops: [{ Number: 3300, Percent: 100 }],
     Attacks: [
       {
@@ -8013,6 +8129,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Freedom: 0,
+    Animal: 0,
     Drops: [{ Number: 3299, Percent: 100 }],
     Attacks: [
       {
@@ -8041,6 +8159,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Freedom: 0,
+    Animal: 0,
     Drops: [{ Number: 3298, Percent: 100 }],
     Attacks: [
       {
@@ -8087,7 +8207,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 30,
     Dodge: 50,
+    ShockShield: 100,
+    SeeHidden: 0,
     Drops: [
       { Number: 1356, Percent: 100 },
       { Number: 1356, Percent: 50 },
@@ -8140,6 +8263,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -8187,6 +8311,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     MonsGuards: 196,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "hurls his chakram at you",
@@ -8233,6 +8358,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rfir: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -8519,6 +8645,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you savagely",
@@ -8546,6 +8673,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you savagely",
@@ -8574,7 +8702,9 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Dodge: 50,
+    SpellImmune: 20,
   },
   {
     Number: 207,
@@ -8786,6 +8916,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Dodge: 25,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Rfir: 150,
     Drops: [
       { Number: 1004, Percent: 3 },
@@ -8866,7 +8998,9 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Dodge: 70,
+    SeeHidden: 0,
     NonLiving: 0,
     Drops: [
       { Number: 1579, Percent: 5 },
@@ -8936,6 +9070,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 25,
     Dodge: 35,
     Rfir: 250,
     Rcol: -100,
@@ -9112,6 +9247,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SeeHidden: 0,
+    Animal: 0,
     Drops: [{ Number: 589, Percent: 10 }],
     Attacks: [
       {
@@ -9220,6 +9357,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -9265,6 +9403,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -9592,6 +9731,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "viciously bites you",
@@ -9638,6 +9778,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -9684,6 +9825,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "lashes you with a tentacle",
@@ -9720,6 +9862,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you with its claws",
@@ -9765,6 +9908,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Drops: [{ Number: 594, Percent: 25 }],
     Attacks: [
@@ -9813,6 +9957,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Drops: [{ Number: 594, Percent: 20 }],
     Attacks: [
@@ -9861,6 +10006,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Drops: [{ Number: 594, Percent: 15 }],
     Attacks: [
@@ -9899,6 +10045,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Drops: [{ Number: 594, Percent: 25 }],
     Attacks: [
@@ -10016,6 +10163,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 99,
     Dodge: 100,
+    SpellImmune: 100,
     Drops: [{ Number: 1602, Percent: 1 }],
   },
   {
@@ -10035,6 +10183,7 @@ export const monsterData: Monster[] = [
     Align: 1,
     Magical: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
     Spells: [
       {
         Name: "fiery spark",
@@ -10062,7 +10211,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    Animal: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
+    SpellImmune: 5,
     Drops: [
       { Number: 594, Percent: 50 },
       { Number: 594, Percent: 50 },
@@ -10172,6 +10324,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 0,
     ImmuPoison: 0,
   },
   {
@@ -10190,7 +10344,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
     ImmuPoison: 0,
+    SeeHidden: 0,
   },
   {
     Number: 245,
@@ -10208,6 +10364,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "slashes you",
@@ -10243,6 +10400,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "chops you",
@@ -10278,6 +10436,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 100,
     Drops: [{ Number: 101, Percent: 100 }],
   },
   {
@@ -10324,6 +10483,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 250,
@@ -10341,6 +10501,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 251,
@@ -10358,6 +10519,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 252,
@@ -10483,6 +10645,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "slashes you",
@@ -10510,7 +10673,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 3,
+    SeeHidden: 1,
     ImmuPoison: 0,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "slices you",
@@ -10684,7 +10849,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 6,
     Magical: 0,
+    ReqToHit: 0,
     AntiMagic: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "smacks you",
@@ -10714,6 +10881,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     ImmuPoison: 0,
     Illu: 100,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -10742,6 +10910,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "swoops down and bites you",
@@ -10778,6 +10947,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Rlit: -100,
     Attacks: [
@@ -10816,6 +10986,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Rfir: 50,
     Rlit: -100,
     Attacks: [
@@ -10904,6 +11075,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 10,
     ImmuPoison: 0,
     Illu: 200,
     Drops: [
@@ -11045,6 +11217,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "mauls you",
@@ -11088,6 +11261,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -11127,6 +11301,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Rfir: -25,
     Attacks: [
       {
@@ -11165,6 +11340,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    SpellImmune: 5,
     Dodge: 68,
     Drops: [{ Number: 1270, Percent: 1 }],
     Attacks: [
@@ -11204,6 +11380,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    SpellImmune: 5,
     Dodge: 68,
     Drops: [{ Number: 712, Percent: 3 }],
     Attacks: [
@@ -11251,6 +11428,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "mauls you",
@@ -11288,6 +11466,8 @@ export const monsterData: Monster[] = [
     Magical: 2,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Rfir: -25,
     Drops: [{ Number: 718, Percent: 100 }],
     Spells: [
@@ -11327,6 +11507,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Rfir: -25,
     Attacks: [
       {
@@ -11367,6 +11548,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Rfir: -25,
     Attacks: [
       {
@@ -11405,6 +11587,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 5,
     Dodge: 75,
     Drops: [
       { Number: 686, Percent: 25 },
@@ -11457,6 +11640,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 5,
     Dodge: 80,
     Attacks: [
       {
@@ -11497,6 +11681,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Rlit: 100,
     Rfir: -50,
     Attacks: [
@@ -11536,8 +11721,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
     ImmuPoison: 0,
+    SpellImmune: 6,
     Drops: [{ Number: 722, Percent: 5 }],
     Attacks: [
       {
@@ -11827,6 +12014,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 2,
+    SpellImmune: 15,
     Dodge: 25,
     Drops: [
       { Number: 1528, Percent: 10 },
@@ -11886,6 +12074,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 190, Percent: 5 }],
     Attacks: [
       {
@@ -12038,6 +12227,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 5,
     Drops: [{ Number: 733, Percent: 5 }],
     Attacks: [
       {
@@ -12318,6 +12508,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -12464,6 +12655,7 @@ export const monsterData: Monster[] = [
     Magical: 1,
     NonLiving: 0,
     Rcol: 100,
+    SeeHidden: 0,
     Rfir: -50,
     Attacks: [
       {
@@ -12495,6 +12687,7 @@ export const monsterData: Monster[] = [
     Magical: 2,
     NonLiving: 0,
     Rcol: 100,
+    SpellImmune: 15,
     Drops: [{ Number: 203, Percent: 5 }],
     Attacks: [
       {
@@ -12581,6 +12774,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 15,
     Drops: [
       { Number: 741, Percent: 10 },
       { Number: 733, Percent: 20 },
@@ -12640,6 +12834,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 2,
+    Animal: 0,
+    SeeHidden: 0,
+    SpellImmune: 15,
     Drops: [
       { Number: 745, Percent: 10 },
       { Number: 746, Percent: 100 },
@@ -12690,6 +12887,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 15,
     Drops: [
       { Number: 747, Percent: 10 },
       { Number: 1838, Percent: 10 },
@@ -12747,6 +12945,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 19,
+    SeeHidden: 0,
     Drops: [
       { Number: 748, Percent: 10 },
       { Number: 764, Percent: 25 },
@@ -12813,6 +13013,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 15,
     Drops: [
       { Number: 749, Percent: 10 },
       { Number: 736, Percent: 20 },
@@ -12875,6 +13076,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     Rcol: 100,
+    SpellImmune: 20,
     Rfir: -50,
     Drops: [{ Number: 750, Percent: 20 }],
     Attacks: [
@@ -12916,6 +13118,7 @@ export const monsterData: Monster[] = [
     Magical: 2,
     Rfir: -50,
     NonLiving: 0,
+    SpellImmune: 20,
     Rcol: 200,
     Drops: [{ Number: 742, Percent: 10 }],
     Attacks: [
@@ -12964,6 +13167,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 15,
     NonLiving: 0,
     Rfir: 100,
     ImmuPoison: 0,
@@ -13034,6 +13238,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -13061,6 +13266,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -13223,6 +13429,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "rips you",
@@ -13258,6 +13465,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 10,
     Dodge: 40,
     Drops: [{ Number: 798, Percent: 3 }],
     Attacks: [
@@ -13299,6 +13507,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 15,
     Spells: [
       {
         Name: "energy arc",
@@ -13326,6 +13535,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 15,
     Drops: [{ Number: 3301, Percent: 100 }],
     Attacks: [
       {
@@ -13372,6 +13582,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
+    Freedom: 0,
     Drops: [{ Number: 3334, Percent: 5 }],
     Attacks: [
       {
@@ -13417,7 +13629,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 35,
     Dodge: 70,
+    SeeHidden: 0,
     Drops: [
       { Number: 784, Percent: 15 },
       { Number: 800, Percent: 15 },
@@ -13849,6 +14063,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Drops: [
       { Number: 821, Percent: 25 },
@@ -13891,7 +14106,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SeeHidden: 0,
     ImmuPoison: 0,
+    SpellImmune: 15,
     Rfir: 33,
     Drops: [
       { Number: 822, Percent: 10 },
@@ -13941,8 +14158,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SeeHidden: 0,
     MonsGuards: 342,
     Rfir: 33,
+    SpellImmune: 20,
     Drops: [
       { Number: 823, Percent: 20 },
       { Number: 813, Percent: 100 },
@@ -14036,7 +14255,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SeeHidden: 0,
     ImmuPoison: 0,
+    SpellImmune: 20,
     Drops: [
       { Number: 687, Percent: 5 },
       { Number: 810, Percent: 100 },
@@ -14172,6 +14393,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 50,
     Dodge: 100,
     ImmuPoison: 100,
   },
@@ -14191,6 +14413,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -14265,6 +14488,7 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     ImmuPoison: 0,
     Rfir: 25,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "pummels you",
@@ -14372,6 +14596,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     Drops: [{ Number: 190, Percent: 1 }],
     Attacks: [
@@ -14691,8 +14916,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 100,
+    SpellImmune: 50,
     NonLiving: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
   },
   {
     Number: 364,
@@ -14779,6 +15006,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     Dodge: 75,
+    SpellImmune: 20,
     Drops: [
       { Number: 1739, Percent: 30 },
       { Number: 3509, Percent: 20 },
@@ -14819,6 +15047,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 368,
@@ -14895,6 +15124,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     ImmuPoison: 99,
     Dodge: 50,
+    SeeHidden: 99,
+    SpellImmune: 35,
     Drops: [
       { Number: 952, Percent: 100 },
       { Number: 218, Percent: 3 },
@@ -14955,7 +15186,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 99,
     ImmuPoison: 99,
+    SeeHidden: 0,
   },
   {
     Number: 371,
@@ -14973,6 +15206,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     Drops: [
       { Number: 561, Percent: 10 },
       { Number: 1638, Percent: 10 },
@@ -15027,6 +15261,8 @@ export const monsterData: Monster[] = [
     Magical: 5,
     Rcol: 50,
     Rfir: 200,
+    SeeHidden: 0,
+    SpellImmune: 35,
     Drops: [
       { Number: 325, Percent: 25 },
       { Number: 1248, Percent: 25 },
@@ -15135,6 +15371,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 3,
+    SpellImmune: 5,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Rlit: 100,
     Drops: [{ Number: 917, Percent: 100 }],
@@ -15214,6 +15452,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -15241,6 +15480,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     MonsGuards: 376,
     Attacks: [
       {
@@ -15416,6 +15656,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 1,
+    SpellImmune: 10,
     Drops: [
       { Number: 418, Percent: 1 },
       { Number: 857, Percent: 1 },
@@ -15466,8 +15707,11 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 0,
+    SeeHidden: 1,
     Dodge: 100,
+    SpellImmune: 25,
     ImmuPoison: 100,
+    Shadowform: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -15505,6 +15749,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 0,
+    SeeHidden: 0,
     ImmuPoison: 0,
     MonsGuards: 386,
     Spells: [
@@ -15589,7 +15834,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
     Drops: [{ Number: 1080, Percent: 100 }],
     Attacks: [
       {
@@ -15619,6 +15866,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "darts forward and bites you",
@@ -15647,6 +15895,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1268, Percent: 1 }],
     Attacks: [
       {
@@ -15675,6 +15924,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1268, Percent: 2 }],
     Attacks: [
       {
@@ -15740,6 +15990,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Rfir: -50,
+    SpellImmune: 20,
     Drops: [
       { Number: 908, Percent: 25 },
       { Number: 909, Percent: 15 },
@@ -15779,6 +16030,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
+    SeeHidden: 0,
     ImmuPoison: 0,
     ResistWater: 200,
     Drops: [
@@ -16064,6 +16317,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites your ankle",
@@ -16258,6 +16512,8 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     NonLiving: 0,
+    ReqToHit: 3,
+    SpellImmune: 20,
     Rcol: 150,
     Rfir: -50,
     Drops: [
@@ -16430,6 +16686,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 1,
+    SpellImmune: 20,
     NonLiving: 0,
     ResistWater: 100,
     Rcol: 100,
@@ -16501,6 +16758,8 @@ export const monsterData: Monster[] = [
     Magical: 3,
     Rfir: 200,
     Rcol: -50,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Drops: [{ Number: 913, Percent: 10 }],
     Attacks: [
       {
@@ -17043,6 +17302,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 45,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Rfir: 75,
     Drops: [
@@ -17114,6 +17375,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    SpellImmune: 45,
     ImmuPoison: 0,
     Rfir: 75,
   },
@@ -17223,6 +17485,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -17260,6 +17523,7 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Drops: [{ Number: 1272, Percent: 3 }],
     Attacks: [
       {
@@ -17328,6 +17592,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 1,
+    Animal: 1,
     Attacks: [
       {
         Name: "bites you",
@@ -17365,6 +17630,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -17484,6 +17750,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 2,
+    SpellImmune: 10,
+    SeeHidden: 0,
     Rlit: 200,
     Attacks: [
       {
@@ -17512,6 +17780,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 3,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Rlit: 200,
     Dodge: 80,
     Drops: [
@@ -17680,6 +17950,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 15,
     Drops: [{ Number: 948, Percent: 100 }],
     Attacks: [
       {
@@ -17728,6 +17999,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Rfir: 25,
     ResistStone: 100,
     Drops: [
@@ -17763,6 +18035,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 15,
     Rfir: 25,
     Attacks: [
       {
@@ -17856,6 +18129,7 @@ export const monsterData: Monster[] = [
     Align: 6,
     Magical: 3,
     MonsGuards: 455,
+    SpellImmune: 20,
     Drops: [
       { Number: 912, Percent: 10 },
       { Number: 909, Percent: 15 },
@@ -17980,6 +18254,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Dodge: 70,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "slashes you with its claws",
@@ -18017,7 +18292,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SeeHidden: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you",
@@ -18069,6 +18346,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 10,
     MonsGuards: 462,
     Attacks: [
       {
@@ -18115,6 +18393,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "slashes you",
@@ -18160,6 +18439,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    ReqToHit: 2,
+    SpellImmune: 100,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "savagely rips you",
@@ -18241,6 +18523,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 3,
+    SpellImmune: 20,
     Drops: [{ Number: 1709, Percent: 50 }],
     Attacks: [
       {
@@ -18496,6 +18779,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     NonLiving: 0,
     Rcol: 100,
     Rfir: -150,
@@ -18527,6 +18811,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "darts forward and bites you",
@@ -18851,6 +19136,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -18878,6 +19164,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -18905,6 +19192,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     MonsGuards: 484,
     Drops: [
       { Number: 1001, Percent: 25 },
@@ -19341,6 +19629,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SpellImmune: 5,
     Drops: [{ Number: 999, Percent: 5 }],
     Attacks: [
       {
@@ -19569,6 +19858,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "gnaws you",
@@ -19651,6 +19941,8 @@ export const monsterData: Monster[] = [
     Magical: 3,
     NonLiving: 0,
     Rcol: 100,
+    SpellImmune: 30,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "chills you with its touch",
@@ -19679,6 +19971,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 2,
+    SeeHidden: 1,
+    SpellImmune: 30,
     ImmuPoison: 100,
     Spells: [
       {
@@ -19716,7 +20010,9 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 10,
     NonLiving: 0,
+    SpellImmune: 100,
     ImmuPoison: 0,
+    SeeHidden: 0,
   },
   {
     Number: 506,
@@ -19780,6 +20076,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
+    "Negate Ability": 71,
     Attacks: [
       {
         Name: "savagely bites you",
@@ -19837,6 +20135,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 50,
+    Animal: 0,
     Attacks: [
       {
         Name: "slashes you with its claws",
@@ -19884,6 +20183,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 510,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -19922,6 +20222,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 25,
     Attacks: [
       {
@@ -19962,6 +20263,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 10,
+    Animal: 0,
     Attacks: [
       {
         Name: "skewers you",
@@ -19990,6 +20292,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 513,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20028,6 +20331,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
+    "Negate Ability": 71,
     Attacks: [
       {
         Name: "savagely bites you",
@@ -20083,6 +20388,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "lashes you with its tail",
@@ -20129,6 +20435,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 516,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20205,6 +20512,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     Rfir: 200,
     Rcol: -100,
     Attacks: [
@@ -20262,6 +20570,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 519,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20300,6 +20609,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "smashes you with its tail",
@@ -20336,6 +20646,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "smashes you with its tail",
@@ -20365,6 +20676,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 522,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20403,6 +20715,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 10,
     Attacks: [
       {
@@ -20441,6 +20754,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 25,
+    Animal: 0,
     Attacks: [
       {
         Name: "slashes you with its claws",
@@ -20488,6 +20802,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 525,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20616,6 +20931,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 528,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20694,6 +21010,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Drops: [
       { Number: 1071, Percent: 20 },
       { Number: 1491, Percent: 10 },
@@ -20736,6 +21054,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 531,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20827,6 +21146,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 534,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20946,6 +21266,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 537,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -20984,7 +21305,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 9999,
+    SpellImmune: 9999,
     ImmuPoison: 99,
+    SeeHidden: 0,
+    ReqToHit: 999,
   },
   {
     Number: 540,
@@ -21005,6 +21329,7 @@ export const monsterData: Monster[] = [
     Dodge: 40,
     Rfir: 200,
     Rcol: -40,
+    SeeHidden: 0,
     Drops: [
       { Number: 2032, Percent: 5 },
       { Number: 2033, Percent: 5 },
@@ -21057,6 +21382,7 @@ export const monsterData: Monster[] = [
     Dodge: 40,
     Rfir: 200,
     Rcol: -40,
+    SeeHidden: 0,
     Drops: [{ Number: 2034, Percent: 100 }],
     Attacks: [
       {
@@ -21122,6 +21448,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -21149,7 +21476,9 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
     NonLiving: 1,
+    SpellImmune: 25,
     Drops: [
       { Number: 1452, Percent: 20 },
       { Number: 1668, Percent: 20 },
@@ -21228,6 +21557,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "Physical",
@@ -21256,6 +21586,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "Physical",
@@ -21284,6 +21615,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "Physical",
@@ -21312,6 +21644,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "Physical",
@@ -21340,6 +21673,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "Physical",
@@ -21657,6 +21991,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 560,
@@ -21674,6 +22009,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 561,
@@ -21691,6 +22027,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 562,
@@ -21742,6 +22079,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "claws you",
@@ -21779,6 +22117,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 15,
     Drops: [{ Number: 1155, Percent: 1 }],
     Attacks: [
       {
@@ -21817,6 +22156,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SpellImmune: 10,
     Drops: [
       { Number: 1529, Percent: 5 },
       { Number: 2012, Percent: 5 },
@@ -21858,6 +22198,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     Drops: [
       { Number: 1157, Percent: 10 },
       { Number: 1156, Percent: 100 },
@@ -21909,6 +22250,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 569,
@@ -22041,6 +22383,7 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -22078,6 +22421,7 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you with its pincers",
@@ -22114,6 +22458,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -22322,6 +22667,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     MonsGuards: 579,
+    SpellImmune: 10,
     Drops: [{ Number: 913, Percent: 25 }],
     Attacks: [
       {
@@ -22582,6 +22928,7 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 3,
     ImmuPoison: 0,
+    SpellImmune: 15,
     Drops: [
       { Number: 1169, Percent: 1 },
       { Number: 1990, Percent: 1 },
@@ -22633,6 +22980,7 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 3,
     ImmuPoison: 0,
+    SpellImmune: 25,
     Drops: [
       { Number: 1166, Percent: 100 },
       { Number: 1170, Percent: 20 },
@@ -22694,6 +23042,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     MonsGuards: 590,
     Attacks: [
       {
@@ -22732,6 +23081,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "rips you",
@@ -22840,6 +23190,7 @@ export const monsterData: Monster[] = [
     Magical: 1,
     NonLiving: 0,
     Rcol: 100,
+    SeeHidden: 0,
     Rfir: -100,
     Attacks: [
       {
@@ -22870,6 +23221,8 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     NonLiving: 0,
+    ReqToHit: 1,
+    SpellImmune: 15,
     Drops: [
       { Number: 1173, Percent: 10 },
       { Number: 1172, Percent: 10 },
@@ -22927,6 +23280,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    ReqToHit: 999,
+    SpellImmune: 999,
     ImmuPoison: 100,
     Drops: [{ Number: 2229, Percent: 100 }],
   },
@@ -22946,6 +23301,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    ReqToHit: 1,
+    SpellImmune: 20,
     ImmuPoison: 100,
     ResistStone: 100,
     Drops: [
@@ -22990,6 +23347,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 2,
     NonLiving: 0,
+    SpellImmune: 100,
     Drops: [{ Number: 1175, Percent: 100 }],
   },
   {
@@ -23036,6 +23394,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 601,
@@ -23241,6 +23600,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -23303,6 +23663,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ResistStone: 200,
+    SpellImmune: 5,
     Drops: [
       { Number: 1072, Percent: 20 },
       { Number: 1826, Percent: 30 },
@@ -23363,6 +23724,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rfir: 200,
+    SpellImmune: 5,
     Drops: [
       { Number: 1073, Percent: 20 },
       { Number: 1827, Percent: 30 },
@@ -23407,6 +23769,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rlit: 200,
+    SpellImmune: 5,
     Drops: [
       { Number: 1074, Percent: 20 },
       { Number: 1828, Percent: 30 },
@@ -23468,6 +23831,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rcol: 200,
+    SpellImmune: 5,
     Drops: [
       { Number: 1075, Percent: 20 },
       { Number: 1829, Percent: 30 },
@@ -23528,6 +23892,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1261, Percent: 1 }],
     Attacks: [
       {
@@ -23575,6 +23940,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [
       { Number: 1261, Percent: 1 },
       { Number: 1190, Percent: 1 },
@@ -23627,6 +23993,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
+    SpellImmune: 20,
     MonsGuards: 623,
     Dodge: 50,
     Drops: [
@@ -23679,6 +24047,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SpellImmune: 15,
+    SeeHidden: 0,
     MonsGuards: 618,
     Drops: [
       { Number: 1195, Percent: 3 },
@@ -23722,6 +24092,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -23759,6 +24130,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SpellImmune: 25,
+    SeeHidden: 0,
     MonsGuards: 615,
     Drops: [
       { Number: 1188, Percent: 5 },
@@ -23822,6 +24195,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -23859,6 +24233,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -23896,6 +24271,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
+    Animal: 0,
     MonsGuards: 621,
     Drops: [{ Number: 1184, Percent: 1 }],
     Attacks: [
@@ -23935,6 +24312,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
+    Animal: 0,
     Drops: [
       { Number: 1261, Percent: 1 },
       { Number: 1189, Percent: 1 },
@@ -24009,6 +24388,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -24036,6 +24416,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rakes you with its claws",
@@ -24084,6 +24465,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [
       { Number: 1235, Percent: 1 },
       { Number: 1235, Percent: 2 },
@@ -24150,6 +24532,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "pinches you",
@@ -24186,6 +24569,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     RoomIllu: 999,
     Drops: [{ Number: 1233, Percent: 1 }],
     Attacks: [
@@ -24216,6 +24600,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Drain: 5,
+    MageBind: 0,
     Attacks: [
       {
         Name: "darts forward and bites you",
@@ -24290,6 +24676,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1205, Percent: 1 }],
     Attacks: [
       {
@@ -24327,6 +24714,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -24363,6 +24751,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "bludgeons you",
@@ -24409,6 +24798,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 4,
+    SpellImmune: 20,
+    SeeHidden: 1,
     Rlit: 200,
     MonsGuards: 638,
     Drops: [
@@ -24479,6 +24870,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 3,
+    SpellImmune: 20,
     Rlit: 200,
     MonsGuards: 638,
     Drops: [{ Number: 1215, Percent: 1 }],
@@ -24528,6 +24920,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 4,
     ImmuPoison: 0,
+    SpellImmune: 20,
     Rlit: 200,
     MonsGuards: 638,
     Drops: [
@@ -24582,6 +24975,7 @@ export const monsterData: Monster[] = [
     Align: 6,
     Magical: 3,
     ResistStone: 100,
+    SpellImmune: 20,
     MonsGuards: 641,
     Drops: [{ Number: 1207, Percent: 1 }],
     Attacks: [
@@ -24638,6 +25032,7 @@ export const monsterData: Monster[] = [
     Align: 6,
     Magical: 3,
     ImmuPoison: 1,
+    SpellImmune: 15,
     ResistStone: 100,
     MonsGuards: 641,
     Attacks: [
@@ -24684,6 +25079,7 @@ export const monsterData: Monster[] = [
     Align: 6,
     Magical: 4,
     ImmuPoison: 1,
+    SpellImmune: 20,
     MonsGuards: 640,
     Drops: [
       { Number: 1217, Percent: 5 },
@@ -24778,6 +25174,8 @@ export const monsterData: Monster[] = [
     Magical: 3,
     Rfir: 100,
     Dodge: 25,
+    Animal: 0,
+    SpellImmune: 15,
     Spells: [
       {
         Name: "combust",
@@ -24881,6 +25279,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 20,
     MonsGuards: 646,
     Drops: [
       { Number: 1211, Percent: 10 },
@@ -24923,6 +25322,7 @@ export const monsterData: Monster[] = [
     Magical: 4,
     Rfir: 100,
     Rcol: -50,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "bites you",
@@ -24961,7 +25361,9 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     ResistStone: 100,
+    SpellImmune: 20,
     ImmuPoison: 0,
+    SeeHidden: 0,
     Drops: [
       { Number: 1246, Percent: 75 },
       { Number: 1354, Percent: 25 },
@@ -25029,6 +25431,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ResistStone: 100,
+    SpellImmune: 10,
+    Animal: 0,
     Dodge: 10,
     ImmuPoison: 0,
     Attacks: [
@@ -25068,6 +25472,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -25244,6 +25649,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 657,
@@ -25510,6 +25916,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -25564,6 +25971,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -25599,6 +26007,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 99,
     AntiMagic: 0,
     Attacks: [
       {
@@ -25627,6 +26036,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -25765,6 +26175,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1190, Percent: 1 }],
     Attacks: [
       {
@@ -25844,6 +26255,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     ImmuPoison: 0,
+    Animal: 0,
     Rfir: 200,
     RoomIllu: 100,
     Rcol: -80,
@@ -25887,6 +26299,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Rcol: -50,
+    Animal: 0,
     Rfir: 100,
     Dodge: 25,
     ResistWater: -50,
@@ -26032,6 +26445,7 @@ export const monsterData: Monster[] = [
     ImmuPoison: 0,
     Rfir: 200,
     Rcol: -50,
+    Freedom: 0,
     Attacks: [
       {
         Name: "skewers you with its barbed spear",
@@ -26077,8 +26491,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     Rcol: -50,
     Rfir: 200,
+    Freedom: 0,
     Attacks: [
       {
         Name: "swoops",
@@ -26133,6 +26549,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     ImmuPoison: 0,
+    Animal: 0,
     Rfir: 200,
     Rcol: -100,
     Attacks: [
@@ -26175,6 +26592,7 @@ export const monsterData: Monster[] = [
     Magical: 4,
     ImmuPoison: 7,
     Rfir: 100,
+    Animal: 0,
     Rcol: -75,
     Drops: [{ Number: 1267, Percent: 5 }],
     Attacks: [
@@ -26264,6 +26682,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "pinches you with its claw",
@@ -26291,6 +26711,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -26319,6 +26740,8 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "pecks you",
@@ -26355,6 +26778,8 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "bites you",
@@ -26383,6 +26808,8 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "pecks you",
@@ -26419,6 +26846,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SpellImmune: 5,
     Drops: [{ Number: 1289, Percent: 100 }],
     Attacks: [
       {
@@ -26448,6 +26877,8 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SpellImmune: 5,
     Drops: [{ Number: 1274, Percent: 20 }],
     Attacks: [
       {
@@ -26525,6 +26956,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 1,
   },
   {
     Number: 695,
@@ -26542,6 +26975,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 1,
   },
   {
     Number: 696,
@@ -26559,6 +26994,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 697,
@@ -26576,6 +27012,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 698,
@@ -26593,6 +27030,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 699,
@@ -26610,6 +27048,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 1,
   },
   {
     Number: 700,
@@ -26627,6 +27067,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
+    SeeHidden: 1,
     Rfir: 200,
     Rcol: -30,
     Drops: [
@@ -26683,6 +27125,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 60,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Drops: [
       { Number: 1275, Percent: 20 },
@@ -26764,7 +27207,9 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 1,
+    SpellImmune: 10,
     Rcol: 100,
+    SeeHidden: 0,
     NonLiving: 0,
     Rfir: -50,
     Attacks: [
@@ -26971,6 +27416,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 1,
   },
   {
     Number: 709,
@@ -26988,6 +27435,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 1,
   },
   {
     Number: 710,
@@ -27207,6 +27656,7 @@ export const monsterData: Monster[] = [
     Align: 0,
     Magical: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
   },
   {
     Number: 717,
@@ -27225,6 +27675,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     Dodge: 50,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -27279,6 +27730,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     ImmuPoison: 7,
     Dodge: 75,
+    SeeHidden: 1,
     Drops: [{ Number: 1300, Percent: 100 }],
     Attacks: [
       {
@@ -27327,6 +27779,7 @@ export const monsterData: Monster[] = [
     Magical: 0,
     ImmuPoison: 7,
     Dodge: 75,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "punches you",
@@ -27440,6 +27893,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "all-out skewers you",
@@ -27746,6 +28200,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SeeHidden: 0,
     Dodge: 15,
     Drops: [{ Number: 1332, Percent: 2 }],
     Attacks: [
@@ -27775,6 +28230,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SeeHidden: 0,
     Dodge: 15,
     Drops: [{ Number: 1332, Percent: 2 }],
     Attacks: [
@@ -27816,6 +28272,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    Freedom: 0,
     Drops: [
       { Number: 1107, Percent: 2 },
       { Number: 1108, Percent: 2 },
@@ -27870,6 +28328,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Dodge: 25,
     Drops: [{ Number: 1332, Percent: 3 }],
     Attacks: [
@@ -27964,6 +28423,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
+    SeeHidden: 0,
     Dodge: 25,
     RoomIllu: -200,
     Drops: [{ Number: 1332, Percent: 5 }],
@@ -28328,7 +28789,9 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Rcol: 100,
+    SpellImmune: 20,
     Rfir: -50,
+    SeeHidden: 0,
     Drops: [
       { Number: 1981, Percent: 100 },
       { Number: 1344, Percent: 100 },
@@ -28416,6 +28879,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     Dodge: 35,
+    SpellImmune: 15,
     Drops: [
       { Number: 1331, Percent: 10 },
       { Number: 1332, Percent: 100 },
@@ -28577,6 +29041,9 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 3,
     Magical: 4,
+    SpellImmune: 30,
+    SeeHidden: 0,
+    ShockShield: 20,
     Dodge: 60,
     Attacks: [
       {
@@ -28681,6 +29148,7 @@ export const monsterData: Monster[] = [
     Align: 4,
     Magical: 0,
     ImmuPoison: 0,
+    SpellImmune: 25,
     Dodge: 25,
     Drops: [{ Number: 1361, Percent: 1 }],
     Attacks: [
@@ -28951,6 +29419,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     NonLiving: 0,
+    SpellImmune: 30,
     Rfir: -25,
     Rcol: 150,
     Attacks: [
@@ -28983,6 +29452,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     ImmuPoison: 0,
+    SeeHidden: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "touches you with a ghostly hand",
@@ -29093,6 +29564,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     NonLiving: 0,
     Rfir: -100,
     Rcol: 125,
@@ -29232,6 +29704,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     ImmuPoison: 0,
     Drops: [{ Number: 1118, Percent: 1 }],
     Spells: [
@@ -29405,6 +29878,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -29688,6 +30162,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    ShockShield: 4,
     Attacks: [
       {
         Name: "smacks you",
@@ -29733,6 +30208,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Freedom: 0,
     Drops: [{ Number: 1652, Percent: 1 }],
     Attacks: [
       {
@@ -29818,6 +30294,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "rips you savagely",
@@ -29895,6 +30373,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     NonLiving: 0,
+    SpellImmune: 20,
     Rcol: 100,
     Attacks: [
       {
@@ -29932,7 +30411,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Freedom: 0,
     Dodge: 25,
+    SeeHidden: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 1479, Percent: 5 }],
     Attacks: [
       {
@@ -29964,6 +30446,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     Rfir: -75,
     NonLiving: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "smacks you",
@@ -30041,6 +30524,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     NonLiving: 0,
+    SpellImmune: 20,
     Rfir: -100,
     Attacks: [
       {
@@ -30090,6 +30574,7 @@ export const monsterData: Monster[] = [
     Magical: 4,
     Rcol: 200,
     NonLiving: 0,
+    SpellImmune: 20,
     Rfir: -50,
     Drops: [
       { Number: 3256, Percent: 10 },
@@ -30176,6 +30661,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 20,
     Drops: [
       { Number: 1459, Percent: 10 },
@@ -30229,6 +30715,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    SpellImmune: 25,
+    SeeHidden: 0,
     Rfir: -50,
     NonLiving: 0,
     Drops: [
@@ -30324,6 +30812,7 @@ export const monsterData: Monster[] = [
     Magical: 2,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 20,
     Rfir: -50,
     Attacks: [
       {
@@ -30361,8 +30850,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 60,
     ImmuPoison: 0,
+    SpellImmune: 25,
     Drops: [{ Number: 1437, Percent: 5 }],
     Attacks: [
       {
@@ -30411,6 +30902,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 60,
+    SpellImmune: 20,
     Drops: [
       { Number: 1435, Percent: 7 },
       { Number: 1851, Percent: 5 },
@@ -30470,7 +30962,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     NonLiving: 0,
+    SeeHidden: 0,
     Rfir: -50,
     Drops: [
       { Number: 524, Percent: 100 },
@@ -30543,6 +31037,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Dodge: 32,
+    SeeHidden: 0,
     Drops: [{ Number: 1463, Percent: 10 }],
     Attacks: [
       {
@@ -30751,6 +31246,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     NonLiving: 0,
     Rcol: 100,
+    SpellImmune: 20,
     Spells: [
       {
         Name: "absorb",
@@ -30826,6 +31322,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 0,
+    SeeHidden: 1,
     NonLiving: 0,
     Dodge: 50,
     Rcol: 200,
@@ -31022,6 +31519,7 @@ export const monsterData: Monster[] = [
     Align: 0,
     Magical: 0,
     AntiMagic: 0,
+    SpellImmune: 45,
     Attacks: [
       {
         Name: "slashes you",
@@ -31057,6 +31555,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 30,
     Attacks: [
       {
@@ -31097,6 +31596,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     Rfir: -50,
+    SeeHidden: 0,
+    SpellImmune: 25,
     Attacks: [
       {
         Name: "claws you",
@@ -31153,6 +31654,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     Rfir: -50,
+    SeeHidden: 0,
+    SpellImmune: 25,
     Drops: [{ Number: 1816, Percent: 3 }],
     Attacks: [
       {
@@ -31202,6 +31705,8 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     Rfir: -25,
+    SpellImmune: 25,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -31264,6 +31769,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
+    SeeHidden: 0,
     NonLiving: 0,
     MonsGuards: 835,
     Drops: [
@@ -31335,6 +31842,8 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     Dodge: 90,
+    SpellImmune: 30,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "swirls around you sucking your life",
@@ -31382,6 +31891,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Dodge: 90,
+    SpellImmune: 15,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -31418,6 +31929,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     Rfir: -200,
     NonLiving: 0,
     Drops: [{ Number: 1439, Percent: 10 }],
@@ -31456,6 +31968,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
   },
   {
     Number: 841,
@@ -31490,6 +32003,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
+    SpellImmune: 20,
     Dodge: 50,
     Attacks: [
       {
@@ -31527,6 +32042,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
+    SpellImmune: 30,
     Dodge: 50,
     NonLiving: 0,
     Attacks: [
@@ -31556,7 +32073,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 4,
+    SpellImmune: 20,
     MonsGuards: 845,
+    SeeHidden: 0,
     Drops: [{ Number: 1443, Percent: 10 }],
     Spells: [
       {
@@ -31643,6 +32162,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 0,
+    SpellImmune: 30,
+    SeeHidden: 0,
+    Animal: 0,
     MonsGuards: 848,
     Attacks: [
       {
@@ -31671,6 +32193,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 0,
+    SpellImmune: 30,
+    SeeHidden: 0,
+    Animal: 0,
     MonsGuards: 848,
     Attacks: [
       {
@@ -31699,6 +32224,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    SpellImmune: 30,
+    SeeHidden: 0,
     NonLiving: 0,
     Attacks: [
       {
@@ -31737,6 +32264,8 @@ export const monsterData: Monster[] = [
     Align: 0,
     Magical: 5,
     Dodge: 30,
+    SeeHidden: 0,
+    SpellImmune: 35,
     MonsGuards: 848,
     Spells: [
       {
@@ -31775,6 +32304,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     Dodge: 50,
     MonsGuards: 851,
+    SpellImmune: 30,
     Drops: [
       { Number: 3342, Percent: 10 },
       { Number: 1749, Percent: 100 },
@@ -31842,6 +32372,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SeeHidden: 0,
+    SpellImmune: 30,
     Rcol: 100,
     Drops: [
       { Number: 1485, Percent: 50 },
@@ -31902,6 +32434,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 75,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Drops: [
       { Number: 1495, Percent: 5 },
       { Number: 1790, Percent: 100 },
@@ -32111,6 +32645,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     AntiMagic: 0,
     Drops: [
       { Number: 1778, Percent: 100 },
@@ -32244,6 +32779,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    SpellImmune: 999,
     Dodge: 200,
     Attacks: [
       {
@@ -32283,6 +32819,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     NonLiving: 0,
+    SpellImmune: 20,
     Rfir: -100,
     Attacks: [
       {
@@ -32340,6 +32877,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 1814, Percent: 1 }],
     Attacks: [
       {
@@ -32396,6 +32934,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 25,
     Dodge: 40,
     Rfir: -20,
     Spells: [
@@ -32434,6 +32973,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 25,
     Dodge: 30,
     Rfir: -20,
     Spells: [
@@ -32472,6 +33012,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 25,
     Dodge: 50,
     Rfir: -20,
     Spells: [
@@ -32509,6 +33050,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 30,
     Rlit: -100,
     Rcol: 100,
     Drops: [{ Number: 3388, Percent: 100 }],
@@ -32542,6 +33084,7 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     Rfir: -75,
     Rcol: 150,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -32571,6 +33114,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     NonLiving: 0,
     Rfir: -50,
+    SpellImmune: 20,
     Rcol: 100,
     Drops: [{ Number: 1972, Percent: 12 }],
     Attacks: [
@@ -32643,6 +33187,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 45,
     Dodge: 45,
     NonLiving: 0,
     Rfir: -50,
@@ -32705,6 +33250,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 25,
     Dodge: 50,
     Drops: [{ Number: 220, Percent: 3 }],
     Attacks: [
@@ -32735,6 +33281,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 45,
+    SpellImmune: 20,
     Drops: [{ Number: 1116, Percent: 1 }],
     Attacks: [
       {
@@ -32782,6 +33329,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     Rcol: 100,
     Rlit: -75,
     Dodge: 45,
@@ -32848,6 +33396,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Dodge: 25,
+    SpellImmune: 15,
     Rcol: 100,
     Rfir: -50,
     Attacks: [
@@ -32952,6 +33501,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    Animal: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 1205, Percent: 5 }],
     Attacks: [
       {
@@ -33131,6 +33682,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 999,
     Dodge: 25,
+    SpellImmune: 999,
     Attacks: [
       {
         Name: "punches you in the head",
@@ -33195,6 +33747,7 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     Rfir: -50,
     Rcol: 100,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "bludgeons you",
@@ -33231,6 +33784,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 3,
+    SpellImmune: 15,
     Dodge: 45,
     NonLiving: 0,
     Rcol: 100,
@@ -33264,6 +33818,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     Dodge: 45,
+    SpellImmune: 15,
     NonLiving: 0,
     Attacks: [
       {
@@ -33294,6 +33849,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     Dodge: 60,
+    SpellImmune: 15,
     NonLiving: 0,
     Attacks: [
       {
@@ -33322,6 +33878,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     Drops: [
       { Number: 1001, Percent: 25 },
@@ -33372,6 +33929,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 30,
     Dodge: 30,
     Drops: [
       { Number: 3625, Percent: 15 },
@@ -33443,6 +34001,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     Dodge: 90,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -33552,6 +34112,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Dodge: 90,
     Attacks: [
       {
@@ -33583,6 +34144,7 @@ export const monsterData: Monster[] = [
     Magical: 3,
     MonsGuards: 878,
     Dodge: 25,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "slashes at you",
@@ -33618,6 +34180,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    SpellImmune: 30,
+    SeeHidden: 0,
     NonLiving: 0,
     Drops: [
       { Number: 1683, Percent: 100 },
@@ -33663,6 +34227,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "hits you with a twisted fist",
@@ -33690,6 +34255,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     NonLiving: 0,
     Rcol: 100,
     Attacks: [
@@ -33746,6 +34312,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 25,
     Attacks: [
       {
         Name: "bites you",
@@ -33814,6 +34381,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 15,
     Rcol: 100,
     Attacks: [
       {
@@ -33860,8 +34428,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 30,
     Dodge: 30,
     MonsGuards: 893,
+    SeeHidden: 0,
     Drops: [
       { Number: 1341, Percent: 100 },
       { Number: 1496, Percent: 25 },
@@ -33960,6 +34530,9 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    Animal: 0,
+    SpellImmune: 25,
+    SeeHidden: 0,
     NonLiving: 0,
     Drops: [{ Number: 1678, Percent: 5 }],
     Attacks: [
@@ -34027,6 +34600,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
   },
   {
     Number: 915,
@@ -34044,6 +34618,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    SpellImmune: 30,
+    SeeHidden: 0,
     NonLiving: 0,
     Drops: [{ Number: 1448, Percent: 1 }],
     Attacks: [
@@ -34083,6 +34659,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 100,
     Drops: [{ Number: 101, Percent: 100 }],
   },
   {
@@ -34173,6 +34750,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    SpellImmune: 30,
+    ShockShield: 20,
     Dodge: 60,
     Drops: [{ Number: 1746, Percent: 100 }],
     Attacks: [
@@ -34239,6 +34818,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 923,
@@ -34256,6 +34836,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     Drops: [
       { Number: 1001, Percent: 25 },
@@ -34462,6 +35043,8 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     Rcol: 100,
+    ShockShield: 10,
+    SpellImmune: 25,
     Drops: [
       { Number: 1436, Percent: 1 },
       { Number: 743, Percent: 1 },
@@ -34522,6 +35105,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
+    SpellImmune: 25,
     Dodge: 10,
     Drops: [{ Number: 1813, Percent: 15 }],
     Attacks: [
@@ -34580,6 +35165,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     NonLiving: 0,
+    SpellImmune: 20,
     Rfir: -50,
     Rcol: 150,
     Attacks: [
@@ -34627,6 +35213,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Dodge: 20,
     MonsGuards: 321,
     Drops: [
@@ -34733,6 +35321,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -34760,6 +35349,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -34787,6 +35377,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -34814,6 +35405,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -34841,6 +35433,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
+    SpellImmune: 20,
     Drops: [
       { Number: 3276, Percent: 10 },
       { Number: 3277, Percent: 10 },
@@ -34886,6 +35480,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "gouges you with its huge horns",
@@ -34930,6 +35525,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    ReqToHit: 999,
+    SpellImmune: 999,
     ImmuPoison: 100,
     Dodge: 100,
     Drops: [{ Number: 1686, Percent: 100 }],
@@ -34953,6 +35550,7 @@ export const monsterData: Monster[] = [
     Rcol: 150,
     NonLiving: 0,
     Dodge: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -34999,6 +35597,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     Rfir: -25,
     Rlit: -25,
     Rcol: 25,
@@ -35071,6 +35670,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 25,
     MonsGuards: 947,
     Drops: [
       { Number: 1690, Percent: 75 },
@@ -35266,6 +35866,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    ShockShield: 1,
     Rlit: 200,
     Dodge: 20,
     ResistStone: -30,
@@ -35402,6 +36003,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SpellImmune: 20,
     Rfir: 200,
     Rcol: -60,
     Drops: [{ Number: 3316, Percent: 1 }],
@@ -35498,6 +36100,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     NonLiving: 0,
+    ShockShield: 1,
     Rfir: -100,
     Rcol: 100,
     Attacks: [
@@ -35616,6 +36219,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     NonLiving: 0,
+    SeeHidden: 0,
     Rfir: -100,
     Rcol: 100,
     Drops: [
@@ -35669,6 +36273,8 @@ export const monsterData: Monster[] = [
     Magical: 1,
     NonLiving: 0,
     Rcol: 100,
+    SeeHidden: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "touches you with a ghostly hand",
@@ -36075,6 +36681,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ResistWater: 50,
+    SpellImmune: 5,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -36130,6 +36737,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ResistWater: 50,
+    SpellImmune: 5,
     ImmuPoison: 0,
     Drops: [{ Number: 1736, Percent: 1 }],
     Attacks: [
@@ -36186,6 +36794,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ResistWater: 50,
+    SpellImmune: 10,
     ImmuPoison: 0,
     Drops: [{ Number: 1736, Percent: 1 }],
     Attacks: [
@@ -36242,6 +36851,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ResistWater: 50,
+    SpellImmune: 5,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -36297,6 +36907,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rcol: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -36351,6 +36962,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rcol: 50,
+    SpellImmune: 5,
     Drops: [{ Number: 1735, Percent: 1 }],
     Attacks: [
       {
@@ -36406,6 +37018,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rcol: 50,
+    SpellImmune: 10,
     Drops: [{ Number: 1735, Percent: 1 }],
     Attacks: [
       {
@@ -36461,6 +37074,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rcol: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -36552,8 +37166,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
     ImmuPoison: 0,
+    SpellImmune: 6,
     Drops: [{ Number: 722, Percent: 5 }],
     Attacks: [
       {
@@ -36590,6 +37206,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 5,
     Dodge: 80,
     Attacks: [
       {
@@ -36629,6 +37246,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rlit: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -36683,6 +37301,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rlit: 50,
+    SpellImmune: 5,
     Drops: [{ Number: 1737, Percent: 1 }],
     Attacks: [
       {
@@ -36738,6 +37357,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rlit: 50,
+    SpellImmune: 10,
     Drops: [{ Number: 1737, Percent: 1 }],
     Attacks: [
       {
@@ -36793,6 +37413,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rlit: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -36924,6 +37545,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -36978,6 +37600,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Drops: [{ Number: 1745, Percent: 1 }],
     Attacks: [
       {
@@ -37033,6 +37656,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ImmuPoison: 0,
+    SpellImmune: 10,
     Drops: [{ Number: 1745, Percent: 1 }],
     Attacks: [
       {
@@ -37088,6 +37712,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -37141,6 +37766,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1933, Percent: 100 }],
     Attacks: [
       {
@@ -37177,6 +37804,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Drops: [{ Number: 1934, Percent: 100 }],
     Attacks: [
@@ -37214,6 +37843,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Drops: [{ Number: 1935, Percent: 100 }],
     Spells: [
       {
@@ -37258,6 +37888,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Drops: [{ Number: 1939, Percent: 100 }],
     Attacks: [
       {
@@ -37303,6 +37934,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Drops: [{ Number: 1936, Percent: 100 }],
     Spells: [
       {
@@ -37339,6 +37971,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1937, Percent: 100 }],
     Attacks: [
       {
@@ -37384,7 +38018,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 30,
     Dodge: 100,
+    SeeHidden: 0,
+    ReqToHit: 3,
     Drops: [{ Number: 56, Percent: 1 }],
     Attacks: [
       {
@@ -37423,6 +38060,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 39,
     MonsGuards: 851,
     Spells: [
       {
@@ -37451,6 +38089,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
     ImmuPoison: 99,
     Dodge: 100,
     Spells: [
@@ -37481,6 +38120,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 75,
+    SpellImmune: 45,
     Attacks: [
       {
         Name: "slashes you",
@@ -37536,6 +38176,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 75,
+    SpellImmune: 45,
     Drops: [
       { Number: 1929, Percent: 100 },
       { Number: 1824, Percent: 10 },
@@ -37586,6 +38227,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 35,
+    SpellImmune: 45,
     Drops: [
       { Number: 1930, Percent: 100 },
       { Number: 1691, Percent: 10 },
@@ -37693,6 +38335,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -37757,6 +38401,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     ImmuPoison: 99,
     Dodge: 50,
+    SeeHidden: 0,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "slashes you",
@@ -37820,6 +38466,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -37882,6 +38530,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "pounds you",
@@ -37919,6 +38569,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "rips you with her talons",
@@ -37981,6 +38633,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -38024,7 +38678,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Dodge: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "cleaves you",
@@ -38089,7 +38745,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Dodge: 55,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "hurls his nexus spear at you",
@@ -38145,7 +38803,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
     Dodge: 60,
+    SpellImmune: 40,
     Rlit: -20,
     Attacks: [
       {
@@ -38202,8 +38862,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Dodge: 55,
     Rlit: -20,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "shoots you",
@@ -38251,6 +38913,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Dodge: 70,
     Rlit: -20,
     Spells: [
@@ -38280,6 +38944,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    ShockShield: 3,
+    SpellImmune: 40,
     Rcol: -20,
     Drops: [
       { Number: 1912, Percent: 20 },
@@ -38344,6 +39010,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -38407,6 +39075,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Dodge: 35,
     Attacks: [
       {
@@ -38472,6 +39141,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Rcol: -50,
     Attacks: [
       {
@@ -38526,6 +39196,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 9,
+    SpellImmune: 99,
   },
   {
     Number: 1053,
@@ -38543,6 +39214,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 99,
+    SpellImmune: 999,
   },
   {
     Number: 1054,
@@ -38560,6 +39232,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -38595,6 +39269,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -38630,6 +39306,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1923, Percent: 100 }],
     Attacks: [
       {
@@ -38666,6 +39344,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -38701,6 +39381,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SeeHidden: 0,
+    SpellImmune: 25,
     ImmuPoison: 0,
     Drops: [
       { Number: 974, Percent: 100 },
@@ -38771,6 +39453,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1921, Percent: 100 }],
     Attacks: [
       {
@@ -38808,6 +39492,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1923, Percent: 100 }],
     Attacks: [
       {
@@ -38845,6 +39531,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1922, Percent: 100 }],
     Attacks: [
       {
@@ -38890,6 +39578,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1924, Percent: 100 }],
     Attacks: [
       {
@@ -38936,6 +39626,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1065,
@@ -38953,6 +39644,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -38988,6 +39681,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -39024,6 +39719,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Spells: [
       {
         Name: "soul rip",
@@ -39067,6 +39763,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "claws you",
@@ -39120,6 +39817,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Spells: [
       {
         Name: "frozen spike",
@@ -39155,6 +39853,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     MonsGuards: 1069,
     Drops: [{ Number: 1940, Percent: 100 }],
     Attacks: [
@@ -39201,6 +39900,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -39236,6 +39937,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -39272,6 +39975,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Spells: [
       {
         Name: "soul rip",
@@ -39315,6 +40019,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "claws you",
@@ -39368,6 +40073,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Spells: [
       {
         Name: "inferno",
@@ -39411,6 +40117,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Drops: [{ Number: 1893, Percent: 100 }],
     Attacks: [
       {
@@ -39573,6 +40281,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 998,
+    SpellImmune: 45,
     MonsGuards: 1083,
     Drops: [{ Number: 3539, Percent: 1 }],
     Spells: [
@@ -39602,6 +40311,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 999,
+    SeeHidden: 0,
     MonsGuards: 1080,
     Attacks: [
       {
@@ -39630,7 +40341,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 45,
     MonsGuards: 1081,
+    ShockShield: 200,
     Drops: [{ Number: 3540, Percent: 1 }],
   },
   {
@@ -39649,6 +40362,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 45,
     MonsGuards: 1082,
     Dodge: 100,
     Drops: [{ Number: 3541, Percent: 1 }],
@@ -39680,6 +40394,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 75,
+    SpellImmune: 45,
     AntiMagic: 0,
     Attacks: [
       {
@@ -39854,6 +40569,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 9,
     AntiMagic: 0,
+    SpellImmune: 99,
   },
   {
     Number: 1089,
@@ -39907,6 +40623,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -39961,6 +40678,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 99,
     AntiMagic: 0,
     Attacks: [
       {
@@ -39989,6 +40707,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -40468,6 +41187,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -40522,6 +41242,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -40576,6 +41297,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -40630,6 +41352,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ImmuPoison: 0,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -40684,6 +41407,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -40738,6 +41462,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     ImmuPoison: 0,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -40971,6 +41696,7 @@ export const monsterData: Monster[] = [
     Align: 4,
     Magical: 999,
     ImmuPoison: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -41089,6 +41815,7 @@ export const monsterData: Monster[] = [
     Rfir: -25,
     ImmuPoison: 100,
     Dodge: 50,
+    SeeHidden: 0,
     Drops: [{ Number: 1440, Percent: 1 }],
     Attacks: [
       {
@@ -41219,6 +41946,7 @@ export const monsterData: Monster[] = [
     Rlit: -15,
     Rfir: -25,
     ImmuPoison: 100,
+    SeeHidden: 0,
     Dodge: 50,
     Drops: [
       { Number: 1444, Percent: 25 },
@@ -41694,6 +42422,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 71, Percent: 10 }],
     Attacks: [
       {
@@ -41730,6 +42459,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 2,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "claws you",
@@ -41767,6 +42497,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -41842,6 +42573,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "chops you",
@@ -41877,6 +42609,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1131,
@@ -42012,6 +42745,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42048,6 +42782,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42084,6 +42819,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42184,6 +42920,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42220,6 +42957,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     MonsGuards: 1148,
     Attacks: [
@@ -42257,6 +42995,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42293,6 +43032,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42329,6 +43069,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42365,6 +43106,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Drops: [{ Number: 732, Percent: 100 }],
     Attacks: [
@@ -42402,6 +43144,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42438,6 +43181,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42474,6 +43218,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 50,
     Dodge: 30,
     Rfir: 25,
     Rlit: 25,
@@ -42601,6 +43346,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 45,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "claws you",
@@ -42647,6 +43393,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    Animal: 0,
     Drops: [{ Number: 1205, Percent: 5 }],
     Attacks: [
       {
@@ -42710,6 +43457,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    "Damage(No AC)": 50,
     Rfir: -25,
     Drops: [{ Number: 1103, Percent: 50 }],
     Attacks: [
@@ -42859,6 +43607,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 6,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42895,6 +43644,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42931,6 +43681,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42959,6 +43710,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -42995,6 +43747,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43023,6 +43776,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 6,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Drops: [{ Number: 2189, Percent: 3 }],
     Attacks: [
@@ -43060,6 +43814,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43096,6 +43851,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43132,6 +43888,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43168,6 +43925,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43204,6 +43962,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43240,6 +43999,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43276,6 +44036,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43312,6 +44073,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43348,6 +44110,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43384,6 +44147,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43420,6 +44184,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43456,6 +44221,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43492,6 +44258,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43528,6 +44295,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -43564,6 +44332,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43618,6 +44387,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 75,
     Attacks: [
       {
@@ -43654,6 +44424,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1191,
@@ -43671,6 +44442,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 25,
     Dodge: 20,
     Drops: [{ Number: 3803, Percent: 100 }],
     Attacks: [
@@ -43726,6 +44498,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    SpellImmune: 40,
+    SeeHidden: 1,
     Dodge: 15,
     MonsGuards: 2716,
     Attacks: [
@@ -43782,6 +44556,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     ImmuPoison: 30,
     Attacks: [
       {
@@ -43818,6 +44593,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43862,6 +44638,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -43908,6 +44685,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Attacks: [
       {
@@ -44002,6 +44780,7 @@ export const monsterData: Monster[] = [
     Magical: 2,
     NonLiving: 0,
     Rcol: 100,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "attempts",
@@ -44267,6 +45046,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -44319,6 +45099,7 @@ export const monsterData: Monster[] = [
     ResistStone: 100,
     ResistWater: -50,
     MonsGuards: 1204,
+    SpellImmune: 20,
     Dodge: 25,
     Drops: [
       { Number: 1840, Percent: 20 },
@@ -44388,6 +45169,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     NonLiving: 0,
+    SpellImmune: 20,
     Dodge: 30,
     ResistStone: 100,
     ResistWater: -50,
@@ -44438,6 +45220,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 9999,
+    SpellImmune: 9999,
   },
   {
     Number: 1209,
@@ -44455,6 +45238,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 3,
     Magical: 2,
+    SpellImmune: 10,
     Dodge: 15,
     Drops: [
       { Number: 1204, Percent: 10 },
@@ -44550,6 +45334,8 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 5,
     Dodge: 10,
+    SpellImmune: 45,
+    ShockShield: 0,
     Drops: [
       { Number: 3510, Percent: 5 },
       { Number: 3286, Percent: 20 },
@@ -44622,6 +45408,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 3,
+    SpellImmune: 15,
     NonLiving: 0,
     Rcol: 100,
     Attacks: [
@@ -44659,6 +45446,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 30,
     Attacks: [
       {
@@ -44697,6 +45485,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
+    SpellImmune: 10,
     Attacks: [
       {
         Name: "rips you savagely",
@@ -44803,6 +45593,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     Dodge: 50,
     Drops: [{ Number: 222, Percent: 3 }],
     Attacks: [
@@ -44861,6 +45652,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 20,
+    SpellImmune: 25,
     Rcol: 25,
     Rfir: 75,
     Rlit: 75,
@@ -45062,6 +45854,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Drops: [
       { Number: 1001, Percent: 25 },
@@ -45113,6 +45906,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 45,
+    SpellImmune: 20,
     Drops: [{ Number: 1116, Percent: 1 }],
     Attacks: [
       {
@@ -45160,6 +45954,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    Animal: 0,
+    SpellImmune: 20,
     Drops: [{ Number: 1205, Percent: 5 }],
     Attacks: [
       {
@@ -45223,8 +46019,11 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SeeHidden: 0,
     Dodge: 50,
     ImmuPoison: 0,
+    ShockShield: 5,
+    SpellImmune: 50,
     Drops: [{ Number: 3511, Percent: 7 }],
     Attacks: [
       {
@@ -45291,6 +46090,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 30,
+    SpellImmune: 35,
     Attacks: [
       {
         Name: "slashes you",
@@ -45405,6 +46205,7 @@ export const monsterData: Monster[] = [
     Rcol: 250,
     NonLiving: 1,
     Dodge: 60,
+    SeeHidden: 0,
     MonsGuards: 946,
     Attacks: [
       {
@@ -45470,7 +46271,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
     Dodge: 60,
+    SpellImmune: 40,
     Rlit: -20,
     Attacks: [
       {
@@ -45528,6 +46331,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 40,
+    SeeHidden: 0,
     Dodge: 70,
     Rlit: -20,
     Spells: [
@@ -45597,6 +46402,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     NonLiving: 0,
+    SpellImmune: 20,
     Rcol: 100,
     Attacks: [
       {
@@ -45634,6 +46440,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 0,
+    SeeHidden: 1,
     NonLiving: 0,
     Dodge: 50,
     Rfir: -25,
@@ -45763,6 +46570,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 2,
+    SpellImmune: 13,
     NonLiving: 0,
     ImmuPoison: 100,
     Rcol: 100,
@@ -45826,6 +46634,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    ShockShield: 3,
+    SpellImmune: 40,
     Rcol: -20,
     Attacks: [
       {
@@ -45883,6 +46693,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Rcol: -50,
     Attacks: [
       {
@@ -45937,6 +46748,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SeeHidden: 0,
+    SpellImmune: 40,
     Rcol: 30,
     ImmuPoison: 1,
     ResistWater: 30,
@@ -46008,7 +46821,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 40,
     Dodge: 55,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "shoots you",
@@ -46056,6 +46871,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Rlit: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -46318,6 +47134,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 50,
     Dodge: 80,
     Spells: [
       {
@@ -46370,6 +47187,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
+    Freedom: 0,
     Attacks: [
       {
         Name: "slams into you",
@@ -46414,6 +47233,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Drops: [{ Number: 3552, Percent: 1 }],
     Attacks: [
       {
@@ -46461,6 +47281,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -46516,6 +47337,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 70,
+    SpellImmune: 40,
     Drops: [{ Number: 3551, Percent: 1 }],
     Attacks: [
       {
@@ -46563,6 +47385,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "heaves a boulder at you",
@@ -46607,6 +47430,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
+    SeeHidden: 1,
   },
   {
     Number: 1259,
@@ -46624,6 +47449,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     NonLiving: 0,
     ImmuPoison: 100,
     Attacks: [
@@ -46681,6 +47507,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SpellImmune: 40,
     Rfir: -25,
     Rcol: 100,
     Attacks: [
@@ -46769,6 +47596,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SpellImmune: 30,
     Attacks: [
       {
         Name: "eviscerates you",
@@ -46805,6 +47633,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 45,
     ImmuPoison: 100,
     Drops: [
       { Number: 3335, Percent: 15 },
@@ -46922,6 +47751,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 70,
+    SpellImmune: 40,
     Attacks: [
       {
         Name: "gleefully jabs you",
@@ -46968,6 +47798,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
     Attacks: [
       {
         Name: "smacks you",
@@ -47032,6 +47863,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1269,
@@ -47049,6 +47881,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 25,
     Drops: [
       { Number: 3545, Percent: 5 },
       { Number: 3546, Percent: 10 },
@@ -47116,6 +47949,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1271,
@@ -47133,6 +47967,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1272,
@@ -47150,6 +47985,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 30,
     Attacks: [
       {
         Name: "slashes you",
@@ -47202,6 +48038,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1274,
@@ -47219,6 +48056,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1275,
@@ -47236,6 +48074,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1276,
@@ -47288,6 +48127,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SeeHidden: 1,
+    SpellImmune: 35,
     Rfir: -25,
     ResistStone: 300,
     MonsGuards: 410,
@@ -47361,6 +48202,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
     MonsGuards: 2605,
     Attacks: [
       {
@@ -47389,7 +48231,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    Animal: 0,
     Dodge: 50,
+    SpellImmune: 20,
     Drops: [{ Number: 3713, Percent: 12 }],
     Attacks: [
       {
@@ -47456,6 +48300,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 20,
+    SpellImmune: 20,
     MonsGuards: 2576,
     Drops: [
       { Number: 3611, Percent: 1 },
@@ -47527,6 +48372,7 @@ export const monsterData: Monster[] = [
     Dodge: 25,
     Rlit: -25,
     ResistStone: -25,
+    SpellImmune: 25,
     MonsGuards: 2616,
     Drops: [
       { Number: 3711, Percent: 10 },
@@ -47594,6 +48440,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1283,
@@ -47611,6 +48458,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    ShockShield: 15,
+    SpellImmune: 40,
     Rcol: -25,
     Rfir: 200,
     ResistStone: -25,
@@ -47685,6 +48534,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 70,
+    SpellImmune: 30,
     Drops: [
       { Number: 3588, Percent: 7 },
       { Number: 3669, Percent: 7 },
@@ -47753,7 +48603,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SeeHidden: 100,
     ImmuPoison: 0,
+    SpellImmune: 30,
     Drops: [
       { Number: 191, Percent: 100 },
       { Number: 283, Percent: 100 },
@@ -47896,6 +48748,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 30,
+    SeeHidden: 0,
     ImmuPoison: 100,
     Drops: [
       { Number: 3673, Percent: 7 },
@@ -47963,6 +48817,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1289,
@@ -47980,6 +48835,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1290,
@@ -47997,6 +48853,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1291,
@@ -48015,6 +48872,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SpellImmune: 30,
     Rlit: 150,
     Rcol: 150,
     Rfir: -25,
@@ -48079,6 +48937,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1293,
@@ -48156,6 +49015,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 1296,
@@ -48275,6 +49135,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     Drops: [
       { Number: 3638, Percent: 7 },
       { Number: 3602, Percent: 7 },
@@ -48334,6 +49195,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 30,
     MonsGuards: 2657,
     ImmuPoison: 100,
     Drops: [
@@ -48402,7 +49264,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     ImmuPoison: 100,
+    SeeHidden: 1,
     Drops: [
       { Number: 3706, Percent: 3 },
       { Number: 3635, Percent: 5 },
@@ -48509,7 +49373,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     NonLiving: 0,
+    SeeHidden: 0,
     Rfir: -50,
     Drops: [
       { Number: 1444, Percent: 100 },
@@ -48579,7 +49445,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     NonLiving: 0,
+    SeeHidden: 0,
     Rfir: -50,
     Drops: [
       { Number: 3396, Percent: 10 },
@@ -48852,6 +49720,7 @@ export const monsterData: Monster[] = [
     Rlit: -15,
     Rfir: -25,
     ImmuPoison: 100,
+    SeeHidden: 0,
     MonsGuards: 2116,
     Attacks: [
       {
@@ -48897,6 +49766,7 @@ export const monsterData: Monster[] = [
     Rlit: -15,
     Rfir: -15,
     ImmuPoison: 100,
+    SeeHidden: 0,
     Dodge: 50,
     Attacks: [
       {
@@ -49128,6 +49998,7 @@ export const monsterData: Monster[] = [
     Rlit: -15,
     Rfir: -15,
     ImmuPoison: 100,
+    SeeHidden: 0,
     Dodge: 50,
     Attacks: [
       {
@@ -49651,6 +50522,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Attacks: [
@@ -49689,6 +50561,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rlit: -50,
@@ -49729,6 +50602,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rlit: -50,
@@ -49770,6 +50644,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rlit: -50,
@@ -49809,6 +50684,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rlit: -50,
@@ -49848,6 +50724,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 75,
     ResistWater: 100,
     Rlit: -50,
@@ -49889,6 +50766,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 30,
     ResistWater: 100,
     Rfir: -25,
@@ -49929,6 +50807,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rfir: -25,
@@ -49969,6 +50848,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rfir: -25,
@@ -50017,6 +50897,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rfir: -25,
@@ -50065,6 +50946,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     ResistWater: 100,
     Rfir: -25,
     Rlit: 100,
@@ -50095,6 +50977,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 30,
     ResistWater: 100,
     Rfir: -25,
@@ -50135,6 +51018,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rfir: -25,
@@ -50176,6 +51060,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rfir: -25,
@@ -50225,6 +51110,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     Rfir: -25,
@@ -50266,6 +51152,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
     MonsGuards: 2156,
@@ -50315,8 +51202,10 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     ResistWater: 100,
+    SpellImmune: 50,
     Rfir: 100,
     Rlit: 100,
     Attacks: [
@@ -50511,6 +51400,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 510,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50551,6 +51441,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2511,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50591,6 +51482,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 513,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50631,6 +51523,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2514,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50671,6 +51564,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 516,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50711,6 +51605,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2517,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50751,6 +51646,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 519,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50791,6 +51687,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2520,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50831,6 +51728,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 522,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50871,6 +51769,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 525,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50911,6 +51810,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 528,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50951,6 +51851,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 531,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -50991,6 +51892,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 534,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -51031,6 +51933,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 537,
+    SeeHidden: 0,
     AntiMagic: 0,
     Attacks: [
       {
@@ -51408,6 +52311,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    SpellImmune: 45,
     Attacks: [
       {
         Name: "pounds you",
@@ -51740,6 +52644,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 50,
     Dodge: 30,
     Rfir: 25,
     Rcol: 25,
@@ -51798,6 +52703,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 20,
     Dodge: 30,
     Rfir: 25,
     Rcol: 25,
@@ -51856,6 +52762,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 50,
     Dodge: 30,
     Rfir: 25,
     Rcol: 25,
@@ -51914,6 +52821,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    SpellImmune: 50,
     Dodge: 30,
     Rfir: 25,
     Rcol: 25,
@@ -52079,6 +52987,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
+    SeeHidden: 1,
     Rfir: 200,
     Rcol: -30,
     Attacks: [
@@ -52250,6 +53160,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "slashes you",
@@ -52296,6 +53207,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "slashes you",
@@ -52342,6 +53254,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "slashes you",
@@ -52423,6 +53336,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Attacks: [
       {
         Name: "chomps you",
@@ -52450,6 +53364,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    Animal: 0,
+    SpellImmune: 50,
     Attacks: [
       {
         Name: "chomps you",
@@ -52614,6 +53530,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 4,
     Attacks: [
       {
         Name: "bites you",
@@ -52770,6 +53687,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 5,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "lashes you with a tentacle",
@@ -53684,6 +54602,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SeeHidden: 0,
+    SpellImmune: 40,
     Rcol: -50,
     ImmuPoison: 1,
     ResistWater: -25,
@@ -53751,6 +54671,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 45,
     Rcol: -50,
     Rfir: 125,
     MonsGuards: 2246,
@@ -53861,6 +54782,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -53918,6 +54840,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Rfir: 50,
+    SpellImmune: 5,
     Attacks: [
       {
         Name: "rips you with its talons",
@@ -54187,6 +55110,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    Animal: 0,
     Attacks: [
       {
         Name: "brutally rips you",
@@ -54250,6 +55174,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 45,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "claws you",
@@ -54296,6 +55221,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
+    SeeHidden: 1,
     ImmuPoison: 100,
     Dodge: 25,
     Attacks: [
@@ -54361,6 +55288,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
+    SeeHidden: 1,
     ImmuPoison: 100,
     Dodge: 30,
     Drops: [
@@ -54432,7 +55361,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     ImmuPoison: 100,
+    SeeHidden: 1,
     Drops: [
       { Number: 3706, Percent: 3 },
       { Number: 3635, Percent: 5 },
@@ -54502,6 +55433,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SeeHidden: 1,
     ImmuPoison: 100,
     NonLiving: 1,
     Dodge: 10,
@@ -54551,6 +55483,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Dodge: 10,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you with a tentacle",
@@ -54656,6 +55589,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you with its sharp beak",
@@ -54890,6 +55824,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 5,
     Rfir: -10,
     Attacks: [
@@ -54972,6 +55907,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    Animal: 0,
     Rlit: -10,
     Attacks: [
       {
@@ -55018,6 +55954,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     MonsGuards: 2351,
     Attacks: [
       {
@@ -55072,7 +56009,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 10,
+    ShockShield: 1,
     Attacks: [
       {
         Name: "impales you with its tusks",
@@ -55173,6 +56112,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ResistStone: -10,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -55219,6 +56159,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 25,
+    Animal: 0,
     Attacks: [
       {
         Name: "rakes you with a claw",
@@ -55355,6 +56296,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    SeeHidden: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -55409,6 +56351,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "pecks you",
@@ -55444,6 +56387,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 3548, Percent: 1 }],
     Attacks: [
       {
@@ -55480,6 +56424,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Rlit: -15,
     Attacks: [
       {
@@ -55508,6 +56453,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -15,
     Attacks: [
       {
@@ -55544,6 +56490,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -15,
     Attacks: [
       {
@@ -55891,6 +56838,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "shoots you",
@@ -56083,6 +57031,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 0,
     Rlit: -50,
     Attacks: [
@@ -56268,6 +57217,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -56304,6 +57254,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -56340,6 +57291,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -56516,6 +57468,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 3549, Percent: 100 }],
     Attacks: [
       {
@@ -56578,6 +57531,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -56614,10 +57568,13 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 3,
     Magical: 5,
+    SpellImmune: 40,
+    ShockShield: 10,
     Dodge: 70,
     Rlit: 10,
     Rcol: 10,
     Rfir: 10,
+    SeeHidden: 1,
     Drops: [{ Number: 3798, Percent: 4 }],
     Attacks: [
       {
@@ -57306,6 +58263,8 @@ export const monsterData: Monster[] = [
     Align: 4,
     Magical: 0,
     Dodge: 30,
+    SpellImmune: 40,
+    Freedom: 0,
     Drops: [
       { Number: 3339, Percent: 7 },
       { Number: 3034, Percent: 25 },
@@ -57349,7 +58308,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "rears and kicks you",
@@ -57385,7 +58346,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "rears and kicks you",
@@ -57585,6 +58548,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Dodge: 20,
     Attacks: [
       {
@@ -57623,6 +58587,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ImmuPoison: 999,
     Dodge: 10,
     Attacks: [
@@ -57960,6 +58925,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you",
@@ -57987,6 +58953,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 30,
     Attacks: [
       {
         Name: "pounds you",
@@ -58014,6 +58981,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 30,
     Attacks: [
       {
         Name: "impales you",
@@ -58041,6 +59009,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 0,
+    SpellImmune: 30,
     Attacks: [
       {
         Name: "shoots you",
@@ -58137,6 +59106,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 50,
+    SeeHidden: 0,
     Dodge: 50,
     NonLiving: 0,
     Rcol: 300,
@@ -58209,6 +59180,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SeeHidden: 1,
+    SpellImmune: 40,
     Rlit: -15,
     Rfir: -15,
     Rcol: -15,
@@ -58285,6 +59258,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 6,
     Dodge: 30,
+    SeeHidden: 0,
+    SpellImmune: 45,
     Drops: [
       { Number: 1249, Percent: 25 },
       { Number: 3722, Percent: 10 },
@@ -58346,6 +59321,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     NonLiving: 0,
+    SpellImmune: 20,
     Rfir: -100,
     Attacks: [
       {
@@ -58405,6 +59381,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     Rfir: -50,
+    SeeHidden: 0,
+    SpellImmune: 25,
     Drops: [{ Number: 1816, Percent: 3 }],
     Attacks: [
       {
@@ -58454,6 +59432,8 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     Rfir: -50,
+    SeeHidden: 0,
+    SpellImmune: 25,
     Attacks: [
       {
         Name: "claws you",
@@ -58624,6 +59604,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -10,
     Rfir: -10,
     ResistWater: 200,
@@ -58663,6 +59644,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -10,
     Rfir: -10,
     ResistWater: 200,
@@ -58712,6 +59694,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -50,
     ResistWater: 200,
     Rcol: -25,
@@ -58771,6 +59754,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -25,
     Rcol: -50,
     Rfir: -50,
@@ -58829,6 +59813,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 3,
+    Animal: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -58923,6 +59909,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 10,
     Rcol: -15,
     Attacks: [
@@ -59186,6 +60173,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -59222,6 +60210,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -59258,11 +60247,13 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Rcol: 200,
     Rlit: -20,
     Dodge: 45,
     Rfir: -20,
     ImmuPoison: 0,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "hurls a spectral orb at you",
@@ -59324,6 +60315,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Rcol: 200,
     Rlit: -20,
     Dodge: 45,
@@ -59387,6 +60379,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 30,
     Rfir: 100,
     ResistStone: 200,
     ResistWater: -80,
@@ -59439,6 +60432,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 39,
     Rfir: 100,
     ResistStone: 200,
     ResistWater: -70,
@@ -59497,6 +60491,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Rcol: 80,
     Rlit: 80,
     Rfir: 80,
@@ -59547,6 +60542,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     Rcol: 200,
     Rlit: -20,
     Dodge: 45,
@@ -59600,6 +60596,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "rips you with its sharp beak",
@@ -59665,6 +60662,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 510,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59704,6 +60702,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2511,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59743,6 +60742,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2511,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59782,6 +60782,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 513,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59821,6 +60822,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2514,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59860,6 +60862,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2514,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59899,6 +60902,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 516,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59938,6 +60942,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2517,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -59977,6 +60982,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2517,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60016,6 +61022,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 519,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60055,6 +61062,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2520,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60094,6 +61102,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 2520,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60133,6 +61142,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 522,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60172,6 +61182,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 525,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60211,6 +61222,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 528,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60250,6 +61262,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 534,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60289,6 +61302,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     MonsGuards: 537,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes you",
@@ -60327,6 +61341,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -60363,6 +61378,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     Rcol: 200,
     Rfir: -25,
     Drops: [{ Number: 3574, Percent: 1 }],
@@ -60450,6 +61466,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    Animal: 0,
     Rcol: 200,
     Rfir: -25,
     Drops: [{ Number: 3406, Percent: 1 }],
@@ -60490,6 +61507,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Rcol: 200,
     Rfir: -40,
@@ -60594,6 +61612,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rcol: 200,
     Rfir: -40,
     Drops: [{ Number: 3658, Percent: 1 }],
@@ -60719,6 +61738,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rcol: 200,
     Rfir: -25,
     Attacks: [
@@ -60750,6 +61770,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Rcol: 200,
+    SpellImmune: 20,
     Rfir: -35,
     Drops: [{ Number: 3575, Percent: 1 }],
     Attacks: [
@@ -60808,6 +61829,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Rfir: -25,
+    SpellImmune: 30,
     MonsGuards: 2545,
     Drops: [{ Number: 3576, Percent: 10 }],
     Attacks: [
@@ -60872,6 +61894,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 30,
     Rcol: 200,
     Rfir: -40,
     MonsGuards: 2539,
@@ -61073,6 +62096,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
     Attacks: [
       {
@@ -61109,6 +62133,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
     Attacks: [
       {
@@ -61145,6 +62170,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -75,
     ResistWater: 200,
     Attacks: [
@@ -61183,6 +62209,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ResistWater: 200,
     Rlit: -75,
     Dodge: 30,
@@ -61236,6 +62263,7 @@ export const monsterData: Monster[] = [
     Rcol: -25,
     Rlit: -100,
     ResistWater: 200,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "emerges and smashes you with its fist",
@@ -61333,6 +62361,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 4,
+    SpellImmune: 15,
     Dodge: 50,
     Drops: [{ Number: 3833, Percent: 1 }],
     Attacks: [
@@ -61394,6 +62423,7 @@ export const monsterData: Monster[] = [
     Rcol: -25,
     Rlit: -100,
     ResistWater: 200,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "emerges and smashes you with its fist",
@@ -61440,6 +62470,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
     Dodge: 90,
     Attacks: [
       {
@@ -61476,6 +62507,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
+    SeeHidden: 1,
   },
   {
     Number: 2563,
@@ -61574,6 +62607,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
   },
   {
     Number: 2567,
@@ -61608,6 +62642,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     Attacks: [
       {
@@ -61644,6 +62679,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -61680,6 +62716,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -61985,6 +63022,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "brutally guts you with its claws",
@@ -62037,6 +63075,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 10,
     Attacks: [
       {
@@ -62092,6 +63131,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 10,
+    SpellImmune: 18,
     Drops: [
       { Number: 3612, Percent: 1 },
       { Number: 3615, Percent: 1 },
@@ -62159,6 +63199,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 25,
+    SeeHidden: 0,
+    SpellImmune: 18,
     Drops: [
       { Number: 3612, Percent: 1 },
       { Number: 3615, Percent: 1 },
@@ -62225,6 +63267,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 4,
+    SpellImmune: 18,
     Dodge: 70,
     Drops: [{ Number: 3613, Percent: 1 }],
     Attacks: [
@@ -62424,6 +63467,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Drops: [{ Number: 3621, Percent: 1 }],
     Attacks: [
       {
@@ -62550,6 +63594,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 4,
+    SpellImmune: 20,
     Dodge: 40,
     Drops: [{ Number: 3622, Percent: 1 }],
     Attacks: [
@@ -62614,6 +63659,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2702,
@@ -62632,7 +63678,9 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     ImmuPoison: 100,
+    SpellImmune: 20,
     Dodge: 20,
+    SeeHidden: 1,
     Drops: [{ Number: 3752, Percent: 1 }],
     Attacks: [
       {
@@ -62696,6 +63744,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 10,
+    SpellImmune: 18,
     Drops: [{ Number: 3776, Percent: 1 }],
     Attacks: [
       {
@@ -62759,6 +63808,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 10,
     Attacks: [
       {
@@ -62796,7 +63846,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
+    SpellImmune: 18,
     Attacks: [
       {
         Name: "rears and kicks you",
@@ -62841,6 +63893,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SeeHidden: 0,
     ImmuPoison: 100,
     Attacks: [
       {
@@ -62949,6 +64002,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2719,
@@ -62966,6 +64020,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2720,
@@ -62983,6 +64038,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 4,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2721,
@@ -63041,6 +64097,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 20,
     Rcol: 200,
     ImmuPoison: 100,
     Dodge: 30,
@@ -63100,6 +64157,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 4,
+    SpellImmune: 18,
     Dodge: 70,
     Drops: [{ Number: 3614, Percent: 1 }],
     Attacks: [
@@ -63166,6 +64224,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 10,
+    SpellImmune: 18,
     Drops: [
       { Number: 3612, Percent: 1 },
       { Number: 3615, Percent: 1 },
@@ -63233,6 +64292,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 1,
     Magical: 4,
+    SpellImmune: 20,
     Dodge: 80,
     Drops: [{ Number: 3834, Percent: 1 }],
     Attacks: [
@@ -63282,6 +64342,7 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 18,
     Rfir: -60,
     Rlit: -50,
     Attacks: [
@@ -63421,6 +64482,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ResistWater: 200,
     Rlit: -75,
     Dodge: 20,
@@ -63460,6 +64522,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     Rlit: -75,
     ResistWater: 200,
@@ -63508,6 +64571,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 20,
     Attacks: [
       {
@@ -63541,6 +64605,7 @@ export const monsterData: Monster[] = [
     ImmuPoison: 0,
     Rlit: -100,
     ResistWater: 300,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "emerges and smashes you with its fist",
@@ -63596,6 +64661,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     ResistWater: 200,
     Rlit: -75,
     Dodge: 50,
@@ -63739,6 +64805,7 @@ export const monsterData: Monster[] = [
     Magical: 4,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 20,
     Rfir: -50,
     Attacks: [
       {
@@ -63832,6 +64899,7 @@ export const monsterData: Monster[] = [
     Align: 3,
     Magical: 0,
     Dodge: 60,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "carves you up in a flurry of steel",
@@ -63880,6 +64948,7 @@ export const monsterData: Monster[] = [
     Dodge: 20,
     ImmuPoison: 0,
     Rlit: -25,
+    Animal: 0,
     Attacks: [
       {
         Name: "swoops down and bites you",
@@ -63916,6 +64985,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 40,
     Attacks: [
       {
@@ -63946,6 +65016,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 1,
     Dodge: 90,
+    SpellImmune: 15,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -63983,6 +65055,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 2,
     Dodge: 90,
+    SpellImmune: 20,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "claws you",
@@ -64205,6 +65279,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -64259,6 +65334,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -64572,6 +65648,7 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Rlit: -35,
     ResistWater: 100,
     Attacks: [
@@ -64662,6 +65739,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 0,
+    Animal: 0,
     Rlit: -35,
     ResistWater: 100,
     Rcol: -25,
@@ -64702,7 +65780,9 @@ export const monsterData: Monster[] = [
     Align: 5,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Rlit: -35,
+    ShockShield: 3,
     Rcol: -25,
     Drops: [{ Number: 3633, Percent: 1 }],
     Attacks: [
@@ -64743,6 +65823,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Dodge: 35,
     Rlit: -25,
     Rcol: -25,
@@ -65145,6 +66226,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     NonLiving: 0,
+    SpellImmune: 20,
     Rfir: -50,
     Rcol: 200,
     ImmuPoison: 100,
@@ -65442,6 +66524,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
+    SpellImmune: 18,
     Attacks: [
       {
         Name: "brutally guts you with its claws",
@@ -65495,6 +66579,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     Dodge: 25,
+    SpellImmune: 18,
     Drops: [{ Number: 3612, Percent: 1 }],
     Attacks: [
       {
@@ -65564,6 +66649,7 @@ export const monsterData: Monster[] = [
     Rfir: -50,
     Rcol: 150,
     ImmuPoison: 100,
+    SeeHidden: 1,
     Dodge: 30,
     Attacks: [
       {
@@ -65633,6 +66719,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 1,
     Magical: 5,
+    SpellImmune: 20,
     NonLiving: 0,
     Dodge: 50,
     ImmuPoison: 100,
@@ -65787,6 +66874,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     NonLiving: 0,
     Rfir: -35,
     ImmuPoison: 0,
@@ -65839,11 +66927,13 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SpellImmune: 30,
     Rfir: -35,
     Rcol: 300,
     ImmuPoison: 100,
     Dodge: 50,
     Rlit: -10,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "burns you with its touch",
@@ -66105,6 +67195,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 10,
     NonLiving: 0,
     ImmuPoison: 0,
@@ -66144,6 +67235,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     ImmuPoison: 0,
     Dodge: 20,
     NonLiving: 0,
@@ -66243,6 +67335,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 95,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "bites you",
@@ -66280,6 +67373,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 80,
     ImmuPoison: 0,
     Attacks: [
@@ -66319,6 +67413,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 10,
     NonLiving: 0,
     ImmuPoison: 0,
@@ -66396,6 +67491,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 15,
     Dodge: 10,
     Drops: [
       { Number: 3703, Percent: 1 },
@@ -66448,6 +67544,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 15,
     Attacks: [
       {
         Name: "slashes you",
@@ -66494,6 +67591,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SeeHidden: 1,
     NonLiving: 0,
     Dodge: 50,
     Rcol: 200,
@@ -66537,6 +67635,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     Rcol: 200,
     Rfir: -25,
     NonLiving: 0,
@@ -66580,6 +67679,7 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     Rfir: -30,
     Rcol: 300,
+    SpellImmune: 25,
     Attacks: [
       {
         Name: "smashes you with a frozen fist",
@@ -66617,6 +67717,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
     Rcol: 200,
     Rfir: -25,
     MonsGuards: 2660,
@@ -66692,6 +67793,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    Animal: 0,
     ResistStone: 200,
     Rcol: 10,
     Rfir: 10,
@@ -66732,6 +67834,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 1,
+    SeeHidden: 1,
     ResistStone: 200,
     Attacks: [
       {
@@ -66876,6 +67979,7 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     Rfir: -20,
     Rcol: 150,
+    SpellImmune: 15,
     Drops: [{ Number: 3727, Percent: 18 }],
     Attacks: [
       {
@@ -67087,6 +68191,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     ImmuPoison: 0,
     ResistStone: -15,
     Attacks: [
@@ -67144,6 +68249,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     ImmuPoison: 1,
     Rfir: -10,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "darts forward, slashing you",
@@ -67199,6 +68305,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     ImmuPoison: 1,
     Rfir: -10,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "darts forward, slashing you",
@@ -67262,6 +68369,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     ImmuPoison: 1,
     Rfir: -10,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "darts forward, slashing you",
@@ -67311,6 +68419,7 @@ export const monsterData: Monster[] = [
     Dodge: 25,
     Rlit: -50,
     ResistWater: 300,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "emerges and smashes you with its fist",
@@ -67366,6 +68475,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     NonLiving: 0,
     ImmuPoison: 100,
     Attacks: [
@@ -67462,6 +68572,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ImmuPoison: 0,
+    Animal: 0,
     Rlit: -25,
     ResistWater: 100,
     Rfir: -15,
@@ -67544,6 +68655,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 30,
     Dodge: 30,
     Rfir: -10,
     ImmuPoison: 0,
@@ -67630,6 +68742,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     ResistWater: 200,
+    SpellImmune: 5,
     Dodge: 20,
     Drops: [
       { Number: 3737, Percent: 30 },
@@ -67701,6 +68814,7 @@ export const monsterData: Monster[] = [
     Rfir: 25,
     Rlit: -25,
     ResistStone: -25,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "rakes you with a claw",
@@ -67762,6 +68876,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Attacks: [
       {
         Name: "lashes you with its tail",
@@ -67808,6 +68923,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     Dodge: 25,
     ResistStone: 100,
+    SpellImmune: 18,
     ResistWater: -30,
     Rcol: -30,
     Drops: [
@@ -67965,6 +69081,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 3,
     Rlit: -15,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -68010,6 +69127,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 30,
     Attacks: [
       {
@@ -68050,6 +69168,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     Dodge: 25,
     ResistStone: 100,
+    SpellImmune: 18,
     ResistWater: -30,
     Rcol: -30,
     Drops: [
@@ -68119,6 +69238,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 0,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2691,
@@ -68273,6 +69393,7 @@ export const monsterData: Monster[] = [
     Rfir: 100,
     Rcol: 100,
     Rlit: 50,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "slashes into your flesh",
@@ -68364,6 +69485,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     ResistStone: 200,
     Rcol: 10,
     Rfir: 10,
@@ -68404,6 +69526,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    SpellImmune: 20,
     Rlit: -15,
     Dodge: 20,
     NonLiving: 0,
@@ -68462,7 +69585,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     ResistStone: 200,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "chomps you",
@@ -68544,6 +69669,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 20,
     Attacks: [
       {
@@ -68643,6 +69769,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2710,
@@ -68661,7 +69788,9 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     ImmuPoison: 100,
+    SpellImmune: 25,
     Dodge: 25,
+    SeeHidden: 1,
     NonLiving: 0,
     Attacks: [
       {
@@ -68725,6 +69854,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 10,
     NonLiving: 0,
     ImmuPoison: 100,
@@ -68767,6 +69897,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     Dodge: 25,
     NonLiving: 0,
+    SpellImmune: 18,
     ImmuPoison: 100,
     Rfir: -10,
     Attacks: [
@@ -68832,7 +69963,9 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 30,
+    SpellImmune: 18,
     NonLiving: 0,
     Attacks: [
       {
@@ -68880,8 +70013,10 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SeeHidden: 0,
     ImmuPoison: 100,
     NonLiving: 0,
+    SpellImmune: 20,
     Attacks: [
       {
         Name: "strikes you with a hoof",
@@ -68935,9 +70070,11 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 20,
     NonLiving: 0,
     ImmuPoison: 100,
+    SpellImmune: 18,
     Attacks: [
       {
         Name: "guts you with its beak",
@@ -69029,11 +70166,13 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SpellImmune: 30,
     Rfir: -35,
     Rcol: 300,
     ImmuPoison: 100,
     Dodge: 50,
     Rlit: -10,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "burns you with its touch",
@@ -69253,6 +70392,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     ImmuPoison: 0,
+    SpellImmune: 20,
     Rfir: -15,
     Attacks: [
       {
@@ -69316,6 +70456,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SeeHidden: 1,
     NonLiving: 0,
     Dodge: 50,
     Rcol: 200,
@@ -69401,6 +70542,8 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 0,
     Dodge: 80,
+    SpellImmune: 25,
+    SeeHidden: 0,
     Drops: [
       { Number: 3757, Percent: 7 },
       { Number: 3756, Percent: 10 },
@@ -69470,6 +70613,8 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
+    SeeHidden: 0,
     ImmuPoison: 0,
     NonLiving: 0,
     Dodge: 10,
@@ -69533,8 +70678,10 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     ImmuPoison: 100,
     NonLiving: 0,
+    SeeHidden: 0,
     Drops: [
       { Number: 3762, Percent: 7 },
       { Number: 3761, Percent: 10 },
@@ -69607,6 +70754,8 @@ export const monsterData: Monster[] = [
     Dodge: 40,
     ImmuPoison: 100,
     NonLiving: 0,
+    SpellImmune: 25,
+    SeeHidden: 0,
     Drops: [
       { Number: 3764, Percent: 7 },
       { Number: 3765, Percent: 7 },
@@ -69675,6 +70824,8 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     ImmuPoison: 100,
+    SeeHidden: 0,
+    SpellImmune: 30,
     Dodge: 40,
     MonsGuards: 2736,
     Drops: [
@@ -69822,6 +70973,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     NonLiving: 0,
     ImmuPoison: 100,
     Dodge: 40,
@@ -69883,6 +71035,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
+    SeeHidden: 1,
     ImmuPoison: 100,
     Dodge: 30,
     Drops: [
@@ -69993,6 +71147,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 15,
     Attacks: [
       {
@@ -70031,6 +71186,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 20,
     Attacks: [
       {
@@ -70067,6 +71223,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 5,
+    SpellImmune: 40,
+    SeeHidden: 1,
     Dodge: 10,
     ImmuPoison: 100,
     Drops: [{ Number: 3808, Percent: 5 }],
@@ -70125,6 +71283,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 25,
+    Animal: 0,
     Attacks: [
       {
         Name: "Physical",
@@ -70170,6 +71329,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -10,
     ResistWater: 100,
     ResistStone: -25,
@@ -70218,6 +71378,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "bites you",
@@ -70272,6 +71434,7 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 4,
     Dodge: 10,
+    SpellImmune: 18,
     Drops: [
       { Number: 3777, Percent: 1 },
       { Number: 3832, Percent: 1 },
@@ -70500,6 +71663,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     ImmuPoison: 0,
     Attacks: [
       {
@@ -70554,6 +71718,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Rlit: -25,
     ResistWater: 100,
     Rfir: -15,
@@ -70648,6 +71813,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 0,
+    Animal: 0,
     Dodge: 50,
     Rlit: -50,
     ResistWater: 200,
@@ -70698,6 +71864,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 4,
+    Animal: 0,
     Dodge: 25,
     Attacks: [
       {
@@ -70798,6 +71965,8 @@ export const monsterData: Monster[] = [
     Align: 6,
     Magical: 5,
     MonsGuards: 2749,
+    SeeHidden: 1,
+    SpellImmune: 30,
     Dodge: 35,
     Drops: [{ Number: 3806, Percent: 4 }],
     Attacks: [
@@ -70987,6 +72156,7 @@ export const monsterData: Monster[] = [
     Rfir: -50,
     Rcol: 150,
     ImmuPoison: 100,
+    SeeHidden: 1,
     Dodge: 30,
     Attacks: [
       {
@@ -71017,11 +72187,13 @@ export const monsterData: Monster[] = [
     Align: 2,
     Magical: 5,
     NonLiving: 0,
+    SpellImmune: 30,
     Rfir: -35,
     Rcol: 300,
     ImmuPoison: 100,
     Dodge: 50,
     Rlit: -10,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "burns your flesh with its touch",
@@ -71219,6 +72391,7 @@ export const monsterData: Monster[] = [
     Rfir: -15,
     Rlit: -5,
     ImmuPoison: 100,
+    ShockShield: 3,
     Attacks: [
       {
         Name: "smashes you with its fist",
@@ -71258,6 +72431,7 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     Rfir: -10,
     ImmuPoison: 100,
+    SpellImmune: 15,
     Drops: [{ Number: 3783, Percent: 1 }],
     Attacks: [
       {
@@ -71388,6 +72562,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 35,
+    SeeHidden: 1,
     ImmuPoison: 100,
     Dodge: 25,
     Drops: [
@@ -71458,6 +72634,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 25,
     NonLiving: 0,
     ImmuPoison: 100,
     Dodge: 40,
@@ -71519,8 +72696,10 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     ImmuPoison: 0,
     ResistStone: 200,
+    SpellImmune: 20,
     Rcol: -15,
     ResistWater: -20,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "batters you with a stone fist",
@@ -71565,6 +72744,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 6,
     Magical: 5,
+    SpellImmune: 20,
     Drops: [{ Number: 3778, Percent: 1 }],
     Attacks: [
       {
@@ -71665,6 +72845,7 @@ export const monsterData: Monster[] = [
     Rfir: -20,
     ImmuPoison: 100,
     Dodge: 25,
+    SeeHidden: 1,
     Attacks: [
       {
         Name: "whips you with a tentacle",
@@ -71713,8 +72894,10 @@ export const monsterData: Monster[] = [
     NonLiving: 0,
     ImmuPoison: 0,
     ResistStone: 100,
+    SpellImmune: 20,
     Rcol: -25,
     ResistWater: -25,
+    SeeHidden: 0,
     Attacks: [
       {
         Name: "batters you with a stone fist",
@@ -71769,6 +72952,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 20,
     Dodge: 25,
     Rfir: -10,
     ImmuPoison: 0,
@@ -71911,12 +73095,15 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    Animal: 0,
     Dodge: 25,
+    SpellImmune: 40,
     Rlit: -20,
     ResistStone: -15,
     Rcol: 100,
     ResistWater: 300,
     MonsGuards: 2771,
+    SeeHidden: 1,
     Drops: [{ Number: 3799, Percent: 4 }],
     Attacks: [
       {
@@ -71983,6 +73170,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SeeHidden: 1,
+    SpellImmune: 30,
     Dodge: 20,
     Drops: [{ Number: 3802, Percent: 4 }],
     Attacks: [
@@ -72049,6 +73238,7 @@ export const monsterData: Monster[] = [
     Magical: 5,
     NonLiving: 0,
     ImmuPoison: 100,
+    SpellImmune: 45,
     Dodge: 70,
     Attacks: [
       {
@@ -72113,6 +73303,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
     ImmuPoison: 99,
     Dodge: 100,
     Attacks: [
@@ -72142,7 +73333,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     ImmuPoison: 100,
+    SeeHidden: 0,
     Rfir: 10,
     Rcol: 10,
     Rlit: 10,
@@ -72211,6 +73404,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
     ImmuPoison: 100,
     Dodge: 10,
     Drops: [{ Number: 3807, Percent: 3 }],
@@ -72278,6 +73472,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2786,
@@ -72340,6 +73535,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2788,
@@ -72357,6 +73553,7 @@ export const monsterData: Monster[] = [
     Undead: 1,
     Align: 2,
     Magical: 5,
+    SpellImmune: 30,
     Dodge: 25,
     ImmuPoison: 100,
     NonLiving: 1,
@@ -72522,6 +73719,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
+    Freedom: 0,
     Attacks: [
       {
         Name: "slams into you",
@@ -72566,6 +73765,8 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 5,
+    SpellImmune: 40,
+    Freedom: 0,
     Attacks: [
       {
         Name: "slams into you",
@@ -72610,6 +73811,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2794,
@@ -72627,7 +73829,9 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 2,
     Magical: 6,
+    SpellImmune: 50,
     ImmuPoison: 100,
+    SeeHidden: 1,
     Dodge: 70,
     Drops: [
       { Number: 3818, Percent: 1 },
@@ -72751,6 +73955,7 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
   {
     Number: 2797,
@@ -72768,5 +73973,6 @@ export const monsterData: Monster[] = [
     Undead: 0,
     Align: 3,
     Magical: 999,
+    SpellImmune: 999,
   },
 ];

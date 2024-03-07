@@ -16,11 +16,14 @@ import {
   setGlobalFilter,
   setLevelFilter,
 } from '../components/DataTable';
-import { allWeaponValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
-import { getNumberString } from '../utils/formatting';
+import {
+  expandKeyValueJSX,
+  getRemainingPropertiesTable,
+  weaponTableSkipKeys,
+} from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { TextSearch } from '../components/TextSearch';
@@ -32,11 +35,6 @@ import { WeaponPanel } from '../components/weapons/WeaponPanel';
 import { WeaponTypes } from '../utils/data-types';
 
 const defaultWeaponTypeFilter = [0, 1, 2, 3];
-
-const getClassList = (values: number[]): string =>
-  values
-    .map((value) => classData.find((cls) => cls.Number === value).Name)
-    .join(' / ');
 
 const columnHelper = createColumnHelper<Weapon>();
 
@@ -102,34 +100,15 @@ const columns = [
   columnHelper.accessor('Crits', {
     cell: (info) => info.getValue(),
   }),
-  columnHelper.accessor('Limit', {
-    cell: (info) => info.getValue(),
-  }),
   columnHelper.accessor('Magical', {
+    header: 'Mag',
     cell: (info) => info.getValue(),
   }),
   columnHelper.display({
     header: 'Abilities',
     cell: (info) => {
-      const combinedValues = allWeaponValuesAbilities.reduce(
-        (curr: string, mapKey: number) => {
-          const key: keyof Weapon = specialProperties.get(mapKey);
-          if (info.row.original.hasOwnProperty(key)) {
-            if (key === 'ClassOk') {
-              curr += `${getClassList(info.row.original[key])} Ok, `;
-            } else if (key === 'Classes') {
-              curr += `${getClassList(info.row.original[key])} Only, `;
-            } else {
-              curr += `${key} ${getNumberString(info.row.original[key])}, `;
-            }
-          }
-
-          return curr;
-        },
-        '',
-      );
-
-      return combinedValues.replace(/,\s*$/, '');
+      const item = info.row.original;
+      return getRemainingPropertiesTable(item, weaponTableSkipKeys);
     },
   }),
 ];
@@ -202,8 +181,9 @@ export function WeaponsPage() {
     enableRowSelection: true,
     enableMultiRowSelection: false,
     onRowSelectionChange: (select) => {
-      const val = Object.keys(select())[0];
-      navigate(`/weapons/${val}`, { replace: true });
+      if (typeof select !== 'function') return;
+      const val = Object.keys(select({}))[0];
+      navigate(val, { replace: true });
     },
     onColumnFiltersChange: setColumnFilters,
     onColumnVisibilityChange: setColumnVisibility,
@@ -293,7 +273,7 @@ export function WeaponsPage() {
           </label>
         </div>
         <ScrollContainer>
-          <DataTable highlightEquipment table={table} />
+          <DataTable highlightEquipment highlightRoute table={table} />
         </ScrollContainer>
       </MainPanel>
       <SidePanel>

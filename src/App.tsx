@@ -53,6 +53,13 @@ export function App({ children }: AppProps) {
           <A
             activeClass="text-blue-400"
             inactiveClass="text-neutral-100"
+            href="/spells"
+          >
+            Spells
+          </A>
+          <A
+            activeClass="text-blue-400"
+            inactiveClass="text-neutral-100"
             href="/monsters"
           >
             Monsters

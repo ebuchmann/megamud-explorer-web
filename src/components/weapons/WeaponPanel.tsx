@@ -5,6 +5,10 @@ import { weaponData } from '../../data';
 import { Show } from 'solid-js';
 import { WeaponTypes } from '../../utils/data-types';
 import { ReferencesPanel } from '../references/ReferencesPanel';
+import {
+  getRemainingProperties,
+  weaponTableSkipKeys,
+} from '../../utils/formatting';
 
 export function WeaponPanel() {
   const params = useParams();
@@ -46,12 +50,19 @@ export function WeaponPanel() {
           </div>
           <div>Accuracy</div>
           <div>{weapon()?.Accy}</div>
-          <div>BS Accuracy</div>
-          <div>{weapon()?.BsAccu || `Can't backstab`}</div>
-          <div>Crits</div>
-          <div>{weapon()?.Crits}</div>
-          <div>Magical</div>
-          <div>{weapon()?.Magical}</div>
+          <Show when={weapon()?.Crits}>
+            <div>Crits</div>
+            <div>{weapon()?.Crits}</div>
+          </Show>
+          <Show when={!weapon()?.hasOwnProperty('BsAccu')}>
+            <div>Bs Accu</div>
+            <div>Can't backstab</div>
+          </Show>
+          <Show when={weapon()?.Magical}>
+            <div>Magical</div>
+            <div>{weapon()?.Magical}</div>
+          </Show>
+          {getRemainingProperties(weapon()!, weaponTableSkipKeys)}
         </div>
         <ReferencesPanel item={weapon} />
       </Show>

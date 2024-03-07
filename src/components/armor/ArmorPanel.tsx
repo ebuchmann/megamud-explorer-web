@@ -3,8 +3,12 @@ import { Armor } from '../../types';
 import { createEffect, createSignal } from 'solid-js';
 import { armorData } from '../../data';
 import { Show } from 'solid-js';
-import { WeaponTypes } from '../../utils/data-types';
+import { ArmorTypes, WornSpots } from '../../utils/data-types';
 import { ReferencesPanel } from '../references/ReferencesPanel';
+import {
+  armorPanelSkipKeys,
+  getRemainingProperties,
+} from '../../utils/formatting';
 
 export function ArmorPanel() {
   const params = useParams();
@@ -26,18 +30,11 @@ export function ArmorPanel() {
           <div>
             {armor()?.Name} ({armor()?.Number})
           </div>
+          <div>Worn</div>
+          <div>{WornSpots[armor()!.Worn]}</div>
           <div>Type</div>
-          <div>{WeaponTypes[armor()!.WeaponType]}</div>
-          <div>Damage</div>
-          <div>
-            {armor()?.Min} - {armor()?.Max}
-          </div>
-          <div>Speed</div>
-          <div>{armor()?.Speed}</div>
-          <div>Min Level</div>
-          <div>{armor()?.MinLevel}</div>
-          <div>Min Strength</div>
-          <div>{armor()?.StrReq}</div>
+          <div>{ArmorTypes[armor()!.ArmourType]}</div>
+
           <div>Encum</div>
           <div>{armor()?.Encum}</div>
           <div>AC/DR</div>
@@ -45,10 +42,11 @@ export function ArmorPanel() {
             {(armor()?.ArmourClass ?? 0) / 10}/
             {(armor()?.DamageResist ?? 0) / 10}
           </div>
-          <div>Crits</div>
-          <div>{armor()?.Crits}</div>
-          <div>Magical</div>
-          <div>{armor()?.Magical}</div>
+          <Show when={armor()?.Crits}>
+            <div>Crits</div>
+            <div>{armor()?.Crits}</div>
+          </Show>
+          {getRemainingProperties(armor()!, armorPanelSkipKeys)}
         </div>
         <ReferencesPanel item={armor} />
       </Show>

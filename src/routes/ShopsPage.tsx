@@ -20,9 +20,6 @@ import { ShopPanel } from '../components/shops/ShopPanel';
 const columnHelper = createColumnHelper<Shop>();
 
 const columns = [
-  columnHelper.accessor('Number', {
-    cell: (info) => info.getValue(),
-  }),
   columnHelper.accessor('Name', {
     cell: (info) => {
       const { ShopType, MinLVL, MaxLVL } = info.row.original;
@@ -48,8 +45,9 @@ export function ShopsPage() {
     enableRowSelection: true,
     enableMultiRowSelection: false,
     onRowSelectionChange: (select) => {
-      const val = Object.keys(select())[0];
-      navigate(`/shops/${val}`, { replace: true });
+      if (typeof select !== 'function') return;
+      const val = Object.keys(select({}))[0];
+      navigate(val, { replace: true });
     },
     getRowId: (row) => String(row.Number),
     getCoreRowModel: getCoreRowModel(),
@@ -69,7 +67,7 @@ export function ShopsPage() {
         </div>
 
         <ScrollContainer>
-          <DataTable table={table} />
+          <DataTable highlightRoute table={table} />
         </ScrollContainer>
       </MainPanel>
       <SidePanel width="w-6/12">

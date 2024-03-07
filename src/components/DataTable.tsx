@@ -2,6 +2,8 @@ import { Table, flexRender } from '@tanstack/solid-table';
 import { For } from 'solid-js';
 import { selectedCharacterData } from '../state/character-state';
 import { createSignal } from 'solid-js';
+import { useParams } from '@solidjs/router';
+import classNames from 'classnames';
 
 export const [levelFilter, setLevelFilter] = createSignal<string>('');
 export const [globalFilter, setGlobalFilter] = createSignal<string>('');
@@ -9,12 +11,17 @@ export const [globalFilter, setGlobalFilter] = createSignal<string>('');
 type TableProps<T> = {
   table: Table<T>;
   highlightEquipment?: boolean;
+  highlightRoute?: boolean;
 };
 
 export function DataTable<T extends { Number: number }>({
   highlightEquipment = false,
+  highlightRoute = false,
   table,
 }: TableProps<T>) {
+  const params = useParams();
+  console.log(params.number);
+
   return (
     <table class="w-full table-auto">
       <thead class="sticky top-0 bg-gray-900">
@@ -52,15 +59,18 @@ export function DataTable<T extends { Number: number }>({
         <For each={table.getRowModel().rows}>
           {(row) => (
             <tr
-              onClick={() => row.getCanSelect() && row.toggleSelected()}
-              class={`hover:bg-cyan-900 border-b-stone-600 border-b ${
-                highlightEquipment &&
-                selectedCharacterData() &&
-                Object.values(selectedCharacterData()!.worn).some(
-                  (val) => val === row.original.Number,
-                ) &&
-                'font-bold text-cyan-100'
-              } ${row.getIsSelected() && 'font-bold text-cyan-100'} `}
+              onClick={row.getToggleSelectedHandler()}
+              class={classNames({
+                'font-bold text-cyan-100':
+                  highlightEquipment &&
+                  selectedCharacterData() &&
+                  Object.values(selectedCharacterData()!.worn).some(
+                    (val) => val === row.original.Number,
+                  ),
+                'font-bold text-amber-100':
+                  highlightRoute &&
+                  Number(params.number) === row.original.Number,
+              })}
             >
               <For each={row.getVisibleCells()}>
                 {(cell) => (

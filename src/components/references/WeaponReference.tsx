@@ -10,7 +10,7 @@ export function WeaponReference({ number }: WeaponReferenceProps) {
 
   return (
     <A
-      class="decoration-dotted underline underline-offset-2"
+      class="decoration-dotted underline underline-offset-2 hover:text-sky-300"
       href={`/weapons/${number}`}
     >
       {weapon?.Name}

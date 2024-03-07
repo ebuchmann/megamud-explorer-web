@@ -12,8 +12,7 @@ import { DataTable } from '../components/DataTable';
 import { ItemTypes } from '../utils/data-types';
 import { createSignal } from 'solid-js';
 import { TextSearch } from '../components/TextSearch';
-import { expandKeyValue } from '../utils/formatting';
-import { allItemValuesAbilities, specialProperties } from '../utils/values';
+import { expandKeyValueJSX } from '../utils/formatting';
 import { SidePanel } from '../components/layout/SidePanel';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';
@@ -22,9 +21,6 @@ import { ItemPanel } from '../components/items/ItemPanel';
 const columnHelper = createColumnHelper<Item>();
 
 const columns = [
-  columnHelper.accessor('Number', {
-    cell: (info) => info.getValue(),
-  }),
   columnHelper.accessor('Name', {
     cell: (info) => info.getValue(),
   }),
@@ -46,21 +42,39 @@ const columns = [
   columnHelper.display({
     header: 'Abilities',
     cell: (info) => {
-      const combinedValues = allItemValuesAbilities.reduce(
-        (curr: string, mapKey: number) => {
-          const key: keyof Item = specialProperties.get(mapKey);
-          if (info.row.original.hasOwnProperty(key)) {
-            curr += `${expandKeyValue(key, info.row.original[key])}, `;
-          }
+      const item = info.row.original;
 
-          return curr;
-        },
-        '',
-      );
+      const properties = Object.keys(item)
+        .filter((key) => !skipKeys.includes(key))
+        .map((key) => key);
 
-      return combinedValues.replace(/,\s*$/, '');
+      const formatted = properties.map((property, index) => {
+        const value = item[property as keyof Omit<Item, 'Obtained'>];
+        if (value === undefined) return;
+        const lastItem = properties.length === index + 1;
+        return (
+          <>
+            {expandKeyValueJSX(property, value, item)}
+            {!lastItem && ', '}
+          </>
+        );
+      });
+
+      return formatted;
     },
   }),
+];
+
+const skipKeys = [
+  'Number',
+  'Name',
+  'ItemType',
+  'UseCount',
+  'Price',
+  'Currency',
+  'Encum',
+  'Magical',
+  'Obtained',
 ];
 
 export function ItemsPage() {
@@ -75,8 +89,9 @@ export function ItemsPage() {
     enableRowSelection: true,
     enableMultiRowSelection: false,
     onRowSelectionChange: (select) => {
-      const val = Object.keys(select())[0];
-      navigate(`/items/${val}`, { replace: true });
+      if (typeof select !== 'function') return;
+      const val = Object.keys(select({}))[0];
+      navigate(val, { replace: true });
     },
     getRowId: (row) => String(row.Number),
     getCoreRowModel: getCoreRowModel(),
@@ -96,7 +111,7 @@ export function ItemsPage() {
         </div>
 
         <ScrollContainer>
-          <DataTable table={table} />
+          <DataTable highlightRoute table={table} />
         </ScrollContainer>
       </MainPanel>
       <SidePanel>

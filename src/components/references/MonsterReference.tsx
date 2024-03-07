@@ -10,7 +10,7 @@ export function MonsterReference({ number }: MonsterReferenceProps) {
 
   return (
     <A
-      class="decoration-dotted underline underline-offset-2"
+      class="decoration-dotted underline underline-offset-2 hover:text-sky-300"
       href={`/monsters/${number}`}
     >
       {monster?.Name}

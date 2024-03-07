@@ -20,9 +20,13 @@ import { allArmorValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
-import { ColumnVisibilityMenu } from '../components/ColumnVisibilityMenu';
 import { ArmorTypes, WornSpots } from '../utils/data-types';
-import { getNumberString } from '../utils/formatting';
+import {
+  armorTableSkipKeys,
+  getClassList,
+  getNumberString,
+  getRemainingPropertiesTable,
+} from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { Armor } from '../types';
@@ -33,11 +37,6 @@ import { SidePanel } from '../components/layout/SidePanel';
 import { ArmorPanel } from '../components/armor/ArmorPanel';
 
 const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
-
-const getClassList = (values: number[]): string =>
-  values
-    .map((value) => classData?.find((cls) => cls.Number === value).Name)
-    .join(' / ');
 
 const columnHelper = createColumnHelper<Armor>();
 
@@ -90,25 +89,8 @@ const columns = [
   columnHelper.display({
     header: 'Abilities',
     cell: (info) => {
-      const combinedValues = allArmorValuesAbilities.reduce(
-        (curr: string, mapKey: number) => {
-          const key: keyof Armor = specialProperties.get(mapKey);
-          if (info.row.original.hasOwnProperty(key)) {
-            if (key === 'ClassOk') {
-              curr += `${getClassList(info.row.original[key])} Ok, `;
-            } else if (key === 'Classes') {
-              curr += `${getClassList(info.row.original[key])} Only, `;
-            } else {
-              curr += `${key} ${getNumberString(info.row.original[key])}, `;
-            }
-          }
-
-          return curr;
-        },
-        '',
-      );
-
-      return combinedValues.replace(/,\s*$/, '');
+      const item = info.row.original;
+      return getRemainingPropertiesTable(item, armorTableSkipKeys);
     },
   }),
 ];
@@ -169,8 +151,9 @@ export function ArmorPage() {
     enableRowSelection: true,
     enableMultiRowSelection: false,
     onRowSelectionChange: (select) => {
-      const val = Object.keys(select())[0];
-      navigate(`/armor/${val}`, { replace: true });
+      if (typeof select !== 'function') return;
+      const val = Object.keys(select({}))[0];
+      navigate(val, { replace: true });
     },
     onColumnFiltersChange: setColumnFilters,
     onColumnVisibilityChange: setColumnVisibility,
@@ -275,7 +258,7 @@ export function ArmorPage() {
           </For>
         </div>
         <ScrollContainer>
-          <DataTable highlightEquipment table={table} />
+          <DataTable highlightEquipment highlightRoute table={table} />
         </ScrollContainer>
       </MainPanel>
       <SidePanel>

@@ -59,10 +59,6 @@ const defaultColumnVisibility = {
 
 export function MonstersPage() {
   const navigate = useNavigate();
-  const params = useParams();
-
-  const defaultRowSelection = params.number ? { [params.number]: true } : {};
-
   const [searchValue, setSearchValue] = createSignal<string>('');
   // const [columnFilters, setColumnFilters] = createSignal<ColumnFiltersState>(
   //   [],
@@ -71,8 +67,6 @@ export function MonstersPage() {
     createSignal<VisibilityState>(defaultColumnVisibility),
     { name: 'monster-table-columns' },
   );
-  const [selectedRow, setSelectedRow] =
-    createSignal<RowSelectionState>(defaultRowSelection);
 
   const table = createSolidTable({
     get data() {
@@ -83,28 +77,20 @@ export function MonstersPage() {
       get columnVisibility() {
         return columnVisibility();
       },
-      get rowSelection() {
-        return selectedRow();
-      },
     },
     // onColumnFiltersChange: setColumnFilters,
     getRowId: (row) => String(row.Number),
     enableRowSelection: true,
     enableMultiRowSelection: false,
-    onRowSelectionChange: setSelectedRow,
+    onRowSelectionChange: (select) => {
+      if (typeof select !== 'function') return;
+      const val = Object.keys(select({}))[0];
+      navigate(val, { replace: true });
+    },
     onColumnVisibilityChange: setColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
-  });
-
-  // Navigate on row selection
-  createEffect(() => {
-    const row = selectedRow();
-    if (row) {
-      const number = Object.keys(row)[0];
-      if (number) navigate(`/monsters/${number}`, { replace: true });
-    }
   });
 
   return (
@@ -118,7 +104,7 @@ export function MonstersPage() {
           />
         </div>
         <ScrollContainer>
-          <DataTable table={table} />
+          <DataTable highlightRoute table={table} />
         </ScrollContainer>
       </MainPanel>
       <SidePanel>

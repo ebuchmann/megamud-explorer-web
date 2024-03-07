@@ -10,7 +10,7 @@ export function ArmorReference({ number }: ArmorReferenceProps) {
 
   return (
     <A
-      class="decoration-dotted underline underline-offset-2"
+      class="decoration-dotted underline underline-offset-2 hover:text-sky-300"
       href={`/armor/${number}`}
     >
       {armor?.Name}

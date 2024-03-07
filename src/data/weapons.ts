@@ -10492,6 +10492,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 964,
     "% Spell": 100,
     "Del@Maint": 0,
+    "Remove@Maint": 0,
     ClassOk: [5, 12, 15],
     Obtained: {},
   },

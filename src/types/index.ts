@@ -173,9 +173,11 @@ export type Item = {
   Magical?: number;
   Quality?: number;
 
+  LearnSp?: number;
   Recharge?: number;
   CastsSp?: number;
   'Del@Maint'?: number;
+  'Remove@Maint'?: number;
   Stealth?: number;
   MinLevel?: number;
   ClassOk?: number[];
@@ -328,6 +330,12 @@ export type Spell = {
   Dur: number;
   AttType: number;
   TypeOfResists: number;
+  Learnable: number;
+  ReqLevel: number;
+  Magery: number;
+  MageryLVL: number;
+  ManaCost: number;
+  Short?: string;
   NonMagicalSpell?: number;
   RemovesSpell?: number[];
   'Damage(-MR)'?: number;
@@ -410,3 +418,5 @@ export type Shop = {
   ClassRest: number;
   Inventory?: ShopInventory[];
 };
+
+export type AllItemTypes = Weapon | Armor | Item;
