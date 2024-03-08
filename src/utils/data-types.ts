@@ -102,3 +102,13 @@ export const ShopTypes = [
 ];
 
 export const WeaponTypes = ['1H Blunt', '2H Blunt', '1H Sharp', '2H Sharp'];
+
+export const AttackType = [
+  'Cold',
+  'Hot',
+  'Stone',
+  'Lightning',
+  'Normal',
+  'Water',
+  'Poison',
+];

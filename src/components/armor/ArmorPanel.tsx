@@ -42,10 +42,6 @@ export function ArmorPanel() {
             {(armor()?.ArmourClass ?? 0) / 10}/
             {(armor()?.DamageResist ?? 0) / 10}
           </div>
-          <Show when={armor()?.Crits}>
-            <div>Crits</div>
-            <div>{armor()?.Crits}</div>
-          </Show>
           {getRemainingProperties(armor()!, armorPanelSkipKeys)}
         </div>
         <ReferencesPanel item={armor} />

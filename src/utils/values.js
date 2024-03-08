@@ -13,11 +13,11 @@ export const specialProperties = new Map([
   [13, 'Illu'],
   [14, 'RoomIllu'],
   [15, 'AlterHunger'],
-  [17, 'Damage(-MR)'], // Damage(on armour)?
+  [17, 'Damage(-MR)'],
   [18, 'Heal'],
   [19, 'Poison'],
   [20, 'CurePoison'],
-  [21, 'ImmuPoison'], // armor
+  [21, 'ImmuPoison'],
   [22, 'Accuracy'],
   [23, 'AffectUndead'],
   [24, 'ProtEvil'],
@@ -146,6 +146,8 @@ export const specialProperties = new Map([
   [1003, 'Traps'],
   [1004, 'Tracking'],
   [1103, 'Shadowrest'],
+  [1109, 'Enchant'],
+  [1113, 'VileWard'],
   [9998, 'HPPerLVL'],
   [9999, 'Classes'],
 ]);

@@ -335,6 +335,13 @@ export type Spell = {
   Magery: number;
   MageryLVL: number;
   ManaCost: number;
+  Cap: number;
+  MaxIncLVLs: number;
+  MaxInc: number;
+  MinIncLVLs: number;
+  MinInc: number;
+  DurIncLVLs: number;
+  DurInc: number;
   Short?: string;
   NonMagicalSpell?: number;
   RemovesSpell?: number[];
@@ -398,6 +405,7 @@ export type Spell = {
   'EndCast%'?: number;
   'Alter HP'?: number;
   HitMagic?: number;
+  Enchant?: number;
 };
 
 export type ShopInventory = {

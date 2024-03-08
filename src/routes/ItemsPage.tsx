@@ -12,7 +12,11 @@ import { DataTable } from '../components/DataTable';
 import { ItemTypes } from '../utils/data-types';
 import { createSignal } from 'solid-js';
 import { TextSearch } from '../components/TextSearch';
-import { expandKeyValueJSX } from '../utils/formatting';
+import {
+  expandKeyValueJSX,
+  getRemainingPropertiesTable,
+  itemSkipKeys,
+} from '../utils/formatting';
 import { SidePanel } from '../components/layout/SidePanel';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';
@@ -41,40 +45,9 @@ const columns = [
   }),
   columnHelper.display({
     header: 'Abilities',
-    cell: (info) => {
-      const item = info.row.original;
-
-      const properties = Object.keys(item)
-        .filter((key) => !skipKeys.includes(key))
-        .map((key) => key);
-
-      const formatted = properties.map((property, index) => {
-        const value = item[property as keyof Omit<Item, 'Obtained'>];
-        if (value === undefined) return;
-        const lastItem = properties.length === index + 1;
-        return (
-          <>
-            {expandKeyValueJSX(property, value, item)}
-            {!lastItem && ', '}
-          </>
-        );
-      });
-
-      return formatted;
-    },
+    cell: (info) =>
+      getRemainingPropertiesTable(info.row.original, itemSkipKeys),
   }),
-];
-
-const skipKeys = [
-  'Number',
-  'Name',
-  'ItemType',
-  'UseCount',
-  'Price',
-  'Currency',
-  'Encum',
-  'Magical',
-  'Obtained',
 ];
 
 export function ItemsPage() {

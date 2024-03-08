@@ -106,10 +106,8 @@ const columns = [
   }),
   columnHelper.display({
     header: 'Abilities',
-    cell: (info) => {
-      const item = info.row.original;
-      return getRemainingPropertiesTable(item, weaponTableSkipKeys);
-    },
+    cell: (info) =>
+      getRemainingPropertiesTable(info.row.original, weaponTableSkipKeys),
   }),
 ];
 
@@ -164,7 +162,10 @@ export function WeaponsPage() {
       }
 
       // Warrior, Witch, Pally, Ninja, Ranger
-      if (weaponType === 8) return true;
+      if (weaponType === 8) {
+        if (cls?.AntiMagic === 0 && (original?.Magical ?? 0) > 0) return false;
+        return true;
+      }
 
       // 1H only
       if (

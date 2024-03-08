@@ -5,6 +5,7 @@ import { itemData } from '../../data';
 import { Show } from 'solid-js';
 import { CurrencyTypes, ItemTypes } from '../../utils/data-types';
 import { ReferencesPanel } from '../references/ReferencesPanel';
+import { getRemainingProperties, itemSkipKeys } from '../../utils/formatting';
 
 export function ItemPanel() {
   const params = useParams();
@@ -42,10 +43,7 @@ export function ItemPanel() {
             <div>Magical</div>
             <div>{item()?.Magical}</div>
           </Show>
-          <Show when={item()?.MinLevel}>
-            <div>Min Level</div>
-            <div>{item()?.MinLevel}</div>
-          </Show>
+          {getRemainingProperties(item()!, itemSkipKeys)}
         </div>
         <ReferencesPanel item={item} />
       </Show>

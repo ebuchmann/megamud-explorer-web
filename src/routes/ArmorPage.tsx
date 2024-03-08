@@ -16,15 +16,12 @@ import {
   setGlobalFilter,
   setLevelFilter,
 } from '../components/DataTable';
-import { allArmorValuesAbilities, specialProperties } from '../utils/values';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
 import { ArmorTypes, WornSpots } from '../utils/data-types';
 import {
   armorTableSkipKeys,
-  getClassList,
-  getNumberString,
   getRemainingPropertiesTable,
 } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
@@ -86,12 +83,14 @@ const columns = [
   columnHelper.accessor('Crits', {
     cell: (info) => info.getValue(),
   }),
+  columnHelper.accessor('Magical', {
+    header: 'Mag',
+    cell: (info) => info.getValue(),
+  }),
   columnHelper.display({
     header: 'Abilities',
-    cell: (info) => {
-      const item = info.row.original;
-      return getRemainingPropertiesTable(item, armorTableSkipKeys);
-    },
+    cell: (info) =>
+      getRemainingPropertiesTable(info.row.original, armorTableSkipKeys),
   }),
 ];
 
@@ -143,8 +142,10 @@ export function ArmorPage() {
       if (classArmorType === 2 && classArmorType >= original.ArmourType)
         return true;
       // Others
-      if (classArmorType >= original.ArmourType && original.ArmourType !== 2)
+      if (classArmorType >= original.ArmourType && original.ArmourType !== 2) {
+        if (cls?.AntiMagic === 0 && (original?.Magical ?? 0) > 0) return false;
         return true;
+      }
 
       return false;
     },

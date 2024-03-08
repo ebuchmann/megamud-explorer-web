@@ -8257,6 +8257,7 @@ export const armorData: Armor[] = [
     Stealth: 15,
     Magical: 1,
     MaxDamage: 1,
+    VileWard: 25,
     NotGood: 1,
     Obtained: {
       buy: [120, 251],
@@ -9693,6 +9694,7 @@ export const armorData: Armor[] = [
     "S.C.": 10,
     NotGood: 0,
     ManaRgn: 10,
+    VileWard: 25,
     Classes: [5, 3, 4, 6],
     Obtained: { buy: [69] },
   },

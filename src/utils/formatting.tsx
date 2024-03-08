@@ -2,6 +2,7 @@ import { specialProperties } from './values';
 import { classData, spellData } from '../data';
 import { AllItemTypes, Armor, Item, Spell, Weapon } from '../types';
 import { SpellReference } from '../components/references';
+import { spec } from 'node:test/reporters';
 
 export const getNumberString = (value: number): string => {
   if (value > 0) return ` +${value}`;
@@ -113,30 +114,82 @@ export const expandKeyValueJSXDetails = (
     return (
       <>
         <div></div>
-        {key.split(/(?=[A-Z])/).join(' ')}
+        {key}
       </>
     );
   }
 
   return (
     <>
-      <div>{key.split(/(?=[A-Z])/).join(' ')}</div>
+      <div>{key}</div>
       <div>{value}</div>
     </>
   );
 };
 
+const getPerLevelInc = (spell: Spell) => {
+  const hasMinInc = spell.MinInc > 0;
+  const hasMaxInc = spell.MaxInc > 0;
+  const minIncPerLvl =
+    Math.round((spell.MinInc / spell.MinIncLVLs) * 100) / 100;
+  const maxIncPerLvl =
+    Math.round((spell.MaxInc / spell.MaxIncLVLs) * 100) / 100;
+  const hasDurInc = spell.DurInc > 0;
+  const durIncPerLvl =
+    Math.round((spell.DurInc / spell.DurIncLVLs) * 100) / 100;
+  const minMaxSame = minIncPerLvl === maxIncPerLvl;
+
+  return {
+    hasMinInc,
+    hasMaxInc,
+    hasDurInc,
+    minIncPerLvl,
+    maxIncPerLvl,
+    durIncPerLvl,
+    minMaxSame,
+  };
+};
+
 const spellEffects = [20, 58, 87];
+const singleEffects = [3, 4, 5, 10, 22, 24, 36, 1113];
+const singleEffectsNoRange = [2, 7];
 
 export const formatSpell = (number: number): string => {
   const spell = spellData.find((sp) => sp.Number === number);
   if (!spell) return '<spell not found>';
 
-  let value = ' [';
+  const {
+    hasMaxInc,
+    hasMinInc,
+    minIncPerLvl,
+    maxIncPerLvl,
+    hasDurInc,
+    durIncPerLvl,
+    minMaxSame,
+  } = getPerLevelInc(spell);
+
+  let value = '';
 
   const hasEffects = spellEffects.some((effNum) =>
     spell.hasOwnProperty(specialProperties.get(effNum)),
   );
+  const hasSingleEffects = singleEffects.some((effNum) =>
+    spell.hasOwnProperty(specialProperties.get(effNum)),
+  );
+  const hasSingleEffectsNoRange = singleEffectsNoRange.some((effNum) =>
+    spell.hasOwnProperty(specialProperties.get(effNum)),
+  );
+
+  if (
+    spell.hasOwnProperty(specialProperties.get(1)) ||
+    spell.hasOwnProperty(specialProperties.get(17))
+  ) {
+    const armorType = spell.hasOwnProperty(specialProperties.get(1))
+      ? specialProperties.get(1)
+      : specialProperties.get(17);
+
+    value += `${armorType} ${spell.MinBase}${hasMinInc ? `+(${minIncPerLvl}*lvl)` : ''} to ${spell.MaxBase}${hasMaxInc ? `+(${maxIncPerLvl}*lvl)` : ''}`;
+  }
 
   if (hasEffects) {
     spellEffects.forEach((effNum) => {
@@ -147,22 +200,51 @@ export const formatSpell = (number: number): string => {
         value += `${effectName} ${getNumberString(effectValue > 0 ? effectValue : spell.MinBase)}, `;
       }
     });
-
-    value = removeTrailingComma(value);
   }
 
-  // Effects with ranges
-  if (spell.hasOwnProperty(specialProperties.get(165))) {
-    value += `${specialProperties.get(165)} ${getNumberString(spell.MinBase)} to ${getNumberString(spell.MaxBase)}`;
+  // if (hasMinInc && hasMaxInc) {
+  //   value += `${specialProperties.get()}`
+  // }
+
+  if (hasSingleEffects) {
+    singleEffects.forEach((effNum) => {
+      const effectName = specialProperties.get(effNum);
+      if (spell.hasOwnProperty(effectName)) {
+        const effectValue =
+          (spell[effectName as keyof Spell] as number) || spell.MinBase;
+
+        value += `${effectName} ${effectValue}${hasMinInc ? `+(${minIncPerLvl}*lvl)` : ''}${hasMaxInc && !minMaxSame ? ` to ${effectValue}+(${maxIncPerLvl}*lvl)` : ''}, `;
+      }
+    });
   }
 
-  // Effects with single values
-  if (spell.hasOwnProperty(specialProperties.get(4))) {
-    const property = specialProperties.get(4);
-    value += `${property} ${getNumberString(spell[property] || spell.MinBase)}`;
+  if (hasSingleEffectsNoRange) {
+    singleEffectsNoRange.forEach((effNum) => {
+      const effectName = specialProperties.get(effNum);
+      if (spell.hasOwnProperty(effectName)) {
+        const effectValue =
+          (spell[effectName as keyof Spell] as number) || spell.MinBase;
+
+        value += `${effectName} ${getNumberString(effectValue)}, `;
+      }
+    });
   }
 
-  if (spell.Dur) value += ` for ${spell.Dur} rounds`;
+  // // Effects with ranges
+  // if (spell.hasOwnProperty(specialProperties.get(165))) {
+  //   value += `${specialProperties.get(165)} ${getNumberString(spell.MinBase)} to ${getNumberString(spell.MaxBase)}`;
+  // }
+
+  // // Effects with single values
+  // if (spell.hasOwnProperty(specialProperties.get(4))) {
+  //   const property = specialProperties.get(4);
+  //   value += `${property} ${getNumberString(spell[property] || spell.MinBase)}`;
+  // }
+
+  value = removeTrailingComma(value);
+
+  if (spell.Dur)
+    value += ` for ${spell.Dur}${hasDurInc ? `+(${durIncPerLvl}*lvl)` : ''} rounds`;
 
   if (spell.hasOwnProperty('RemovesSpell')) {
     value += ` - Removes Spell(`;
@@ -173,8 +255,6 @@ export const formatSpell = (number: number): string => {
     });
     value = removeTrailingComma(value) + ')';
   }
-
-  value += ']';
 
   return value;
 };
@@ -203,6 +283,18 @@ const commonSkipKeys = [
 
 const weaponSkipKeys = ['MinLevel', 'Magical', 'Accy', 'Crits', '% Spell'];
 
+export const itemSkipKeys = [
+  'Number',
+  'Name',
+  'ItemType',
+  'UseCount',
+  'Price',
+  'Currency',
+  'Encum',
+  'Magical',
+  'Obtained',
+];
+
 export const weaponTableSkipKeys = [
   ...commonSkipKeys,
   ...weaponSkipKeys,
@@ -216,6 +308,7 @@ export const armorTableSkipKeys = [
   'Accy',
   'MinLevel',
   'Crits',
+  'Magical',
 ];
 
 // [97, 'GoodOnly'],

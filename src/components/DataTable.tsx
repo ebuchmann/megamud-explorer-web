@@ -20,7 +20,6 @@ export function DataTable<T extends { Number: number }>({
   table,
 }: TableProps<T>) {
   const params = useParams();
-  console.log(params.number);
 
   return (
     <table class="w-full table-auto">
