@@ -112,3 +112,20 @@ export const AttackType = [
   'Water',
   'Poison',
 ];
+
+export const TargetTypes = [
+  'User',
+  'Self',
+  'Self or User',
+  '',
+  'Monster',
+  '',
+  'Any',
+  'Item',
+  'Monster or User',
+  '',
+  '',
+  'Full Attack Area',
+  'Full Attack Area',
+  'Full Party Area',
+];

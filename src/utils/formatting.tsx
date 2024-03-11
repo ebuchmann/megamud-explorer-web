@@ -127,7 +127,7 @@ export const expandKeyValueJSXDetails = (
   );
 };
 
-const getPerLevelInc = (spell: Spell) => {
+export const getPerLevelInc = (spell: Spell) => {
   const hasMinInc = spell.MinInc > 0;
   const hasMaxInc = spell.MaxInc > 0;
   const minIncPerLvl =
@@ -138,6 +138,10 @@ const getPerLevelInc = (spell: Spell) => {
   const durIncPerLvl =
     Math.round((spell.DurInc / spell.DurIncLVLs) * 100) / 100;
   const minMaxSame = minIncPerLvl === maxIncPerLvl;
+  const minCapVal = Math.floor(spell.MinBase + minIncPerLvl * spell.Cap);
+  const maxCapVal = Math.floor(spell.MaxBase + maxIncPerLvl * spell.Cap);
+  const minLvlVal = Math.floor(spell.MinBase + minIncPerLvl * spell.ReqLevel);
+  const maxLvlVal = Math.floor(spell.MaxBase + maxIncPerLvl * spell.ReqLevel);
 
   return {
     hasMinInc,
@@ -147,12 +151,18 @@ const getPerLevelInc = (spell: Spell) => {
     maxIncPerLvl,
     durIncPerLvl,
     minMaxSame,
+    minCapVal,
+    maxCapVal,
+    minLvlVal,
+    maxLvlVal,
   };
 };
 
-const spellEffects = [20, 58, 87];
-const singleEffects = [3, 4, 5, 10, 22, 24, 36, 1113];
-const singleEffectsNoRange = [2, 7];
+const spellEffects = [20, 58, 80, 87, 123];
+const singleEffects = [
+  3, 4, 5, 10, 18, 22, 24, 36, 44, 45, 46, 47, 48, 49, 65, 66, 77, 147, 1113,
+];
+const singleEffectsNoRange = [2, 7, 74];
 
 export const formatSpell = (number: number): string => {
   const spell = spellData.find((sp) => sp.Number === number);
@@ -188,7 +198,7 @@ export const formatSpell = (number: number): string => {
       ? specialProperties.get(1)
       : specialProperties.get(17);
 
-    value += `${armorType} ${spell.MinBase}${hasMinInc ? `+(${minIncPerLvl}*lvl)` : ''} to ${spell.MaxBase}${hasMaxInc ? `+(${maxIncPerLvl}*lvl)` : ''}`;
+    value += `${armorType} ${spell.MinBase}${hasMinInc ? `+(${minIncPerLvl}*lvl)` : ''} to ${spell.MaxBase}${hasMaxInc ? `+(${maxIncPerLvl}*lvl), ` : ''}`;
   }
 
   if (hasEffects) {
@@ -246,15 +256,15 @@ export const formatSpell = (number: number): string => {
   if (spell.Dur)
     value += ` for ${spell.Dur}${hasDurInc ? `+(${durIncPerLvl}*lvl)` : ''} rounds`;
 
-  if (spell.hasOwnProperty('RemovesSpell')) {
-    value += ` - Removes Spell(`;
-    spell.RemovesSpell?.forEach((removeNumber) => {
-      const spellToRemove = spellData.find((sp) => sp.Number === removeNumber);
-      if (!spellToRemove) value += `<unknown spell ${removeNumber}>, `;
-      else value += spellToRemove.Name + ', ';
-    });
-    value = removeTrailingComma(value) + ')';
-  }
+  // if (spell.hasOwnProperty('RemovesSpell')) {
+  //   value += ` - Removes Spell(`;
+  //   spell.RemovesSpell?.forEach((removeNumber) => {
+  //     const spellToRemove = spellData.find((sp) => sp.Number === removeNumber);
+  //     if (!spellToRemove) value += `<unknown spell ${removeNumber}>, `;
+  //     else value += spellToRemove.Name + ', ';
+  //   });
+  //   value = removeTrailingComma(value) + ')';
+  // }
 
   return value;
 };

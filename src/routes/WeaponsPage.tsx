@@ -20,7 +20,6 @@ import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
 import { makePersisted } from '@solid-primitives/storage';
 import {
-  expandKeyValueJSX,
   getRemainingPropertiesTable,
   weaponTableSkipKeys,
 } from '../utils/formatting';
@@ -64,9 +63,8 @@ const columns = [
   columnHelper.accessor('MinLevel', {
     header: 'Lvl',
     cell: (info) => info.getValue(),
-    filterFn: ({ original }, _type, value) => {
-      return original.MinLevel <= value || !original.MinLevel;
-    },
+    filterFn: ({ original }, _type, value) =>
+      original.MinLevel <= value || !original.MinLevel,
   }),
   columnHelper.accessor('StrReq', {
     header: 'Str',

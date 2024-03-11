@@ -215,6 +215,9 @@ export type Class = {
   Thievery?: number;
   Tracking?: number;
   Traps?: number;
+  Punch?: number;
+  Kick?: number;
+  JumpKick?: number;
 };
 
 export type Race = {
@@ -329,6 +332,7 @@ export type Spell = {
   MaxBase: number;
   Dur: number;
   AttType: number;
+  Targets: number;
   TypeOfResists: number;
   Learnable: number;
   ReqLevel: number;
@@ -342,10 +346,12 @@ export type Spell = {
   MinInc: number;
   DurIncLVLs: number;
   DurInc: number;
+  EnergyCost?: number;
   Short?: string;
   NonMagicalSpell?: number;
   RemovesSpell?: number[];
   'Damage(-MR)'?: number;
+  'Damage(No AC)'?: number;
   'AC(Blur)'?: number;
   MaxDamage?: number;
   ManaRgn?: number;
@@ -428,3 +434,24 @@ export type Shop = {
 };
 
 export type AllItemTypes = Weapon | Armor | Item;
+
+export type Room = {
+  Name: string;
+  MapNum: number;
+  RoomNum: number;
+  x: number;
+  y: number;
+  z: number;
+  Shop?: number;
+  NPC?: number;
+  N?: string;
+  NE?: string;
+  E?: string;
+  SE?: string;
+  S?: string;
+  SW?: string;
+  W?: string;
+  NW?: string;
+};
+
+export type Direction = 'N' | 'NE' | 'E' | 'SE' | 'S' | 'SW' | 'W' | 'NW';

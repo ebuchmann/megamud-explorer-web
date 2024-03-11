@@ -78,6 +78,13 @@ export function App({ children }: AppProps) {
           >
             Characters
           </A>
+          <A
+            activeClass="text-blue-400"
+            inactiveClass="text-neutral-100"
+            href="/rooms"
+          >
+            Rooms
+          </A>
         </nav>
       </header>
       <div

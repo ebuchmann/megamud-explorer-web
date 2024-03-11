@@ -17,6 +17,7 @@ import { ItemsPage } from './routes/ItemsPage';
 import { ShopsPage } from './routes/ShopsPage';
 import { MainPage } from './routes/MainPage';
 import { SpellsPage } from './routes/SpellsPage';
+import { RoomsPage } from './routes/RoomsPage';
 
 inject();
 
@@ -33,6 +34,7 @@ render(
       <Route path="/monsters/*number" component={MonstersPage} />
       <Route path="/shops/*number" component={ShopsPage} />
       <Route path="/characters/*id" component={CharactersPage} />
+      <Route path="/rooms/*number" component={RoomsPage} />
       <Route path="/" component={MainPage} />
     </Router>
   ),

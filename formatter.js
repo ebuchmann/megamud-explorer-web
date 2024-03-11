@@ -317,9 +317,12 @@ for (const index in spellData) {
     ManaCost: original.ManaCost,
     AttType: original.AttType,
     TypeOfResists: original.TypeOfResists,
+    Targets: original.Targets,
     Learnable: original.Learnable,
     Short: original.Short,
   };
+
+  if (original.EnergyCost > 0) item.EnergyCost = original.EnergyCost;
 
   for (let x = 0; x < 10; x++) {
     if (allValues.includes(original[`Abil-${x}`])) {

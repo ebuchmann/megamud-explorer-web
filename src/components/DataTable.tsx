@@ -31,11 +31,13 @@ export function DataTable<T extends { Number: number }>({
                 {(header) => (
                   <th colSpan={header.colSpan} class="p-2 text-left">
                     <div
-                      class={
-                        header.column.getCanSort()
-                          ? 'cursor-pointer select-none'
-                          : undefined
-                      }
+                      class={classNames(
+                        {
+                          'cursor-pointer select-none':
+                            header.column.getCanSort(),
+                        },
+                        'whitespace-nowrap',
+                      )}
                       onClick={header.column.getToggleSortingHandler()}
                     >
                       {flexRender(

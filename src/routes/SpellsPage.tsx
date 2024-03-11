@@ -1,10 +1,16 @@
 import { createSignal } from 'solid-js';
-import { DataTable } from '../components/DataTable';
+import {
+  DataTable,
+  globalFilter,
+  levelFilter,
+  setGlobalFilter,
+  setLevelFilter,
+} from '../components/DataTable';
 import { TextSearch } from '../components/TextSearch';
 import { MainPanel } from '../components/layout/MainPanel';
 import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { SidePanel } from '../components/layout/SidePanel';
-import { spellData } from '../data';
+import { classData, spellData } from '../data';
 import { Spell } from '../types';
 import {
   createColumnHelper,
@@ -16,6 +22,9 @@ import {
 import { useNavigate } from '@solidjs/router';
 import { MageryTypes } from '../utils/data-types';
 import { formatSpell } from '../utils/formatting';
+import { SpellPanel } from '../components/spells/SpellPanel';
+import { LevelInput } from '../components/LevelInput';
+import { ClassSelect } from '../components/ClassSelect';
 
 const columnHelper = createColumnHelper<Spell>();
 
@@ -30,12 +39,18 @@ const columns = [
     cell: (info) => {
       if (info.getValue() === 0) return MageryTypes[info.getValue()];
 
-      return `${MageryTypes[info.getValue()]}-${info.row.original.MageryLVL}`;
+      return (
+        <div class="whitespace-nowrap">
+          {MageryTypes[info.getValue()]}-{info.row.original.MageryLVL}
+        </div>
+      );
     },
   }),
   columnHelper.accessor('ReqLevel', {
     header: 'Lvl',
     cell: (info) => info.getValue(),
+    filterFn: ({ original }, _type, value) =>
+      original.ReqLevel <= value || !original.ReqLevel,
   }),
   columnHelper.accessor('ManaCost', {
     header: 'Mana',
@@ -68,16 +83,43 @@ export function SpellsPage() {
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    globalFilterFn: ({ original }, _field, value) => {
+      if (value === '') return true;
+      if (original.Learnable === 0) return false;
+
+      const cls = classData.find((cls) => cls.Number === value);
+      if (!cls) return false;
+
+      if (cls.MageryType === 0) return false;
+      if (cls.MageryType !== original.Magery) return false;
+      if (original.MageryLVL > cls.MageryLVL) return false;
+
+      return true;
+    },
   });
+
+  if (!!globalFilter()) table.setGlobalFilter(Number(globalFilter()));
+  if (!!levelFilter())
+    table.getColumn('ReqLevel')?.setFilterValue(Number(levelFilter()));
 
   return (
     <div class="flex gap-4 h-[100%]">
       <MainPanel>
-        <div class="flex">
+        <div class="flex gap-4">
           <TextSearch
             value={searchValue}
             setValue={setSearchValue}
             column={table.getColumn('Name')}
+          />
+          <LevelInput
+            value={levelFilter}
+            setValue={setLevelFilter}
+            column={table.getColumn('ReqLevel')!}
+          />
+          <ClassSelect
+            value={globalFilter}
+            setValue={setGlobalFilter}
+            onChange={(val) => table.setGlobalFilter(val)}
           />
         </div>
         <ScrollContainer>
@@ -85,7 +127,7 @@ export function SpellsPage() {
         </ScrollContainer>
       </MainPanel>
       <SidePanel>
-        <p>Spell panel...</p>
+        <SpellPanel />
       </SidePanel>
     </div>
   );
