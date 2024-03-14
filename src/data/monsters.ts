@@ -163,7 +163,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 20,
-        "AttTrue%": "50.6",
+        "AttTrue%": "49.3",
         Min: 2,
         Max: 11,
         Energy: 1000,
@@ -171,7 +171,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 20,
-        "AttTrue%": "49.4",
+        "AttTrue%": "50.7",
         Min: 2,
         Max: 11,
         Energy: 1000,
@@ -346,7 +346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "84.8",
+        "AttTrue%": "85.8",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -355,7 +355,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 80,
-        "AttTrue%": "15.2",
+        "AttTrue%": "14.2",
         Min: 32,
         Max: 120,
         Energy: 1000,
@@ -388,7 +388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "69.7",
+        "AttTrue%": "70.3",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -397,7 +397,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 80,
-        "AttTrue%": "15.2",
+        "AttTrue%": "14.9",
         Min: 32,
         Max: 120,
         Energy: 1000,
@@ -407,7 +407,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "calls for aid",
-        "AttTrue%": "15.2",
+        "AttTrue%": "14.8",
         Number: 888,
         Success: 100,
         Level: 30,
@@ -440,7 +440,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chills you with its touch",
         Acc: 40,
-        "AttTrue%": "89.7",
+        "AttTrue%": "89.4",
         Min: 3,
         Max: 15,
         Energy: 1000,
@@ -448,7 +448,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chills you with its touch",
         Acc: 60,
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.6",
         Min: 3,
         Max: 15,
         Energy: 1000,
@@ -480,7 +480,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 55,
-        "AttTrue%": "74.7",
+        "AttTrue%": "74.2",
         Min: 3,
         Max: 9,
         Energy: 500,
@@ -488,7 +488,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 55,
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.8",
         Min: 3,
         Max: 9,
         Energy: 500,
@@ -520,7 +520,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 55,
-        "AttTrue%": "50.9",
+        "AttTrue%": "49.9",
         Min: 2,
         Max: 10,
         Energy: 666,
@@ -529,7 +529,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 55,
-        "AttTrue%": "49.1",
+        "AttTrue%": "50.1",
         Min: 2,
         Max: 10,
         Energy: 666,
@@ -557,7 +557,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 50,
-        "AttTrue%": "83.0",
+        "AttTrue%": "82.6",
         Min: 2,
         Max: 12,
         Energy: 750,
@@ -565,7 +565,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 40,
-        "AttTrue%": "17.0",
+        "AttTrue%": "17.4",
         Min: 3,
         Max: 18,
         Energy: 1000,
@@ -592,7 +592,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 50,
-        "AttTrue%": "74.3",
+        "AttTrue%": "74.5",
         Min: 2,
         Max: 13,
         Energy: 666,
@@ -600,7 +600,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 55,
-        "AttTrue%": "25.7",
+        "AttTrue%": "25.5",
         Min: 3,
         Max: 19,
         Energy: 666,
@@ -654,7 +654,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 45,
-        "AttTrue%": "81.5",
+        "AttTrue%": "78.1",
         Min: 8,
         Max: 25,
         Energy: 1000,
@@ -662,7 +662,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 25,
-        "AttTrue%": "18.5",
+        "AttTrue%": "21.9",
         Min: 12,
         Max: 36,
         Energy: 1000,
@@ -691,7 +691,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 100,
-        "AttTrue%": "25.7",
+        "AttTrue%": "24.3",
         Min: 2,
         Max: 12,
         Energy: 200,
@@ -700,7 +700,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "33.6",
+        "AttTrue%": "33.2",
         Number: 5029,
         Success: 100,
         Level: 20,
@@ -708,7 +708,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frost jet",
-        "AttTrue%": "40.7",
+        "AttTrue%": "42.5",
         Number: 5030,
         Success: 100,
         Level: 20,
@@ -738,7 +738,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "79.2",
+        "AttTrue%": "79.7",
         Min: 6,
         Max: 20,
         Energy: 200,
@@ -746,7 +746,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 999,
-        "AttTrue%": "20.8",
+        "AttTrue%": "20.3",
         Min: 12,
         Max: 50,
         Energy: 200,
@@ -775,7 +775,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 120,
-        "AttTrue%": "80.1",
+        "AttTrue%": "80.2",
         Min: 4,
         Max: 16,
         Energy: 200,
@@ -783,7 +783,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 999,
-        "AttTrue%": "19.9",
+        "AttTrue%": "19.8",
         Min: 8,
         Max: 45,
         Energy: 200,
@@ -812,7 +812,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 120,
-        "AttTrue%": "80.1",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 16,
         Energy: 200,
@@ -820,7 +820,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.0",
         Min: 12,
         Max: 45,
         Energy: 200,
@@ -849,7 +849,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "80.0",
+        "AttTrue%": "79.4",
         Min: 5,
         Max: 16,
         Energy: 200,
@@ -857,7 +857,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.6",
         Min: 10,
         Max: 45,
         Energy: 200,
@@ -942,7 +942,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 52,
-        "AttTrue%": "84.6",
+        "AttTrue%": "83.9",
         Min: 2,
         Max: 10,
         Energy: 500,
@@ -950,7 +950,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 40,
-        "AttTrue%": "15.4",
+        "AttTrue%": "16.1",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -978,7 +978,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 45,
-        "AttTrue%": "95.6",
+        "AttTrue%": "95.3",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -986,7 +986,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 55,
-        "AttTrue%": "4.4",
+        "AttTrue%": "4.7",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -1023,7 +1023,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its arm",
         Acc: 50,
-        "AttTrue%": "96.8",
+        "AttTrue%": "97.0",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -1032,7 +1032,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes",
-        "AttTrue%": "1.9",
+        "AttTrue%": "1.7",
         Number: 84,
         Success: 100,
         Level: 12,
@@ -1068,7 +1068,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 50,
-        "AttTrue%": "71.2",
+        "AttTrue%": "72.1",
         Min: 3,
         Max: 16,
         Energy: 1000,
@@ -1085,7 +1085,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spiritual hammer",
-        "AttTrue%": "16.4",
+        "AttTrue%": "15.5",
         Number: 5038,
         Success: 65,
         Level: 10,
@@ -1114,7 +1114,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 40,
-        "AttTrue%": "34.4",
+        "AttTrue%": "34.8",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -1123,7 +1123,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spiritual hammer",
-        "AttTrue%": "46.7",
+        "AttTrue%": "45.9",
         Number: 5038,
         Success: 70,
         Level: 10,
@@ -1131,7 +1131,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spiritual hammer",
-        "AttTrue%": "18.9",
+        "AttTrue%": "19.3",
         Number: 5038,
         Success: 70,
         Level: 10,
@@ -1159,7 +1159,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 70,
-        "AttTrue%": "78.9",
+        "AttTrue%": "78.5",
         Min: 3,
         Max: 15,
         Energy: 750,
@@ -1167,7 +1167,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 60,
-        "AttTrue%": "12.3",
+        "AttTrue%": "13.0",
         Min: 5,
         Max: 23,
         Energy: 1000,
@@ -1176,7 +1176,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spiritual hammer",
-        "AttTrue%": "8.8",
+        "AttTrue%": "8.5",
         Number: 5038,
         Success: 60,
         Level: 10,
@@ -1207,7 +1207,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely rips you",
         Acc: 60,
-        "AttTrue%": "75.3",
+        "AttTrue%": "75.5",
         Min: 4,
         Max: 17,
         Energy: 1000,
@@ -1216,7 +1216,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes flame",
-        "AttTrue%": "24.7",
+        "AttTrue%": "24.5",
         Number: 78,
         Success: 100,
         Level: 11,
@@ -1248,7 +1248,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 55,
-        "AttTrue%": "99.5",
+        "AttTrue%": "99.4",
         Min: 4,
         Max: 12,
         Energy: 500,
@@ -1257,7 +1257,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits a stream of venom",
-        "AttTrue%": "0.5",
+        "AttTrue%": "0.6",
         Number: 79,
         Success: 100,
         Level: 12,
@@ -1338,7 +1338,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 200,
-        "AttTrue%": "85.9",
+        "AttTrue%": "85.1",
         Min: 30,
         Max: 80,
         Energy: 200,
@@ -1347,7 +1347,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "14.1",
+        "AttTrue%": "14.9",
         Min: 120,
         Max: 320,
         Energy: 200,
@@ -1377,7 +1377,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 100,
-        "AttTrue%": "26.8",
+        "AttTrue%": "27.5",
         Min: 3,
         Max: 15,
         Energy: 200,
@@ -1385,7 +1385,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "54.9",
+        "AttTrue%": "55.0",
         Min: 12,
         Max: 45,
         Energy: 200,
@@ -1394,7 +1394,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "13.9",
+        "AttTrue%": "13.1",
         Number: 5029,
         Success: 100,
         Level: 20,
@@ -1402,7 +1402,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frost jet",
-        "AttTrue%": "4.5",
+        "AttTrue%": "4.4",
         Number: 5030,
         Success: 100,
         Level: 20,
@@ -1433,7 +1433,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.6",
+        "AttTrue%": "80.4",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -1441,7 +1441,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 900,
-        "AttTrue%": "20.4",
+        "AttTrue%": "19.6",
         Min: 30,
         Max: 100,
         Energy: 200,
@@ -1634,7 +1634,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 40,
-        "AttTrue%": "96.1",
+        "AttTrue%": "94.6",
         Min: 4,
         Max: 12,
         Energy: 1000,
@@ -1642,7 +1642,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 50,
-        "AttTrue%": "3.9",
+        "AttTrue%": "5.4",
         Min: 4,
         Max: 12,
         Energy: 1000,
@@ -1674,7 +1674,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you savagely",
         Acc: 75,
-        "AttTrue%": "89.8",
+        "AttTrue%": "90.6",
         Min: 5,
         Max: 20,
         Energy: 1000,
@@ -1682,7 +1682,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you savagely",
         Acc: 70,
-        "AttTrue%": "10.2",
+        "AttTrue%": "9.4",
         Min: 5,
         Max: 20,
         Energy: 1000,
@@ -1710,7 +1710,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 40,
-        "AttTrue%": "84.7",
+        "AttTrue%": "83.7",
         Min: 4,
         Max: 14,
         Energy: 666,
@@ -1718,7 +1718,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out bludgeons you",
         Acc: 50,
-        "AttTrue%": "15.3",
+        "AttTrue%": "16.3",
         Min: 6,
         Max: 21,
         Energy: 1000,
@@ -1773,7 +1773,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 55,
-        "AttTrue%": "75.6",
+        "AttTrue%": "74.9",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -1781,7 +1781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 60,
-        "AttTrue%": "24.4",
+        "AttTrue%": "25.1",
         Min: 6,
         Max: 21,
         Energy: 1000,
@@ -1864,7 +1864,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 65,
-        "AttTrue%": "78.7",
+        "AttTrue%": "80.4",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -1872,7 +1872,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 75,
-        "AttTrue%": "21.3",
+        "AttTrue%": "19.6",
         Min: 15,
         Max: 45,
         Energy: 1000,
@@ -1904,7 +1904,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 94,
-        "AttTrue%": "58.9",
+        "AttTrue%": "59.7",
         Min: 10,
         Max: 44,
         Energy: 1000,
@@ -1912,7 +1912,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you against the wall",
         Acc: 90,
-        "AttTrue%": "11.0",
+        "AttTrue%": "9.7",
         Min: 20,
         Max: 50,
         Energy: 1000,
@@ -1920,7 +1920,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 115,
-        "AttTrue%": "10.4",
+        "AttTrue%": "10.9",
         Min: 10,
         Max: 24,
         Energy: 1000,
@@ -1929,7 +1929,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 94,
-        "AttTrue%": "9.5",
+        "AttTrue%": "9.4",
         Min: 15,
         Max: 35,
         Energy: 1000,
@@ -1937,7 +1937,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you a glancing blow",
         Acc: 100,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.3",
         Min: 8,
         Max: 20,
         Energy: 1000,
@@ -1971,7 +1971,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 75,
-        "AttTrue%": "84.2",
+        "AttTrue%": "83.3",
         Min: 7,
         Max: 35,
         Energy: 666,
@@ -1979,7 +1979,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with his horns",
         Acc: 90,
-        "AttTrue%": "12.6",
+        "AttTrue%": "13.3",
         Min: 20,
         Max: 40,
         Energy: 1000,
@@ -1987,7 +1987,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 90,
-        "AttTrue%": "3.2",
+        "AttTrue%": "3.4",
         Min: 24,
         Max: 70,
         Energy: 666,
@@ -2085,7 +2085,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 60,
-        "AttTrue%": "97.7",
+        "AttTrue%": "97.9",
         Min: 4,
         Max: 12,
         Energy: 500,
@@ -2094,7 +2094,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "high-pitched scream",
-        "AttTrue%": "2.3",
+        "AttTrue%": "2.1",
         Number: 83,
         Success: 100,
         Level: 12,
@@ -2126,7 +2126,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 75,
-        "AttTrue%": "99.0",
+        "AttTrue%": "99.2",
         Min: 4,
         Max: 15,
         Energy: 666,
@@ -2134,7 +2134,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 75,
-        "AttTrue%": "1.0",
+        "AttTrue%": "0.8",
         Min: 16,
         Max: 60,
         Energy: 666,
@@ -2164,7 +2164,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 90,
-        "AttTrue%": "59.0",
+        "AttTrue%": "60.4",
         Min: 8,
         Max: 20,
         Energy: 1000,
@@ -2173,7 +2173,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "draws the breath",
-        "AttTrue%": "41.0",
+        "AttTrue%": "39.6",
         Number: 82,
         Success: 100,
         Level: 8,
@@ -2239,7 +2239,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 75,
-        "AttTrue%": "90.8",
+        "AttTrue%": "91.0",
         Min: 12,
         Max: 25,
         Energy: 500,
@@ -2247,7 +2247,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 95,
-        "AttTrue%": "9.2",
+        "AttTrue%": "9.0",
         Min: 24,
         Max: 50,
         Energy: 1000,
@@ -2483,7 +2483,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 20,
-        "AttTrue%": "74.0",
+        "AttTrue%": "76.1",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -2491,7 +2491,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 25,
-        "AttTrue%": "26.0",
+        "AttTrue%": "23.9",
         Min: 8,
         Max: 18,
         Energy: 1000,
@@ -2538,7 +2538,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 65,
-        "AttTrue%": "74.9",
+        "AttTrue%": "74.3",
         Min: 5,
         Max: 18,
         Energy: 1000,
@@ -2546,7 +2546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 55,
-        "AttTrue%": "25.1",
+        "AttTrue%": "25.7",
         Min: 20,
         Max: 35,
         Energy: 1000,
@@ -2594,7 +2594,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 40,
-        "AttTrue%": "75.5",
+        "AttTrue%": "74.7",
         Min: 5,
         Max: 16,
         Energy: 1000,
@@ -2604,7 +2604,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a jet of fire",
-        "AttTrue%": "24.5",
+        "AttTrue%": "25.3",
         Number: 113,
         Success: 100,
         Level: 11,
@@ -2833,7 +2833,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 65,
-        "AttTrue%": "74.8",
+        "AttTrue%": "75.6",
         Min: 8,
         Max: 22,
         Energy: 1000,
@@ -2841,7 +2841,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 60,
-        "AttTrue%": "25.2",
+        "AttTrue%": "24.4",
         Min: 10,
         Max: 28,
         Energy: 1000,
@@ -2964,7 +2964,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frost jet",
-        "AttTrue%": "74.3",
+        "AttTrue%": "75.6",
         Number: 5030,
         Success: 100,
         Level: 10,
@@ -2975,7 +2975,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 35,
-        "AttTrue%": "25.7",
+        "AttTrue%": "24.4",
         Min: 4,
         Max: 16,
         Energy: 1000,
@@ -3002,7 +3002,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a jet of frost",
-        "AttTrue%": "14.6",
+        "AttTrue%": "15.1",
         Number: 117,
         Success: 100,
         Level: 10,
@@ -3010,7 +3010,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "breathes a jet of fire",
-        "AttTrue%": "15.7",
+        "AttTrue%": "15.6",
         Number: 113,
         Success: 100,
         Level: 10,
@@ -3021,7 +3021,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 35,
-        "AttTrue%": "69.7",
+        "AttTrue%": "69.3",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -3242,7 +3242,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 75,
-        "AttTrue%": "90.3",
+        "AttTrue%": "90.1",
         Min: 10,
         Max: 26,
         Energy: 1000,
@@ -3250,7 +3250,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 85,
-        "AttTrue%": "9.7",
+        "AttTrue%": "9.9",
         Min: 20,
         Max: 52,
         Energy: 1000,
@@ -3293,7 +3293,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 65,
-        "AttTrue%": "3.9",
+        "AttTrue%": "3.8",
         Min: 24,
         Max: 70,
         Energy: 1000,
@@ -3322,7 +3322,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 45,
-        "AttTrue%": "89.6",
+        "AttTrue%": "88.9",
         Min: 9,
         Max: 24,
         Energy: 1000,
@@ -3330,7 +3330,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 55,
-        "AttTrue%": "10.4",
+        "AttTrue%": "11.1",
         Min: 8,
         Max: 23,
         Energy: 1000,
@@ -3397,7 +3397,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 75,
-        "AttTrue%": "86.6",
+        "AttTrue%": "85.8",
         Min: 20,
         Max: 40,
         Energy: 500,
@@ -3405,7 +3405,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with his horns",
         Acc: 80,
-        "AttTrue%": "11.3",
+        "AttTrue%": "11.8",
         Min: 25,
         Max: 50,
         Energy: 1000,
@@ -3413,7 +3413,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 80,
-        "AttTrue%": "2.1",
+        "AttTrue%": "2.5",
         Min: 70,
         Max: 100,
         Energy: 500,
@@ -3445,7 +3445,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a thorny stem",
         Acc: 70,
-        "AttTrue%": "79.7",
+        "AttTrue%": "80.4",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -3453,7 +3453,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a thorny stem",
         Acc: 75,
-        "AttTrue%": "20.3",
+        "AttTrue%": "19.6",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -3482,7 +3482,7 @@ export const monsterData: Monster[] = [
       {
         Name: "fires thorns at you",
         Acc: 65,
-        "AttTrue%": "84.9",
+        "AttTrue%": "84.6",
         Min: 5,
         Max: 18,
         Energy: 1000,
@@ -3491,7 +3491,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sprays",
-        "AttTrue%": "15.1",
+        "AttTrue%": "15.4",
         Number: 204,
         Success: 100,
         Level: 10,
@@ -3552,7 +3552,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a tendril",
         Acc: 65,
-        "AttTrue%": "48.9",
+        "AttTrue%": "49.0",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -3560,7 +3560,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 70,
-        "AttTrue%": "32.8",
+        "AttTrue%": "34.0",
         Min: 10,
         Max: 25,
         Energy: 1000,
@@ -3569,7 +3569,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches acid",
-        "AttTrue%": "18.3",
+        "AttTrue%": "17.0",
         Number: 205,
         Success: 100,
         Level: 12,
@@ -3630,7 +3630,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 70,
-        "AttTrue%": "78.8",
+        "AttTrue%": "79.9",
         Min: 14,
         Max: 35,
         Energy: 1000,
@@ -3639,7 +3639,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sharp stones",
-        "AttTrue%": "21.2",
+        "AttTrue%": "20.1",
         Number: 206,
         Success: 100,
         Level: 15,
@@ -3672,7 +3672,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 65,
-        "AttTrue%": "81.9",
+        "AttTrue%": "81.1",
         Min: 4,
         Max: 14,
         Energy: 333,
@@ -3681,7 +3681,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "13.6",
+        "AttTrue%": "14.1",
         Number: 5013,
         Success: 80,
         Level: 13,
@@ -3689,7 +3689,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "swarm",
-        "AttTrue%": "4.6",
+        "AttTrue%": "4.9",
         Number: 208,
         Success: 80,
         Level: 13,
@@ -3734,7 +3734,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tower of flame",
-        "AttTrue%": "19.7",
+        "AttTrue%": "18.5",
         Number: 209,
         Success: 100,
         Level: 20,
@@ -3742,7 +3742,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "chaos storm",
-        "AttTrue%": "36.7",
+        "AttTrue%": "37.8",
         Number: 212,
         Success: 100,
         Level: 20,
@@ -3810,7 +3810,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 55,
-        "AttTrue%": "82.6",
+        "AttTrue%": "82.0",
         Min: 3,
         Max: 13,
         Energy: 500,
@@ -3819,7 +3819,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "agony",
-        "AttTrue%": "17.4",
+        "AttTrue%": "18.0",
         Number: 5060,
         Success: 95,
         Level: 15,
@@ -3847,7 +3847,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 55,
-        "AttTrue%": "81.2",
+        "AttTrue%": "81.3",
         Min: 3,
         Max: 14,
         Energy: 500,
@@ -3856,7 +3856,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "18.8",
+        "AttTrue%": "18.7",
         Number: 5029,
         Success: 90,
         Level: 12,
@@ -3888,7 +3888,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 75,
-        "AttTrue%": "95.3",
+        "AttTrue%": "94.6",
         Min: 5,
         Max: 16,
         Energy: 350,
@@ -3897,7 +3897,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out lashes you",
         Acc: 90,
-        "AttTrue%": "4.7",
+        "AttTrue%": "5.4",
         Min: 15,
         Max: 50,
         Energy: 350,
@@ -3938,7 +3938,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with its clawed feet",
         Acc: 80,
-        "AttTrue%": "36.2",
+        "AttTrue%": "36.8",
         Min: 8,
         Max: 25,
         Energy: 333,
@@ -3946,7 +3946,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and tears your throat",
         Acc: 95,
-        "AttTrue%": "27.1",
+        "AttTrue%": "26.4",
         Min: 10,
         Max: 40,
         Energy: 800,
@@ -3972,7 +3972,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dark force",
-        "AttTrue%": "79.0",
+        "AttTrue%": "78.1",
         Number: 225,
         Success: 100,
         Level: 20,
@@ -3980,7 +3980,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hold person",
-        "AttTrue%": "12.2",
+        "AttTrue%": "13.2",
         Number: 66,
         Success: 100,
         Level: 20,
@@ -4021,7 +4021,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 35,
-        "AttTrue%": "57.2",
+        "AttTrue%": "58.6",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -4030,7 +4030,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "14.1",
+        "AttTrue%": "14.3",
         Number: 5029,
         Success: 75,
         Level: 8,
@@ -4038,7 +4038,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "flask",
-        "AttTrue%": "28.7",
+        "AttTrue%": "27.1",
         Number: 229,
         Success: 100,
         Level: 8,
@@ -4069,7 +4069,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 200,
-        "AttTrue%": "40.1",
+        "AttTrue%": "40.9",
         Min: 10,
         Max: 60,
         Energy: 250,
@@ -4077,7 +4077,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 200,
-        "AttTrue%": "39.5",
+        "AttTrue%": "39.1",
         Min: 10,
         Max: 80,
         Energy: 250,
@@ -4086,7 +4086,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 200,
-        "AttTrue%": "20.4",
+        "AttTrue%": "19.9",
         Min: 10,
         Max: 100,
         Energy: 250,
@@ -4118,7 +4118,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eye beam",
-        "AttTrue%": "14.5",
+        "AttTrue%": "14.4",
         Number: 231,
         Success: 100,
         Level: 30,
@@ -4129,7 +4129,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 110,
-        "AttTrue%": "43.6",
+        "AttTrue%": "42.8",
         Min: 30,
         Max: 150,
         Energy: 1000,
@@ -4137,7 +4137,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams you with its fist",
         Acc: 100,
-        "AttTrue%": "22.9",
+        "AttTrue%": "24.1",
         Min: 12,
         Max: 30,
         Energy: 500,
@@ -4145,7 +4145,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and slams you on the ground",
         Acc: 95,
-        "AttTrue%": "18.0",
+        "AttTrue%": "17.6",
         Min: 25,
         Max: 60,
         Energy: 1000,
@@ -4256,7 +4256,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its toothy maw",
         Acc: 85,
-        "AttTrue%": "42.9",
+        "AttTrue%": "43.1",
         Min: 8,
         Max: 22,
         Energy: 1000,
@@ -4264,7 +4264,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tongue",
         Acc: 70,
-        "AttTrue%": "57.1",
+        "AttTrue%": "56.9",
         Min: 6,
         Max: 18,
         Energy: 500,
@@ -4292,7 +4292,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you with a wet limb",
         Acc: 75,
-        "AttTrue%": "54.5",
+        "AttTrue%": "54.8",
         Min: 8,
         Max: 22,
         Energy: 1000,
@@ -4300,7 +4300,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a ball of slime at you",
         Acc: 65,
-        "AttTrue%": "43.3",
+        "AttTrue%": "43.1",
         Min: 6,
         Max: 16,
         Energy: 500,
@@ -4309,7 +4309,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "engulfs",
-        "AttTrue%": "2.2",
+        "AttTrue%": "2.1",
         Number: 234,
         Success: 100,
         Level: 15,
@@ -4337,7 +4337,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 72,
-        "AttTrue%": "41.8",
+        "AttTrue%": "42.7",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -4346,7 +4346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 80,
-        "AttTrue%": "58.2",
+        "AttTrue%": "57.3",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -4375,7 +4375,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 70,
-        "AttTrue%": "86.0",
+        "AttTrue%": "85.8",
         Min: 6,
         Max: 18,
         Energy: 1000,
@@ -4383,7 +4383,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 75,
-        "AttTrue%": "14.0",
+        "AttTrue%": "14.2",
         Min: 6,
         Max: 18,
         Energy: 1000,
@@ -4441,7 +4441,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 85,
-        "AttTrue%": "89.3",
+        "AttTrue%": "89.8",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -4449,7 +4449,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "6.2",
+        "AttTrue%": "5.8",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -4459,7 +4459,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "thick webbing",
-        "AttTrue%": "4.5",
+        "AttTrue%": "4.4",
         Number: 237,
         Success: 100,
         Level: 13,
@@ -4489,7 +4489,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 85,
-        "AttTrue%": "97.0",
+        "AttTrue%": "96.8",
         Min: 5,
         Max: 15,
         Energy: 500,
@@ -4498,7 +4498,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits",
-        "AttTrue%": "3.0",
+        "AttTrue%": "3.2",
         Number: 238,
         Success: 100,
         Level: 13,
@@ -4527,7 +4527,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 65,
-        "AttTrue%": "84.3",
+        "AttTrue%": "85.3",
         Min: 3,
         Max: 12,
         Energy: 333,
@@ -4535,7 +4535,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 45,
-        "AttTrue%": "15.7",
+        "AttTrue%": "14.7",
         Min: 4,
         Max: 18,
         Energy: 333,
@@ -4563,7 +4563,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 70,
-        "AttTrue%": "76.7",
+        "AttTrue%": "75.2",
         Min: 3,
         Max: 16,
         Energy: 500,
@@ -4572,7 +4572,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "agony",
-        "AttTrue%": "23.3",
+        "AttTrue%": "24.8",
         Number: 5060,
         Success: 100,
         Level: 10,
@@ -4601,7 +4601,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 55,
-        "AttTrue%": "37.0",
+        "AttTrue%": "36.9",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -4610,7 +4610,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spiritual hammer",
-        "AttTrue%": "63.0",
+        "AttTrue%": "63.1",
         Number: 5038,
         Success: 100,
         Level: 12,
@@ -4638,7 +4638,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "87.3",
+        "AttTrue%": "88.2",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -4646,7 +4646,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 80,
-        "AttTrue%": "2.2",
+        "AttTrue%": "2.1",
         Min: 12,
         Max: 60,
         Energy: 500,
@@ -4655,7 +4655,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spiritual hammer",
-        "AttTrue%": "10.5",
+        "AttTrue%": "9.7",
         Number: 5038,
         Success: 100,
         Level: 10,
@@ -4683,7 +4683,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 85,
-        "AttTrue%": "97.4",
+        "AttTrue%": "96.2",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -4691,7 +4691,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 85,
-        "AttTrue%": "2.6",
+        "AttTrue%": "3.8",
         Min: 24,
         Max: 80,
         Energy: 1000,
@@ -4717,7 +4717,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sunbolt",
-        "AttTrue%": "22.8",
+        "AttTrue%": "23.5",
         Number: 5028,
         Success: 62,
         Level: 14,
@@ -4728,7 +4728,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 72,
-        "AttTrue%": "77.2",
+        "AttTrue%": "76.5",
         Min: 3,
         Max: 14,
         Energy: 500,
@@ -4755,7 +4755,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 75,
-        "AttTrue%": "89.8",
+        "AttTrue%": "89.4",
         Min: 3,
         Max: 13,
         Energy: 333,
@@ -4763,7 +4763,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 75,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.6",
         Min: 12,
         Max: 50,
         Energy: 333,
@@ -4791,7 +4791,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 44,
-        "AttTrue%": "62.0",
+        "AttTrue%": "63.9",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -4800,7 +4800,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sunbolt",
-        "AttTrue%": "38.0",
+        "AttTrue%": "36.1",
         Number: 5028,
         Success: 80,
         Level: 14,
@@ -4829,7 +4829,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "98.7",
+        "AttTrue%": "99.0",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -4837,7 +4837,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "1.3",
+        "AttTrue%": "1.0",
         Min: 16,
         Max: 60,
         Energy: 500,
@@ -4865,7 +4865,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "95.0",
+        "AttTrue%": "95.4",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -4873,7 +4873,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 95,
-        "AttTrue%": "5.0",
+        "AttTrue%": "4.6",
         Min: 16,
         Max: 60,
         Energy: 500,
@@ -4930,7 +4930,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 70,
-        "AttTrue%": "80.0",
+        "AttTrue%": "80.7",
         Min: 14,
         Max: 35,
         Energy: 1000,
@@ -4939,7 +4939,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sharp stones",
-        "AttTrue%": "20.0",
+        "AttTrue%": "19.3",
         Number: 206,
         Success: 100,
         Level: 15,
@@ -4967,7 +4967,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 70,
-        "AttTrue%": "43.2",
+        "AttTrue%": "42.4",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -4976,7 +4976,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 75,
-        "AttTrue%": "56.8",
+        "AttTrue%": "57.6",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -5005,7 +5005,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 70,
-        "AttTrue%": "94.5",
+        "AttTrue%": "94.9",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -5013,7 +5013,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 75,
-        "AttTrue%": "5.5",
+        "AttTrue%": "5.1",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -5043,7 +5043,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 65,
-        "AttTrue%": "90.3",
+        "AttTrue%": "89.4",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -5051,7 +5051,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 77,
-        "AttTrue%": "5.3",
+        "AttTrue%": "6.1",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -5061,7 +5061,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "thick webbing",
-        "AttTrue%": "4.4",
+        "AttTrue%": "4.5",
         Number: 237,
         Success: 100,
         Level: 13,
@@ -5188,7 +5188,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 85,
-        "AttTrue%": "79.7",
+        "AttTrue%": "79.2",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -5198,7 +5198,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "ball of magma",
-        "AttTrue%": "20.3",
+        "AttTrue%": "20.8",
         Number: 246,
         Success: 100,
         Level: 18,
@@ -5230,7 +5230,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sears you with its burning arm",
         Acc: 90,
-        "AttTrue%": "91.2",
+        "AttTrue%": "91.7",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -5240,7 +5240,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "envelops",
-        "AttTrue%": "8.8",
+        "AttTrue%": "8.3",
         Number: 116,
         Success: 100,
         Level: 17,
@@ -5302,7 +5302,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely rips you",
         Acc: 100,
-        "AttTrue%": "78.3",
+        "AttTrue%": "79.7",
         Min: 8,
         Max: 26,
         Energy: 1000,
@@ -5311,7 +5311,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes fire",
-        "AttTrue%": "21.7",
+        "AttTrue%": "20.3",
         Number: 247,
         Success: 100,
         Level: 19,
@@ -5373,7 +5373,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 75,
-        "AttTrue%": "95.6",
+        "AttTrue%": "95.8",
         Min: 5,
         Max: 15,
         Energy: 500,
@@ -5382,7 +5382,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits",
-        "AttTrue%": "4.4",
+        "AttTrue%": "4.2",
         Number: 238,
         Success: 100,
         Level: 13,
@@ -5412,7 +5412,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "68.5",
+        "AttTrue%": "68.8",
         Min: 6,
         Max: 21,
         Energy: 1000,
@@ -5420,7 +5420,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 85,
-        "AttTrue%": "23.2",
+        "AttTrue%": "23.0",
         Min: 9,
         Max: 30,
         Energy: 1000,
@@ -5459,7 +5459,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whacks you",
         Acc: 65,
-        "AttTrue%": "38.1",
+        "AttTrue%": "39.5",
         Min: 5,
         Max: 14,
         Energy: 1000,
@@ -5468,7 +5468,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "agony",
-        "AttTrue%": "40.8",
+        "AttTrue%": "38.9",
         Number: 5060,
         Success: 92,
         Level: 13,
@@ -5476,7 +5476,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blind",
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.5",
         Number: 77,
         Success: 92,
         Level: 13,
@@ -5484,7 +5484,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spits",
-        "AttTrue%": "9.2",
+        "AttTrue%": "9.1",
         Number: 238,
         Success: 100,
         Level: 13,
@@ -5517,7 +5517,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "67.0",
+        "AttTrue%": "66.1",
         Min: 8,
         Max: 28,
         Energy: 1000,
@@ -5525,7 +5525,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "25.8",
+        "AttTrue%": "26.3",
         Min: 12,
         Max: 42,
         Energy: 1000,
@@ -5534,7 +5534,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits",
-        "AttTrue%": "7.2",
+        "AttTrue%": "7.6",
         Number: 238,
         Success: 100,
         Level: 18,
@@ -5564,7 +5564,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whacks you",
         Acc: 85,
-        "AttTrue%": "56.5",
+        "AttTrue%": "56.7",
         Min: 5,
         Max: 14,
         Energy: 500,
@@ -5573,7 +5573,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "unholy force",
-        "AttTrue%": "29.3",
+        "AttTrue%": "29.0",
         Number: 111,
         Success: 85,
         Level: 18,
@@ -5581,7 +5581,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blind",
-        "AttTrue%": "7.3",
+        "AttTrue%": "7.6",
         Number: 77,
         Success: 100,
         Level: 18,
@@ -5589,7 +5589,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spits",
-        "AttTrue%": "6.9",
+        "AttTrue%": "6.7",
         Number: 238,
         Success: 100,
         Level: 18,
@@ -5618,7 +5618,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 80,
-        "AttTrue%": "82.9",
+        "AttTrue%": "82.4",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -5626,7 +5626,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 80,
-        "AttTrue%": "17.1",
+        "AttTrue%": "17.6",
         Min: 10,
         Max: 40,
         Energy: 1000,
@@ -5706,7 +5706,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "81.8",
+        "AttTrue%": "82.6",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -5714,7 +5714,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 100,
-        "AttTrue%": "18.2",
+        "AttTrue%": "17.4",
         Min: 20,
         Max: 35,
         Energy: 1000,
@@ -5886,7 +5886,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 120,
-        "AttTrue%": "57.1",
+        "AttTrue%": "56.1",
         Min: 24,
         Max: 88,
         Energy: 333,
@@ -5894,7 +5894,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 175,
-        "AttTrue%": "30.5",
+        "AttTrue%": "31.4",
         Min: 35,
         Max: 100,
         Energy: 500,
@@ -5992,7 +5992,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 180,
-        "AttTrue%": "27.3",
+        "AttTrue%": "27.9",
         Min: 50,
         Max: 95,
         Energy: 200,
@@ -6001,7 +6001,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 180,
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.2",
         Min: 120,
         Max: 280,
         Energy: 200,
@@ -6010,7 +6010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 180,
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.3",
         Min: 100,
         Max: 190,
         Energy: 500,
@@ -6019,7 +6019,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 180,
-        "AttTrue%": "14.4",
+        "AttTrue%": "15.0",
         Min: 60,
         Max: 90,
         Energy: 400,
@@ -6028,7 +6028,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lunar beam",
-        "AttTrue%": "18.8",
+        "AttTrue%": "18.7",
         Number: 1118,
         Success: 100,
         Level: 40,
@@ -6114,7 +6114,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 111,
-        "AttTrue%": "27.3",
+        "AttTrue%": "26.7",
         Min: 1,
         Max: 15,
         Energy: 200,
@@ -6123,7 +6123,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "26.6",
+        "AttTrue%": "28.3",
         Min: 15,
         Max: 40,
         Energy: 200,
@@ -6132,7 +6132,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.6",
         Number: 5026,
         Success: 100,
         Level: 40,
@@ -6140,7 +6140,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plasma bolt",
-        "AttTrue%": "8.5",
+        "AttTrue%": "9.3",
         Number: 5012,
         Success: 100,
         Level: 40,
@@ -6148,7 +6148,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "voodoo stab",
-        "AttTrue%": "28.7",
+        "AttTrue%": "27.1",
         Number: 763,
         Success: 100,
         Level: 40,
@@ -6184,7 +6184,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 190,
-        "AttTrue%": "40.3",
+        "AttTrue%": "39.9",
         Min: 40,
         Max: 80,
         Energy: 200,
@@ -6193,7 +6193,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 190,
-        "AttTrue%": "30.3",
+        "AttTrue%": "29.6",
         Min: 90,
         Max: 140,
         Energy: 200,
@@ -6202,7 +6202,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 190,
-        "AttTrue%": "29.4",
+        "AttTrue%": "30.5",
         Min: 40,
         Max: 80,
         Energy: 200,
@@ -6260,7 +6260,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frozen spike",
-        "AttTrue%": "50.0",
+        "AttTrue%": "50.6",
         Number: 5002,
         Success: 100,
         Level: 65,
@@ -6268,7 +6268,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hellstorm",
-        "AttTrue%": "7.8",
+        "AttTrue%": "8.0",
         Number: 5016,
         Success: 100,
         Level: 65,
@@ -6279,7 +6279,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its claws",
         Acc: 200,
-        "AttTrue%": "42.1",
+        "AttTrue%": "41.4",
         Min: 15,
         Max: 30,
         Energy: 200,
@@ -6309,7 +6309,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 250,
-        "AttTrue%": "42.4",
+        "AttTrue%": "42.8",
         Min: 15,
         Max: 45,
         Energy: 200,
@@ -6318,7 +6318,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its pinchers",
         Acc: 250,
-        "AttTrue%": "30.9",
+        "AttTrue%": "28.9",
         Min: 35,
         Max: 65,
         Energy: 200,
@@ -6327,7 +6327,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 250,
-        "AttTrue%": "4.3",
+        "AttTrue%": "5.0",
         Min: 50,
         Max: 100,
         Energy: 1000,
@@ -6337,7 +6337,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "grabs and smashes",
-        "AttTrue%": "22.4",
+        "AttTrue%": "23.3",
         Number: 767,
         Success: 100,
         Level: 45,
@@ -6367,7 +6367,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "52.4",
+        "AttTrue%": "53.1",
         Min: 25,
         Max: 75,
         Energy: 200,
@@ -6376,7 +6376,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 180,
-        "AttTrue%": "23.6",
+        "AttTrue%": "23.7",
         Min: 100,
         Max: 250,
         Energy: 200,
@@ -6384,7 +6384,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "17.5",
+        "AttTrue%": "17.1",
         Min: 25,
         Max: 75,
         Energy: 200,
@@ -6394,7 +6394,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "inferno",
-        "AttTrue%": "6.4",
+        "AttTrue%": "6.1",
         Number: 5003,
         Success: 100,
         Level: 65,
@@ -6426,7 +6426,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "30.7",
+        "AttTrue%": "29.9",
         Min: 15,
         Max: 60,
         Energy: 200,
@@ -6435,7 +6435,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 180,
-        "AttTrue%": "31.0",
+        "AttTrue%": "30.0",
         Min: 45,
         Max: 240,
         Energy: 200,
@@ -6445,7 +6445,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "29.9",
+        "AttTrue%": "30.9",
         Number: 391,
         Success: 100,
         Level: 40,
@@ -6453,7 +6453,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "energy vortex",
-        "AttTrue%": "8.5",
+        "AttTrue%": "9.1",
         Number: 1302,
         Success: 100,
         Level: 30,
@@ -6492,7 +6492,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 155,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.0",
         Min: 60,
         Max: 200,
         Energy: 250,
@@ -6500,7 +6500,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 200,
-        "AttTrue%": "19.1",
+        "AttTrue%": "18.8",
         Min: 80,
         Max: 240,
         Energy: 450,
@@ -6517,7 +6517,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sand breath",
-        "AttTrue%": "22.4",
+        "AttTrue%": "22.8",
         Number: 538,
         Success: 100,
         Level: 50,
@@ -6525,7 +6525,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "18.2",
+        "AttTrue%": "18.6",
         Number: 266,
         Success: 100,
         Level: 40,
@@ -6560,7 +6560,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 160,
-        "AttTrue%": "46.8",
+        "AttTrue%": "43.2",
         Min: 100,
         Max: 200,
         Energy: 250,
@@ -6568,7 +6568,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 170,
-        "AttTrue%": "22.8",
+        "AttTrue%": "23.6",
         Min: 65,
         Max: 150,
         Energy: 250,
@@ -6576,7 +6576,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 200,
-        "AttTrue%": "10.9",
+        "AttTrue%": "11.6",
         Min: 150,
         Max: 400,
         Energy: 1000,
@@ -6585,7 +6585,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "phoenixfire",
-        "AttTrue%": "19.4",
+        "AttTrue%": "21.5",
         Number: 931,
         Success: 100,
         Level: 50,
@@ -6621,7 +6621,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 180,
-        "AttTrue%": "27.9",
+        "AttTrue%": "28.3",
         Min: 60,
         Max: 115,
         Energy: 200,
@@ -6630,7 +6630,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 180,
-        "AttTrue%": "28.2",
+        "AttTrue%": "26.7",
         Min: 120,
         Max: 350,
         Energy: 200,
@@ -6639,7 +6639,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 180,
-        "AttTrue%": "26.3",
+        "AttTrue%": "28.3",
         Min: 80,
         Max: 100,
         Energy: 200,
@@ -6648,7 +6648,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "9.2",
+        "AttTrue%": "8.6",
         Number: 1214,
         Success: 100,
         Level: 45,
@@ -6656,7 +6656,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hellstorm",
-        "AttTrue%": "8.5",
+        "AttTrue%": "8.2",
         Number: 1247,
         Success: 100,
         Level: 40,
@@ -6687,7 +6687,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 220,
-        "AttTrue%": "80.6",
+        "AttTrue%": "79.2",
         Min: 50,
         Max: 150,
         Energy: 500,
@@ -6695,7 +6695,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 160,
-        "AttTrue%": "19.4",
+        "AttTrue%": "20.8",
         Min: 50,
         Max: 100,
         Energy: 500,
@@ -6765,7 +6765,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 200,
-        "AttTrue%": "85.4",
+        "AttTrue%": "84.8",
         Min: 42,
         Max: 80,
         Energy: 200,
@@ -6773,7 +6773,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "14.6",
+        "AttTrue%": "15.2",
         Min: 80,
         Max: 300,
         Energy: 200,
@@ -6804,7 +6804,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 200,
-        "AttTrue%": "85.0",
+        "AttTrue%": "85.6",
         Min: 42,
         Max: 80,
         Energy: 200,
@@ -6812,7 +6812,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "15.0",
+        "AttTrue%": "14.4",
         Min: 80,
         Max: 300,
         Energy: 200,
@@ -6843,7 +6843,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "75.2",
+        "AttTrue%": "74.2",
         Min: 29,
         Max: 50,
         Energy: 200,
@@ -6851,7 +6851,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "24.8",
+        "AttTrue%": "25.8",
         Min: 60,
         Max: 200,
         Energy: 200,
@@ -6885,7 +6885,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "27.6",
+        "AttTrue%": "27.3",
         Min: 35,
         Max: 75,
         Energy: 200,
@@ -6893,7 +6893,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "72.4",
+        "AttTrue%": "72.7",
         Min: 100,
         Max: 200,
         Energy: 500,
@@ -6923,7 +6923,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 200,
-        "AttTrue%": "84.9",
+        "AttTrue%": "85.6",
         Min: 42,
         Max: 80,
         Energy: 200,
@@ -6931,7 +6931,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "15.1",
+        "AttTrue%": "14.4",
         Min: 80,
         Max: 300,
         Energy: 200,
@@ -6970,7 +6970,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with her talons",
         Acc: 125,
-        "AttTrue%": "28.9",
+        "AttTrue%": "29.3",
         Min: 75,
         Max: 140,
         Energy: 300,
@@ -6978,7 +6978,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely tears you with her fangs",
         Acc: 130,
-        "AttTrue%": "9.6",
+        "AttTrue%": "9.4",
         Min: 170,
         Max: 300,
         Energy: 550,
@@ -6986,7 +6986,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 150,
-        "AttTrue%": "17.6",
+        "AttTrue%": "18.9",
         Min: 120,
         Max: 200,
         Energy: 666,
@@ -6994,7 +6994,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "18.3",
+        "AttTrue%": "18.5",
         Min: 65,
         Max: 180,
         Energy: 600,
@@ -7003,7 +7003,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "25.7",
+        "AttTrue%": "23.8",
         Number: 1254,
         Success: 100,
         Level: 40,
@@ -7051,7 +7051,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 150,
-        "AttTrue%": "39.8",
+        "AttTrue%": "39.9",
         Min: 12,
         Max: 58,
         Energy: 200,
@@ -7067,7 +7067,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 150,
-        "AttTrue%": "29.6",
+        "AttTrue%": "29.5",
         Min: 12,
         Max: 58,
         Energy: 200,
@@ -7102,7 +7102,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "30.9",
+        "AttTrue%": "30.2",
         Min: 25,
         Max: 65,
         Energy: 200,
@@ -7110,7 +7110,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "31.2",
+        "AttTrue%": "31.8",
         Min: 50,
         Max: 180,
         Energy: 200,
@@ -7127,7 +7127,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "17.4",
+        "AttTrue%": "17.6",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -7188,7 +7188,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 200,
-        "AttTrue%": "32.0",
+        "AttTrue%": "31.0",
         Min: 40,
         Max: 150,
         Energy: 500,
@@ -7198,7 +7198,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellstorm",
-        "AttTrue%": "25.1",
+        "AttTrue%": "24.8",
         Number: 1247,
         Success: 100,
         Level: 50,
@@ -7206,7 +7206,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hellfire",
-        "AttTrue%": "16.1",
+        "AttTrue%": "18.0",
         Number: 1214,
         Success: 100,
         Level: 50,
@@ -7214,7 +7214,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "inferno",
-        "AttTrue%": "26.8",
+        "AttTrue%": "26.1",
         Number: 5003,
         Success: 100,
         Level: 50,
@@ -7245,7 +7245,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "38.0",
+        "AttTrue%": "37.8",
         Min: 20,
         Max: 50,
         Energy: 300,
@@ -7254,7 +7254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "42.1",
+        "AttTrue%": "41.6",
         Min: 100,
         Max: 170,
         Energy: 600,
@@ -7263,7 +7263,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.7",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -7298,7 +7298,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frozen spike",
-        "AttTrue%": "31.6",
+        "AttTrue%": "33.1",
         Number: 5002,
         Success: 100,
         Level: 50,
@@ -7306,7 +7306,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "boulder",
-        "AttTrue%": "35.2",
+        "AttTrue%": "32.1",
         Number: 5000,
         Success: 100,
         Level: 50,
@@ -7314,7 +7314,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "acid tempest",
-        "AttTrue%": "33.2",
+        "AttTrue%": "34.8",
         Number: 5005,
         Success: 100,
         Level: 50,
@@ -7448,7 +7448,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 70,
-        "AttTrue%": "53.8",
+        "AttTrue%": "53.1",
         Min: 7,
         Max: 29,
         Energy: 400,
@@ -7457,7 +7457,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 70,
-        "AttTrue%": "8.5",
+        "AttTrue%": "8.8",
         Min: 25,
         Max: 100,
         Energy: 300,
@@ -7467,7 +7467,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "unholy wrath",
-        "AttTrue%": "37.6",
+        "AttTrue%": "38.1",
         Number: 252,
         Success: 85,
         Level: 25,
@@ -7501,7 +7501,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 50,
-        "AttTrue%": "47.5",
+        "AttTrue%": "48.3",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -7510,7 +7510,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sunbolt",
-        "AttTrue%": "35.0",
+        "AttTrue%": "35.7",
         Number: 5028,
         Success: 100,
         Level: 14,
@@ -7518,7 +7518,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "confusion",
-        "AttTrue%": "8.3",
+        "AttTrue%": "7.9",
         Number: 63,
         Success: 100,
         Level: 14,
@@ -7526,7 +7526,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "slow",
-        "AttTrue%": "9.2",
+        "AttTrue%": "8.1",
         Number: 59,
         Success: 100,
         Level: 14,
@@ -7570,7 +7570,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "colour spray",
-        "AttTrue%": "12.7",
+        "AttTrue%": "14.0",
         Number: 5022,
         Success: 95,
         Level: 35,
@@ -7578,7 +7578,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "mana storm",
-        "AttTrue%": "34.3",
+        "AttTrue%": "33.0",
         Number: 257,
         Success: 95,
         Level: 35,
@@ -7627,7 +7627,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 85,
-        "AttTrue%": "85.3",
+        "AttTrue%": "84.9",
         Min: 7,
         Max: 20,
         Energy: 300,
@@ -7635,7 +7635,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 85,
-        "AttTrue%": "14.7",
+        "AttTrue%": "15.1",
         Min: 25,
         Max: 70,
         Energy: 300,
@@ -7669,7 +7669,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 90,
-        "AttTrue%": "68.6",
+        "AttTrue%": "68.4",
         Min: 6,
         Max: 30,
         Energy: 333,
@@ -7677,7 +7677,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 90,
-        "AttTrue%": "6.1",
+        "AttTrue%": "6.2",
         Min: 24,
         Max: 100,
         Energy: 333,
@@ -7685,7 +7685,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 75,
-        "AttTrue%": "19.1",
+        "AttTrue%": "19.2",
         Min: 6,
         Max: 30,
         Energy: 333,
@@ -7695,7 +7695,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "rain of blood",
-        "AttTrue%": "4.1",
+        "AttTrue%": "4.0",
         Number: 259,
         Success: 100,
         Level: 50,
@@ -7737,7 +7737,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its claws",
         Acc: 80,
-        "AttTrue%": "39.5",
+        "AttTrue%": "35.2",
         Min: 10,
         Max: 30,
         Energy: 500,
@@ -7746,7 +7746,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a clawed foot",
         Acc: 90,
-        "AttTrue%": "30.4",
+        "AttTrue%": "32.2",
         Min: 15,
         Max: 45,
         Energy: 500,
@@ -7755,7 +7755,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gouges you with its huge horns",
         Acc: 95,
-        "AttTrue%": "10.4",
+        "AttTrue%": "11.3",
         Min: 25,
         Max: 80,
         Energy: 1000,
@@ -7765,7 +7765,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flame shower",
-        "AttTrue%": "19.7",
+        "AttTrue%": "21.3",
         Number: 261,
         Success: 100,
         Level: 15,
@@ -7796,7 +7796,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 100,
-        "AttTrue%": "36.4",
+        "AttTrue%": "36.6",
         Min: 10,
         Max: 25,
         Energy: 300,
@@ -7804,7 +7804,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 95,
-        "AttTrue%": "23.2",
+        "AttTrue%": "23.0",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -7812,7 +7812,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 85,
-        "AttTrue%": "29.7",
+        "AttTrue%": "28.7",
         Min: 10,
         Max: 38,
         Energy: 600,
@@ -7821,7 +7821,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "10.7",
+        "AttTrue%": "11.7",
         Number: 263,
         Success: 100,
         Level: 8,
@@ -7852,7 +7852,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 105,
-        "AttTrue%": "35.9",
+        "AttTrue%": "34.0",
         Min: 12,
         Max: 28,
         Energy: 300,
@@ -7860,7 +7860,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 105,
-        "AttTrue%": "21.4",
+        "AttTrue%": "22.0",
         Min: 8,
         Max: 25,
         Energy: 500,
@@ -7868,7 +7868,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 105,
-        "AttTrue%": "31.9",
+        "AttTrue%": "32.7",
         Min: 15,
         Max: 53,
         Energy: 500,
@@ -7877,7 +7877,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "10.7",
+        "AttTrue%": "11.3",
         Number: 263,
         Success: 100,
         Level: 10,
@@ -7911,7 +7911,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 110,
-        "AttTrue%": "33.4",
+        "AttTrue%": "35.0",
         Min: 13,
         Max: 30,
         Energy: 300,
@@ -7919,7 +7919,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 105,
-        "AttTrue%": "20.5",
+        "AttTrue%": "20.0",
         Min: 10,
         Max: 26,
         Energy: 500,
@@ -7927,7 +7927,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 110,
-        "AttTrue%": "31.5",
+        "AttTrue%": "31.6",
         Min: 18,
         Max: 60,
         Energy: 450,
@@ -7936,7 +7936,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "14.6",
+        "AttTrue%": "13.5",
         Number: 263,
         Success: 100,
         Level: 14,
@@ -7975,7 +7975,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with her talons",
         Acc: 115,
-        "AttTrue%": "33.3",
+        "AttTrue%": "33.1",
         Min: 24,
         Max: 80,
         Energy: 250,
@@ -7991,7 +7991,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "17.4",
+        "AttTrue%": "18.5",
         Min: 25,
         Max: 100,
         Energy: 550,
@@ -8000,7 +8000,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "16.6",
+        "AttTrue%": "16.4",
         Number: 265,
         Success: 100,
         Level: 50,
@@ -8008,7 +8008,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "21.6",
+        "AttTrue%": "20.8",
         Number: 266,
         Success: 100,
         Level: 25,
@@ -8040,7 +8040,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with his fist",
         Acc: 125,
-        "AttTrue%": "27.4",
+        "AttTrue%": "27.0",
         Min: 25,
         Max: 80,
         Energy: 200,
@@ -8048,7 +8048,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 100,
-        "AttTrue%": "27.4",
+        "AttTrue%": "26.8",
         Min: 50,
         Max: 150,
         Energy: 200,
@@ -8057,7 +8057,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 150,
-        "AttTrue%": "27.3",
+        "AttTrue%": "28.2",
         Min: 80,
         Max: 200,
         Energy: 200,
@@ -8067,7 +8067,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.0",
         Number: 5010,
         Success: 100,
         Level: 40,
@@ -8075,7 +8075,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "9.1",
+        "AttTrue%": "9.0",
         Number: 5023,
         Success: 100,
         Level: 40,
@@ -8221,7 +8221,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 900,
-        "AttTrue%": "32.3",
+        "AttTrue%": "31.9",
         Min: 40,
         Max: 150,
         Energy: 120,
@@ -8230,7 +8230,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 900,
-        "AttTrue%": "33.2",
+        "AttTrue%": "33.5",
         Min: 40,
         Max: 150,
         Energy: 120,
@@ -8239,7 +8239,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 900,
-        "AttTrue%": "34.4",
+        "AttTrue%": "34.6",
         Min: 40,
         Max: 150,
         Energy: 120,
@@ -8316,7 +8316,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls his chakram at you",
         Acc: 120,
-        "AttTrue%": "66.5",
+        "AttTrue%": "66.4",
         Min: 15,
         Max: 40,
         Energy: 200,
@@ -8324,7 +8324,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically hurls his chakram at you",
         Acc: 900,
-        "AttTrue%": "24.6",
+        "AttTrue%": "24.5",
         Min: 60,
         Max: 160,
         Energy: 200,
@@ -8333,7 +8333,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "surprise pounds",
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.1",
         Number: 942,
         Success: 100,
         Level: 30,
@@ -8363,7 +8363,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 75,
-        "AttTrue%": "36.1",
+        "AttTrue%": "37.8",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -8371,7 +8371,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 80,
-        "AttTrue%": "25.3",
+        "AttTrue%": "24.2",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -8379,7 +8379,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 86,
-        "AttTrue%": "22.0",
+        "AttTrue%": "22.3",
         Min: 10,
         Max: 38,
         Energy: 1000,
@@ -8388,7 +8388,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "16.6",
+        "AttTrue%": "15.7",
         Number: 263,
         Success: 100,
         Level: 8,
@@ -8417,7 +8417,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 150,
-        "AttTrue%": "74.7",
+        "AttTrue%": "74.3",
         Min: 10,
         Max: 26,
         Energy: 200,
@@ -8425,7 +8425,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 150,
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.7",
         Min: 40,
         Max: 140,
         Energy: 200,
@@ -8452,7 +8452,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 75,
-        "AttTrue%": "44.2",
+        "AttTrue%": "46.0",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -8461,7 +8461,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "holy force",
-        "AttTrue%": "19.7",
+        "AttTrue%": "19.4",
         Number: 5037,
         Success: 100,
         Level: 14,
@@ -8469,7 +8469,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.0",
         Number: 5018,
         Success: 100,
         Level: 14,
@@ -8477,7 +8477,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "summon ice elemental",
-        "AttTrue%": "15.5",
+        "AttTrue%": "14.6",
         Number: 5007,
         Success: 100,
         Level: 14,
@@ -8505,7 +8505,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 75,
-        "AttTrue%": "43.9",
+        "AttTrue%": "46.4",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -8514,7 +8514,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "holy force",
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.0",
         Number: 5037,
         Success: 100,
         Level: 14,
@@ -8522,7 +8522,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.7",
         Number: 5018,
         Success: 100,
         Level: 14,
@@ -8530,7 +8530,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "summon ice elemental",
-        "AttTrue%": "15.6",
+        "AttTrue%": "13.9",
         Number: 5007,
         Success: 100,
         Level: 14,
@@ -8577,7 +8577,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 75,
-        "AttTrue%": "75.5",
+        "AttTrue%": "74.6",
         Min: 8,
         Max: 21,
         Energy: 500,
@@ -8585,7 +8585,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "22.1",
+        "AttTrue%": "22.8",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -8594,7 +8594,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shriek",
-        "AttTrue%": "2.4",
+        "AttTrue%": "2.6",
         Number: 191,
         Success: 100,
         Level: 12,
@@ -8754,7 +8754,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 60,
-        "AttTrue%": "88.3",
+        "AttTrue%": "87.6",
         Min: 6,
         Max: 16,
         Energy: 500,
@@ -8763,7 +8763,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "quake",
-        "AttTrue%": "8.3",
+        "AttTrue%": "9.2",
         Number: 192,
         Success: 100,
         Level: 10,
@@ -8802,7 +8802,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 100,
-        "AttTrue%": "87.0",
+        "AttTrue%": "87.3",
         Min: 15,
         Max: 28,
         Energy: 500,
@@ -8810,7 +8810,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 100,
-        "AttTrue%": "13.0",
+        "AttTrue%": "12.7",
         Min: 25,
         Max: 45,
         Energy: 1000,
@@ -8842,7 +8842,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you",
         Acc: 85,
-        "AttTrue%": "94.3",
+        "AttTrue%": "94.2",
         Min: 10,
         Max: 26,
         Energy: 250,
@@ -8851,7 +8851,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "quake",
-        "AttTrue%": "5.7",
+        "AttTrue%": "5.8",
         Number: 192,
         Success: 100,
         Level: 1,
@@ -8882,7 +8882,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fists",
         Acc: 95,
-        "AttTrue%": "73.4",
+        "AttTrue%": "74.3",
         Min: 20,
         Max: 45,
         Energy: 1000,
@@ -8891,7 +8891,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "ice breath",
-        "AttTrue%": "26.6",
+        "AttTrue%": "25.7",
         Number: 197,
         Success: 100,
         Level: 15,
@@ -8927,7 +8927,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 120,
-        "AttTrue%": "85.1",
+        "AttTrue%": "84.9",
         Min: 10,
         Max: 28,
         Energy: 200,
@@ -8935,7 +8935,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 120,
-        "AttTrue%": "14.9",
+        "AttTrue%": "15.1",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -8967,7 +8967,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "90.0",
+        "AttTrue%": "89.5",
         Min: 12,
         Max: 30,
         Energy: 500,
@@ -8975,7 +8975,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 95,
-        "AttTrue%": "10.0",
+        "AttTrue%": "10.5",
         Min: 48,
         Max: 120,
         Energy: 500,
@@ -9013,7 +9013,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 250,
-        "AttTrue%": "58.9",
+        "AttTrue%": "57.5",
         Min: 35,
         Max: 100,
         Energy: 200,
@@ -9022,7 +9022,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "17.2",
+        "AttTrue%": "17.7",
         Number: 391,
         Success: 100,
         Level: 100,
@@ -9038,7 +9038,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fist of death",
-        "AttTrue%": "16.8",
+        "AttTrue%": "17.8",
         Number: 1159,
         Success: 100,
         Level: 50,
@@ -9085,7 +9085,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 130,
-        "AttTrue%": "21.8",
+        "AttTrue%": "22.7",
         Min: 25,
         Max: 50,
         Energy: 125,
@@ -9094,7 +9094,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 150,
-        "AttTrue%": "22.2",
+        "AttTrue%": "22.0",
         Min: 100,
         Max: 180,
         Energy: 125,
@@ -9103,7 +9103,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 150,
-        "AttTrue%": "17.3",
+        "AttTrue%": "16.8",
         Min: 50,
         Max: 120,
         Energy: 125,
@@ -9113,7 +9113,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "10.5",
+        "AttTrue%": "10.4",
         Number: 1214,
         Success: 100,
         Level: 40,
@@ -9121,7 +9121,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "ember",
-        "AttTrue%": "28.2",
+        "AttTrue%": "28.1",
         Number: 5004,
         Success: 100,
         Level: 40,
@@ -9149,7 +9149,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 75,
-        "AttTrue%": "95.8",
+        "AttTrue%": "95.7",
         Min: 4,
         Max: 18,
         Energy: 1000,
@@ -9157,7 +9157,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 75,
-        "AttTrue%": "4.2",
+        "AttTrue%": "4.3",
         Min: 16,
         Max: 70,
         Energy: 1000,
@@ -9189,7 +9189,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 85,
-        "AttTrue%": "34.0",
+        "AttTrue%": "33.3",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -9197,7 +9197,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 90,
-        "AttTrue%": "33.8",
+        "AttTrue%": "35.4",
         Min: 8,
         Max: 27,
         Energy: 500,
@@ -9205,7 +9205,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges you, slamming you with his shield",
         Acc: 85,
-        "AttTrue%": "17.4",
+        "AttTrue%": "17.5",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -9223,7 +9223,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "calls for aid",
-        "AttTrue%": "6.6",
+        "AttTrue%": "5.8",
         Number: 315,
         Success: 100,
         Level: 14,
@@ -9254,7 +9254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with a tentacle",
         Acc: 75,
-        "AttTrue%": "55.2",
+        "AttTrue%": "53.7",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -9262,7 +9262,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 70,
-        "AttTrue%": "27.7",
+        "AttTrue%": "28.9",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -9270,7 +9270,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you and claws you",
         Acc: 70,
-        "AttTrue%": "17.1",
+        "AttTrue%": "17.4",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -9299,7 +9299,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with a paw",
         Acc: 70,
-        "AttTrue%": "30.7",
+        "AttTrue%": "30.3",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -9307,7 +9307,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you with its fangs",
         Acc: 70,
-        "AttTrue%": "18.6",
+        "AttTrue%": "19.0",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -9315,7 +9315,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 84,
-        "AttTrue%": "23.4",
+        "AttTrue%": "22.8",
         Min: 10,
         Max: 36,
         Energy: 1000,
@@ -9323,7 +9323,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you and claws you",
         Acc: 90,
-        "AttTrue%": "13.8",
+        "AttTrue%": "13.9",
         Min: 5,
         Max: 20,
         Energy: 1000,
@@ -9333,7 +9333,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "volley of spikes",
-        "AttTrue%": "13.5",
+        "AttTrue%": "14.0",
         Number: 320,
         Success: 100,
         Level: 12,
@@ -9363,7 +9363,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 75,
-        "AttTrue%": "37.0",
+        "AttTrue%": "36.2",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -9371,7 +9371,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horns",
         Acc: 60,
-        "AttTrue%": "30.2",
+        "AttTrue%": "31.9",
         Min: 8,
         Max: 25,
         Energy: 1000,
@@ -9379,7 +9379,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 65,
-        "AttTrue%": "32.8",
+        "AttTrue%": "31.9",
         Min: 4,
         Max: 16,
         Energy: 1000,
@@ -9409,7 +9409,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with a hoof",
         Acc: 65,
-        "AttTrue%": "36.9",
+        "AttTrue%": "34.0",
         Min: 5,
         Max: 16,
         Energy: 500,
@@ -9417,7 +9417,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 75,
-        "AttTrue%": "29.9",
+        "AttTrue%": "30.1",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -9425,7 +9425,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 70,
-        "AttTrue%": "27.8",
+        "AttTrue%": "29.6",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -9435,7 +9435,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a greenish cloud",
-        "AttTrue%": "5.3",
+        "AttTrue%": "6.3",
         Number: 322,
         Success: 100,
         Level: 11,
@@ -9463,7 +9463,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you",
         Acc: 55,
-        "AttTrue%": "73.6",
+        "AttTrue%": "74.6",
         Min: 3,
         Max: 12,
         Energy: 333,
@@ -9471,7 +9471,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 65,
-        "AttTrue%": "19.5",
+        "AttTrue%": "17.3",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -9480,7 +9480,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you",
         Acc: 55,
-        "AttTrue%": "6.8",
+        "AttTrue%": "8.1",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -9508,7 +9508,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 70,
-        "AttTrue%": "78.0",
+        "AttTrue%": "79.7",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -9516,7 +9516,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 70,
-        "AttTrue%": "22.0",
+        "AttTrue%": "20.3",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -9543,7 +9543,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 75,
-        "AttTrue%": "68.0",
+        "AttTrue%": "68.1",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -9551,7 +9551,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 65,
-        "AttTrue%": "9.2",
+        "AttTrue%": "10.3",
         Min: 16,
         Max: 48,
         Energy: 1000,
@@ -9559,7 +9559,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 60,
-        "AttTrue%": "22.7",
+        "AttTrue%": "21.6",
         Min: 6,
         Max: 20,
         Energy: 333,
@@ -9586,7 +9586,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 55,
-        "AttTrue%": "68.8",
+        "AttTrue%": "67.6",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -9594,7 +9594,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 65,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.1",
         Min: 10,
         Max: 25,
         Energy: 1000,
@@ -9602,7 +9602,7 @@ export const monsterData: Monster[] = [
       {
         Name: "fires an arrow into your guts",
         Acc: 70,
-        "AttTrue%": "11.2",
+        "AttTrue%": "12.3",
         Min: 15,
         Max: 35,
         Energy: 1000,
@@ -9629,7 +9629,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 70,
-        "AttTrue%": "92.8",
+        "AttTrue%": "93.5",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -9637,7 +9637,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 70,
-        "AttTrue%": "1.0",
+        "AttTrue%": "1.2",
         Min: 16,
         Max: 50,
         Energy: 500,
@@ -9645,7 +9645,7 @@ export const monsterData: Monster[] = [
       {
         Name: "thrusts its longsword into your guts",
         Acc: 70,
-        "AttTrue%": "6.1",
+        "AttTrue%": "5.3",
         Min: 10,
         Max: 32,
         Energy: 1000,
@@ -9674,7 +9674,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 75,
-        "AttTrue%": "23.3",
+        "AttTrue%": "22.4",
         Min: 4,
         Max: 14,
         Energy: 333,
@@ -9682,7 +9682,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 75,
-        "AttTrue%": "22.3",
+        "AttTrue%": "22.1",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -9690,7 +9690,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 75,
-        "AttTrue%": "17.4",
+        "AttTrue%": "18.5",
         Min: 9,
         Max: 30,
         Energy: 1000,
@@ -9698,7 +9698,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 75,
-        "AttTrue%": "19.3",
+        "AttTrue%": "18.9",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -9707,7 +9707,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 75,
-        "AttTrue%": "17.7",
+        "AttTrue%": "18.1",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -9736,7 +9736,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 75,
-        "AttTrue%": "50.7",
+        "AttTrue%": "49.1",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -9744,7 +9744,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges into you",
         Acc: 80,
-        "AttTrue%": "42.3",
+        "AttTrue%": "43.3",
         Min: 9,
         Max: 20,
         Energy: 1000,
@@ -9754,7 +9754,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits acid",
-        "AttTrue%": "7.0",
+        "AttTrue%": "7.6",
         Number: 325,
         Success: 100,
         Level: 11,
@@ -9783,7 +9783,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 55,
-        "AttTrue%": "49.0",
+        "AttTrue%": "50.2",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -9791,7 +9791,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges into you",
         Acc: 60,
-        "AttTrue%": "29.7",
+        "AttTrue%": "29.6",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -9801,7 +9801,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of reddish vapour",
-        "AttTrue%": "21.3",
+        "AttTrue%": "20.2",
         Number: 326,
         Success: 100,
         Level: 11,
@@ -9830,7 +9830,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a tentacle",
         Acc: 65,
-        "AttTrue%": "53.4",
+        "AttTrue%": "54.2",
         Min: 1,
         Max: 1,
         Energy: 125,
@@ -9839,7 +9839,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 70,
-        "AttTrue%": "46.6",
+        "AttTrue%": "45.8",
         Min: 3,
         Max: 14,
         Energy: 1000,
@@ -9867,7 +9867,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 66,
-        "AttTrue%": "81.7",
+        "AttTrue%": "83.1",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -9875,7 +9875,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with both claws",
         Acc: 65,
-        "AttTrue%": "10.9",
+        "AttTrue%": "9.8",
         Min: 12,
         Max: 40,
         Energy: 1000,
@@ -9884,7 +9884,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gazes",
-        "AttTrue%": "7.4",
+        "AttTrue%": "7.1",
         Number: 328,
         Success: 100,
         Level: 11,
@@ -9915,7 +9915,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its pincers",
         Acc: 65,
-        "AttTrue%": "53.5",
+        "AttTrue%": "52.5",
         Min: 5,
         Max: 16,
         Energy: 500,
@@ -9923,7 +9923,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 75,
-        "AttTrue%": "37.8",
+        "AttTrue%": "38.6",
         Min: 2,
         Max: 10,
         Energy: 1000,
@@ -9933,7 +9933,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "thin tendrils",
-        "AttTrue%": "8.7",
+        "AttTrue%": "8.9",
         Number: 329,
         Success: 100,
         Level: 12,
@@ -9972,7 +9972,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 80,
-        "AttTrue%": "46.0",
+        "AttTrue%": "45.9",
         Min: 2,
         Max: 10,
         Energy: 1000,
@@ -9982,7 +9982,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "violet fluid",
-        "AttTrue%": "6.3",
+        "AttTrue%": "6.4",
         Number: 330,
         Success: 100,
         Level: 13,
@@ -10013,7 +10013,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its pincers",
         Acc: 55,
-        "AttTrue%": "57.5",
+        "AttTrue%": "60.1",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -10021,7 +10021,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 60,
-        "AttTrue%": "42.5",
+        "AttTrue%": "39.9",
         Min: 2,
         Max: 10,
         Energy: 1000,
@@ -10052,7 +10052,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its pincers",
         Acc: 75,
-        "AttTrue%": "51.3",
+        "AttTrue%": "50.3",
         Min: 6,
         Max: 20,
         Energy: 500,
@@ -10060,7 +10060,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 80,
-        "AttTrue%": "28.1",
+        "AttTrue%": "29.8",
         Min: 2,
         Max: 12,
         Energy: 1000,
@@ -10070,7 +10070,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "violet fluid",
-        "AttTrue%": "10.7",
+        "AttTrue%": "10.4",
         Number: 330,
         Success: 100,
         Level: 15,
@@ -10078,7 +10078,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thin tendrils",
-        "AttTrue%": "10.0",
+        "AttTrue%": "9.5",
         Number: 329,
         Success: 100,
         Level: 15,
@@ -10113,7 +10113,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 85,
-        "AttTrue%": "68.8",
+        "AttTrue%": "68.9",
         Min: 4,
         Max: 23,
         Energy: 333,
@@ -10129,7 +10129,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 95,
-        "AttTrue%": "21.6",
+        "AttTrue%": "22.3",
         Min: 25,
         Max: 45,
         Energy: 250,
@@ -10138,7 +10138,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sunbolt wand",
-        "AttTrue%": "4.3",
+        "AttTrue%": "3.5",
         Number: 332,
         Success: 100,
         Level: 17,
@@ -10226,7 +10226,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with her huge pincers",
         Acc: 110,
-        "AttTrue%": "29.1",
+        "AttTrue%": "31.1",
         Min: 10,
         Max: 36,
         Energy: 1000,
@@ -10234,7 +10234,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with her huge stinger",
         Acc: 110,
-        "AttTrue%": "49.4",
+        "AttTrue%": "48.1",
         Min: 8,
         Max: 20,
         Energy: 1000,
@@ -10244,7 +10244,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "green beam",
-        "AttTrue%": "21.5",
+        "AttTrue%": "20.8",
         Number: 341,
         Success: 100,
         Level: 25,
@@ -10369,7 +10369,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "99.1",
+        "AttTrue%": "99.3",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -10377,7 +10377,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "0.9",
+        "AttTrue%": "0.7",
         Min: 16,
         Max: 50,
         Energy: 500,
@@ -10405,7 +10405,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 65,
-        "AttTrue%": "98.9",
+        "AttTrue%": "99.3",
         Min: 6,
         Max: 28,
         Energy: 1000,
@@ -10413,7 +10413,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 65,
-        "AttTrue%": "1.1",
+        "AttTrue%": "0.7",
         Min: 24,
         Max: 100,
         Energy: 1000,
@@ -10710,7 +10710,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 75,
-        "AttTrue%": "21.3",
+        "AttTrue%": "21.9",
         Min: 4,
         Max: 14,
         Energy: 333,
@@ -10718,7 +10718,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 75,
-        "AttTrue%": "24.0",
+        "AttTrue%": "20.4",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -10726,7 +10726,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 75,
-        "AttTrue%": "18.5",
+        "AttTrue%": "18.4",
         Min: 9,
         Max: 30,
         Energy: 1000,
@@ -10734,7 +10734,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 75,
-        "AttTrue%": "17.7",
+        "AttTrue%": "19.5",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -10743,7 +10743,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 75,
-        "AttTrue%": "18.5",
+        "AttTrue%": "19.8",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -10915,7 +10915,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 70,
-        "AttTrue%": "18.6",
+        "AttTrue%": "17.3",
         Min: 5,
         Max: 16,
         Energy: 1000,
@@ -10924,7 +10924,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 100,
-        "AttTrue%": "81.4",
+        "AttTrue%": "82.7",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -10954,7 +10954,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 40,
-        "AttTrue%": "24.0",
+        "AttTrue%": "22.0",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -10962,7 +10962,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rams into you with its spines",
         Acc: 50,
-        "AttTrue%": "76.0",
+        "AttTrue%": "78.0",
         Min: 12,
         Max: 32,
         Energy: 1000,
@@ -10993,7 +10993,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears into you",
         Acc: 50,
-        "AttTrue%": "86.3",
+        "AttTrue%": "85.1",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -11002,7 +11002,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes burning steam",
-        "AttTrue%": "13.7",
+        "AttTrue%": "14.9",
         Number: 359,
         Success: 100,
         Level: 15,
@@ -11034,7 +11034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with a watery limb",
         Acc: 75,
-        "AttTrue%": "31.8",
+        "AttTrue%": "33.6",
         Min: 5,
         Max: 24,
         Energy: 1000,
@@ -11042,7 +11042,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and drowns you",
         Acc: 85,
-        "AttTrue%": "33.6",
+        "AttTrue%": "32.9",
         Min: 10,
         Max: 35,
         Energy: 1000,
@@ -11051,7 +11051,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "freezes",
-        "AttTrue%": "34.6",
+        "AttTrue%": "33.5",
         Number: 360,
         Success: 100,
         Level: 16,
@@ -11090,7 +11090,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you with her iron claws",
         Acc: 110,
-        "AttTrue%": "42.4",
+        "AttTrue%": "43.2",
         Min: 16,
         Max: 50,
         Energy: 333,
@@ -11098,7 +11098,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you with her iron claws",
         Acc: 115,
-        "AttTrue%": "40.8",
+        "AttTrue%": "40.4",
         Min: 16,
         Max: 50,
         Energy: 333,
@@ -11108,7 +11108,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sphere of implosion",
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.4",
         Number: 5018,
         Success: 100,
         Level: 40,
@@ -11138,7 +11138,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 90,
-        "AttTrue%": "42.7",
+        "AttTrue%": "42.8",
         Min: 3,
         Max: 9,
         Energy: 200,
@@ -11146,7 +11146,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 90,
-        "AttTrue%": "57.3",
+        "AttTrue%": "57.2",
         Min: 20,
         Max: 40,
         Energy: 1000,
@@ -11175,7 +11175,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 75,
-        "AttTrue%": "43.5",
+        "AttTrue%": "44.6",
         Min: 3,
         Max: 14,
         Energy: 333,
@@ -11183,7 +11183,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you with its stinger",
         Acc: 75,
-        "AttTrue%": "27.0",
+        "AttTrue%": "26.4",
         Min: 4,
         Max: 18,
         Energy: 1000,
@@ -11193,7 +11193,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flame dart",
-        "AttTrue%": "29.5",
+        "AttTrue%": "29.0",
         Number: 364,
         Success: 100,
         Level: 16,
@@ -11222,7 +11222,7 @@ export const monsterData: Monster[] = [
       {
         Name: "mauls you",
         Acc: 75,
-        "AttTrue%": "45.3",
+        "AttTrue%": "47.6",
         Min: 6,
         Max: 22,
         Energy: 500,
@@ -11230,7 +11230,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 65,
-        "AttTrue%": "22.3",
+        "AttTrue%": "20.1",
         Min: 15,
         Max: 38,
         Energy: 1000,
@@ -11347,7 +11347,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 75,
-        "AttTrue%": "38.4",
+        "AttTrue%": "39.4",
         Min: 3,
         Max: 13,
         Energy: 500,
@@ -11356,7 +11356,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "magic bolt",
-        "AttTrue%": "61.6",
+        "AttTrue%": "60.6",
         Number: 367,
         Success: 100,
         Level: 15,
@@ -11387,7 +11387,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 75,
-        "AttTrue%": "38.3",
+        "AttTrue%": "36.9",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -11404,7 +11404,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "magic bolt",
-        "AttTrue%": "60.0",
+        "AttTrue%": "61.4",
         Number: 367,
         Success: 100,
         Level: 16,
@@ -11433,7 +11433,7 @@ export const monsterData: Monster[] = [
       {
         Name: "mauls you",
         Acc: 90,
-        "AttTrue%": "56.7",
+        "AttTrue%": "57.4",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -11441,7 +11441,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 80,
-        "AttTrue%": "43.3",
+        "AttTrue%": "42.6",
         Min: 14,
         Max: 38,
         Energy: 1000,
@@ -11513,7 +11513,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a heavy limb",
         Acc: 95,
-        "AttTrue%": "49.9",
+        "AttTrue%": "51.0",
         Min: 14,
         Max: 45,
         Energy: 1000,
@@ -11522,7 +11522,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "roots",
-        "AttTrue%": "50.1",
+        "AttTrue%": "49.0",
         Number: 366,
         Success: 100,
         Level: 20,
@@ -11554,7 +11554,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a heavy limb",
         Acc: 95,
-        "AttTrue%": "51.3",
+        "AttTrue%": "49.0",
         Min: 14,
         Max: 45,
         Energy: 1000,
@@ -11563,7 +11563,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "roots",
-        "AttTrue%": "48.7",
+        "AttTrue%": "51.0",
         Number: 366,
         Success: 100,
         Level: 20,
@@ -11609,7 +11609,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 100,
-        "AttTrue%": "23.8",
+        "AttTrue%": "24.5",
         Min: 60,
         Max: 120,
         Energy: 1000,
@@ -11617,7 +11617,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically stabs you",
         Acc: 100,
-        "AttTrue%": "10.9",
+        "AttTrue%": "10.2",
         Min: 20,
         Max: 50,
         Energy: 166,
@@ -11646,7 +11646,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 85,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.9",
         Min: 2,
         Max: 6,
         Energy: 333,
@@ -11655,7 +11655,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "magic bolt",
-        "AttTrue%": "79.4",
+        "AttTrue%": "79.1",
         Number: 367,
         Success: 100,
         Level: 16,
@@ -11688,7 +11688,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 85,
-        "AttTrue%": "67.7",
+        "AttTrue%": "66.5",
         Min: 30,
         Max: 90,
         Energy: 1000,
@@ -11697,7 +11697,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "roots",
-        "AttTrue%": "32.3",
+        "AttTrue%": "33.5",
         Number: 366,
         Success: 100,
         Level: 20,
@@ -11730,7 +11730,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horn",
         Acc: 80,
-        "AttTrue%": "83.4",
+        "AttTrue%": "82.0",
         Min: 6,
         Max: 25,
         Energy: 500,
@@ -11738,7 +11738,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges at you and skewers you",
         Acc: 50,
-        "AttTrue%": "16.6",
+        "AttTrue%": "18.0",
         Min: 20,
         Max: 60,
         Energy: 1000,
@@ -11794,7 +11794,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 80,
-        "AttTrue%": "32.0",
+        "AttTrue%": "31.0",
         Min: 5,
         Max: 16,
         Energy: 500,
@@ -11803,7 +11803,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plasma bolt",
-        "AttTrue%": "68.0",
+        "AttTrue%": "69.0",
         Number: 5012,
         Success: 100,
         Level: 30,
@@ -11891,7 +11891,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 100,
-        "AttTrue%": "74.5",
+        "AttTrue%": "74.2",
         Min: 6,
         Max: 20,
         Energy: 500,
@@ -11899,7 +11899,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 64,
-        "AttTrue%": "25.5",
+        "AttTrue%": "25.8",
         Min: 12,
         Max: 30,
         Energy: 500,
@@ -11928,7 +11928,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 95,
-        "AttTrue%": "50.8",
+        "AttTrue%": "50.1",
         Min: 5,
         Max: 19,
         Energy: 200,
@@ -11936,7 +11936,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps and impales you",
         Acc: 95,
-        "AttTrue%": "19.3",
+        "AttTrue%": "19.9",
         Min: 10,
         Max: 19,
         Energy: 200,
@@ -11974,7 +11974,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 95,
-        "AttTrue%": "49.2",
+        "AttTrue%": "49.6",
         Min: 5,
         Max: 19,
         Energy: 200,
@@ -11982,7 +11982,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps and impales you",
         Acc: 95,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.5",
         Min: 10,
         Max: 19,
         Energy: 200,
@@ -11991,7 +11991,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spins and critically skewers you",
         Acc: 95,
-        "AttTrue%": "30.4",
+        "AttTrue%": "29.9",
         Min: 20,
         Max: 80,
         Energy: 200,
@@ -12034,7 +12034,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "32.5",
+        "AttTrue%": "33.3",
         Number: 5010,
         Success: 100,
         Level: 40,
@@ -12042,7 +12042,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "maelstrom",
-        "AttTrue%": "27.0",
+        "AttTrue%": "25.5",
         Number: 1374,
         Success: 100,
         Level: 40,
@@ -12050,7 +12050,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "starbeam",
-        "AttTrue%": "16.4",
+        "AttTrue%": "17.1",
         Number: 1241,
         Success: 100,
         Level: 40,
@@ -12080,7 +12080,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely rips you",
         Acc: 85,
-        "AttTrue%": "74.0",
+        "AttTrue%": "74.2",
         Min: 8,
         Max: 21,
         Energy: 1000,
@@ -12088,7 +12088,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you and claws you",
         Acc: 65,
-        "AttTrue%": "26.0",
+        "AttTrue%": "25.8",
         Min: 8,
         Max: 21,
         Energy: 1000,
@@ -12116,7 +12116,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 85,
-        "AttTrue%": "75.2",
+        "AttTrue%": "74.9",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -12124,7 +12124,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out bludgeons you",
         Acc: 75,
-        "AttTrue%": "24.8",
+        "AttTrue%": "25.1",
         Min: 9,
         Max: 36,
         Energy: 1000,
@@ -12151,7 +12151,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "49.1",
+        "AttTrue%": "49.5",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -12159,7 +12159,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "26.8",
+        "AttTrue%": "26.6",
         Min: 9,
         Max: 36,
         Energy: 1000,
@@ -12167,7 +12167,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shield-rushes you",
         Acc: 100,
-        "AttTrue%": "24.2",
+        "AttTrue%": "23.9",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -12196,7 +12196,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 85,
-        "AttTrue%": "75.0",
+        "AttTrue%": "75.4",
         Min: 11,
         Max: 32,
         Energy: 1000,
@@ -12204,7 +12204,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 90,
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.6",
         Min: 16,
         Max: 50,
         Energy: 1000,
@@ -12233,7 +12233,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 100,
-        "AttTrue%": "54.8",
+        "AttTrue%": "53.8",
         Min: 4,
         Max: 18,
         Energy: 1000,
@@ -12242,7 +12242,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "45.2",
+        "AttTrue%": "46.2",
         Number: 5026,
         Success: 120,
         Level: 15,
@@ -12272,7 +12272,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 85,
-        "AttTrue%": "70.9",
+        "AttTrue%": "71.0",
         Min: 5,
         Max: 18,
         Energy: 1000,
@@ -12281,7 +12281,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of frost",
-        "AttTrue%": "29.1",
+        "AttTrue%": "29.0",
         Number: 375,
         Success: 100,
         Level: 14,
@@ -12311,7 +12311,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 105,
-        "AttTrue%": "69.9",
+        "AttTrue%": "71.7",
         Min: 5,
         Max: 18,
         Energy: 1000,
@@ -12320,7 +12320,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spray of acid",
-        "AttTrue%": "30.1",
+        "AttTrue%": "28.3",
         Number: 376,
         Success: 100,
         Level: 4,
@@ -12350,7 +12350,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 90,
-        "AttTrue%": "69.9",
+        "AttTrue%": "70.2",
         Min: 5,
         Max: 19,
         Energy: 1000,
@@ -12359,7 +12359,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "30.1",
+        "AttTrue%": "29.8",
         Number: 377,
         Success: 100,
         Level: 2,
@@ -12389,7 +12389,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 100,
-        "AttTrue%": "70.8",
+        "AttTrue%": "70.2",
         Min: 5,
         Max: 20,
         Energy: 1000,
@@ -12398,7 +12398,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "29.2",
+        "AttTrue%": "29.8",
         Number: 378,
         Success: 100,
         Level: 6,
@@ -12428,7 +12428,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 110,
-        "AttTrue%": "70.5",
+        "AttTrue%": "70.7",
         Min: 5,
         Max: 21,
         Energy: 1000,
@@ -12437,7 +12437,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of flame",
-        "AttTrue%": "29.5",
+        "AttTrue%": "29.3",
         Number: 379,
         Success: 100,
         Level: 5,
@@ -12467,7 +12467,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "72.0",
+        "AttTrue%": "71.9",
         Min: 3,
         Max: 14,
         Energy: 333,
@@ -12475,7 +12475,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 105,
-        "AttTrue%": "25.2",
+        "AttTrue%": "25.1",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -12484,7 +12484,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "creature illusion",
-        "AttTrue%": "2.8",
+        "AttTrue%": "3.0",
         Number: 380,
         Success: 120,
         Level: 15,
@@ -12542,7 +12542,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 80,
-        "AttTrue%": "90.8",
+        "AttTrue%": "90.4",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -12551,7 +12551,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gibbers",
-        "AttTrue%": "9.2",
+        "AttTrue%": "9.6",
         Number: 381,
         Success: 100,
         Level: 10,
@@ -12581,7 +12581,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "90.8",
+        "AttTrue%": "91.4",
         Min: 8,
         Max: 24,
         Energy: 1000,
@@ -12590,7 +12590,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gibbers",
-        "AttTrue%": "9.2",
+        "AttTrue%": "8.6",
         Number: 381,
         Success: 100,
         Level: 14,
@@ -12620,7 +12620,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 100,
-        "AttTrue%": "91.2",
+        "AttTrue%": "90.9",
         Min: 8,
         Max: 28,
         Energy: 1000,
@@ -12629,7 +12629,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gibbers",
-        "AttTrue%": "8.8",
+        "AttTrue%": "9.1",
         Number: 381,
         Success: 100,
         Level: 17,
@@ -12693,7 +12693,7 @@ export const monsterData: Monster[] = [
       {
         Name: "attempts",
         Acc: 0,
-        "AttTrue%": "25.6",
+        "AttTrue%": "24.1",
         Min: 0,
         Max: 0,
         Energy: 1000,
@@ -12702,7 +12702,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "envelops",
-        "AttTrue%": "49.3",
+        "AttTrue%": "50.1",
         Number: 388,
         Success: 100,
         Level: 25,
@@ -12710,7 +12710,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "drains",
-        "AttTrue%": "25.1",
+        "AttTrue%": "25.8",
         Number: 389,
         Success: 100,
         Level: 25,
@@ -12742,7 +12742,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 105,
-        "AttTrue%": "76.3",
+        "AttTrue%": "75.1",
         Min: 4,
         Max: 20,
         Energy: 500,
@@ -12750,7 +12750,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 110,
-        "AttTrue%": "23.7",
+        "AttTrue%": "24.9",
         Min: 4,
         Max: 20,
         Energy: 500,
@@ -12785,7 +12785,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whomps you",
         Acc: 135,
-        "AttTrue%": "46.9",
+        "AttTrue%": "46.7",
         Min: 8,
         Max: 30,
         Energy: 333,
@@ -12794,7 +12794,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "23.6",
+        "AttTrue%": "23.9",
         Number: 391,
         Success: 100,
         Level: 25,
@@ -12802,7 +12802,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "mana storm",
-        "AttTrue%": "17.5",
+        "AttTrue%": "17.4",
         Number: 257,
         Success: 100,
         Level: 25,
@@ -12846,7 +12846,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "94.4",
+        "AttTrue%": "94.2",
         Min: 10,
         Max: 40,
         Energy: 333,
@@ -12855,7 +12855,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "partial petrification",
-        "AttTrue%": "2.7",
+        "AttTrue%": "2.9",
         Number: 1362,
         Success: 100,
         Level: 24,
@@ -12863,7 +12863,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "petrification",
-        "AttTrue%": "2.9",
+        "AttTrue%": "2.8",
         Number: 392,
         Success: 100,
         Level: 24,
@@ -12896,7 +12896,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "28.1",
+        "AttTrue%": "28.5",
         Min: 15,
         Max: 40,
         Energy: 333,
@@ -12904,7 +12904,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "27.9",
+        "AttTrue%": "26.7",
         Min: 12,
         Max: 30,
         Energy: 333,
@@ -12912,7 +12912,7 @@ export const monsterData: Monster[] = [
       {
         Name: "butts you",
         Acc: 125,
-        "AttTrue%": "27.5",
+        "AttTrue%": "27.6",
         Min: 12,
         Max: 30,
         Energy: 333,
@@ -12921,7 +12921,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "16.5",
+        "AttTrue%": "17.2",
         Number: 394,
         Success: 100,
         Level: 26,
@@ -12956,7 +12956,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 115,
-        "AttTrue%": "48.3",
+        "AttTrue%": "48.0",
         Min: 18,
         Max: 40,
         Energy: 666,
@@ -12965,7 +12965,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "death ray",
-        "AttTrue%": "33.3",
+        "AttTrue%": "33.8",
         Number: 398,
         Success: 100,
         Level: 27,
@@ -12973,7 +12973,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fear",
-        "AttTrue%": "2.3",
+        "AttTrue%": "2.1",
         Number: 397,
         Success: 100,
         Level: 27,
@@ -12989,7 +12989,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hold person",
-        "AttTrue%": "12.4",
+        "AttTrue%": "12.5",
         Number: 395,
         Success: 100,
         Level: 1,
@@ -13026,7 +13026,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 110,
-        "AttTrue%": "37.2",
+        "AttTrue%": "37.1",
         Min: 15,
         Max: 48,
         Energy: 333,
@@ -13034,7 +13034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 120,
-        "AttTrue%": "26.9",
+        "AttTrue%": "27.9",
         Min: 28,
         Max: 75,
         Energy: 700,
@@ -13042,7 +13042,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 120,
-        "AttTrue%": "19.8",
+        "AttTrue%": "19.2",
         Min: 45,
         Max: 110,
         Energy: 1000,
@@ -13051,7 +13051,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "rainbow beam",
-        "AttTrue%": "16.1",
+        "AttTrue%": "15.8",
         Number: 399,
         Success: 100,
         Level: 28,
@@ -13083,7 +13083,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 115,
-        "AttTrue%": "95.0",
+        "AttTrue%": "94.8",
         Min: 6,
         Max: 40,
         Energy: 142,
@@ -13092,7 +13092,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of frost",
-        "AttTrue%": "5.0",
+        "AttTrue%": "5.2",
         Number: 375,
         Success: 100,
         Level: 20,
@@ -13125,7 +13125,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 105,
-        "AttTrue%": "67.5",
+        "AttTrue%": "67.7",
         Min: 9,
         Max: 42,
         Energy: 333,
@@ -13133,7 +13133,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 100,
-        "AttTrue%": "11.6",
+        "AttTrue%": "10.8",
         Min: 9,
         Max: 42,
         Energy: 333,
@@ -13143,7 +13143,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "20.9",
+        "AttTrue%": "21.5",
         Number: 391,
         Success: 100,
         Level: 35,
@@ -13180,7 +13180,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 105,
-        "AttTrue%": "28.8",
+        "AttTrue%": "28.5",
         Min: 6,
         Max: 40,
         Energy: 300,
@@ -13188,7 +13188,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 110,
-        "AttTrue%": "27.8",
+        "AttTrue%": "28.2",
         Min: 6,
         Max: 40,
         Energy: 300,
@@ -13197,7 +13197,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 60,
-        "AttTrue%": "24.2",
+        "AttTrue%": "24.3",
         Min: 10,
         Max: 16,
         Energy: 166,
@@ -13205,7 +13205,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 110,
-        "AttTrue%": "12.0",
+        "AttTrue%": "11.8",
         Min: 15,
         Max: 120,
         Energy: 300,
@@ -13214,7 +13214,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of flame",
-        "AttTrue%": "7.2",
+        "AttTrue%": "7.0",
         Number: 403,
         Success: 100,
         Level: 28,
@@ -13271,7 +13271,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 85,
-        "AttTrue%": "89.9",
+        "AttTrue%": "89.7",
         Min: 2,
         Max: 12,
         Energy: 333,
@@ -13279,7 +13279,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 80,
-        "AttTrue%": "10.1",
+        "AttTrue%": "10.3",
         Min: 2,
         Max: 12,
         Energy: 333,
@@ -13306,7 +13306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 100,
-        "AttTrue%": "35.6",
+        "AttTrue%": "34.3",
         Min: 5,
         Max: 12,
         Energy: 250,
@@ -13314,7 +13314,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 70,
-        "AttTrue%": "16.4",
+        "AttTrue%": "15.6",
         Min: 5,
         Max: 12,
         Energy: 1000,
@@ -13324,7 +13324,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blasts",
-        "AttTrue%": "14.3",
+        "AttTrue%": "14.6",
         Number: 425,
         Success: 100,
         Level: 15,
@@ -13332,7 +13332,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "squeezes",
-        "AttTrue%": "33.7",
+        "AttTrue%": "35.4",
         Number: 549,
         Success: 100,
         Level: 25,
@@ -13361,7 +13361,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 95,
-        "AttTrue%": "70.2",
+        "AttTrue%": "70.0",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -13369,7 +13369,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 100,
-        "AttTrue%": "29.8",
+        "AttTrue%": "30.0",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -13397,7 +13397,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "76.9",
+        "AttTrue%": "77.7",
         Min: 3,
         Max: 12,
         Energy: 333,
@@ -13405,7 +13405,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "23.1",
+        "AttTrue%": "22.3",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -13434,7 +13434,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 120,
-        "AttTrue%": "50.4",
+        "AttTrue%": "51.1",
         Min: 5,
         Max: 20,
         Energy: 200,
@@ -13442,7 +13442,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 100,
-        "AttTrue%": "49.6",
+        "AttTrue%": "48.9",
         Min: 10,
         Max: 40,
         Energy: 250,
@@ -13472,7 +13472,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls its chakram at you",
         Acc: 125,
-        "AttTrue%": "91.1",
+        "AttTrue%": "91.3",
         Min: 10,
         Max: 45,
         Energy: 200,
@@ -13481,7 +13481,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "chakram",
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.7",
         Number: 428,
         Success: 100,
         Level: 35,
@@ -13541,7 +13541,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 90,
-        "AttTrue%": "48.8",
+        "AttTrue%": "48.1",
         Min: 8,
         Max: 30,
         Energy: 333,
@@ -13549,7 +13549,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 110,
-        "AttTrue%": "46.7",
+        "AttTrue%": "47.3",
         Min: 10,
         Max: 50,
         Energy: 333,
@@ -13558,7 +13558,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "terror",
-        "AttTrue%": "4.5",
+        "AttTrue%": "4.6",
         Number: 430,
         Success: 100,
         Level: 45,
@@ -13589,7 +13589,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 120,
-        "AttTrue%": "31.3",
+        "AttTrue%": "31.9",
         Min: 60,
         Max: 160,
         Energy: 1000,
@@ -13597,7 +13597,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 100,
-        "AttTrue%": "33.3",
+        "AttTrue%": "33.8",
         Min: 70,
         Max: 140,
         Energy: 1000,
@@ -13606,7 +13606,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "35.4",
+        "AttTrue%": "34.3",
         Min: 80,
         Max: 150,
         Energy: 1000,
@@ -13640,7 +13640,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls his nexus spear at you",
         Acc: 180,
-        "AttTrue%": "29.6",
+        "AttTrue%": "29.0",
         Min: 30,
         Max: 95,
         Energy: 200,
@@ -13649,7 +13649,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 180,
-        "AttTrue%": "40.3",
+        "AttTrue%": "41.3",
         Min: 30,
         Max: 95,
         Energy: 200,
@@ -13658,7 +13658,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 180,
-        "AttTrue%": "23.8",
+        "AttTrue%": "23.5",
         Min: 60,
         Max: 360,
         Energy: 200,
@@ -13667,7 +13667,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear",
-        "AttTrue%": "6.3",
+        "AttTrue%": "6.2",
         Number: 72,
         Success: 100,
         Level: 50,
@@ -13722,7 +13722,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 64,
-        "AttTrue%": "85.1",
+        "AttTrue%": "85.0",
         Min: 3,
         Max: 14,
         Energy: 500,
@@ -13731,7 +13731,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "14.9",
+        "AttTrue%": "15.0",
         Number: 5013,
         Success: 100,
         Level: 18,
@@ -13788,7 +13788,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 95,
-        "AttTrue%": "68.9",
+        "AttTrue%": "70.1",
         Min: 5,
         Max: 18,
         Energy: 250,
@@ -13796,7 +13796,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 95,
-        "AttTrue%": "21.1",
+        "AttTrue%": "19.6",
         Min: 5,
         Max: 18,
         Energy: 250,
@@ -13805,7 +13805,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 95,
-        "AttTrue%": "10.0",
+        "AttTrue%": "10.2",
         Min: 15,
         Max: 50,
         Energy: 250,
@@ -13832,7 +13832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "90.0",
+        "AttTrue%": "89.8",
         Min: 4,
         Max: 14,
         Energy: 250,
@@ -13840,7 +13840,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 100,
-        "AttTrue%": "10.0",
+        "AttTrue%": "10.2",
         Min: 16,
         Max: 50,
         Energy: 250,
@@ -13867,7 +13867,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 95,
-        "AttTrue%": "73.3",
+        "AttTrue%": "73.7",
         Min: 3,
         Max: 12,
         Energy: 333,
@@ -13876,7 +13876,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "unholy force",
-        "AttTrue%": "26.7",
+        "AttTrue%": "26.3",
         Number: 111,
         Success: 100,
         Level: 15,
@@ -13985,7 +13985,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "45.4",
+        "AttTrue%": "46.7",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -13994,7 +13994,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "31.0",
+        "AttTrue%": "30.3",
         Number: 5029,
         Success: 100,
         Level: 16,
@@ -14002,7 +14002,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fireball",
-        "AttTrue%": "23.7",
+        "AttTrue%": "23.0",
         Number: 243,
         Success: 100,
         Level: 12,
@@ -14030,7 +14030,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 80,
-        "AttTrue%": "57.1",
+        "AttTrue%": "56.3",
         Min: 4,
         Max: 16,
         Energy: 200,
@@ -14039,7 +14039,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "unholy wrath",
-        "AttTrue%": "42.9",
+        "AttTrue%": "43.7",
         Number: 252,
         Success: 100,
         Level: 25,
@@ -14073,7 +14073,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 95,
-        "AttTrue%": "56.4",
+        "AttTrue%": "55.4",
         Min: 4,
         Max: 16,
         Energy: 200,
@@ -14082,7 +14082,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "unholy fury",
-        "AttTrue%": "43.6",
+        "AttTrue%": "44.6",
         Number: 1259,
         Success: 100,
         Level: 30,
@@ -14119,7 +14119,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 165,
-        "AttTrue%": "85.1",
+        "AttTrue%": "85.4",
         Min: 7,
         Max: 27,
         Energy: 200,
@@ -14127,7 +14127,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 165,
-        "AttTrue%": "14.9",
+        "AttTrue%": "14.6",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -14170,7 +14170,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 135,
-        "AttTrue%": "40.7",
+        "AttTrue%": "41.7",
         Min: 10,
         Max: 40,
         Energy: 250,
@@ -14178,7 +14178,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 135,
-        "AttTrue%": "14.2",
+        "AttTrue%": "13.4",
         Min: 40,
         Max: 100,
         Energy: 250,
@@ -14187,7 +14187,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shadowstrike",
-        "AttTrue%": "33.6",
+        "AttTrue%": "33.7",
         Number: 441,
         Success: 100,
         Level: 40,
@@ -14195,7 +14195,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "11.6",
+        "AttTrue%": "11.2",
         Number: 5023,
         Success: 100,
         Level: 40,
@@ -14224,7 +14224,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 115,
-        "AttTrue%": "74.8",
+        "AttTrue%": "74.7",
         Min: 1,
         Max: 25,
         Energy: 250,
@@ -14232,7 +14232,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically lashes you",
         Acc: 115,
-        "AttTrue%": "25.2",
+        "AttTrue%": "25.3",
         Min: 4,
         Max: 80,
         Energy: 250,
@@ -14269,7 +14269,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 85,
-        "AttTrue%": "55.9",
+        "AttTrue%": "55.6",
         Min: 5,
         Max: 18,
         Energy: 200,
@@ -14279,7 +14279,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shadowstrike",
-        "AttTrue%": "27.8",
+        "AttTrue%": "29.0",
         Number: 441,
         Success: 100,
         Level: 30,
@@ -14287,7 +14287,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "16.3",
+        "AttTrue%": "15.5",
         Number: 1197,
         Success: 100,
         Level: 30,
@@ -14321,7 +14321,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "24.9",
+        "AttTrue%": "24.7",
         Min: 8,
         Max: 20,
         Energy: 200,
@@ -14329,7 +14329,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "59.7",
+        "AttTrue%": "60.1",
         Min: 8,
         Max: 20,
         Energy: 200,
@@ -14338,7 +14338,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 125,
-        "AttTrue%": "15.4",
+        "AttTrue%": "15.2",
         Min: 25,
         Max: 80,
         Energy: 200,
@@ -14446,7 +14446,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 115,
-        "AttTrue%": "74.2",
+        "AttTrue%": "73.8",
         Min: 5,
         Max: 20,
         Energy: 250,
@@ -14454,7 +14454,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously chops you",
         Acc: 115,
-        "AttTrue%": "16.1",
+        "AttTrue%": "15.5",
         Min: 8,
         Max: 30,
         Energy: 250,
@@ -14462,7 +14462,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 115,
-        "AttTrue%": "9.7",
+        "AttTrue%": "10.7",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -14493,7 +14493,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pummels you",
         Acc: 84,
-        "AttTrue%": "87.2",
+        "AttTrue%": "87.8",
         Min: 8,
         Max: 28,
         Energy: 250,
@@ -14501,7 +14501,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 120,
-        "AttTrue%": "7.5",
+        "AttTrue%": "7.4",
         Min: 35,
         Max: 100,
         Energy: 700,
@@ -14509,7 +14509,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you against the wall",
         Acc: 200,
-        "AttTrue%": "5.3",
+        "AttTrue%": "4.8",
         Min: 60,
         Max: 120,
         Energy: 1000,
@@ -14564,7 +14564,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 74,
-        "AttTrue%": "4.6",
+        "AttTrue%": "5.0",
         Min: 3,
         Max: 15,
         Energy: 333,
@@ -14573,7 +14573,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 90,
-        "AttTrue%": "95.4",
+        "AttTrue%": "95.0",
         Min: 3,
         Max: 15,
         Energy: 333,
@@ -14679,7 +14679,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 110,
-        "AttTrue%": "69.7",
+        "AttTrue%": "69.1",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -14687,7 +14687,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 100,
-        "AttTrue%": "30.3",
+        "AttTrue%": "30.9",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -14716,7 +14716,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "90.4",
+        "AttTrue%": "89.9",
         Min: 6,
         Max: 22,
         Energy: 500,
@@ -14724,7 +14724,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 105,
-        "AttTrue%": "9.6",
+        "AttTrue%": "10.1",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -14762,7 +14762,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 102,
-        "AttTrue%": "44.0",
+        "AttTrue%": "44.5",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -14772,7 +14772,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "11.0",
+        "AttTrue%": "10.5",
         Number: 5013,
         Success: 100,
         Level: 24,
@@ -14802,7 +14802,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "69.1",
+        "AttTrue%": "69.7",
         Min: 6,
         Max: 30,
         Energy: 500,
@@ -14810,7 +14810,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 102,
-        "AttTrue%": "21.2",
+        "AttTrue%": "20.4",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -14819,7 +14819,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 120,
-        "AttTrue%": "9.7",
+        "AttTrue%": "9.9",
         Min: 20,
         Max: 100,
         Energy: 500,
@@ -14857,7 +14857,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 105,
-        "AttTrue%": "11.9",
+        "AttTrue%": "10.8",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -14867,7 +14867,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "9.0",
+        "AttTrue%": "9.8",
         Number: 5013,
         Success: 100,
         Level: 30,
@@ -14875,7 +14875,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plague",
-        "AttTrue%": "8.6",
+        "AttTrue%": "8.8",
         Number: 446,
         Success: 100,
         Level: 30,
@@ -14947,7 +14947,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 105,
-        "AttTrue%": "69.5",
+        "AttTrue%": "69.8",
         Min: 6,
         Max: 30,
         Energy: 500,
@@ -14955,7 +14955,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.2",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -14964,7 +14964,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 105,
-        "AttTrue%": "4.7",
+        "AttTrue%": "5.0",
         Min: 24,
         Max: 100,
         Energy: 500,
@@ -15016,7 +15016,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "54.1",
+        "AttTrue%": "53.2",
         Min: 18,
         Max: 45,
         Energy: 200,
@@ -15024,7 +15024,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically slashes you",
         Acc: 200,
-        "AttTrue%": "45.9",
+        "AttTrue%": "46.8",
         Min: 90,
         Max: 180,
         Energy: 500,
@@ -15073,7 +15073,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 120,
-        "AttTrue%": "68.5",
+        "AttTrue%": "67.9",
         Min: 8,
         Max: 29,
         Energy: 200,
@@ -15081,7 +15081,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 120,
-        "AttTrue%": "23.5",
+        "AttTrue%": "24.0",
         Min: 32,
         Max: 110,
         Energy: 200,
@@ -15089,7 +15089,7 @@ export const monsterData: Monster[] = [
       {
         Name: "surprise slashes you",
         Acc: 400,
-        "AttTrue%": "2.0",
+        "AttTrue%": "2.2",
         Min: 130,
         Max: 280,
         Energy: 1000,
@@ -15098,7 +15098,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "god's wrath",
-        "AttTrue%": "6.0",
+        "AttTrue%": "5.9",
         Number: 5036,
         Success: 100,
         Level: 40,
@@ -15135,7 +15135,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 170,
-        "AttTrue%": "77.9",
+        "AttTrue%": "77.5",
         Min: 25,
         Max: 60,
         Energy: 200,
@@ -15152,7 +15152,7 @@ export const monsterData: Monster[] = [
       {
         Name: "disappears, then reappears and backstabs you",
         Acc: 250,
-        "AttTrue%": "1.8",
+        "AttTrue%": "1.7",
         Min: 150,
         Max: 400,
         Energy: 1000,
@@ -15162,7 +15162,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "3.6",
+        "AttTrue%": "4.0",
         Number: 5033,
         Success: 100,
         Level: 40,
@@ -15217,7 +15217,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 105,
-        "AttTrue%": "40.2",
+        "AttTrue%": "39.7",
         Min: 4,
         Max: 20,
         Energy: 250,
@@ -15225,7 +15225,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 95,
-        "AttTrue%": "30.3",
+        "AttTrue%": "30.7",
         Min: 4,
         Max: 20,
         Energy: 250,
@@ -15235,7 +15235,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "29.4",
+        "AttTrue%": "29.6",
         Number: 5033,
         Success: 100,
         Level: 40,
@@ -15273,7 +15273,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 210,
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.9",
         Min: 18,
         Max: 55,
         Energy: 125,
@@ -15282,7 +15282,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 210,
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.1",
         Min: 10,
         Max: 45,
         Energy: 125,
@@ -15291,7 +15291,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 210,
-        "AttTrue%": "32.0",
+        "AttTrue%": "32.8",
         Min: 60,
         Max: 200,
         Energy: 125,
@@ -15300,7 +15300,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellstorm",
-        "AttTrue%": "4.7",
+        "AttTrue%": "4.4",
         Number: 1247,
         Success: 100,
         Level: 40,
@@ -15308,7 +15308,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hellfire",
-        "AttTrue%": "12.2",
+        "AttTrue%": "11.9",
         Number: 1214,
         Success: 100,
         Level: 50,
@@ -15380,7 +15380,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with a tentacle",
         Acc: 105,
-        "AttTrue%": "92.0",
+        "AttTrue%": "90.8",
         Min: 6,
         Max: 30,
         Energy: 250,
@@ -15390,7 +15390,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of lightning",
-        "AttTrue%": "8.0",
+        "AttTrue%": "9.2",
         Number: 478,
         Success: 100,
         Level: 30,
@@ -15421,7 +15421,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 120,
-        "AttTrue%": "91.1",
+        "AttTrue%": "91.5",
         Min: 4,
         Max: 16,
         Energy: 125,
@@ -15429,7 +15429,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 155,
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.5",
         Min: 20,
         Max: 80,
         Energy: 1000,
@@ -15666,7 +15666,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 100,
-        "AttTrue%": "82.2",
+        "AttTrue%": "82.1",
         Min: 6,
         Max: 22,
         Energy: 200,
@@ -15674,7 +15674,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 100,
-        "AttTrue%": "11.6",
+        "AttTrue%": "11.3",
         Min: 24,
         Max: 90,
         Energy: 200,
@@ -15683,7 +15683,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "divine fury",
-        "AttTrue%": "6.1",
+        "AttTrue%": "6.6",
         Number: 5035,
         Success: 100,
         Level: 40,
@@ -15716,7 +15716,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "79.8",
+        "AttTrue%": "80.2",
         Min: 15,
         Max: 70,
         Energy: 200,
@@ -15725,7 +15725,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.8",
         Min: 30,
         Max: 280,
         Energy: 200,
@@ -15958,7 +15958,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "82.2",
+        "AttTrue%": "82.0",
         Min: 4,
         Max: 22,
         Energy: 500,
@@ -15966,7 +15966,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 110,
-        "AttTrue%": "17.8",
+        "AttTrue%": "18.0",
         Min: 10,
         Max: 40,
         Energy: 1000,
@@ -15999,7 +15999,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "78.5",
+        "AttTrue%": "77.5",
         Min: 8,
         Max: 40,
         Energy: 250,
@@ -16007,7 +16007,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 130,
-        "AttTrue%": "21.5",
+        "AttTrue%": "22.5",
         Min: 15,
         Max: 80,
         Energy: 500,
@@ -16046,7 +16046,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 130,
-        "AttTrue%": "41.0",
+        "AttTrue%": "37.4",
         Min: 20,
         Max: 80,
         Energy: 300,
@@ -16054,7 +16054,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 160,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.7",
         Min: 33,
         Max: 130,
         Energy: 600,
@@ -16062,7 +16062,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 120,
-        "AttTrue%": "22.4",
+        "AttTrue%": "23.5",
         Min: 40,
         Max: 150,
         Energy: 400,
@@ -16071,7 +16071,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of acid",
-        "AttTrue%": "16.3",
+        "AttTrue%": "18.4",
         Number: 509,
         Success: 100,
         Level: 50,
@@ -16322,7 +16322,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites your ankle",
         Acc: 85,
-        "AttTrue%": "95.9",
+        "AttTrue%": "96.5",
         Min: 1,
         Max: 6,
         Energy: 250,
@@ -16330,7 +16330,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites your ankle",
         Acc: 95,
-        "AttTrue%": "4.1",
+        "AttTrue%": "3.5",
         Min: 1,
         Max: 6,
         Energy: 500,
@@ -16448,7 +16448,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 85,
-        "AttTrue%": "74.5",
+        "AttTrue%": "75.3",
         Min: 2,
         Max: 10,
         Energy: 250,
@@ -16457,7 +16457,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "life energy",
-        "AttTrue%": "25.5",
+        "AttTrue%": "24.7",
         Number: 518,
         Success: 100,
         Level: 15,
@@ -16524,7 +16524,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 115,
-        "AttTrue%": "54.9",
+        "AttTrue%": "55.3",
         Min: 5,
         Max: 32,
         Energy: 200,
@@ -16532,7 +16532,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 115,
-        "AttTrue%": "16.7",
+        "AttTrue%": "16.3",
         Min: 20,
         Max: 120,
         Energy: 200,
@@ -16540,7 +16540,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 115,
-        "AttTrue%": "10.7",
+        "AttTrue%": "10.4",
         Min: 5,
         Max: 24,
         Energy: 200,
@@ -16550,7 +16550,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of energy",
-        "AttTrue%": "17.7",
+        "AttTrue%": "17.9",
         Number: 519,
         Success: 100,
         Level: 25,
@@ -16723,7 +16723,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 109,
-        "AttTrue%": "75.1",
+        "AttTrue%": "75.6",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -16732,7 +16732,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 95,
-        "AttTrue%": "24.9",
+        "AttTrue%": "24.4",
         Min: 7,
         Max: 25,
         Energy: 500,
@@ -16765,7 +16765,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 115,
-        "AttTrue%": "67.5",
+        "AttTrue%": "66.7",
         Min: 10,
         Max: 40,
         Energy: 500,
@@ -16775,7 +16775,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind of fire",
-        "AttTrue%": "32.5",
+        "AttTrue%": "33.3",
         Number: 527,
         Success: 100,
         Level: 5,
@@ -16832,7 +16832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 125,
-        "AttTrue%": "94.7",
+        "AttTrue%": "95.3",
         Min: 4,
         Max: 18,
         Energy: 250,
@@ -16840,7 +16840,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 125,
-        "AttTrue%": "5.3",
+        "AttTrue%": "4.7",
         Min: 24,
         Max: 70,
         Energy: 250,
@@ -17008,7 +17008,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 125,
-        "AttTrue%": "75.5",
+        "AttTrue%": "74.6",
         Min: 6,
         Max: 20,
         Energy: 250,
@@ -17016,7 +17016,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "24.5",
+        "AttTrue%": "25.4",
         Min: 24,
         Max: 80,
         Energy: 250,
@@ -17135,7 +17135,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 200,
-        "AttTrue%": "74.7",
+        "AttTrue%": "74.4",
         Min: 8,
         Max: 30,
         Energy: 250,
@@ -17143,7 +17143,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.6",
         Min: 12,
         Max: 45,
         Energy: 250,
@@ -17171,7 +17171,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 200,
-        "AttTrue%": "75.2",
+        "AttTrue%": "74.8",
         Min: 8,
         Max: 30,
         Energy: 250,
@@ -17179,7 +17179,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "24.8",
+        "AttTrue%": "25.2",
         Min: 32,
         Max: 120,
         Energy: 250,
@@ -17235,7 +17235,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 200,
-        "AttTrue%": "75.7",
+        "AttTrue%": "75.3",
         Min: 8,
         Max: 30,
         Energy: 250,
@@ -17243,7 +17243,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "24.3",
+        "AttTrue%": "24.7",
         Min: 32,
         Max: 120,
         Energy: 250,
@@ -17271,7 +17271,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 130,
-        "AttTrue%": "79.3",
+        "AttTrue%": "80.1",
         Min: 6,
         Max: 20,
         Energy: 250,
@@ -17279,7 +17279,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "20.7",
+        "AttTrue%": "19.9",
         Min: 24,
         Max: 80,
         Energy: 250,
@@ -17318,7 +17318,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 190,
-        "AttTrue%": "27.0",
+        "AttTrue%": "25.7",
         Min: 70,
         Max: 180,
         Energy: 250,
@@ -17326,7 +17326,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 165,
-        "AttTrue%": "12.7",
+        "AttTrue%": "13.0",
         Min: 90,
         Max: 200,
         Energy: 550,
@@ -17334,7 +17334,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 200,
-        "AttTrue%": "36.1",
+        "AttTrue%": "36.5",
         Min: 150,
         Max: 400,
         Energy: 300,
@@ -17342,7 +17342,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 170,
-        "AttTrue%": "8.4",
+        "AttTrue%": "9.0",
         Min: 100,
         Max: 250,
         Energy: 550,
@@ -17399,7 +17399,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 75,
-        "AttTrue%": "50.9",
+        "AttTrue%": "51.1",
         Min: 2,
         Max: 10,
         Energy: 333,
@@ -17407,7 +17407,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 60,
-        "AttTrue%": "49.1",
+        "AttTrue%": "48.9",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -17491,7 +17491,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 85,
-        "AttTrue%": "57.4",
+        "AttTrue%": "56.4",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -17499,7 +17499,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horns",
         Acc: 85,
-        "AttTrue%": "42.6",
+        "AttTrue%": "43.6",
         Min: 10,
         Max: 30,
         Energy: 1000,
@@ -17529,7 +17529,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its pincers",
         Acc: 85,
-        "AttTrue%": "82.2",
+        "AttTrue%": "82.1",
         Min: 6,
         Max: 28,
         Energy: 500,
@@ -17537,7 +17537,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 105,
-        "AttTrue%": "17.8",
+        "AttTrue%": "17.9",
         Min: 6,
         Max: 34,
         Energy: 1000,
@@ -17597,7 +17597,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 102,
-        "AttTrue%": "79.9",
+        "AttTrue%": "79.6",
         Min: 8,
         Max: 40,
         Energy: 1000,
@@ -17606,7 +17606,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits acid",
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.4",
         Number: 535,
         Success: 200,
         Level: 16,
@@ -17719,7 +17719,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 99,
-        "AttTrue%": "89.7",
+        "AttTrue%": "89.3",
         Min: 4,
         Max: 18,
         Energy: 250,
@@ -17727,7 +17727,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.7",
         Min: 16,
         Max: 75,
         Energy: 250,
@@ -17795,7 +17795,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 120,
-        "AttTrue%": "24.3",
+        "AttTrue%": "25.2",
         Min: 4,
         Max: 80,
         Energy: 200,
@@ -17804,7 +17804,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 120,
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.1",
         Min: 5,
         Max: 100,
         Energy: 200,
@@ -17813,7 +17813,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 120,
-        "AttTrue%": "24.9",
+        "AttTrue%": "25.1",
         Min: 6,
         Max: 120,
         Energy: 200,
@@ -17822,7 +17822,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 120,
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.7",
         Min: 8,
         Max: 50,
         Energy: 200,
@@ -17878,7 +17878,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 104,
-        "AttTrue%": "50.6",
+        "AttTrue%": "51.3",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -17887,7 +17887,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "telekinesis",
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.4",
         Number: 542,
         Success: 100,
         Level: 20,
@@ -17895,7 +17895,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "molecular agitation",
-        "AttTrue%": "24.4",
+        "AttTrue%": "24.3",
         Number: 543,
         Success: 100,
         Level: 10,
@@ -17956,7 +17956,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 125,
-        "AttTrue%": "63.3",
+        "AttTrue%": "66.1",
         Min: 15,
         Max: 50,
         Energy: 500,
@@ -17964,7 +17964,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 125,
-        "AttTrue%": "7.0",
+        "AttTrue%": "6.0",
         Min: 45,
         Max: 150,
         Energy: 500,
@@ -17973,7 +17973,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "obsidian shards",
-        "AttTrue%": "29.7",
+        "AttTrue%": "27.9",
         Number: 545,
         Success: 100,
         Level: 25,
@@ -18041,7 +18041,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 120,
-        "AttTrue%": "72.7",
+        "AttTrue%": "75.0",
         Min: 20,
         Max: 80,
         Energy: 500,
@@ -18049,7 +18049,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 110,
-        "AttTrue%": "7.3",
+        "AttTrue%": "6.8",
         Min: 40,
         Max: 160,
         Energy: 1000,
@@ -18059,7 +18059,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spray of gems",
-        "AttTrue%": "20.0",
+        "AttTrue%": "18.2",
         Number: 548,
         Success: 100,
         Level: 25,
@@ -18088,7 +18088,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 105,
-        "AttTrue%": "89.7",
+        "AttTrue%": "89.2",
         Min: 5,
         Max: 21,
         Energy: 200,
@@ -18096,7 +18096,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 105,
-        "AttTrue%": "5.3",
+        "AttTrue%": "5.4",
         Min: 20,
         Max: 80,
         Energy: 200,
@@ -18104,7 +18104,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 99,
-        "AttTrue%": "5.0",
+        "AttTrue%": "5.4",
         Min: 5,
         Max: 21,
         Energy: 200,
@@ -18139,7 +18139,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 140,
-        "AttTrue%": "73.3",
+        "AttTrue%": "73.0",
         Min: 6,
         Max: 22,
         Energy: 200,
@@ -18158,7 +18158,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "8.6",
+        "AttTrue%": "8.9",
         Number: 391,
         Success: 100,
         Level: 30,
@@ -18222,7 +18222,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 60,
-        "AttTrue%": "95.4",
+        "AttTrue%": "94.8",
         Min: 4,
         Max: 18,
         Energy: 250,
@@ -18230,7 +18230,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "4.6",
+        "AttTrue%": "5.2",
         Min: 16,
         Max: 80,
         Energy: 250,
@@ -18259,7 +18259,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 130,
-        "AttTrue%": "77.9",
+        "AttTrue%": "79.0",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -18268,7 +18268,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "squeezes",
-        "AttTrue%": "22.1",
+        "AttTrue%": "21.0",
         Number: 549,
         Success: 100,
         Level: 20,
@@ -18299,7 +18299,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 111,
-        "AttTrue%": "24.7",
+        "AttTrue%": "26.5",
         Min: 4,
         Max: 25,
         Energy: 333,
@@ -18315,7 +18315,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 124,
-        "AttTrue%": "25.6",
+        "AttTrue%": "23.9",
         Min: 6,
         Max: 30,
         Energy: 333,
@@ -18323,7 +18323,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 115,
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.9",
         Min: 8,
         Max: 36,
         Energy: 333,
@@ -18352,7 +18352,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 119,
-        "AttTrue%": "43.6",
+        "AttTrue%": "43.1",
         Min: 8,
         Max: 30,
         Energy: 500,
@@ -18361,7 +18361,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "icy beam",
-        "AttTrue%": "32.7",
+        "AttTrue%": "31.6",
         Number: 552,
         Success: 100,
         Level: 10,
@@ -18369,7 +18369,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "explosion",
-        "AttTrue%": "23.6",
+        "AttTrue%": "25.3",
         Number: 553,
         Success: 100,
         Level: 30,
@@ -18398,7 +18398,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "50.1",
+        "AttTrue%": "47.6",
         Min: 6,
         Max: 40,
         Energy: 500,
@@ -18406,7 +18406,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely slashes you",
         Acc: 121,
-        "AttTrue%": "29.7",
+        "AttTrue%": "30.8",
         Min: 8,
         Max: 60,
         Energy: 500,
@@ -18415,7 +18415,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches",
-        "AttTrue%": "20.3",
+        "AttTrue%": "21.7",
         Number: 556,
         Success: 100,
         Level: 35,
@@ -18446,7 +18446,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely rips you",
         Acc: 150,
-        "AttTrue%": "43.8",
+        "AttTrue%": "43.4",
         Min: 6,
         Max: 40,
         Energy: 500,
@@ -18454,7 +18454,7 @@ export const monsterData: Monster[] = [
       {
         Name: "devours you",
         Acc: 110,
-        "AttTrue%": "31.4",
+        "AttTrue%": "31.6",
         Min: 15,
         Max: 80,
         Energy: 500,
@@ -18463,7 +18463,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flesh-eater",
-        "AttTrue%": "12.1",
+        "AttTrue%": "12.4",
         Number: 562,
         Success: 100,
         Level: 30,
@@ -18471,7 +18471,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "area flesh-eater",
-        "AttTrue%": "12.8",
+        "AttTrue%": "12.6",
         Number: 563,
         Success: 100,
         Level: 30,
@@ -18529,7 +18529,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 140,
-        "AttTrue%": "50.7",
+        "AttTrue%": "50.3",
         Min: 10,
         Max: 42,
         Energy: 200,
@@ -18537,7 +18537,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 140,
-        "AttTrue%": "44.1",
+        "AttTrue%": "44.2",
         Min: 10,
         Max: 42,
         Energy: 200,
@@ -18546,7 +18546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 140,
-        "AttTrue%": "5.2",
+        "AttTrue%": "5.5",
         Min: 40,
         Max: 150,
         Energy: 200,
@@ -18593,7 +18593,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 35,
-        "AttTrue%": "74.7",
+        "AttTrue%": "76.9",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -18601,7 +18601,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 35,
-        "AttTrue%": "25.3",
+        "AttTrue%": "23.1",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -18631,7 +18631,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 40,
-        "AttTrue%": "75.6",
+        "AttTrue%": "74.4",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -18639,7 +18639,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 40,
-        "AttTrue%": "24.4",
+        "AttTrue%": "25.6",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -18670,7 +18670,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 45,
-        "AttTrue%": "76.1",
+        "AttTrue%": "73.6",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -18678,7 +18678,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 45,
-        "AttTrue%": "23.9",
+        "AttTrue%": "26.4",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -18709,7 +18709,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 38,
-        "AttTrue%": "73.9",
+        "AttTrue%": "73.8",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -18717,7 +18717,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 38,
-        "AttTrue%": "26.1",
+        "AttTrue%": "26.2",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -18746,7 +18746,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 50,
-        "AttTrue%": "49.9",
+        "AttTrue%": "49.7",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -18754,7 +18754,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a pseudopod",
         Acc: 50,
-        "AttTrue%": "50.1",
+        "AttTrue%": "50.3",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -18843,7 +18843,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 40,
-        "AttTrue%": "73.9",
+        "AttTrue%": "75.1",
         Min: 2,
         Max: 12,
         Energy: 500,
@@ -18851,7 +18851,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 39,
-        "AttTrue%": "26.1",
+        "AttTrue%": "24.9",
         Min: 3,
         Max: 18,
         Energy: 500,
@@ -18878,7 +18878,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 40,
-        "AttTrue%": "69.2",
+        "AttTrue%": "69.5",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -18887,7 +18887,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "darkbolt",
-        "AttTrue%": "30.8",
+        "AttTrue%": "30.5",
         Number: 591,
         Success: 75,
         Level: 10,
@@ -18997,7 +18997,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 55,
-        "AttTrue%": "79.6",
+        "AttTrue%": "79.5",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -19005,7 +19005,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 64,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.5",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -19032,7 +19032,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 45,
-        "AttTrue%": "75.3",
+        "AttTrue%": "75.2",
         Min: 4,
         Max: 14,
         Energy: 500,
@@ -19040,7 +19040,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 60,
-        "AttTrue%": "24.7",
+        "AttTrue%": "24.8",
         Min: 6,
         Max: 21,
         Energy: 500,
@@ -19067,7 +19067,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whacks you",
         Acc: 55,
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.6",
         Min: 3,
         Max: 13,
         Energy: 1000,
@@ -19076,7 +19076,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "harm",
-        "AttTrue%": "74.2",
+        "AttTrue%": "74.4",
         Number: 5039,
         Success: 95,
         Level: 8,
@@ -19202,7 +19202,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 80,
-        "AttTrue%": "66.2",
+        "AttTrue%": "64.8",
         Min: 3,
         Max: 16,
         Energy: 500,
@@ -19211,7 +19211,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "globule",
-        "AttTrue%": "33.8",
+        "AttTrue%": "35.2",
         Number: 595,
         Success: 100,
         Level: 20,
@@ -19244,7 +19244,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 90,
-        "AttTrue%": "77.4",
+        "AttTrue%": "76.6",
         Min: 4,
         Max: 20,
         Energy: 333,
@@ -19252,7 +19252,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "9.0",
+        "AttTrue%": "9.1",
         Min: 16,
         Max: 80,
         Energy: 333,
@@ -19261,7 +19261,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "13.5",
+        "AttTrue%": "14.3",
         Number: 5029,
         Success: 100,
         Level: 8,
@@ -19290,7 +19290,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 60,
-        "AttTrue%": "55.1",
+        "AttTrue%": "55.2",
         Min: 3,
         Max: 12,
         Energy: 333,
@@ -19298,7 +19298,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 60,
-        "AttTrue%": "33.1",
+        "AttTrue%": "32.2",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -19306,7 +19306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 60,
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.6",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -19335,7 +19335,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 75,
-        "AttTrue%": "22.5",
+        "AttTrue%": "21.9",
         Min: 4,
         Max: 14,
         Energy: 333,
@@ -19343,7 +19343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 75,
-        "AttTrue%": "22.8",
+        "AttTrue%": "21.9",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -19359,7 +19359,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 75,
-        "AttTrue%": "17.8",
+        "AttTrue%": "19.8",
         Min: 6,
         Max: 20,
         Energy: 1000,
@@ -19368,7 +19368,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 75,
-        "AttTrue%": "18.4",
+        "AttTrue%": "18.1",
         Min: 4,
         Max: 14,
         Energy: 1000,
@@ -19398,7 +19398,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 85,
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.9",
         Min: 4,
         Max: 16,
         Energy: 333,
@@ -19406,7 +19406,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 85,
-        "AttTrue%": "20.8",
+        "AttTrue%": "22.9",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -19414,7 +19414,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 85,
-        "AttTrue%": "18.5",
+        "AttTrue%": "18.3",
         Min: 6,
         Max: 36,
         Energy: 1000,
@@ -19422,7 +19422,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 85,
-        "AttTrue%": "18.2",
+        "AttTrue%": "17.9",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -19431,7 +19431,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 85,
-        "AttTrue%": "19.7",
+        "AttTrue%": "18.0",
         Min: 4,
         Max: 16,
         Energy: 1000,
@@ -19461,7 +19461,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 90,
-        "AttTrue%": "21.3",
+        "AttTrue%": "20.5",
         Min: 5,
         Max: 24,
         Energy: 220,
@@ -19469,7 +19469,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 90,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.9",
         Min: 8,
         Max: 36,
         Energy: 300,
@@ -19477,7 +19477,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 90,
-        "AttTrue%": "18.3",
+        "AttTrue%": "18.5",
         Min: 12,
         Max: 50,
         Energy: 450,
@@ -19485,7 +19485,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 90,
-        "AttTrue%": "19.2",
+        "AttTrue%": "19.0",
         Min: 6,
         Max: 32,
         Energy: 450,
@@ -19494,7 +19494,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 90,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.1",
         Min: 5,
         Max: 24,
         Energy: 220,
@@ -19560,7 +19560,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 70,
-        "AttTrue%": "95.2",
+        "AttTrue%": "94.1",
         Min: 9,
         Max: 21,
         Energy: 500,
@@ -19568,7 +19568,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gnaws you",
         Acc: 75,
-        "AttTrue%": "4.8",
+        "AttTrue%": "5.9",
         Min: 14,
         Max: 34,
         Energy: 1000,
@@ -19635,7 +19635,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 110,
-        "AttTrue%": "55.8",
+        "AttTrue%": "57.1",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -19643,7 +19643,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 95,
-        "AttTrue%": "18.4",
+        "AttTrue%": "18.9",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -19653,7 +19653,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "25.8",
+        "AttTrue%": "24.0",
         Number: 391,
         Success: 100,
         Level: 0,
@@ -19736,7 +19736,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 40,
-        "AttTrue%": "78.9",
+        "AttTrue%": "78.4",
         Min: 2,
         Max: 10,
         Energy: 500,
@@ -19745,7 +19745,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "21.1",
+        "AttTrue%": "21.6",
         Number: 5029,
         Success: 100,
         Level: 12,
@@ -19774,7 +19774,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 100,
-        "AttTrue%": "21.1",
+        "AttTrue%": "20.8",
         Min: 5,
         Max: 24,
         Energy: 333,
@@ -19782,7 +19782,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 92,
-        "AttTrue%": "20.7",
+        "AttTrue%": "21.8",
         Min: 8,
         Max: 36,
         Energy: 500,
@@ -19790,7 +19790,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 123,
-        "AttTrue%": "13.3",
+        "AttTrue%": "13.8",
         Min: 12,
         Max: 50,
         Energy: 1000,
@@ -19798,7 +19798,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 92,
-        "AttTrue%": "22.3",
+        "AttTrue%": "21.1",
         Min: 6,
         Max: 32,
         Energy: 500,
@@ -19807,7 +19807,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 59,
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.6",
         Min: 5,
         Max: 24,
         Energy: 500,
@@ -19863,7 +19863,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gnaws you",
         Acc: 87,
-        "AttTrue%": "62.3",
+        "AttTrue%": "61.1",
         Min: 4,
         Max: 14,
         Energy: 250,
@@ -19872,7 +19872,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "glob of slime",
-        "AttTrue%": "37.7",
+        "AttTrue%": "38.9",
         Number: 601,
         Success: 100,
         Level: 12,
@@ -19900,7 +19900,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savages you",
         Acc: 77,
-        "AttTrue%": "21.4",
+        "AttTrue%": "22.2",
         Min: 8,
         Max: 50,
         Energy: 1000,
@@ -19908,7 +19908,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 86,
-        "AttTrue%": "56.4",
+        "AttTrue%": "57.1",
         Min: 5,
         Max: 25,
         Energy: 500,
@@ -19916,7 +19916,7 @@ export const monsterData: Monster[] = [
       {
         Name: "devours you",
         Acc: 65,
-        "AttTrue%": "22.2",
+        "AttTrue%": "20.7",
         Min: 25,
         Max: 80,
         Energy: 1000,
@@ -19977,7 +19977,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "laughs",
-        "AttTrue%": "76.4",
+        "AttTrue%": "75.2",
         Number: 602,
         Success: 100,
         Level: 200,
@@ -19985,7 +19985,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "death gaze",
-        "AttTrue%": "23.6",
+        "AttTrue%": "24.8",
         Number: 306,
         Success: 100,
         Level: 200,
@@ -20036,7 +20036,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "85.3",
+        "AttTrue%": "84.6",
         Min: 6,
         Max: 24,
         Energy: 250,
@@ -20044,7 +20044,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 120,
-        "AttTrue%": "10.0",
+        "AttTrue%": "10.5",
         Min: 24,
         Max: 100,
         Energy: 250,
@@ -20052,7 +20052,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "4.6",
+        "AttTrue%": "4.9",
         Min: 6,
         Max: 24,
         Energy: 250,
@@ -20082,7 +20082,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 270,
-        "AttTrue%": "40.2",
+        "AttTrue%": "41.6",
         Min: 180,
         Max: 410,
         Energy: 1000,
@@ -20091,7 +20091,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 275,
-        "AttTrue%": "41.0",
+        "AttTrue%": "39.7",
         Min: 122,
         Max: 300,
         Energy: 1000,
@@ -20100,7 +20100,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 300,
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.0",
         Min: 200,
         Max: 600,
         Energy: 1000,
@@ -20110,7 +20110,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "giant skeleton shriek",
-        "AttTrue%": "9.8",
+        "AttTrue%": "9.6",
         Number: 770,
         Success: 100,
         Level: 40,
@@ -20140,7 +20140,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 190,
-        "AttTrue%": "33.5",
+        "AttTrue%": "34.1",
         Min: 37,
         Max: 84,
         Energy: 250,
@@ -20149,7 +20149,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with its clawed feet",
         Acc: 185,
-        "AttTrue%": "33.3",
+        "AttTrue%": "31.9",
         Min: 25,
         Max: 122,
         Energy: 400,
@@ -20158,7 +20158,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 200,
-        "AttTrue%": "33.2",
+        "AttTrue%": "34.0",
         Min: 46,
         Max: 158,
         Energy: 400,
@@ -20188,7 +20188,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.6",
+        "AttTrue%": "98.4",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -20198,7 +20198,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "1.4",
+        "AttTrue%": "1.6",
         Number: 5023,
         Success: 100,
         Level: 20,
@@ -20228,7 +20228,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its claws",
         Acc: 195,
-        "AttTrue%": "95.6",
+        "AttTrue%": "95.7",
         Min: 19,
         Max: 166,
         Energy: 200,
@@ -20238,7 +20238,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gazes",
-        "AttTrue%": "4.4",
+        "AttTrue%": "4.3",
         Number: 328,
         Success: 100,
         Level: 11,
@@ -20297,7 +20297,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.7",
+        "AttTrue%": "98.6",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -20307,7 +20307,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "solid fog",
-        "AttTrue%": "1.3",
+        "AttTrue%": "1.4",
         Number: 282,
         Success: 100,
         Level: 40,
@@ -20337,7 +20337,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 300,
-        "AttTrue%": "25.3",
+        "AttTrue%": "24.6",
         Min: 180,
         Max: 440,
         Energy: 500,
@@ -20346,7 +20346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 315,
-        "AttTrue%": "26.0",
+        "AttTrue%": "24.9",
         Min: 200,
         Max: 600,
         Energy: 500,
@@ -20355,7 +20355,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 325,
-        "AttTrue%": "39.1",
+        "AttTrue%": "41.0",
         Min: 325,
         Max: 833,
         Energy: 500,
@@ -20364,7 +20364,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "giant skeleton shriek",
-        "AttTrue%": "9.6",
+        "AttTrue%": "9.5",
         Number: 770,
         Success: 100,
         Level: 40,
@@ -20393,7 +20393,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 250,
-        "AttTrue%": "25.2",
+        "AttTrue%": "24.6",
         Min: 84,
         Max: 199,
         Energy: 500,
@@ -20401,7 +20401,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 260,
-        "AttTrue%": "25.4",
+        "AttTrue%": "24.9",
         Min: 84,
         Max: 199,
         Energy: 500,
@@ -20410,7 +20410,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 260,
-        "AttTrue%": "49.4",
+        "AttTrue%": "50.5",
         Min: 141,
         Max: 240,
         Energy: 500,
@@ -20440,7 +20440,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.2",
+        "AttTrue%": "97.0",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -20450,7 +20450,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "2.8",
+        "AttTrue%": "3.0",
         Number: 95,
         Success: 100,
         Level: 40,
@@ -20480,7 +20480,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its claws",
         Acc: 110,
-        "AttTrue%": "73.4",
+        "AttTrue%": "73.7",
         Min: 15,
         Max: 50,
         Energy: 200,
@@ -20488,7 +20488,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 200,
-        "AttTrue%": "26.6",
+        "AttTrue%": "26.3",
         Min: 40,
         Max: 100,
         Energy: 500,
@@ -20519,7 +20519,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 130,
-        "AttTrue%": "45.0",
+        "AttTrue%": "43.7",
         Min: 8,
         Max: 40,
         Energy: 250,
@@ -20528,7 +20528,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.4",
         Min: 40,
         Max: 130,
         Energy: 1000,
@@ -20537,7 +20537,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 120,
-        "AttTrue%": "9.7",
+        "AttTrue%": "10.1",
         Min: 80,
         Max: 100,
         Energy: 500,
@@ -20546,7 +20546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 150,
-        "AttTrue%": "33.5",
+        "AttTrue%": "33.8",
         Min: 30,
         Max: 70,
         Energy: 250,
@@ -20575,7 +20575,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "95.1",
+        "AttTrue%": "94.7",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -20585,7 +20585,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "entangle",
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.3",
         Number: 93,
         Success: 100,
         Level: 40,
@@ -20614,7 +20614,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 240,
-        "AttTrue%": "75.8",
+        "AttTrue%": "73.6",
         Min: 90,
         Max: 430,
         Energy: 1000,
@@ -20622,7 +20622,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 260,
-        "AttTrue%": "24.2",
+        "AttTrue%": "26.4",
         Min: 90,
         Max: 430,
         Energy: 1000,
@@ -20721,7 +20721,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its claws",
         Acc: 200,
-        "AttTrue%": "77.3",
+        "AttTrue%": "78.1",
         Min: 69,
         Max: 128,
         Energy: 200,
@@ -20730,7 +20730,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with its clawed feet",
         Acc: 210,
-        "AttTrue%": "22.7",
+        "AttTrue%": "21.9",
         Min: 44,
         Max: 166,
         Energy: 400,
@@ -20768,7 +20768,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with its clawed feet",
         Acc: 185,
-        "AttTrue%": "32.4",
+        "AttTrue%": "33.2",
         Min: 25,
         Max: 122,
         Energy: 400,
@@ -20777,7 +20777,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 200,
-        "AttTrue%": "34.3",
+        "AttTrue%": "33.5",
         Min: 46,
         Max: 158,
         Energy: 400,
@@ -20866,7 +20866,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 99,
-        "AttTrue%": "15.2",
+        "AttTrue%": "15.3",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -20899,7 +20899,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "84.8",
+        "AttTrue%": "85.3",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -20907,7 +20907,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "15.2",
+        "AttTrue%": "14.7",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -20936,7 +20936,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.6",
+        "AttTrue%": "97.3",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -20946,7 +20946,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spirit horde",
-        "AttTrue%": "2.4",
+        "AttTrue%": "2.7",
         Number: 5024,
         Success: 35,
         Level: 40,
@@ -20979,7 +20979,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 125,
-        "AttTrue%": "89.9",
+        "AttTrue%": "90.2",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -20987,7 +20987,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 125,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.8",
         Min: 40,
         Max: 120,
         Energy: 250,
@@ -21151,7 +21151,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.4",
+        "AttTrue%": "97.7",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -21161,7 +21161,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.3",
         Number: 721,
         Success: 100,
         Level: 40,
@@ -21192,7 +21192,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 115,
-        "AttTrue%": "60.5",
+        "AttTrue%": "59.9",
         Min: 4,
         Max: 18,
         Energy: 500,
@@ -21201,7 +21201,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 115,
-        "AttTrue%": "39.5",
+        "AttTrue%": "40.1",
         Min: 20,
         Max: 80,
         Energy: 500,
@@ -21232,7 +21232,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 120,
-        "AttTrue%": "50.5",
+        "AttTrue%": "50.8",
         Min: 10,
         Max: 20,
         Energy: 500,
@@ -21241,7 +21241,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 100,
-        "AttTrue%": "49.5",
+        "AttTrue%": "49.2",
         Min: 15,
         Max: 30,
         Energy: 500,
@@ -21271,7 +21271,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.5",
+        "AttTrue%": "98.4",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -21281,7 +21281,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "fear",
-        "AttTrue%": "1.5",
+        "AttTrue%": "1.6",
         Number: 1027,
         Success: 100,
         Level: 40,
@@ -21338,7 +21338,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slaps you",
         Acc: 125,
-        "AttTrue%": "39.7",
+        "AttTrue%": "40.7",
         Min: 35,
         Max: 65,
         Energy: 200,
@@ -21346,7 +21346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you",
         Acc: 125,
-        "AttTrue%": "41.8",
+        "AttTrue%": "41.3",
         Min: 80,
         Max: 120,
         Energy: 200,
@@ -21355,7 +21355,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "magma wave",
-        "AttTrue%": "18.5",
+        "AttTrue%": "17.9",
         Number: 1393,
         Success: 100,
         Level: 50,
@@ -21388,7 +21388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slaps you",
         Acc: 125,
-        "AttTrue%": "32.4",
+        "AttTrue%": "33.0",
         Min: 25,
         Max: 75,
         Energy: 200,
@@ -21396,7 +21396,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you",
         Acc: 125,
-        "AttTrue%": "32.5",
+        "AttTrue%": "33.4",
         Min: 80,
         Max: 150,
         Energy: 200,
@@ -21405,7 +21405,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "incinerate",
-        "AttTrue%": "35.1",
+        "AttTrue%": "33.6",
         Number: 1394,
         Success: 100,
         Level: 50,
@@ -21490,7 +21490,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 144,
-        "AttTrue%": "80.6",
+        "AttTrue%": "79.4",
         Min: 6,
         Max: 35,
         Energy: 200,
@@ -21498,7 +21498,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 144,
-        "AttTrue%": "19.4",
+        "AttTrue%": "20.6",
         Min: 24,
         Max: 100,
         Energy: 200,
@@ -21709,7 +21709,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 80,
-        "AttTrue%": "28.6",
+        "AttTrue%": "29.1",
         Min: 4,
         Max: 16,
         Energy: 333,
@@ -21717,7 +21717,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 90,
-        "AttTrue%": "28.0",
+        "AttTrue%": "28.2",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -21725,7 +21725,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 88,
-        "AttTrue%": "21.9",
+        "AttTrue%": "21.6",
         Min: 6,
         Max: 36,
         Energy: 1000,
@@ -21733,7 +21733,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 83,
-        "AttTrue%": "21.5",
+        "AttTrue%": "21.1",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -21773,7 +21773,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 140,
-        "AttTrue%": "25.6",
+        "AttTrue%": "26.6",
         Min: 8,
         Max: 30,
         Energy: 166,
@@ -21781,7 +21781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 140,
-        "AttTrue%": "26.6",
+        "AttTrue%": "25.8",
         Min: 12,
         Max: 42,
         Energy: 250,
@@ -21789,7 +21789,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 140,
-        "AttTrue%": "24.8",
+        "AttTrue%": "25.5",
         Min: 15,
         Max: 60,
         Energy: 333,
@@ -21797,7 +21797,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 140,
-        "AttTrue%": "23.0",
+        "AttTrue%": "22.1",
         Min: 12,
         Max: 42,
         Energy: 500,
@@ -21837,7 +21837,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 83,
-        "AttTrue%": "30.1",
+        "AttTrue%": "28.2",
         Min: 4,
         Max: 16,
         Energy: 333,
@@ -21845,7 +21845,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 92,
-        "AttTrue%": "27.2",
+        "AttTrue%": "28.9",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -21853,7 +21853,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 97,
-        "AttTrue%": "21.1",
+        "AttTrue%": "22.7",
         Min: 6,
         Max: 36,
         Energy: 1000,
@@ -21861,7 +21861,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 100,
-        "AttTrue%": "21.6",
+        "AttTrue%": "20.2",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -21900,7 +21900,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 130,
-        "AttTrue%": "27.0",
+        "AttTrue%": "24.9",
         Min: 6,
         Max: 25,
         Energy: 250,
@@ -21908,7 +21908,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 130,
-        "AttTrue%": "26.1",
+        "AttTrue%": "25.2",
         Min: 8,
         Max: 32,
         Energy: 333,
@@ -21916,7 +21916,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 130,
-        "AttTrue%": "23.4",
+        "AttTrue%": "25.6",
         Min: 8,
         Max: 48,
         Energy: 500,
@@ -21924,7 +21924,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 130,
-        "AttTrue%": "23.5",
+        "AttTrue%": "24.3",
         Min: 8,
         Max: 32,
         Energy: 500,
@@ -21960,7 +21960,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 99,
-        "AttTrue%": "90.3",
+        "AttTrue%": "89.9",
         Min: 3,
         Max: 15,
         Energy: 333,
@@ -21968,7 +21968,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 99,
-        "AttTrue%": "9.7",
+        "AttTrue%": "10.1",
         Min: 12,
         Max: 50,
         Energy: 333,
@@ -22084,7 +22084,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 120,
-        "AttTrue%": "87.6",
+        "AttTrue%": "87.0",
         Min: 10,
         Max: 40,
         Energy: 333,
@@ -22093,7 +22093,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "12.4",
+        "AttTrue%": "13.0",
         Number: 5026,
         Success: 100,
         Level: 25,
@@ -22123,7 +22123,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "79.4",
+        "AttTrue%": "82.3",
         Min: 20,
         Max: 60,
         Energy: 333,
@@ -22132,7 +22132,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "20.6",
+        "AttTrue%": "17.7",
         Number: 5026,
         Success: 100,
         Level: 35,
@@ -22165,7 +22165,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 135,
-        "AttTrue%": "47.1",
+        "AttTrue%": "45.0",
         Min: 10,
         Max: 40,
         Energy: 800,
@@ -22174,7 +22174,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "meteor swarm",
-        "AttTrue%": "52.9",
+        "AttTrue%": "55.0",
         Number: 5025,
         Success: 100,
         Level: 30,
@@ -22209,7 +22209,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 144,
-        "AttTrue%": "23.4",
+        "AttTrue%": "23.8",
         Min: 50,
         Max: 95,
         Energy: 600,
@@ -22218,7 +22218,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "forked lightning",
-        "AttTrue%": "39.7",
+        "AttTrue%": "39.6",
         Number: 5021,
         Success: 100,
         Level: 40,
@@ -22226,7 +22226,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "36.9",
+        "AttTrue%": "36.5",
         Number: 5023,
         Success: 100,
         Level: 40,
@@ -22273,7 +22273,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "95.1",
+        "AttTrue%": "94.9",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -22281,7 +22281,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.1",
         Min: 20,
         Max: 90,
         Energy: 333,
@@ -22308,7 +22308,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 110,
-        "AttTrue%": "85.2",
+        "AttTrue%": "85.0",
         Min: 8,
         Max: 24,
         Energy: 250,
@@ -22316,7 +22316,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 110,
-        "AttTrue%": "14.8",
+        "AttTrue%": "15.0",
         Min: 40,
         Max: 80,
         Energy: 250,
@@ -22343,7 +22343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 200,
-        "AttTrue%": "56.2",
+        "AttTrue%": "55.2",
         Min: 50,
         Max: 160,
         Energy: 333,
@@ -22351,7 +22351,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 200,
-        "AttTrue%": "31.3",
+        "AttTrue%": "32.2",
         Min: 75,
         Max: 250,
         Energy: 500,
@@ -22359,7 +22359,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 200,
-        "AttTrue%": "12.4",
+        "AttTrue%": "12.5",
         Min: 100,
         Max: 300,
         Energy: 1000,
@@ -22388,7 +22388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "83.3",
+        "AttTrue%": "85.0",
         Min: 5,
         Max: 16,
         Energy: 500,
@@ -22396,7 +22396,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "16.7",
+        "AttTrue%": "15.0",
         Min: 5,
         Max: 16,
         Energy: 500,
@@ -22426,7 +22426,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its pincers",
         Acc: 100,
-        "AttTrue%": "80.6",
+        "AttTrue%": "79.3",
         Min: 15,
         Max: 45,
         Energy: 666,
@@ -22434,7 +22434,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 99,
-        "AttTrue%": "19.4",
+        "AttTrue%": "20.7",
         Min: 15,
         Max: 70,
         Energy: 1000,
@@ -22490,7 +22490,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you",
         Acc: 105,
-        "AttTrue%": "50.7",
+        "AttTrue%": "50.6",
         Min: 8,
         Max: 32,
         Energy: 1000,
@@ -22499,7 +22499,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind",
-        "AttTrue%": "49.3",
+        "AttTrue%": "49.4",
         Number: 715,
         Success: 100,
         Level: 15,
@@ -22528,7 +22528,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "76.0",
+        "AttTrue%": "75.0",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -22536,7 +22536,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "24.0",
+        "AttTrue%": "25.0",
         Min: 8,
         Max: 24,
         Energy: 333,
@@ -22596,7 +22596,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 120,
-        "AttTrue%": "73.3",
+        "AttTrue%": "72.7",
         Min: 8,
         Max: 30,
         Energy: 333,
@@ -22605,7 +22605,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "26.7",
+        "AttTrue%": "27.3",
         Number: 5034,
         Success: 90,
         Level: 45,
@@ -22633,7 +22633,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 99,
-        "AttTrue%": "75.7",
+        "AttTrue%": "75.1",
         Min: 15,
         Max: 60,
         Energy: 1000,
@@ -22642,7 +22642,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits a stream of acid",
-        "AttTrue%": "24.3",
+        "AttTrue%": "24.9",
         Number: 722,
         Success: 100,
         Level: 20,
@@ -22729,7 +22729,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "80.4",
+        "AttTrue%": "81.2",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -22737,7 +22737,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "15.2",
+        "AttTrue%": "14.9",
         Min: 20,
         Max: 70,
         Energy: 333,
@@ -22745,7 +22745,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 105,
-        "AttTrue%": "4.4",
+        "AttTrue%": "3.9",
         Min: 12,
         Max: 29,
         Energy: 500,
@@ -22773,7 +22773,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "76.1",
+        "AttTrue%": "76.4",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -22781,7 +22781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.3",
         Min: 20,
         Max: 70,
         Energy: 333,
@@ -22789,7 +22789,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 105,
-        "AttTrue%": "3.5",
+        "AttTrue%": "3.3",
         Min: 9,
         Max: 22,
         Energy: 666,
@@ -22817,7 +22817,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 105,
-        "AttTrue%": "69.9",
+        "AttTrue%": "70.6",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -22825,7 +22825,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 105,
-        "AttTrue%": "30.1",
+        "AttTrue%": "29.4",
         Min: 5,
         Max: 22,
         Energy: 333,
@@ -22856,7 +22856,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 115,
-        "AttTrue%": "65.4",
+        "AttTrue%": "65.9",
         Min: 8,
         Max: 36,
         Energy: 500,
@@ -22865,7 +22865,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dark force",
-        "AttTrue%": "34.6",
+        "AttTrue%": "34.1",
         Number: 225,
         Success: 100,
         Level: 25,
@@ -22895,7 +22895,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 120,
-        "AttTrue%": "77.1",
+        "AttTrue%": "76.8",
         Min: 18,
         Max: 50,
         Energy: 333,
@@ -22903,7 +22903,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 130,
-        "AttTrue%": "22.9",
+        "AttTrue%": "23.2",
         Min: 20,
         Max: 70,
         Energy: 500,
@@ -22937,7 +22937,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 110,
-        "AttTrue%": "42.6",
+        "AttTrue%": "43.3",
         Min: 18,
         Max: 50,
         Energy: 333,
@@ -22945,7 +22945,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 115,
-        "AttTrue%": "38.7",
+        "AttTrue%": "37.3",
         Min: 20,
         Max: 70,
         Energy: 500,
@@ -22955,7 +22955,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "18.7",
+        "AttTrue%": "19.4",
         Number: 5010,
         Success: 100,
         Level: 40,
@@ -22992,7 +22992,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 150,
-        "AttTrue%": "34.4",
+        "AttTrue%": "35.5",
         Min: 15,
         Max: 70,
         Energy: 250,
@@ -23000,7 +23000,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 155,
-        "AttTrue%": "33.4",
+        "AttTrue%": "31.6",
         Min: 45,
         Max: 150,
         Energy: 333,
@@ -23009,7 +23009,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 200,
-        "AttTrue%": "13.6",
+        "AttTrue%": "13.8",
         Min: 60,
         Max: 200,
         Energy: 250,
@@ -23018,7 +23018,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "elemental fury",
-        "AttTrue%": "18.6",
+        "AttTrue%": "19.1",
         Number: 716,
         Success: 100,
         Level: 35,
@@ -23048,7 +23048,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 140,
-        "AttTrue%": "79.4",
+        "AttTrue%": "81.0",
         Min: 100,
         Max: 250,
         Energy: 500,
@@ -23057,7 +23057,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 160,
-        "AttTrue%": "20.6",
+        "AttTrue%": "19.0",
         Min: 50,
         Max: 100,
         Energy: 500,
@@ -23116,7 +23116,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 80,
-        "AttTrue%": "75.4",
+        "AttTrue%": "75.5",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -23125,7 +23125,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 80,
-        "AttTrue%": "24.6",
+        "AttTrue%": "24.5",
         Min: 5,
         Max: 18,
         Energy: 500,
@@ -23156,7 +23156,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chills you with its touch",
         Acc: 80,
-        "AttTrue%": "74.4",
+        "AttTrue%": "74.7",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -23164,7 +23164,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chills you with its touch",
         Acc: 80,
-        "AttTrue%": "25.6",
+        "AttTrue%": "25.3",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -23232,7 +23232,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you",
         Acc: 110,
-        "AttTrue%": "90.3",
+        "AttTrue%": "89.8",
         Min: 13,
         Max: 30,
         Energy: 500,
@@ -23240,7 +23240,7 @@ export const monsterData: Monster[] = [
       {
         Name: "fiercely strikes you",
         Acc: 110,
-        "AttTrue%": "9.7",
+        "AttTrue%": "10.2",
         Min: 60,
         Max: 100,
         Energy: 500,
@@ -23313,7 +23313,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 130,
-        "AttTrue%": "96.6",
+        "AttTrue%": "96.1",
         Min: 15,
         Max: 65,
         Energy: 333,
@@ -23322,7 +23322,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "3.4",
+        "AttTrue%": "3.9",
         Number: 5010,
         Success: 100,
         Level: 30,
@@ -23416,7 +23416,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "89.9",
+        "AttTrue%": "90.6",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -23424,7 +23424,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.4",
         Min: 20,
         Max: 75,
         Energy: 333,
@@ -23452,7 +23452,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "90.3",
+        "AttTrue%": "90.1",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -23460,7 +23460,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 100,
-        "AttTrue%": "9.7",
+        "AttTrue%": "9.9",
         Min: 40,
         Max: 100,
         Energy: 250,
@@ -23509,7 +23509,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "26.1",
+        "AttTrue%": "26.2",
         Min: 6,
         Max: 25,
         Energy: 250,
@@ -23517,7 +23517,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 120,
-        "AttTrue%": "27.7",
+        "AttTrue%": "26.0",
         Min: 8,
         Max: 32,
         Energy: 333,
@@ -23525,7 +23525,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 130,
-        "AttTrue%": "22.7",
+        "AttTrue%": "23.0",
         Min: 8,
         Max: 48,
         Energy: 500,
@@ -23533,7 +23533,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 120,
-        "AttTrue%": "23.5",
+        "AttTrue%": "24.7",
         Min: 8,
         Max: 32,
         Energy: 500,
@@ -23673,7 +23673,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 105,
-        "AttTrue%": "49.2",
+        "AttTrue%": "49.8",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -23681,7 +23681,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 105,
-        "AttTrue%": "16.8",
+        "AttTrue%": "17.0",
         Min: 30,
         Max: 100,
         Energy: 200,
@@ -23691,7 +23691,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon stone elemental",
-        "AttTrue%": "22.3",
+        "AttTrue%": "22.4",
         Number: 5009,
         Success: 100,
         Level: 40,
@@ -23699,7 +23699,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "earthfist",
-        "AttTrue%": "11.6",
+        "AttTrue%": "10.8",
         Number: 5010,
         Success: 100,
         Level: 40,
@@ -23734,7 +23734,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 115,
-        "AttTrue%": "66.5",
+        "AttTrue%": "67.0",
         Min: 8,
         Max: 20,
         Energy: 200,
@@ -23744,7 +23744,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon fire elemental",
-        "AttTrue%": "33.5",
+        "AttTrue%": "33.0",
         Number: 5006,
         Success: 100,
         Level: 40,
@@ -23779,7 +23779,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 95,
-        "AttTrue%": "32.5",
+        "AttTrue%": "32.8",
         Min: 9,
         Max: 20,
         Energy: 200,
@@ -23787,7 +23787,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 105,
-        "AttTrue%": "8.3",
+        "AttTrue%": "9.0",
         Min: 9,
         Max: 20,
         Energy: 200,
@@ -23796,7 +23796,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 105,
-        "AttTrue%": "25.5",
+        "AttTrue%": "24.9",
         Min: 20,
         Max: 80,
         Energy: 200,
@@ -23806,7 +23806,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon lightning elemental",
-        "AttTrue%": "33.7",
+        "AttTrue%": "33.3",
         Number: 5008,
         Success: 100,
         Level: 40,
@@ -23841,7 +23841,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 100,
-        "AttTrue%": "16.5",
+        "AttTrue%": "16.7",
         Min: 9,
         Max: 25,
         Energy: 200,
@@ -23849,7 +23849,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 110,
-        "AttTrue%": "34.5",
+        "AttTrue%": "33.5",
         Min: 9,
         Max: 25,
         Energy: 200,
@@ -23858,7 +23858,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 110,
-        "AttTrue%": "15.4",
+        "AttTrue%": "16.7",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -23868,7 +23868,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon ice elemental",
-        "AttTrue%": "33.6",
+        "AttTrue%": "33.1",
         Number: 5007,
         Success: 100,
         Level: 40,
@@ -23906,7 +23906,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 105,
-        "AttTrue%": "20.5",
+        "AttTrue%": "20.6",
         Min: 10,
         Max: 25,
         Energy: 250,
@@ -23916,7 +23916,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "7.8",
+        "AttTrue%": "7.7",
         Number: 762,
         Success: 10,
         Level: 45,
@@ -23950,7 +23950,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 115,
-        "AttTrue%": "66.0",
+        "AttTrue%": "66.6",
         Min: 8,
         Max: 30,
         Energy: 333,
@@ -23968,7 +23968,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.1",
         Number: 762,
         Success: 10,
         Level: 25,
@@ -24005,7 +24005,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 120,
-        "AttTrue%": "59.3",
+        "AttTrue%": "60.0",
         Min: 11,
         Max: 31,
         Energy: 200,
@@ -24013,7 +24013,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 120,
-        "AttTrue%": "14.3",
+        "AttTrue%": "14.0",
         Min: 36,
         Max: 110,
         Energy: 200,
@@ -24022,7 +24022,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "26.4",
+        "AttTrue%": "26.0",
         Number: 762,
         Success: 25,
         Level: 50,
@@ -24060,7 +24060,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 111,
-        "AttTrue%": "79.6",
+        "AttTrue%": "79.9",
         Min: 9,
         Max: 29,
         Energy: 200,
@@ -24068,7 +24068,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 111,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.1",
         Min: 36,
         Max: 100,
         Energy: 200,
@@ -24097,7 +24097,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 99,
-        "AttTrue%": "80.0",
+        "AttTrue%": "80.7",
         Min: 10,
         Max: 39,
         Energy: 333,
@@ -24105,7 +24105,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 99,
-        "AttTrue%": "20.0",
+        "AttTrue%": "19.3",
         Min: 19,
         Max: 49,
         Energy: 333,
@@ -24144,7 +24144,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 95,
-        "AttTrue%": "32.9",
+        "AttTrue%": "33.0",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -24152,7 +24152,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 95,
-        "AttTrue%": "35.7",
+        "AttTrue%": "35.5",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -24162,7 +24162,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "voodoo stab",
-        "AttTrue%": "23.7",
+        "AttTrue%": "24.0",
         Number: 763,
         Success: 100,
         Level: 55,
@@ -24170,7 +24170,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "voodoo stun",
-        "AttTrue%": "7.7",
+        "AttTrue%": "7.5",
         Number: 777,
         Success: 100,
         Level: 50,
@@ -24200,7 +24200,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 115,
-        "AttTrue%": "60.3",
+        "AttTrue%": "59.1",
         Min: 12,
         Max: 40,
         Energy: 250,
@@ -24208,7 +24208,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 115,
-        "AttTrue%": "39.7",
+        "AttTrue%": "40.9",
         Min: 15,
         Max: 45,
         Energy: 250,
@@ -24238,7 +24238,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "70.0",
+        "AttTrue%": "70.3",
         Min: 9,
         Max: 30,
         Energy: 333,
@@ -24246,7 +24246,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "30.0",
+        "AttTrue%": "29.7",
         Min: 14,
         Max: 40,
         Energy: 333,
@@ -24279,7 +24279,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "48.7",
+        "AttTrue%": "49.2",
         Min: 15,
         Max: 45,
         Energy: 250,
@@ -24287,7 +24287,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "51.3",
+        "AttTrue%": "50.8",
         Min: 20,
         Max: 75,
         Energy: 200,
@@ -24322,7 +24322,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 130,
-        "AttTrue%": "85.6",
+        "AttTrue%": "86.7",
         Min: 9,
         Max: 24,
         Energy: 250,
@@ -24330,7 +24330,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 130,
-        "AttTrue%": "6.2",
+        "AttTrue%": "5.5",
         Min: 18,
         Max: 90,
         Energy: 250,
@@ -24339,7 +24339,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "8.2",
+        "AttTrue%": "7.7",
         Number: 762,
         Success: 25,
         Level: 50,
@@ -24474,7 +24474,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pinches you",
         Acc: 70,
-        "AttTrue%": "84.5",
+        "AttTrue%": "83.9",
         Min: 6,
         Max: 17,
         Energy: 333,
@@ -24482,7 +24482,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pinches you",
         Acc: 110,
-        "AttTrue%": "15.5",
+        "AttTrue%": "16.1",
         Min: 12,
         Max: 25,
         Energy: 666,
@@ -24537,7 +24537,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pinches you",
         Acc: 90,
-        "AttTrue%": "71.0",
+        "AttTrue%": "70.5",
         Min: 6,
         Max: 16,
         Energy: 250,
@@ -24545,7 +24545,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "29.0",
+        "AttTrue%": "29.5",
         Min: 10,
         Max: 25,
         Energy: 350,
@@ -24635,7 +24635,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 110,
-        "AttTrue%": "24.8",
+        "AttTrue%": "26.8",
         Min: 2,
         Max: 10,
         Energy: 200,
@@ -24644,7 +24644,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "23.9",
+        "AttTrue%": "24.2",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -24652,7 +24652,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soul rip",
-        "AttTrue%": "51.3",
+        "AttTrue%": "49.0",
         Number: 5033,
         Success: 100,
         Level: 35,
@@ -24682,7 +24682,7 @@ export const monsterData: Monster[] = [
       {
         Name: "mauls you",
         Acc: 115,
-        "AttTrue%": "90.1",
+        "AttTrue%": "90.4",
         Min: 10,
         Max: 20,
         Energy: 333,
@@ -24690,7 +24690,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 115,
-        "AttTrue%": "9.9",
+        "AttTrue%": "9.6",
         Min: 20,
         Max: 40,
         Energy: 333,
@@ -24719,7 +24719,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 111,
-        "AttTrue%": "68.9",
+        "AttTrue%": "67.7",
         Min: 7,
         Max: 27,
         Energy: 250,
@@ -24727,7 +24727,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 130,
-        "AttTrue%": "31.1",
+        "AttTrue%": "32.3",
         Min: 15,
         Max: 45,
         Energy: 500,
@@ -24756,7 +24756,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 155,
-        "AttTrue%": "40.6",
+        "AttTrue%": "40.5",
         Min: 5,
         Max: 15,
         Energy: 125,
@@ -24764,7 +24764,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 125,
-        "AttTrue%": "54.7",
+        "AttTrue%": "54.8",
         Min: 10,
         Max: 20,
         Energy: 125,
@@ -24821,7 +24821,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 180,
-        "AttTrue%": "29.8",
+        "AttTrue%": "29.7",
         Min: 40,
         Max: 200,
         Energy: 200,
@@ -24830,7 +24830,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "forked lightning",
-        "AttTrue%": "9.0",
+        "AttTrue%": "8.6",
         Number: 5021,
         Success: 100,
         Level: 45,
@@ -24838,7 +24838,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "chain lightning",
-        "AttTrue%": "3.2",
+        "AttTrue%": "3.6",
         Number: 5014,
         Success: 100,
         Level: 45,
@@ -24846,7 +24846,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blizzard",
-        "AttTrue%": "3.5",
+        "AttTrue%": "3.6",
         Number: 5019,
         Success: 100,
         Level: 55,
@@ -24878,7 +24878,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 145,
-        "AttTrue%": "86.2",
+        "AttTrue%": "85.8",
         Min: 20,
         Max: 60,
         Energy: 333,
@@ -24886,7 +24886,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 145,
-        "AttTrue%": "10.5",
+        "AttTrue%": "10.8",
         Min: 40,
         Max: 150,
         Energy: 333,
@@ -24895,7 +24895,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning shot",
-        "AttTrue%": "3.3",
+        "AttTrue%": "3.4",
         Number: 789,
         Success: 100,
         Level: 40,
@@ -24933,7 +24933,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 160,
-        "AttTrue%": "60.1",
+        "AttTrue%": "59.9",
         Min: 35,
         Max: 85,
         Energy: 200,
@@ -24941,7 +24941,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 160,
-        "AttTrue%": "19.9",
+        "AttTrue%": "19.8",
         Min: 70,
         Max: 290,
         Energy: 200,
@@ -24950,7 +24950,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "forked lightning",
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.3",
         Number: 5021,
         Success: 100,
         Level: 50,
@@ -24982,7 +24982,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 125,
-        "AttTrue%": "83.2",
+        "AttTrue%": "82.0",
         Min: 22,
         Max: 55,
         Energy: 333,
@@ -24990,7 +24990,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a massive boulder, which crushes you",
         Acc: 125,
-        "AttTrue%": "4.6",
+        "AttTrue%": "4.7",
         Min: 100,
         Max: 200,
         Energy: 1000,
@@ -25007,7 +25007,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hail of stones",
-        "AttTrue%": "10.1",
+        "AttTrue%": "11.1",
         Number: 772,
         Success: 100,
         Level: 35,
@@ -25039,7 +25039,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 135,
-        "AttTrue%": "87.2",
+        "AttTrue%": "86.5",
         Min: 22,
         Max: 55,
         Energy: 333,
@@ -25047,7 +25047,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a massive boulder, which crushes you",
         Acc: 150,
-        "AttTrue%": "7.4",
+        "AttTrue%": "8.3",
         Min: 100,
         Max: 200,
         Energy: 1000,
@@ -25092,7 +25092,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 150,
-        "AttTrue%": "64.6",
+        "AttTrue%": "63.9",
         Min: 30,
         Max: 90,
         Energy: 220,
@@ -25100,7 +25100,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 150,
-        "AttTrue%": "16.3",
+        "AttTrue%": "16.0",
         Min: 60,
         Max: 300,
         Energy: 220,
@@ -25108,7 +25108,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a massive boulder, which crushes you",
         Acc: 150,
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.1",
         Min: 70,
         Max: 300,
         Energy: 1000,
@@ -25117,7 +25117,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hail of stones",
-        "AttTrue%": "10.2",
+        "AttTrue%": "11.0",
         Number: 772,
         Success: 100,
         Level: 45,
@@ -25209,7 +25209,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 115,
-        "AttTrue%": "87.8",
+        "AttTrue%": "87.6",
         Min: 12,
         Max: 45,
         Energy: 250,
@@ -25218,7 +25218,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "splinterstorm",
-        "AttTrue%": "12.2",
+        "AttTrue%": "12.4",
         Number: 764,
         Success: 35,
         Level: 50,
@@ -25248,7 +25248,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 130,
-        "AttTrue%": "94.7",
+        "AttTrue%": "95.0",
         Min: 20,
         Max: 50,
         Energy: 333,
@@ -25256,7 +25256,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 130,
-        "AttTrue%": "5.3",
+        "AttTrue%": "5.0",
         Min: 40,
         Max: 130,
         Energy: 333,
@@ -25289,7 +25289,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 135,
-        "AttTrue%": "89.7",
+        "AttTrue%": "89.4",
         Min: 25,
         Max: 55,
         Energy: 250,
@@ -25297,7 +25297,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 135,
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.6",
         Min: 50,
         Max: 180,
         Energy: 250,
@@ -25327,7 +25327,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "79.1",
+        "AttTrue%": "79.9",
         Min: 39,
         Max: 150,
         Energy: 500,
@@ -25336,7 +25336,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "burning maw",
-        "AttTrue%": "20.9",
+        "AttTrue%": "20.1",
         Number: 768,
         Success: 100,
         Level: 50,
@@ -25372,7 +25372,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 160,
-        "AttTrue%": "28.4",
+        "AttTrue%": "28.6",
         Min: 66,
         Max: 105,
         Energy: 200,
@@ -25380,7 +25380,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 175,
-        "AttTrue%": "12.6",
+        "AttTrue%": "13.1",
         Min: 100,
         Max: 170,
         Energy: 600,
@@ -25388,7 +25388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 185,
-        "AttTrue%": "21.8",
+        "AttTrue%": "21.5",
         Min: 120,
         Max: 250,
         Energy: 400,
@@ -25406,7 +25406,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flesh-eating gas",
-        "AttTrue%": "18.0",
+        "AttTrue%": "17.6",
         Number: 766,
         Success: 100,
         Level: 50,
@@ -25439,7 +25439,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 95,
-        "AttTrue%": "75.4",
+        "AttTrue%": "75.0",
         Min: 2,
         Max: 20,
         Energy: 250,
@@ -25447,7 +25447,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 125,
-        "AttTrue%": "24.6",
+        "AttTrue%": "25.0",
         Min: 12,
         Max: 25,
         Energy: 250,
@@ -25477,7 +25477,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 80,
-        "AttTrue%": "48.9",
+        "AttTrue%": "50.9",
         Min: 8,
         Max: 32,
         Energy: 500,
@@ -25485,7 +25485,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 85,
-        "AttTrue%": "51.1",
+        "AttTrue%": "49.1",
         Min: 8,
         Max: 32,
         Energy: 500,
@@ -25570,7 +25570,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plasma bolt",
-        "AttTrue%": "18.9",
+        "AttTrue%": "19.7",
         Number: 5012,
         Success: 100,
         Level: 45,
@@ -25578,7 +25578,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plasma bolt",
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.0",
         Number: 5012,
         Success: 100,
         Level: 45,
@@ -25586,7 +25586,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "rotting flesh",
-        "AttTrue%": "10.7",
+        "AttTrue%": "10.4",
         Number: 143,
         Success: 100,
         Level: 45,
@@ -25594,7 +25594,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "earthfist",
-        "AttTrue%": "50.2",
+        "AttTrue%": "49.9",
         Number: 5010,
         Success: 100,
         Level: 45,
@@ -25723,7 +25723,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 88,
-        "AttTrue%": "61.3",
+        "AttTrue%": "60.5",
         Min: 20,
         Max: 35,
         Energy: 500,
@@ -25731,7 +25731,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 80,
-        "AttTrue%": "38.7",
+        "AttTrue%": "39.5",
         Min: 30,
         Max: 45,
         Energy: 500,
@@ -25759,7 +25759,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 88,
-        "AttTrue%": "59.4",
+        "AttTrue%": "60.6",
         Min: 20,
         Max: 35,
         Energy: 500,
@@ -25767,7 +25767,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 80,
-        "AttTrue%": "40.6",
+        "AttTrue%": "39.4",
         Min: 30,
         Max: 45,
         Energy: 500,
@@ -25794,7 +25794,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "87.1",
+        "AttTrue%": "87.0",
         Min: 10,
         Max: 30,
         Energy: 500,
@@ -25802,7 +25802,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 85,
-        "AttTrue%": "12.9",
+        "AttTrue%": "13.0",
         Min: 25,
         Max: 50,
         Energy: 1000,
@@ -25884,7 +25884,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "89.0",
+        "AttTrue%": "90.7",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -25892,7 +25892,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "11.0",
+        "AttTrue%": "9.3",
         Min: 15,
         Max: 30,
         Energy: 500,
@@ -25921,7 +25921,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 80,
-        "AttTrue%": "70.0",
+        "AttTrue%": "70.5",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -25929,7 +25929,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 85,
-        "AttTrue%": "9.7",
+        "AttTrue%": "9.8",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -25938,7 +25938,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "10.2",
+        "AttTrue%": "9.8",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -25947,7 +25947,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.9",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -25976,7 +25976,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 70,
-        "AttTrue%": "79.7",
+        "AttTrue%": "79.3",
         Min: 8,
         Max: 20,
         Energy: 333,
@@ -25984,7 +25984,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fine teeth",
         Acc: 77,
-        "AttTrue%": "20.3",
+        "AttTrue%": "20.7",
         Min: 30,
         Max: 50,
         Energy: 666,
@@ -26041,7 +26041,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "79.4",
+        "AttTrue%": "80.6",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -26049,7 +26049,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 111,
-        "AttTrue%": "20.6",
+        "AttTrue%": "19.4",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -26076,7 +26076,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "32.9",
+        "AttTrue%": "31.2",
         Min: 8,
         Max: 15,
         Energy: 500,
@@ -26085,7 +26085,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you with its fangs",
         Acc: 85,
-        "AttTrue%": "67.1",
+        "AttTrue%": "68.8",
         Min: 20,
         Max: 35,
         Energy: 500,
@@ -26116,7 +26116,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fist",
         Acc: 120,
-        "AttTrue%": "69.1",
+        "AttTrue%": "71.0",
         Min: 30,
         Max: 65,
         Energy: 1000,
@@ -26124,7 +26124,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fist",
         Acc: 80,
-        "AttTrue%": "30.9",
+        "AttTrue%": "29.0",
         Min: 40,
         Max: 90,
         Energy: 1000,
@@ -26264,7 +26264,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 125,
-        "AttTrue%": "84.1",
+        "AttTrue%": "84.6",
         Min: 20,
         Max: 80,
         Energy: 500,
@@ -26274,7 +26274,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "magma blast",
-        "AttTrue%": "15.9",
+        "AttTrue%": "15.4",
         Number: 5017,
         Success: 100,
         Level: 60,
@@ -26307,7 +26307,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fanged maw",
         Acc: 125,
-        "AttTrue%": "38.8",
+        "AttTrue%": "39.3",
         Min: 20,
         Max: 60,
         Energy: 500,
@@ -26316,7 +26316,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tongue",
         Acc: 105,
-        "AttTrue%": "61.2",
+        "AttTrue%": "60.7",
         Min: 10,
         Max: 50,
         Energy: 500,
@@ -26347,7 +26347,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its jagged claws",
         Acc: 140,
-        "AttTrue%": "53.4",
+        "AttTrue%": "54.2",
         Min: 10,
         Max: 45,
         Energy: 250,
@@ -26356,7 +26356,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horns",
         Acc: 140,
-        "AttTrue%": "24.0",
+        "AttTrue%": "23.6",
         Min: 15,
         Max: 65,
         Energy: 500,
@@ -26365,7 +26365,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 111,
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.1",
         Min: 20,
         Max: 40,
         Energy: 500,
@@ -26399,7 +26399,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 105,
-        "AttTrue%": "37.8",
+        "AttTrue%": "38.5",
         Min: 7,
         Max: 20,
         Energy: 250,
@@ -26408,7 +26408,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you with its stinger",
         Acc: 115,
-        "AttTrue%": "30.0",
+        "AttTrue%": "30.9",
         Min: 24,
         Max: 42,
         Energy: 500,
@@ -26418,7 +26418,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind of fire",
-        "AttTrue%": "32.2",
+        "AttTrue%": "30.6",
         Number: 527,
         Success: 100,
         Level: 5,
@@ -26450,7 +26450,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you with its barbed spear",
         Acc: 144,
-        "AttTrue%": "35.5",
+        "AttTrue%": "35.3",
         Min: 15,
         Max: 50,
         Energy: 250,
@@ -26459,7 +26459,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 145,
-        "AttTrue%": "48.1",
+        "AttTrue%": "48.2",
         Min: 25,
         Max: 75,
         Energy: 500,
@@ -26468,7 +26468,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 155,
-        "AttTrue%": "16.4",
+        "AttTrue%": "16.5",
         Min: 60,
         Max: 100,
         Energy: 750,
@@ -26499,7 +26499,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 140,
-        "AttTrue%": "27.9",
+        "AttTrue%": "28.1",
         Min: 30,
         Max: 60,
         Energy: 333,
@@ -26507,7 +26507,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 90,
-        "AttTrue%": "27.9",
+        "AttTrue%": "28.2",
         Min: 15,
         Max: 40,
         Energy: 333,
@@ -26516,7 +26516,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "combust",
-        "AttTrue%": "26.6",
+        "AttTrue%": "26.8",
         Number: 790,
         Success: 100,
         Level: 40,
@@ -26524,7 +26524,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "17.6",
+        "AttTrue%": "16.9",
         Number: 265,
         Success: 100,
         Level: 40,
@@ -26556,7 +26556,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sears you with its burning arm",
         Acc: 114,
-        "AttTrue%": "80.4",
+        "AttTrue%": "79.1",
         Min: 8,
         Max: 40,
         Energy: 250,
@@ -26566,7 +26566,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "searing flames",
-        "AttTrue%": "19.6",
+        "AttTrue%": "20.9",
         Number: 5123,
         Success: 100,
         Level: 30,
@@ -26599,7 +26599,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 140,
-        "AttTrue%": "79.9",
+        "AttTrue%": "79.8",
         Min: 22,
         Max: 60,
         Energy: 250,
@@ -26608,7 +26608,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 140,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.2",
         Min: 44,
         Max: 200,
         Energy: 250,
@@ -26639,7 +26639,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 160,
-        "AttTrue%": "53.8",
+        "AttTrue%": "53.0",
         Min: 10,
         Max: 40,
         Energy: 200,
@@ -26649,7 +26649,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind of fire",
-        "AttTrue%": "20.9",
+        "AttTrue%": "21.9",
         Number: 527,
         Success: 100,
         Level: 10,
@@ -26657,7 +26657,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "magma blast",
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.1",
         Number: 5017,
         Success: 100,
         Level: 40,
@@ -26914,7 +26914,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 140,
-        "AttTrue%": "45.1",
+        "AttTrue%": "46.4",
         Min: 22,
         Max: 60,
         Energy: 333,
@@ -26922,7 +26922,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "37.3",
+        "AttTrue%": "35.1",
         Min: 22,
         Max: 90,
         Energy: 666,
@@ -26932,7 +26932,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "17.6",
+        "AttTrue%": "18.5",
         Number: 394,
         Success: 100,
         Level: 40,
@@ -27081,7 +27081,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 160,
-        "AttTrue%": "43.9",
+        "AttTrue%": "43.5",
         Min: 70,
         Max: 170,
         Energy: 250,
@@ -27100,7 +27100,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "phoenixfire",
-        "AttTrue%": "33.8",
+        "AttTrue%": "34.2",
         Number: 931,
         Success: 100,
         Level: 40,
@@ -27135,7 +27135,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "56.8",
+        "AttTrue%": "56.4",
         Min: 50,
         Max: 100,
         Energy: 333,
@@ -27143,7 +27143,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 175,
-        "AttTrue%": "43.2",
+        "AttTrue%": "43.6",
         Min: 75,
         Max: 150,
         Energy: 333,
@@ -27176,7 +27176,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 95,
-        "AttTrue%": "84.0",
+        "AttTrue%": "84.4",
         Min: 8,
         Max: 26,
         Energy: 333,
@@ -27184,7 +27184,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 85,
-        "AttTrue%": "16.0",
+        "AttTrue%": "15.6",
         Min: 11,
         Max: 32,
         Energy: 666,
@@ -27216,7 +27216,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns you with its touch",
         Acc: 100,
-        "AttTrue%": "86.5",
+        "AttTrue%": "86.2",
         Min: 15,
         Max: 40,
         Energy: 333,
@@ -27225,7 +27225,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "AG Wail",
-        "AttTrue%": "13.5",
+        "AttTrue%": "13.8",
         Number: 821,
         Success: 20,
         Level: 60,
@@ -27257,7 +27257,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you with its wing",
         Acc: 110,
-        "AttTrue%": "82.9",
+        "AttTrue%": "83.5",
         Min: 10,
         Max: 25,
         Energy: 200,
@@ -27265,7 +27265,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you",
         Acc: 115,
-        "AttTrue%": "17.1",
+        "AttTrue%": "16.5",
         Min: 30,
         Max: 80,
         Energy: 500,
@@ -27295,7 +27295,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "36.6",
+        "AttTrue%": "36.5",
         Min: 10,
         Max: 30,
         Energy: 600,
@@ -27303,7 +27303,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 105,
-        "AttTrue%": "63.4",
+        "AttTrue%": "63.5",
         Min: 5,
         Max: 15,
         Energy: 200,
@@ -27335,7 +27335,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fist",
         Acc: 110,
-        "AttTrue%": "69.7",
+        "AttTrue%": "70.0",
         Min: 30,
         Max: 60,
         Energy: 500,
@@ -27343,7 +27343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fist",
         Acc: 120,
-        "AttTrue%": "30.3",
+        "AttTrue%": "30.0",
         Min: 45,
         Max: 100,
         Energy: 500,
@@ -27375,7 +27375,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with its fist",
         Acc: 100,
-        "AttTrue%": "43.1",
+        "AttTrue%": "42.4",
         Min: 10,
         Max: 25,
         Energy: 200,
@@ -27383,7 +27383,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you",
         Acc: 100,
-        "AttTrue%": "52.6",
+        "AttTrue%": "53.4",
         Min: 10,
         Max: 25,
         Energy: 200,
@@ -27392,7 +27392,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "terror",
-        "AttTrue%": "4.3",
+        "AttTrue%": "4.2",
         Number: 822,
         Success: 100,
         Level: 45,
@@ -27461,7 +27461,7 @@ export const monsterData: Monster[] = [
       {
         Name: "releases a bolt of force from its palm",
         Acc: 75,
-        "AttTrue%": "69.8",
+        "AttTrue%": "69.9",
         Min: 20,
         Max: 40,
         Energy: 500,
@@ -27470,7 +27470,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "salt spray",
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.1",
         Number: 835,
         Success: 20,
         Level: 50,
@@ -27530,7 +27530,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 90,
-        "AttTrue%": "94.1",
+        "AttTrue%": "95.2",
         Min: 5,
         Max: 23,
         Energy: 250,
@@ -27538,7 +27538,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 90,
-        "AttTrue%": "5.9",
+        "AttTrue%": "4.8",
         Min: 10,
         Max: 65,
         Energy: 250,
@@ -27597,7 +27597,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 80,
-        "AttTrue%": "78.7",
+        "AttTrue%": "77.4",
         Min: 8,
         Max: 20,
         Energy: 250,
@@ -27606,7 +27606,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "fear",
-        "AttTrue%": "9.0",
+        "AttTrue%": "10.2",
         Number: 836,
         Success: 30,
         Level: 45,
@@ -27614,7 +27614,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lightning bolt",
-        "AttTrue%": "12.3",
+        "AttTrue%": "12.4",
         Number: 5029,
         Success: 75,
         Level: 20,
@@ -27680,7 +27680,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 150,
-        "AttTrue%": "61.8",
+        "AttTrue%": "60.9",
         Min: 20,
         Max: 50,
         Energy: 250,
@@ -27688,7 +27688,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically slashes you",
         Acc: 150,
-        "AttTrue%": "38.2",
+        "AttTrue%": "39.1",
         Min: 100,
         Max: 150,
         Energy: 350,
@@ -27736,7 +27736,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "56.2",
+        "AttTrue%": "56.9",
         Min: 12,
         Max: 25,
         Energy: 200,
@@ -27745,7 +27745,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "divine fury",
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.9",
         Number: 5035,
         Success: 100,
         Level: 40,
@@ -27753,7 +27753,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "god's wrath",
-        "AttTrue%": "18.6",
+        "AttTrue%": "17.2",
         Number: 5036,
         Success: 100,
         Level: 40,
@@ -27784,7 +27784,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.1",
         Min: 12,
         Max: 25,
         Energy: 600,
@@ -27793,7 +27793,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "forked lightning",
-        "AttTrue%": "59.9",
+        "AttTrue%": "60.0",
         Number: 5021,
         Success: 100,
         Level: 40,
@@ -27801,7 +27801,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic beam",
-        "AttTrue%": "18.7",
+        "AttTrue%": "19.0",
         Number: 391,
         Success: 100,
         Level: 45,
@@ -27834,7 +27834,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you with its claws",
         Acc: 145,
-        "AttTrue%": "53.5",
+        "AttTrue%": "54.2",
         Min: 25,
         Max: 45,
         Energy: 200,
@@ -27843,7 +27843,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 130,
-        "AttTrue%": "18.9",
+        "AttTrue%": "19.1",
         Min: 30,
         Max: 80,
         Energy: 400,
@@ -27852,7 +27852,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 140,
-        "AttTrue%": "14.8",
+        "AttTrue%": "14.2",
         Min: 50,
         Max: 80,
         Energy: 400,
@@ -27860,7 +27860,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 140,
-        "AttTrue%": "5.2",
+        "AttTrue%": "4.9",
         Min: 100,
         Max: 200,
         Energy: 300,
@@ -27869,7 +27869,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "7.7",
+        "AttTrue%": "7.6",
         Number: 1214,
         Success: 100,
         Level: 23,
@@ -27950,7 +27950,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 135,
-        "AttTrue%": "84.6",
+        "AttTrue%": "85.2",
         Min: 10,
         Max: 36,
         Energy: 250,
@@ -27958,7 +27958,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 135,
-        "AttTrue%": "15.4",
+        "AttTrue%": "14.8",
         Min: 40,
         Max: 100,
         Energy: 250,
@@ -28024,7 +28024,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 95,
-        "AttTrue%": "94.8",
+        "AttTrue%": "95.5",
         Min: 10,
         Max: 50,
         Energy: 1000,
@@ -28032,7 +28032,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 95,
-        "AttTrue%": "5.2",
+        "AttTrue%": "4.5",
         Min: 40,
         Max: 150,
         Energy: 1000,
@@ -28061,7 +28061,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "89.4",
+        "AttTrue%": "90.4",
         Min: 5,
         Max: 20,
         Energy: 333,
@@ -28069,7 +28069,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "10.6",
+        "AttTrue%": "9.6",
         Min: 10,
         Max: 70,
         Energy: 333,
@@ -28097,7 +28097,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 85,
-        "AttTrue%": "89.7",
+        "AttTrue%": "89.6",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -28105,7 +28105,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 85,
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.4",
         Min: 10,
         Max: 45,
         Energy: 500,
@@ -28133,7 +28133,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 90,
-        "AttTrue%": "90.1",
+        "AttTrue%": "90.4",
         Min: 5,
         Max: 17,
         Energy: 400,
@@ -28141,7 +28141,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 100,
-        "AttTrue%": "9.9",
+        "AttTrue%": "9.6",
         Min: 10,
         Max: 50,
         Energy: 400,
@@ -28169,7 +28169,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 65,
-        "AttTrue%": "94.9",
+        "AttTrue%": "95.5",
         Min: 3,
         Max: 13,
         Energy: 600,
@@ -28177,7 +28177,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 65,
-        "AttTrue%": "5.1",
+        "AttTrue%": "4.5",
         Min: 8,
         Max: 40,
         Energy: 600,
@@ -28237,7 +28237,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 65,
-        "AttTrue%": "87.0",
+        "AttTrue%": "87.3",
         Min: 2,
         Max: 5,
         Energy: 333,
@@ -28247,7 +28247,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "darkbolt",
-        "AttTrue%": "13.0",
+        "AttTrue%": "12.7",
         Number: 591,
         Success: 100,
         Level: 20,
@@ -28285,7 +28285,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 66,
-        "AttTrue%": "51.5",
+        "AttTrue%": "50.1",
         Min: 3,
         Max: 9,
         Energy: 333,
@@ -28295,7 +28295,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sunbolt",
-        "AttTrue%": "35.3",
+        "AttTrue%": "35.6",
         Number: 5028,
         Success: 100,
         Level: 20,
@@ -28303,7 +28303,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch bolt",
-        "AttTrue%": "13.1",
+        "AttTrue%": "14.3",
         Number: 5026,
         Success: 100,
         Level: 20,
@@ -28335,7 +28335,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 90,
-        "AttTrue%": "39.4",
+        "AttTrue%": "40.0",
         Min: 1,
         Max: 7,
         Energy: 333,
@@ -28344,7 +28344,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 85,
-        "AttTrue%": "40.7",
+        "AttTrue%": "40.4",
         Min: 5,
         Max: 16,
         Energy: 333,
@@ -28352,7 +28352,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 130,
-        "AttTrue%": "19.9",
+        "AttTrue%": "19.6",
         Min: 7,
         Max: 25,
         Energy: 333,
@@ -28382,7 +28382,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "40.4",
+        "AttTrue%": "39.7",
         Min: 1,
         Max: 8,
         Energy: 333,
@@ -28391,7 +28391,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "39.3",
+        "AttTrue%": "40.7",
         Min: 8,
         Max: 17,
         Energy: 333,
@@ -28399,7 +28399,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 130,
-        "AttTrue%": "20.3",
+        "AttTrue%": "19.6",
         Min: 7,
         Max: 25,
         Energy: 333,
@@ -28432,7 +28432,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 100,
-        "AttTrue%": "75.6",
+        "AttTrue%": "76.4",
         Min: 3,
         Max: 9,
         Energy: 333,
@@ -28442,7 +28442,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "darkbolt",
-        "AttTrue%": "22.2",
+        "AttTrue%": "21.5",
         Number: 591,
         Success: 100,
         Level: 30,
@@ -28450,7 +28450,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "globe of darkness",
-        "AttTrue%": "2.2",
+        "AttTrue%": "2.1",
         Number: 440,
         Success: 100,
         Level: 40,
@@ -28482,7 +28482,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 85,
-        "AttTrue%": "84.5",
+        "AttTrue%": "84.6",
         Min: 3,
         Max: 13,
         Energy: 333,
@@ -28490,7 +28490,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 85,
-        "AttTrue%": "15.5",
+        "AttTrue%": "15.4",
         Min: 15,
         Max: 35,
         Energy: 333,
@@ -28522,7 +28522,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 90,
-        "AttTrue%": "90.0",
+        "AttTrue%": "89.8",
         Min: 5,
         Max: 15,
         Energy: 333,
@@ -28530,7 +28530,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 90,
-        "AttTrue%": "10.0",
+        "AttTrue%": "10.2",
         Min: 15,
         Max: 40,
         Energy: 333,
@@ -28598,7 +28598,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "74.9",
+        "AttTrue%": "75.5",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -28606,7 +28606,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 125,
-        "AttTrue%": "25.1",
+        "AttTrue%": "24.5",
         Min: 40,
         Max: 120,
         Energy: 200,
@@ -28663,7 +28663,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fists",
         Acc: 80,
-        "AttTrue%": "74.7",
+        "AttTrue%": "74.0",
         Min: 20,
         Max: 45,
         Energy: 500,
@@ -28672,7 +28672,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "ice breath",
-        "AttTrue%": "25.3",
+        "AttTrue%": "26.0",
         Number: 197,
         Success: 100,
         Level: 15,
@@ -28703,7 +28703,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 105,
-        "AttTrue%": "40.0",
+        "AttTrue%": "39.3",
         Min: 3,
         Max: 17,
         Energy: 333,
@@ -28711,7 +28711,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 90,
-        "AttTrue%": "60.0",
+        "AttTrue%": "60.7",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -28757,7 +28757,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "84.6",
+        "AttTrue%": "85.4",
         Min: 3,
         Max: 15,
         Energy: 333,
@@ -28765,7 +28765,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "15.4",
+        "AttTrue%": "14.6",
         Min: 12,
         Max: 50,
         Energy: 333,
@@ -28802,7 +28802,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 140,
-        "AttTrue%": "21.7",
+        "AttTrue%": "21.2",
         Min: 25,
         Max: 90,
         Energy: 250,
@@ -28810,7 +28810,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 140,
-        "AttTrue%": "17.8",
+        "AttTrue%": "18.3",
         Min: 80,
         Max: 180,
         Energy: 400,
@@ -28818,7 +28818,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 150,
-        "AttTrue%": "34.4",
+        "AttTrue%": "33.7",
         Min: 100,
         Max: 220,
         Energy: 500,
@@ -28827,7 +28827,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "icy breath",
-        "AttTrue%": "26.0",
+        "AttTrue%": "26.8",
         Number: 895,
         Success: 100,
         Level: 40,
@@ -28891,7 +28891,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 120,
-        "AttTrue%": "63.4",
+        "AttTrue%": "64.9",
         Min: 5,
         Max: 25,
         Energy: 300,
@@ -28901,7 +28901,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "12.1",
+        "AttTrue%": "11.1",
         Number: 5026,
         Success: 100,
         Level: 40,
@@ -28909,7 +28909,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "shadowstrike",
-        "AttTrue%": "24.5",
+        "AttTrue%": "24.0",
         Number: 441,
         Success: 100,
         Level: 10,
@@ -28938,7 +28938,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 80,
-        "AttTrue%": "95.3",
+        "AttTrue%": "95.2",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -28946,7 +28946,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 80,
-        "AttTrue%": "4.7",
+        "AttTrue%": "4.8",
         Min: 15,
         Max: 40,
         Energy: 500,
@@ -28974,7 +28974,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 85,
-        "AttTrue%": "74.7",
+        "AttTrue%": "75.7",
         Min: 5,
         Max: 17,
         Energy: 400,
@@ -28982,7 +28982,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 85,
-        "AttTrue%": "25.3",
+        "AttTrue%": "24.3",
         Min: 15,
         Max: 50,
         Energy: 400,
@@ -29010,7 +29010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 65,
-        "AttTrue%": "75.6",
+        "AttTrue%": "74.9",
         Min: 2,
         Max: 12,
         Energy: 400,
@@ -29018,7 +29018,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 60,
-        "AttTrue%": "24.4",
+        "AttTrue%": "25.1",
         Min: 8,
         Max: 40,
         Energy: 400,
@@ -29049,7 +29049,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 170,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.4",
         Min: 6,
         Max: 90,
         Energy: 220,
@@ -29058,7 +29058,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 170,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.1",
         Min: 9,
         Max: 115,
         Energy: 230,
@@ -29067,7 +29067,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 170,
-        "AttTrue%": "19.5",
+        "AttTrue%": "20.1",
         Min: 25,
         Max: 150,
         Energy: 250,
@@ -29076,7 +29076,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 170,
-        "AttTrue%": "29.0",
+        "AttTrue%": "29.3",
         Min: 8,
         Max: 100,
         Energy: 350,
@@ -29085,7 +29085,7 @@ export const monsterData: Monster[] = [
       {
         Name: "headbutts you",
         Acc: 170,
-        "AttTrue%": "9.4",
+        "AttTrue%": "9.1",
         Min: 25,
         Max: 125,
         Energy: 370,
@@ -29116,7 +29116,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 130,
-        "AttTrue%": "89.8",
+        "AttTrue%": "90.0",
         Min: 10,
         Max: 41,
         Energy: 250,
@@ -29124,7 +29124,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 130,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.0",
         Min: 40,
         Max: 100,
         Energy: 250,
@@ -29245,7 +29245,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chills you with its touch",
         Acc: 99,
-        "AttTrue%": "69.9",
+        "AttTrue%": "70.0",
         Min: 10,
         Max: 25,
         Energy: 320,
@@ -29254,7 +29254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chills you with its touch",
         Acc: 250,
-        "AttTrue%": "30.1",
+        "AttTrue%": "30.0",
         Min: 15,
         Max: 35,
         Energy: 360,
@@ -29346,7 +29346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "89.9",
+        "AttTrue%": "90.2",
         Min: 4,
         Max: 20,
         Energy: 300,
@@ -29354,7 +29354,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 100,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.8",
         Min: 10,
         Max: 50,
         Energy: 300,
@@ -29384,7 +29384,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 90,
-        "AttTrue%": "69.8",
+        "AttTrue%": "69.6",
         Min: 8,
         Max: 30,
         Energy: 333,
@@ -29394,7 +29394,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.4",
         Number: 391,
         Success: 100,
         Level: 20,
@@ -29489,7 +29489,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 115,
-        "AttTrue%": "79.0",
+        "AttTrue%": "78.1",
         Min: 4,
         Max: 30,
         Energy: 335,
@@ -29498,7 +29498,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 125,
-        "AttTrue%": "21.0",
+        "AttTrue%": "21.9",
         Min: 20,
         Max: 50,
         Energy: 600,
@@ -29529,7 +29529,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 95,
-        "AttTrue%": "53.3",
+        "AttTrue%": "53.9",
         Min: 10,
         Max: 20,
         Energy: 250,
@@ -29539,7 +29539,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "life energy",
-        "AttTrue%": "46.7",
+        "AttTrue%": "46.1",
         Number: 518,
         Success: 100,
         Level: 15,
@@ -29603,7 +29603,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 125,
-        "AttTrue%": "69.6",
+        "AttTrue%": "69.1",
         Min: 10,
         Max: 40,
         Energy: 233,
@@ -29612,7 +29612,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dark force",
-        "AttTrue%": "30.4",
+        "AttTrue%": "30.9",
         Number: 225,
         Success: 100,
         Level: 25,
@@ -29710,7 +29710,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "80.4",
+        "AttTrue%": "80.5",
         Number: 391,
         Success: 100,
         Level: 40,
@@ -29718,7 +29718,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "5.5",
+        "AttTrue%": "4.0",
         Number: 5024,
         Success: 100,
         Level: 30,
@@ -29729,7 +29729,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 120,
-        "AttTrue%": "14.1",
+        "AttTrue%": "15.5",
         Min: 5,
         Max: 20,
         Energy: 250,
@@ -29761,7 +29761,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 145,
-        "AttTrue%": "96.2",
+        "AttTrue%": "96.4",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -29770,7 +29770,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "giant skeleton shriek",
-        "AttTrue%": "3.8",
+        "AttTrue%": "3.6",
         Number: 770,
         Success: 100,
         Level: 50,
@@ -29801,7 +29801,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 100,
-        "AttTrue%": "95.0",
+        "AttTrue%": "95.6",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -29809,7 +29809,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 100,
-        "AttTrue%": "5.0",
+        "AttTrue%": "4.4",
         Min: 40,
         Max: 120,
         Energy: 333,
@@ -30042,7 +30042,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 116,
-        "AttTrue%": "85.2",
+        "AttTrue%": "84.9",
         Min: 6,
         Max: 20,
         Energy: 200,
@@ -30050,7 +30050,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 116,
-        "AttTrue%": "14.8",
+        "AttTrue%": "15.1",
         Min: 24,
         Max: 72,
         Energy: 200,
@@ -30078,7 +30078,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "79.2",
+        "AttTrue%": "80.4",
         Min: 2,
         Max: 15,
         Energy: 200,
@@ -30086,7 +30086,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 95,
-        "AttTrue%": "20.8",
+        "AttTrue%": "19.6",
         Min: 8,
         Max: 50,
         Energy: 200,
@@ -30113,7 +30113,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "73.0",
+        "AttTrue%": "72.3",
         Min: 3,
         Max: 19,
         Energy: 200,
@@ -30121,7 +30121,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 100,
-        "AttTrue%": "18.1",
+        "AttTrue%": "18.7",
         Min: 15,
         Max: 75,
         Energy: 200,
@@ -30130,7 +30130,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "1.6",
+        "AttTrue%": "1.7",
         Number: 5023,
         Success: 100,
         Level: 27,
@@ -30138,7 +30138,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch bolt",
-        "AttTrue%": "7.3",
+        "AttTrue%": "7.2",
         Number: 5026,
         Success: 100,
         Level: 27,
@@ -30167,7 +30167,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 85,
-        "AttTrue%": "11.8",
+        "AttTrue%": "12.8",
         Min: 3,
         Max: 10,
         Energy: 760,
@@ -30176,7 +30176,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "meteor swarm",
-        "AttTrue%": "72.5",
+        "AttTrue%": "71.3",
         Number: 5025,
         Success: 100,
         Level: 28,
@@ -30184,7 +30184,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "15.8",
+        "AttTrue%": "15.9",
         Number: 5023,
         Success: 100,
         Level: 28,
@@ -30214,7 +30214,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 95,
-        "AttTrue%": "40.2",
+        "AttTrue%": "38.7",
         Min: 3,
         Max: 14,
         Energy: 250,
@@ -30223,7 +30223,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plasma bolt",
-        "AttTrue%": "44.9",
+        "AttTrue%": "45.6",
         Number: 5012,
         Success: 100,
         Level: 28,
@@ -30231,7 +30231,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "earthquake",
-        "AttTrue%": "15.0",
+        "AttTrue%": "15.7",
         Number: 5011,
         Success: 100,
         Level: 28,
@@ -30262,7 +30262,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 120,
-        "AttTrue%": "73.1",
+        "AttTrue%": "75.4",
         Min: 40,
         Max: 100,
         Energy: 600,
@@ -30270,7 +30270,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 120,
-        "AttTrue%": "26.9",
+        "AttTrue%": "24.6",
         Min: 40,
         Max: 150,
         Energy: 910,
@@ -30300,7 +30300,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 100,
-        "AttTrue%": "88.4",
+        "AttTrue%": "89.4",
         Min: 9,
         Max: 34,
         Energy: 400,
@@ -30308,7 +30308,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 125,
-        "AttTrue%": "11.6",
+        "AttTrue%": "10.6",
         Min: 15,
         Max: 55,
         Energy: 700,
@@ -30340,7 +30340,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 125,
-        "AttTrue%": "89.3",
+        "AttTrue%": "90.3",
         Min: 20,
         Max: 32,
         Energy: 333,
@@ -30348,7 +30348,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out bludgeons you",
         Acc: 125,
-        "AttTrue%": "10.7",
+        "AttTrue%": "9.7",
         Min: 80,
         Max: 100,
         Energy: 333,
@@ -30379,7 +30379,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 120,
-        "AttTrue%": "61.8",
+        "AttTrue%": "61.5",
         Min: 23,
         Max: 79,
         Energy: 400,
@@ -30388,7 +30388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 120,
-        "AttTrue%": "38.2",
+        "AttTrue%": "38.5",
         Min: 50,
         Max: 108,
         Energy: 500,
@@ -30481,7 +30481,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally claws you",
         Acc: 110,
-        "AttTrue%": "59.5",
+        "AttTrue%": "60.5",
         Min: 13,
         Max: 27,
         Energy: 300,
@@ -30490,7 +30490,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally claws you",
         Acc: 120,
-        "AttTrue%": "10.1",
+        "AttTrue%": "10.2",
         Min: 15,
         Max: 32,
         Energy: 300,
@@ -30499,7 +30499,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 130,
-        "AttTrue%": "30.4",
+        "AttTrue%": "29.3",
         Min: 20,
         Max: 49,
         Energy: 300,
@@ -30530,7 +30530,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "55.9",
+        "AttTrue%": "54.9",
         Min: 2,
         Max: 25,
         Energy: 300,
@@ -30539,7 +30539,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 150,
-        "AttTrue%": "32.3",
+        "AttTrue%": "33.6",
         Min: 4,
         Max: 35,
         Energy: 300,
@@ -30548,7 +30548,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 150,
-        "AttTrue%": "11.8",
+        "AttTrue%": "11.5",
         Min: 35,
         Max: 50,
         Energy: 1000,
@@ -30587,7 +30587,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 150,
-        "AttTrue%": "95.8",
+        "AttTrue%": "95.5",
         Min: 10,
         Max: 24,
         Energy: 250,
@@ -30597,7 +30597,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "death gaze",
-        "AttTrue%": "4.2",
+        "AttTrue%": "4.5",
         Number: 306,
         Success: 100,
         Level: 40,
@@ -30628,7 +30628,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 130,
-        "AttTrue%": "49.3",
+        "AttTrue%": "52.6",
         Min: 1,
         Max: 76,
         Energy: 500,
@@ -30637,7 +30637,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 130,
-        "AttTrue%": "50.7",
+        "AttTrue%": "47.4",
         Min: 1,
         Max: 76,
         Energy: 500,
@@ -30674,7 +30674,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 165,
-        "AttTrue%": "49.8",
+        "AttTrue%": "51.1",
         Min: 10,
         Max: 70,
         Energy: 200,
@@ -30682,7 +30682,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 165,
-        "AttTrue%": "29.9",
+        "AttTrue%": "29.8",
         Min: 90,
         Max: 240,
         Energy: 200,
@@ -30691,7 +30691,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 165,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.1",
         Min: 100,
         Max: 140,
         Energy: 200,
@@ -30728,7 +30728,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "89.8",
+        "AttTrue%": "88.9",
         Min: 140,
         Max: 300,
         Energy: 800,
@@ -30737,7 +30737,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "death ray",
-        "AttTrue%": "10.2",
+        "AttTrue%": "11.1",
         Number: 954,
         Success: 100,
         Level: 40,
@@ -30770,7 +30770,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 145,
-        "AttTrue%": "55.5",
+        "AttTrue%": "55.8",
         Min: 6,
         Max: 39,
         Energy: 500,
@@ -30778,7 +30778,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges into you",
         Acc: 160,
-        "AttTrue%": "27.6",
+        "AttTrue%": "27.5",
         Min: 50,
         Max: 80,
         Energy: 500,
@@ -30786,7 +30786,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 160,
-        "AttTrue%": "16.9",
+        "AttTrue%": "16.7",
         Min: 20,
         Max: 100,
         Energy: 1000,
@@ -30818,7 +30818,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 130,
-        "AttTrue%": "91.6",
+        "AttTrue%": "91.3",
         Min: 20,
         Max: 80,
         Energy: 600,
@@ -30826,7 +30826,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 130,
-        "AttTrue%": "8.4",
+        "AttTrue%": "8.7",
         Min: 50,
         Max: 130,
         Energy: 800,
@@ -30859,7 +30859,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horn",
         Acc: 125,
-        "AttTrue%": "52.3",
+        "AttTrue%": "53.5",
         Min: 10,
         Max: 52,
         Energy: 333,
@@ -30868,7 +30868,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges at you and skewers you",
         Acc: 125,
-        "AttTrue%": "26.1",
+        "AttTrue%": "25.4",
         Min: 40,
         Max: 100,
         Energy: 600,
@@ -30877,7 +30877,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "21.6",
+        "AttTrue%": "21.1",
         Number: 394,
         Success: 100,
         Level: 30,
@@ -30911,7 +30911,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "50.2",
+        "AttTrue%": "50.0",
         Min: 8,
         Max: 45,
         Energy: 200,
@@ -30920,7 +30920,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 145,
-        "AttTrue%": "28.5",
+        "AttTrue%": "28.7",
         Min: 50,
         Max: 145,
         Energy: 200,
@@ -30930,7 +30930,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.6",
         Number: 5023,
         Success: 100,
         Level: 35,
@@ -30938,7 +30938,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "colour spray",
-        "AttTrue%": "12.5",
+        "AttTrue%": "11.7",
         Number: 5022,
         Success: 100,
         Level: 40,
@@ -30977,7 +30977,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 220,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.2",
         Min: 65,
         Max: 100,
         Energy: 200,
@@ -30994,7 +30994,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you",
         Acc: 220,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.6",
         Min: 45,
         Max: 90,
         Energy: 125,
@@ -31003,7 +31003,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 220,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.7",
         Min: 50,
         Max: 60,
         Energy: 125,
@@ -31012,7 +31012,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 220,
-        "AttTrue%": "19.7",
+        "AttTrue%": "20.4",
         Min: 100,
         Max: 200,
         Energy: 200,
@@ -31043,7 +31043,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a thorny stem",
         Acc: 120,
-        "AttTrue%": "46.7",
+        "AttTrue%": "47.5",
         Min: 2,
         Max: 12,
         Energy: 120,
@@ -31052,7 +31052,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a thorny stem",
         Acc: 100,
-        "AttTrue%": "43.0",
+        "AttTrue%": "42.0",
         Min: 2,
         Max: 12,
         Energy: 120,
@@ -31062,7 +31062,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "rosebush sleep",
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.5",
         Number: 961,
         Success: 100,
         Level: 30,
@@ -31092,7 +31092,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely claws you",
         Acc: 125,
-        "AttTrue%": "26.2",
+        "AttTrue%": "25.5",
         Min: 16,
         Max: 38,
         Energy: 160,
@@ -31109,7 +31109,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely claws you",
         Acc: 145,
-        "AttTrue%": "22.4",
+        "AttTrue%": "22.5",
         Min: 46,
         Max: 91,
         Energy: 400,
@@ -31118,7 +31118,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely claws you",
         Acc: 145,
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.8",
         Min: 15,
         Max: 42,
         Energy: 160,
@@ -31171,7 +31171,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "80.5",
+        "AttTrue%": "80.2",
         Min: 2,
         Max: 14,
         Energy: 150,
@@ -31180,7 +31180,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "19.5",
+        "AttTrue%": "19.8",
         Min: 5,
         Max: 19,
         Energy: 200,
@@ -31211,7 +31211,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 115,
-        "AttTrue%": "70.0",
+        "AttTrue%": "70.3",
         Min: 10,
         Max: 24,
         Energy: 300,
@@ -31220,7 +31220,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 115,
-        "AttTrue%": "30.0",
+        "AttTrue%": "29.7",
         Min: 25,
         Max: 45,
         Energy: 300,
@@ -31250,7 +31250,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "absorb",
-        "AttTrue%": "38.4",
+        "AttTrue%": "38.3",
         Number: 950,
         Success: 100,
         Level: 35,
@@ -31258,7 +31258,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "envelops",
-        "AttTrue%": "38.3",
+        "AttTrue%": "39.1",
         Number: 388,
         Success: 100,
         Level: 30,
@@ -31266,7 +31266,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "drains",
-        "AttTrue%": "23.2",
+        "AttTrue%": "22.6",
         Number: 389,
         Success: 100,
         Level: 25,
@@ -31332,7 +31332,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 135,
-        "AttTrue%": "50.0",
+        "AttTrue%": "50.3",
         Min: 8,
         Max: 10,
         Energy: 200,
@@ -31341,7 +31341,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 135,
-        "AttTrue%": "50.0",
+        "AttTrue%": "49.7",
         Min: 10,
         Max: 17,
         Energy: 200,
@@ -31376,7 +31376,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 125,
-        "AttTrue%": "82.4",
+        "AttTrue%": "82.8",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -31384,7 +31384,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 125,
-        "AttTrue%": "17.6",
+        "AttTrue%": "17.2",
         Min: 35,
         Max: 55,
         Energy: 400,
@@ -31415,7 +31415,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 95,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.9",
         Min: 5,
         Max: 18,
         Energy: 250,
@@ -31424,7 +31424,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 105,
-        "AttTrue%": "80.0",
+        "AttTrue%": "79.1",
         Min: 5,
         Max: 18,
         Energy: 250,
@@ -31456,7 +31456,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 125,
-        "AttTrue%": "48.4",
+        "AttTrue%": "51.0",
         Min: 10,
         Max: 50,
         Energy: 500,
@@ -31464,7 +31464,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 145,
-        "AttTrue%": "51.6",
+        "AttTrue%": "49.0",
         Min: 20,
         Max: 70,
         Energy: 500,
@@ -31524,7 +31524,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 900,
-        "AttTrue%": "79.6",
+        "AttTrue%": "79.5",
         Min: 20,
         Max: 50,
         Energy: 200,
@@ -31532,7 +31532,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 900,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.5",
         Min: 80,
         Max: 200,
         Energy: 200,
@@ -31561,7 +31561,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 95,
-        "AttTrue%": "47.3",
+        "AttTrue%": "49.5",
         Min: 5,
         Max: 16,
         Energy: 400,
@@ -31570,7 +31570,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 105,
-        "AttTrue%": "52.7",
+        "AttTrue%": "50.5",
         Min: 5,
         Max: 18,
         Energy: 300,
@@ -31602,7 +31602,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "34.1",
+        "AttTrue%": "34.3",
         Min: 10,
         Max: 20,
         Energy: 300,
@@ -31612,7 +31612,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "deeply bite",
-        "AttTrue%": "55.1",
+        "AttTrue%": "54.2",
         Number: 991,
         Success: 100,
         Level: 40,
@@ -31620,7 +31620,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "6.5",
+        "AttTrue%": "6.7",
         Number: 5018,
         Success: 100,
         Level: 40,
@@ -31628,7 +31628,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "4.3",
+        "AttTrue%": "4.8",
         Number: 1197,
         Success: 100,
         Level: 40,
@@ -31661,7 +31661,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "53.7",
+        "AttTrue%": "53.5",
         Min: 10,
         Max: 25,
         Energy: 250,
@@ -31671,7 +31671,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "26.5",
+        "AttTrue%": "26.8",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -31679,7 +31679,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "deeply bite",
-        "AttTrue%": "19.8",
+        "AttTrue%": "19.7",
         Number: 991,
         Success: 100,
         Level: 40,
@@ -31711,7 +31711,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 170,
-        "AttTrue%": "34.3",
+        "AttTrue%": "34.8",
         Min: 25,
         Max: 65,
         Energy: 300,
@@ -31721,7 +31721,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "deeply bite",
-        "AttTrue%": "27.5",
+        "AttTrue%": "25.6",
         Number: 991,
         Success: 100,
         Level: 50,
@@ -31729,7 +31729,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "12.7",
+        "AttTrue%": "13.6",
         Number: 5018,
         Success: 100,
         Level: 50,
@@ -31737,7 +31737,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "6.8",
+        "AttTrue%": "6.6",
         Number: 1197,
         Success: 100,
         Level: 50,
@@ -31745,7 +31745,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soul rip",
-        "AttTrue%": "18.7",
+        "AttTrue%": "19.4",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -31782,7 +31782,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savages you",
         Acc: 180,
-        "AttTrue%": "29.2",
+        "AttTrue%": "30.2",
         Min: 35,
         Max: 100,
         Energy: 125,
@@ -31792,7 +31792,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.3",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -31800,7 +31800,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "11.8",
+        "AttTrue%": "12.3",
         Number: 5018,
         Success: 100,
         Level: 50,
@@ -31808,7 +31808,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "9.8",
+        "AttTrue%": "10.2",
         Number: 1197,
         Success: 100,
         Level: 50,
@@ -31816,7 +31816,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "deeply bite",
-        "AttTrue%": "46.5",
+        "AttTrue%": "44.9",
         Number: 991,
         Success: 100,
         Level: 50,
@@ -31848,7 +31848,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swirls around you sucking your life",
         Acc: 145,
-        "AttTrue%": "25.1",
+        "AttTrue%": "24.5",
         Min: 10,
         Max: 100,
         Energy: 125,
@@ -31858,7 +31858,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "envelops",
-        "AttTrue%": "25.2",
+        "AttTrue%": "25.1",
         Number: 388,
         Success: 100,
         Level: 65,
@@ -31866,7 +31866,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "drains",
-        "AttTrue%": "49.7",
+        "AttTrue%": "50.4",
         Number: 389,
         Success: 100,
         Level: 65,
@@ -31897,7 +31897,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 120,
-        "AttTrue%": "52.0",
+        "AttTrue%": "52.2",
         Min: 6,
         Max: 25,
         Energy: 200,
@@ -31906,7 +31906,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 120,
-        "AttTrue%": "48.0",
+        "AttTrue%": "47.8",
         Min: 15,
         Max: 30,
         Energy: 400,
@@ -31937,7 +31937,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bashes you with its arm",
         Acc: 125,
-        "AttTrue%": "76.6",
+        "AttTrue%": "76.9",
         Min: 30,
         Max: 60,
         Energy: 500,
@@ -31945,7 +31945,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "23.4",
+        "AttTrue%": "23.1",
         Min: 12,
         Max: 45,
         Energy: 200,
@@ -32010,7 +32010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pecks you",
         Acc: 65,
-        "AttTrue%": "58.8",
+        "AttTrue%": "60.6",
         Min: 1,
         Max: 2,
         Energy: 100,
@@ -32018,7 +32018,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pecks you",
         Acc: 900,
-        "AttTrue%": "41.2",
+        "AttTrue%": "39.4",
         Min: 4,
         Max: 6,
         Energy: 100,
@@ -32080,7 +32080,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "41.4",
+        "AttTrue%": "41.9",
         Number: 5023,
         Success: 100,
         Level: 50,
@@ -32088,7 +32088,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "magma blast",
-        "AttTrue%": "44.8",
+        "AttTrue%": "44.7",
         Number: 5017,
         Success: 100,
         Level: 50,
@@ -32096,7 +32096,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch storm",
-        "AttTrue%": "13.8",
+        "AttTrue%": "13.4",
         Number: 1215,
         Success: 100,
         Level: 50,
@@ -32129,7 +32129,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 110,
-        "AttTrue%": "87.9",
+        "AttTrue%": "87.7",
         Min: 14,
         Max: 26,
         Energy: 500,
@@ -32138,7 +32138,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slips around and backstabs you",
         Acc: 120,
-        "AttTrue%": "12.1",
+        "AttTrue%": "12.3",
         Min: 36,
         Max: 68,
         Energy: 500,
@@ -32231,7 +32231,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 135,
-        "AttTrue%": "77.0",
+        "AttTrue%": "77.5",
         Min: 10,
         Max: 90,
         Energy: 200,
@@ -32239,7 +32239,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "23.0",
+        "AttTrue%": "22.5",
         Min: 20,
         Max: 120,
         Energy: 1000,
@@ -32270,7 +32270,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "48.9",
+        "AttTrue%": "50.5",
         Number: 721,
         Success: 100,
         Level: 65,
@@ -32278,7 +32278,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soulstrike",
-        "AttTrue%": "51.1",
+        "AttTrue%": "49.5",
         Number: 5034,
         Success: 100,
         Level: 50,
@@ -32305,16 +32305,12 @@ export const monsterData: Monster[] = [
     Dodge: 50,
     MonsGuards: 851,
     SpellImmune: 30,
-    Drops: [
-      { Number: 3342, Percent: 10 },
-      { Number: 1749, Percent: 100 },
-      { Number: 3217, Percent: 100 },
-    ],
+    Drops: [{ Number: 1749, Percent: 100 }],
     Attacks: [
       {
         Name: "smacks you with his staff",
         Acc: 125,
-        "AttTrue%": "18.3",
+        "AttTrue%": "19.9",
         Min: 10,
         Max: 35,
         Energy: 100,
@@ -32323,7 +32319,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellstorm",
-        "AttTrue%": "18.4",
+        "AttTrue%": "17.9",
         Number: 1247,
         Success: 100,
         Level: 50,
@@ -32331,7 +32327,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic beam",
-        "AttTrue%": "27.4",
+        "AttTrue%": "27.0",
         Number: 391,
         Success: 100,
         Level: 40,
@@ -32347,7 +32343,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fist of death",
-        "AttTrue%": "31.1",
+        "AttTrue%": "30.4",
         Number: 1159,
         Success: 100,
         Level: 50,
@@ -32384,7 +32380,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 180,
-        "AttTrue%": "35.0",
+        "AttTrue%": "34.5",
         Min: 115,
         Max: 190,
         Energy: 200,
@@ -32392,7 +32388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 190,
-        "AttTrue%": "34.3",
+        "AttTrue%": "34.2",
         Min: 100,
         Max: 200,
         Energy: 300,
@@ -32400,7 +32396,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 185,
-        "AttTrue%": "16.6",
+        "AttTrue%": "16.3",
         Min: 180,
         Max: 500,
         Energy: 600,
@@ -32409,7 +32405,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shadow breath",
-        "AttTrue%": "14.1",
+        "AttTrue%": "15.1",
         Number: 1011,
         Success: 100,
         Level: 40,
@@ -32450,7 +32446,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 150,
-        "AttTrue%": "61.6",
+        "AttTrue%": "63.2",
         Min: 15,
         Max: 50,
         Energy: 200,
@@ -32458,7 +32454,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 150,
-        "AttTrue%": "32.6",
+        "AttTrue%": "31.4",
         Min: 75,
         Max: 180,
         Energy: 200,
@@ -32466,7 +32462,7 @@ export const monsterData: Monster[] = [
       {
         Name: "surprise slashes you",
         Acc: 150,
-        "AttTrue%": "5.8",
+        "AttTrue%": "5.4",
         Min: 200,
         Max: 370,
         Energy: 900,
@@ -32614,7 +32610,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "70.4",
+        "AttTrue%": "70.7",
         Min: 8,
         Max: 30,
         Energy: 333,
@@ -32622,7 +32618,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 125,
-        "AttTrue%": "29.6",
+        "AttTrue%": "29.3",
         Min: 25,
         Max: 55,
         Energy: 333,
@@ -32658,7 +32654,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 190,
-        "AttTrue%": "79.7",
+        "AttTrue%": "80.2",
         Min: 15,
         Max: 38,
         Energy: 200,
@@ -32666,7 +32662,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 190,
-        "AttTrue%": "20.3",
+        "AttTrue%": "19.8",
         Min: 80,
         Max: 180,
         Energy: 200,
@@ -32730,7 +32726,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "75.7",
+        "AttTrue%": "74.7",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -32738,7 +32734,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soul rip",
-        "AttTrue%": "24.3",
+        "AttTrue%": "25.3",
         Number: 5033,
         Success: 100,
         Level: 40,
@@ -32785,7 +32781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 900,
-        "AttTrue%": "49.5",
+        "AttTrue%": "50.2",
         Min: 40,
         Max: 1100,
         Energy: 100,
@@ -32794,7 +32790,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "50.5",
+        "AttTrue%": "49.8",
         Number: 391,
         Success: 100,
         Level: 40,
@@ -32825,7 +32821,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 100,
-        "AttTrue%": "51.4",
+        "AttTrue%": "50.2",
         Min: 2,
         Max: 25,
         Energy: 300,
@@ -32834,7 +32830,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 125,
-        "AttTrue%": "29.6",
+        "AttTrue%": "30.8",
         Min: 4,
         Max: 35,
         Energy: 300,
@@ -32843,7 +32839,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 145,
-        "AttTrue%": "10.5",
+        "AttTrue%": "9.9",
         Min: 35,
         Max: 50,
         Energy: 300,
@@ -32853,7 +32849,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "deeply bite",
-        "AttTrue%": "8.6",
+        "AttTrue%": "9.1",
         Number: 991,
         Success: 100,
         Level: 20,
@@ -32883,7 +32879,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "40.4",
+        "AttTrue%": "38.2",
         Min: 30,
         Max: 90,
         Energy: 600,
@@ -32891,7 +32887,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally bites you",
         Acc: 115,
-        "AttTrue%": "29.2",
+        "AttTrue%": "31.3",
         Min: 60,
         Max: 100,
         Energy: 600,
@@ -32900,7 +32896,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gouges you with its huge horns",
         Acc: 115,
-        "AttTrue%": "25.5",
+        "AttTrue%": "25.4",
         Min: 70,
         Max: 130,
         Energy: 600,
@@ -32909,7 +32905,7 @@ export const monsterData: Monster[] = [
       {
         Name: "jumps on you",
         Acc: 140,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.1",
         Min: 90,
         Max: 140,
         Energy: 600,
@@ -32940,7 +32936,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of flame",
-        "AttTrue%": "82.1",
+        "AttTrue%": "82.8",
         Number: 5146,
         Success: 100,
         Level: 5,
@@ -32948,7 +32944,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "17.9",
+        "AttTrue%": "17.2",
         Number: 5023,
         Success: 100,
         Level: 20,
@@ -32979,7 +32975,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of lightning",
-        "AttTrue%": "17.8",
+        "AttTrue%": "18.0",
         Number: 478,
         Success: 100,
         Level: 20,
@@ -32987,7 +32983,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lightning bolt",
-        "AttTrue%": "82.2",
+        "AttTrue%": "82.0",
         Number: 8,
         Success: 100,
         Level: 8,
@@ -33018,7 +33014,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frost jet",
-        "AttTrue%": "93.5",
+        "AttTrue%": "93.9",
         Number: 5030,
         Success: 100,
         Level: 20,
@@ -33026,7 +33022,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frozen orb",
-        "AttTrue%": "6.5",
+        "AttTrue%": "6.1",
         Number: 5147,
         Success: 100,
         Level: 40,
@@ -33156,7 +33152,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "50.5",
+        "AttTrue%": "50.8",
         Min: 10,
         Max: 29,
         Energy: 200,
@@ -33164,7 +33160,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "49.5",
+        "AttTrue%": "49.2",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -33200,7 +33196,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 170,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.3",
         Min: 20,
         Max: 100,
         Energy: 200,
@@ -33208,7 +33204,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 170,
-        "AttTrue%": "40.7",
+        "AttTrue%": "40.3",
         Min: 40,
         Max: 110,
         Energy: 200,
@@ -33217,7 +33213,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 170,
-        "AttTrue%": "29.6",
+        "AttTrue%": "29.2",
         Min: 60,
         Max: 120,
         Energy: 200,
@@ -33226,7 +33222,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 170,
-        "AttTrue%": "9.8",
+        "AttTrue%": "10.2",
         Min: 80,
         Max: 150,
         Energy: 200,
@@ -33287,7 +33283,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "37.6",
+        "AttTrue%": "39.3",
         Min: 20,
         Max: 50,
         Energy: 300,
@@ -33296,7 +33292,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "41.9",
+        "AttTrue%": "40.6",
         Min: 100,
         Max: 170,
         Energy: 600,
@@ -33305,7 +33301,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "20.5",
+        "AttTrue%": "20.1",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -33337,7 +33333,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you with her icy claws",
         Acc: 150,
-        "AttTrue%": "34.9",
+        "AttTrue%": "34.5",
         Min: 10,
         Max: 29,
         Energy: 300,
@@ -33345,7 +33341,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you with her icy claws",
         Acc: 150,
-        "AttTrue%": "33.4",
+        "AttTrue%": "33.1",
         Min: 16,
         Max: 50,
         Energy: 300,
@@ -33355,7 +33351,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frozen spike",
-        "AttTrue%": "7.3",
+        "AttTrue%": "7.1",
         Number: 5002,
         Success: 100,
         Level: 35,
@@ -33363,7 +33359,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "wretched boils",
-        "AttTrue%": "16.0",
+        "AttTrue%": "16.6",
         Number: 938,
         Success: 100,
         Level: 30,
@@ -33371,7 +33367,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blizzard",
-        "AttTrue%": "8.4",
+        "AttTrue%": "8.7",
         Number: 5019,
         Success: 100,
         Level: 40,
@@ -33403,7 +33399,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 50,
-        "AttTrue%": "59.6",
+        "AttTrue%": "59.9",
         Min: 4,
         Max: 18,
         Energy: 500,
@@ -33411,7 +33407,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 150,
-        "AttTrue%": "40.4",
+        "AttTrue%": "40.1",
         Min: 20,
         Max: 80,
         Energy: 500,
@@ -33441,7 +33437,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "21.1",
+        "AttTrue%": "19.7",
         Min: 5,
         Max: 15,
         Energy: 500,
@@ -33450,7 +33446,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "19.7",
+        "AttTrue%": "20.4",
         Min: 5,
         Max: 25,
         Energy: 500,
@@ -33459,7 +33455,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.4",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -33468,7 +33464,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.8",
         Min: 5,
         Max: 30,
         Energy: 500,
@@ -33477,7 +33473,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "19.1",
+        "AttTrue%": "19.5",
         Min: 5,
         Max: 10,
         Energy: 500,
@@ -33508,7 +33504,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally rips you",
         Acc: 140,
-        "AttTrue%": "23.4",
+        "AttTrue%": "25.5",
         Min: 60,
         Max: 180,
         Energy: 1000,
@@ -33517,7 +33513,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "25.8",
+        "AttTrue%": "24.2",
         Min: 90,
         Max: 200,
         Energy: 1000,
@@ -33526,7 +33522,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "16.2",
+        "AttTrue%": "15.3",
         Number: 1029,
         Success: 100,
         Level: 30,
@@ -33534,7 +33530,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of ice",
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.9",
         Number: 1030,
         Success: 100,
         Level: 30,
@@ -33542,7 +33538,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of lightning",
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.1",
         Number: 1031,
         Success: 100,
         Level: 30,
@@ -33571,7 +33567,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its vines",
         Acc: 125,
-        "AttTrue%": "84.9",
+        "AttTrue%": "85.0",
         Min: 5,
         Max: 10,
         Energy: 100,
@@ -33580,7 +33576,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its vines",
         Acc: 130,
-        "AttTrue%": "15.1",
+        "AttTrue%": "15.0",
         Min: 15,
         Max: 25,
         Energy: 250,
@@ -33641,7 +33637,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "28.5",
+        "AttTrue%": "27.6",
         Number: 263,
         Success: 100,
         Level: 20,
@@ -33649,7 +33645,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fiery spark",
-        "AttTrue%": "65.7",
+        "AttTrue%": "67.4",
         Number: 357,
         Success: 100,
         Level: 20,
@@ -33657,7 +33653,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dragonfire",
-        "AttTrue%": "5.8",
+        "AttTrue%": "5.0",
         Number: 265,
         Success: 100,
         Level: 20,
@@ -33687,7 +33683,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 999,
-        "AttTrue%": "23.3",
+        "AttTrue%": "21.0",
         Min: 1000,
         Max: 2100,
         Energy: 333,
@@ -33695,7 +33691,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 999,
-        "AttTrue%": "20.7",
+        "AttTrue%": "22.4",
         Min: 800,
         Max: 3600,
         Energy: 500,
@@ -33703,7 +33699,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 999,
-        "AttTrue%": "13.9",
+        "AttTrue%": "13.1",
         Min: 1200,
         Max: 5000,
         Energy: 1000,
@@ -33711,7 +33707,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 999,
-        "AttTrue%": "20.9",
+        "AttTrue%": "22.1",
         Min: 600,
         Max: 3200,
         Energy: 500,
@@ -33720,7 +33716,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 999,
-        "AttTrue%": "21.2",
+        "AttTrue%": "21.5",
         Min: 500,
         Max: 2400,
         Energy: 500,
@@ -33752,7 +33748,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 115,
-        "AttTrue%": "49.5",
+        "AttTrue%": "50.4",
         Min: 10,
         Max: 20,
         Energy: 500,
@@ -33760,7 +33756,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "50.5",
+        "AttTrue%": "49.6",
         Min: 15,
         Max: 30,
         Energy: 500,
@@ -33888,7 +33884,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 115,
-        "AttTrue%": "33.5",
+        "AttTrue%": "32.8",
         Min: 5,
         Max: 19,
         Energy: 250,
@@ -33896,7 +33892,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 140,
-        "AttTrue%": "28.0",
+        "AttTrue%": "28.3",
         Min: 100,
         Max: 200,
         Energy: 1000,
@@ -33905,7 +33901,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and crushes you",
         Acc: 140,
-        "AttTrue%": "38.5",
+        "AttTrue%": "38.9",
         Min: 50,
         Max: 100,
         Energy: 1000,
@@ -33940,7 +33936,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 170,
-        "AttTrue%": "35.9",
+        "AttTrue%": "36.6",
         Min: 25,
         Max: 61,
         Energy: 200,
@@ -33949,7 +33945,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 170,
-        "AttTrue%": "35.7",
+        "AttTrue%": "36.0",
         Min: 120,
         Max: 300,
         Energy: 1000,
@@ -33958,7 +33954,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 170,
-        "AttTrue%": "13.0",
+        "AttTrue%": "11.6",
         Min: 100,
         Max: 120,
         Energy: 200,
@@ -33968,7 +33964,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "rain of blood",
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.2",
         Number: 259,
         Success: 100,
         Level: 40,
@@ -33976,7 +33972,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "vortex of pain",
-        "AttTrue%": "3.5",
+        "AttTrue%": "3.6",
         Number: 260,
         Success: 100,
         Level: 35,
@@ -34007,7 +34003,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 130,
-        "AttTrue%": "32.2",
+        "AttTrue%": "30.4",
         Min: 1,
         Max: 15,
         Energy: 200,
@@ -34016,7 +34012,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "23.8",
+        "AttTrue%": "24.5",
         Min: 15,
         Max: 30,
         Energy: 400,
@@ -34025,7 +34021,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "11.0",
+        "AttTrue%": "10.6",
         Number: 5026,
         Success: 100,
         Level: 25,
@@ -34033,7 +34029,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plasma bolt",
-        "AttTrue%": "10.6",
+        "AttTrue%": "10.2",
         Number: 5012,
         Success: 100,
         Level: 25,
@@ -34041,7 +34037,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "voodoo stab",
-        "AttTrue%": "22.4",
+        "AttTrue%": "24.2",
         Number: 763,
         Success: 100,
         Level: 25,
@@ -34069,7 +34065,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a tendril",
         Acc: 125,
-        "AttTrue%": "40.8",
+        "AttTrue%": "39.8",
         Min: 4,
         Max: 14,
         Energy: 200,
@@ -34078,7 +34074,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a tendril",
         Acc: 115,
-        "AttTrue%": "39.4",
+        "AttTrue%": "39.9",
         Min: 10,
         Max: 19,
         Energy: 200,
@@ -34087,7 +34083,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a tendril",
         Acc: 100,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.3",
         Min: 15,
         Max: 23,
         Energy: 200,
@@ -34149,7 +34145,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes at you",
         Acc: 130,
-        "AttTrue%": "75.2",
+        "AttTrue%": "74.5",
         Min: 6,
         Max: 21,
         Energy: 200,
@@ -34157,7 +34153,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 130,
-        "AttTrue%": "24.8",
+        "AttTrue%": "25.5",
         Min: 24,
         Max: 80,
         Energy: 200,
@@ -34194,7 +34190,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally bites you",
         Acc: 170,
-        "AttTrue%": "78.2",
+        "AttTrue%": "79.4",
         Min: 50,
         Max: 120,
         Energy: 400,
@@ -34203,7 +34199,7 @@ export const monsterData: Monster[] = [
       {
         Name: "jumps on you",
         Acc: 170,
-        "AttTrue%": "21.8",
+        "AttTrue%": "20.6",
         Min: 90,
         Max: 200,
         Energy: 1000,
@@ -34347,7 +34343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 130,
-        "AttTrue%": "84.6",
+        "AttTrue%": "84.7",
         Min: 10,
         Max: 25,
         Energy: 200,
@@ -34356,7 +34352,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely eviscerates you",
         Acc: 125,
-        "AttTrue%": "15.4",
+        "AttTrue%": "15.3",
         Min: 30,
         Max: 75,
         Energy: 200,
@@ -34387,7 +34383,7 @@ export const monsterData: Monster[] = [
       {
         Name: "attempts",
         Acc: 0,
-        "AttTrue%": "14.5",
+        "AttTrue%": "16.0",
         Min: 0,
         Max: 0,
         Energy: 1000,
@@ -34396,7 +34392,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "envelops",
-        "AttTrue%": "60.7",
+        "AttTrue%": "59.7",
         Number: 388,
         Success: 100,
         Level: 25,
@@ -34404,7 +34400,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "drains",
-        "AttTrue%": "24.8",
+        "AttTrue%": "24.3",
         Number: 389,
         Success: 100,
         Level: 25,
@@ -34443,7 +34439,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 200,
-        "AttTrue%": "67.1",
+        "AttTrue%": "67.0",
         Min: 14,
         Max: 63,
         Energy: 200,
@@ -34452,7 +34448,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "10.4",
+        "AttTrue%": "11.2",
         Min: 120,
         Max: 300,
         Energy: 200,
@@ -34461,7 +34457,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "11.4",
+        "AttTrue%": "10.9",
         Min: 100,
         Max: 120,
         Energy: 200,
@@ -34471,7 +34467,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "rain of blood",
-        "AttTrue%": "9.4",
+        "AttTrue%": "9.3",
         Number: 259,
         Success: 100,
         Level: 50,
@@ -34479,7 +34475,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "vortex of pain",
-        "AttTrue%": "1.6",
+        "AttTrue%": "1.7",
         Number: 260,
         Success: 100,
         Level: 35,
@@ -34539,7 +34535,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its toothy maw",
         Acc: 180,
-        "AttTrue%": "49.0",
+        "AttTrue%": "50.0",
         Min: 45,
         Max: 200,
         Energy: 1000,
@@ -34548,7 +34544,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "vomit",
-        "AttTrue%": "51.0",
+        "AttTrue%": "50.0",
         Number: 1171,
         Success: 100,
         Level: 40,
@@ -34626,7 +34622,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 125,
-        "AttTrue%": "80.6",
+        "AttTrue%": "80.4",
         Min: 9,
         Max: 27,
         Energy: 200,
@@ -34635,7 +34631,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 125,
-        "AttTrue%": "19.4",
+        "AttTrue%": "19.6",
         Min: 40,
         Max: 105,
         Energy: 200,
@@ -34758,7 +34754,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you in the head",
         Acc: 180,
-        "AttTrue%": "19.4",
+        "AttTrue%": "19.8",
         Min: 15,
         Max: 90,
         Energy: 200,
@@ -34767,7 +34763,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 180,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.7",
         Min: 20,
         Max: 115,
         Energy: 200,
@@ -34776,7 +34772,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 180,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.1",
         Min: 25,
         Max: 150,
         Energy: 200,
@@ -34785,7 +34781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 180,
-        "AttTrue%": "29.4",
+        "AttTrue%": "30.0",
         Min: 13,
         Max: 100,
         Energy: 250,
@@ -34794,7 +34790,7 @@ export const monsterData: Monster[] = [
       {
         Name: "headbutts you",
         Acc: 180,
-        "AttTrue%": "10.3",
+        "AttTrue%": "9.4",
         Min: 25,
         Max: 125,
         Energy: 250,
@@ -34846,7 +34842,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 120,
-        "AttTrue%": "32.9",
+        "AttTrue%": "32.7",
         Min: 5,
         Max: 19,
         Energy: 400,
@@ -34854,7 +34850,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "33.1",
+        "AttTrue%": "33.3",
         Min: 25,
         Max: 50,
         Energy: 600,
@@ -34863,7 +34859,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and crushes you",
         Acc: 170,
-        "AttTrue%": "34.0",
+        "AttTrue%": "33.9",
         Min: 50,
         Max: 100,
         Energy: 1000,
@@ -34925,7 +34921,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "79.8",
+        "AttTrue%": "79.2",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -34933,7 +34929,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 125,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.8",
         Min: 35,
         Max: 100,
         Energy: 200,
@@ -35010,7 +35006,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 125,
-        "AttTrue%": "79.6",
+        "AttTrue%": "80.0",
         Min: 15,
         Max: 42,
         Energy: 200,
@@ -35018,7 +35014,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 125,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.0",
         Min: 35,
         Max: 120,
         Energy: 200,
@@ -35054,7 +35050,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 155,
-        "AttTrue%": "62.0",
+        "AttTrue%": "61.4",
         Min: 20,
         Max: 45,
         Energy: 200,
@@ -35063,7 +35059,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 155,
-        "AttTrue%": "24.1",
+        "AttTrue%": "24.8",
         Min: 80,
         Max: 190,
         Energy: 200,
@@ -35113,7 +35109,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "40.5",
+        "AttTrue%": "40.2",
         Min: 30,
         Max: 90,
         Energy: 600,
@@ -35122,7 +35118,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally bites you",
         Acc: 120,
-        "AttTrue%": "28.3",
+        "AttTrue%": "29.9",
         Min: 60,
         Max: 100,
         Energy: 600,
@@ -35131,7 +35127,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gouges you with its huge horns",
         Acc: 145,
-        "AttTrue%": "25.5",
+        "AttTrue%": "25.2",
         Min: 70,
         Max: 130,
         Energy: 600,
@@ -35140,7 +35136,7 @@ export const monsterData: Monster[] = [
       {
         Name: "jumps on you",
         Acc: 155,
-        "AttTrue%": "5.8",
+        "AttTrue%": "4.8",
         Min: 90,
         Max: 140,
         Energy: 600,
@@ -35172,7 +35168,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 155,
-        "AttTrue%": "54.0",
+        "AttTrue%": "54.5",
         Min: 40,
         Max: 140,
         Energy: 500,
@@ -35189,7 +35185,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blast of energy",
-        "AttTrue%": "32.4",
+        "AttTrue%": "31.8",
         Number: 1210,
         Success: 100,
         Level: 40,
@@ -35227,7 +35223,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 120,
-        "AttTrue%": "41.8",
+        "AttTrue%": "42.2",
         Min: 9,
         Max: 30,
         Energy: 250,
@@ -35235,7 +35231,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 120,
-        "AttTrue%": "27.0",
+        "AttTrue%": "27.5",
         Min: 5,
         Max: 12,
         Energy: 250,
@@ -35245,7 +35241,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sphere of implosion",
-        "AttTrue%": "13.5",
+        "AttTrue%": "13.1",
         Number: 5018,
         Success: 100,
         Level: 40,
@@ -35253,7 +35249,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "telekinesis",
-        "AttTrue%": "13.5",
+        "AttTrue%": "12.7",
         Number: 542,
         Success: 100,
         Level: 40,
@@ -35261,7 +35257,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch storm",
-        "AttTrue%": "4.3",
+        "AttTrue%": "4.5",
         Number: 5020,
         Success: 100,
         Level: 30,
@@ -35447,7 +35443,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 160,
-        "AttTrue%": "79.5",
+        "AttTrue%": "81.3",
         Min: 80,
         Max: 220,
         Energy: 666,
@@ -35456,7 +35452,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tail quake",
-        "AttTrue%": "20.5",
+        "AttTrue%": "18.7",
         Number: 1203,
         Success: 100,
         Level: 40,
@@ -35485,7 +35481,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gouges you with its huge horns",
         Acc: 260,
-        "AttTrue%": "32.1",
+        "AttTrue%": "33.0",
         Min: 90,
         Max: 216,
         Energy: 500,
@@ -35493,7 +35489,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 260,
-        "AttTrue%": "33.5",
+        "AttTrue%": "33.4",
         Min: 110,
         Max: 190,
         Energy: 500,
@@ -35501,7 +35497,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 265,
-        "AttTrue%": "34.4",
+        "AttTrue%": "33.5",
         Min: 150,
         Max: 300,
         Energy: 500,
@@ -35555,7 +35551,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 145,
-        "AttTrue%": "75.8",
+        "AttTrue%": "75.3",
         Min: 11,
         Max: 48,
         Energy: 250,
@@ -35564,7 +35560,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "23.8",
+        "AttTrue%": "24.2",
         Min: 7,
         Max: 50,
         Energy: 250,
@@ -35573,7 +35569,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "0.4",
+        "AttTrue%": "0.5",
         Min: 11,
         Max: 60,
         Energy: 750,
@@ -35613,7 +35609,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 155,
-        "AttTrue%": "6.5",
+        "AttTrue%": "6.4",
         Min: 90,
         Max: 160,
         Energy: 1000,
@@ -35621,7 +35617,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fists",
         Acc: 155,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.3",
         Min: 45,
         Max: 80,
         Energy: 500,
@@ -35680,7 +35676,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gnaj bolt",
-        "AttTrue%": "7.6",
+        "AttTrue%": "7.5",
         Number: 1209,
         Success: 100,
         Level: 50,
@@ -35688,7 +35684,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch storm",
-        "AttTrue%": "5.2",
+        "AttTrue%": "5.0",
         Number: 1215,
         Success: 100,
         Level: 50,
@@ -35696,7 +35692,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blast of energy",
-        "AttTrue%": "75.4",
+        "AttTrue%": "74.9",
         Number: 1210,
         Success: 100,
         Level: 50,
@@ -35704,7 +35700,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.5",
         Number: 5018,
         Success: 100,
         Level: 50,
@@ -35736,7 +35732,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you with its claws",
         Acc: 135,
-        "AttTrue%": "23.8",
+        "AttTrue%": "25.4",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -35745,7 +35741,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 135,
-        "AttTrue%": "22.2",
+        "AttTrue%": "22.0",
         Min: 20,
         Max: 60,
         Energy: 400,
@@ -35754,7 +35750,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 135,
-        "AttTrue%": "24.0",
+        "AttTrue%": "22.3",
         Min: 30,
         Max: 80,
         Energy: 300,
@@ -35763,7 +35759,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 135,
-        "AttTrue%": "21.3",
+        "AttTrue%": "21.7",
         Min: 35,
         Max: 80,
         Energy: 400,
@@ -35773,7 +35769,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits poison",
-        "AttTrue%": "8.7",
+        "AttTrue%": "8.6",
         Number: 5115,
         Success: 100,
         Level: 40,
@@ -35815,7 +35811,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 135,
-        "AttTrue%": "4.7",
+        "AttTrue%": "5.2",
         Min: 20,
         Max: 60,
         Energy: 666,
@@ -35824,7 +35820,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 135,
-        "AttTrue%": "17.9",
+        "AttTrue%": "19.0",
         Min: 30,
         Max: 80,
         Energy: 666,
@@ -35832,7 +35828,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 135,
-        "AttTrue%": "22.9",
+        "AttTrue%": "23.8",
         Min: 35,
         Max: 80,
         Energy: 666,
@@ -35842,7 +35838,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits poison",
-        "AttTrue%": "30.6",
+        "AttTrue%": "28.2",
         Number: 5115,
         Success: 100,
         Level: 40,
@@ -35875,7 +35871,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you with its claws",
         Acc: 140,
-        "AttTrue%": "22.1",
+        "AttTrue%": "22.3",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -35884,7 +35880,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 140,
-        "AttTrue%": "5.0",
+        "AttTrue%": "5.2",
         Min: 20,
         Max: 60,
         Energy: 666,
@@ -35893,7 +35889,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 140,
-        "AttTrue%": "34.0",
+        "AttTrue%": "34.9",
         Min: 30,
         Max: 80,
         Energy: 666,
@@ -35901,7 +35897,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 140,
-        "AttTrue%": "19.5",
+        "AttTrue%": "19.6",
         Min: 35,
         Max: 80,
         Energy: 666,
@@ -35911,7 +35907,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of lightning",
-        "AttTrue%": "19.4",
+        "AttTrue%": "17.9",
         Number: 5117,
         Success: 100,
         Level: 40,
@@ -35944,7 +35940,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you with its claws",
         Acc: 135,
-        "AttTrue%": "54.2",
+        "AttTrue%": "54.5",
         Min: 25,
         Max: 45,
         Energy: 400,
@@ -35953,7 +35949,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 140,
-        "AttTrue%": "4.3",
+        "AttTrue%": "4.7",
         Min: 30,
         Max: 80,
         Energy: 600,
@@ -35962,7 +35958,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 135,
-        "AttTrue%": "11.1",
+        "AttTrue%": "9.3",
         Min: 50,
         Max: 80,
         Energy: 400,
@@ -35970,7 +35966,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 140,
-        "AttTrue%": "8.6",
+        "AttTrue%": "8.9",
         Min: 45,
         Max: 90,
         Energy: 600,
@@ -35979,7 +35975,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "21.8",
+        "AttTrue%": "22.7",
         Number: 5116,
         Success: 100,
         Level: 9,
@@ -36011,7 +36007,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 150,
-        "AttTrue%": "45.0",
+        "AttTrue%": "44.6",
         Min: 26,
         Max: 60,
         Energy: 250,
@@ -36020,7 +36016,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 155,
-        "AttTrue%": "11.7",
+        "AttTrue%": "12.0",
         Min: 70,
         Max: 190,
         Energy: 1000,
@@ -36029,7 +36025,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 160,
-        "AttTrue%": "9.5",
+        "AttTrue%": "10.6",
         Min: 116,
         Max: 177,
         Energy: 500,
@@ -36038,7 +36034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 160,
-        "AttTrue%": "33.8",
+        "AttTrue%": "32.8",
         Min: 30,
         Max: 70,
         Energy: 250,
@@ -36067,7 +36063,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its claws",
         Acc: 140,
-        "AttTrue%": "69.8",
+        "AttTrue%": "70.6",
         Min: 19,
         Max: 64,
         Energy: 500,
@@ -36075,7 +36071,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 135,
-        "AttTrue%": "30.2",
+        "AttTrue%": "29.4",
         Min: 70,
         Max: 133,
         Energy: 500,
@@ -36107,7 +36103,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 55,
-        "AttTrue%": "68.3",
+        "AttTrue%": "69.1",
         Min: 3,
         Max: 6,
         Energy: 333,
@@ -36115,7 +36111,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you",
         Acc: 45,
-        "AttTrue%": "31.7",
+        "AttTrue%": "30.9",
         Min: 7,
         Max: 14,
         Energy: 1000,
@@ -36146,7 +36142,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 55,
-        "AttTrue%": "83.3",
+        "AttTrue%": "83.1",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -36154,7 +36150,7 @@ export const monsterData: Monster[] = [
       {
         Name: "disappears, then reappears and backstabs you",
         Acc: 45,
-        "AttTrue%": "16.7",
+        "AttTrue%": "16.9",
         Min: 8,
         Max: 20,
         Energy: 1000,
@@ -36185,7 +36181,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 55,
-        "AttTrue%": "59.0",
+        "AttTrue%": "59.5",
         Min: 4,
         Max: 12,
         Energy: 750,
@@ -36194,7 +36190,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frost jet",
-        "AttTrue%": "41.0",
+        "AttTrue%": "40.5",
         Number: 5030,
         Success: 50,
         Level: 6,
@@ -36239,7 +36235,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "35.2",
+        "AttTrue%": "35.6",
         Number: 5029,
         Success: 75,
         Level: 9,
@@ -36247,7 +36243,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sunbolt",
-        "AttTrue%": "14.3",
+        "AttTrue%": "14.0",
         Number: 5028,
         Success: 60,
         Level: 20,
@@ -36308,7 +36304,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 65,
-        "AttTrue%": "95.3",
+        "AttTrue%": "94.9",
         Min: 6,
         Max: 25,
         Energy: 666,
@@ -36316,7 +36312,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 65,
-        "AttTrue%": "4.7",
+        "AttTrue%": "5.1",
         Min: 12,
         Max: 45,
         Energy: 666,
@@ -36344,7 +36340,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 75,
-        "AttTrue%": "92.8",
+        "AttTrue%": "92.7",
         Min: 6,
         Max: 29,
         Energy: 500,
@@ -36352,7 +36348,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 75,
-        "AttTrue%": "7.2",
+        "AttTrue%": "7.3",
         Min: 12,
         Max: 45,
         Energy: 666,
@@ -36379,7 +36375,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 80,
-        "AttTrue%": "49.7",
+        "AttTrue%": "50.1",
         Min: 3,
         Max: 32,
         Energy: 1000,
@@ -36387,7 +36383,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 80,
-        "AttTrue%": "45.3",
+        "AttTrue%": "44.4",
         Min: 9,
         Max: 40,
         Energy: 1000,
@@ -36395,7 +36391,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 80,
-        "AttTrue%": "5.0",
+        "AttTrue%": "5.4",
         Min: 6,
         Max: 66,
         Energy: 1000,
@@ -36423,7 +36419,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 75,
-        "AttTrue%": "64.1",
+        "AttTrue%": "65.8",
         Min: 12,
         Max: 30,
         Energy: 1000,
@@ -36432,7 +36428,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 75,
-        "AttTrue%": "15.6",
+        "AttTrue%": "14.6",
         Min: 5,
         Max: 15,
         Energy: 1000,
@@ -36440,7 +36436,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 75,
-        "AttTrue%": "20.4",
+        "AttTrue%": "19.7",
         Min: 15,
         Max: 35,
         Energy: 1000,
@@ -36468,7 +36464,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 100,
-        "AttTrue%": "89.7",
+        "AttTrue%": "88.7",
         Min: 15,
         Max: 30,
         Energy: 1000,
@@ -36476,7 +36472,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 100,
-        "AttTrue%": "10.3",
+        "AttTrue%": "11.3",
         Min: 20,
         Max: 50,
         Energy: 1000,
@@ -36530,7 +36526,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 65,
-        "AttTrue%": "84.4",
+        "AttTrue%": "85.7",
         Min: 4,
         Max: 14,
         Energy: 666,
@@ -36538,7 +36534,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out bludgeons you",
         Acc: 40,
-        "AttTrue%": "15.6",
+        "AttTrue%": "14.3",
         Min: 6,
         Max: 21,
         Energy: 1000,
@@ -36567,7 +36563,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 90,
-        "AttTrue%": "84.8",
+        "AttTrue%": "85.4",
         Min: 7,
         Max: 21,
         Energy: 200,
@@ -36575,7 +36571,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 90,
-        "AttTrue%": "15.2",
+        "AttTrue%": "14.6",
         Min: 21,
         Max: 75,
         Energy: 200,
@@ -36602,7 +36598,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you",
         Acc: 65,
-        "AttTrue%": "21.8",
+        "AttTrue%": "21.7",
         Min: 2,
         Max: 10,
         Energy: 1000,
@@ -36611,7 +36607,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "meteor swarm",
-        "AttTrue%": "71.0",
+        "AttTrue%": "71.5",
         Number: 5025,
         Success: 100,
         Level: 20,
@@ -36619,7 +36615,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "mana storm",
-        "AttTrue%": "7.3",
+        "AttTrue%": "6.8",
         Number: 257,
         Success: 100,
         Level: 20,
@@ -36687,7 +36683,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 95,
-        "AttTrue%": "36.5",
+        "AttTrue%": "37.2",
         Min: 6,
         Max: 22,
         Energy: 350,
@@ -36695,7 +36691,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 95,
-        "AttTrue%": "18.8",
+        "AttTrue%": "18.9",
         Min: 6,
         Max: 16,
         Energy: 650,
@@ -36703,7 +36699,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 95,
-        "AttTrue%": "31.9",
+        "AttTrue%": "31.7",
         Min: 6,
         Max: 35,
         Energy: 600,
@@ -36712,7 +36708,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spray of acid",
-        "AttTrue%": "12.8",
+        "AttTrue%": "12.1",
         Number: 376,
         Success: 100,
         Level: 8,
@@ -36744,7 +36740,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 100,
-        "AttTrue%": "36.3",
+        "AttTrue%": "35.5",
         Min: 9,
         Max: 28,
         Energy: 350,
@@ -36752,7 +36748,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 100,
-        "AttTrue%": "19.1",
+        "AttTrue%": "20.4",
         Min: 7,
         Max: 25,
         Energy: 600,
@@ -36760,7 +36756,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 100,
-        "AttTrue%": "31.7",
+        "AttTrue%": "32.4",
         Min: 12,
         Max: 53,
         Energy: 550,
@@ -36769,7 +36765,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spray of acid",
-        "AttTrue%": "13.0",
+        "AttTrue%": "11.8",
         Number: 376,
         Success: 100,
         Level: 10,
@@ -36801,7 +36797,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 105,
-        "AttTrue%": "35.1",
+        "AttTrue%": "33.9",
         Min: 10,
         Max: 30,
         Energy: 350,
@@ -36809,7 +36805,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 105,
-        "AttTrue%": "18.0",
+        "AttTrue%": "19.2",
         Min: 9,
         Max: 26,
         Energy: 600,
@@ -36817,7 +36813,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 105,
-        "AttTrue%": "32.4",
+        "AttTrue%": "32.2",
         Min: 15,
         Max: 60,
         Energy: 500,
@@ -36826,7 +36822,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spray of acid",
-        "AttTrue%": "14.4",
+        "AttTrue%": "14.7",
         Number: 376,
         Success: 100,
         Level: 15,
@@ -36857,7 +36853,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 80,
-        "AttTrue%": "36.4",
+        "AttTrue%": "36.5",
         Min: 4,
         Max: 25,
         Energy: 500,
@@ -36865,7 +36861,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 80,
-        "AttTrue%": "24.0",
+        "AttTrue%": "23.3",
         Min: 4,
         Max: 20,
         Energy: 500,
@@ -36873,7 +36869,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 80,
-        "AttTrue%": "22.8",
+        "AttTrue%": "25.1",
         Min: 4,
         Max: 38,
         Energy: 1000,
@@ -36882,7 +36878,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spray of acid",
-        "AttTrue%": "16.8",
+        "AttTrue%": "15.0",
         Number: 376,
         Success: 100,
         Level: 6,
@@ -36912,7 +36908,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 75,
-        "AttTrue%": "35.3",
+        "AttTrue%": "35.8",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -36920,7 +36916,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 75,
-        "AttTrue%": "25.8",
+        "AttTrue%": "24.6",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -36928,7 +36924,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 75,
-        "AttTrue%": "22.5",
+        "AttTrue%": "24.2",
         Min: 10,
         Max: 38,
         Energy: 1000,
@@ -36937,7 +36933,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of frost",
-        "AttTrue%": "16.4",
+        "AttTrue%": "15.4",
         Number: 375,
         Success: 100,
         Level: 8,
@@ -36968,7 +36964,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 90,
-        "AttTrue%": "34.4",
+        "AttTrue%": "34.7",
         Min: 12,
         Max: 28,
         Energy: 500,
@@ -36976,7 +36972,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 90,
-        "AttTrue%": "23.6",
+        "AttTrue%": "24.6",
         Min: 8,
         Max: 25,
         Energy: 500,
@@ -36984,7 +36980,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 90,
-        "AttTrue%": "25.2",
+        "AttTrue%": "24.1",
         Min: 15,
         Max: 53,
         Energy: 1000,
@@ -36993,7 +36989,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of frost",
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.7",
         Number: 375,
         Success: 100,
         Level: 10,
@@ -37024,7 +37020,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 100,
-        "AttTrue%": "35.6",
+        "AttTrue%": "37.3",
         Min: 13,
         Max: 30,
         Energy: 500,
@@ -37032,7 +37028,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 100,
-        "AttTrue%": "24.1",
+        "AttTrue%": "24.7",
         Min: 10,
         Max: 26,
         Energy: 500,
@@ -37040,7 +37036,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 100,
-        "AttTrue%": "24.1",
+        "AttTrue%": "22.5",
         Min: 18,
         Max: 60,
         Energy: 1000,
@@ -37049,7 +37045,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of frost",
-        "AttTrue%": "16.2",
+        "AttTrue%": "15.6",
         Number: 375,
         Success: 100,
         Level: 14,
@@ -37079,7 +37075,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 70,
-        "AttTrue%": "36.8",
+        "AttTrue%": "37.6",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -37087,7 +37083,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 70,
-        "AttTrue%": "23.3",
+        "AttTrue%": "21.5",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -37095,7 +37091,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 70,
-        "AttTrue%": "23.6",
+        "AttTrue%": "24.8",
         Min: 10,
         Max: 38,
         Energy: 1000,
@@ -37104,7 +37100,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of frost",
-        "AttTrue%": "16.3",
+        "AttTrue%": "16.2",
         Number: 375,
         Success: 100,
         Level: 8,
@@ -37133,7 +37129,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 50,
-        "AttTrue%": "85.5",
+        "AttTrue%": "85.7",
         Min: 4,
         Max: 15,
         Energy: 500,
@@ -37142,7 +37138,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "break",
-        "AttTrue%": "14.5",
+        "AttTrue%": "14.3",
         Number: 757,
         Success: 100,
         Level: 10,
@@ -37175,7 +37171,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horn",
         Acc: 120,
-        "AttTrue%": "82.8",
+        "AttTrue%": "81.8",
         Min: 6,
         Max: 25,
         Energy: 500,
@@ -37183,7 +37179,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges at you and skewers you",
         Acc: 300,
-        "AttTrue%": "17.2",
+        "AttTrue%": "18.2",
         Min: 20,
         Max: 60,
         Energy: 1000,
@@ -37212,7 +37208,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 80,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.7",
         Min: 2,
         Max: 6,
         Energy: 333,
@@ -37221,7 +37217,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "magic bolt",
-        "AttTrue%": "79.8",
+        "AttTrue%": "80.3",
         Number: 367,
         Success: 100,
         Level: 16,
@@ -37251,7 +37247,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 100,
-        "AttTrue%": "35.2",
+        "AttTrue%": "36.1",
         Min: 15,
         Max: 30,
         Energy: 300,
@@ -37259,7 +37255,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 100,
-        "AttTrue%": "21.4",
+        "AttTrue%": "23.0",
         Min: 12,
         Max: 25,
         Energy: 450,
@@ -37267,7 +37263,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 100,
-        "AttTrue%": "31.2",
+        "AttTrue%": "29.5",
         Min: 15,
         Max: 45,
         Energy: 600,
@@ -37276,7 +37272,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "12.2",
+        "AttTrue%": "11.3",
         Number: 378,
         Success: 100,
         Level: 8,
@@ -37307,7 +37303,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 110,
-        "AttTrue%": "36.2",
+        "AttTrue%": "35.8",
         Min: 17,
         Max: 35,
         Energy: 300,
@@ -37323,7 +37319,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 110,
-        "AttTrue%": "29.8",
+        "AttTrue%": "29.7",
         Min: 20,
         Max: 55,
         Energy: 600,
@@ -37332,7 +37328,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "11.7",
+        "AttTrue%": "12.2",
         Number: 378,
         Success: 100,
         Level: 10,
@@ -37363,7 +37359,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 115,
-        "AttTrue%": "34.8",
+        "AttTrue%": "35.5",
         Min: 22,
         Max: 40,
         Energy: 250,
@@ -37371,7 +37367,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 115,
-        "AttTrue%": "21.6",
+        "AttTrue%": "21.2",
         Min: 20,
         Max: 40,
         Energy: 350,
@@ -37379,7 +37375,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 115,
-        "AttTrue%": "29.9",
+        "AttTrue%": "29.3",
         Min: 24,
         Max: 60,
         Energy: 500,
@@ -37388,7 +37384,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "13.7",
+        "AttTrue%": "14.0",
         Number: 378,
         Success: 100,
         Level: 14,
@@ -37418,7 +37414,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 90,
-        "AttTrue%": "36.5",
+        "AttTrue%": "36.4",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -37434,7 +37430,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 90,
-        "AttTrue%": "23.5",
+        "AttTrue%": "24.1",
         Min: 10,
         Max: 38,
         Energy: 1000,
@@ -37443,7 +37439,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "15.9",
+        "AttTrue%": "15.4",
         Number: 378,
         Success: 100,
         Level: 6,
@@ -37473,7 +37469,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 100,
-        "AttTrue%": "80.0",
+        "AttTrue%": "79.8",
         Min: 7,
         Max: 21,
         Energy: 200,
@@ -37481,7 +37477,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 100,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.2",
         Min: 21,
         Max: 80,
         Energy: 200,
@@ -37513,7 +37509,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 115,
-        "AttTrue%": "74.7",
+        "AttTrue%": "75.1",
         Min: 7,
         Max: 24,
         Energy: 200,
@@ -37521,7 +37517,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 115,
-        "AttTrue%": "25.3",
+        "AttTrue%": "24.9",
         Min: 21,
         Max: 100,
         Energy: 200,
@@ -37550,7 +37546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 105,
-        "AttTrue%": "36.2",
+        "AttTrue%": "36.1",
         Min: 10,
         Max: 25,
         Energy: 300,
@@ -37558,7 +37554,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 105,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.0",
         Min: 8,
         Max: 20,
         Energy: 600,
@@ -37566,7 +37562,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 105,
-        "AttTrue%": "30.8",
+        "AttTrue%": "31.7",
         Min: 10,
         Max: 38,
         Energy: 550,
@@ -37575,7 +37571,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "12.5",
+        "AttTrue%": "12.3",
         Number: 377,
         Success: 100,
         Level: 12,
@@ -37606,7 +37602,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 110,
-        "AttTrue%": "36.1",
+        "AttTrue%": "35.9",
         Min: 11,
         Max: 28,
         Energy: 300,
@@ -37614,7 +37610,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "22.1",
+        "AttTrue%": "22.4",
         Min: 8,
         Max: 23,
         Energy: 550,
@@ -37622,7 +37618,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 110,
-        "AttTrue%": "29.2",
+        "AttTrue%": "29.8",
         Min: 12,
         Max: 55,
         Energy: 600,
@@ -37631,7 +37627,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "12.5",
+        "AttTrue%": "11.9",
         Number: 377,
         Success: 100,
         Level: 14,
@@ -37662,7 +37658,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 115,
-        "AttTrue%": "35.3",
+        "AttTrue%": "33.8",
         Min: 14,
         Max: 28,
         Energy: 300,
@@ -37670,7 +37666,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.2",
         Min: 8,
         Max: 27,
         Energy: 500,
@@ -37678,7 +37674,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 115,
-        "AttTrue%": "31.4",
+        "AttTrue%": "32.0",
         Min: 18,
         Max: 55,
         Energy: 450,
@@ -37687,7 +37683,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "12.9",
+        "AttTrue%": "13.9",
         Number: 377,
         Success: 100,
         Level: 18,
@@ -37717,7 +37713,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 90,
-        "AttTrue%": "36.8",
+        "AttTrue%": "36.5",
         Min: 6,
         Max: 25,
         Energy: 500,
@@ -37725,7 +37721,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 90,
-        "AttTrue%": "22.5",
+        "AttTrue%": "23.9",
         Min: 6,
         Max: 20,
         Energy: 500,
@@ -37733,7 +37729,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 90,
-        "AttTrue%": "24.6",
+        "AttTrue%": "23.8",
         Min: 6,
         Max: 38,
         Energy: 1000,
@@ -37742,7 +37738,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "16.0",
+        "AttTrue%": "15.8",
         Number: 377,
         Success: 100,
         Level: 10,
@@ -37773,7 +37769,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 155,
-        "AttTrue%": "69.5",
+        "AttTrue%": "69.4",
         Min: 15,
         Max: 60,
         Energy: 400,
@@ -37781,7 +37777,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 165,
-        "AttTrue%": "30.5",
+        "AttTrue%": "30.6",
         Min: 30,
         Max: 160,
         Energy: 400,
@@ -37812,7 +37808,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 160,
-        "AttTrue%": "72.8",
+        "AttTrue%": "72.9",
         Min: 21,
         Max: 65,
         Energy: 200,
@@ -37820,7 +37816,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 165,
-        "AttTrue%": "27.2",
+        "AttTrue%": "27.1",
         Min: 40,
         Max: 200,
         Energy: 400,
@@ -37848,7 +37844,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "30.4",
+        "AttTrue%": "29.0",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -37856,7 +37852,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soulstrike",
-        "AttTrue%": "45.7",
+        "AttTrue%": "45.8",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -37864,7 +37860,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "exalted word",
-        "AttTrue%": "23.9",
+        "AttTrue%": "25.1",
         Number: 5031,
         Success: 100,
         Level: 65,
@@ -37894,7 +37890,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 165,
-        "AttTrue%": "71.5",
+        "AttTrue%": "71.6",
         Min: 50,
         Max: 100,
         Energy: 200,
@@ -37902,7 +37898,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 165,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.4",
         Min: 35,
         Max: 170,
         Energy: 200,
@@ -37910,7 +37906,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps forward and wallops you",
         Acc: 170,
-        "AttTrue%": "8.3",
+        "AttTrue%": "8.0",
         Min: 80,
         Max: 250,
         Energy: 400,
@@ -37939,7 +37935,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frozen spike",
-        "AttTrue%": "69.8",
+        "AttTrue%": "70.7",
         Number: 5002,
         Success: 100,
         Level: 65,
@@ -37947,7 +37943,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blizzard",
-        "AttTrue%": "30.2",
+        "AttTrue%": "29.3",
         Number: 5019,
         Success: 100,
         Level: 50,
@@ -37978,7 +37974,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "59.9",
+        "AttTrue%": "59.6",
         Min: 50,
         Max: 75,
         Energy: 250,
@@ -37986,7 +37982,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "29.8",
+        "AttTrue%": "30.1",
         Min: 50,
         Max: 75,
         Energy: 250,
@@ -37995,7 +37991,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 250,
-        "AttTrue%": "10.4",
+        "AttTrue%": "10.3",
         Min: 100,
         Max: 250,
         Energy: 250,
@@ -38027,7 +38023,7 @@ export const monsterData: Monster[] = [
       {
         Name: "backhands you",
         Acc: 400,
-        "AttTrue%": "79.1",
+        "AttTrue%": "79.2",
         Min: 100,
         Max: 300,
         Energy: 1000,
@@ -38036,7 +38032,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blacknight",
-        "AttTrue%": "20.9",
+        "AttTrue%": "20.8",
         Number: 1220,
         Success: 100,
         Level: 40,
@@ -38125,7 +38121,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "24.4",
+        "AttTrue%": "24.7",
         Min: 15,
         Max: 75,
         Energy: 200,
@@ -38133,7 +38129,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "37.0",
+        "AttTrue%": "36.1",
         Min: 30,
         Max: 300,
         Energy: 200,
@@ -38141,7 +38137,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "30.0",
+        "AttTrue%": "29.9",
         Min: 15,
         Max: 75,
         Energy: 200,
@@ -38151,7 +38147,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "8.7",
+        "AttTrue%": "9.3",
         Number: 391,
         Success: 100,
         Level: 40,
@@ -38185,7 +38181,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "54.7",
+        "AttTrue%": "54.1",
         Min: 15,
         Max: 50,
         Energy: 200,
@@ -38193,7 +38189,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "36.3",
+        "AttTrue%": "36.8",
         Min: 30,
         Max: 200,
         Energy: 200,
@@ -38202,7 +38198,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "9.0",
+        "AttTrue%": "9.2",
         Number: 5023,
         Success: 100,
         Level: 50,
@@ -38236,7 +38232,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 260,
-        "AttTrue%": "22.9",
+        "AttTrue%": "21.5",
         Min: 100,
         Max: 250,
         Energy: 400,
@@ -38244,7 +38240,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and slams you on the ground",
         Acc: 250,
-        "AttTrue%": "19.1",
+        "AttTrue%": "19.7",
         Min: 200,
         Max: 350,
         Energy: 1000,
@@ -38252,7 +38248,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 240,
-        "AttTrue%": "20.7",
+        "AttTrue%": "21.9",
         Min: 150,
         Max: 250,
         Energy: 600,
@@ -38260,7 +38256,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely rips you",
         Acc: 230,
-        "AttTrue%": "18.6",
+        "AttTrue%": "17.8",
         Min: 250,
         Max: 350,
         Energy: 1000,
@@ -38269,7 +38265,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 220,
-        "AttTrue%": "18.7",
+        "AttTrue%": "19.1",
         Min: 150,
         Max: 400,
         Energy: 1000,
@@ -38304,7 +38300,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 140,
-        "AttTrue%": "80.0",
+        "AttTrue%": "79.4",
         Min: 10,
         Max: 34,
         Energy: 200,
@@ -38312,7 +38308,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 140,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.6",
         Min: 20,
         Max: 90,
         Energy: 200,
@@ -38342,7 +38338,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 155,
-        "AttTrue%": "32.7",
+        "AttTrue%": "30.4",
         Min: 40,
         Max: 180,
         Energy: 350,
@@ -38350,7 +38346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 165,
-        "AttTrue%": "17.6",
+        "AttTrue%": "19.2",
         Min: 60,
         Max: 200,
         Energy: 550,
@@ -38358,7 +38354,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 200,
-        "AttTrue%": "26.4",
+        "AttTrue%": "25.7",
         Min: 100,
         Max: 400,
         Energy: 350,
@@ -38366,7 +38362,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 110,
-        "AttTrue%": "8.1",
+        "AttTrue%": "9.0",
         Min: 60,
         Max: 180,
         Energy: 550,
@@ -38375,7 +38371,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sand breath",
-        "AttTrue%": "15.2",
+        "AttTrue%": "15.7",
         Number: 538,
         Success: 100,
         Level: 40,
@@ -38407,7 +38403,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "29.8",
+        "AttTrue%": "29.0",
         Min: 15,
         Max: 60,
         Energy: 200,
@@ -38416,7 +38412,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "47.5",
+        "AttTrue%": "47.3",
         Min: 60,
         Max: 240,
         Energy: 200,
@@ -38434,7 +38430,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.6",
         Number: 391,
         Success: 100,
         Level: 100,
@@ -38442,7 +38438,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soul rip",
-        "AttTrue%": "8.3",
+        "AttTrue%": "8.5",
         Number: 5033,
         Success: 100,
         Level: 40,
@@ -38472,7 +38468,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 160,
-        "AttTrue%": "29.0",
+        "AttTrue%": "28.7",
         Min: 50,
         Max: 100,
         Energy: 200,
@@ -38480,7 +38476,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 175,
-        "AttTrue%": "17.6",
+        "AttTrue%": "18.0",
         Min: 35,
         Max: 170,
         Energy: 200,
@@ -38488,7 +38484,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 185,
-        "AttTrue%": "19.6",
+        "AttTrue%": "19.8",
         Min: 80,
         Max: 250,
         Energy: 400,
@@ -38496,7 +38492,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 170,
-        "AttTrue%": "18.1",
+        "AttTrue%": "17.9",
         Min: 75,
         Max: 200,
         Energy: 500,
@@ -38506,7 +38502,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flesh-eating gas",
-        "AttTrue%": "15.7",
+        "AttTrue%": "15.5",
         Number: 766,
         Success: 100,
         Level: 50,
@@ -38575,7 +38571,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with her talons",
         Acc: 125,
-        "AttTrue%": "31.2",
+        "AttTrue%": "33.2",
         Min: 55,
         Max: 120,
         Energy: 250,
@@ -38583,7 +38579,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely tears you with her fangs",
         Acc: 110,
-        "AttTrue%": "12.1",
+        "AttTrue%": "10.7",
         Min: 80,
         Max: 290,
         Energy: 450,
@@ -38591,7 +38587,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 145,
-        "AttTrue%": "20.5",
+        "AttTrue%": "20.3",
         Min: 120,
         Max: 250,
         Energy: 700,
@@ -38600,7 +38596,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 377,
-        "AttTrue%": "19.3",
+        "AttTrue%": "19.4",
         Min: 100,
         Max: 50,
         Energy: 1000,
@@ -38609,7 +38605,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "a cloud of poison gas",
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.5",
         Number: 387,
         Success: 100,
         Level: 50,
@@ -38639,7 +38635,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 200,
-        "AttTrue%": "56.1",
+        "AttTrue%": "56.5",
         Min: 50,
         Max: 160,
         Energy: 333,
@@ -38647,7 +38643,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 200,
-        "AttTrue%": "31.9",
+        "AttTrue%": "30.7",
         Min: 75,
         Max: 250,
         Energy: 500,
@@ -38655,7 +38651,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 200,
-        "AttTrue%": "12.0",
+        "AttTrue%": "12.8",
         Min: 100,
         Max: 300,
         Energy: 1000,
@@ -38685,7 +38681,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 180,
-        "AttTrue%": "29.5",
+        "AttTrue%": "30.6",
         Min: 50,
         Max: 95,
         Energy: 200,
@@ -38694,7 +38690,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 180,
-        "AttTrue%": "24.4",
+        "AttTrue%": "24.5",
         Min: 120,
         Max: 280,
         Energy: 200,
@@ -38703,7 +38699,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 180,
-        "AttTrue%": "20.4",
+        "AttTrue%": "19.7",
         Min: 100,
         Max: 190,
         Energy: 500,
@@ -38712,7 +38708,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 180,
-        "AttTrue%": "15.8",
+        "AttTrue%": "16.1",
         Min: 60,
         Max: 90,
         Energy: 400,
@@ -38721,7 +38717,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lunar beam",
-        "AttTrue%": "10.0",
+        "AttTrue%": "9.0",
         Number: 1118,
         Success: 100,
         Level: 40,
@@ -38752,7 +38748,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls his nexus spear at you",
         Acc: 180,
-        "AttTrue%": "29.3",
+        "AttTrue%": "29.4",
         Min: 20,
         Max: 95,
         Energy: 200,
@@ -38761,7 +38757,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 180,
-        "AttTrue%": "52.8",
+        "AttTrue%": "52.9",
         Min: 20,
         Max: 95,
         Energy: 200,
@@ -38770,7 +38766,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 180,
-        "AttTrue%": "11.6",
+        "AttTrue%": "11.9",
         Min: 40,
         Max: 360,
         Energy: 200,
@@ -38779,7 +38775,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear",
-        "AttTrue%": "6.3",
+        "AttTrue%": "5.8",
         Number: 72,
         Success: 100,
         Level: 50,
@@ -38820,7 +38816,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 160,
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.2",
         Min: 45,
         Max: 180,
         Energy: 200,
@@ -38829,7 +38825,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and strikes you",
         Acc: 360,
-        "AttTrue%": "1.8",
+        "AttTrue%": "1.9",
         Min: 100,
         Max: 400,
         Energy: 1000,
@@ -38838,7 +38834,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "3.6",
+        "AttTrue%": "4.0",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -38870,7 +38866,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 150,
-        "AttTrue%": "50.0",
+        "AttTrue%": "51.3",
         Min: 10,
         Max: 40,
         Energy: 200,
@@ -38880,7 +38876,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "26.7",
+        "AttTrue%": "26.5",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -38888,7 +38884,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soulstrike",
-        "AttTrue%": "23.3",
+        "AttTrue%": "22.2",
         Number: 5034,
         Success: 100,
         Level: 50,
@@ -38958,7 +38954,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 150,
-        "AttTrue%": "31.3",
+        "AttTrue%": "30.9",
         Min: 20,
         Max: 40,
         Energy: 200,
@@ -38967,7 +38963,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 150,
-        "AttTrue%": "25.4",
+        "AttTrue%": "26.2",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -38976,7 +38972,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horn",
         Acc: 150,
-        "AttTrue%": "12.4",
+        "AttTrue%": "12.6",
         Min: 100,
         Max: 400,
         Energy: 1000,
@@ -38986,7 +38982,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spike spin",
-        "AttTrue%": "30.9",
+        "AttTrue%": "30.3",
         Number: 1319,
         Success: 100,
         Level: 15,
@@ -39016,7 +39012,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 210,
-        "AttTrue%": "26.2",
+        "AttTrue%": "26.1",
         Min: 18,
         Max: 55,
         Energy: 125,
@@ -39025,7 +39021,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 210,
-        "AttTrue%": "25.4",
+        "AttTrue%": "26.3",
         Min: 10,
         Max: 45,
         Energy: 125,
@@ -39034,7 +39030,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 210,
-        "AttTrue%": "31.8",
+        "AttTrue%": "31.4",
         Min: 60,
         Max: 200,
         Energy: 125,
@@ -39043,7 +39039,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellstorm",
-        "AttTrue%": "5.1",
+        "AttTrue%": "4.8",
         Number: 1247,
         Success: 100,
         Level: 40,
@@ -39081,7 +39077,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 130,
-        "AttTrue%": "22.6",
+        "AttTrue%": "21.9",
         Min: 25,
         Max: 50,
         Energy: 125,
@@ -39090,7 +39086,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 150,
-        "AttTrue%": "21.9",
+        "AttTrue%": "23.3",
         Min: 100,
         Max: 180,
         Energy: 125,
@@ -39099,7 +39095,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 150,
-        "AttTrue%": "16.7",
+        "AttTrue%": "17.0",
         Min: 50,
         Max: 120,
         Energy: 125,
@@ -39109,7 +39105,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "10.5",
+        "AttTrue%": "10.1",
         Number: 1214,
         Success: 100,
         Level: 40,
@@ -39117,7 +39113,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "ember",
-        "AttTrue%": "28.3",
+        "AttTrue%": "27.8",
         Number: 5004,
         Success: 100,
         Level: 40,
@@ -39147,7 +39143,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "39.0",
+        "AttTrue%": "39.2",
         Min: 70,
         Max: 200,
         Energy: 1000,
@@ -39155,7 +39151,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 150,
-        "AttTrue%": "14.1",
+        "AttTrue%": "14.8",
         Min: 80,
         Max: 180,
         Energy: 1000,
@@ -39163,7 +39159,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 160,
-        "AttTrue%": "19.2",
+        "AttTrue%": "20.9",
         Min: 150,
         Max: 250,
         Energy: 1000,
@@ -39172,7 +39168,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "27.7",
+        "AttTrue%": "25.0",
         Number: 1214,
         Success: 100,
         Level: 20,
@@ -39238,7 +39234,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 151,
-        "AttTrue%": "80.2",
+        "AttTrue%": "79.4",
         Min: 9,
         Max: 41,
         Energy: 200,
@@ -39246,7 +39242,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 151,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.6",
         Min: 18,
         Max: 160,
         Energy: 200,
@@ -39275,7 +39271,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 151,
-        "AttTrue%": "80.7",
+        "AttTrue%": "79.2",
         Min: 9,
         Max: 41,
         Energy: 200,
@@ -39283,7 +39279,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 151,
-        "AttTrue%": "19.3",
+        "AttTrue%": "20.8",
         Min: 18,
         Max: 160,
         Energy: 200,
@@ -39313,7 +39309,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 151,
-        "AttTrue%": "79.6",
+        "AttTrue%": "80.2",
         Min: 9,
         Max: 41,
         Energy: 200,
@@ -39321,7 +39317,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 151,
-        "AttTrue%": "20.4",
+        "AttTrue%": "19.8",
         Min: 18,
         Max: 160,
         Energy: 200,
@@ -39350,7 +39346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 151,
-        "AttTrue%": "79.4",
+        "AttTrue%": "80.3",
         Min: 9,
         Max: 41,
         Energy: 200,
@@ -39358,7 +39354,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 151,
-        "AttTrue%": "20.6",
+        "AttTrue%": "19.7",
         Min: 18,
         Max: 160,
         Energy: 200,
@@ -39403,7 +39399,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely tears you with her fangs",
         Acc: 130,
-        "AttTrue%": "10.9",
+        "AttTrue%": "10.1",
         Min: 80,
         Max: 290,
         Energy: 450,
@@ -39411,7 +39407,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 145,
-        "AttTrue%": "16.5",
+        "AttTrue%": "18.1",
         Min: 120,
         Max: 250,
         Energy: 700,
@@ -39420,7 +39416,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 155,
-        "AttTrue%": "24.3",
+        "AttTrue%": "24.2",
         Min: 70,
         Max: 120,
         Energy: 500,
@@ -39429,7 +39425,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "a cloud of poison gas",
-        "AttTrue%": "20.0",
+        "AttTrue%": "19.5",
         Number: 387,
         Success: 100,
         Level: 40,
@@ -39460,7 +39456,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 175,
-        "AttTrue%": "75.3",
+        "AttTrue%": "74.9",
         Min: 17,
         Max: 44,
         Energy: 200,
@@ -39468,7 +39464,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 175,
-        "AttTrue%": "24.7",
+        "AttTrue%": "25.1",
         Min: 35,
         Max: 150,
         Energy: 200,
@@ -39499,7 +39495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 165,
-        "AttTrue%": "70.6",
+        "AttTrue%": "69.7",
         Min: 12,
         Max: 45,
         Energy: 200,
@@ -39507,7 +39503,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 165,
-        "AttTrue%": "29.4",
+        "AttTrue%": "30.3",
         Min: 30,
         Max: 140,
         Energy: 200,
@@ -39538,7 +39534,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 151,
-        "AttTrue%": "60.9",
+        "AttTrue%": "61.0",
         Min: 8,
         Max: 35,
         Energy: 200,
@@ -39546,7 +39542,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 151,
-        "AttTrue%": "16.6",
+        "AttTrue%": "17.0",
         Min: 18,
         Max: 120,
         Energy: 200,
@@ -39555,7 +39551,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 122,
-        "AttTrue%": "22.5",
+        "AttTrue%": "22.0",
         Min: 100,
         Max: 45,
         Energy: 1000,
@@ -39585,7 +39581,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a throwing knife and strikes you",
         Acc: 155,
-        "AttTrue%": "70.2",
+        "AttTrue%": "69.5",
         Min: 9,
         Max: 38,
         Energy: 200,
@@ -39593,7 +39589,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically hurls a throwing knife and strikes you",
         Acc: 155,
-        "AttTrue%": "23.8",
+        "AttTrue%": "24.0",
         Min: 18,
         Max: 110,
         Energy: 200,
@@ -39602,7 +39598,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "6.1",
+        "AttTrue%": "6.6",
         Number: 5023,
         Success: 100,
         Level: 65,
@@ -39650,7 +39646,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "79.8",
+        "AttTrue%": "79.6",
         Min: 15,
         Max: 45,
         Energy: 400,
@@ -39658,7 +39654,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.4",
         Min: 30,
         Max: 120,
         Energy: 400,
@@ -39688,7 +39684,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 200,
-        "AttTrue%": "70.2",
+        "AttTrue%": "69.7",
         Min: 21,
         Max: 65,
         Energy: 200,
@@ -39696,7 +39692,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "29.8",
+        "AttTrue%": "30.3",
         Min: 40,
         Max: 200,
         Energy: 200,
@@ -39723,7 +39719,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "15.5",
+        "AttTrue%": "14.6",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -39731,7 +39727,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soulstrike",
-        "AttTrue%": "9.5",
+        "AttTrue%": "9.0",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -39739,7 +39735,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "exalted word",
-        "AttTrue%": "75.0",
+        "AttTrue%": "76.5",
         Number: 5031,
         Success: 100,
         Level: 65,
@@ -39768,7 +39764,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 150,
-        "AttTrue%": "45.9",
+        "AttTrue%": "46.8",
         Min: 50,
         Max: 100,
         Energy: 200,
@@ -39784,7 +39780,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 160,
-        "AttTrue%": "13.7",
+        "AttTrue%": "13.0",
         Min: 80,
         Max: 250,
         Energy: 400,
@@ -39793,7 +39789,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flesh-eating gas",
-        "AttTrue%": "17.3",
+        "AttTrue%": "17.1",
         Number: 766,
         Success: 100,
         Level: 50,
@@ -39821,7 +39817,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "frozen spike",
-        "AttTrue%": "68.5",
+        "AttTrue%": "70.7",
         Number: 5002,
         Success: 100,
         Level: 65,
@@ -39829,7 +39825,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "31.5",
+        "AttTrue%": "29.3",
         Number: 1197,
         Success: 100,
         Level: 50,
@@ -39860,7 +39856,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "59.7",
+        "AttTrue%": "59.9",
         Min: 50,
         Max: 75,
         Energy: 250,
@@ -39868,7 +39864,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.1",
         Min: 50,
         Max: 75,
         Energy: 250,
@@ -39877,7 +39873,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 250,
-        "AttTrue%": "10.1",
+        "AttTrue%": "10.0",
         Min: 100,
         Max: 250,
         Energy: 250,
@@ -39906,7 +39902,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "80.6",
+        "AttTrue%": "79.4",
         Min: 15,
         Max: 45,
         Energy: 400,
@@ -39914,7 +39910,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "19.4",
+        "AttTrue%": "20.6",
         Min: 30,
         Max: 120,
         Energy: 400,
@@ -39944,7 +39940,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 200,
-        "AttTrue%": "69.8",
+        "AttTrue%": "69.9",
         Min: 21,
         Max: 65,
         Energy: 200,
@@ -39952,7 +39948,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.1",
         Min: 40,
         Max: 200,
         Energy: 200,
@@ -39979,7 +39975,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "15.3",
+        "AttTrue%": "14.6",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -39995,7 +39991,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "tainted word",
-        "AttTrue%": "74.1",
+        "AttTrue%": "74.7",
         Number: 5032,
         Success: 100,
         Level: 65,
@@ -40024,7 +40020,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 150,
-        "AttTrue%": "46.6",
+        "AttTrue%": "45.1",
         Min: 50,
         Max: 100,
         Energy: 200,
@@ -40032,7 +40028,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 180,
-        "AttTrue%": "22.8",
+        "AttTrue%": "23.1",
         Min: 35,
         Max: 170,
         Energy: 200,
@@ -40040,7 +40036,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 160,
-        "AttTrue%": "14.6",
+        "AttTrue%": "14.7",
         Min: 80,
         Max: 250,
         Energy: 400,
@@ -40049,7 +40045,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flesh-eating gas",
-        "AttTrue%": "16.0",
+        "AttTrue%": "17.1",
         Number: 766,
         Success: 100,
         Level: 50,
@@ -40085,7 +40081,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hellstorm",
-        "AttTrue%": "18.5",
+        "AttTrue%": "17.1",
         Number: 1247,
         Success: 100,
         Level: 50,
@@ -40093,7 +40089,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "magma blast",
-        "AttTrue%": "56.9",
+        "AttTrue%": "58.2",
         Number: 5017,
         Success: 100,
         Level: 55,
@@ -40124,7 +40120,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "61.0",
+        "AttTrue%": "59.9",
         Min: 50,
         Max: 75,
         Energy: 250,
@@ -40132,7 +40128,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 250,
-        "AttTrue%": "29.4",
+        "AttTrue%": "30.1",
         Min: 50,
         Max: 75,
         Energy: 250,
@@ -40141,7 +40137,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 250,
-        "AttTrue%": "9.5",
+        "AttTrue%": "10.0",
         Min: 100,
         Max: 250,
         Energy: 250,
@@ -40169,7 +40165,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 200,
-        "AttTrue%": "69.8",
+        "AttTrue%": "69.5",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -40177,7 +40173,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "15.3",
+        "AttTrue%": "15.1",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -40185,7 +40181,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 200,
-        "AttTrue%": "14.8",
+        "AttTrue%": "15.4",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -40214,7 +40210,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 235,
-        "AttTrue%": "85.1",
+        "AttTrue%": "85.6",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -40222,7 +40218,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 235,
-        "AttTrue%": "14.9",
+        "AttTrue%": "14.4",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -40250,7 +40246,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 225,
-        "AttTrue%": "89.9",
+        "AttTrue%": "90.0",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -40258,7 +40254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 225,
-        "AttTrue%": "10.1",
+        "AttTrue%": "10.0",
         Min: 40,
         Max: 120,
         Energy: 250,
@@ -40400,7 +40396,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 200,
-        "AttTrue%": "26.4",
+        "AttTrue%": "26.6",
         Min: 25,
         Max: 55,
         Energy: 200,
@@ -40409,7 +40405,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 200,
-        "AttTrue%": "23.5",
+        "AttTrue%": "24.0",
         Min: 90,
         Max: 150,
         Energy: 300,
@@ -40418,7 +40414,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 200,
-        "AttTrue%": "26.5",
+        "AttTrue%": "25.8",
         Min: 25,
         Max: 55,
         Energy: 200,
@@ -40428,7 +40424,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "grabs and smashes",
-        "AttTrue%": "23.6",
+        "AttTrue%": "23.5",
         Number: 767,
         Success: 100,
         Level: 50,
@@ -40456,7 +40452,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 190,
-        "AttTrue%": "85.1",
+        "AttTrue%": "84.6",
         Min: 15,
         Max: 45,
         Energy: 200,
@@ -40464,7 +40460,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 190,
-        "AttTrue%": "14.9",
+        "AttTrue%": "15.4",
         Min: 30,
         Max: 120,
         Energy: 200,
@@ -40491,7 +40487,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 175,
-        "AttTrue%": "75.2",
+        "AttTrue%": "76.2",
         Min: 17,
         Max: 44,
         Energy: 200,
@@ -40499,7 +40495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 175,
-        "AttTrue%": "24.8",
+        "AttTrue%": "23.8",
         Min: 35,
         Max: 150,
         Energy: 200,
@@ -40528,7 +40524,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 200,
-        "AttTrue%": "84.7",
+        "AttTrue%": "85.5",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -40536,7 +40532,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 200,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.7",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -40544,7 +40540,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 200,
-        "AttTrue%": "5.2",
+        "AttTrue%": "4.8",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -40591,7 +40587,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "89.6",
+        "AttTrue%": "90.3",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -40599,7 +40595,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "10.4",
+        "AttTrue%": "9.7",
         Min: 15,
         Max: 30,
         Energy: 500,
@@ -40628,7 +40624,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 80,
-        "AttTrue%": "70.2",
+        "AttTrue%": "69.7",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -40636,7 +40632,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 85,
-        "AttTrue%": "9.9",
+        "AttTrue%": "10.4",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -40645,7 +40641,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 90,
-        "AttTrue%": "9.5",
+        "AttTrue%": "9.9",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -40654,7 +40650,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "10.4",
+        "AttTrue%": "10.1",
         Min: 4,
         Max: 10,
         Energy: 333,
@@ -40712,7 +40708,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "80.0",
+        "AttTrue%": "80.7",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -40720,7 +40716,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 111,
-        "AttTrue%": "20.0",
+        "AttTrue%": "19.3",
         Min: 10,
         Max: 30,
         Energy: 333,
@@ -40753,7 +40749,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 135,
-        "AttTrue%": "84.9",
+        "AttTrue%": "85.1",
         Min: 10,
         Max: 36,
         Energy: 250,
@@ -40761,7 +40757,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 135,
-        "AttTrue%": "15.1",
+        "AttTrue%": "14.9",
         Min: 40,
         Max: 100,
         Energy: 250,
@@ -40791,7 +40787,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 120,
-        "AttTrue%": "90.0",
+        "AttTrue%": "89.0",
         Min: 8,
         Max: 16,
         Energy: 260,
@@ -40799,7 +40795,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 120,
-        "AttTrue%": "10.0",
+        "AttTrue%": "11.0",
         Min: 20,
         Max: 50,
         Energy: 260,
@@ -40827,7 +40823,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 95,
-        "AttTrue%": "95.0",
+        "AttTrue%": "94.9",
         Min: 10,
         Max: 50,
         Energy: 1000,
@@ -40835,7 +40831,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 95,
-        "AttTrue%": "5.0",
+        "AttTrue%": "5.1",
         Min: 40,
         Max: 150,
         Energy: 1000,
@@ -40864,7 +40860,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "89.9",
+        "AttTrue%": "90.2",
         Min: 5,
         Max: 20,
         Energy: 333,
@@ -40872,7 +40868,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.8",
         Min: 10,
         Max: 70,
         Energy: 333,
@@ -40900,7 +40896,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 85,
-        "AttTrue%": "89.9",
+        "AttTrue%": "89.6",
         Min: 3,
         Max: 15,
         Energy: 500,
@@ -40908,7 +40904,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 85,
-        "AttTrue%": "10.1",
+        "AttTrue%": "10.4",
         Min: 10,
         Max: 45,
         Energy: 500,
@@ -40936,7 +40932,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 90,
-        "AttTrue%": "90.0",
+        "AttTrue%": "90.7",
         Min: 5,
         Max: 17,
         Energy: 400,
@@ -40944,7 +40940,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 100,
-        "AttTrue%": "10.0",
+        "AttTrue%": "9.3",
         Min: 10,
         Max: 50,
         Energy: 400,
@@ -40975,7 +40971,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "95.4",
+        "AttTrue%": "95.0",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -40983,7 +40979,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 95,
-        "AttTrue%": "4.6",
+        "AttTrue%": "5.0",
         Min: 16,
         Max: 60,
         Energy: 500,
@@ -41011,7 +41007,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "99.1",
+        "AttTrue%": "99.0",
         Min: 4,
         Max: 16,
         Energy: 500,
@@ -41019,7 +41015,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 90,
-        "AttTrue%": "0.9",
+        "AttTrue%": "1.0",
         Min: 16,
         Max: 60,
         Energy: 500,
@@ -41046,7 +41042,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 70,
-        "AttTrue%": "74.6",
+        "AttTrue%": "74.9",
         Min: 3,
         Max: 16,
         Energy: 500,
@@ -41055,7 +41051,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "agony",
-        "AttTrue%": "25.4",
+        "AttTrue%": "25.1",
         Number: 22,
         Success: 100,
         Level: 10,
@@ -41083,7 +41079,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 44,
-        "AttTrue%": "64.1",
+        "AttTrue%": "64.3",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -41092,7 +41088,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sunbolt",
-        "AttTrue%": "35.9",
+        "AttTrue%": "35.7",
         Number: 5028,
         Success: 80,
         Level: 14,
@@ -41120,7 +41116,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 75,
-        "AttTrue%": "90.4",
+        "AttTrue%": "90.6",
         Min: 3,
         Max: 13,
         Energy: 333,
@@ -41128,7 +41124,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 75,
-        "AttTrue%": "9.6",
+        "AttTrue%": "9.4",
         Min: 12,
         Max: 50,
         Energy: 333,
@@ -41155,7 +41151,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 85,
-        "AttTrue%": "97.1",
+        "AttTrue%": "97.8",
         Min: 6,
         Max: 24,
         Energy: 1000,
@@ -41163,7 +41159,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 85,
-        "AttTrue%": "2.9",
+        "AttTrue%": "2.2",
         Min: 24,
         Max: 80,
         Energy: 1000,
@@ -41192,7 +41188,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 110,
-        "AttTrue%": "35.7",
+        "AttTrue%": "34.7",
         Min: 13,
         Max: 30,
         Energy: 300,
@@ -41200,7 +41196,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 105,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.2",
         Min: 10,
         Max: 26,
         Energy: 500,
@@ -41217,7 +41213,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "12.8",
+        "AttTrue%": "13.7",
         Number: 263,
         Success: 100,
         Level: 14,
@@ -41247,7 +41243,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 105,
-        "AttTrue%": "36.6",
+        "AttTrue%": "36.4",
         Min: 12,
         Max: 28,
         Energy: 300,
@@ -41255,7 +41251,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 105,
-        "AttTrue%": "22.0",
+        "AttTrue%": "21.0",
         Min: 8,
         Max: 25,
         Energy: 500,
@@ -41263,7 +41259,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 105,
-        "AttTrue%": "30.2",
+        "AttTrue%": "32.2",
         Min: 15,
         Max: 53,
         Energy: 500,
@@ -41272,7 +41268,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "11.1",
+        "AttTrue%": "10.4",
         Number: 263,
         Success: 100,
         Level: 10,
@@ -41310,7 +41306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 95,
-        "AttTrue%": "22.1",
+        "AttTrue%": "21.8",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -41318,7 +41314,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 85,
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.1",
         Min: 10,
         Max: 38,
         Energy: 600,
@@ -41327,7 +41323,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "11.6",
+        "AttTrue%": "12.0",
         Number: 263,
         Success: 100,
         Level: 8,
@@ -41357,7 +41353,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 115,
-        "AttTrue%": "34.3",
+        "AttTrue%": "35.8",
         Min: 14,
         Max: 28,
         Energy: 300,
@@ -41365,7 +41361,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.0",
         Min: 8,
         Max: 27,
         Energy: 500,
@@ -41373,7 +41369,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 115,
-        "AttTrue%": "31.3",
+        "AttTrue%": "30.3",
         Min: 18,
         Max: 55,
         Energy: 450,
@@ -41382,7 +41378,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "14.2",
+        "AttTrue%": "14.0",
         Number: 377,
         Success: 100,
         Level: 18,
@@ -41412,7 +41408,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 110,
-        "AttTrue%": "36.3",
+        "AttTrue%": "35.1",
         Min: 11,
         Max: 28,
         Energy: 300,
@@ -41420,7 +41416,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "20.2",
+        "AttTrue%": "22.9",
         Min: 8,
         Max: 23,
         Energy: 550,
@@ -41428,7 +41424,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 110,
-        "AttTrue%": "31.2",
+        "AttTrue%": "29.8",
         Min: 12,
         Max: 55,
         Energy: 600,
@@ -41437,7 +41433,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "12.3",
+        "AttTrue%": "12.2",
         Number: 377,
         Success: 100,
         Level: 14,
@@ -41467,7 +41463,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 105,
-        "AttTrue%": "37.3",
+        "AttTrue%": "36.6",
         Min: 10,
         Max: 25,
         Energy: 300,
@@ -41483,7 +41479,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 105,
-        "AttTrue%": "30.6",
+        "AttTrue%": "32.0",
         Min: 10,
         Max: 38,
         Energy: 550,
@@ -41492,7 +41488,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cloud of poison",
-        "AttTrue%": "12.3",
+        "AttTrue%": "11.7",
         Number: 377,
         Success: 100,
         Level: 12,
@@ -41522,7 +41518,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "85.5",
+        "AttTrue%": "85.1",
         Min: 6,
         Max: 24,
         Energy: 250,
@@ -41538,7 +41534,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.3",
         Min: 6,
         Max: 24,
         Energy: 250,
@@ -41567,7 +41563,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 105,
-        "AttTrue%": "90.2",
+        "AttTrue%": "89.5",
         Min: 5,
         Max: 21,
         Energy: 200,
@@ -41575,7 +41571,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 105,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.0",
         Min: 20,
         Max: 80,
         Energy: 200,
@@ -41583,7 +41579,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 99,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.5",
         Min: 5,
         Max: 21,
         Energy: 200,
@@ -41629,7 +41625,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "95.1",
+        "AttTrue%": "95.0",
         Min: 5,
         Max: 18,
         Energy: 333,
@@ -41637,7 +41633,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.0",
         Min: 20,
         Max: 90,
         Energy: 333,
@@ -41664,7 +41660,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 110,
-        "AttTrue%": "84.4",
+        "AttTrue%": "85.5",
         Min: 8,
         Max: 24,
         Energy: 250,
@@ -41672,7 +41668,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 110,
-        "AttTrue%": "15.6",
+        "AttTrue%": "14.5",
         Min: 40,
         Max: 80,
         Energy: 250,
@@ -41734,7 +41730,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges into you",
         Acc: 150,
-        "AttTrue%": "55.9",
+        "AttTrue%": "55.8",
         Min: 100,
         Max: 200,
         Energy: 1000,
@@ -41743,7 +41739,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 160,
-        "AttTrue%": "44.1",
+        "AttTrue%": "44.2",
         Min: 60,
         Max: 100,
         Energy: 333,
@@ -41776,7 +41772,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 120,
-        "AttTrue%": "63.1",
+        "AttTrue%": "64.4",
         Min: 49,
         Max: 122,
         Energy: 250,
@@ -41784,7 +41780,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 130,
-        "AttTrue%": "36.9",
+        "AttTrue%": "35.6",
         Min: 50,
         Max: 160,
         Energy: 500,
@@ -41874,7 +41870,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 150,
-        "AttTrue%": "32.2",
+        "AttTrue%": "31.6",
         Min: 49,
         Max: 122,
         Energy: 250,
@@ -41883,7 +41879,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 150,
-        "AttTrue%": "67.8",
+        "AttTrue%": "68.4",
         Min: 200,
         Max: 300,
         Energy: 500,
@@ -41957,7 +41953,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you with his staff",
         Acc: 150,
-        "AttTrue%": "59.0",
+        "AttTrue%": "58.6",
         Min: 49,
         Max: 122,
         Energy: 250,
@@ -41967,7 +41963,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "21.6",
+        "AttTrue%": "21.8",
         Number: 955,
         Success: 100,
         Level: 60,
@@ -41975,7 +41971,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch storm",
-        "AttTrue%": "19.4",
+        "AttTrue%": "19.7",
         Number: 5099,
         Success: 100,
         Level: 60,
@@ -42004,7 +42000,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 160,
-        "AttTrue%": "76.7",
+        "AttTrue%": "73.3",
         Min: 75,
         Max: 120,
         Energy: 1000,
@@ -42012,7 +42008,7 @@ export const monsterData: Monster[] = [
       {
         Name: "violently chomps you",
         Acc: 165,
-        "AttTrue%": "23.3",
+        "AttTrue%": "26.7",
         Min: 80,
         Max: 160,
         Energy: 1000,
@@ -42027,7 +42023,7 @@ export const monsterData: Monster[] = [
     DamageResist: 5,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 20000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -42041,7 +42037,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 160,
-        "AttTrue%": "89.2",
+        "AttTrue%": "97.1",
         Min: 80,
         Max: 110,
         Energy: 250,
@@ -42050,7 +42046,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches acid",
-        "AttTrue%": "10.8",
+        "AttTrue%": "2.9",
         Number: 1412,
         Success: 100,
         Level: 0,
@@ -42079,7 +42075,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fists",
         Acc: 140,
-        "AttTrue%": "100.0",
+        "AttTrue%": "96.9",
         Min: 28,
         Max: 80,
         Energy: 250,
@@ -42087,7 +42083,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 200,
-        "AttTrue%": "0.0",
+        "AttTrue%": "3.1",
         Min: 50,
         Max: 120,
         Energy: 250,
@@ -42115,7 +42111,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips a chunk out of you",
         Acc: 140,
-        "AttTrue%": "100.0",
+        "AttTrue%": "97.1",
         Min: 28,
         Max: 80,
         Energy: 500,
@@ -42123,7 +42119,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and viciously bites you",
         Acc: 200,
-        "AttTrue%": "0.0",
+        "AttTrue%": "2.9",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -42138,7 +42134,7 @@ export const monsterData: Monster[] = [
     DamageResist: 5,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 20000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -42151,7 +42147,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips a chunk out of you",
         Acc: 140,
-        "AttTrue%": "100.0",
+        "AttTrue%": "97.1",
         Min: 28,
         Max: 80,
         Energy: 500,
@@ -42159,7 +42155,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and viciously bites you",
         Acc: 200,
-        "AttTrue%": "0.0",
+        "AttTrue%": "2.9",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -42174,7 +42170,7 @@ export const monsterData: Monster[] = [
     DamageResist: 3,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 19000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -42194,7 +42190,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "swoops down and rips you",
-        Acc: 200,
+        Acc: 160,
         "AttTrue%": "40.8",
         Min: 50,
         Max: 120,
@@ -42223,7 +42219,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you",
         Acc: 75,
-        "AttTrue%": "62.1",
+        "AttTrue%": "66.9",
         Min: 10,
         Max: 36,
         Energy: 1000,
@@ -42231,7 +42227,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 70,
-        "AttTrue%": "27.1",
+        "AttTrue%": "23.4",
         Min: 8,
         Max: 20,
         Energy: 1000,
@@ -42240,7 +42236,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you",
         Acc: 80,
-        "AttTrue%": "10.8",
+        "AttTrue%": "9.7",
         Min: 8,
         Max: 24,
         Energy: 500,
@@ -42349,7 +42345,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 65,
-        "AttTrue%": "60.1",
+        "AttTrue%": "59.5",
         Min: 6,
         Max: 18,
         Energy: 666,
@@ -42358,7 +42354,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 70,
-        "AttTrue%": "39.9",
+        "AttTrue%": "40.5",
         Min: 11,
         Max: 38,
         Energy: 666,
@@ -42389,7 +42385,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 70,
-        "AttTrue%": "61.3",
+        "AttTrue%": "60.2",
         Min: 10,
         Max: 24,
         Energy: 1000,
@@ -42398,7 +42394,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "draws the breath",
-        "AttTrue%": "38.7",
+        "AttTrue%": "39.8",
         Number: 82,
         Success: 100,
         Level: 15,
@@ -42428,7 +42424,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "80.1",
+        "AttTrue%": "79.1",
         Min: 6,
         Max: 20,
         Energy: 200,
@@ -42436,7 +42432,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 999,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.9",
         Min: 12,
         Max: 50,
         Energy: 200,
@@ -42464,7 +42460,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "81.0",
+        "AttTrue%": "81.1",
         Min: 20,
         Max: 60,
         Energy: 333,
@@ -42473,7 +42469,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "19.0",
+        "AttTrue%": "18.9",
         Number: 5026,
         Success: 100,
         Level: 35,
@@ -42503,7 +42499,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.9",
+        "AttTrue%": "79.4",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -42511,7 +42507,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.6",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -42542,7 +42538,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 75,
-        "AttTrue%": "98.9",
+        "AttTrue%": "99.0",
         Min: 4,
         Max: 15,
         Energy: 666,
@@ -42550,7 +42546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 75,
-        "AttTrue%": "1.1",
+        "AttTrue%": "1.0",
         Min: 16,
         Max: 60,
         Energy: 666,
@@ -42578,7 +42574,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 120,
-        "AttTrue%": "80.4",
+        "AttTrue%": "80.6",
         Min: 6,
         Max: 20,
         Energy: 200,
@@ -42586,7 +42582,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 999,
-        "AttTrue%": "19.6",
+        "AttTrue%": "19.4",
         Min: 12,
         Max: 50,
         Energy: 200,
@@ -42751,7 +42747,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.2",
+        "AttTrue%": "79.9",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -42759,7 +42755,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.8",
+        "AttTrue%": "20.1",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -42788,7 +42784,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.7",
+        "AttTrue%": "80.7",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -42796,7 +42792,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.3",
+        "AttTrue%": "19.3",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -42825,7 +42821,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.2",
+        "AttTrue%": "79.4",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -42833,7 +42829,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.6",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -42861,15 +42857,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "100.0",
+        "AttTrue%": "88.1",
         Min: 15,
         Max: 40,
         Energy: 250,
       },
       {
         Name: "all-out slashes you",
-        Acc: 95,
-        "AttTrue%": "0.0",
+        Acc: 125,
+        "AttTrue%": "11.9",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -42926,7 +42922,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.9",
+        "AttTrue%": "80.2",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -42934,7 +42930,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.8",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -42964,7 +42960,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.2",
+        "AttTrue%": "80.5",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -42972,7 +42968,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.8",
+        "AttTrue%": "19.5",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43001,7 +42997,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.7",
+        "AttTrue%": "79.9",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43009,7 +43005,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.3",
+        "AttTrue%": "20.1",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43038,7 +43034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.5",
+        "AttTrue%": "80.1",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43046,7 +43042,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.5",
+        "AttTrue%": "19.9",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43075,7 +43071,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.3",
+        "AttTrue%": "80.6",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43083,7 +43079,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.7",
+        "AttTrue%": "19.4",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43113,7 +43109,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 155,
-        "AttTrue%": "83.2",
+        "AttTrue%": "83.1",
         Min: 40,
         Max: 80,
         Energy: 200,
@@ -43121,7 +43117,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a powerful blow",
         Acc: 165,
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.9",
         Min: 60,
         Max: 120,
         Energy: 500,
@@ -43150,7 +43146,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.8",
+        "AttTrue%": "80.4",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43158,7 +43154,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.6",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43187,7 +43183,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.0",
+        "AttTrue%": "79.4",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43195,7 +43191,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.6",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43228,7 +43224,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 200,
-        "AttTrue%": "46.5",
+        "AttTrue%": "46.7",
         Min: 25,
         Max: 40,
         Energy: 200,
@@ -43237,7 +43233,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "elemental fury",
-        "AttTrue%": "34.9",
+        "AttTrue%": "35.0",
         Number: 716,
         Success: 100,
         Level: 75,
@@ -43245,7 +43241,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thornblast",
-        "AttTrue%": "18.5",
+        "AttTrue%": "18.3",
         Number: 5241,
         Success: 100,
         Level: 75,
@@ -43314,7 +43310,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a razor-sharp wing",
         Acc: 140,
-        "AttTrue%": "79.2",
+        "AttTrue%": "79.0",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -43322,7 +43318,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you with a razor-sharp wing",
         Acc: 200,
-        "AttTrue%": "20.8",
+        "AttTrue%": "21.0",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -43351,7 +43347,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "38.3",
+        "AttTrue%": "37.1",
         Min: 20,
         Max: 50,
         Energy: 300,
@@ -43360,7 +43356,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "40.8",
+        "AttTrue%": "42.4",
         Min: 100,
         Max: 170,
         Energy: 600,
@@ -43369,7 +43365,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "20.9",
+        "AttTrue%": "20.5",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -43399,7 +43395,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally rips you",
         Acc: 140,
-        "AttTrue%": "22.9",
+        "AttTrue%": "24.6",
         Min: 60,
         Max: 180,
         Energy: 1000,
@@ -43408,7 +43404,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "27.0",
+        "AttTrue%": "26.4",
         Min: 90,
         Max: 200,
         Energy: 1000,
@@ -43417,7 +43413,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "15.8",
+        "AttTrue%": "16.6",
         Number: 1029,
         Success: 100,
         Level: 30,
@@ -43425,7 +43421,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of ice",
-        "AttTrue%": "21.8",
+        "AttTrue%": "21.1",
         Number: 1030,
         Success: 100,
         Level: 30,
@@ -43433,7 +43429,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of lightning",
-        "AttTrue%": "12.5",
+        "AttTrue%": "11.4",
         Number: 1031,
         Success: 100,
         Level: 30,
@@ -43464,7 +43460,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 200,
-        "AttTrue%": "74.4",
+        "AttTrue%": "74.3",
         Min: 200,
         Max: 420,
         Energy: 500,
@@ -43472,7 +43468,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 200,
-        "AttTrue%": "25.6",
+        "AttTrue%": "25.7",
         Min: 100,
         Max: 250,
         Energy: 250,
@@ -43501,7 +43497,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its toothy maw",
         Acc: 220,
-        "AttTrue%": "49.6",
+        "AttTrue%": "49.3",
         Min: 200,
         Max: 450,
         Energy: 300,
@@ -43510,7 +43506,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tongue",
         Acc: 220,
-        "AttTrue%": "50.4",
+        "AttTrue%": "50.7",
         Min: 75,
         Max: 150,
         Energy: 250,
@@ -43539,7 +43535,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 200,
-        "AttTrue%": "91.1",
+        "AttTrue%": "90.9",
         Min: 200,
         Max: 420,
         Energy: 500,
@@ -43547,7 +43543,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 210,
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.1",
         Min: 250,
         Max: 550,
         Energy: 1000,
@@ -43574,7 +43570,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 0,
-        "AttTrue%": "1.2",
+        "AttTrue%": "0.9",
         Min: 0,
         Max: 0,
         Energy: 1000,
@@ -43583,7 +43579,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "stomach bile",
-        "AttTrue%": "98.8",
+        "AttTrue%": "99.1",
         Number: 724,
         Success: 100,
         Level: 100,
@@ -43613,7 +43609,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 150,
-        "AttTrue%": "91.5",
+        "AttTrue%": "92.3",
         Min: 20,
         Max: 50,
         Energy: 250,
@@ -43621,7 +43617,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 160,
-        "AttTrue%": "8.5",
+        "AttTrue%": "7.7",
         Min: 50,
         Max: 140,
         Energy: 500,
@@ -43650,7 +43646,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "91.9",
+        "AttTrue%": "91.8",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -43658,7 +43654,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 135,
-        "AttTrue%": "8.1",
+        "AttTrue%": "8.2",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -43716,7 +43712,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.6",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43724,7 +43720,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.0",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43783,7 +43779,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "62.0",
+        "AttTrue%": "60.2",
         Min: 25,
         Max: 65,
         Energy: 200,
@@ -43791,7 +43787,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 200,
-        "AttTrue%": "38.0",
+        "AttTrue%": "39.8",
         Min: 50,
         Max: 180,
         Energy: 200,
@@ -43820,7 +43816,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.7",
+        "AttTrue%": "79.7",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43828,7 +43824,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.3",
+        "AttTrue%": "20.3",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43857,7 +43853,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.1",
+        "AttTrue%": "79.8",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43865,7 +43861,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.2",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43894,7 +43890,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.1",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43902,7 +43898,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.0",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43931,7 +43927,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.5",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43939,7 +43935,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.5",
+        "AttTrue%": "20.0",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -43968,7 +43964,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.3",
+        "AttTrue%": "80.6",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -43976,7 +43972,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.7",
+        "AttTrue%": "19.4",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44005,7 +44001,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.6",
+        "AttTrue%": "79.8",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44013,7 +44009,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.4",
+        "AttTrue%": "20.2",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44042,7 +44038,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.8",
+        "AttTrue%": "80.3",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44050,7 +44046,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.7",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44153,7 +44149,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.2",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44161,7 +44157,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.0",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44171,43 +44167,6 @@ export const monsterData: Monster[] = [
   {
     Number: 1182,
     Name: "musician",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 5,
-    "Follow%": 0,
-    MagicRes: 65,
-    EXP: 5,
-    HP: 200,
-    HPRegen: 50,
-    CharmLVL: 9999,
-    Type: 3,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    SpellImmune: 20,
-    Dodge: 30,
-    Attacks: [
-      {
-        Name: "punches you",
-        Acc: 120,
-        "AttTrue%": "80.4",
-        Min: 4,
-        Max: 26,
-        Energy: 200,
-      },
-      {
-        Name: "punches you",
-        Acc: 100,
-        "AttTrue%": "19.6",
-        Min: 4,
-        Max: 8,
-        Energy: 200,
-      },
-    ],
-  },
-  {
-    Number: 1183,
-    Name: "peacock",
     Weapon: 0,
     ArmourClass: 65,
     DamageResist: 5,
@@ -44243,6 +44202,43 @@ export const monsterData: Monster[] = [
     ],
   },
   {
+    Number: 1183,
+    Name: "peacock",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 5,
+    "Follow%": 0,
+    MagicRes: 65,
+    EXP: 5,
+    HP: 200,
+    HPRegen: 50,
+    CharmLVL: 9999,
+    Type: 3,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    SpellImmune: 20,
+    Dodge: 30,
+    Attacks: [
+      {
+        Name: "punches you",
+        Acc: 120,
+        "AttTrue%": "79.7",
+        Min: 4,
+        Max: 26,
+        Energy: 200,
+      },
+      {
+        Name: "punches you",
+        Acc: 100,
+        "AttTrue%": "20.3",
+        Min: 4,
+        Max: 8,
+        Energy: 200,
+      },
+    ],
+  },
+  {
     Number: 1184,
     Name: "maid",
     Weapon: 0,
@@ -44264,7 +44260,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.1",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44272,7 +44268,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.0",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44301,7 +44297,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 250,
-        "AttTrue%": "79.9",
+        "AttTrue%": "79.4",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -44309,7 +44305,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 250,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.6",
         Min: 100,
         Max: 300,
         Energy: 200,
@@ -44338,7 +44334,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "27.6",
+        "AttTrue%": "27.8",
         Min: 16,
         Max: 48,
         Energy: 200,
@@ -44346,7 +44342,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 185,
-        "AttTrue%": "28.0",
+        "AttTrue%": "27.1",
         Min: 64,
         Max: 172,
         Energy: 200,
@@ -44355,7 +44351,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 180,
-        "AttTrue%": "19.1",
+        "AttTrue%": "18.8",
         Min: 174,
         Max: 340,
         Energy: 800,
@@ -44363,7 +44359,7 @@ export const monsterData: Monster[] = [
       {
         Name: "closes in and guts you",
         Acc: 180,
-        "AttTrue%": "25.2",
+        "AttTrue%": "26.3",
         Min: 86,
         Max: 165,
         Energy: 400,
@@ -44393,7 +44389,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 250,
-        "AttTrue%": "80.0",
+        "AttTrue%": "79.9",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -44401,7 +44397,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 250,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.1",
         Min: 100,
         Max: 300,
         Energy: 200,
@@ -44449,7 +44445,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "27.3",
+        "AttTrue%": "27.8",
         Min: 16,
         Max: 48,
         Energy: 200,
@@ -44457,7 +44453,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 175,
-        "AttTrue%": "27.0",
+        "AttTrue%": "26.3",
         Min: 64,
         Max: 172,
         Energy: 200,
@@ -44466,7 +44462,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 250,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.1",
         Min: 174,
         Max: 340,
         Energy: 800,
@@ -44474,7 +44470,7 @@ export const monsterData: Monster[] = [
       {
         Name: "closes in and guts you",
         Acc: 180,
-        "AttTrue%": "25.9",
+        "AttTrue%": "25.8",
         Min: 86,
         Max: 165,
         Energy: 400,
@@ -44506,7 +44502,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spins and bludgeons you",
         Acc: 210,
-        "AttTrue%": "25.7",
+        "AttTrue%": "26.7",
         Min: 18,
         Max: 94,
         Energy: 200,
@@ -44522,7 +44518,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes your head",
         Acc: 225,
-        "AttTrue%": "21.0",
+        "AttTrue%": "19.4",
         Min: 111,
         Max: 386,
         Energy: 800,
@@ -44532,7 +44528,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "balanced word",
-        "AttTrue%": "26.6",
+        "AttTrue%": "27.1",
         Number: 1096,
         Success: 100,
         Level: 60,
@@ -44562,7 +44558,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.5",
+        "AttTrue%": "80.0",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44570,7 +44566,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.5",
+        "AttTrue%": "20.0",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44599,7 +44595,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "80.3",
+        "AttTrue%": "79.6",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44607,7 +44603,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "19.7",
+        "AttTrue%": "20.4",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44644,7 +44640,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "93.6",
+        "AttTrue%": "94.1",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44661,7 +44657,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spiritual hammer",
-        "AttTrue%": "6.4",
+        "AttTrue%": "5.9",
         Number: 16,
         Success: 70,
         Level: 10,
@@ -44691,7 +44687,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 120,
-        "AttTrue%": "79.8",
+        "AttTrue%": "79.7",
         Min: 4,
         Max: 26,
         Energy: 200,
@@ -44699,7 +44695,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 100,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.3",
         Min: 4,
         Max: 8,
         Energy: 200,
@@ -44737,7 +44733,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 80,
-        "AttTrue%": "77.6",
+        "AttTrue%": "78.1",
         Min: 8,
         Max: 20,
         Energy: 250,
@@ -44746,7 +44742,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "fear",
-        "AttTrue%": "10.3",
+        "AttTrue%": "9.6",
         Number: 836,
         Success: 30,
         Level: 45,
@@ -44754,7 +44750,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sunbolt",
-        "AttTrue%": "12.1",
+        "AttTrue%": "12.3",
         Number: 5028,
         Success: 75,
         Level: 20,
@@ -44785,7 +44781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "attempts",
         Acc: 0,
-        "AttTrue%": "27.2",
+        "AttTrue%": "25.5",
         Min: 0,
         Max: 0,
         Energy: 1000,
@@ -44794,7 +44790,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "envelops",
-        "AttTrue%": "47.8",
+        "AttTrue%": "50.0",
         Number: 388,
         Success: 100,
         Level: 25,
@@ -44802,7 +44798,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "drains",
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.5",
         Number: 389,
         Success: 100,
         Level: 25,
@@ -44834,7 +44830,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "83.3",
+        "AttTrue%": "83.8",
         Min: 9,
         Max: 26,
         Energy: 333,
@@ -44842,7 +44838,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 100,
-        "AttTrue%": "8.4",
+        "AttTrue%": "8.0",
         Min: 16,
         Max: 44,
         Energy: 666,
@@ -44851,7 +44847,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shield-rushes you",
         Acc: 105,
-        "AttTrue%": "8.3",
+        "AttTrue%": "8.2",
         Min: 17,
         Max: 33,
         Energy: 666,
@@ -44883,7 +44879,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 110,
-        "AttTrue%": "94.2",
+        "AttTrue%": "93.4",
         Min: 9,
         Max: 36,
         Energy: 500,
@@ -44892,7 +44888,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes",
-        "AttTrue%": "5.8",
+        "AttTrue%": "6.6",
         Number: 5101,
         Success: 100,
         Level: 28,
@@ -44925,7 +44921,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 105,
-        "AttTrue%": "74.0",
+        "AttTrue%": "74.4",
         Min: 1,
         Max: 15,
         Energy: 250,
@@ -44933,7 +44929,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 105,
-        "AttTrue%": "21.9",
+        "AttTrue%": "20.9",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -44942,7 +44938,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 110,
-        "AttTrue%": "4.2",
+        "AttTrue%": "4.6",
         Min: 6,
         Max: 15,
         Energy: 500,
@@ -44973,7 +44969,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 105,
-        "AttTrue%": "85.0",
+        "AttTrue%": "86.8",
         Min: 11,
         Max: 26,
         Energy: 500,
@@ -44982,7 +44978,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear of dark energy",
-        "AttTrue%": "15.0",
+        "AttTrue%": "13.2",
         Number: 5103,
         Success: 100,
         Level: 28,
@@ -45014,7 +45010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you",
         Acc: 110,
-        "AttTrue%": "91.8",
+        "AttTrue%": "91.9",
         Min: 22,
         Max: 41,
         Energy: 250,
@@ -45022,7 +45018,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 120,
-        "AttTrue%": "8.2",
+        "AttTrue%": "8.1",
         Min: 29,
         Max: 68,
         Energy: 500,
@@ -45052,7 +45048,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 80,
-        "AttTrue%": "72.8",
+        "AttTrue%": "74.6",
         Min: 7,
         Max: 22,
         Energy: 333,
@@ -45061,7 +45057,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 85,
-        "AttTrue%": "10.8",
+        "AttTrue%": "10.2",
         Min: 7,
         Max: 22,
         Energy: 333,
@@ -45070,7 +45066,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges and sinks its fangs into you",
         Acc: 80,
-        "AttTrue%": "16.4",
+        "AttTrue%": "15.2",
         Min: 18,
         Max: 36,
         Energy: 666,
@@ -45109,7 +45105,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you",
         Acc: 125,
-        "AttTrue%": "26.9",
+        "AttTrue%": "26.8",
         Min: 27,
         Max: 61,
         Energy: 250,
@@ -45117,7 +45113,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 125,
-        "AttTrue%": "21.8",
+        "AttTrue%": "23.0",
         Min: 41,
         Max: 96,
         Energy: 500,
@@ -45126,7 +45122,7 @@ export const monsterData: Monster[] = [
       {
         Name: "mercilessly shreds you",
         Acc: 130,
-        "AttTrue%": "13.2",
+        "AttTrue%": "14.6",
         Min: 84,
         Max: 190,
         Energy: 1000,
@@ -45136,7 +45132,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of sand",
-        "AttTrue%": "24.4",
+        "AttTrue%": "21.3",
         Number: 5106,
         Success: 100,
         Level: 50,
@@ -45144,7 +45140,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thrash",
-        "AttTrue%": "13.7",
+        "AttTrue%": "14.3",
         Number: 5107,
         Success: 100,
         Level: 35,
@@ -45179,7 +45175,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally rips you with a pincer",
         Acc: 125,
-        "AttTrue%": "43.9",
+        "AttTrue%": "45.1",
         Min: 9,
         Max: 70,
         Energy: 200,
@@ -45187,7 +45183,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely spears you with its stinger",
         Acc: 125,
-        "AttTrue%": "55.1",
+        "AttTrue%": "53.9",
         Min: 36,
         Max: 92,
         Energy: 200,
@@ -45196,7 +45192,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely spears you with its stinger",
         Acc: 135,
-        "AttTrue%": "1.1",
+        "AttTrue%": "1.0",
         Min: 36,
         Max: 92,
         Energy: 200,
@@ -45250,7 +45246,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls its chakram at you",
         Acc: 115,
-        "AttTrue%": "55.9",
+        "AttTrue%": "56.3",
         Min: 12,
         Max: 38,
         Energy: 250,
@@ -45258,7 +45254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically hurls a chakram at you",
         Acc: 120,
-        "AttTrue%": "22.8",
+        "AttTrue%": "22.6",
         Min: 34,
         Max: 106,
         Energy: 250,
@@ -45266,7 +45262,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shield-rushes you",
         Acc: 110,
-        "AttTrue%": "12.0",
+        "AttTrue%": "11.4",
         Min: 68,
         Max: 101,
         Energy: 1000,
@@ -45275,7 +45271,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 130,
-        "AttTrue%": "9.3",
+        "AttTrue%": "9.6",
         Min: 77,
         Max: 144,
         Energy: 500,
@@ -45302,7 +45298,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 105,
-        "AttTrue%": "89.9",
+        "AttTrue%": "90.4",
         Min: 11,
         Max: 29,
         Energy: 500,
@@ -45310,7 +45306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 105,
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.6",
         Min: 21,
         Max: 44,
         Energy: 500,
@@ -45348,7 +45344,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves through your armor",
         Acc: 175,
-        "AttTrue%": "21.7",
+        "AttTrue%": "21.9",
         Min: 36,
         Max: 108,
         Energy: 200,
@@ -45357,7 +45353,7 @@ export const monsterData: Monster[] = [
       {
         Name: "forcefully hacks you",
         Acc: 170,
-        "AttTrue%": "20.0",
+        "AttTrue%": "19.6",
         Min: 79,
         Max: 141,
         Energy: 400,
@@ -45366,7 +45362,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shield-rushes you",
         Acc: 180,
-        "AttTrue%": "17.3",
+        "AttTrue%": "17.2",
         Min: 88,
         Max: 156,
         Energy: 600,
@@ -45375,7 +45371,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely cleaves you",
         Acc: 165,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.9",
         Min: 33,
         Max: 88,
         Energy: 400,
@@ -45384,7 +45380,7 @@ export const monsterData: Monster[] = [
       {
         Name: "advances and slashes you",
         Acc: 175,
-        "AttTrue%": "20.7",
+        "AttTrue%": "21.5",
         Min: 36,
         Max: 156,
         Energy: 200,
@@ -45415,7 +45411,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 120,
-        "AttTrue%": "94.4",
+        "AttTrue%": "95.4",
         Min: 14,
         Max: 50,
         Energy: 500,
@@ -45423,7 +45419,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 120,
-        "AttTrue%": "5.6",
+        "AttTrue%": "4.6",
         Min: 28,
         Max: 70,
         Energy: 500,
@@ -45452,7 +45448,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 95,
-        "AttTrue%": "50.3",
+        "AttTrue%": "49.6",
         Min: 5,
         Max: 16,
         Energy: 400,
@@ -45461,7 +45457,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 105,
-        "AttTrue%": "49.7",
+        "AttTrue%": "50.4",
         Min: 5,
         Max: 18,
         Energy: 300,
@@ -45491,7 +45487,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 100,
-        "AttTrue%": "88.7",
+        "AttTrue%": "87.7",
         Min: 9,
         Max: 34,
         Energy: 400,
@@ -45499,7 +45495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 125,
-        "AttTrue%": "11.3",
+        "AttTrue%": "12.3",
         Min: 15,
         Max: 55,
         Energy: 700,
@@ -45560,7 +45556,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 95,
-        "AttTrue%": "80.5",
+        "AttTrue%": "79.8",
         Min: 2,
         Max: 14,
         Energy: 150,
@@ -45569,7 +45565,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "19.5",
+        "AttTrue%": "20.2",
         Min: 5,
         Max: 19,
         Energy: 200,
@@ -45600,7 +45596,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves through your armor",
         Acc: 175,
-        "AttTrue%": "25.6",
+        "AttTrue%": "26.1",
         Min: 36,
         Max: 108,
         Energy: 200,
@@ -45609,7 +45605,7 @@ export const monsterData: Monster[] = [
       {
         Name: "forcefully hacks you",
         Acc: 170,
-        "AttTrue%": "23.8",
+        "AttTrue%": "24.1",
         Min: 79,
         Max: 141,
         Energy: 400,
@@ -45618,7 +45614,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely cleaves you",
         Acc: 165,
-        "AttTrue%": "24.1",
+        "AttTrue%": "23.5",
         Min: 33,
         Max: 88,
         Energy: 400,
@@ -45627,7 +45623,7 @@ export const monsterData: Monster[] = [
       {
         Name: "advances and slashes you",
         Acc: 175,
-        "AttTrue%": "26.5",
+        "AttTrue%": "26.4",
         Min: 36,
         Max: 156,
         Energy: 200,
@@ -45662,7 +45658,7 @@ export const monsterData: Monster[] = [
       {
         Name: "closes in and hacks you",
         Acc: 135,
-        "AttTrue%": "54.1",
+        "AttTrue%": "54.0",
         Min: 29,
         Max: 68,
         Energy: 333,
@@ -45670,7 +45666,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shield-rushes you",
         Acc: 135,
-        "AttTrue%": "20.8",
+        "AttTrue%": "19.7",
         Min: 44,
         Max: 95,
         Energy: 666,
@@ -45679,7 +45675,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely cleaves you",
         Acc: 140,
-        "AttTrue%": "9.9",
+        "AttTrue%": "10.6",
         Min: 41,
         Max: 141,
         Energy: 333,
@@ -45687,7 +45683,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 140,
-        "AttTrue%": "15.2",
+        "AttTrue%": "15.6",
         Min: 29,
         Max: 80,
         Energy: 333,
@@ -45717,7 +45713,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 125,
-        "AttTrue%": "89.6",
+        "AttTrue%": "89.9",
         Min: 20,
         Max: 32,
         Energy: 333,
@@ -45725,7 +45721,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out bludgeons you",
         Acc: 125,
-        "AttTrue%": "10.4",
+        "AttTrue%": "10.1",
         Min: 80,
         Max: 100,
         Energy: 333,
@@ -45756,7 +45752,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 120,
-        "AttTrue%": "69.5",
+        "AttTrue%": "68.5",
         Min: 10,
         Max: 20,
         Energy: 500,
@@ -45764,7 +45760,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 130,
-        "AttTrue%": "30.5",
+        "AttTrue%": "31.5",
         Min: 22,
         Max: 60,
         Energy: 500,
@@ -45794,7 +45790,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "20.8",
+        "AttTrue%": "20.2",
         Min: 5,
         Max: 15,
         Energy: 500,
@@ -45803,7 +45799,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "19.3",
+        "AttTrue%": "20.2",
         Min: 5,
         Max: 25,
         Energy: 500,
@@ -45812,7 +45808,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "20.2",
+        "AttTrue%": "19.5",
         Min: 5,
         Max: 20,
         Energy: 500,
@@ -45821,7 +45817,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "19.9",
+        "AttTrue%": "19.4",
         Min: 5,
         Max: 30,
         Energy: 500,
@@ -45830,7 +45826,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.7",
         Min: 5,
         Max: 10,
         Energy: 500,
@@ -45864,7 +45860,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 120,
-        "AttTrue%": "34.6",
+        "AttTrue%": "34.2",
         Min: 5,
         Max: 19,
         Energy: 400,
@@ -45881,7 +45877,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and crushes you",
         Acc: 170,
-        "AttTrue%": "31.8",
+        "AttTrue%": "32.2",
         Min: 50,
         Max: 100,
         Energy: 1000,
@@ -45912,7 +45908,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "37.5",
+        "AttTrue%": "37.8",
         Min: 20,
         Max: 50,
         Energy: 300,
@@ -45921,7 +45917,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "42.2",
+        "AttTrue%": "41.5",
         Min: 100,
         Max: 170,
         Energy: 600,
@@ -45930,7 +45926,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.7",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -45961,7 +45957,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally rips you",
         Acc: 140,
-        "AttTrue%": "23.9",
+        "AttTrue%": "25.8",
         Min: 60,
         Max: 180,
         Energy: 1000,
@@ -45970,7 +45966,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "24.9",
+        "AttTrue%": "23.0",
         Min: 60,
         Max: 180,
         Energy: 1000,
@@ -45979,7 +45975,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "16.9",
+        "AttTrue%": "15.8",
         Number: 1029,
         Success: 100,
         Level: 30,
@@ -45987,7 +45983,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of ice",
-        "AttTrue%": "22.4",
+        "AttTrue%": "24.3",
         Number: 1030,
         Success: 100,
         Level: 30,
@@ -45995,7 +45991,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of lightning",
-        "AttTrue%": "11.9",
+        "AttTrue%": "11.1",
         Number: 1031,
         Success: 100,
         Level: 30,
@@ -46038,7 +46034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 230,
-        "AttTrue%": "9.8",
+        "AttTrue%": "10.2",
         Min: 177,
         Max: 385,
         Energy: 300,
@@ -46047,7 +46043,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a hammer, critically hitting you",
         Acc: 240,
-        "AttTrue%": "34.0",
+        "AttTrue%": "32.8",
         Min: 130,
         Max: 375,
         Energy: 200,
@@ -46057,7 +46053,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "pain",
-        "AttTrue%": "9.9",
+        "AttTrue%": "10.6",
         Number: 5128,
         Success: 100,
         Level: 50,
@@ -46065,7 +46061,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cataclysm",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.7",
         Number: 5129,
         Success: 100,
         Level: 90,
@@ -46095,7 +46091,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 195,
-        "AttTrue%": "79.5",
+        "AttTrue%": "80.3",
         Min: 25,
         Max: 60,
         Energy: 250,
@@ -46104,7 +46100,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 195,
-        "AttTrue%": "5.6",
+        "AttTrue%": "5.4",
         Min: 50,
         Max: 180,
         Energy: 250,
@@ -46113,7 +46109,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 195,
-        "AttTrue%": "5.9",
+        "AttTrue%": "5.4",
         Min: 50,
         Max: 180,
         Energy: 250,
@@ -46122,7 +46118,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts skyward, diving and skewering you",
         Acc: 200,
-        "AttTrue%": "4.3",
+        "AttTrue%": "4.7",
         Min: 150,
         Max: 400,
         Energy: 1000,
@@ -46132,7 +46128,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon void elemental",
-        "AttTrue%": "4.7",
+        "AttTrue%": "4.3",
         Number: 5131,
         Success: 100,
         Level: 250,
@@ -46211,7 +46207,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sinks its giant fangs into you",
         Acc: 190,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.6",
         Min: 96,
         Max: 168,
         Energy: 200,
@@ -46229,7 +46225,7 @@ export const monsterData: Monster[] = [
       {
         Name: "feasts on you",
         Acc: 195,
-        "AttTrue%": "21.9",
+        "AttTrue%": "22.2",
         Min: 171,
         Max: 288,
         Energy: 200,
@@ -46238,7 +46234,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally slashes you",
         Acc: 200,
-        "AttTrue%": "22.1",
+        "AttTrue%": "22.4",
         Min: 76,
         Max: 138,
         Energy: 200,
@@ -46247,7 +46243,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "wrack soul",
-        "AttTrue%": "12.6",
+        "AttTrue%": "11.8",
         Number: 5137,
         Success: 100,
         Level: 90,
@@ -46279,7 +46275,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 160,
-        "AttTrue%": "76.9",
+        "AttTrue%": "78.3",
         Min: 15,
         Max: 50,
         Energy: 200,
@@ -46288,7 +46284,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 160,
-        "AttTrue%": "17.0",
+        "AttTrue%": "16.1",
         Min: 45,
         Max: 180,
         Energy: 200,
@@ -46297,7 +46293,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and strikes you",
         Acc: 360,
-        "AttTrue%": "2.1",
+        "AttTrue%": "1.9",
         Min: 100,
         Max: 400,
         Energy: 1000,
@@ -46306,7 +46302,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "4.1",
+        "AttTrue%": "3.7",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -46370,7 +46366,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 125,
-        "AttTrue%": "50.8",
+        "AttTrue%": "49.3",
         Min: 10,
         Max: 50,
         Energy: 500,
@@ -46378,7 +46374,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 145,
-        "AttTrue%": "49.2",
+        "AttTrue%": "50.7",
         Min: 20,
         Max: 70,
         Energy: 500,
@@ -46408,7 +46404,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 120,
-        "AttTrue%": "61.3",
+        "AttTrue%": "61.2",
         Min: 23,
         Max: 79,
         Energy: 400,
@@ -46417,7 +46413,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 120,
-        "AttTrue%": "38.7",
+        "AttTrue%": "38.8",
         Min: 50,
         Max: 108,
         Energy: 500,
@@ -46489,7 +46485,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 125,
-        "AttTrue%": "80.4",
+        "AttTrue%": "79.5",
         Min: 13,
         Max: 26,
         Energy: 250,
@@ -46498,7 +46494,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 125,
-        "AttTrue%": "19.6",
+        "AttTrue%": "20.5",
         Min: 13,
         Max: 26,
         Energy: 250,
@@ -46529,7 +46525,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its arm",
         Acc: 110,
-        "AttTrue%": "84.7",
+        "AttTrue%": "85.8",
         Min: 17,
         Max: 40,
         Energy: 500,
@@ -46537,7 +46533,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 120,
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.3",
         Min: 36,
         Max: 54,
         Energy: 1000,
@@ -46546,7 +46542,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes",
-        "AttTrue%": "6.4",
+        "AttTrue%": "5.9",
         Number: 5101,
         Success: 100,
         Level: 12,
@@ -46584,7 +46580,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 125,
-        "AttTrue%": "39.9",
+        "AttTrue%": "43.7",
         Min: 11,
         Max: 28,
         Energy: 250,
@@ -46594,7 +46590,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear of dark energy",
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.5",
         Number: 5103,
         Success: 100,
         Level: 30,
@@ -46602,7 +46598,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "unholy fury",
-        "AttTrue%": "14.7",
+        "AttTrue%": "12.4",
         Number: 1259,
         Success: 100,
         Level: 30,
@@ -46610,7 +46606,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "god's wrath",
-        "AttTrue%": "15.2",
+        "AttTrue%": "13.4",
         Number: 5036,
         Success: 100,
         Level: 30,
@@ -46641,7 +46637,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 150,
-        "AttTrue%": "30.2",
+        "AttTrue%": "30.8",
         Min: 20,
         Max: 40,
         Energy: 200,
@@ -46650,7 +46646,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you with a huge foot",
         Acc: 150,
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.9",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -46659,7 +46655,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its horn",
         Acc: 150,
-        "AttTrue%": "12.7",
+        "AttTrue%": "12.0",
         Min: 100,
         Max: 400,
         Energy: 1000,
@@ -46699,7 +46695,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 150,
-        "AttTrue%": "39.2",
+        "AttTrue%": "40.4",
         Min: 70,
         Max: 200,
         Energy: 1000,
@@ -46707,7 +46703,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 150,
-        "AttTrue%": "14.4",
+        "AttTrue%": "15.4",
         Min: 80,
         Max: 180,
         Energy: 1000,
@@ -46715,7 +46711,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 160,
-        "AttTrue%": "21.3",
+        "AttTrue%": "18.4",
         Min: 150,
         Max: 250,
         Energy: 1000,
@@ -46724,7 +46720,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hellfire",
-        "AttTrue%": "25.0",
+        "AttTrue%": "25.9",
         Number: 1214,
         Success: 100,
         Level: 20,
@@ -46762,7 +46758,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 190,
-        "AttTrue%": "22.0",
+        "AttTrue%": "21.4",
         Min: 80,
         Max: 180,
         Energy: 200,
@@ -46771,7 +46767,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 220,
-        "AttTrue%": "16.1",
+        "AttTrue%": "16.2",
         Min: 190,
         Max: 370,
         Energy: 600,
@@ -46780,7 +46776,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 230,
-        "AttTrue%": "19.6",
+        "AttTrue%": "19.5",
         Min: 240,
         Max: 570,
         Energy: 400,
@@ -46789,7 +46785,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "comet",
-        "AttTrue%": "22.6",
+        "AttTrue%": "22.7",
         Number: 5153,
         Success: 100,
         Level: 30,
@@ -46797,7 +46793,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blast of lightning",
-        "AttTrue%": "19.7",
+        "AttTrue%": "20.2",
         Number: 5154,
         Success: 100,
         Level: 40,
@@ -46828,7 +46824,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 150,
-        "AttTrue%": "50.4",
+        "AttTrue%": "50.6",
         Min: 10,
         Max: 40,
         Energy: 200,
@@ -46838,7 +46834,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "26.7",
+        "AttTrue%": "26.5",
         Number: 5033,
         Success: 100,
         Level: 50,
@@ -46846,7 +46842,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soulstrike",
-        "AttTrue%": "23.0",
+        "AttTrue%": "22.9",
         Number: 5034,
         Success: 100,
         Level: 50,
@@ -46876,7 +46872,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 90,
-        "AttTrue%": "36.4",
+        "AttTrue%": "35.6",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -46884,7 +46880,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 90,
-        "AttTrue%": "24.0",
+        "AttTrue%": "24.9",
         Min: 8,
         Max: 20,
         Energy: 500,
@@ -46892,7 +46888,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 90,
-        "AttTrue%": "23.6",
+        "AttTrue%": "22.9",
         Min: 10,
         Max: 38,
         Energy: 1000,
@@ -46901,7 +46897,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bolt of lightning",
-        "AttTrue%": "15.9",
+        "AttTrue%": "16.6",
         Number: 378,
         Success: 100,
         Level: 6,
@@ -46934,7 +46930,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a molten pseudopod",
         Acc: 140,
-        "AttTrue%": "70.4",
+        "AttTrue%": "70.5",
         Min: 34,
         Max: 65,
         Energy: 250,
@@ -46944,7 +46940,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "magma blast",
-        "AttTrue%": "29.6",
+        "AttTrue%": "29.5",
         Number: 5017,
         Success: 100,
         Level: 60,
@@ -46975,7 +46971,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 140,
-        "AttTrue%": "45.8",
+        "AttTrue%": "47.0",
         Min: 22,
         Max: 60,
         Energy: 333,
@@ -46983,7 +46979,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "35.5",
+        "AttTrue%": "34.9",
         Min: 22,
         Max: 90,
         Energy: 666,
@@ -46993,7 +46989,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "18.7",
+        "AttTrue%": "18.1",
         Number: 394,
         Success: 100,
         Level: 40,
@@ -47023,7 +47019,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 150,
-        "AttTrue%": "79.4",
+        "AttTrue%": "79.5",
         Min: 27,
         Max: 90,
         Energy: 333,
@@ -47031,7 +47027,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 140,
-        "AttTrue%": "7.0",
+        "AttTrue%": "7.9",
         Min: 27,
         Max: 90,
         Energy: 750,
@@ -47040,7 +47036,7 @@ export const monsterData: Monster[] = [
       {
         Name: "violently chomps you",
         Acc: 150,
-        "AttTrue%": "2.4",
+        "AttTrue%": "2.8",
         Min: 44,
         Max: 177,
         Energy: 1000,
@@ -47050,7 +47046,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "11.1",
+        "AttTrue%": "9.8",
         Number: 394,
         Success: 100,
         Level: 20,
@@ -47082,7 +47078,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites through your armor",
         Acc: 185,
-        "AttTrue%": "34.7",
+        "AttTrue%": "30.9",
         Min: 67,
         Max: 155,
         Energy: 250,
@@ -47100,7 +47096,7 @@ export const monsterData: Monster[] = [
       {
         Name: "violently chomps you",
         Acc: 195,
-        "AttTrue%": "17.3",
+        "AttTrue%": "20.8",
         Min: 101,
         Max: 428,
         Energy: 1000,
@@ -47110,7 +47106,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "torrent of flame",
-        "AttTrue%": "18.3",
+        "AttTrue%": "18.6",
         Number: 5157,
         Success: 100,
         Level: 70,
@@ -47139,7 +47135,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "pain",
-        "AttTrue%": "25.0",
+        "AttTrue%": "25.3",
         Number: 5128,
         Success: 100,
         Level: 50,
@@ -47147,7 +47143,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch bolt",
-        "AttTrue%": "23.7",
+        "AttTrue%": "25.4",
         Number: 136,
         Success: 100,
         Level: 40,
@@ -47155,7 +47151,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spear of dark energy",
-        "AttTrue%": "24.2",
+        "AttTrue%": "24.6",
         Number: 5103,
         Success: 100,
         Level: 150,
@@ -47163,7 +47159,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plasma bolt",
-        "AttTrue%": "27.0",
+        "AttTrue%": "24.7",
         Number: 5012,
         Success: 100,
         Level: 40,
@@ -47193,7 +47189,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 190,
-        "AttTrue%": "31.6",
+        "AttTrue%": "33.5",
         Min: 85,
         Max: 174,
         Energy: 500,
@@ -47201,7 +47197,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 195,
-        "AttTrue%": "34.8",
+        "AttTrue%": "32.9",
         Min: 105,
         Max: 260,
         Energy: 500,
@@ -47239,7 +47235,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 160,
-        "AttTrue%": "82.1",
+        "AttTrue%": "81.5",
         Min: 36,
         Max: 65,
         Energy: 250,
@@ -47257,7 +47253,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "energy drain",
-        "AttTrue%": "6.9",
+        "AttTrue%": "7.5",
         Number: 5158,
         Success: 100,
         Level: 25,
@@ -47287,7 +47283,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 185,
-        "AttTrue%": "36.7",
+        "AttTrue%": "35.7",
         Min: 48,
         Max: 106,
         Energy: 250,
@@ -47295,7 +47291,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls and whips you with its tail",
         Acc: 190,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.3",
         Min: 74,
         Max: 188,
         Energy: 750,
@@ -47303,7 +47299,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 185,
-        "AttTrue%": "28.5",
+        "AttTrue%": "29.4",
         Min: 68,
         Max: 210,
         Energy: 750,
@@ -47312,7 +47308,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of dark flame",
-        "AttTrue%": "14.8",
+        "AttTrue%": "14.5",
         Number: 5159,
         Success: 100,
         Level: 40,
@@ -47343,7 +47339,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gleefully jabs you",
         Acc: 170,
-        "AttTrue%": "70.7",
+        "AttTrue%": "72.2",
         Min: 16,
         Max: 34,
         Energy: 200,
@@ -47352,7 +47348,7 @@ export const monsterData: Monster[] = [
       {
         Name: "switfly steps around you, backstabbing you",
         Acc: 180,
-        "AttTrue%": "13.3",
+        "AttTrue%": "12.5",
         Min: 96,
         Max: 194,
         Energy: 400,
@@ -47361,7 +47357,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs into your vitals",
         Acc: 185,
-        "AttTrue%": "16.0",
+        "AttTrue%": "15.2",
         Min: 41,
         Max: 133,
         Energy: 200,
@@ -47390,7 +47386,7 @@ export const monsterData: Monster[] = [
       {
         Name: "heaves a boulder at you",
         Acc: 165,
-        "AttTrue%": "64.5",
+        "AttTrue%": "65.4",
         Min: 81,
         Max: 177,
         Energy: 500,
@@ -47398,7 +47394,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 175,
-        "AttTrue%": "21.9",
+        "AttTrue%": "21.1",
         Min: 101,
         Max: 194,
         Energy: 500,
@@ -47406,7 +47402,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 185,
-        "AttTrue%": "13.6",
+        "AttTrue%": "13.5",
         Min: 133,
         Max: 318,
         Energy: 1000,
@@ -47456,7 +47452,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a barbed tentacle",
         Acc: 185,
-        "AttTrue%": "67.7",
+        "AttTrue%": "66.5",
         Min: 19,
         Max: 68,
         Energy: 200,
@@ -47464,7 +47460,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you savagely",
         Acc: 190,
-        "AttTrue%": "21.2",
+        "AttTrue%": "21.8",
         Min: 64,
         Max: 162,
         Energy: 400,
@@ -47473,7 +47469,7 @@ export const monsterData: Monster[] = [
       {
         Name: "devours you",
         Acc: 185,
-        "AttTrue%": "7.9",
+        "AttTrue%": "8.6",
         Min: 116,
         Max: 310,
         Energy: 1000,
@@ -47482,7 +47478,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches a noxious cloud",
-        "AttTrue%": "3.3",
+        "AttTrue%": "3.1",
         Number: 5161,
         Success: 100,
         Level: 12,
@@ -47514,7 +47510,7 @@ export const monsterData: Monster[] = [
       {
         Name: "saps you",
         Acc: 180,
-        "AttTrue%": "69.6",
+        "AttTrue%": "69.2",
         Min: 1,
         Max: 120,
         Energy: 500,
@@ -47523,7 +47519,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 175,
-        "AttTrue%": "25.2",
+        "AttTrue%": "26.1",
         Min: 54,
         Max: 132,
         Energy: 500,
@@ -47532,7 +47528,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 185,
-        "AttTrue%": "5.1",
+        "AttTrue%": "4.7",
         Min: 71,
         Max: 126,
         Energy: 500,
@@ -47562,7 +47558,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 165,
-        "AttTrue%": "79.5",
+        "AttTrue%": "80.4",
         Min: 19,
         Max: 72,
         Energy: 200,
@@ -47571,7 +47567,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out hacks you",
         Acc: 165,
-        "AttTrue%": "20.5",
+        "AttTrue%": "19.6",
         Min: 77,
         Max: 194,
         Energy: 200,
@@ -47601,7 +47597,7 @@ export const monsterData: Monster[] = [
       {
         Name: "eviscerates you",
         Acc: 145,
-        "AttTrue%": "78.7",
+        "AttTrue%": "78.5",
         Min: 1,
         Max: 60,
         Energy: 250,
@@ -47609,7 +47605,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 150,
-        "AttTrue%": "21.3",
+        "AttTrue%": "21.5",
         Min: 16,
         Max: 76,
         Energy: 500,
@@ -47643,7 +47639,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a sweeping strike",
         Acc: 215,
-        "AttTrue%": "21.9",
+        "AttTrue%": "21.3",
         Min: 68,
         Max: 195,
         Energy: 200,
@@ -47652,7 +47648,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls his hammer in an arc, pulverizing you",
         Acc: 220,
-        "AttTrue%": "21.2",
+        "AttTrue%": "20.6",
         Min: 136,
         Max: 390,
         Energy: 400,
@@ -47661,7 +47657,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes your head with a mighty blow",
         Acc: 250,
-        "AttTrue%": "20.7",
+        "AttTrue%": "21.1",
         Min: 170,
         Max: 466,
         Energy: 400,
@@ -47670,7 +47666,7 @@ export const monsterData: Monster[] = [
       {
         Name: "delivers a calamitous strike, annihilating you",
         Acc: 250,
-        "AttTrue%": "15.6",
+        "AttTrue%": "15.8",
         Min: 168,
         Max: 849,
         Energy: 800,
@@ -47680,7 +47676,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shockwave",
-        "AttTrue%": "20.6",
+        "AttTrue%": "21.1",
         Number: 5167,
         Success: 100,
         Level: 80,
@@ -47710,7 +47706,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 165,
-        "AttTrue%": "70.8",
+        "AttTrue%": "71.9",
         Min: 37,
         Max: 90,
         Energy: 333,
@@ -47718,7 +47714,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and tears your throat",
         Acc: 155,
-        "AttTrue%": "7.9",
+        "AttTrue%": "7.6",
         Min: 89,
         Max: 166,
         Energy: 666,
@@ -47727,7 +47723,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a clawed tentacle",
         Acc: 160,
-        "AttTrue%": "21.2",
+        "AttTrue%": "20.5",
         Min: 66,
         Max: 128,
         Energy: 333,
@@ -47756,7 +47752,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gleefully jabs you",
         Acc: 170,
-        "AttTrue%": "72.0",
+        "AttTrue%": "71.0",
         Min: 16,
         Max: 34,
         Energy: 200,
@@ -47765,7 +47761,7 @@ export const monsterData: Monster[] = [
       {
         Name: "switfly steps around you, backstabbing you",
         Acc: 180,
-        "AttTrue%": "12.6",
+        "AttTrue%": "13.5",
         Min: 96,
         Max: 194,
         Energy: 400,
@@ -47832,7 +47828,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 120,
-        "AttTrue%": "94.1",
+        "AttTrue%": "94.9",
         Min: 22,
         Max: 46,
         Energy: 500,
@@ -47840,7 +47836,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 130,
-        "AttTrue%": "5.9",
+        "AttTrue%": "5.1",
         Min: 20,
         Max: 72,
         Energy: 1000,
@@ -47891,7 +47887,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 130,
-        "AttTrue%": "22.7",
+        "AttTrue%": "23.2",
         Min: 16,
         Max: 49,
         Energy: 250,
@@ -47899,7 +47895,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 135,
-        "AttTrue%": "22.2",
+        "AttTrue%": "22.8",
         Min: 48,
         Max: 157,
         Energy: 250,
@@ -47907,7 +47903,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 135,
-        "AttTrue%": "23.5",
+        "AttTrue%": "22.6",
         Min: 19,
         Max: 84,
         Energy: 250,
@@ -47917,7 +47913,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eye beam",
-        "AttTrue%": "16.0",
+        "AttTrue%": "15.9",
         Number: 5174,
         Success: 100,
         Level: 50,
@@ -47925,7 +47921,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "black orb",
-        "AttTrue%": "15.5",
+        "AttTrue%": "15.4",
         Number: 5175,
         Success: 100,
         Level: 50,
@@ -47990,7 +47986,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 185,
-        "AttTrue%": "26.9",
+        "AttTrue%": "27.2",
         Min: 22,
         Max: 60,
         Energy: 200,
@@ -47998,7 +47994,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 180,
-        "AttTrue%": "27.2",
+        "AttTrue%": "26.8",
         Min: 84,
         Max: 197,
         Energy: 200,
@@ -48006,7 +48002,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely cleaves you",
         Acc: 185,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.7",
         Min: 101,
         Max: 290,
         Energy: 600,
@@ -48015,7 +48011,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously hacks you",
         Acc: 190,
-        "AttTrue%": "24.5",
+        "AttTrue%": "24.4",
         Min: 77,
         Max: 202,
         Energy: 400,
@@ -48096,7 +48092,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 140,
-        "AttTrue%": "65.5",
+        "AttTrue%": "65.4",
         Min: 11,
         Max: 45,
         Energy: 200,
@@ -48104,7 +48100,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 145,
-        "AttTrue%": "34.5",
+        "AttTrue%": "34.6",
         Min: 44,
         Max: 160,
         Energy: 200,
@@ -48143,7 +48139,7 @@ export const monsterData: Monster[] = [
       {
         Name: "eviscerates you with its huge talons",
         Acc: 145,
-        "AttTrue%": "26.5",
+        "AttTrue%": "26.8",
         Min: 54,
         Max: 191,
         Energy: 250,
@@ -48152,7 +48148,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 155,
-        "AttTrue%": "20.9",
+        "AttTrue%": "21.3",
         Min: 116,
         Max: 285,
         Energy: 500,
@@ -48161,7 +48157,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 165,
-        "AttTrue%": "20.3",
+        "AttTrue%": "19.8",
         Min: 110,
         Max: 290,
         Energy: 500,
@@ -48170,7 +48166,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.5",
         Number: 5010,
         Success: 100,
         Level: 25,
@@ -48178,7 +48174,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "caustic gas",
-        "AttTrue%": "10.9",
+        "AttTrue%": "10.6",
         Number: 5504,
         Success: 100,
         Level: 55,
@@ -48239,7 +48235,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears through your defenses",
         Acc: 160,
-        "AttTrue%": "23.7",
+        "AttTrue%": "23.5",
         Min: 29,
         Max: 96,
         Energy: 200,
@@ -48248,7 +48244,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts skyward, diving and raking you",
         Acc: 165,
-        "AttTrue%": "20.1",
+        "AttTrue%": "18.5",
         Min: 77,
         Max: 223,
         Energy: 600,
@@ -48256,7 +48252,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws",
         Acc: 160,
-        "AttTrue%": "18.9",
+        "AttTrue%": "19.6",
         Min: 38,
         Max: 108,
         Energy: 600,
@@ -48265,7 +48261,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves into you with a flurry of talons",
         Acc: 160,
-        "AttTrue%": "22.7",
+        "AttTrue%": "22.8",
         Min: 62,
         Max: 168,
         Energy: 400,
@@ -48275,7 +48271,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gale winds",
-        "AttTrue%": "14.6",
+        "AttTrue%": "15.7",
         Number: 5508,
         Success: 100,
         Level: 50,
@@ -48310,7 +48306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps in and batters you",
         Acc: 155,
-        "AttTrue%": "19.5",
+        "AttTrue%": "19.8",
         Min: 74,
         Max: 146,
         Energy: 1000,
@@ -48318,7 +48314,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 160,
-        "AttTrue%": "19.5",
+        "AttTrue%": "19.1",
         Min: 98,
         Max: 224,
         Energy: 1000,
@@ -48326,7 +48322,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a huge stone, which clobbers you",
         Acc: 160,
-        "AttTrue%": "19.5",
+        "AttTrue%": "20.2",
         Min: 62,
         Max: 170,
         Energy: 1000,
@@ -48335,7 +48331,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a huge stone, which clobbers you",
         Acc: 165,
-        "AttTrue%": "20.8",
+        "AttTrue%": "19.7",
         Min: 62,
         Max: 170,
         Energy: 1000,
@@ -48345,7 +48341,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "roar",
-        "AttTrue%": "20.7",
+        "AttTrue%": "21.2",
         Number: 5486,
         Success: 100,
         Level: 55,
@@ -48382,7 +48378,7 @@ export const monsterData: Monster[] = [
       {
         Name: "disembowels you with its curved beak",
         Acc: 180,
-        "AttTrue%": "21.9",
+        "AttTrue%": "21.2",
         Min: 62,
         Max: 144,
         Energy: 400,
@@ -48391,7 +48387,7 @@ export const monsterData: Monster[] = [
       {
         Name: "dives at you, slashing you with its talons",
         Acc: 165,
-        "AttTrue%": "19.6",
+        "AttTrue%": "19.2",
         Min: 73,
         Max: 182,
         Energy: 600,
@@ -48399,7 +48395,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, eviscerating you",
         Acc: 170,
-        "AttTrue%": "18.1",
+        "AttTrue%": "18.6",
         Min: 49,
         Max: 211,
         Energy: 600,
@@ -48408,7 +48404,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws",
         Acc: 175,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.7",
         Min: 106,
         Max: 213,
         Energy: 600,
@@ -48417,7 +48413,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves into you with a flurry of talons",
         Acc: 165,
-        "AttTrue%": "20.4",
+        "AttTrue%": "21.4",
         Min: 39,
         Max: 118,
         Energy: 200,
@@ -48472,7 +48468,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a huge fist",
         Acc: 190,
-        "AttTrue%": "20.7",
+        "AttTrue%": "20.9",
         Min: 68,
         Max: 180,
         Energy: 200,
@@ -48481,7 +48477,7 @@ export const monsterData: Monster[] = [
       {
         Name: "callously eviscerates you",
         Acc: 225,
-        "AttTrue%": "20.8",
+        "AttTrue%": "19.3",
         Min: 196,
         Max: 433,
         Energy: 400,
@@ -48490,7 +48486,7 @@ export const monsterData: Monster[] = [
       {
         Name: "disembowels you",
         Acc: 200,
-        "AttTrue%": "17.5",
+        "AttTrue%": "17.8",
         Min: 166,
         Max: 494,
         Energy: 600,
@@ -48499,7 +48495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you with a spiked foot",
         Acc: 250,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.8",
         Min: 100,
         Max: 300,
         Energy: 400,
@@ -48509,7 +48505,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "obsidian storm",
-        "AttTrue%": "21.0",
+        "AttTrue%": "21.3",
         Number: 5542,
         Success: 100,
         Level: 100,
@@ -48543,7 +48539,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 180,
-        "AttTrue%": "21.6",
+        "AttTrue%": "21.9",
         Min: 15,
         Max: 50,
         Energy: 250,
@@ -48551,7 +48547,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 175,
-        "AttTrue%": "21.8",
+        "AttTrue%": "21.5",
         Min: 60,
         Max: 170,
         Energy: 250,
@@ -48560,7 +48556,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 190,
-        "AttTrue%": "21.8",
+        "AttTrue%": "20.6",
         Min: 30,
         Max: 100,
         Energy: 250,
@@ -48569,7 +48565,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 200,
-        "AttTrue%": "17.9",
+        "AttTrue%": "18.0",
         Min: 36,
         Max: 112,
         Energy: 500,
@@ -48579,7 +48575,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear of dark energy",
-        "AttTrue%": "16.8",
+        "AttTrue%": "18.0",
         Number: 5103,
         Success: 100,
         Level: 300,
@@ -48617,7 +48613,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cracks you over the head",
         Acc: 160,
-        "AttTrue%": "31.0",
+        "AttTrue%": "30.4",
         Min: 27,
         Max: 60,
         Energy: 250,
@@ -48625,7 +48621,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically whacks you",
         Acc: 170,
-        "AttTrue%": "35.9",
+        "AttTrue%": "35.1",
         Min: 81,
         Max: 180,
         Energy: 250,
@@ -48634,7 +48630,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "prismatic beam",
-        "AttTrue%": "9.4",
+        "AttTrue%": "10.2",
         Number: 1038,
         Success: 100,
         Level: 30,
@@ -48650,7 +48646,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "golden vial",
-        "AttTrue%": "18.2",
+        "AttTrue%": "18.7",
         Number: 459,
         Success: 100,
         Level: 75,
@@ -48687,7 +48683,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bone dust",
-        "AttTrue%": "4.3",
+        "AttTrue%": "4.4",
         Number: 5545,
         Success: 100,
         Level: 65,
@@ -48698,7 +48694,7 @@ export const monsterData: Monster[] = [
       {
         Name: "winds up and pulverizes you",
         Acc: 165,
-        "AttTrue%": "42.9",
+        "AttTrue%": "43.5",
         Min: 45,
         Max: 117,
         Energy: 200,
@@ -48715,7 +48711,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and slams you on the ground",
         Acc: 165,
-        "AttTrue%": "19.4",
+        "AttTrue%": "19.3",
         Min: 170,
         Max: 283,
         Energy: 600,
@@ -48724,7 +48720,7 @@ export const monsterData: Monster[] = [
       {
         Name: "unleashes a flurry of savage blows on you",
         Acc: 175,
-        "AttTrue%": "5.0",
+        "AttTrue%": "4.3",
         Min: 184,
         Max: 370,
         Energy: 600,
@@ -48760,7 +48756,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 180,
-        "AttTrue%": "21.1",
+        "AttTrue%": "21.2",
         Min: 18,
         Max: 74,
         Energy: 200,
@@ -48768,7 +48764,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you in the stomach",
         Acc: 185,
-        "AttTrue%": "20.9",
+        "AttTrue%": "21.7",
         Min: 38,
         Max: 122,
         Energy: 200,
@@ -48776,7 +48772,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 190,
-        "AttTrue%": "16.5",
+        "AttTrue%": "16.3",
         Min: 120,
         Max: 274,
         Energy: 600,
@@ -48785,7 +48781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "feints and thrusts its spear into you",
         Acc: 190,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.3",
         Min: 77,
         Max: 314,
         Energy: 400,
@@ -48794,7 +48790,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 200,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.6",
         Min: 72,
         Max: 296,
         Energy: 200,
@@ -48887,7 +48883,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 170,
-        "AttTrue%": "31.5",
+        "AttTrue%": "29.9",
         Min: 1,
         Max: 200,
         Energy: 250,
@@ -48897,7 +48893,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "29.5",
+        "AttTrue%": "31.2",
         Number: 391,
         Success: 100,
         Level: 60,
@@ -48905,7 +48901,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "draws the breath",
-        "AttTrue%": "8.7",
+        "AttTrue%": "8.8",
         Number: 5602,
         Success: 100,
         Level: 20,
@@ -48913,7 +48909,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch fury",
-        "AttTrue%": "30.3",
+        "AttTrue%": "30.1",
         Number: 749,
         Success: 100,
         Level: 60,
@@ -48976,7 +48972,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously slices into you",
         Acc: 95,
-        "AttTrue%": "44.8",
+        "AttTrue%": "43.2",
         Min: 8,
         Max: 29,
         Energy: 333,
@@ -48984,7 +48980,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 105,
-        "AttTrue%": "10.4",
+        "AttTrue%": "11.1",
         Min: 19,
         Max: 88,
         Energy: 333,
@@ -48992,7 +48988,7 @@ export const monsterData: Monster[] = [
       {
         Name: "feints and lunges, impaling you",
         Acc: 100,
-        "AttTrue%": "44.8",
+        "AttTrue%": "45.7",
         Min: 7,
         Max: 30,
         Energy: 666,
@@ -49048,7 +49044,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with its hammer",
         Acc: 170,
-        "AttTrue%": "21.8",
+        "AttTrue%": "22.1",
         Min: 31,
         Max: 96,
         Energy: 200,
@@ -49057,7 +49053,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shatters your armor with a mighty blow",
         Acc: 175,
-        "AttTrue%": "22.4",
+        "AttTrue%": "21.5",
         Min: 91,
         Max: 270,
         Energy: 200,
@@ -49066,7 +49062,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 175,
-        "AttTrue%": "18.3",
+        "AttTrue%": "18.6",
         Min: 68,
         Max: 264,
         Energy: 400,
@@ -49076,7 +49072,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plague cask",
-        "AttTrue%": "22.9",
+        "AttTrue%": "23.6",
         Number: 5619,
         Success: 100,
         Level: 100,
@@ -49084,7 +49080,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "acid tempest",
-        "AttTrue%": "14.7",
+        "AttTrue%": "14.3",
         Number: 5005,
         Success: 100,
         Level: 60,
@@ -49145,7 +49141,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears into you",
         Acc: 160,
-        "AttTrue%": "26.1",
+        "AttTrue%": "25.4",
         Min: 36,
         Max: 97,
         Energy: 250,
@@ -49153,7 +49149,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely slashes you",
         Acc: 165,
-        "AttTrue%": "25.9",
+        "AttTrue%": "25.6",
         Min: 72,
         Max: 194,
         Energy: 250,
@@ -49161,7 +49157,7 @@ export const monsterData: Monster[] = [
       {
         Name: "undercuts you",
         Acc: 165,
-        "AttTrue%": "22.3",
+        "AttTrue%": "21.5",
         Min: 44,
         Max: 122,
         Energy: 500,
@@ -49171,7 +49167,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches",
-        "AttTrue%": "25.6",
+        "AttTrue%": "27.5",
         Number: 556,
         Success: 100,
         Level: 60,
@@ -49206,7 +49202,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "16.9",
+        "AttTrue%": "17.1",
         Min: 11,
         Max: 44,
         Energy: 250,
@@ -49216,7 +49212,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tainted word",
-        "AttTrue%": "29.5",
+        "AttTrue%": "28.8",
         Number: 5032,
         Success: 100,
         Level: 70,
@@ -49224,7 +49220,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spear of dark energy",
-        "AttTrue%": "24.2",
+        "AttTrue%": "23.7",
         Number: 5103,
         Success: 100,
         Level: 70,
@@ -49232,7 +49228,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soul rip",
-        "AttTrue%": "6.3",
+        "AttTrue%": "6.5",
         Number: 211,
         Success: 100,
         Level: 50,
@@ -49240,7 +49236,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "god's wrath",
-        "AttTrue%": "23.1",
+        "AttTrue%": "23.9",
         Number: 122,
         Success: 100,
         Level: 40,
@@ -49276,7 +49272,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves you up",
         Acc: 190,
-        "AttTrue%": "20.8",
+        "AttTrue%": "20.1",
         Min: 34,
         Max: 71,
         Energy: 200,
@@ -49285,7 +49281,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks through your armour",
         Acc: 190,
-        "AttTrue%": "20.0",
+        "AttTrue%": "21.2",
         Min: 68,
         Max: 172,
         Energy: 200,
@@ -49294,7 +49290,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cuts you with a rising slash",
         Acc: 190,
-        "AttTrue%": "17.9",
+        "AttTrue%": "17.5",
         Min: 81,
         Max: 210,
         Energy: 400,
@@ -49304,7 +49300,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "21.2",
+        "AttTrue%": "20.5",
         Number: 136,
         Success: 100,
         Level: 30,
@@ -49312,7 +49308,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fireball",
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.7",
         Number: 243,
         Success: 100,
         Level: 50,
@@ -49342,7 +49338,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 260,
-        "AttTrue%": "80.6",
+        "AttTrue%": "79.6",
         Min: 25,
         Max: 100,
         Energy: 500,
@@ -49350,7 +49346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 300,
-        "AttTrue%": "19.4",
+        "AttTrue%": "20.4",
         Min: 45,
         Max: 200,
         Energy: 500,
@@ -49385,7 +49381,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 230,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.7",
         Min: 65,
         Max: 140,
         Energy: 200,
@@ -49403,7 +49399,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 230,
-        "AttTrue%": "20.5",
+        "AttTrue%": "21.2",
         Min: 45,
         Max: 90,
         Energy: 125,
@@ -49412,7 +49408,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 240,
-        "AttTrue%": "20.9",
+        "AttTrue%": "20.7",
         Min: 50,
         Max: 60,
         Energy: 125,
@@ -49421,7 +49417,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 250,
-        "AttTrue%": "20.9",
+        "AttTrue%": "19.6",
         Min: 100,
         Max: 200,
         Energy: 200,
@@ -49457,7 +49453,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 220,
-        "AttTrue%": "34.0",
+        "AttTrue%": "32.2",
         Min: 65,
         Max: 100,
         Energy: 200,
@@ -49466,7 +49462,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "hail of stones",
-        "AttTrue%": "8.5",
+        "AttTrue%": "9.7",
         Number: 5080,
         Success: 80,
         Level: 60,
@@ -49474,7 +49470,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thornblast",
-        "AttTrue%": "18.9",
+        "AttTrue%": "20.0",
         Number: 5241,
         Success: 100,
         Level: 60,
@@ -49482,7 +49478,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plasma bolt",
-        "AttTrue%": "38.6",
+        "AttTrue%": "38.0",
         Number: 5012,
         Success: 100,
         Level: 40,
@@ -49512,7 +49508,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 130,
-        "AttTrue%": "72.3",
+        "AttTrue%": "71.8",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -49520,7 +49516,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 140,
-        "AttTrue%": "13.0",
+        "AttTrue%": "12.6",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -49528,7 +49524,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 150,
-        "AttTrue%": "14.6",
+        "AttTrue%": "15.6",
         Min: 8,
         Max: 30,
         Energy: 200,
@@ -49558,7 +49554,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 135,
-        "AttTrue%": "87.5",
+        "AttTrue%": "86.6",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -49566,7 +49562,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 145,
-        "AttTrue%": "12.5",
+        "AttTrue%": "13.4",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -49639,7 +49635,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you with its barbed spear",
         Acc: 140,
-        "AttTrue%": "60.4",
+        "AttTrue%": "59.9",
         Min: 49,
         Max: 122,
         Energy: 1000,
@@ -49647,7 +49643,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 150,
-        "AttTrue%": "39.6",
+        "AttTrue%": "40.1",
         Min: 60,
         Max: 140,
         Energy: 1000,
@@ -49680,7 +49676,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 150,
-        "AttTrue%": "54.5",
+        "AttTrue%": "56.2",
         Min: 49,
         Max: 122,
         Energy: 1000,
@@ -49690,7 +49686,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "45.5",
+        "AttTrue%": "43.8",
         Number: 391,
         Success: 100,
         Level: 60,
@@ -49726,7 +49722,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 150,
-        "AttTrue%": "71.0",
+        "AttTrue%": "69.5",
         Min: 10,
         Max: 40,
         Energy: 200,
@@ -49736,7 +49732,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "29.0",
+        "AttTrue%": "30.5",
         Number: 391,
         Success: 100,
         Level: 60,
@@ -49772,7 +49768,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns you with its touch",
         Acc: 140,
-        "AttTrue%": "57.3",
+        "AttTrue%": "56.4",
         Min: 50,
         Max: 100,
         Energy: 250,
@@ -49781,7 +49777,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 150,
-        "AttTrue%": "15.8",
+        "AttTrue%": "18.5",
         Min: 70,
         Max: 150,
         Energy: 500,
@@ -49791,7 +49787,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "27.0",
+        "AttTrue%": "25.0",
         Number: 391,
         Success: 100,
         Level: 50,
@@ -49826,7 +49822,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 130,
-        "AttTrue%": "72.9",
+        "AttTrue%": "73.8",
         Min: 27,
         Max: 90,
         Energy: 250,
@@ -49834,7 +49830,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 140,
-        "AttTrue%": "27.1",
+        "AttTrue%": "26.2",
         Min: 27,
         Max: 90,
         Energy: 500,
@@ -49911,7 +49907,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fists",
         Acc: 150,
-        "AttTrue%": "63.5",
+        "AttTrue%": "64.3",
         Min: 49,
         Max: 122,
         Energy: 250,
@@ -49919,7 +49915,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with its incredible bulk",
         Acc: 150,
-        "AttTrue%": "18.2",
+        "AttTrue%": "18.4",
         Min: 100,
         Max: 150,
         Energy: 500,
@@ -49927,7 +49923,7 @@ export const monsterData: Monster[] = [
       {
         Name: "kicks you",
         Acc: 150,
-        "AttTrue%": "18.3",
+        "AttTrue%": "17.3",
         Min: 60,
         Max: 100,
         Energy: 500,
@@ -49961,7 +49957,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 145,
-        "AttTrue%": "52.3",
+        "AttTrue%": "51.7",
         Min: 40,
         Max: 70,
         Energy: 200,
@@ -49969,7 +49965,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you",
         Acc: 150,
-        "AttTrue%": "47.7",
+        "AttTrue%": "48.3",
         Min: 70,
         Max: 120,
         Energy: 400,
@@ -50004,7 +50000,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns you with its touch",
         Acc: 140,
-        "AttTrue%": "63.0",
+        "AttTrue%": "62.6",
         Min: 60,
         Max: 120,
         Energy: 250,
@@ -50013,7 +50009,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 150,
-        "AttTrue%": "37.0",
+        "AttTrue%": "37.4",
         Min: 80,
         Max: 160,
         Energy: 500,
@@ -50048,7 +50044,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with its fists",
         Acc: 150,
-        "AttTrue%": "53.0",
+        "AttTrue%": "56.5",
         Min: 49,
         Max: 122,
         Energy: 1000,
@@ -50057,7 +50053,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 150,
-        "AttTrue%": "47.0",
+        "AttTrue%": "43.5",
         Min: 100,
         Max: 160,
         Energy: 500,
@@ -50131,7 +50127,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 130,
-        "AttTrue%": "63.5",
+        "AttTrue%": "64.4",
         Min: 49,
         Max: 122,
         Energy: 250,
@@ -50139,7 +50135,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 140,
-        "AttTrue%": "36.5",
+        "AttTrue%": "35.6",
         Min: 100,
         Max: 160,
         Energy: 500,
@@ -50215,7 +50211,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a ball of slime at you",
         Acc: 140,
-        "AttTrue%": "66.7",
+        "AttTrue%": "67.4",
         Min: 50,
         Max: 120,
         Energy: 200,
@@ -50223,7 +50219,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and drowns you",
         Acc: 150,
-        "AttTrue%": "33.3",
+        "AttTrue%": "32.6",
         Min: 150,
         Max: 200,
         Energy: 1000,
@@ -50256,7 +50252,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and drowns you",
         Acc: 150,
-        "AttTrue%": "80.7",
+        "AttTrue%": "79.4",
         Min: 49,
         Max: 122,
         Energy: 1000,
@@ -50265,7 +50261,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "grabs and smashes",
-        "AttTrue%": "19.3",
+        "AttTrue%": "20.6",
         Number: 767,
         Success: 100,
         Level: 50,
@@ -50294,7 +50290,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 150,
-        "AttTrue%": "68.9",
+        "AttTrue%": "66.5",
         Min: 49,
         Max: 122,
         Energy: 200,
@@ -50302,7 +50298,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 160,
-        "AttTrue%": "31.1",
+        "AttTrue%": "33.5",
         Min: 200,
         Max: 300,
         Energy: 1000,
@@ -50330,7 +50326,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 150,
-        "AttTrue%": "56.5",
+        "AttTrue%": "57.6",
         Min: 49,
         Max: 122,
         Energy: 1000,
@@ -50338,7 +50334,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 5552,
-        "AttTrue%": "43.5",
+        "AttTrue%": "42.4",
         Min: 40,
         Max: 200,
         Energy: 200,
@@ -50375,7 +50371,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 150,
-        "AttTrue%": "64.5",
+        "AttTrue%": "64.1",
         Min: 200,
         Max: 300,
         Energy: 200,
@@ -50383,7 +50379,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 160,
-        "AttTrue%": "17.4",
+        "AttTrue%": "18.3",
         Min: 220,
         Max: 320,
         Energy: 500,
@@ -50391,7 +50387,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 200,
-        "AttTrue%": "18.0",
+        "AttTrue%": "17.6",
         Min: 200,
         Max: 400,
         Energy: 500,
@@ -50451,7 +50447,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "85.5",
+        "AttTrue%": "85.1",
         Min: 10,
         Max: 30,
         Energy: 200,
@@ -50459,7 +50455,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "14.5",
+        "AttTrue%": "14.9",
         Min: 40,
         Max: 100,
         Energy: 200,
@@ -50491,7 +50487,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 125,
-        "AttTrue%": "92.7",
+        "AttTrue%": "91.8",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -50499,7 +50495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 160,
-        "AttTrue%": "7.3",
+        "AttTrue%": "8.2",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -50529,7 +50525,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stings you with a tentacle",
         Acc: 105,
-        "AttTrue%": "51.2",
+        "AttTrue%": "51.1",
         Min: 5,
         Max: 16,
         Energy: 250,
@@ -50537,7 +50533,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stings you with a tentacle",
         Acc: 105,
-        "AttTrue%": "48.8",
+        "AttTrue%": "48.9",
         Min: 15,
         Max: 30,
         Energy: 300,
@@ -50570,7 +50566,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 105,
-        "AttTrue%": "50.2",
+        "AttTrue%": "50.5",
         Min: 7,
         Max: 25,
         Energy: 250,
@@ -50578,7 +50574,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you with its spines",
         Acc: 105,
-        "AttTrue%": "49.8",
+        "AttTrue%": "49.5",
         Min: 18,
         Max: 30,
         Energy: 300,
@@ -50611,7 +50607,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 105,
-        "AttTrue%": "50.6",
+        "AttTrue%": "49.2",
         Min: 6,
         Max: 21,
         Energy: 250,
@@ -50620,7 +50616,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you with its spines",
         Acc: 105,
-        "AttTrue%": "49.4",
+        "AttTrue%": "50.8",
         Min: 18,
         Max: 30,
         Energy: 300,
@@ -50653,7 +50649,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 110,
-        "AttTrue%": "50.1",
+        "AttTrue%": "50.2",
         Min: 8,
         Max: 30,
         Energy: 250,
@@ -50661,7 +50657,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 105,
-        "AttTrue%": "49.9",
+        "AttTrue%": "49.8",
         Min: 15,
         Max: 40,
         Energy: 300,
@@ -50693,7 +50689,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 100,
-        "AttTrue%": "50.8",
+        "AttTrue%": "50.2",
         Min: 12,
         Max: 24,
         Energy: 250,
@@ -50701,7 +50697,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely slashes at you with its stinger",
         Acc: 105,
-        "AttTrue%": "49.2",
+        "AttTrue%": "49.8",
         Min: 15,
         Max: 51,
         Energy: 300,
@@ -50733,7 +50729,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 105,
-        "AttTrue%": "51.8",
+        "AttTrue%": "51.0",
         Min: 5,
         Max: 16,
         Energy: 100,
@@ -50742,7 +50738,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 105,
-        "AttTrue%": "48.2",
+        "AttTrue%": "49.0",
         Min: 15,
         Max: 30,
         Energy: 500,
@@ -50775,7 +50771,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 110,
-        "AttTrue%": "52.6",
+        "AttTrue%": "52.8",
         Min: 10,
         Max: 41,
         Energy: 250,
@@ -50783,7 +50779,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 110,
-        "AttTrue%": "47.4",
+        "AttTrue%": "47.2",
         Min: 15,
         Max: 65,
         Energy: 500,
@@ -50816,7 +50812,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 115,
-        "AttTrue%": "52.8",
+        "AttTrue%": "55.2",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -50824,7 +50820,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 110,
-        "AttTrue%": "47.2",
+        "AttTrue%": "44.8",
         Min: 15,
         Max: 45,
         Energy: 500,
@@ -50857,7 +50853,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "56.2",
+        "AttTrue%": "56.8",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -50865,7 +50861,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 105,
-        "AttTrue%": "31.2",
+        "AttTrue%": "31.0",
         Min: 15,
         Max: 45,
         Energy: 500,
@@ -50874,7 +50870,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 110,
-        "AttTrue%": "12.6",
+        "AttTrue%": "12.2",
         Min: 30,
         Max: 60,
         Energy: 1000,
@@ -50906,7 +50902,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 105,
-        "AttTrue%": "55.8",
+        "AttTrue%": "57.6",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -50914,7 +50910,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 105,
-        "AttTrue%": "32.1",
+        "AttTrue%": "30.6",
         Min: 15,
         Max: 45,
         Energy: 500,
@@ -50923,7 +50919,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 110,
-        "AttTrue%": "12.1",
+        "AttTrue%": "11.8",
         Min: 30,
         Max: 60,
         Energy: 1000,
@@ -50986,7 +50982,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 95,
-        "AttTrue%": "54.3",
+        "AttTrue%": "53.1",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -50994,7 +50990,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 105,
-        "AttTrue%": "45.7",
+        "AttTrue%": "46.9",
         Min: 15,
         Max: 45,
         Energy: 500,
@@ -51069,7 +51065,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 125,
-        "AttTrue%": "44.9",
+        "AttTrue%": "44.0",
         Min: 18,
         Max: 46,
         Energy: 250,
@@ -51077,7 +51073,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously bites you",
         Acc: 120,
-        "AttTrue%": "42.7",
+        "AttTrue%": "42.9",
         Min: 36,
         Max: 92,
         Energy: 500,
@@ -51086,7 +51082,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its massive fluked tail",
         Acc: 125,
-        "AttTrue%": "12.4",
+        "AttTrue%": "13.1",
         Min: 50,
         Max: 80,
         Energy: 1000,
@@ -51162,7 +51158,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 160,
-        "AttTrue%": "56.1",
+        "AttTrue%": "55.7",
         Min: 100,
         Max: 125,
         Energy: 200,
@@ -51179,7 +51175,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 175,
-        "AttTrue%": "12.2",
+        "AttTrue%": "12.6",
         Min: 200,
         Max: 300,
         Energy: 1000,
@@ -51212,7 +51208,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 160,
-        "AttTrue%": "52.4",
+        "AttTrue%": "51.5",
         Min: 40,
         Max: 60,
         Energy: 150,
@@ -51220,7 +51216,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 160,
-        "AttTrue%": "47.6",
+        "AttTrue%": "48.5",
         Min: 50,
         Max: 70,
         Energy: 300,
@@ -51252,7 +51248,7 @@ export const monsterData: Monster[] = [
       {
         Name: "releases a bolt of force from its palm",
         Acc: 75,
-        "AttTrue%": "77.6",
+        "AttTrue%": "77.4",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -51261,7 +51257,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "salt spray",
-        "AttTrue%": "22.4",
+        "AttTrue%": "22.6",
         Number: 835,
         Success: 20,
         Level: 50,
@@ -51292,7 +51288,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 90,
-        "AttTrue%": "69.5",
+        "AttTrue%": "70.3",
         Min: 10,
         Max: 30,
         Energy: 500,
@@ -51300,7 +51296,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 100,
-        "AttTrue%": "30.5",
+        "AttTrue%": "29.7",
         Min: 20,
         Max: 30,
         Energy: 500,
@@ -51331,7 +51327,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 100,
-        "AttTrue%": "94.9",
+        "AttTrue%": "95.1",
         Min: 8,
         Max: 30,
         Energy: 250,
@@ -51339,7 +51335,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 90,
-        "AttTrue%": "5.1",
+        "AttTrue%": "4.9",
         Min: 20,
         Max: 85,
         Energy: 250,
@@ -51355,7 +51351,7 @@ export const monsterData: Monster[] = [
     "Follow%": 0,
     MagicRes: 50,
     EXP: 1000,
-    HP: 200,
+    HP: 500,
     HPRegen: 50,
     CharmLVL: 20,
     Type: 3,
@@ -51368,15 +51364,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 65,
-        "AttTrue%": "76.9",
+        "AttTrue%": "75.5",
         Min: 5,
         Max: 18,
         Energy: 1000,
       },
       {
         Name: "grabs you and chomps you",
-        Acc: 55,
-        "AttTrue%": "23.1",
+        Acc: 70,
+        "AttTrue%": "24.5",
         Min: 20,
         Max: 35,
         Energy: 1000,
@@ -51447,7 +51443,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.3",
+        "AttTrue%": "97.5",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51457,7 +51453,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "colour spray",
-        "AttTrue%": "2.7",
+        "AttTrue%": "2.5",
         Number: 254,
         Success: 100,
         Level: 50,
@@ -51570,7 +51566,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.4",
+        "AttTrue%": "97.2",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51580,7 +51576,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.8",
         Number: 95,
         Success: 100,
         Level: 40,
@@ -51611,7 +51607,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.5",
+        "AttTrue%": "97.2",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51621,7 +51617,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blizzard",
-        "AttTrue%": "2.5",
+        "AttTrue%": "2.8",
         Number: 771,
         Success: 100,
         Level: 50,
@@ -51652,7 +51648,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "94.8",
+        "AttTrue%": "94.9",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51662,7 +51658,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "entangle",
-        "AttTrue%": "5.2",
+        "AttTrue%": "5.1",
         Number: 93,
         Success: 100,
         Level: 40,
@@ -51734,7 +51730,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.4",
+        "AttTrue%": "97.5",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51744,7 +51740,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "forked lightning",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.5",
         Number: 5021,
         Success: 100,
         Level: 50,
@@ -51816,7 +51812,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.4",
+        "AttTrue%": "97.2",
         Min: 20,
         Max: 30,
         Energy: 250,
@@ -51826,7 +51822,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spirit horde",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.8",
         Number: 5024,
         Success: 35,
         Level: 50,
@@ -51857,7 +51853,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.4",
+        "AttTrue%": "96.8",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51867,7 +51863,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid tempest",
-        "AttTrue%": "2.6",
+        "AttTrue%": "3.2",
         Number: 805,
         Success: 100,
         Level: 50,
@@ -51898,7 +51894,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.6",
+        "AttTrue%": "97.4",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51908,7 +51904,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "2.4",
+        "AttTrue%": "2.6",
         Number: 721,
         Success: 100,
         Level: 50,
@@ -51939,7 +51935,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.3",
+        "AttTrue%": "98.4",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -51949,7 +51945,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "fear",
-        "AttTrue%": "1.7",
+        "AttTrue%": "1.6",
         Number: 1027,
         Success: 100,
         Level: 40,
@@ -51965,7 +51961,7 @@ export const monsterData: Monster[] = [
     DamageResist: 15,
     "Follow%": 50,
     MagicRes: 100,
-    EXP: 15000,
+    EXP: 20000,
     HP: 800,
     HPRegen: 50,
     CharmLVL: 999,
@@ -51978,15 +51974,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "52.8",
+        "AttTrue%": "82.3",
         Min: 20,
         Max: 60,
         Energy: 250,
       },
       {
         Name: "all-out slashes you",
-        Acc: 140,
-        "AttTrue%": "47.2",
+        Acc: 145,
+        "AttTrue%": "17.7",
         Min: 60,
         Max: 120,
         Energy: 500,
@@ -52001,7 +51997,7 @@ export const monsterData: Monster[] = [
     DamageResist: 15,
     "Follow%": 50,
     MagicRes: 100,
-    EXP: 14000,
+    EXP: 18000,
     HP: 700,
     HPRegen: 50,
     CharmLVL: 999,
@@ -52017,7 +52013,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 125,
-        "AttTrue%": "62.4",
+        "AttTrue%": "65.0",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -52025,7 +52021,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 140,
-        "AttTrue%": "25.7",
+        "AttTrue%": "23.4",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -52034,10 +52030,10 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "divine fury",
-        "AttTrue%": "11.9",
+        "AttTrue%": "11.6",
         Number: 5035,
         Success: 100,
-        Level: 60,
+        Level: 50,
         Energy: 1000,
       },
     ],
@@ -52046,11 +52042,11 @@ export const monsterData: Monster[] = [
     Number: 2177,
     Name: "eladrin",
     Weapon: 2221,
-    ArmourClass: 80,
+    ArmourClass: 70,
     DamageResist: 8,
     "Follow%": 50,
     MagicRes: 120,
-    EXP: 13000,
+    EXP: 16000,
     HP: 850,
     HPRegen: 50,
     CharmLVL: 999,
@@ -52062,7 +52058,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 155,
-        "AttTrue%": "100.0",
+        "AttTrue%": "87.8",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -52070,7 +52066,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 165,
-        "AttTrue%": "0.0",
+        "AttTrue%": "12.2",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -52085,7 +52081,7 @@ export const monsterData: Monster[] = [
     DamageResist: 8,
     "Follow%": 50,
     MagicRes: 120,
-    EXP: 15000,
+    EXP: 18000,
     HP: 850,
     HPRegen: 50,
     CharmLVL: 999,
@@ -52098,7 +52094,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you",
         Acc: 125,
-        "AttTrue%": "59.6",
+        "AttTrue%": "60.3",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -52106,7 +52102,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 150,
-        "AttTrue%": "30.9",
+        "AttTrue%": "30.4",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -52115,7 +52111,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plasma bolt",
-        "AttTrue%": "9.5",
+        "AttTrue%": "9.3",
         Number: 293,
         Success: 100,
         Level: 75,
@@ -52131,7 +52127,7 @@ export const monsterData: Monster[] = [
     DamageResist: 8,
     "Follow%": 50,
     MagicRes: 120,
-    EXP: 14000,
+    EXP: 18000,
     HP: 850,
     HPRegen: 50,
     CharmLVL: 999,
@@ -52144,16 +52140,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "skewers you",
-        Acc: 135,
-        "AttTrue%": "50.3",
+        Acc: 155,
+        "AttTrue%": "50.9",
         Min: 20,
         Max: 60,
         Energy: 200,
       },
       {
         Name: "leaps and impales you",
-        Acc: 140,
-        "AttTrue%": "19.8",
+        Acc: 160,
+        "AttTrue%": "20.4",
         Min: 25,
         Max: 65,
         Energy: 200,
@@ -52161,8 +52157,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spins and critically skewers you",
-        Acc: 160,
-        "AttTrue%": "30.0",
+        Acc: 165,
+        "AttTrue%": "28.7",
         Min: 20,
         Max: 80,
         Energy: 200,
@@ -52174,10 +52170,10 @@ export const monsterData: Monster[] = [
     Name: "eladrin mage",
     Weapon: 2222,
     ArmourClass: 75,
-    DamageResist: 8,
+    DamageResist: 4,
     "Follow%": 50,
     MagicRes: 120,
-    EXP: 14500,
+    EXP: 18000,
     HP: 850,
     HPRegen: 50,
     CharmLVL: 999,
@@ -52189,7 +52185,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you",
         Acc: 125,
-        "AttTrue%": "61.4",
+        "AttTrue%": "60.0",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -52197,7 +52193,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 150,
-        "AttTrue%": "29.0",
+        "AttTrue%": "30.0",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -52206,7 +52202,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "9.5",
+        "AttTrue%": "10.0",
         Number: 136,
         Success: 100,
         Level: 75,
@@ -52222,7 +52218,7 @@ export const monsterData: Monster[] = [
     DamageResist: 8,
     "Follow%": 50,
     MagicRes: 120,
-    EXP: 14500,
+    EXP: 16500,
     HP: 850,
     HPRegen: 50,
     CharmLVL: 999,
@@ -52234,7 +52230,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "87.8",
+        "AttTrue%": "88.2",
         Min: 15,
         Max: 40,
         Energy: 200,
@@ -52242,7 +52238,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 155,
-        "AttTrue%": "4.9",
+        "AttTrue%": "5.0",
         Min: 40,
         Max: 120,
         Energy: 500,
@@ -52251,7 +52247,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "7.3",
+        "AttTrue%": "6.8",
         Number: 136,
         Success: 100,
         Level: 60,
@@ -52264,7 +52260,7 @@ export const monsterData: Monster[] = [
     Name: "ogre guard",
     Weapon: 732,
     ArmourClass: 75,
-    DamageResist: 10,
+    DamageResist: 6,
     "Follow%": 0,
     MagicRes: 80,
     EXP: 19000,
@@ -52279,16 +52275,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "smashes you",
-        Acc: 155,
-        "AttTrue%": "60.4",
+        Acc: 145,
+        "AttTrue%": "59.3",
         Min: 50,
         Max: 100,
         Energy: 400,
       },
       {
         Name: "smashes you with a powerful blow",
-        Acc: 165,
-        "AttTrue%": "39.6",
+        Acc: 155,
+        "AttTrue%": "40.7",
         Min: 50,
         Max: 180,
         Energy: 400,
@@ -52300,7 +52296,7 @@ export const monsterData: Monster[] = [
     Name: "ogre-mage",
     Weapon: 733,
     ArmourClass: 75,
-    DamageResist: 16,
+    DamageResist: 8,
     "Follow%": 70,
     MagicRes: 100,
     EXP: 20000,
@@ -52345,11 +52341,11 @@ export const monsterData: Monster[] = [
     Number: 2184,
     Name: "mercenary captain",
     Weapon: 3703,
-    ArmourClass: 90,
-    DamageResist: 12,
+    ArmourClass: 80,
+    DamageResist: 8,
     "Follow%": 0,
     MagicRes: 35,
-    EXP: 18000,
+    EXP: 22000,
     HP: 1200,
     HPRegen: 50,
     CharmLVL: 90,
@@ -52362,15 +52358,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "92.1",
+        "AttTrue%": "91.4",
         Min: 50,
         Max: 120,
         Energy: 400,
       },
       {
         Name: "all-out slashes you",
-        Acc: 165,
-        "AttTrue%": "7.9",
+        Acc: 155,
+        "AttTrue%": "8.6",
         Min: 70,
         Max: 150,
         Energy: 600,
@@ -52382,7 +52378,7 @@ export const monsterData: Monster[] = [
     Name: "warlock mercenary",
     Weapon: 3703,
     ArmourClass: 90,
-    DamageResist: 12,
+    DamageResist: 8,
     "Follow%": 70,
     MagicRes: 100,
     EXP: 19000,
@@ -52398,15 +52394,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "55.0",
+        "AttTrue%": "55.3",
         Min: 50,
         Max: 120,
         Energy: 400,
       },
       {
         Name: "all-out slashes you",
-        Acc: 165,
-        "AttTrue%": "38.9",
+        Acc: 155,
+        "AttTrue%": "39.3",
         Min: 70,
         Max: 150,
         Energy: 600,
@@ -52415,7 +52411,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "6.1",
+        "AttTrue%": "5.4",
         Number: 136,
         Success: 100,
         Level: 60,
@@ -52444,15 +52440,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "80.4",
+        "AttTrue%": "79.3",
         Min: 50,
         Max: 120,
         Energy: 500,
       },
       {
         Name: "all-out slashes you",
-        Acc: 165,
-        "AttTrue%": "19.6",
+        Acc: 155,
+        "AttTrue%": "20.7",
         Min: 70,
         Max: 150,
         Energy: 500,
@@ -52467,7 +52463,7 @@ export const monsterData: Monster[] = [
     DamageResist: 6,
     "Follow%": 50,
     MagicRes: 44,
-    EXP: 17000,
+    EXP: 16000,
     HP: 800,
     HPRegen: 6,
     CharmLVL: 90,
@@ -52479,7 +52475,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 140,
-        "AttTrue%": "97.2",
+        "AttTrue%": "97.1",
         Min: 35,
         Max: 60,
         Energy: 500,
@@ -52487,7 +52483,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 175,
-        "AttTrue%": "2.8",
+        "AttTrue%": "2.9",
         Min: 100,
         Max: 150,
         Energy: 1000,
@@ -52502,7 +52498,7 @@ export const monsterData: Monster[] = [
     DamageResist: 4,
     "Follow%": 100,
     MagicRes: 45,
-    EXP: 13000,
+    EXP: 16000,
     HP: 900,
     HPRegen: 50,
     CharmLVL: 90,
@@ -52514,15 +52510,15 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 140,
-        "AttTrue%": "83.4",
+        "AttTrue%": "82.0",
         Min: 35,
         Max: 65,
         Energy: 500,
       },
       {
         Name: "circles around behind you and backstabs you",
-        Acc: 160,
-        "AttTrue%": "16.6",
+        Acc: 150,
+        "AttTrue%": "18.0",
         Min: 100,
         Max: 200,
         Energy: 1000,
@@ -52550,7 +52546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 145,
-        "AttTrue%": "94.4",
+        "AttTrue%": "94.2",
         Min: 35,
         Max: 75,
         Energy: 500,
@@ -52558,7 +52554,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 180,
-        "AttTrue%": "5.6",
+        "AttTrue%": "5.8",
         Min: 100,
         Max: 200,
         Energy: 1000,
@@ -52598,10 +52594,10 @@ export const monsterData: Monster[] = [
     Name: "half-ogre grunt",
     Weapon: 48,
     ArmourClass: 55,
-    DamageResist: 10,
+    DamageResist: 6,
     "Follow%": 0,
     MagicRes: 80,
-    EXP: 20000,
+    EXP: 22000,
     HP: 1000,
     HPRegen: 50,
     CharmLVL: 90,
@@ -52612,16 +52608,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "pounds you with its fists",
-        Acc: 180,
-        "AttTrue%": "60.4",
+        Acc: 160,
+        "AttTrue%": "60.3",
         Min: 50,
         Max: 100,
         Energy: 400,
       },
       {
         Name: "smashes you with a powerful blow",
-        Acc: 190,
-        "AttTrue%": "39.6",
+        Acc: 165,
+        "AttTrue%": "39.7",
         Min: 50,
         Max: 180,
         Energy: 400,
@@ -52654,7 +52650,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 200,
-        "AttTrue%": "37.0",
+        "AttTrue%": "36.7",
         Min: 25,
         Max: 40,
         Energy: 200,
@@ -52663,7 +52659,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "elemental fury",
-        "AttTrue%": "50.8",
+        "AttTrue%": "50.6",
         Number: 716,
         Success: 100,
         Level: 90,
@@ -52671,7 +52667,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thornblast",
-        "AttTrue%": "12.2",
+        "AttTrue%": "12.7",
         Number: 5241,
         Success: 100,
         Level: 75,
@@ -52713,7 +52709,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 200,
-        "AttTrue%": "34.8",
+        "AttTrue%": "35.1",
         Min: 25,
         Max: 40,
         Energy: 200,
@@ -52722,7 +52718,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon ice elemental",
-        "AttTrue%": "45.1",
+        "AttTrue%": "44.7",
         Number: 240,
         Success: 60,
         Level: 75,
@@ -52730,7 +52726,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thornblast",
-        "AttTrue%": "9.8",
+        "AttTrue%": "9.7",
         Number: 5241,
         Success: 80,
         Level: 75,
@@ -52738,7 +52734,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frozen spike",
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.4",
         Number: 5002,
         Success: 100,
         Level: 75,
@@ -52772,7 +52768,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 200,
-        "AttTrue%": "36.7",
+        "AttTrue%": "36.8",
         Min: 25,
         Max: 40,
         Energy: 200,
@@ -52781,7 +52777,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon lightning elemental",
-        "AttTrue%": "49.4",
+        "AttTrue%": "50.6",
         Number: 241,
         Success: 100,
         Level: 75,
@@ -52789,7 +52785,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "thunderclap",
-        "AttTrue%": "13.9",
+        "AttTrue%": "12.6",
         Number: 775,
         Success: 100,
         Level: 75,
@@ -52831,7 +52827,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 200,
-        "AttTrue%": "37.5",
+        "AttTrue%": "37.6",
         Min: 25,
         Max: 40,
         Energy: 200,
@@ -52840,7 +52836,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon stone elemental",
-        "AttTrue%": "50.2",
+        "AttTrue%": "49.5",
         Number: 242,
         Success: 100,
         Level: 75,
@@ -52848,7 +52844,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hail of stones",
-        "AttTrue%": "12.4",
+        "AttTrue%": "12.8",
         Number: 5080,
         Success: 100,
         Level: 75,
@@ -52868,8 +52864,8 @@ export const monsterData: Monster[] = [
     Number: 2199,
     Name: "half-orc sentry",
     Weapon: 72,
-    ArmourClass: 110,
-    DamageResist: 12,
+    ArmourClass: 90,
+    DamageResist: 8,
     "Follow%": 60,
     MagicRes: 80,
     EXP: 14000,
@@ -52884,7 +52880,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 140,
-        "AttTrue%": "75.2",
+        "AttTrue%": "75.9",
         Min: 35,
         Max: 60,
         Energy: 500,
@@ -52892,7 +52888,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 145,
-        "AttTrue%": "24.8",
+        "AttTrue%": "24.1",
         Min: 50,
         Max: 70,
         Energy: 500,
@@ -52907,7 +52903,7 @@ export const monsterData: Monster[] = [
     DamageResist: 14,
     "Follow%": 70,
     MagicRes: 90,
-    EXP: 15000,
+    EXP: 18000,
     HP: 850,
     HPRegen: 50,
     CharmLVL: 90,
@@ -52919,7 +52915,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you",
         Acc: 145,
-        "AttTrue%": "75.0",
+        "AttTrue%": "75.3",
         Min: 35,
         Max: 65,
         Energy: 500,
@@ -52927,7 +52923,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 150,
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.7",
         Min: 50,
         Max: 72,
         Energy: 500,
@@ -52942,7 +52938,7 @@ export const monsterData: Monster[] = [
     DamageResist: 3,
     "Follow%": 60,
     MagicRes: 120,
-    EXP: 17000,
+    EXP: 19000,
     HP: 800,
     HPRegen: 50,
     CharmLVL: 99,
@@ -52954,7 +52950,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whacks you",
         Acc: 150,
-        "AttTrue%": "74.8",
+        "AttTrue%": "75.7",
         Min: 15,
         Max: 40,
         Energy: 200,
@@ -52963,10 +52959,10 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "divine fury",
-        "AttTrue%": "25.2",
+        "AttTrue%": "24.3",
         Number: 5035,
         Success: 95,
-        Level: 75,
+        Level: 50,
         Energy: 1000,
       },
     ],
@@ -52995,7 +52991,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its beak",
         Acc: 160,
-        "AttTrue%": "43.5",
+        "AttTrue%": "44.0",
         Min: 70,
         Max: 170,
         Energy: 250,
@@ -53004,7 +53000,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 170,
-        "AttTrue%": "22.5",
+        "AttTrue%": "22.2",
         Min: 45,
         Max: 130,
         Energy: 250,
@@ -53014,7 +53010,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "phoenixfire",
-        "AttTrue%": "34.0",
+        "AttTrue%": "33.8",
         Number: 931,
         Success: 100,
         Level: 40,
@@ -53030,7 +53026,7 @@ export const monsterData: Monster[] = [
     DamageResist: 4,
     "Follow%": 65,
     MagicRes: 49,
-    EXP: 15000,
+    EXP: 18000,
     HP: 700,
     HPRegen: 80,
     CharmLVL: 90,
@@ -53042,7 +53038,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 180,
-        "AttTrue%": "70.3",
+        "AttTrue%": "70.1",
         Min: 15,
         Max: 40,
         Energy: 250,
@@ -53050,7 +53046,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 200,
-        "AttTrue%": "29.7",
+        "AttTrue%": "29.9",
         Min: 30,
         Max: 60,
         Energy: 250,
@@ -53065,7 +53061,7 @@ export const monsterData: Monster[] = [
     DamageResist: 6,
     "Follow%": 65,
     MagicRes: 50,
-    EXP: 16000,
+    EXP: 19000,
     HP: 750,
     HPRegen: 100,
     CharmLVL: 90,
@@ -53077,7 +53073,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a heavy spear at you",
         Acc: 180,
-        "AttTrue%": "70.7",
+        "AttTrue%": "71.5",
         Min: 30,
         Max: 45,
         Energy: 250,
@@ -53085,7 +53081,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 65,
-        "AttTrue%": "15.7",
+        "AttTrue%": "15.1",
         Min: 40,
         Max: 70,
         Energy: 250,
@@ -53093,7 +53089,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 185,
-        "AttTrue%": "13.7",
+        "AttTrue%": "13.3",
         Min: 60,
         Max: 100,
         Energy: 333,
@@ -53121,7 +53117,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 185,
-        "AttTrue%": "63.9",
+        "AttTrue%": "64.7",
         Min: 60,
         Max: 100,
         Energy: 333,
@@ -53129,7 +53125,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 190,
-        "AttTrue%": "5.4",
+        "AttTrue%": "4.7",
         Min: 80,
         Max: 120,
         Energy: 333,
@@ -53165,7 +53161,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "66.5",
+        "AttTrue%": "67.2",
         Min: 22,
         Max: 45,
         Energy: 250,
@@ -53175,7 +53171,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear of dark energy",
-        "AttTrue%": "33.5",
+        "AttTrue%": "32.8",
         Number: 5103,
         Success: 100,
         Level: 60,
@@ -53212,7 +53208,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "76.3",
+        "AttTrue%": "75.6",
         Min: 2,
         Max: 25,
         Energy: 250,
@@ -53222,7 +53218,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "divine fury",
-        "AttTrue%": "6.0",
+        "AttTrue%": "6.5",
         Number: 5035,
         Success: 100,
         Level: 60,
@@ -53230,7 +53226,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spear of dark energy",
-        "AttTrue%": "17.7",
+        "AttTrue%": "17.9",
         Number: 5103,
         Success: 100,
         Level: 60,
@@ -53259,7 +53255,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "44.2",
+        "AttTrue%": "45.7",
         Min: 2,
         Max: 25,
         Energy: 250,
@@ -53269,7 +53265,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tainted word",
-        "AttTrue%": "45.0",
+        "AttTrue%": "43.6",
         Number: 5032,
         Success: 100,
         Level: 60,
@@ -53277,7 +53273,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spear of dark energy",
-        "AttTrue%": "10.8",
+        "AttTrue%": "10.6",
         Number: 5103,
         Success: 100,
         Level: 60,
@@ -53305,7 +53301,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 150,
-        "AttTrue%": "97.5",
+        "AttTrue%": "97.1",
         Min: 55,
         Max: 95,
         Energy: 500,
@@ -53313,7 +53309,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with a tentacle",
         Acc: 200,
-        "AttTrue%": "2.5",
+        "AttTrue%": "2.9",
         Min: 75,
         Max: 120,
         Energy: 1000,
@@ -53370,7 +53366,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 160,
-        "AttTrue%": "80.6",
+        "AttTrue%": "81.0",
         Min: 150,
         Max: 300,
         Energy: 666,
@@ -53379,7 +53375,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tail quake",
-        "AttTrue%": "19.4",
+        "AttTrue%": "19.0",
         Number: 1203,
         Success: 100,
         Level: 75,
@@ -53395,7 +53391,7 @@ export const monsterData: Monster[] = [
     DamageResist: 7,
     "Follow%": 80,
     MagicRes: 75,
-    EXP: 17500,
+    EXP: 19000,
     HP: 900,
     HPRegen: 175,
     CharmLVL: 999,
@@ -53409,7 +53405,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 150,
-        "AttTrue%": "78.4",
+        "AttTrue%": "79.2",
         Min: 27,
         Max: 90,
         Energy: 333,
@@ -53417,7 +53413,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 140,
-        "AttTrue%": "8.1",
+        "AttTrue%": "6.6",
         Min: 27,
         Max: 90,
         Energy: 750,
@@ -53426,7 +53422,7 @@ export const monsterData: Monster[] = [
       {
         Name: "violently chomps you",
         Acc: 150,
-        "AttTrue%": "2.4",
+        "AttTrue%": "2.9",
         Min: 44,
         Max: 177,
         Energy: 1000,
@@ -53436,7 +53432,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "11.1",
+        "AttTrue%": "11.3",
         Number: 394,
         Success: 100,
         Level: 20,
@@ -53448,8 +53444,8 @@ export const monsterData: Monster[] = [
     Number: 2214,
     Name: "shadowborn warrior",
     Weapon: 78,
-    ArmourClass: 120,
-    DamageResist: 18,
+    ArmourClass: 90,
+    DamageResist: 8,
     "Follow%": 75,
     MagicRes: 60,
     EXP: 18000,
@@ -53464,7 +53460,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 150,
-        "AttTrue%": "97.6",
+        "AttTrue%": "97.5",
         Min: 15,
         Max: 60,
         Energy: 250,
@@ -53472,7 +53468,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 160,
-        "AttTrue%": "2.4",
+        "AttTrue%": "2.5",
         Min: 24,
         Max: 80,
         Energy: 500,
@@ -53483,11 +53479,11 @@ export const monsterData: Monster[] = [
     Number: 2215,
     Name: "spore beast",
     Weapon: 78,
-    ArmourClass: 120,
-    DamageResist: 18,
+    ArmourClass: 80,
+    DamageResist: 9,
     "Follow%": 75,
     MagicRes: 60,
-    EXP: 18000,
+    EXP: 19000,
     HP: 900,
     HPRegen: 14,
     CharmLVL: 75,
@@ -53499,7 +53495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 150,
-        "AttTrue%": "97.1",
+        "AttTrue%": "96.8",
         Min: 30,
         Max: 90,
         Energy: 250,
@@ -53507,7 +53503,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 160,
-        "AttTrue%": "2.9",
+        "AttTrue%": "3.2",
         Min: 45,
         Max: 110,
         Energy: 250,
@@ -53535,7 +53531,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "89.5",
+        "AttTrue%": "90.6",
         Min: 38,
         Max: 68,
         Energy: 500,
@@ -53543,7 +53539,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 150,
-        "AttTrue%": "6.2",
+        "AttTrue%": "5.1",
         Min: 68,
         Max: 120,
         Energy: 500,
@@ -53568,7 +53564,7 @@ export const monsterData: Monster[] = [
     DamageResist: 30,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 20000,
     HP: 900,
     HPRegen: 20,
     CharmLVL: 999,
@@ -53580,16 +53576,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "smacks you with a wet limb",
-        Acc: 180,
-        "AttTrue%": "59.7",
+        Acc: 150,
+        "AttTrue%": "60.6",
         Min: 45,
         Max: 70,
         Energy: 500,
       },
       {
         Name: "hurls a ball of slime at you",
-        Acc: 200,
-        "AttTrue%": "40.3",
+        Acc: 155,
+        "AttTrue%": "39.4",
         Min: 40,
         Max: 60,
         Energy: 250,
@@ -53600,8 +53596,8 @@ export const monsterData: Monster[] = [
     Number: 2218,
     Name: "fungoid",
     Weapon: 0,
-    ArmourClass: 120,
-    DamageResist: 18,
+    ArmourClass: 60,
+    DamageResist: 6,
     "Follow%": 75,
     MagicRes: 60,
     EXP: 18000,
@@ -53639,7 +53635,7 @@ export const monsterData: Monster[] = [
     DamageResist: 0,
     "Follow%": 50,
     MagicRes: 50,
-    EXP: 14000,
+    EXP: 17000,
     HP: 650,
     HPRegen: 50,
     CharmLVL: 100,
@@ -53656,7 +53652,7 @@ export const monsterData: Monster[] = [
       {
         Name: "oozes over you",
         Acc: 150,
-        "AttTrue%": "74.0",
+        "AttTrue%": "75.2",
         Min: 35,
         Max: 70,
         Energy: 1000,
@@ -53664,7 +53660,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with its incredible bulk",
         Acc: 160,
-        "AttTrue%": "26.0",
+        "AttTrue%": "24.8",
         Min: 45,
         Max: 80,
         Energy: 1000,
@@ -53679,7 +53675,7 @@ export const monsterData: Monster[] = [
     DamageResist: 2,
     "Follow%": 50,
     MagicRes: 50,
-    EXP: 13500,
+    EXP: 16000,
     HP: 720,
     HPRegen: 12,
     CharmLVL: 95,
@@ -53692,7 +53688,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a tentacle",
         Acc: 150,
-        "AttTrue%": "52.2",
+        "AttTrue%": "53.7",
         Min: 20,
         Max: 30,
         Energy: 125,
@@ -53701,7 +53697,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 160,
-        "AttTrue%": "47.8",
+        "AttTrue%": "46.3",
         Min: 30,
         Max: 65,
         Energy: 1000,
@@ -53729,7 +53725,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with a tentacle",
         Acc: 185,
-        "AttTrue%": "57.1",
+        "AttTrue%": "55.7",
         Min: 100,
         Max: 300,
         Energy: 250,
@@ -53737,7 +53733,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tongue",
         Acc: 185,
-        "AttTrue%": "19.0",
+        "AttTrue%": "20.4",
         Min: 100,
         Max: 300,
         Energy: 500,
@@ -53770,7 +53766,7 @@ export const monsterData: Monster[] = [
     DamageResist: 10,
     "Follow%": 15,
     MagicRes: 120,
-    EXP: 15000,
+    EXP: 18000,
     HP: 700,
     HPRegen: 50,
     CharmLVL: 1000,
@@ -53799,7 +53795,7 @@ export const monsterData: Monster[] = [
     DamageResist: 10,
     "Follow%": 15,
     MagicRes: 120,
-    EXP: 15000,
+    EXP: 18000,
     HP: 700,
     HPRegen: 50,
     CharmLVL: 1000,
@@ -53828,7 +53824,7 @@ export const monsterData: Monster[] = [
     DamageResist: 5,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 19000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -53860,11 +53856,11 @@ export const monsterData: Monster[] = [
     Number: 2225,
     Name: "grey fungus tree",
     Weapon: 0,
-    ArmourClass: 120,
+    ArmourClass: 90,
     DamageResist: 10,
     "Follow%": 25,
     MagicRes: 52,
-    EXP: 15000,
+    EXP: 18000,
     HP: 870,
     HPRegen: 15,
     CharmLVL: 999,
@@ -53893,7 +53889,7 @@ export const monsterData: Monster[] = [
     DamageResist: 8,
     "Follow%": 25,
     MagicRes: 52,
-    EXP: 15000,
+    EXP: 18000,
     HP: 870,
     HPRegen: 15,
     CharmLVL: 999,
@@ -53906,15 +53902,15 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a thorny stem",
         Acc: 150,
-        "AttTrue%": "51.5",
+        "AttTrue%": "76.2",
         Min: 25,
         Max: 50,
         Energy: 500,
       },
       {
         Name: "whips you with a thorny stem",
-        Acc: 75,
-        "AttTrue%": "48.5",
+        Acc: 160,
+        "AttTrue%": "23.8",
         Min: 30,
         Max: 60,
         Energy: 500,
@@ -53930,7 +53926,7 @@ export const monsterData: Monster[] = [
     DamageResist: 25,
     "Follow%": 25,
     MagicRes: 52,
-    EXP: 15000,
+    EXP: 22000,
     HP: 870,
     HPRegen: 15,
     CharmLVL: 999,
@@ -53942,7 +53938,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "despair",
-        "AttTrue%": "33.8",
+        "AttTrue%": "32.4",
         Number: 5273,
         Success: 25,
         Level: 50,
@@ -53952,8 +53948,8 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "smashes you with its branches",
-        Acc: 230,
-        "AttTrue%": "40.0",
+        Acc: 150,
+        "AttTrue%": "41.0",
         Min: 25,
         Max: 55,
         Energy: 500,
@@ -53962,7 +53958,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its branches",
         Acc: 230,
-        "AttTrue%": "26.2",
+        "AttTrue%": "26.6",
         Min: 65,
         Max: 140,
         Energy: 500,
@@ -53978,7 +53974,7 @@ export const monsterData: Monster[] = [
     DamageResist: 10,
     "Follow%": 80,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 20000,
     HP: 960,
     HPRegen: 250,
     CharmLVL: 25,
@@ -53991,7 +53987,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 160,
-        "AttTrue%": "83.2",
+        "AttTrue%": "83.0",
         Min: 45,
         Max: 65,
         Energy: 500,
@@ -53999,7 +53995,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 165,
-        "AttTrue%": "16.8",
+        "AttTrue%": "17.0",
         Min: 50,
         Max: 120,
         Energy: 1000,
@@ -54026,9 +54022,9 @@ export const monsterData: Monster[] = [
     Dodge: 50,
     Attacks: [
       {
-        Name: "swoops down and rips you",
+        Name: "swoops down and bites you",
         Acc: 165,
-        "AttTrue%": "49.1",
+        "AttTrue%": "50.3",
         Min: 30,
         Max: 50,
         Energy: 250,
@@ -54036,7 +54032,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 165,
-        "AttTrue%": "50.9",
+        "AttTrue%": "49.7",
         Min: 30,
         Max: 50,
         Energy: 250,
@@ -54051,7 +54047,7 @@ export const monsterData: Monster[] = [
     DamageResist: 5,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 19000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -54063,7 +54059,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 140,
-        "AttTrue%": "59.1",
+        "AttTrue%": "61.4",
         Min: 28,
         Max: 80,
         Energy: 500,
@@ -54071,7 +54067,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and viciously bites you",
         Acc: 200,
-        "AttTrue%": "40.9",
+        "AttTrue%": "38.6",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -54086,7 +54082,7 @@ export const monsterData: Monster[] = [
     DamageResist: 5,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18000,
+    EXP: 19000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -54098,7 +54094,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 140,
-        "AttTrue%": "59.1",
+        "AttTrue%": "60.4",
         Min: 28,
         Max: 80,
         Energy: 500,
@@ -54106,7 +54102,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and viciously bites you",
         Acc: 200,
-        "AttTrue%": "40.9",
+        "AttTrue%": "39.6",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -54121,7 +54117,7 @@ export const monsterData: Monster[] = [
     DamageResist: 10,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 18500,
+    EXP: 22000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -54133,15 +54129,15 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with both claws",
         Acc: 140,
-        "AttTrue%": "38.9",
+        "AttTrue%": "41.1",
         Min: 28,
         Max: 80,
         Energy: 500,
       },
       {
         Name: "darts forward and viciously bites you",
-        Acc: 200,
-        "AttTrue%": "40.3",
+        Acc: 160,
+        "AttTrue%": "49.8",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -54149,8 +54145,8 @@ export const monsterData: Monster[] = [
       {
         Name: "blasts you with a ball of energy from its tail",
         Acc: 200,
-        "AttTrue%": "20.9",
-        Min: 100,
+        "AttTrue%": "9.1",
+        Min: 160,
         Max: 150,
         Energy: 500,
       },
@@ -54164,7 +54160,7 @@ export const monsterData: Monster[] = [
     DamageResist: 3,
     "Follow%": 100,
     MagicRes: 110,
-    EXP: 18000,
+    EXP: 22000,
     HP: 1000,
     HPRegen: 150,
     CharmLVL: 999,
@@ -54180,8 +54176,8 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes at you",
         Acc: 160,
-        "AttTrue%": "64.1",
-        Min: 30,
+        "AttTrue%": "94.5",
+        Min: 80,
         Max: 50,
         Energy: 200,
         HitSpell: 245,
@@ -54190,15 +54186,15 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind of fire",
-        "AttTrue%": "6.5",
+        "AttTrue%": "1.3",
         Number: 527,
         Success: 100,
-        Level: 75,
+        Level: 50,
         Energy: 1000,
       },
       {
         Name: "magma blast",
-        "AttTrue%": "29.4",
+        "AttTrue%": "4.3",
         Number: 5017,
         Success: 100,
         Level: 40,
@@ -54228,16 +54224,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "bites you with its fangs",
-        Acc: 180,
-        "AttTrue%": "28.2",
+        Acc: 160,
+        "AttTrue%": "73.3",
         Min: 70,
         Max: 110,
         Energy: 500,
       },
       {
         Name: "savagely bites you",
-        Acc: 185,
-        "AttTrue%": "30.7",
+        Acc: 165,
+        "AttTrue%": "21.7",
         Min: 80,
         Max: 120,
         Energy: 500,
@@ -54247,11 +54243,11 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a jet of fire",
-        "AttTrue%": "41.1",
+        "AttTrue%": "5.0",
         Number: 113,
         Success: 100,
         Level: 75,
-        Energy: 500,
+        Energy: 1000,
       },
     ],
   },
@@ -54260,7 +54256,7 @@ export const monsterData: Monster[] = [
     Name: "fire newt warrior",
     Weapon: 2188,
     ArmourClass: 100,
-    DamageResist: 15,
+    DamageResist: 8,
     "Follow%": 50,
     MagicRes: 54,
     EXP: 22000,
@@ -54276,7 +54272,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 180,
-        "AttTrue%": "79.9",
+        "AttTrue%": "80.6",
         Min: 22,
         Max: 72,
         Energy: 200,
@@ -54285,7 +54281,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out hacks you",
         Acc: 185,
-        "AttTrue%": "20.1",
+        "AttTrue%": "19.4",
         Min: 77,
         Max: 194,
         Energy: 200,
@@ -54298,7 +54294,7 @@ export const monsterData: Monster[] = [
     Name: "fire drake",
     Weapon: 0,
     ArmourClass: 100,
-    DamageResist: 15,
+    DamageResist: 10,
     "Follow%": 50,
     MagicRes: 54,
     EXP: 22000,
@@ -54316,7 +54312,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 180,
-        "AttTrue%": "35.8",
+        "AttTrue%": "35.9",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -54324,7 +54320,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lashes you with its tail",
-        Acc: 180,
+        Acc: 155,
         "AttTrue%": "20.6",
         Min: 60,
         Max: 100,
@@ -54333,8 +54329,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "bites you with its fangs",
-        Acc: 185,
-        "AttTrue%": "33.3",
+        Acc: 160,
+        "AttTrue%": "33.5",
         Min: 35,
         Max: 125,
         Energy: 450,
@@ -54344,10 +54340,10 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "10.3",
+        "AttTrue%": "10.0",
         Number: 263,
         Success: 100,
-        Level: 50,
+        Level: 45,
         Energy: 1000,
       },
     ],
@@ -54357,10 +54353,10 @@ export const monsterData: Monster[] = [
     Name: "young fire drake",
     Weapon: 0,
     ArmourClass: 100,
-    DamageResist: 15,
+    DamageResist: 10,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 19500,
+    EXP: 21000,
     HP: 1050,
     HPRegen: 20,
     CharmLVL: 999,
@@ -54374,8 +54370,8 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "rips you with its talons",
-        Acc: 180,
-        "AttTrue%": "37.3",
+        Acc: 150,
+        "AttTrue%": "36.0",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -54383,8 +54379,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lashes you with its tail",
-        Acc: 180,
-        "AttTrue%": "20.6",
+        Acc: 155,
+        "AttTrue%": "21.3",
         Min: 50,
         Max: 80,
         Energy: 500,
@@ -54392,69 +54388,10 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "bites you with its fangs",
-        Acc: 185,
-        "AttTrue%": "31.4",
+        Acc: 155,
+        "AttTrue%": "32.1",
         Min: 35,
         Max: 105,
-        Energy: 500,
-        HitSpell: 245,
-      },
-    ],
-    Spells: [
-      {
-        Name: "dragonfire",
-        "AttTrue%": "10.7",
-        Number: 263,
-        Success: 100,
-        Level: 45,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2245,
-    Name: "baby fire drake",
-    Weapon: 0,
-    ArmourClass: 100,
-    DamageResist: 15,
-    "Follow%": 50,
-    MagicRes: 54,
-    EXP: 15000,
-    HP: 900,
-    HPRegen: 20,
-    CharmLVL: 999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Rfir: 125,
-    Rcol: -50,
-    ResistWater: -25,
-    Attacks: [
-      {
-        Name: "rips you with its talons",
-        Acc: 180,
-        "AttTrue%": "36.0",
-        Min: 20,
-        Max: 30,
-        Energy: 250,
-        HitSpell: 245,
-      },
-      {
-        Name: "lashes you with its tail",
-        Acc: 180,
-        "AttTrue%": "21.5",
-        Min: 40,
-        Max: 80,
-        Energy: 500,
-        HitSpell: 245,
-      },
-      {
-        Name: "bites you with its fangs",
-        Acc: 185,
-        "AttTrue%": "32.0",
-        Min: 35,
-        Max: 85,
         Energy: 500,
         HitSpell: 245,
       },
@@ -54471,11 +54408,70 @@ export const monsterData: Monster[] = [
     ],
   },
   {
+    Number: 2245,
+    Name: "baby fire drake",
+    Weapon: 0,
+    ArmourClass: 100,
+    DamageResist: 10,
+    "Follow%": 50,
+    MagicRes: 54,
+    EXP: 20000,
+    HP: 900,
+    HPRegen: 20,
+    CharmLVL: 999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Rfir: 125,
+    Rcol: -50,
+    ResistWater: -25,
+    Attacks: [
+      {
+        Name: "rips you with its talons",
+        Acc: 140,
+        "AttTrue%": "37.1",
+        Min: 20,
+        Max: 30,
+        Energy: 250,
+        HitSpell: 245,
+      },
+      {
+        Name: "lashes you with its tail",
+        Acc: 145,
+        "AttTrue%": "22.4",
+        Min: 40,
+        Max: 80,
+        Energy: 500,
+        HitSpell: 245,
+      },
+      {
+        Name: "bites you with its fangs",
+        Acc: 150,
+        "AttTrue%": "30.8",
+        Min: 35,
+        Max: 85,
+        Energy: 500,
+        HitSpell: 245,
+      },
+    ],
+    Spells: [
+      {
+        Name: "dragonfire",
+        "AttTrue%": "9.7",
+        Number: 263,
+        Success: 100,
+        Level: 30,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
     Number: 2246,
     Name: "fire giant",
     Weapon: 2189,
-    ArmourClass: 100,
-    DamageResist: 30,
+    ArmourClass: 90,
+    DamageResist: 12,
     "Follow%": 50,
     MagicRes: 54,
     EXP: 20000,
@@ -54492,16 +54488,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "cleaves you",
-        Acc: 185,
-        "AttTrue%": "49.8",
+        Acc: 150,
+        "AttTrue%": "42.9",
         Min: 60,
         Max: 130,
         Energy: 250,
       },
       {
         Name: "launches a flaming boulder, which crushes you",
-        Acc: 190,
-        "AttTrue%": "13.2",
+        Acc: 160,
+        "AttTrue%": "7.6",
         Min: 150,
         Max: 325,
         Energy: 1000,
@@ -54509,8 +54505,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "all-out cleaves you",
-        Acc: 195,
-        "AttTrue%": "18.5",
+        Acc: 165,
+        "AttTrue%": "44.2",
         Min: 114,
         Max: 240,
         Energy: 250,
@@ -54519,10 +54515,10 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "firestorm",
-        "AttTrue%": "18.5",
+        "AttTrue%": "5.3",
         Number: 413,
         Success: 100,
-        Level: 80,
+        Level: 50,
         Energy: 750,
       },
     ],
@@ -54531,8 +54527,8 @@ export const monsterData: Monster[] = [
     Number: 2247,
     Name: "fire giant shaman",
     Weapon: 2187,
-    ArmourClass: 100,
-    DamageResist: 30,
+    ArmourClass: 80,
+    DamageResist: 5,
     "Follow%": 50,
     MagicRes: 85,
     EXP: 23000,
@@ -54550,7 +54546,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes at you",
         Acc: 185,
-        "AttTrue%": "45.7",
+        "AttTrue%": "45.9",
         Min: 60,
         Max: 130,
         Energy: 250,
@@ -54559,7 +54555,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 190,
-        "AttTrue%": "34.6",
+        "AttTrue%": "33.2",
         Min: 40,
         Max: 60,
         Energy: 200,
@@ -54568,7 +54564,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a flaming boulder, which crushes you",
         Acc: 190,
-        "AttTrue%": "11.7",
+        "AttTrue%": "12.2",
         Min: 150,
         Max: 325,
         Energy: 1000,
@@ -54578,10 +54574,10 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind of fire",
-        "AttTrue%": "8.0",
+        "AttTrue%": "8.7",
         Number: 527,
         Success: 100,
-        Level: 50,
+        Level: 40,
         Energy: 750,
       },
     ],
@@ -54612,7 +54608,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 190,
-        "AttTrue%": "22.0",
+        "AttTrue%": "22.1",
         Min: 80,
         Max: 180,
         Energy: 200,
@@ -54621,7 +54617,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 220,
-        "AttTrue%": "18.9",
+        "AttTrue%": "18.6",
         Min: 190,
         Max: 370,
         Energy: 600,
@@ -54630,7 +54626,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 230,
-        "AttTrue%": "21.9",
+        "AttTrue%": "22.0",
         Min: 240,
         Max: 570,
         Energy: 400,
@@ -54638,7 +54634,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 110,
-        "AttTrue%": "19.2",
+        "AttTrue%": "19.4",
         Min: 25,
         Max: 100,
         Energy: 550,
@@ -54647,7 +54643,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "17.8",
+        "AttTrue%": "17.9",
         Number: 266,
         Success: 100,
         Level: 25,
@@ -54680,7 +54676,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 185,
-        "AttTrue%": "42.1",
+        "AttTrue%": "41.4",
         Min: 120,
         Max: 180,
         Energy: 250,
@@ -54698,7 +54694,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 195,
-        "AttTrue%": "45.2",
+        "AttTrue%": "45.9",
         Min: 114,
         Max: 240,
         Energy: 250,
@@ -54714,7 +54710,7 @@ export const monsterData: Monster[] = [
     DamageResist: 30,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 22000,
+    EXP: 24000,
     HP: 1050,
     HPRegen: 20,
     CharmLVL: 999,
@@ -54728,8 +54724,8 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "rips you with its talons",
-        Acc: 180,
-        "AttTrue%": "38.0",
+        Acc: 155,
+        "AttTrue%": "36.7",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -54737,8 +54733,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lashes you with its tail",
-        Acc: 105,
-        "AttTrue%": "19.0",
+        Acc: 160,
+        "AttTrue%": "21.2",
         Min: 60,
         Max: 100,
         Energy: 500,
@@ -54746,8 +54742,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "bites you with its fangs",
-        Acc: 185,
-        "AttTrue%": "32.5",
+        Acc: 160,
+        "AttTrue%": "32.0",
         Min: 35,
         Max: 125,
         Energy: 450,
@@ -54757,7 +54753,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "10.5",
+        "AttTrue%": "10.2",
         Number: 263,
         Success: 100,
         Level: 50,
@@ -54773,7 +54769,7 @@ export const monsterData: Monster[] = [
     DamageResist: 10,
     "Follow%": 75,
     MagicRes: 85,
-    EXP: 18500,
+    EXP: 22500,
     HP: 700,
     HPRegen: 200,
     CharmLVL: 9999,
@@ -54786,8 +54782,8 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "rips you with its talons",
-        Acc: 170,
-        "AttTrue%": "36.7",
+        Acc: 150,
+        "AttTrue%": "36.5",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -54795,8 +54791,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lashes you with its tail",
-        Acc: 170,
-        "AttTrue%": "21.0",
+        Acc: 155,
+        "AttTrue%": "21.4",
         Min: 60,
         Max: 100,
         Energy: 500,
@@ -54804,8 +54800,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "bites you with its fangs",
-        Acc: 175,
-        "AttTrue%": "32.9",
+        Acc: 160,
+        "AttTrue%": "32.2",
         Min: 35,
         Max: 125,
         Energy: 450,
@@ -54815,7 +54811,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "9.4",
+        "AttTrue%": "9.8",
         Number: 263,
         Success: 100,
         Level: 40,
@@ -54831,7 +54827,7 @@ export const monsterData: Monster[] = [
     DamageResist: 12,
     "Follow%": 75,
     MagicRes: 70,
-    EXP: 16500,
+    EXP: 20500,
     HP: 650,
     HPRegen: 100,
     CharmLVL: 9999,
@@ -54845,7 +54841,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 170,
-        "AttTrue%": "37.9",
+        "AttTrue%": "36.9",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -54854,7 +54850,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 170,
-        "AttTrue%": "21.0",
+        "AttTrue%": "21.9",
         Min: 60,
         Max: 100,
         Energy: 500,
@@ -54863,17 +54859,17 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 175,
-        "AttTrue%": "31.4",
+        "AttTrue%": "31.0",
         Min: 35,
         Max: 125,
-        Energy: 450,
+        Energy: 500,
         HitSpell: 245,
       },
     ],
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "9.6",
+        "AttTrue%": "10.2",
         Number: 263,
         Success: 100,
         Level: 40,
@@ -54889,7 +54885,7 @@ export const monsterData: Monster[] = [
     DamageResist: 30,
     "Follow%": 50,
     MagicRes: 54,
-    EXP: 21000,
+    EXP: 23000,
     HP: 950,
     HPRegen: 20,
     CharmLVL: 999,
@@ -54903,8 +54899,8 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "rips you with its talons",
-        Acc: 180,
-        "AttTrue%": "35.7",
+        Acc: 150,
+        "AttTrue%": "36.2",
         Min: 20,
         Max: 40,
         Energy: 250,
@@ -54912,8 +54908,8 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lashes you with its tail",
-        Acc: 105,
-        "AttTrue%": "21.4",
+        Acc: 155,
+        "AttTrue%": "22.1",
         Min: 60,
         Max: 100,
         Energy: 500,
@@ -54921,11 +54917,11 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "bites you with its fangs",
-        Acc: 185,
-        "AttTrue%": "32.6",
+        Acc: 155,
+        "AttTrue%": "31.3",
         Min: 35,
         Max: 125,
-        Energy: 450,
+        Energy: 500,
         HitSpell: 245,
       },
     ],
@@ -54948,7 +54944,7 @@ export const monsterData: Monster[] = [
     DamageResist: 0,
     "Follow%": 80,
     MagicRes: 100,
-    EXP: 14000,
+    EXP: 20000,
     HP: 700,
     HPRegen: 50,
     CharmLVL: 9999,
@@ -54963,15 +54959,15 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a razor-sharp wing",
         Acc: 140,
-        "AttTrue%": "78.1",
+        "AttTrue%": "78.3",
         Min: 15,
         Max: 40,
         Energy: 250,
       },
       {
         Name: "all-out slashes you with a razor-sharp wing",
-        Acc: 200,
-        "AttTrue%": "21.9",
+        Acc: 180,
+        "AttTrue%": "21.7",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -54994,7 +54990,7 @@ export const monsterData: Monster[] = [
     DamageResist: 20,
     "Follow%": 50,
     MagicRes: 100,
-    EXP: 14000,
+    EXP: 20000,
     HP: 800,
     HPRegen: 50,
     CharmLVL: 999,
@@ -55006,16 +55002,16 @@ export const monsterData: Monster[] = [
     Attacks: [
       {
         Name: "whaps you with a pseudopod",
-        Acc: 140,
-        "AttTrue%": "73.8",
+        Acc: 150,
+        "AttTrue%": "73.5",
         Min: 14,
         Max: 40,
         Energy: 250,
       },
       {
         Name: "crushes you",
-        Acc: 200,
-        "AttTrue%": "26.2",
+        Acc: 180,
+        "AttTrue%": "26.5",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -55030,7 +55026,7 @@ export const monsterData: Monster[] = [
     DamageResist: 5,
     "Follow%": 50,
     MagicRes: 100,
-    EXP: 14000,
+    EXP: 19000,
     HP: 800,
     HPRegen: 50,
     CharmLVL: 999,
@@ -55043,15 +55039,15 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you with a pseudopod",
         Acc: 140,
-        "AttTrue%": "73.7",
+        "AttTrue%": "74.0",
         Min: 14,
         Max: 40,
         Energy: 250,
       },
       {
         Name: "crushes you",
-        Acc: 200,
-        "AttTrue%": "26.3",
+        Acc: 180,
+        "AttTrue%": "26.0",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -55066,7 +55062,7 @@ export const monsterData: Monster[] = [
     DamageResist: 20,
     "Follow%": 50,
     MagicRes: 100,
-    EXP: 14000,
+    EXP: 19000,
     HP: 800,
     HPRegen: 50,
     CharmLVL: 999,
@@ -55079,7 +55075,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you with a pseudopod",
         Acc: 140,
-        "AttTrue%": "73.7",
+        "AttTrue%": "73.5",
         Min: 14,
         Max: 40,
         Energy: 250,
@@ -55087,7 +55083,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 200,
-        "AttTrue%": "26.3",
+        "AttTrue%": "26.5",
         Min: 50,
         Max: 120,
         Energy: 500,
@@ -55098,7 +55094,7 @@ export const monsterData: Monster[] = [
     Number: 2259,
     Name: "corrupted canimera",
     Weapon: 0,
-    ArmourClass: 120,
+    ArmourClass: 90,
     DamageResist: 15,
     "Follow%": 95,
     MagicRes: 106,
@@ -55115,7 +55111,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally rips you",
         Acc: 140,
-        "AttTrue%": "25.1",
+        "AttTrue%": "24.6",
         Min: 60,
         Max: 180,
         Energy: 1000,
@@ -55124,7 +55120,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "24.4",
+        "AttTrue%": "25.9",
         Min: 90,
         Max: 200,
         Energy: 1000,
@@ -55133,7 +55129,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "16.3",
+        "AttTrue%": "15.6",
         Number: 1029,
         Success: 100,
         Level: 30,
@@ -55141,7 +55137,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of ice",
-        "AttTrue%": "22.6",
+        "AttTrue%": "21.5",
         Number: 1030,
         Success: 100,
         Level: 30,
@@ -55149,7 +55145,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of lightning",
-        "AttTrue%": "11.6",
+        "AttTrue%": "12.4",
         Number: 1031,
         Success: 100,
         Level: 30,
@@ -55165,7 +55161,7 @@ export const monsterData: Monster[] = [
     DamageResist: 15,
     "Follow%": 90,
     MagicRes: 110,
-    EXP: 14000,
+    EXP: 22000,
     HP: 1000,
     HPRegen: 150,
     CharmLVL: 9999,
@@ -55179,7 +55175,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "37.2",
+        "AttTrue%": "37.7",
         Min: 20,
         Max: 50,
         Energy: 300,
@@ -55197,7 +55193,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 125,
-        "AttTrue%": "21.1",
+        "AttTrue%": "20.6",
         Min: 40,
         Max: 100,
         Energy: 400,
@@ -55246,7 +55242,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you with an overpowering strike",
         Acc: 190,
-        "AttTrue%": "11.0",
+        "AttTrue%": "11.2",
         Min: 144,
         Max: 290,
         Energy: 400,
@@ -55264,7 +55260,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "onslaught",
-        "AttTrue%": "9.5",
+        "AttTrue%": "9.4",
         Number: 5683,
         Success: 100,
         Level: 110,
@@ -55301,7 +55297,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 190,
-        "AttTrue%": "43.0",
+        "AttTrue%": "42.8",
         Min: 43,
         Max: 88,
         Energy: 200,
@@ -55310,7 +55306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically cleaves you",
         Acc: 190,
-        "AttTrue%": "9.9",
+        "AttTrue%": "9.3",
         Min: 86,
         Max: 264,
         Energy: 400,
@@ -55319,7 +55315,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves through your armor",
         Acc: 190,
-        "AttTrue%": "20.2",
+        "AttTrue%": "21.2",
         Min: 71,
         Max: 136,
         Energy: 200,
@@ -55328,7 +55324,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a great spear, impaling you",
         Acc: 190,
-        "AttTrue%": "19.1",
+        "AttTrue%": "19.3",
         Min: 116,
         Max: 246,
         Energy: 400,
@@ -55337,7 +55333,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls his axe, hacking at your neck",
         Acc: 190,
-        "AttTrue%": "7.8",
+        "AttTrue%": "7.3",
         Min: 162,
         Max: 378,
         Energy: 600,
@@ -55373,7 +55369,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves you up",
         Acc: 190,
-        "AttTrue%": "20.3",
+        "AttTrue%": "20.4",
         Min: 34,
         Max: 71,
         Energy: 200,
@@ -55382,7 +55378,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks through your armour",
         Acc: 190,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.5",
         Min: 68,
         Max: 172,
         Energy: 200,
@@ -55391,7 +55387,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cuts you with a rising slash",
         Acc: 190,
-        "AttTrue%": "17.5",
+        "AttTrue%": "17.7",
         Min: 81,
         Max: 210,
         Energy: 400,
@@ -55401,7 +55397,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.5",
         Number: 136,
         Success: 100,
         Level: 30,
@@ -55409,7 +55405,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "fireball",
-        "AttTrue%": "21.2",
+        "AttTrue%": "21.0",
         Number: 243,
         Success: 100,
         Level: 50,
@@ -55443,7 +55439,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 90,
-        "AttTrue%": "72.4",
+        "AttTrue%": "73.7",
         Min: 9,
         Max: 28,
         Energy: 500,
@@ -55451,7 +55447,7 @@ export const monsterData: Monster[] = [
       {
         Name: "dives and slashes you",
         Acc: 95,
-        "AttTrue%": "22.1",
+        "AttTrue%": "21.0",
         Min: 8,
         Max: 27,
         Energy: 500,
@@ -55459,7 +55455,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rakes you with its claws",
         Acc: 85,
-        "AttTrue%": "5.5",
+        "AttTrue%": "5.3",
         Min: 11,
         Max: 31,
         Energy: 1000,
@@ -55488,7 +55484,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with a tentacle",
         Acc: 85,
-        "AttTrue%": "56.4",
+        "AttTrue%": "55.5",
         Min: 7,
         Max: 19,
         Energy: 250,
@@ -55496,7 +55492,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 90,
-        "AttTrue%": "26.1",
+        "AttTrue%": "27.5",
         Min: 11,
         Max: 26,
         Energy: 500,
@@ -55504,7 +55500,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you and claws you",
         Acc: 80,
-        "AttTrue%": "17.4",
+        "AttTrue%": "17.1",
         Min: 16,
         Max: 50,
         Energy: 1000,
@@ -55532,7 +55528,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you",
         Acc: 85,
-        "AttTrue%": "24.0",
+        "AttTrue%": "23.9",
         Min: 11,
         Max: 29,
         Energy: 333,
@@ -55540,7 +55536,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely",
         Acc: 85,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.0",
         Min: 21,
         Max: 38,
         Energy: 666,
@@ -55548,7 +55544,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 90,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.3",
         Min: 20,
         Max: 44,
         Energy: 666,
@@ -55556,7 +55552,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you and claws you",
         Acc: 95,
-        "AttTrue%": "21.9",
+        "AttTrue%": "21.7",
         Min: 17,
         Max: 39,
         Energy: 666,
@@ -55565,7 +55561,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "volley of spines",
-        "AttTrue%": "13.7",
+        "AttTrue%": "14.1",
         Number: 5402,
         Success: 100,
         Level: 25,
@@ -55594,7 +55590,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its sharp beak",
         Acc: 85,
-        "AttTrue%": "82.5",
+        "AttTrue%": "83.6",
         Min: 10,
         Max: 27,
         Energy: 500,
@@ -55602,7 +55598,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 80,
-        "AttTrue%": "17.5",
+        "AttTrue%": "16.4",
         Min: 18,
         Max: 34,
         Energy: 1000,
@@ -55631,7 +55627,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges and stabs you",
         Acc: 95,
-        "AttTrue%": "73.1",
+        "AttTrue%": "74.0",
         Min: 11,
         Max: 19,
         Energy: 250,
@@ -55647,7 +55643,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a throwing knife at you",
         Acc: 95,
-        "AttTrue%": "20.8",
+        "AttTrue%": "19.9",
         Min: 9,
         Max: 17,
         Energy: 250,
@@ -55674,7 +55670,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 100,
-        "AttTrue%": "72.6",
+        "AttTrue%": "72.0",
         Min: 6,
         Max: 21,
         Energy: 333,
@@ -55682,7 +55678,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 105,
-        "AttTrue%": "20.8",
+        "AttTrue%": "20.1",
         Min: 18,
         Max: 63,
         Energy: 333,
@@ -55690,7 +55686,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously hacks you",
         Acc: 105,
-        "AttTrue%": "6.6",
+        "AttTrue%": "7.9",
         Min: 26,
         Max: 44,
         Energy: 666,
@@ -55724,7 +55720,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lumbers forward and smashes you",
         Acc: 95,
-        "AttTrue%": "85.0",
+        "AttTrue%": "83.0",
         Min: 11,
         Max: 27,
         Energy: 500,
@@ -55732,7 +55728,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a large stone at you",
         Acc: 100,
-        "AttTrue%": "10.3",
+        "AttTrue%": "11.6",
         Min: 16,
         Max: 39,
         Energy: 500,
@@ -55741,7 +55737,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of stone shards",
-        "AttTrue%": "4.7",
+        "AttTrue%": "5.4",
         Number: 5405,
         Success: 100,
         Level: 20,
@@ -55775,7 +55771,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and skewers you",
         Acc: 115,
-        "AttTrue%": "31.2",
+        "AttTrue%": "30.2",
         Min: 9,
         Max: 23,
         Energy: 250,
@@ -55783,7 +55779,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 115,
-        "AttTrue%": "25.6",
+        "AttTrue%": "26.5",
         Min: 27,
         Max: 71,
         Energy: 500,
@@ -55791,7 +55787,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 120,
-        "AttTrue%": "30.9",
+        "AttTrue%": "31.2",
         Min: 27,
         Max: 66,
         Energy: 250,
@@ -55800,7 +55796,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "song of blasting",
-        "AttTrue%": "12.3",
+        "AttTrue%": "12.2",
         Number: 102,
         Success: 100,
         Level: 27,
@@ -55831,7 +55827,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously tears into you",
         Acc: 120,
-        "AttTrue%": "88.7",
+        "AttTrue%": "88.8",
         Min: 14,
         Max: 32,
         Energy: 333,
@@ -55839,7 +55835,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you, savaging you",
         Acc: 120,
-        "AttTrue%": "11.3",
+        "AttTrue%": "11.2",
         Min: 11,
         Max: 56,
         Energy: 666,
@@ -55868,7 +55864,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 125,
-        "AttTrue%": "39.5",
+        "AttTrue%": "40.6",
         Min: 16,
         Max: 32,
         Energy: 500,
@@ -55876,7 +55872,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 130,
-        "AttTrue%": "55.2",
+        "AttTrue%": "54.7",
         Min: 18,
         Max: 64,
         Energy: 500,
@@ -55884,7 +55880,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 130,
-        "AttTrue%": "5.3",
+        "AttTrue%": "4.7",
         Min: 17,
         Max: 71,
         Energy: 500,
@@ -55913,7 +55909,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its talons",
         Acc: 130,
-        "AttTrue%": "63.8",
+        "AttTrue%": "63.2",
         Min: 19,
         Max: 46,
         Energy: 333,
@@ -55921,7 +55917,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices you open",
         Acc: 130,
-        "AttTrue%": "24.7",
+        "AttTrue%": "25.5",
         Min: 19,
         Max: 62,
         Energy: 333,
@@ -55930,7 +55926,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 135,
-        "AttTrue%": "11.6",
+        "AttTrue%": "11.3",
         Min: 16,
         Max: 63,
         Energy: 666,
@@ -55960,7 +55956,7 @@ export const monsterData: Monster[] = [
       {
         Name: "roars and slashes you",
         Acc: 125,
-        "AttTrue%": "68.6",
+        "AttTrue%": "67.8",
         Min: 19,
         Max: 51,
         Energy: 500,
@@ -55968,7 +55964,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 125,
-        "AttTrue%": "8.0",
+        "AttTrue%": "7.4",
         Min: 37,
         Max: 84,
         Energy: 1000,
@@ -55985,7 +55981,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges forward, smashing into you",
         Acc: 130,
-        "AttTrue%": "15.7",
+        "AttTrue%": "17.2",
         Min: 29,
         Max: 59,
         Energy: 1000,
@@ -56016,7 +56012,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its tusks",
         Acc: 115,
-        "AttTrue%": "85.2",
+        "AttTrue%": "84.4",
         Min: 9,
         Max: 31,
         Energy: 500,
@@ -56024,7 +56020,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally gores you with its tusks",
         Acc: 120,
-        "AttTrue%": "14.8",
+        "AttTrue%": "15.6",
         Min: 16,
         Max: 44,
         Energy: 500,
@@ -56053,7 +56049,7 @@ export const monsterData: Monster[] = [
       {
         Name: "eviscerates you",
         Acc: 130,
-        "AttTrue%": "23.6",
+        "AttTrue%": "24.9",
         Min: 11,
         Max: 41,
         Energy: 333,
@@ -56061,7 +56057,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely",
         Acc: 130,
-        "AttTrue%": "20.5",
+        "AttTrue%": "20.7",
         Min: 19,
         Max: 67,
         Energy: 666,
@@ -56069,7 +56065,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 130,
-        "AttTrue%": "22.0",
+        "AttTrue%": "20.5",
         Min: 26,
         Max: 78,
         Energy: 666,
@@ -56077,7 +56073,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you and claws you",
         Acc: 135,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.1",
         Min: 22,
         Max: 61,
         Energy: 666,
@@ -56087,7 +56083,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "volley of spines",
-        "AttTrue%": "13.5",
+        "AttTrue%": "13.8",
         Number: 5402,
         Success: 100,
         Level: 25,
@@ -56118,7 +56114,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and skewers you",
         Acc: 130,
-        "AttTrue%": "54.1",
+        "AttTrue%": "54.4",
         Min: 11,
         Max: 44,
         Energy: 333,
@@ -56126,7 +56122,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its talons",
         Acc: 130,
-        "AttTrue%": "27.4",
+        "AttTrue%": "27.0",
         Min: 22,
         Max: 71,
         Energy: 666,
@@ -56135,7 +56131,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 130,
-        "AttTrue%": "18.5",
+        "AttTrue%": "18.6",
         Min: 16,
         Max: 68,
         Energy: 666,
@@ -56164,7 +56160,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with a claw",
         Acc: 125,
-        "AttTrue%": "52.8",
+        "AttTrue%": "54.4",
         Min: 9,
         Max: 28,
         Energy: 250,
@@ -56172,7 +56168,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 130,
-        "AttTrue%": "23.4",
+        "AttTrue%": "23.0",
         Min: 13,
         Max: 46,
         Energy: 500,
@@ -56180,7 +56176,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, tearing you open",
         Acc: 130,
-        "AttTrue%": "23.7",
+        "AttTrue%": "22.7",
         Min: 17,
         Max: 68,
         Energy: 500,
@@ -56210,7 +56206,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws an arrow and shoots you",
         Acc: 135,
-        "AttTrue%": "60.1",
+        "AttTrue%": "59.5",
         Min: 11,
         Max: 48,
         Energy: 500,
@@ -56218,7 +56214,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 130,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.7",
         Min: 11,
         Max: 71,
         Energy: 500,
@@ -56226,7 +56222,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses an arrow, striking your vitals",
         Acc: 135,
-        "AttTrue%": "19.9",
+        "AttTrue%": "19.8",
         Min: 26,
         Max: 84,
         Energy: 500,
@@ -56255,7 +56251,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 135,
-        "AttTrue%": "55.8",
+        "AttTrue%": "54.2",
         Min: 16,
         Max: 45,
         Energy: 250,
@@ -56264,7 +56260,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 135,
-        "AttTrue%": "22.7",
+        "AttTrue%": "23.4",
         Min: 32,
         Max: 90,
         Energy: 750,
@@ -56272,7 +56268,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps forward, shoulder bashing you",
         Acc: 135,
-        "AttTrue%": "21.6",
+        "AttTrue%": "22.5",
         Min: 17,
         Max: 88,
         Energy: 750,
@@ -56302,7 +56298,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with a hoof",
         Acc: 120,
-        "AttTrue%": "36.2",
+        "AttTrue%": "35.0",
         Min: 5,
         Max: 32,
         Energy: 500,
@@ -56310,7 +56306,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 125,
-        "AttTrue%": "29.8",
+        "AttTrue%": "30.5",
         Min: 16,
         Max: 60,
         Energy: 1000,
@@ -56318,7 +56314,7 @@ export const monsterData: Monster[] = [
       {
         Name: "snorts and charges forth, goring you",
         Acc: 125,
-        "AttTrue%": "28.3",
+        "AttTrue%": "28.5",
         Min: 32,
         Max: 79,
         Energy: 1000,
@@ -56327,7 +56323,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a greenish cloud",
-        "AttTrue%": "5.6",
+        "AttTrue%": "6.0",
         Number: 322,
         Success: 100,
         Level: 50,
@@ -56356,7 +56352,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pecks you",
         Acc: 90,
-        "AttTrue%": "59.0",
+        "AttTrue%": "59.3",
         Min: 7,
         Max: 32,
         Energy: 500,
@@ -56364,7 +56360,7 @@ export const monsterData: Monster[] = [
       {
         Name: "scratches you",
         Acc: 95,
-        "AttTrue%": "41.0",
+        "AttTrue%": "40.7",
         Min: 6,
         Max: 27,
         Energy: 500,
@@ -56393,7 +56389,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips into you with its talons",
         Acc: 95,
-        "AttTrue%": "69.5",
+        "AttTrue%": "70.0",
         Min: 9,
         Max: 35,
         Energy: 500,
@@ -56401,7 +56397,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears into you",
         Acc: 90,
-        "AttTrue%": "30.5",
+        "AttTrue%": "30.0",
         Min: 8,
         Max: 37,
         Energy: 500,
@@ -56459,7 +56455,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 115,
-        "AttTrue%": "79.9",
+        "AttTrue%": "79.4",
         Min: 18,
         Max: 38,
         Energy: 500,
@@ -56467,7 +56463,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 120,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.6",
         Min: 16,
         Max: 44,
         Energy: 500,
@@ -56496,7 +56492,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 120,
-        "AttTrue%": "65.6",
+        "AttTrue%": "64.4",
         Min: 19,
         Max: 45,
         Energy: 500,
@@ -56504,7 +56500,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 125,
-        "AttTrue%": "21.3",
+        "AttTrue%": "22.2",
         Min: 18,
         Max: 60,
         Energy: 500,
@@ -56512,7 +56508,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its tusks",
         Acc: 90,
-        "AttTrue%": "13.1",
+        "AttTrue%": "13.4",
         Min: 22,
         Max: 51,
         Energy: 1000,
@@ -56545,7 +56541,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "70.4",
+        "AttTrue%": "69.6",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -56553,7 +56549,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 80,
-        "AttTrue%": "29.6",
+        "AttTrue%": "30.4",
         Min: 32,
         Max: 120,
         Energy: 1000,
@@ -56585,7 +56581,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 90,
-        "AttTrue%": "89.8",
+        "AttTrue%": "89.6",
         Min: 12,
         Max: 30,
         Energy: 500,
@@ -56593,7 +56589,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 95,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.4",
         Min: 48,
         Max: 120,
         Energy: 500,
@@ -56653,7 +56649,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 80,
-        "AttTrue%": "70.7",
+        "AttTrue%": "69.2",
         Min: 8,
         Max: 30,
         Energy: 1000,
@@ -56661,7 +56657,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 80,
-        "AttTrue%": "29.3",
+        "AttTrue%": "30.8",
         Min: 32,
         Max: 120,
         Energy: 1000,
@@ -56688,7 +56684,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 110,
-        "AttTrue%": "89.8",
+        "AttTrue%": "90.4",
         Min: 18,
         Max: 39,
         Energy: 500,
@@ -56696,7 +56692,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 115,
-        "AttTrue%": "10.2",
+        "AttTrue%": "9.6",
         Min: 36,
         Max: 72,
         Energy: 500,
@@ -56723,7 +56719,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 110,
-        "AttTrue%": "93.7",
+        "AttTrue%": "93.2",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -56732,7 +56728,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "6.3",
+        "AttTrue%": "6.8",
         Number: 5411,
         Success: 100,
         Level: 25,
@@ -56843,7 +56839,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 120,
-        "AttTrue%": "70.8",
+        "AttTrue%": "69.5",
         Min: 8,
         Max: 18,
         Energy: 250,
@@ -56851,7 +56847,7 @@ export const monsterData: Monster[] = [
       {
         Name: "aims and shoots you",
         Acc: 125,
-        "AttTrue%": "29.2",
+        "AttTrue%": "30.5",
         Min: 18,
         Max: 49,
         Energy: 250,
@@ -56878,7 +56874,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 75,
-        "AttTrue%": "44.6",
+        "AttTrue%": "46.3",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -56887,7 +56883,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "holy force",
-        "AttTrue%": "55.4",
+        "AttTrue%": "53.7",
         Number: 5037,
         Success: 100,
         Level: 14,
@@ -56971,7 +56967,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 75,
-        "AttTrue%": "45.7",
+        "AttTrue%": "45.5",
         Min: 3,
         Max: 12,
         Energy: 1000,
@@ -56980,7 +56976,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "holy force",
-        "AttTrue%": "54.3",
+        "AttTrue%": "54.5",
         Number: 5037,
         Success: 100,
         Level: 14,
@@ -57038,7 +57034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 85,
-        "AttTrue%": "47.0",
+        "AttTrue%": "46.3",
         Min: 16,
         Max: 41,
         Energy: 500,
@@ -57046,7 +57042,7 @@ export const monsterData: Monster[] = [
       {
         Name: "flutters, launching spines at you",
         Acc: 90,
-        "AttTrue%": "53.0",
+        "AttTrue%": "53.7",
         Min: 1,
         Max: 20,
         Energy: 250,
@@ -57112,7 +57108,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 110,
-        "AttTrue%": "93.7",
+        "AttTrue%": "93.8",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -57121,7 +57117,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "6.3",
+        "AttTrue%": "6.2",
         Number: 5411,
         Success: 100,
         Level: 25,
@@ -57184,7 +57180,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with his fist",
         Acc: 110,
-        "AttTrue%": "92.9",
+        "AttTrue%": "93.5",
         Min: 10,
         Max: 25,
         Energy: 500,
@@ -57193,7 +57189,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "net",
-        "AttTrue%": "7.1",
+        "AttTrue%": "6.5",
         Number: 5411,
         Success: 100,
         Level: 25,
@@ -57223,7 +57219,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 250,
-        "AttTrue%": "53.6",
+        "AttTrue%": "54.6",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -57231,7 +57227,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 250,
-        "AttTrue%": "46.4",
+        "AttTrue%": "45.4",
         Min: 220,
         Max: 680,
         Energy: 1000,
@@ -57243,43 +57239,6 @@ export const monsterData: Monster[] = [
     Name: "Captain Jorgan",
     Weapon: 3009,
     ArmourClass: 65,
-    DamageResist: 5,
-    "Follow%": 0,
-    MagicRes: 150,
-    EXP: 5,
-    HP: 9999,
-    HPRegen: 9999,
-    CharmLVL: 9999,
-    Type: 3,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    SpellImmune: 999,
-    Dodge: 90,
-    Attacks: [
-      {
-        Name: "hacks you",
-        Acc: 250,
-        "AttTrue%": "55.0",
-        Min: 25,
-        Max: 100,
-        Energy: 200,
-      },
-      {
-        Name: "levels his flintlock and fires at you",
-        Acc: 250,
-        "AttTrue%": "45.0",
-        Min: 220,
-        Max: 680,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2346,
-    Name: "First Mate Kranok",
-    Weapon: 3009,
-    ArmourClass: 90,
     DamageResist: 5,
     "Follow%": 0,
     MagicRes: 150,
@@ -57313,7 +57272,149 @@ export const monsterData: Monster[] = [
     ],
   },
   {
+    Number: 2346,
+    Name: "First Mate Kranok",
+    Weapon: 3009,
+    ArmourClass: 90,
+    DamageResist: 5,
+    "Follow%": 0,
+    MagicRes: 150,
+    EXP: 5,
+    HP: 9999,
+    HPRegen: 9999,
+    CharmLVL: 9999,
+    Type: 3,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    SpellImmune: 999,
+    Dodge: 90,
+    Attacks: [
+      {
+        Name: "hacks you",
+        Acc: 250,
+        "AttTrue%": "54.0",
+        Min: 25,
+        Max: 100,
+        Energy: 200,
+      },
+      {
+        Name: "levels his flintlock and fires at you",
+        Acc: 250,
+        "AttTrue%": "46.0",
+        Min: 220,
+        Max: 680,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
     Number: 2347,
+    Name: "seaman",
+    Weapon: 3009,
+    ArmourClass: 15,
+    DamageResist: 1,
+    "Follow%": 25,
+    MagicRes: 50,
+    EXP: 1100,
+    HP: 300,
+    HPRegen: 30,
+    CharmLVL: 45,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Attacks: [
+      {
+        Name: "hacks you",
+        Acc: 110,
+        "AttTrue%": "89.1",
+        Min: 18,
+        Max: 39,
+        Energy: 500,
+      },
+      {
+        Name: "all-out slashes you",
+        Acc: 115,
+        "AttTrue%": "10.9",
+        Min: 36,
+        Max: 72,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2348,
+    Name: "salty dog",
+    Weapon: 3009,
+    ArmourClass: 15,
+    DamageResist: 1,
+    "Follow%": 25,
+    MagicRes: 50,
+    EXP: 1100,
+    HP: 300,
+    HPRegen: 30,
+    CharmLVL: 45,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Attacks: [
+      {
+        Name: "hacks you",
+        Acc: 110,
+        "AttTrue%": "89.5",
+        Min: 18,
+        Max: 39,
+        Energy: 500,
+      },
+      {
+        Name: "all-out slashes you",
+        Acc: 115,
+        "AttTrue%": "10.5",
+        Min: 36,
+        Max: 72,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2349,
+    Name: "salty dog",
+    Weapon: 3009,
+    ArmourClass: 15,
+    DamageResist: 1,
+    "Follow%": 25,
+    MagicRes: 50,
+    EXP: 1100,
+    HP: 300,
+    HPRegen: 30,
+    CharmLVL: 45,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Attacks: [
+      {
+        Name: "hacks you",
+        Acc: 110,
+        "AttTrue%": "89.7",
+        Min: 18,
+        Max: 39,
+        Energy: 500,
+      },
+      {
+        Name: "all-out slashes you",
+        Acc: 115,
+        "AttTrue%": "10.3",
+        Min: 36,
+        Max: 72,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2350,
     Name: "seaman",
     Weapon: 3009,
     ArmourClass: 15,
@@ -57348,111 +57449,6 @@ export const monsterData: Monster[] = [
     ],
   },
   {
-    Number: 2348,
-    Name: "salty dog",
-    Weapon: 3009,
-    ArmourClass: 15,
-    DamageResist: 1,
-    "Follow%": 25,
-    MagicRes: 50,
-    EXP: 1100,
-    HP: 300,
-    HPRegen: 30,
-    CharmLVL: 45,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Attacks: [
-      {
-        Name: "hacks you",
-        Acc: 110,
-        "AttTrue%": "89.8",
-        Min: 18,
-        Max: 39,
-        Energy: 500,
-      },
-      {
-        Name: "all-out slashes you",
-        Acc: 115,
-        "AttTrue%": "10.2",
-        Min: 36,
-        Max: 72,
-        Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2349,
-    Name: "salty dog",
-    Weapon: 3009,
-    ArmourClass: 15,
-    DamageResist: 1,
-    "Follow%": 25,
-    MagicRes: 50,
-    EXP: 1100,
-    HP: 300,
-    HPRegen: 30,
-    CharmLVL: 45,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Attacks: [
-      {
-        Name: "hacks you",
-        Acc: 110,
-        "AttTrue%": "90.5",
-        Min: 18,
-        Max: 39,
-        Energy: 500,
-      },
-      {
-        Name: "all-out slashes you",
-        Acc: 115,
-        "AttTrue%": "9.5",
-        Min: 36,
-        Max: 72,
-        Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2350,
-    Name: "seaman",
-    Weapon: 3009,
-    ArmourClass: 15,
-    DamageResist: 1,
-    "Follow%": 25,
-    MagicRes: 50,
-    EXP: 1100,
-    HP: 300,
-    HPRegen: 30,
-    CharmLVL: 45,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Attacks: [
-      {
-        Name: "hacks you",
-        Acc: 110,
-        "AttTrue%": "89.8",
-        Min: 18,
-        Max: 39,
-        Energy: 500,
-      },
-      {
-        Name: "all-out slashes you",
-        Acc: 115,
-        "AttTrue%": "10.2",
-        Min: 36,
-        Max: 72,
-        Energy: 500,
-      },
-    ],
-  },
-  {
     Number: 2351,
     Name: "dire grizzly matriarch",
     Weapon: 0,
@@ -57474,7 +57470,7 @@ export const monsterData: Monster[] = [
       {
         Name: "roars and slashes you",
         Acc: 140,
-        "AttTrue%": "22.4",
+        "AttTrue%": "22.5",
         Min: 27,
         Max: 69,
         Energy: 333,
@@ -57482,7 +57478,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 135,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.2",
         Min: 51,
         Max: 108,
         Energy: 666,
@@ -57491,7 +57487,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and mauls you",
         Acc: 140,
-        "AttTrue%": "15.9",
+        "AttTrue%": "15.3",
         Min: 71,
         Max: 122,
         Energy: 1000,
@@ -57499,7 +57495,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges forward, smashing into you",
         Acc: 140,
-        "AttTrue%": "19.1",
+        "AttTrue%": "20.3",
         Min: 29,
         Max: 59,
         Energy: 666,
@@ -57508,7 +57504,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally guts you",
         Acc: 140,
-        "AttTrue%": "22.6",
+        "AttTrue%": "21.7",
         Min: 54,
         Max: 138,
         Energy: 333,
@@ -57537,7 +57533,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 250,
-        "AttTrue%": "55.5",
+        "AttTrue%": "56.0",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -57545,7 +57541,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 250,
-        "AttTrue%": "44.5",
+        "AttTrue%": "44.0",
         Min: 220,
         Max: 680,
         Energy: 1000,
@@ -57580,7 +57576,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spins and kicks you in the head",
         Acc: 200,
-        "AttTrue%": "21.3",
+        "AttTrue%": "21.9",
         Min: 28,
         Max: 146,
         Energy: 125,
@@ -57589,7 +57585,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with a flurry of kicks",
         Acc: 210,
-        "AttTrue%": "21.9",
+        "AttTrue%": "20.9",
         Min: 36,
         Max: 160,
         Energy: 250,
@@ -57598,7 +57594,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you viciously",
         Acc: 210,
-        "AttTrue%": "18.7",
+        "AttTrue%": "18.6",
         Min: 114,
         Max: 290,
         Energy: 500,
@@ -57607,7 +57603,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sweeps",
         Acc: 200,
-        "AttTrue%": "27.7",
+        "AttTrue%": "28.1",
         Min: 71,
         Max: 186,
         Energy: 500,
@@ -57616,7 +57612,7 @@ export const monsterData: Monster[] = [
       {
         Name: "headbutts you",
         Acc: 200,
-        "AttTrue%": "10.4",
+        "AttTrue%": "10.5",
         Min: 25,
         Max: 125,
         Energy: 250,
@@ -57627,6 +57623,115 @@ export const monsterData: Monster[] = [
   {
     Number: 2354,
     Name: "dockworker",
+    Weapon: 0,
+    ArmourClass: 15,
+    DamageResist: 1,
+    "Follow%": 25,
+    MagicRes: 50,
+    EXP: 900,
+    HP: 275,
+    HPRegen: 25,
+    CharmLVL: 40,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Attacks: [
+      {
+        Name: "smashes you with his fist",
+        Acc: 110,
+        "AttTrue%": "93.7",
+        Min: 10,
+        Max: 25,
+        Energy: 500,
+      },
+    ],
+    Spells: [
+      {
+        Name: "net",
+        "AttTrue%": "6.3",
+        Number: 5411,
+        Success: 100,
+        Level: 25,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2355,
+    Name: "sailor",
+    Weapon: 3009,
+    ArmourClass: 15,
+    DamageResist: 1,
+    "Follow%": 25,
+    MagicRes: 50,
+    EXP: 1100,
+    HP: 300,
+    HPRegen: 30,
+    CharmLVL: 45,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Attacks: [
+      {
+        Name: "hacks you",
+        Acc: 110,
+        "AttTrue%": "90.4",
+        Min: 18,
+        Max: 39,
+        Energy: 500,
+      },
+      {
+        Name: "all-out slashes you",
+        Acc: 115,
+        "AttTrue%": "9.6",
+        Min: 36,
+        Max: 72,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2356,
+    Name: "fisherman",
+    Weapon: 0,
+    ArmourClass: 15,
+    DamageResist: 1,
+    "Follow%": 25,
+    MagicRes: 50,
+    EXP: 900,
+    HP: 275,
+    HPRegen: 25,
+    CharmLVL: 40,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Attacks: [
+      {
+        Name: "smashes you with his fist",
+        Acc: 110,
+        "AttTrue%": "93.7",
+        Min: 10,
+        Max: 25,
+        Energy: 500,
+      },
+    ],
+    Spells: [
+      {
+        Name: "net",
+        "AttTrue%": "6.3",
+        Number: 5411,
+        Success: 100,
+        Level: 25,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2357,
+    Name: "shipwright",
     Weapon: 0,
     ArmourClass: 15,
     DamageResist: 1,
@@ -57662,43 +57767,8 @@ export const monsterData: Monster[] = [
     ],
   },
   {
-    Number: 2355,
-    Name: "sailor",
-    Weapon: 3009,
-    ArmourClass: 15,
-    DamageResist: 1,
-    "Follow%": 25,
-    MagicRes: 50,
-    EXP: 1100,
-    HP: 300,
-    HPRegen: 30,
-    CharmLVL: 45,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Attacks: [
-      {
-        Name: "hacks you",
-        Acc: 110,
-        "AttTrue%": "90.3",
-        Min: 18,
-        Max: 39,
-        Energy: 500,
-      },
-      {
-        Name: "all-out slashes you",
-        Acc: 115,
-        "AttTrue%": "9.7",
-        Min: 36,
-        Max: 72,
-        Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2356,
-    Name: "fisherman",
+    Number: 2358,
+    Name: "merchant captain",
     Weapon: 0,
     ArmourClass: 15,
     DamageResist: 1,
@@ -57734,80 +57804,6 @@ export const monsterData: Monster[] = [
     ],
   },
   {
-    Number: 2357,
-    Name: "shipwright",
-    Weapon: 0,
-    ArmourClass: 15,
-    DamageResist: 1,
-    "Follow%": 25,
-    MagicRes: 50,
-    EXP: 900,
-    HP: 275,
-    HPRegen: 25,
-    CharmLVL: 40,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Attacks: [
-      {
-        Name: "smashes you with his fist",
-        Acc: 110,
-        "AttTrue%": "93.5",
-        Min: 10,
-        Max: 25,
-        Energy: 500,
-      },
-    ],
-    Spells: [
-      {
-        Name: "net",
-        "AttTrue%": "6.5",
-        Number: 5411,
-        Success: 100,
-        Level: 25,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2358,
-    Name: "merchant captain",
-    Weapon: 0,
-    ArmourClass: 15,
-    DamageResist: 1,
-    "Follow%": 25,
-    MagicRes: 50,
-    EXP: 900,
-    HP: 275,
-    HPRegen: 25,
-    CharmLVL: 40,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Attacks: [
-      {
-        Name: "smashes you with his fist",
-        Acc: 110,
-        "AttTrue%": "93.4",
-        Min: 10,
-        Max: 25,
-        Energy: 500,
-      },
-    ],
-    Spells: [
-      {
-        Name: "net",
-        "AttTrue%": "6.6",
-        Number: 5411,
-        Success: 100,
-        Level: 25,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
     Number: 2359,
     Name: "city guard",
     Weapon: 3025,
@@ -57833,7 +57829,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges forward and skewers you",
         Acc: 125,
-        "AttTrue%": "75.4",
+        "AttTrue%": "74.9",
         Min: 11,
         Max: 38,
         Energy: 250,
@@ -57842,7 +57838,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 125,
-        "AttTrue%": "24.6",
+        "AttTrue%": "25.1",
         Min: 44,
         Max: 141,
         Energy: 250,
@@ -57874,7 +57870,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 130,
-        "AttTrue%": "69.3",
+        "AttTrue%": "68.8",
         Min: 15,
         Max: 46,
         Energy: 250,
@@ -57883,7 +57879,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 140,
-        "AttTrue%": "20.4",
+        "AttTrue%": "21.3",
         Min: 38,
         Max: 149,
         Energy: 250,
@@ -57892,7 +57888,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shield-rushes you",
         Acc: 140,
-        "AttTrue%": "10.3",
+        "AttTrue%": "9.9",
         Min: 61,
         Max: 114,
         Energy: 750,
@@ -57921,7 +57917,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges forward and skewers you",
         Acc: 125,
-        "AttTrue%": "73.9",
+        "AttTrue%": "75.1",
         Min: 11,
         Max: 38,
         Energy: 250,
@@ -57930,7 +57926,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 125,
-        "AttTrue%": "26.1",
+        "AttTrue%": "24.9",
         Min: 44,
         Max: 141,
         Energy: 250,
@@ -58014,7 +58010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "76.9",
+        "AttTrue%": "76.2",
         Min: 16,
         Max: 44,
         Energy: 333,
@@ -58022,7 +58018,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 145,
-        "AttTrue%": "19.6",
+        "AttTrue%": "20.4",
         Min: 48,
         Max: 132,
         Energy: 333,
@@ -58060,7 +58056,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges forward and skewers you",
         Acc: 130,
-        "AttTrue%": "84.8",
+        "AttTrue%": "84.6",
         Min: 11,
         Max: 41,
         Energy: 250,
@@ -58068,7 +58064,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 130,
-        "AttTrue%": "15.2",
+        "AttTrue%": "15.4",
         Min: 33,
         Max: 129,
         Energy: 250,
@@ -58096,7 +58092,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws an arrow and shoots you",
         Acc: 135,
-        "AttTrue%": "63.4",
+        "AttTrue%": "64.7",
         Min: 16,
         Max: 44,
         Energy: 333,
@@ -58104,7 +58100,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 130,
-        "AttTrue%": "23.1",
+        "AttTrue%": "22.6",
         Min: 48,
         Max: 132,
         Energy: 666,
@@ -58112,7 +58108,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses an arrow, striking your vitals",
         Acc: 130,
-        "AttTrue%": "13.5",
+        "AttTrue%": "12.7",
         Min: 57,
         Max: 138,
         Energy: 666,
@@ -58140,7 +58136,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 160,
-        "AttTrue%": "67.0",
+        "AttTrue%": "68.0",
         Min: 36,
         Max: 72,
         Energy: 333,
@@ -58148,7 +58144,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 165,
-        "AttTrue%": "21.1",
+        "AttTrue%": "20.6",
         Min: 108,
         Max: 210,
         Energy: 333,
@@ -58156,7 +58152,7 @@ export const monsterData: Monster[] = [
       {
         Name: "goes berserk on you",
         Acc: 175,
-        "AttTrue%": "11.8",
+        "AttTrue%": "11.4",
         Min: 166,
         Max: 284,
         Energy: 666,
@@ -58185,7 +58181,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 200,
-        "AttTrue%": "75.0",
+        "AttTrue%": "76.3",
         Min: 70,
         Max: 380,
         Energy: 250,
@@ -58193,7 +58189,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 200,
-        "AttTrue%": "25.0",
+        "AttTrue%": "23.7",
         Min: 188,
         Max: 560,
         Energy: 250,
@@ -58221,7 +58217,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes in an upward arc, wounding you",
         Acc: 200,
-        "AttTrue%": "52.1",
+        "AttTrue%": "53.8",
         Min: 48,
         Max: 80,
         Energy: 250,
@@ -58229,7 +58225,7 @@ export const monsterData: Monster[] = [
       {
         Name: "furiously slashes you",
         Acc: 220,
-        "AttTrue%": "25.9",
+        "AttTrue%": "25.1",
         Min: 120,
         Max: 219,
         Energy: 250,
@@ -58238,7 +58234,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoulder bashes you",
         Acc: 190,
-        "AttTrue%": "22.0",
+        "AttTrue%": "21.1",
         Min: 61,
         Max: 114,
         Energy: 500,
@@ -58275,7 +58271,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 220,
-        "AttTrue%": "80.1",
+        "AttTrue%": "80.0",
         Min: 29,
         Max: 90,
         Energy: 200,
@@ -58284,7 +58280,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a vicious blow",
         Acc: 235,
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.0",
         Min: 90,
         Max: 320,
         Energy: 200,
@@ -58315,7 +58311,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 135,
-        "AttTrue%": "75.5",
+        "AttTrue%": "75.4",
         Min: 28,
         Max: 74,
         Energy: 333,
@@ -58323,7 +58319,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "24.5",
+        "AttTrue%": "24.6",
         Min: 36,
         Max: 68,
         Energy: 333,
@@ -58353,7 +58349,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 135,
-        "AttTrue%": "75.8",
+        "AttTrue%": "75.5",
         Min: 28,
         Max: 74,
         Energy: 333,
@@ -58361,7 +58357,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "24.2",
+        "AttTrue%": "24.5",
         Min: 36,
         Max: 68,
         Energy: 333,
@@ -58416,7 +58412,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 135,
-        "AttTrue%": "60.1",
+        "AttTrue%": "59.3",
         Min: 19,
         Max: 48,
         Energy: 333,
@@ -58424,7 +58420,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges and skewers you",
         Acc: 140,
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.6",
         Min: 57,
         Max: 144,
         Energy: 333,
@@ -58433,7 +58429,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "song of sonic blast",
-        "AttTrue%": "19.9",
+        "AttTrue%": "20.1",
         Number: 277,
         Success: 100,
         Level: 50,
@@ -58461,7 +58457,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "song of sonic blast",
-        "AttTrue%": "47.9",
+        "AttTrue%": "48.4",
         Number: 277,
         Success: 100,
         Level: 50,
@@ -58469,7 +58465,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "song of draining",
-        "AttTrue%": "28.2",
+        "AttTrue%": "26.9",
         Number: 101,
         Success: 100,
         Level: 50,
@@ -58480,7 +58476,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges and skewers you",
         Acc: 140,
-        "AttTrue%": "23.8",
+        "AttTrue%": "24.7",
         Min: 57,
         Max: 144,
         Energy: 333,
@@ -58508,7 +58504,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 125,
-        "AttTrue%": "81.6",
+        "AttTrue%": "81.5",
         Min: 17,
         Max: 38,
         Energy: 250,
@@ -58516,7 +58512,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 130,
-        "AttTrue%": "10.7",
+        "AttTrue%": "10.2",
         Min: 49,
         Max: 127,
         Energy: 250,
@@ -58524,7 +58520,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges forward and skewers you",
         Acc: 130,
-        "AttTrue%": "7.8",
+        "AttTrue%": "8.3",
         Min: 57,
         Max: 91,
         Energy: 500,
@@ -58554,7 +58550,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 120,
-        "AttTrue%": "65.5",
+        "AttTrue%": "64.6",
         Min: 19,
         Max: 67,
         Energy: 500,
@@ -58563,7 +58559,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 125,
-        "AttTrue%": "34.5",
+        "AttTrue%": "35.4",
         Min: 1,
         Max: 100,
         Energy: 500,
@@ -58622,7 +58618,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 120,
-        "AttTrue%": "80.7",
+        "AttTrue%": "79.8",
         Min: 7,
         Max: 38,
         Energy: 250,
@@ -58630,7 +58626,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously stabs you",
         Acc: 125,
-        "AttTrue%": "19.3",
+        "AttTrue%": "20.2",
         Min: 21,
         Max: 81,
         Energy: 250,
@@ -59075,7 +59071,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 150,
-        "AttTrue%": "80.2",
+        "AttTrue%": "81.2",
         Min: 10,
         Max: 34,
         Energy: 200,
@@ -59083,7 +59079,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 150,
-        "AttTrue%": "19.8",
+        "AttTrue%": "18.8",
         Min: 20,
         Max: 90,
         Energy: 200,
@@ -59121,7 +59117,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 220,
-        "AttTrue%": "23.3",
+        "AttTrue%": "24.5",
         Min: 91,
         Max: 184,
         Energy: 200,
@@ -59130,7 +59126,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 230,
-        "AttTrue%": "24.1",
+        "AttTrue%": "23.6",
         Min: 182,
         Max: 368,
         Energy: 200,
@@ -59139,7 +59135,7 @@ export const monsterData: Monster[] = [
       {
         Name: "disappears, then reappears and backstabs you",
         Acc: 260,
-        "AttTrue%": "12.0",
+        "AttTrue%": "12.1",
         Min: 670,
         Max: 1456,
         Energy: 1000,
@@ -59148,7 +59144,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "energy drain",
-        "AttTrue%": "21.3",
+        "AttTrue%": "20.8",
         Number: 5158,
         Success: 100,
         Level: 80,
@@ -59156,7 +59152,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "summon void elemental",
-        "AttTrue%": "19.2",
+        "AttTrue%": "19.0",
         Number: 5131,
         Success: 100,
         Level: 400,
@@ -59199,7 +59195,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with her talons",
         Acc: 180,
-        "AttTrue%": "22.9",
+        "AttTrue%": "25.1",
         Min: 80,
         Max: 240,
         Energy: 250,
@@ -59207,7 +59203,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely tears you with her fangs",
         Acc: 250,
-        "AttTrue%": "18.0",
+        "AttTrue%": "16.3",
         Min: 220,
         Max: 477,
         Energy: 500,
@@ -59215,7 +59211,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its tail",
         Acc: 215,
-        "AttTrue%": "24.1",
+        "AttTrue%": "23.1",
         Min: 110,
         Max: 290,
         Energy: 250,
@@ -59225,7 +59221,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "17.9",
+        "AttTrue%": "17.8",
         Number: 211,
         Success: 100,
         Level: 60,
@@ -59233,7 +59229,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "soulstrike",
-        "AttTrue%": "17.2",
+        "AttTrue%": "17.8",
         Number: 721,
         Success: 100,
         Level: 75,
@@ -59269,7 +59265,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally cleaves you",
         Acc: 250,
-        "AttTrue%": "23.6",
+        "AttTrue%": "24.4",
         Min: 177,
         Max: 364,
         Energy: 200,
@@ -59278,7 +59274,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 180,
-        "AttTrue%": "36.7",
+        "AttTrue%": "37.0",
         Min: 45,
         Max: 240,
         Energy: 200,
@@ -59288,7 +59284,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "31.2",
+        "AttTrue%": "29.9",
         Number: 391,
         Success: 100,
         Level: 100,
@@ -59296,7 +59292,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "energy vortex",
-        "AttTrue%": "8.5",
+        "AttTrue%": "8.7",
         Number: 1302,
         Success: 100,
         Level: 90,
@@ -59327,7 +59323,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 100,
-        "AttTrue%": "50.9",
+        "AttTrue%": "50.8",
         Min: 2,
         Max: 25,
         Energy: 300,
@@ -59336,7 +59332,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you",
         Acc: 125,
-        "AttTrue%": "30.3",
+        "AttTrue%": "30.8",
         Min: 4,
         Max: 35,
         Energy: 300,
@@ -59345,7 +59341,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 145,
-        "AttTrue%": "9.9",
+        "AttTrue%": "9.4",
         Min: 35,
         Max: 50,
         Energy: 300,
@@ -59355,7 +59351,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "deeply bite",
-        "AttTrue%": "8.9",
+        "AttTrue%": "9.0",
         Number: 991,
         Success: 100,
         Level: 20,
@@ -59388,7 +59384,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "54.4",
+        "AttTrue%": "54.0",
         Min: 10,
         Max: 25,
         Energy: 250,
@@ -59398,7 +59394,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "26.1",
+        "AttTrue%": "26.4",
         Number: 5034,
         Success: 100,
         Level: 40,
@@ -59406,7 +59402,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "deeply bite",
-        "AttTrue%": "19.5",
+        "AttTrue%": "19.6",
         Number: 991,
         Success: 100,
         Level: 40,
@@ -59438,7 +59434,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 125,
-        "AttTrue%": "34.5",
+        "AttTrue%": "33.9",
         Min: 10,
         Max: 20,
         Energy: 300,
@@ -59448,7 +59444,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "deeply bite",
-        "AttTrue%": "55.1",
+        "AttTrue%": "54.6",
         Number: 991,
         Success: 100,
         Level: 40,
@@ -59456,7 +59452,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "6.1",
+        "AttTrue%": "6.8",
         Number: 5018,
         Success: 100,
         Level: 40,
@@ -59464,7 +59460,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spirit horde",
-        "AttTrue%": "4.4",
+        "AttTrue%": "4.6",
         Number: 1197,
         Success: 100,
         Level: 40,
@@ -59498,7 +59494,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with flotsam",
         Acc: 120,
-        "AttTrue%": "49.5",
+        "AttTrue%": "47.3",
         Min: 11,
         Max: 46,
         Energy: 500,
@@ -59506,7 +59502,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and drowns you",
         Acc: 120,
-        "AttTrue%": "13.8",
+        "AttTrue%": "14.2",
         Min: 19,
         Max: 73,
         Energy: 1000,
@@ -59515,7 +59511,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "23.1",
+        "AttTrue%": "24.5",
         Number: 95,
         Success: 100,
         Level: 25,
@@ -59523,7 +59519,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "water jet",
-        "AttTrue%": "13.5",
+        "AttTrue%": "14.0",
         Number: 5454,
         Success: 100,
         Level: 25,
@@ -59555,7 +59551,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you with a sandy fist",
         Acc: 120,
-        "AttTrue%": "46.9",
+        "AttTrue%": "47.7",
         Min: 18,
         Max: 44,
         Energy: 500,
@@ -59563,7 +59559,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with both fists",
         Acc: 120,
-        "AttTrue%": "14.1",
+        "AttTrue%": "14.5",
         Min: 21,
         Max: 86,
         Energy: 1000,
@@ -59572,7 +59568,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sharp stones",
-        "AttTrue%": "14.9",
+        "AttTrue%": "14.3",
         Number: 5455,
         Success: 100,
         Level: 40,
@@ -59580,7 +59576,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blast of sand",
-        "AttTrue%": "24.1",
+        "AttTrue%": "23.5",
         Number: 5106,
         Success: 100,
         Level: 15,
@@ -59613,7 +59609,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and snaps you",
         Acc: 130,
-        "AttTrue%": "73.8",
+        "AttTrue%": "74.1",
         Min: 11,
         Max: 36,
         Energy: 500,
@@ -59621,7 +59617,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely snaps you",
         Acc: 135,
-        "AttTrue%": "26.2",
+        "AttTrue%": "25.9",
         Min: 16,
         Max: 56,
         Energy: 1000,
@@ -59654,7 +59650,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and snaps you",
         Acc: 120,
-        "AttTrue%": "56.2",
+        "AttTrue%": "55.7",
         Min: 7,
         Max: 38,
         Energy: 333,
@@ -59662,7 +59658,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely snaps you",
         Acc: 130,
-        "AttTrue%": "33.1",
+        "AttTrue%": "33.9",
         Min: 14,
         Max: 63,
         Energy: 666,
@@ -59670,7 +59666,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 125,
-        "AttTrue%": "10.8",
+        "AttTrue%": "10.4",
         Min: 14,
         Max: 72,
         Energy: 1000,
@@ -59703,7 +59699,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a tentacle",
         Acc: 125,
-        "AttTrue%": "45.3",
+        "AttTrue%": "44.8",
         Min: 11,
         Max: 39,
         Energy: 500,
@@ -59711,7 +59707,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a tentacle",
         Acc: 130,
-        "AttTrue%": "16.2",
+        "AttTrue%": "15.7",
         Min: 19,
         Max: 79,
         Energy: 1000,
@@ -59720,7 +59716,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a barbed tentacle",
         Acc: 130,
-        "AttTrue%": "15.1",
+        "AttTrue%": "17.0",
         Min: 14,
         Max: 68,
         Energy: 1000,
@@ -59730,7 +59726,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "23.4",
+        "AttTrue%": "22.5",
         Number: 5454,
         Success: 100,
         Level: 10,
@@ -59762,7 +59758,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a tentacle",
         Acc: 125,
-        "AttTrue%": "50.7",
+        "AttTrue%": "50.0",
         Min: 11,
         Max: 39,
         Energy: 500,
@@ -59770,7 +59766,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a tentacle",
         Acc: 130,
-        "AttTrue%": "15.7",
+        "AttTrue%": "16.6",
         Min: 22,
         Max: 86,
         Energy: 1000,
@@ -59779,7 +59775,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a barbed tentacle",
         Acc: 130,
-        "AttTrue%": "17.9",
+        "AttTrue%": "16.2",
         Min: 22,
         Max: 86,
         Energy: 1000,
@@ -59789,7 +59785,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spits digestive fluid",
-        "AttTrue%": "15.8",
+        "AttTrue%": "17.2",
         Number: 5457,
         Success: 100,
         Level: 40,
@@ -59859,7 +59855,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you",
         Acc: 130,
-        "AttTrue%": "42.1",
+        "AttTrue%": "43.0",
         Min: 11,
         Max: 41,
         Energy: 500,
@@ -59868,7 +59864,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you with a sharpened stick",
         Acc: 130,
-        "AttTrue%": "33.7",
+        "AttTrue%": "32.7",
         Min: 16,
         Max: 58,
         Energy: 500,
@@ -59877,7 +59873,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flurry of thorns",
-        "AttTrue%": "17.4",
+        "AttTrue%": "17.7",
         Number: 5458,
         Success: 100,
         Level: 13,
@@ -59885,7 +59881,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "confusion",
-        "AttTrue%": "6.8",
+        "AttTrue%": "6.6",
         Number: 63,
         Success: 100,
         Level: 50,
@@ -59916,7 +59912,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with a claw",
         Acc: 125,
-        "AttTrue%": "56.9",
+        "AttTrue%": "57.4",
         Min: 7,
         Max: 39,
         Energy: 250,
@@ -59924,7 +59920,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 130,
-        "AttTrue%": "26.7",
+        "AttTrue%": "25.7",
         Min: 18,
         Max: 67,
         Energy: 500,
@@ -59932,7 +59928,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, tearing you open",
         Acc: 135,
-        "AttTrue%": "16.4",
+        "AttTrue%": "16.9",
         Min: 36,
         Max: 88,
         Energy: 1000,
@@ -59967,7 +59963,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a thorny fist",
         Acc: 135,
-        "AttTrue%": "42.4",
+        "AttTrue%": "41.6",
         Min: 9,
         Max: 66,
         Energy: 500,
@@ -59975,7 +59971,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with a vine",
         Acc: 140,
-        "AttTrue%": "47.4",
+        "AttTrue%": "48.7",
         Min: 9,
         Max: 51,
         Energy: 250,
@@ -59984,7 +59980,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches acid",
-        "AttTrue%": "10.3",
+        "AttTrue%": "9.7",
         Number: 5459,
         Success: 100,
         Level: 25,
@@ -60014,7 +60010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 135,
-        "AttTrue%": "69.5",
+        "AttTrue%": "70.4",
         Min: 21,
         Max: 60,
         Energy: 250,
@@ -60022,7 +60018,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 145,
-        "AttTrue%": "30.5",
+        "AttTrue%": "29.6",
         Min: 31,
         Max: 97,
         Energy: 250,
@@ -60052,7 +60048,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "70.5",
+        "AttTrue%": "69.5",
         Min: 42,
         Max: 96,
         Energy: 250,
@@ -60060,7 +60056,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 155,
-        "AttTrue%": "29.5",
+        "AttTrue%": "30.5",
         Min: 89,
         Max: 196,
         Energy: 250,
@@ -60093,7 +60089,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 155,
-        "AttTrue%": "65.6",
+        "AttTrue%": "65.8",
         Min: 76,
         Max: 140,
         Energy: 250,
@@ -60101,7 +60097,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 160,
-        "AttTrue%": "26.7",
+        "AttTrue%": "26.2",
         Min: 88,
         Max: 234,
         Energy: 250,
@@ -60109,7 +60105,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 180,
-        "AttTrue%": "7.7",
+        "AttTrue%": "8.0",
         Min: 180,
         Max: 500,
         Energy: 1000,
@@ -60142,7 +60138,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 135,
-        "AttTrue%": "69.4",
+        "AttTrue%": "70.3",
         Min: 21,
         Max: 60,
         Energy: 250,
@@ -60150,7 +60146,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 145,
-        "AttTrue%": "30.6",
+        "AttTrue%": "29.7",
         Min: 31,
         Max: 97,
         Energy: 250,
@@ -60179,7 +60175,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 250,
-        "AttTrue%": "54.5",
+        "AttTrue%": "56.1",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -60187,7 +60183,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 250,
-        "AttTrue%": "45.5",
+        "AttTrue%": "43.9",
         Min: 220,
         Max: 680,
         Energy: 1000,
@@ -60216,7 +60212,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 250,
-        "AttTrue%": "53.6",
+        "AttTrue%": "55.8",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -60224,7 +60220,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 250,
-        "AttTrue%": "46.4",
+        "AttTrue%": "44.2",
         Min: 220,
         Max: 680,
         Energy: 1000,
@@ -60258,7 +60254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a spectral orb at you",
         Acc: 140,
-        "AttTrue%": "49.7",
+        "AttTrue%": "51.3",
         Min: 19,
         Max: 78,
         Energy: 250,
@@ -60267,7 +60263,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "lightning bolt",
-        "AttTrue%": "16.6",
+        "AttTrue%": "16.2",
         Number: 8,
         Success: 100,
         Level: 100,
@@ -60275,7 +60271,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blaze",
-        "AttTrue%": "16.4",
+        "AttTrue%": "15.8",
         Number: 290,
         Success: 100,
         Level: 50,
@@ -60283,7 +60279,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frozen orb",
-        "AttTrue%": "17.4",
+        "AttTrue%": "16.8",
         Number: 5147,
         Success: 100,
         Level: 80,
@@ -60326,7 +60322,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 155,
-        "AttTrue%": "53.6",
+        "AttTrue%": "53.2",
         Min: 11,
         Max: 108,
         Energy: 333,
@@ -60335,7 +60331,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 160,
-        "AttTrue%": "43.2",
+        "AttTrue%": "43.0",
         Min: 11,
         Max: 170,
         Energy: 333,
@@ -60345,18 +60341,10 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic bolt",
-        "AttTrue%": "3.2",
+        "AttTrue%": "3.8",
         Number: 1008,
         Success: 100,
         Level: 25,
-        Energy: 1000,
-      },
-      {
-        Name: "blizzard",
-        "AttTrue%": "0.0",
-        Number: 5019,
-        Success: 100,
-        Level: 40,
         Energy: 1000,
       },
     ],
@@ -60388,7 +60376,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with a stone limb",
         Acc: 130,
-        "AttTrue%": "57.8",
+        "AttTrue%": "58.0",
         Min: 22,
         Max: 70,
         Energy: 500,
@@ -60396,7 +60384,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 135,
-        "AttTrue%": "24.4",
+        "AttTrue%": "22.8",
         Min: 36,
         Max: 68,
         Energy: 500,
@@ -60406,7 +60394,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "boulder",
-        "AttTrue%": "17.9",
+        "AttTrue%": "19.3",
         Number: 5000,
         Success: 1000,
         Level: 50,
@@ -60441,7 +60429,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 130,
-        "AttTrue%": "29.2",
+        "AttTrue%": "29.6",
         Min: 36,
         Max: 114,
         Energy: 1000,
@@ -60451,7 +60439,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.0",
         Number: 5010,
         Success: 100,
         Level: 80,
@@ -60459,7 +60447,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "boulder",
-        "AttTrue%": "25.3",
+        "AttTrue%": "24.4",
         Number: 5000,
         Success: 1000,
         Level: 60,
@@ -60467,7 +60455,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hail of stones",
-        "AttTrue%": "19.8",
+        "AttTrue%": "21.1",
         Number: 5080,
         Success: 100,
         Level: 35,
@@ -60500,7 +60488,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 135,
-        "AttTrue%": "35.4",
+        "AttTrue%": "34.7",
         Min: 16,
         Max: 58,
         Energy: 333,
@@ -60510,7 +60498,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "38.8",
+        "AttTrue%": "40.6",
         Number: 5026,
         Success: 100,
         Level: 60,
@@ -60518,7 +60506,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blast of energy",
-        "AttTrue%": "25.8",
+        "AttTrue%": "24.6",
         Number: 1210,
         Success: 100,
         Level: 110,
@@ -60553,7 +60541,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you",
         Acc: 135,
-        "AttTrue%": "43.3",
+        "AttTrue%": "43.9",
         Min: 11,
         Max: 60,
         Energy: 333,
@@ -60562,7 +60550,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 135,
-        "AttTrue%": "21.5",
+        "AttTrue%": "20.7",
         Min: 11,
         Max: 144,
         Energy: 666,
@@ -60572,7 +60560,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sphere of implosion",
-        "AttTrue%": "35.2",
+        "AttTrue%": "35.4",
         Number: 5018,
         Success: 100,
         Level: 75,
@@ -60601,7 +60589,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its sharp beak",
         Acc: 100,
-        "AttTrue%": "81.8",
+        "AttTrue%": "81.4",
         Min: 17,
         Max: 39,
         Energy: 500,
@@ -60609,7 +60597,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 95,
-        "AttTrue%": "18.2",
+        "AttTrue%": "18.6",
         Min: 19,
         Max: 52,
         Energy: 1000,
@@ -60667,7 +60655,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.5",
+        "AttTrue%": "98.6",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -60677,7 +60665,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "1.5",
+        "AttTrue%": "1.4",
         Number: 5023,
         Success: 100,
         Level: 40,
@@ -60747,7 +60735,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.1",
+        "AttTrue%": "97.3",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -60757,7 +60745,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "colour spray",
-        "AttTrue%": "2.9",
+        "AttTrue%": "2.7",
         Number: 254,
         Success: 100,
         Level: 50,
@@ -60787,7 +60775,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.7",
+        "AttTrue%": "98.8",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -60797,7 +60785,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "solid fog",
-        "AttTrue%": "1.3",
+        "AttTrue%": "1.2",
         Number: 282,
         Success: 100,
         Level: 40,
@@ -60827,7 +60815,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.7",
+        "AttTrue%": "98.6",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -60837,7 +60825,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "stinking cloud",
-        "AttTrue%": "1.3",
+        "AttTrue%": "1.4",
         Number: 131,
         Success: 100,
         Level: 40,
@@ -60867,7 +60855,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.7",
+        "AttTrue%": "98.9",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -60877,7 +60865,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "stinking cloud",
-        "AttTrue%": "1.3",
+        "AttTrue%": "1.1",
         Number: 131,
         Success: 100,
         Level: 50,
@@ -60907,7 +60895,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.1",
+        "AttTrue%": "97.8",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -60917,7 +60905,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid jet",
-        "AttTrue%": "2.9",
+        "AttTrue%": "2.2",
         Number: 95,
         Success: 100,
         Level: 40,
@@ -60947,7 +60935,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.2",
+        "AttTrue%": "97.3",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -60957,7 +60945,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blizzard",
-        "AttTrue%": "2.8",
+        "AttTrue%": "2.7",
         Number: 771,
         Success: 100,
         Level: 40,
@@ -60987,7 +60975,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.5",
+        "AttTrue%": "97.3",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -60997,7 +60985,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blizzard",
-        "AttTrue%": "2.5",
+        "AttTrue%": "2.7",
         Number: 771,
         Success: 100,
         Level: 50,
@@ -61067,7 +61055,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.2",
+        "AttTrue%": "97.3",
         Min: 10,
         Max: 30,
         Energy: 250,
@@ -61077,7 +61065,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch storm",
-        "AttTrue%": "2.8",
+        "AttTrue%": "2.7",
         Number: 1215,
         Success: 100,
         Level: 40,
@@ -61107,7 +61095,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.0",
+        "AttTrue%": "97.4",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -61117,7 +61105,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch storm",
-        "AttTrue%": "3.0",
+        "AttTrue%": "2.6",
         Number: 1215,
         Success: 100,
         Level: 50,
@@ -61267,7 +61255,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "97.4",
+        "AttTrue%": "97.2",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -61277,7 +61265,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "2.6",
+        "AttTrue%": "2.8",
         Number: 721,
         Success: 100,
         Level: 50,
@@ -61307,7 +61295,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 200,
-        "AttTrue%": "98.5",
+        "AttTrue%": "98.4",
         Min: 20,
         Max: 60,
         Energy: 250,
@@ -61317,7 +61305,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "fear",
-        "AttTrue%": "1.5",
+        "AttTrue%": "1.6",
         Number: 1027,
         Success: 100,
         Level: 40,
@@ -61347,7 +61335,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 250,
-        "AttTrue%": "55.9",
+        "AttTrue%": "53.4",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -61355,7 +61343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 250,
-        "AttTrue%": "44.1",
+        "AttTrue%": "46.6",
         Min: 220,
         Max: 680,
         Energy: 1000,
@@ -61386,7 +61374,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 160,
-        "AttTrue%": "76.0",
+        "AttTrue%": "75.9",
         Min: 29,
         Max: 68,
         Energy: 333,
@@ -61395,7 +61383,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a slab of ice, which crushes you",
         Acc: 160,
-        "AttTrue%": "7.7",
+        "AttTrue%": "7.6",
         Min: 75,
         Max: 250,
         Energy: 1000,
@@ -61404,7 +61392,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 165,
-        "AttTrue%": "16.4",
+        "AttTrue%": "16.5",
         Min: 96,
         Max: 179,
         Energy: 333,
@@ -61434,7 +61422,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its claws",
         Acc: 135,
-        "AttTrue%": "79.4",
+        "AttTrue%": "79.9",
         Min: 16,
         Max: 55,
         Energy: 333,
@@ -61443,7 +61431,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.1",
         Min: 22,
         Max: 67,
         Energy: 333,
@@ -61474,7 +61462,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you savagely",
         Acc: 135,
-        "AttTrue%": "74.5",
+        "AttTrue%": "73.2",
         Min: 13,
         Max: 41,
         Energy: 250,
@@ -61483,7 +61471,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you deeply, tearing off a chunk",
         Acc: 140,
-        "AttTrue%": "25.5",
+        "AttTrue%": "26.8",
         Min: 28,
         Max: 77,
         Energy: 500,
@@ -61515,7 +61503,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with a claw",
         Acc: 135,
-        "AttTrue%": "57.4",
+        "AttTrue%": "58.0",
         Min: 16,
         Max: 48,
         Energy: 250,
@@ -61523,7 +61511,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 135,
-        "AttTrue%": "25.0",
+        "AttTrue%": "25.5",
         Min: 19,
         Max: 81,
         Energy: 500,
@@ -61531,7 +61519,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, tearing you open",
         Acc: 140,
-        "AttTrue%": "17.6",
+        "AttTrue%": "16.5",
         Min: 54,
         Max: 111,
         Energy: 1000,
@@ -61562,7 +61550,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stomps on you",
         Acc: 145,
-        "AttTrue%": "44.8",
+        "AttTrue%": "45.6",
         Min: 16,
         Max: 51,
         Energy: 250,
@@ -61570,7 +61558,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 155,
-        "AttTrue%": "12.4",
+        "AttTrue%": "11.9",
         Min: 47,
         Max: 133,
         Energy: 1000,
@@ -61579,7 +61567,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its horns",
         Acc: 150,
-        "AttTrue%": "19.6",
+        "AttTrue%": "19.9",
         Min: 84,
         Max: 138,
         Energy: 500,
@@ -61588,7 +61576,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 155,
-        "AttTrue%": "23.2",
+        "AttTrue%": "22.6",
         Min: 19,
         Max: 54,
         Energy: 250,
@@ -61620,7 +61608,7 @@ export const monsterData: Monster[] = [
       {
         Name: "roars and slashes you",
         Acc: 145,
-        "AttTrue%": "62.3",
+        "AttTrue%": "62.8",
         Min: 25,
         Max: 74,
         Energy: 500,
@@ -61638,7 +61626,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and mauls you",
         Acc: 155,
-        "AttTrue%": "6.4",
+        "AttTrue%": "5.9",
         Min: 70,
         Max: 144,
         Energy: 1000,
@@ -61646,7 +61634,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges forward, smashing into you",
         Acc: 150,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.7",
         Min: 18,
         Max: 51,
         Energy: 500,
@@ -61678,7 +61666,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 145,
-        "AttTrue%": "21.7",
+        "AttTrue%": "22.1",
         Min: 26,
         Max: 65,
         Energy: 250,
@@ -61687,7 +61675,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 150,
-        "AttTrue%": "19.1",
+        "AttTrue%": "17.7",
         Min: 49,
         Max: 126,
         Energy: 750,
@@ -61705,7 +61693,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 150,
-        "AttTrue%": "21.3",
+        "AttTrue%": "21.0",
         Min: 34,
         Max: 77,
         Energy: 500,
@@ -61714,7 +61702,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a vicious blow",
         Acc: 150,
-        "AttTrue%": "20.2",
+        "AttTrue%": "21.4",
         Min: 78,
         Max: 154,
         Energy: 500,
@@ -61777,7 +61765,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you",
         Acc: 140,
-        "AttTrue%": "56.6",
+        "AttTrue%": "56.2",
         Min: 11,
         Max: 61,
         Energy: 500,
@@ -61786,7 +61774,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bludgeons you with a vicious blow",
         Acc: 140,
-        "AttTrue%": "27.2",
+        "AttTrue%": "26.8",
         Min: 38,
         Max: 101,
         Energy: 500,
@@ -61795,7 +61783,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 145,
-        "AttTrue%": "9.3",
+        "AttTrue%": "10.5",
         Min: 49,
         Max: 126,
         Energy: 1000,
@@ -61804,7 +61792,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of ice",
-        "AttTrue%": "6.9",
+        "AttTrue%": "6.4",
         Number: 1030,
         Success: 100,
         Level: 30,
@@ -61836,7 +61824,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you",
         Acc: 175,
-        "AttTrue%": "22.5",
+        "AttTrue%": "22.3",
         Min: 44,
         Max: 109,
         Energy: 200,
@@ -61844,7 +61832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 180,
-        "AttTrue%": "22.3",
+        "AttTrue%": "22.4",
         Min: 89,
         Max: 184,
         Energy: 300,
@@ -61861,7 +61849,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and chomps you",
         Acc: 175,
-        "AttTrue%": "12.6",
+        "AttTrue%": "13.4",
         Min: 70,
         Max: 210,
         Energy: 1000,
@@ -61870,7 +61858,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls his ivory javelin at you",
         Acc: 190,
-        "AttTrue%": "22.7",
+        "AttTrue%": "21.9",
         Min: 62,
         Max: 151,
         Energy: 300,
@@ -61908,7 +61896,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 185,
-        "AttTrue%": "47.4",
+        "AttTrue%": "47.8",
         Min: 59,
         Max: 129,
         Energy: 250,
@@ -61917,7 +61905,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a slab of ice, which crushes you",
         Acc: 190,
-        "AttTrue%": "8.5",
+        "AttTrue%": "8.2",
         Min: 119,
         Max: 317,
         Energy: 1000,
@@ -61926,7 +61914,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 195,
-        "AttTrue%": "17.7",
+        "AttTrue%": "18.4",
         Min: 114,
         Max: 240,
         Energy: 250,
@@ -61935,7 +61923,7 @@ export const monsterData: Monster[] = [
       {
         Name: "viciously headbutts you",
         Acc: 180,
-        "AttTrue%": "14.9",
+        "AttTrue%": "14.1",
         Min: 101,
         Max: 260,
         Energy: 500,
@@ -61975,7 +61963,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges forward and skewers you",
         Acc: 130,
-        "AttTrue%": "85.7",
+        "AttTrue%": "84.8",
         Min: 11,
         Max: 41,
         Energy: 250,
@@ -61983,7 +61971,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 130,
-        "AttTrue%": "14.3",
+        "AttTrue%": "15.2",
         Min: 33,
         Max: 129,
         Energy: 250,
@@ -62011,7 +61999,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws an arrow and shoots you",
         Acc: 130,
-        "AttTrue%": "85.2",
+        "AttTrue%": "85.1",
         Min: 16,
         Max: 44,
         Energy: 250,
@@ -62019,7 +62007,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 135,
-        "AttTrue%": "14.8",
+        "AttTrue%": "14.9",
         Min: 32,
         Max: 157,
         Energy: 250,
@@ -62047,7 +62035,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 135,
-        "AttTrue%": "40.7",
+        "AttTrue%": "39.0",
         Min: 32,
         Max: 104,
         Energy: 500,
@@ -62055,7 +62043,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spurs forward, skewering you",
         Acc: 135,
-        "AttTrue%": "27.2",
+        "AttTrue%": "30.9",
         Min: 66,
         Max: 208,
         Energy: 500,
@@ -62064,7 +62052,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 140,
-        "AttTrue%": "15.7",
+        "AttTrue%": "14.6",
         Min: 72,
         Max: 166,
         Energy: 1000,
@@ -62072,7 +62060,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spurs forward and tramples you",
         Acc: 145,
-        "AttTrue%": "16.5",
+        "AttTrue%": "15.5",
         Min: 84,
         Max: 210,
         Energy: 1000,
@@ -62102,7 +62090,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 135,
-        "AttTrue%": "75.0",
+        "AttTrue%": "75.4",
         Min: 28,
         Max: 74,
         Energy: 333,
@@ -62110,7 +62098,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.6",
         Min: 36,
         Max: 68,
         Energy: 333,
@@ -62139,7 +62127,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 135,
-        "AttTrue%": "74.6",
+        "AttTrue%": "75.2",
         Min: 28,
         Max: 74,
         Energy: 333,
@@ -62147,7 +62135,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "25.4",
+        "AttTrue%": "24.8",
         Min: 36,
         Max: 68,
         Energy: 333,
@@ -62177,7 +62165,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and viciously bites you",
         Acc: 125,
-        "AttTrue%": "90.3",
+        "AttTrue%": "90.4",
         Min: 14,
         Max: 56,
         Energy: 500,
@@ -62185,7 +62173,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips a chunk out of you",
         Acc: 135,
-        "AttTrue%": "9.7",
+        "AttTrue%": "9.6",
         Min: 28,
         Max: 112,
         Energy: 1000,
@@ -62217,7 +62205,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its toothy maw",
         Acc: 125,
-        "AttTrue%": "25.8",
+        "AttTrue%": "26.6",
         Min: 18,
         Max: 57,
         Energy: 500,
@@ -62225,7 +62213,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with its spiked tail",
         Acc: 130,
-        "AttTrue%": "59.6",
+        "AttTrue%": "59.0",
         Min: 11,
         Max: 29,
         Energy: 250,
@@ -62234,7 +62222,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "14.6",
+        "AttTrue%": "14.4",
         Number: 5454,
         Success: 100,
         Level: 25,
@@ -62268,7 +62256,7 @@ export const monsterData: Monster[] = [
       {
         Name: "emerges and smashes you with its fist",
         Acc: 120,
-        "AttTrue%": "39.7",
+        "AttTrue%": "40.1",
         Min: 10,
         Max: 39,
         Energy: 500,
@@ -62276,7 +62264,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and drowns you",
         Acc: 125,
-        "AttTrue%": "26.9",
+        "AttTrue%": "25.7",
         Min: 17,
         Max: 94,
         Energy: 1000,
@@ -62286,7 +62274,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "33.4",
+        "AttTrue%": "34.2",
         Number: 5454,
         Success: 100,
         Level: 15,
@@ -62320,7 +62308,7 @@ export const monsterData: Monster[] = [
       {
         Name: "oozes over you",
         Acc: 125,
-        "AttTrue%": "63.1",
+        "AttTrue%": "64.3",
         Min: 30,
         Max: 80,
         Energy: 1000,
@@ -62328,7 +62316,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a slimy appendage",
         Acc: 130,
-        "AttTrue%": "23.0",
+        "AttTrue%": "20.8",
         Min: 22,
         Max: 56,
         Energy: 500,
@@ -62337,7 +62325,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a slimy appendage",
         Acc: 125,
-        "AttTrue%": "13.8",
+        "AttTrue%": "15.0",
         Min: 22,
         Max: 121,
         Energy: 1000,
@@ -62368,7 +62356,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 125,
-        "AttTrue%": "58.0",
+        "AttTrue%": "57.3",
         Min: 9,
         Max: 36,
         Energy: 500,
@@ -62377,7 +62365,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoots you",
         Acc: 130,
-        "AttTrue%": "28.2",
+        "AttTrue%": "29.2",
         Min: 9,
         Max: 41,
         Energy: 500,
@@ -62386,7 +62374,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "torrent of water",
-        "AttTrue%": "9.1",
+        "AttTrue%": "9.2",
         Number: 5484,
         Success: 100,
         Level: 30,
@@ -62394,7 +62382,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "confusion",
-        "AttTrue%": "4.7",
+        "AttTrue%": "4.4",
         Number: 63,
         Success: 100,
         Level: 50,
@@ -62428,7 +62416,7 @@ export const monsterData: Monster[] = [
       {
         Name: "emerges and smashes you with its fist",
         Acc: 120,
-        "AttTrue%": "40.1",
+        "AttTrue%": "39.4",
         Min: 10,
         Max: 39,
         Energy: 500,
@@ -62436,7 +62424,7 @@ export const monsterData: Monster[] = [
       {
         Name: "grabs you and drowns you",
         Acc: 125,
-        "AttTrue%": "26.4",
+        "AttTrue%": "26.9",
         Min: 17,
         Max: 94,
         Energy: 1000,
@@ -62446,7 +62434,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "33.5",
+        "AttTrue%": "33.7",
         Number: 5454,
         Success: 100,
         Level: 15,
@@ -62476,7 +62464,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 250,
-        "AttTrue%": "54.5",
+        "AttTrue%": "54.6",
         Min: 25,
         Max: 100,
         Energy: 200,
@@ -62484,7 +62472,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 250,
-        "AttTrue%": "45.5",
+        "AttTrue%": "45.4",
         Min: 220,
         Max: 680,
         Energy: 1000,
@@ -62685,7 +62673,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 95,
-        "AttTrue%": "79.0",
+        "AttTrue%": "78.0",
         Min: 11,
         Max: 26,
         Energy: 333,
@@ -62693,7 +62681,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "21.0",
+        "AttTrue%": "22.0",
         Min: 11,
         Max: 37,
         Energy: 666,
@@ -62722,7 +62710,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 95,
-        "AttTrue%": "74.6",
+        "AttTrue%": "75.5",
         Min: 13,
         Max: 39,
         Energy: 500,
@@ -62730,7 +62718,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 95,
-        "AttTrue%": "25.4",
+        "AttTrue%": "24.5",
         Min: 11,
         Max: 44,
         Energy: 500,
@@ -62841,7 +62829,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with a claw",
         Acc: 130,
-        "AttTrue%": "23.1",
+        "AttTrue%": "23.2",
         Min: 17,
         Max: 51,
         Energy: 333,
@@ -62849,7 +62837,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 125,
-        "AttTrue%": "20.2",
+        "AttTrue%": "20.8",
         Min: 27,
         Max: 81,
         Energy: 666,
@@ -62857,7 +62845,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges forward, smashing into you",
         Acc: 140,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.5",
         Min: 12,
         Max: 74,
         Energy: 666,
@@ -62865,7 +62853,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 135,
-        "AttTrue%": "16.3",
+        "AttTrue%": "14.9",
         Min: 36,
         Max: 117,
         Energy: 1000,
@@ -62874,7 +62862,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of fire",
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.7",
         Number: 1029,
         Success: 100,
         Level: 25,
@@ -62913,7 +62901,7 @@ export const monsterData: Monster[] = [
       {
         Name: "dives at you, slashing you with its claws",
         Acc: 140,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.4",
         Min: 27,
         Max: 92,
         Energy: 666,
@@ -62922,7 +62910,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, tearing you open",
         Acc: 135,
-        "AttTrue%": "15.4",
+        "AttTrue%": "15.9",
         Min: 26,
         Max: 84,
         Energy: 1000,
@@ -62930,7 +62918,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 135,
-        "AttTrue%": "38.0",
+        "AttTrue%": "37.2",
         Min: 11,
         Max: 64,
         Energy: 333,
@@ -62939,7 +62927,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shriek",
-        "AttTrue%": "5.6",
+        "AttTrue%": "5.7",
         Number: 191,
         Success: 100,
         Level: 25,
@@ -62972,7 +62960,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps forward and wallops you",
         Acc: 140,
-        "AttTrue%": "36.0",
+        "AttTrue%": "35.4",
         Min: 29,
         Max: 86,
         Energy: 1000,
@@ -62980,7 +62968,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 145,
-        "AttTrue%": "33.7",
+        "AttTrue%": "36.2",
         Min: 56,
         Max: 131,
         Energy: 1000,
@@ -62988,7 +62976,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a huge stone, which clobbers you",
         Acc: 135,
-        "AttTrue%": "20.1",
+        "AttTrue%": "18.7",
         Min: 37,
         Max: 89,
         Energy: 1000,
@@ -62998,7 +62986,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "roar",
-        "AttTrue%": "10.1",
+        "AttTrue%": "9.7",
         Number: 5486,
         Success: 100,
         Level: 55,
@@ -63027,7 +63015,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally guts you with its claws",
         Acc: 130,
-        "AttTrue%": "57.1",
+        "AttTrue%": "56.0",
         Min: 23,
         Max: 58,
         Energy: 500,
@@ -63035,7 +63023,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 135,
-        "AttTrue%": "13.7",
+        "AttTrue%": "14.1",
         Min: 37,
         Max: 84,
         Energy: 1000,
@@ -63044,7 +63032,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and mauls you",
         Acc: 130,
-        "AttTrue%": "7.4",
+        "AttTrue%": "7.2",
         Min: 44,
         Max: 106,
         Energy: 1000,
@@ -63052,7 +63040,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites into you, tearing off a chunk",
         Acc: 135,
-        "AttTrue%": "21.9",
+        "AttTrue%": "22.7",
         Min: 29,
         Max: 59,
         Energy: 500,
@@ -63081,7 +63069,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its sharp beak",
         Acc: 130,
-        "AttTrue%": "67.2",
+        "AttTrue%": "68.2",
         Min: 11,
         Max: 37,
         Energy: 250,
@@ -63089,7 +63077,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 135,
-        "AttTrue%": "15.7",
+        "AttTrue%": "15.2",
         Min: 23,
         Max: 56,
         Energy: 500,
@@ -63098,7 +63086,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 140,
-        "AttTrue%": "10.4",
+        "AttTrue%": "10.0",
         Min: 19,
         Max: 57,
         Energy: 1000,
@@ -63107,7 +63095,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves into you with a flurry of talons",
         Acc: 135,
-        "AttTrue%": "6.8",
+        "AttTrue%": "6.7",
         Min: 14,
         Max: 96,
         Energy: 1000,
@@ -63140,7 +63128,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gleefully guts you",
         Acc: 135,
-        "AttTrue%": "29.7",
+        "AttTrue%": "29.9",
         Min: 9,
         Max: 44,
         Energy: 250,
@@ -63148,7 +63136,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 130,
-        "AttTrue%": "20.3",
+        "AttTrue%": "20.6",
         Min: 27,
         Max: 82,
         Energy: 750,
@@ -63157,7 +63145,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 135,
-        "AttTrue%": "20.3",
+        "AttTrue%": "18.9",
         Min: 34,
         Max: 98,
         Energy: 750,
@@ -63166,7 +63154,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch storm",
-        "AttTrue%": "14.5",
+        "AttTrue%": "15.4",
         Number: 1058,
         Success: 100,
         Level: 12,
@@ -63209,7 +63197,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gleefully guts you",
         Acc: 145,
-        "AttTrue%": "28.4",
+        "AttTrue%": "28.9",
         Min: 9,
         Max: 48,
         Energy: 250,
@@ -63235,7 +63223,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch storm",
-        "AttTrue%": "12.0",
+        "AttTrue%": "11.5",
         Number: 1058,
         Success: 100,
         Level: 25,
@@ -63274,7 +63262,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses a tiny arrow at you",
         Acc: 135,
-        "AttTrue%": "62.6",
+        "AttTrue%": "63.0",
         Min: 9,
         Max: 41,
         Energy: 333,
@@ -63282,7 +63270,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses an arrow, striking your vitals",
         Acc: 135,
-        "AttTrue%": "7.7",
+        "AttTrue%": "7.4",
         Min: 27,
         Max: 79,
         Energy: 666,
@@ -63291,7 +63279,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 135,
-        "AttTrue%": "17.1",
+        "AttTrue%": "17.6",
         Min: 9,
         Max: 41,
         Energy: 333,
@@ -63301,7 +63289,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eldritch bolt",
-        "AttTrue%": "8.1",
+        "AttTrue%": "7.5",
         Number: 5026,
         Success: 100,
         Level: 30,
@@ -63338,7 +63326,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chops you",
         Acc: 135,
-        "AttTrue%": "67.6",
+        "AttTrue%": "68.5",
         Min: 7,
         Max: 36,
         Energy: 250,
@@ -63346,7 +63334,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out chops you",
         Acc: 135,
-        "AttTrue%": "15.2",
+        "AttTrue%": "15.1",
         Min: 21,
         Max: 78,
         Energy: 250,
@@ -63354,7 +63342,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves you up in a flurry of steel",
         Acc: 135,
-        "AttTrue%": "17.2",
+        "AttTrue%": "16.4",
         Min: 26,
         Max: 68,
         Energy: 500,
@@ -63384,7 +63372,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges and skewers you",
         Acc: 130,
-        "AttTrue%": "63.4",
+        "AttTrue%": "63.5",
         Min: 11,
         Max: 42,
         Energy: 250,
@@ -63392,7 +63380,7 @@ export const monsterData: Monster[] = [
       {
         Name: "feints and delivers a whirling slash to you",
         Acc: 135,
-        "AttTrue%": "22.9",
+        "AttTrue%": "22.8",
         Min: 14,
         Max: 66,
         Energy: 500,
@@ -63400,7 +63388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles behind you, hacking you",
         Acc: 140,
-        "AttTrue%": "13.7",
+        "AttTrue%": "13.8",
         Min: 27,
         Max: 83,
         Energy: 500,
@@ -63436,7 +63424,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lurches and smashes you with a limb",
         Acc: 140,
-        "AttTrue%": "72.4",
+        "AttTrue%": "75.0",
         Min: 16,
         Max: 64,
         Energy: 500,
@@ -63444,7 +63432,7 @@ export const monsterData: Monster[] = [
       {
         Name: "winds up and wallops you",
         Acc: 145,
-        "AttTrue%": "27.6",
+        "AttTrue%": "25.0",
         Min: 46,
         Max: 134,
         Energy: 1000,
@@ -63473,7 +63461,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps onto you, biting you",
         Acc: 135,
-        "AttTrue%": "36.2",
+        "AttTrue%": "33.9",
         Min: 27,
         Max: 78,
         Energy: 600,
@@ -63482,7 +63470,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally bites you",
         Acc: 130,
-        "AttTrue%": "34.8",
+        "AttTrue%": "35.5",
         Min: 49,
         Max: 117,
         Energy: 600,
@@ -63491,7 +63479,7 @@ export const monsterData: Monster[] = [
       {
         Name: "feasts on your feeble body",
         Acc: 140,
-        "AttTrue%": "19.6",
+        "AttTrue%": "20.3",
         Min: 62,
         Max: 144,
         Energy: 600,
@@ -63499,7 +63487,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sinks its fangs deep into you",
         Acc: 140,
-        "AttTrue%": "9.3",
+        "AttTrue%": "10.3",
         Min: 82,
         Max: 137,
         Energy: 600,
@@ -63530,7 +63518,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 105,
-        "AttTrue%": "49.9",
+        "AttTrue%": "50.4",
         Min: 1,
         Max: 76,
         Energy: 500,
@@ -63539,7 +63527,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws you",
         Acc: 115,
-        "AttTrue%": "50.1",
+        "AttTrue%": "49.6",
         Min: 1,
         Max: 76,
         Energy: 500,
@@ -63601,7 +63589,7 @@ export const monsterData: Monster[] = [
       {
         Name: "laughs as it skewers you",
         Acc: 140,
-        "AttTrue%": "38.8",
+        "AttTrue%": "38.4",
         Min: 19,
         Max: 66,
         Energy: 400,
@@ -63609,7 +63597,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws an arrow and shoots you",
         Acc: 130,
-        "AttTrue%": "38.7",
+        "AttTrue%": "38.6",
         Min: 11,
         Max: 68,
         Energy: 400,
@@ -63619,7 +63607,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "chaos blast",
-        "AttTrue%": "7.9",
+        "AttTrue%": "8.1",
         Number: 5493,
         Success: 100,
         Level: 50,
@@ -63627,7 +63615,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "lightning strike",
-        "AttTrue%": "8.1",
+        "AttTrue%": "8.4",
         Number: 5492,
         Success: 100,
         Level: 50,
@@ -63635,7 +63623,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "slumber",
-        "AttTrue%": "6.5",
+        "AttTrue%": "6.4",
         Number: 5494,
         Success: 100,
         Level: 50,
@@ -63644,96 +63632,78 @@ export const monsterData: Monster[] = [
     ],
   },
   {
-    Number: 2701,
-    Name: "Forgrim",
-    Weapon: 0,
-    ArmourClass: 100,
-    DamageResist: 20,
-    "Follow%": 0,
-    MagicRes: 250,
-    EXP: 1,
-    HP: 9999,
-    HPRegen: 9999,
-    CharmLVL: 9999,
-    Type: 3,
-    Undead: 0,
-    Align: 4,
-    Magical: 999,
-    SpellImmune: 999,
-  },
-  {
-    Number: 2702,
-    Name: "fey dragonling",
-    Weapon: 0,
-    ArmourClass: 65,
+    Number: 2589,
+    Name: "dark sprite",
+    Weapon: 3613,
+    ArmourClass: 60,
     DamageResist: 0,
     "Follow%": 70,
-    MagicRes: 80,
-    EXP: 11250,
-    HP: 600,
-    HPRegen: 125,
-    CharmLVL: 9999,
+    MagicRes: 100,
+    EXP: 11000,
+    HP: 615,
+    HPRegen: 180,
+    CharmLVL: 85,
     Type: 0,
     Undead: 0,
-    Align: 2,
+    Align: 1,
     Magical: 4,
-    ImmuPoison: 100,
-    SpellImmune: 20,
-    Dodge: 20,
-    SeeHidden: 1,
-    Drops: [{ Number: 3752, Percent: 1 }],
+    SpellImmune: 18,
+    Dodge: 70,
+    Drops: [{ Number: 3614, Percent: 1 }],
     Attacks: [
       {
-        Name: "rips out a chunk of your flesh",
+        Name: "looses a tiny arrow at you",
         Acc: 135,
-        "AttTrue%": "40.4",
-        Min: 10,
-        Max: 44,
-        Energy: 333,
-      },
-      {
-        Name: "rips you with its talons",
-        Acc: 135,
-        "AttTrue%": "38.2",
+        "AttTrue%": "62.0",
         Min: 9,
         Max: 41,
         Energy: 333,
       },
+      {
+        Name: "looses an arrow, striking your vitals",
+        Acc: 135,
+        "AttTrue%": "7.8",
+        Min: 27,
+        Max: 79,
+        Energy: 666,
+        HitSpell: 81,
+      },
+      {
+        Name: "hits you with a well-aimed shot",
+        Acc: 135,
+        "AttTrue%": "17.2",
+        Min: 9,
+        Max: 41,
+        Energy: 333,
+        HitSpell: 5141,
+      },
     ],
     Spells: [
       {
-        Name: "creature illusion",
-        "AttTrue%": "1.5",
-        Number: 380,
-        Success: 100,
-        Level: 55,
-        Energy: 1000,
-      },
-      {
         Name: "eldritch bolt",
-        "AttTrue%": "10.1",
+        "AttTrue%": "8.2",
         Number: 5026,
         Success: 100,
-        Level: 20,
+        Level: 30,
         Energy: 666,
       },
       {
-        Name: "rainbow beam",
-        "AttTrue%": "9.9",
-        Number: 399,
+        Name: "sphere of implosion",
+        "AttTrue%": "4.8",
+        Number: 5018,
         Success: 100,
-        Level: 55,
-        Energy: 666,
+        Level: 20,
+        Energy: 1000,
       },
     ],
   },
   {
-    Number: 2703,
-    Name: "goldcap",
-    Weapon: 460,
+    Number: 2590,
+    Name: "redcap",
+    Weapon: 3612,
     ArmourClass: 70,
     DamageResist: 0,
-    "Follow%": 80,
+    "Follow%": 95,
     MagicRes: 80,
     EXP: 12400,
     HP: 680,
@@ -63745,12 +63715,15 @@ export const monsterData: Monster[] = [
     Magical: 4,
     Dodge: 10,
     SpellImmune: 18,
-    Drops: [{ Number: 3776, Percent: 1 }],
+    Drops: [
+      { Number: 3612, Percent: 1 },
+      { Number: 3615, Percent: 1 },
+    ],
     Attacks: [
       {
-        Name: "hacks at your vitals",
+        Name: "gleefully guts you",
         Acc: 135,
-        "AttTrue%": "26.1",
+        "AttTrue%": "28.6",
         Min: 9,
         Max: 44,
         Energy: 250,
@@ -63758,34 +63731,404 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 130,
-        "AttTrue%": "19.8",
+        "AttTrue%": "20.1",
         Min: 27,
         Max: 82,
         Energy: 750,
-        HitSpell: 5652,
+        HitSpell: 5488,
       },
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 135,
-        "AttTrue%": "18.0",
+        "AttTrue%": "21.1",
         Min: 34,
         Max: 98,
         Energy: 750,
+        HitSpell: 5141,
       },
     ],
     Spells: [
       {
-        Name: "tempest",
-        "AttTrue%": "15.3",
-        Number: 5156,
+        Name: "eldritch storm",
+        "AttTrue%": "14.5",
+        Number: 1058,
         Success: 100,
-        Level: 8,
+        Level: 12,
         Energy: 1000,
       },
       {
-        Name: "grain blast",
-        "AttTrue%": "20.9",
-        Number: 5651,
+        Name: "steal lifeforce",
+        "AttTrue%": "15.7",
+        Number: 5490,
+        Success: 100,
+        Level: 45,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2591,
+    Name: "elder leprechaun",
+    Weapon: 712,
+    ArmourClass: 0,
+    DamageResist: 0,
+    "Follow%": 75,
+    MagicRes: 75,
+    EXP: 9500,
+    HP: 575,
+    HPRegen: 160,
+    CharmLVL: 999,
+    Type: 0,
+    Undead: 0,
+    Align: 1,
+    Magical: 4,
+    SpellImmune: 20,
+    Dodge: 80,
+    Drops: [{ Number: 3834, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "happily pounds you",
+        Acc: 135,
+        "AttTrue%": "76.1",
+        Min: 14,
+        Max: 44,
+        Energy: 333,
+      },
+    ],
+    Spells: [
+      {
+        Name: "gold dust",
+        "AttTrue%": "4.0",
+        Number: 5495,
+        Success: 100,
+        Level: 16,
+        Energy: 666,
+      },
+      {
+        Name: "eldritch bolt",
+        "AttTrue%": "19.9",
+        Number: 5026,
+        Success: 100,
+        Level: 40,
+        Energy: 666,
+      },
+    ],
+  },
+  {
+    Number: 2592,
+    Name: "great huorn",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 6,
+    "Follow%": 40,
+    MagicRes: 75,
+    EXP: 10000,
+    HP: 690,
+    HPRegen: 160,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 1,
+    Magical: 4,
+    NonLiving: 0,
+    ImmuPoison: 0,
+    SpellImmune: 18,
+    Rfir: -60,
+    Rlit: -50,
+    Attacks: [
+      {
+        Name: "bashes your head with a heavy limb",
+        Acc: 135,
+        "AttTrue%": "90.3",
+        Min: 31,
+        Max: 127,
+        Energy: 1000,
+      },
+    ],
+    Spells: [
+      {
+        Name: "roots",
+        "AttTrue%": "9.7",
+        Number: 5497,
+        Success: 100,
+        Level: 50,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2593,
+    Name: "moss giant",
+    Weapon: 0,
+    ArmourClass: 60,
+    DamageResist: 8,
+    "Follow%": 35,
+    MagicRes: 90,
+    EXP: 10500,
+    HP: 640,
+    HPRegen: 250,
+    CharmLVL: 80,
+    Type: 0,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    NonLiving: 0,
+    Rfir: -100,
+    Rcol: 100,
+    ResistStone: 100,
+    Rlit: -50,
+    Attacks: [
+      {
+        Name: "thwacks you with a wet fist",
+        Acc: 130,
+        "AttTrue%": "73.8",
+        Min: 16,
+        Max: 95,
+        Energy: 1000,
+      },
+      {
+        Name: "batters you savagely",
+        Acc: 135,
+        "AttTrue%": "21.2",
+        Min: 27,
+        Max: 106,
+        Energy: 1000,
+      },
+      {
+        Name: "pummels you with both fists",
+        Acc: 140,
+        "AttTrue%": "5.0",
+        Min: 21,
+        Max: 107,
+        Energy: 1000,
+        HitSpell: 128,
+      },
+    ],
+  },
+  {
+    Number: 2594,
+    Name: "thorned hulk",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 6,
+    "Follow%": 50,
+    MagicRes: 80,
+    EXP: 12000,
+    HP: 670,
+    HPRegen: 110,
+    CharmLVL: 100,
+    Type: 0,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    NonLiving: 0,
+    Rfir: -60,
+    Rcol: 100,
+    ResistStone: 100,
+    Rlit: -40,
+    Attacks: [
+      {
+        Name: "rakes you with a thorny limb",
+        Acc: 140,
+        "AttTrue%": "56.8",
+        Min: 16,
+        Max: 72,
+        Energy: 500,
+      },
+      {
+        Name: "whips a limb, slashing you",
+        Acc: 145,
+        "AttTrue%": "29.0",
+        Min: 11,
+        Max: 66,
+        Energy: 500,
+        HitSpell: 201,
+      },
+    ],
+    Spells: [
+      {
+        Name: "flurry of thorns",
+        "AttTrue%": "14.2",
+        Number: 5458,
+        Success: 100,
+        Level: 15,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2595,
+    Name: "steelhead",
+    Weapon: 0,
+    ArmourClass: 50,
+    DamageResist: 3,
+    "Follow%": 65,
+    MagicRes: 70,
+    EXP: 9000,
+    HP: 540,
+    HPRegen: 160,
+    CharmLVL: 62,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    ResistWater: 200,
+    Rlit: -75,
+    Dodge: 20,
+    Attacks: [
+      {
+        Name: "darts in, smashing into you",
+        Acc: 130,
+        "AttTrue%": "84.5",
+        Min: 27,
+        Max: 74,
+        Energy: 1000,
+      },
+      {
+        Name: "darts in, ramming into you",
+        Acc: 135,
+        "AttTrue%": "15.5",
+        Min: 19,
+        Max: 86,
+        Energy: 1000,
+        HitSpell: 128,
+      },
+    ],
+  },
+  {
+    Number: 2596,
+    Name: "daggerfish",
+    Weapon: 0,
+    ArmourClass: 50,
+    DamageResist: 5,
+    "Follow%": 80,
+    MagicRes: 50,
+    EXP: 10000,
+    HP: 550,
+    HPRegen: 110,
+    CharmLVL: 70,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    Dodge: 50,
+    Rlit: -75,
+    ResistWater: 200,
+    Attacks: [
+      {
+        Name: "tears away a chunk of your flesh",
+        Acc: 125,
+        "AttTrue%": "63.7",
+        Min: 11,
+        Max: 36,
+        Energy: 333,
+      },
+      {
+        Name: "darts past you, slicing you with its fin",
+        Acc: 135,
+        "AttTrue%": "25.7",
+        Min: 19,
+        Max: 57,
+        Energy: 333,
+        HitSpell: 5409,
+      },
+      {
+        Name: "circles you and carves you up",
+        Acc: 140,
+        "AttTrue%": "10.6",
+        Min: 14,
+        Max: 64,
+        Energy: 333,
+        HitSpell: 201,
+      },
+    ],
+  },
+  {
+    Number: 2597,
+    Name: "leech swarm",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 1,
+    "Follow%": 80,
+    MagicRes: 30,
+    EXP: 8400,
+    HP: 500,
+    HPRegen: 40,
+    CharmLVL: 150,
+    Type: 2,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    Dodge: 20,
+    Attacks: [
+      {
+        Name: "darts forward and bites you",
+        Acc: 135,
+        "AttTrue%": "100.0",
+        Min: 1,
+        Max: 20,
+        Energy: 100,
+        HitSpell: 505,
+      },
+    ],
+  },
+  {
+    Number: 2598,
+    Name: "living water",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 0,
+    "Follow%": 70,
+    MagicRes: 65,
+    EXP: 11000,
+    HP: 680,
+    HPRegen: 140,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    NonLiving: 0,
+    ImmuPoison: 0,
+    Rlit: -100,
+    ResistWater: 300,
+    SpellImmune: 20,
+    Attacks: [
+      {
+        Name: "emerges and smashes you with its fist",
+        Acc: 135,
+        "AttTrue%": "33.5",
+        Min: 10,
+        Max: 52,
+        Energy: 500,
+      },
+      {
+        Name: "grabs you and drowns you",
+        Acc: 135,
+        "AttTrue%": "21.6",
+        Min: 20,
+        Max: 104,
+        Energy: 1000,
+        HitSpell: 5481,
+      },
+      {
+        Name: "surges over you, drowning you",
+        Acc: 145,
+        "AttTrue%": "22.4",
+        Min: 6,
+        Max: 51,
+        Energy: 500,
+        HitSpell: 5498,
+      },
+    ],
+    Spells: [
+      {
+        Name: "water jet",
+        "AttTrue%": "22.5",
+        Number: 5454,
         Success: 100,
         Level: 25,
         Energy: 500,
@@ -63793,142 +64136,1508 @@ export const monsterData: Monster[] = [
     ],
   },
   {
-    Number: 2704,
-    Name: "axebeak",
+    Number: 2599,
+    Name: "highland eel",
     Weapon: 0,
     ArmourClass: 65,
-    DamageResist: 3,
-    "Follow%": 50,
+    DamageResist: 1,
+    "Follow%": 80,
     MagicRes: 70,
-    EXP: 9250,
-    HP: 585,
-    HPRegen: 95,
-    CharmLVL: 70,
+    EXP: 9000,
+    HP: 590,
+    HPRegen: 110,
+    CharmLVL: 80,
     Type: 0,
     Undead: 0,
     Align: 2,
     Magical: 0,
     Animal: 0,
-    Dodge: 10,
+    ResistWater: 200,
+    Rlit: -75,
+    Dodge: 50,
     Attacks: [
       {
-        Name: "cleaves you with its beak",
+        Name: "rips you with its toothy maw",
         Acc: 135,
-        "AttTrue%": "85.0",
-        Min: 11,
-        Max: 66,
+        "AttTrue%": "68.1",
+        Min: 17,
+        Max: 52,
         Energy: 500,
       },
       {
-        Name: "leaps and tears you with its talons",
-        Acc: 135,
-        "AttTrue%": "15.0",
-        Min: 16,
-        Max: 59,
-        Energy: 500,
-        HitSpell: 5409,
+        Name: "whips you with its spiked tail",
+        Acc: 130,
+        "AttTrue%": "18.5",
+        Min: 14,
+        Max: 46,
+        Energy: 250,
+        HitSpell: 81,
+      },
+    ],
+    Spells: [
+      {
+        Name: "water jet",
+        "AttTrue%": "13.4",
+        Number: 5454,
+        Success: 100,
+        Level: 45,
+        Energy: 1000,
       },
     ],
   },
   {
-    Number: 2705,
-    Name: "feral courser",
+    Number: 2600,
+    Name: "villager",
     Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 5,
-    "Follow%": 80,
-    MagicRes: 50,
-    EXP: 13000,
-    HP: 700,
-    HPRegen: 110,
+    ArmourClass: 10,
+    DamageResist: 1,
+    "Follow%": 10,
+    MagicRes: 60,
+    EXP: 600,
+    HP: 225,
+    HPRegen: 25,
+    CharmLVL: 40,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    MonsGuards: 2602,
+    Attacks: [
+      {
+        Name: "punches you",
+        Acc: 110,
+        "AttTrue%": "100.0",
+        Min: 15,
+        Max: 30,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2601,
+    Name: "villager",
+    Weapon: 0,
+    ArmourClass: 10,
+    DamageResist: 1,
+    "Follow%": 10,
+    MagicRes: 60,
+    EXP: 600,
+    HP: 225,
+    HPRegen: 25,
+    CharmLVL: 40,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    MonsGuards: 2602,
+    Attacks: [
+      {
+        Name: "punches you",
+        Acc: 110,
+        "AttTrue%": "100.0",
+        Min: 15,
+        Max: 30,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2602,
+    Name: "Lachlan guard",
+    Weapon: 3623,
+    ArmourClass: 85,
+    DamageResist: 10,
+    "Follow%": 70,
+    MagicRes: 85,
+    EXP: 7000,
+    HP: 600,
+    HPRegen: 120,
+    CharmLVL: 80,
+    Type: 2,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Drops: [{ Number: 3623, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "cleaves you",
+        Acc: 135,
+        "AttTrue%": "80.4",
+        Min: 16,
+        Max: 49,
+        Energy: 250,
+      },
+      {
+        Name: "all-out cleaves you",
+        Acc: 140,
+        "AttTrue%": "19.6",
+        Min: 48,
+        Max: 147,
+        Energy: 250,
+      },
+    ],
+  },
+  {
+    Number: 2603,
+    Name: "twisted treant",
+    Weapon: 0,
+    ArmourClass: 68,
+    DamageResist: 7,
+    "Follow%": 30,
+    MagicRes: 85,
+    EXP: 10500,
+    HP: 680,
+    HPRegen: 60,
     CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    NonLiving: 0,
+    ImmuPoison: 0,
+    SpellImmune: 20,
+    Rfir: -50,
+    Attacks: [
+      {
+        Name: "bashes you with a heavy branch",
+        Acc: 130,
+        "AttTrue%": "40.1",
+        Min: 20,
+        Max: 80,
+        Energy: 600,
+      },
+      {
+        Name: "smashes you with its branches",
+        Acc: 135,
+        "AttTrue%": "16.9",
+        Min: 22,
+        Max: 91,
+        Energy: 800,
+      },
+      {
+        Name: "lashes you with a thorned vine",
+        Acc: 140,
+        "AttTrue%": "43.1",
+        Min: 9,
+        Max: 41,
+        Energy: 200,
+        HitSpell: 201,
+      },
+    ],
+  },
+  {
+    Number: 2604,
+    Name: "thornflayer",
+    Weapon: 0,
+    ArmourClass: 0,
+    DamageResist: 15,
+    "Follow%": 25,
+    MagicRes: 90,
+    EXP: 4600,
+    HP: 508,
+    HPRegen: 50,
+    CharmLVL: 1000,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Dodge: 95,
+    Attacks: [
+      {
+        Name: "lashes you with a thorned vine",
+        Acc: 140,
+        "AttTrue%": "32.6",
+        Min: 7,
+        Max: 48,
+        Energy: 250,
+        HitSpell: 5507,
+      },
+      {
+        Name: "whips you with a thorned vine",
+        Acc: 140,
+        "AttTrue%": "32.9",
+        Min: 11,
+        Max: 56,
+        Energy: 250,
+        HitSpell: 201,
+      },
+      {
+        Name: "whips you with a thorned vine",
+        Acc: 140,
+        "AttTrue%": "34.5",
+        Min: 1,
+        Max: 66,
+        Energy: 250,
+        HitSpell: 820,
+      },
+    ],
+  },
+  {
+    Number: 2605,
+    Name: "Vynne loyalist",
+    Weapon: 3033,
+    ArmourClass: 80,
+    DamageResist: 6,
+    "Follow%": 0,
+    MagicRes: 100,
+    EXP: 17500,
+    HP: 900,
+    HPRegen: 350,
+    CharmLVL: 120,
+    Type: 2,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Dodge: 60,
+    SpellImmune: 20,
+    Attacks: [
+      {
+        Name: "carves you up in a flurry of steel",
+        Acc: 155,
+        "AttTrue%": "51.4",
+        Min: 48,
+        Max: 80,
+        Energy: 250,
+      },
+      {
+        Name: "furiously slashes you",
+        Acc: 160,
+        "AttTrue%": "26.6",
+        Min: 89,
+        Max: 266,
+        Energy: 250,
+        HitSpell: 5118,
+      },
+      {
+        Name: "shoulder bashes you",
+        Acc: 165,
+        "AttTrue%": "21.9",
+        Min: 61,
+        Max: 114,
+        Energy: 500,
+        HitSpell: 318,
+      },
+    ],
+  },
+  {
+    Number: 2606,
+    Name: "giant dragonfly",
+    Weapon: 0,
+    ArmourClass: 80,
+    DamageResist: 0,
+    "Follow%": 50,
+    MagicRes: 50,
+    EXP: 9000,
+    HP: 570,
+    HPRegen: 100,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Dodge: 20,
+    ImmuPoison: 0,
+    Rlit: -25,
+    Animal: 0,
+    Attacks: [
+      {
+        Name: "swoops down and bites you",
+        Acc: 130,
+        "AttTrue%": "42.8",
+        Min: 31,
+        Max: 114,
+        Energy: 1000,
+        HitSpell: 81,
+      },
+      {
+        Name: "dives down and tears into you",
+        Acc: 135,
+        "AttTrue%": "57.2",
+        Min: 16,
+        Max: 58,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2607,
+    Name: "giant leech",
+    Weapon: 0,
+    ArmourClass: 0,
+    DamageResist: 0,
+    "Follow%": 40,
+    MagicRes: 50,
+    EXP: 8500,
+    HP: 540,
+    HPRegen: 1,
+    CharmLVL: 85,
     Type: 0,
     Undead: 0,
     Align: 2,
     Magical: 0,
     Animal: 0,
     Dodge: 40,
-    SpellImmune: 18,
     Attacks: [
       {
-        Name: "rears and kicks you",
+        Name: "darts forward and bites you",
         Acc: 135,
-        "AttTrue%": "35.7",
-        Min: 28,
-        Max: 74,
-        Energy: 333,
-      },
-      {
-        Name: "bites you",
-        Acc: 140,
-        "AttTrue%": "34.8",
-        Min: 36,
-        Max: 68,
-        Energy: 333,
-      },
-      {
-        Name: "tramples you under its hooves",
-        Acc: 145,
-        "AttTrue%": "29.4",
-        Min: 46,
-        Max: 113,
-        Energy: 666,
-        HitSpell: 318,
+        "AttTrue%": "100.0",
+        Min: 1,
+        Max: 38,
+        Energy: 200,
+        HitSpell: 505,
       },
     ],
   },
   {
-    Number: 2706,
-    Name: "iron gorgon",
+    Number: 2608,
+    Name: "gremlin",
     Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 7,
+    ArmourClass: 20,
+    DamageResist: 1,
+    "Follow%": 90,
+    MagicRes: 45,
+    EXP: 4500,
+    HP: 300,
+    HPRegen: 20,
+    CharmLVL: 45,
+    Type: 2,
+    Undead: 0,
+    Align: 2,
+    Magical: 1,
+    Dodge: 90,
+    SpellImmune: 15,
+    SeeHidden: 0,
+    Attacks: [
+      {
+        Name: "claws you",
+        Acc: 120,
+        "AttTrue%": "52.5",
+        Min: 6,
+        Max: 25,
+        Energy: 200,
+        HitSpell: 81,
+      },
+      {
+        Name: "bites you",
+        Acc: 120,
+        "AttTrue%": "47.5",
+        Min: 15,
+        Max: 30,
+        Energy: 400,
+      },
+    ],
+  },
+  {
+    Number: 2609,
+    Name: "gremlin witchdoctor",
+    Weapon: 0,
+    ArmourClass: 0,
+    DamageResist: 0,
+    "Follow%": 90,
+    MagicRes: 65,
+    EXP: 7500,
+    HP: 400,
+    HPRegen: 60,
+    CharmLVL: 50,
+    Type: 1,
+    Undead: 0,
+    Align: 2,
+    Magical: 2,
+    Dodge: 90,
+    SpellImmune: 20,
+    SeeHidden: 0,
+    Attacks: [
+      {
+        Name: "claws you",
+        Acc: 130,
+        "AttTrue%": "29.8",
+        Min: 1,
+        Max: 15,
+        Energy: 200,
+        HitSpell: 81,
+      },
+      {
+        Name: "bites you",
+        Acc: 125,
+        "AttTrue%": "37.3",
+        Min: 15,
+        Max: 30,
+        Energy: 400,
+      },
+    ],
+    Spells: [
+      {
+        Name: "eldritch bolt",
+        "AttTrue%": "17.3",
+        Number: 5026,
+        Success: 100,
+        Level: 25,
+        Energy: 1000,
+      },
+      {
+        Name: "plasma bolt",
+        "AttTrue%": "10.5",
+        Number: 5012,
+        Success: 100,
+        Level: 20,
+        Energy: 600,
+      },
+      {
+        Name: "voodoo stab",
+        "AttTrue%": "5.1",
+        Number: 763,
+        Success: 100,
+        Level: 25,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2610,
+    Name: "living gneiss",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 10,
     "Follow%": 40,
     MagicRes: 75,
-    EXP: 9750,
-    HP: 630,
+    EXP: 11500,
+    HP: 690,
     HPRegen: 110,
-    CharmLVL: 75,
+    CharmLVL: 9999,
     Type: 0,
     Undead: 0,
     Align: 2,
     Magical: 4,
-    SeeHidden: 0,
-    ImmuPoison: 100,
+    NonLiving: 0,
+    ImmuPoison: 0,
+    ResistStone: 200,
+    Rcol: -25,
+    ResistWater: -40,
     Attacks: [
       {
-        Name: "strikes you with a hoof",
-        Acc: 130,
-        "AttTrue%": "36.2",
-        Min: 17,
-        Max: 68,
+        Name: "smashes you with a stone limb",
+        Acc: 135,
+        "AttTrue%": "77.9",
+        Min: 29,
+        Max: 78,
         Energy: 500,
       },
       {
-        Name: "guts you with its horns",
-        Acc: 135,
-        "AttTrue%": "29.0",
-        Min: 26,
-        Max: 104,
+        Name: "crushes you with both limbs",
+        Acc: 150,
+        "AttTrue%": "10.6",
+        Min: 46,
+        Max: 134,
         Energy: 1000,
       },
       {
-        Name: "snorts and charges forth, goring you",
+        Name: "launches a massive boulder, which crushes you",
+        Acc: 145,
+        "AttTrue%": "11.5",
+        Min: 64,
+        Max: 161,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2611,
+    Name: "fachan",
+    Weapon: 3611,
+    ArmourClass: 55,
+    DamageResist: 10,
+    "Follow%": 40,
+    MagicRes: 80,
+    EXP: 10000,
+    HP: 700,
+    HPRegen: 75,
+    CharmLVL: 70,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Dodge: 20,
+    Drops: [{ Number: 3611, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "leaps forward and wallops you",
         Acc: 140,
-        "AttTrue%": "28.7",
-        Min: 31,
-        Max: 116,
+        "AttTrue%": "34.0",
+        Min: 29,
+        Max: 86,
+        Energy: 1000,
+      },
+      {
+        Name: "all-out smashes you",
+        Acc: 145,
+        "AttTrue%": "36.2",
+        Min: 56,
+        Max: 131,
+        Energy: 1000,
+      },
+      {
+        Name: "hurls a huge stone, which clobbers you",
+        Acc: 135,
+        "AttTrue%": "20.0",
+        Min: 37,
+        Max: 89,
+        Energy: 1000,
+        HitSpell: 128,
+      },
+    ],
+    Spells: [
+      {
+        Name: "roar",
+        "AttTrue%": "9.8",
+        Number: 5486,
+        Success: 100,
+        Level: 55,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2612,
+    Name: "fachan brute",
+    Weapon: 3611,
+    ArmourClass: 55,
+    DamageResist: 10,
+    "Follow%": 40,
+    MagicRes: 80,
+    EXP: 11000,
+    HP: 750,
+    HPRegen: 75,
+    CharmLVL: 70,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Dodge: 20,
+    Drops: [{ Number: 3611, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "headbutts you",
+        Acc: 145,
+        "AttTrue%": "34.0",
+        Min: 44,
+        Max: 122,
+        Energy: 1000,
+      },
+      {
+        Name: "all-out smashes you",
+        Acc: 145,
+        "AttTrue%": "35.3",
+        Min: 56,
+        Max: 148,
+        Energy: 1000,
+      },
+      {
+        Name: "hurls a huge stone, which clobbers you",
+        Acc: 135,
+        "AttTrue%": "21.1",
+        Min: 37,
+        Max: 89,
+        Energy: 1000,
+        HitSpell: 128,
+      },
+    ],
+    Spells: [
+      {
+        Name: "roar",
+        "AttTrue%": "9.6",
+        Number: 5486,
+        Success: 100,
+        Level: 55,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2613,
+    Name: "crowned eagle",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 0,
+    "Follow%": 80,
+    MagicRes: 60,
+    EXP: 9750,
+    HP: 590,
+    HPRegen: 59,
+    CharmLVL: 75,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    Dodge: 15,
+    Attacks: [
+      {
+        Name: "rips you with its sharp beak",
+        Acc: 130,
+        "AttTrue%": "67.5",
+        Min: 11,
+        Max: 37,
+        Energy: 250,
+      },
+      {
+        Name: "swoops",
+        Acc: 135,
+        "AttTrue%": "15.3",
+        Min: 23,
+        Max: 56,
+        Energy: 500,
+        HitSpell: 5403,
+      },
+      {
+        Name: "swoops down and grips you in its claws, droppi...",
+        Acc: 140,
+        "AttTrue%": "10.5",
+        Min: 19,
+        Max: 57,
+        Energy: 1000,
+        HitSpell: 5487,
+      },
+      {
+        Name: "carves into you with a flurry of talons",
+        Acc: 135,
+        "AttTrue%": "6.6",
+        Min: 14,
+        Max: 96,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2614,
+    Name: "crysaetos",
+    Weapon: 0,
+    ArmourClass: 80,
+    DamageResist: 0,
+    "Follow%": 80,
+    MagicRes: 60,
+    EXP: 11000,
+    HP: 630,
+    HPRegen: 80,
+    CharmLVL: 75,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    Dodge: 15,
+    Attacks: [
+      {
+        Name: "rips you with its sharp beak",
+        Acc: 140,
+        "AttTrue%": "67.7",
+        Min: 14,
+        Max: 49,
+        Energy: 250,
+      },
+      {
+        Name: "swoops",
+        Acc: 140,
+        "AttTrue%": "14.7",
+        Min: 26,
+        Max: 62,
+        Energy: 500,
+        HitSpell: 5403,
+      },
+      {
+        Name: "swoops down and grips you in its claws, droppi...",
+        Acc: 150,
+        "AttTrue%": "10.6",
+        Min: 38,
+        Max: 74,
+        Energy: 1000,
+        HitSpell: 5487,
+      },
+      {
+        Name: "carves into you with a flurry of talons",
+        Acc: 140,
+        "AttTrue%": "7.0",
+        Min: 27,
+        Max: 131,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2615,
+    Name: "gryphon",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 4,
+    "Follow%": 80,
+    MagicRes: 65,
+    EXP: 11000,
+    HP: 625,
+    HPRegen: 62,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Dodge: 15,
+    Rlit: -25,
+    ResistStone: -25,
+    Attacks: [
+      {
+        Name: "rips you with its sharp beak",
+        Acc: 135,
+        "AttTrue%": "19.9",
+        Min: 11,
+        Max: 60,
+        Energy: 666,
+      },
+      {
+        Name: "dives at you, slashing you with its claws",
+        Acc: 140,
+        "AttTrue%": "21.3",
+        Min: 27,
+        Max: 92,
+        Energy: 666,
+        HitSpell: 201,
+      },
+      {
+        Name: "pounces on you, tearing you open",
+        Acc: 135,
+        "AttTrue%": "15.3",
+        Min: 26,
+        Max: 84,
+        Energy: 1000,
+      },
+      {
+        Name: "savagely bites you",
+        Acc: 135,
+        "AttTrue%": "38.0",
+        Min: 11,
+        Max: 64,
+        Energy: 333,
+      },
+    ],
+    Spells: [
+      {
+        Name: "shriek",
+        "AttTrue%": "5.5",
+        Number: 191,
+        Success: 100,
+        Level: 25,
+        Energy: 666,
+      },
+    ],
+  },
+  {
+    Number: 2616,
+    Name: "elder gryphon",
+    Weapon: 0,
+    ArmourClass: 75,
+    DamageResist: 4,
+    "Follow%": 80,
+    MagicRes: 65,
+    EXP: 11900,
+    HP: 670,
+    HPRegen: 62,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Dodge: 15,
+    Rlit: -25,
+    ResistStone: -25,
+    Attacks: [
+      {
+        Name: "rips you with its sharp beak",
+        Acc: 140,
+        "AttTrue%": "20.2",
+        Min: 18,
+        Max: 79,
+        Energy: 666,
+      },
+      {
+        Name: "dives at you, slashing you with its claws",
+        Acc: 145,
+        "AttTrue%": "20.7",
+        Min: 37,
+        Max: 109,
+        Energy: 666,
+      },
+      {
+        Name: "pounces on you, tearing you open",
+        Acc: 140,
+        "AttTrue%": "14.7",
+        Min: 26,
+        Max: 99,
+        Energy: 1000,
+        HitSpell: 201,
+      },
+      {
+        Name: "savagely bites you",
+        Acc: 140,
+        "AttTrue%": "38.9",
+        Min: 24,
+        Max: 81,
+        Energy: 333,
+      },
+    ],
+    Spells: [
+      {
+        Name: "shriek",
+        "AttTrue%": "5.5",
+        Number: 191,
+        Success: 100,
+        Level: 25,
+        Energy: 666,
+      },
+    ],
+  },
+  {
+    Number: 2617,
+    Name: "chimera",
+    Weapon: 0,
+    ArmourClass: 64,
+    DamageResist: 4,
+    "Follow%": 75,
+    MagicRes: 70,
+    EXP: 11000,
+    HP: 650,
+    HPRegen: 65,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Rfir: 25,
+    Rlit: -25,
+    ResistStone: -25,
+    Attacks: [
+      {
+        Name: "rakes you with a claw",
+        Acc: 130,
+        "AttTrue%": "23.5",
+        Min: 17,
+        Max: 51,
+        Energy: 333,
+      },
+      {
+        Name: "swoops",
+        Acc: 125,
+        "AttTrue%": "20.0",
+        Min: 27,
+        Max: 81,
+        Energy: 666,
+      },
+      {
+        Name: "charges forward, smashing into you",
+        Acc: 140,
+        "AttTrue%": "20.9",
+        Min: 12,
+        Max: 74,
+        Energy: 666,
+      },
+      {
+        Name: "savagely bites you",
+        Acc: 135,
+        "AttTrue%": "14.7",
+        Min: 36,
+        Max: 117,
         Energy: 1000,
       },
     ],
     Spells: [
       {
-        Name: "breathes a greenish cloud",
-        "AttTrue%": "6.0",
-        Number: 322,
+        Name: "cone of frost",
+        "AttTrue%": "20.8",
+        Number: 375,
         Success: 100,
-        Level: 50,
+        Level: 9,
+        Energy: 666,
+      },
+    ],
+  },
+  {
+    Number: 2618,
+    Name: "chimera",
+    Weapon: 0,
+    ArmourClass: 64,
+    DamageResist: 4,
+    "Follow%": 75,
+    MagicRes: 70,
+    EXP: 11000,
+    HP: 650,
+    HPRegen: 65,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Rfir: 25,
+    Rlit: -25,
+    ResistStone: -25,
+    Attacks: [
+      {
+        Name: "rakes you with a claw",
+        Acc: 130,
+        "AttTrue%": "22.8",
+        Min: 17,
+        Max: 51,
+        Energy: 333,
+      },
+      {
+        Name: "swoops",
+        Acc: 125,
+        "AttTrue%": "21.1",
+        Min: 27,
+        Max: 81,
+        Energy: 666,
+      },
+      {
+        Name: "charges forward, smashing into you",
+        Acc: 140,
+        "AttTrue%": "21.1",
+        Min: 12,
+        Max: 74,
+        Energy: 666,
+      },
+      {
+        Name: "savagely bites you",
+        Acc: 135,
+        "AttTrue%": "14.9",
+        Min: 36,
+        Max: 117,
         Energy: 1000,
+      },
+    ],
+    Spells: [
+      {
+        Name: "cone of lightning",
+        "AttTrue%": "20.1",
+        Number: 1031,
+        Success: 100,
+        Level: 18,
+        Energy: 666,
+      },
+    ],
+  },
+  {
+    Number: 2619,
+    Name: "water moccasin",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 0,
+    "Follow%": 40,
+    MagicRes: 75,
+    EXP: 8500,
+    HP: 480,
+    HPRegen: 110,
+    CharmLVL: 85,
+    Type: 0,
+    Undead: 0,
+    Align: 5,
+    Magical: 0,
+    ImmuPoison: 0,
+    Animal: 0,
+    Rlit: -35,
+    ResistWater: 100,
+    Attacks: [
+      {
+        Name: "strikes you viciously",
+        Acc: 125,
+        "AttTrue%": "78.3",
+        Min: 18,
+        Max: 66,
+        Energy: 500,
+      },
+      {
+        Name: "strikes you, sinking its fangs deep",
+        Acc: 135,
+        "AttTrue%": "21.7",
+        Min: 18,
+        Max: 66,
+        Energy: 500,
+        HitSpell: 5512,
+      },
+    ],
+  },
+  {
+    Number: 2620,
+    Name: "acidic ooze",
+    Weapon: 0,
+    ArmourClass: 0,
+    DamageResist: 5,
+    "Follow%": 40,
+    MagicRes: 70,
+    EXP: 9250,
+    HP: 580,
+    HPRegen: 25,
+    CharmLVL: 999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 0,
+    NonLiving: 0,
+    Rcol: -35,
+    ResistWater: 200,
+    Rlit: -35,
+    Attacks: [
+      {
+        Name: "surges over you",
+        Acc: 130,
+        "AttTrue%": "43.5",
+        Min: 30,
+        Max: 80,
+        Energy: 1000,
+        HitSpell: 236,
+      },
+      {
+        Name: "whips you with a slimy appendage",
+        Acc: 135,
+        "AttTrue%": "29.4",
+        Min: 22,
+        Max: 56,
+        Energy: 500,
+        HitSpell: 5119,
+      },
+    ],
+    Spells: [
+      {
+        Name: "acid jet",
+        "AttTrue%": "27.1",
+        Number: 5013,
+        Success: 100,
+        Level: 20,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2621,
+    Name: "mud ray",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 6,
+    "Follow%": 20,
+    MagicRes: 80,
+    EXP: 10000,
+    HP: 625,
+    HPRegen: 250,
+    CharmLVL: 90,
+    Type: 0,
+    Undead: 0,
+    Align: 3,
+    Magical: 0,
+    Animal: 0,
+    Rlit: -35,
+    ResistWater: 100,
+    Rcol: -25,
+    Attacks: [
+      {
+        Name: "bites you",
+        Acc: 135,
+        "AttTrue%": "48.4",
+        Min: 27,
+        Max: 69,
+        Energy: 500,
+      },
+      {
+        Name: "impales you you with its barbed tail",
+        Acc: 140,
+        "AttTrue%": "51.6",
+        Min: 27,
+        Max: 96,
+        Energy: 500,
+        HitSpell: 5409,
+      },
+    ],
+  },
+  {
+    Number: 2622,
+    Name: "spineshell",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 10,
+    "Follow%": 20,
+    MagicRes: 75,
+    EXP: 9000,
+    HP: 520,
+    HPRegen: 100,
+    CharmLVL: 20,
+    Type: 1,
+    Undead: 0,
+    Align: 5,
+    Magical: 0,
+    ImmuPoison: 0,
+    Animal: 0,
+    Rlit: -35,
+    ShockShield: 3,
+    Rcol: -25,
+    Drops: [{ Number: 3633, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "chomps you",
+        Acc: 130,
+        "AttTrue%": "80.2",
+        Min: 11,
+        Max: 60,
+        Energy: 500,
+      },
+    ],
+    Spells: [
+      {
+        Name: "shell spin",
+        "AttTrue%": "19.8",
+        Number: 5513,
+        Success: 100,
+        Level: 30,
+        Energy: 1000,
+      },
+    ],
+  },
+  {
+    Number: 2623,
+    Name: "muckworm",
+    Weapon: 0,
+    ArmourClass: 45,
+    DamageResist: 0,
+    "Follow%": 80,
+    MagicRes: 70,
+    EXP: 9000,
+    HP: 580,
+    HPRegen: 28,
+    CharmLVL: 90,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    ImmuPoison: 0,
+    Animal: 0,
+    Dodge: 35,
+    Rlit: -25,
+    Rcol: -25,
+    ResistStone: 100,
+    ResistWater: 100,
+    Attacks: [
+      {
+        Name: "chomps you",
+        Acc: 135,
+        "AttTrue%": "49.8",
+        Min: 11,
+        Max: 58,
+        Energy: 500,
+      },
+      {
+        Name: "sinks its teeth in, tearing a chunk from you",
+        Acc: 135,
+        "AttTrue%": "50.2",
+        Min: 11,
+        Max: 58,
+        Energy: 500,
+        HitSpell: 5409,
+      },
+    ],
+  },
+  {
+    Number: 2624,
+    Name: "drowned dead",
+    Weapon: 3634,
+    ArmourClass: 70,
+    DamageResist: 5,
+    "Follow%": 80,
+    MagicRes: 80,
+    EXP: 8750,
+    HP: 570,
+    HPRegen: 25,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 0,
+    NonLiving: 0,
+    Rlit: -25,
+    Dodge: 20,
+    Drops: [{ Number: 3634, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "slashes you",
+        Acc: 135,
+        "AttTrue%": "67.9",
+        Min: 16,
+        Max: 58,
+        Energy: 333,
+      },
+      {
+        Name: "all-out chops you",
+        Acc: 135,
+        "AttTrue%": "20.3",
+        Min: 16,
+        Max: 58,
+        Energy: 333,
+      },
+      {
+        Name: "grabs you and drowns you",
+        Acc: 140,
+        "AttTrue%": "11.9",
+        Min: 34,
+        Max: 79,
+        Energy: 666,
+        HitSpell: 5498,
+      },
+    ],
+  },
+  {
+    Number: 2625,
+    Name: "drowned dead",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 5,
+    "Follow%": 80,
+    MagicRes: 80,
+    EXP: 8750,
+    HP: 570,
+    HPRegen: 25,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 0,
+    NonLiving: 0,
+    Rlit: -25,
+    Dodge: 20,
+    Attacks: [
+      {
+        Name: "pounds you with its fist",
+        Acc: 135,
+        "AttTrue%": "65.9",
+        Min: 16,
+        Max: 58,
+        Energy: 500,
+      },
+      {
+        Name: "claws you",
+        Acc: 135,
+        "AttTrue%": "18.9",
+        Min: 16,
+        Max: 58,
+        Energy: 500,
+        HitSpell: 5120,
+      },
+      {
+        Name: "grabs you and drowns you",
+        Acc: 135,
+        "AttTrue%": "15.2",
+        Min: 34,
+        Max: 79,
+        Energy: 500,
+        HitSpell: 5481,
+      },
+    ],
+  },
+  {
+    Number: 2626,
+    Name: "risen spearman",
+    Weapon: 1293,
+    ArmourClass: 80,
+    DamageResist: 5,
+    "Follow%": 50,
+    MagicRes: 75,
+    EXP: 11500,
+    HP: 700,
+    HPRegen: 100,
+    CharmLVL: 90,
+    Type: 1,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 100,
+    NonLiving: 0,
+    Rfir: -15,
+    Rcol: 100,
+    ResistStone: -15,
+    Attacks: [
+      {
+        Name: "lunges forward and skewers you",
+        Acc: 135,
+        "AttTrue%": "74.9",
+        Min: 11,
+        Max: 41,
+        Energy: 250,
+      },
+      {
+        Name: "impales you mercilessly",
+        Acc: 145,
+        "AttTrue%": "20.6",
+        Min: 22,
+        Max: 108,
+        Energy: 250,
+      },
+      {
+        Name: "hurls a heavy spear at you",
+        Acc: 135,
+        "AttTrue%": "4.4",
+        Min: 29,
+        Max: 132,
+        Energy: 1000,
+        HitSpell: 5514,
+      },
+    ],
+  },
+  {
+    Number: 2627,
+    Name: "risen archer",
+    Weapon: 3030,
+    ArmourClass: 75,
+    DamageResist: 1,
+    "Follow%": 40,
+    MagicRes: 70,
+    EXP: 11500,
+    HP: 690,
+    HPRegen: 88,
+    CharmLVL: 999,
+    Type: 2,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 100,
+    NonLiving: 0,
+    Rfir: -15,
+    ResistStone: -15,
+    Rcol: 100,
+    Attacks: [
+      {
+        Name: "draws an arrow and shoots you",
+        Acc: 135,
+        "AttTrue%": "43.4",
+        Min: 19,
+        Max: 49,
+        Energy: 333,
+      },
+      {
+        Name: "looses an arrow you",
+        Acc: 140,
+        "AttTrue%": "42.7",
+        Min: 29,
+        Max: 144,
+        Energy: 666,
+      },
+      {
+        Name: "looses an arrow, striking your vitals",
+        Acc: 145,
+        "AttTrue%": "13.9",
+        Min: 43,
+        Max: 162,
+        Energy: 666,
+        HitSpell: 5409,
+      },
+    ],
+  },
+  {
+    Number: 2628,
+    Name: "ghastly retainer",
+    Weapon: 514,
+    ArmourClass: 75,
+    DamageResist: 1,
+    "Follow%": 70,
+    MagicRes: 60,
+    EXP: 10900,
+    HP: 640,
+    HPRegen: 110,
+    CharmLVL: 99,
+    Type: 0,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 100,
+    NonLiving: 0,
+    Rfir: -15,
+    ResistStone: -15,
+    Rcol: 100,
+    Attacks: [
+      {
+        Name: "hacks at your head",
+        Acc: 135,
+        "AttTrue%": "41.4",
+        Min: 11,
+        Max: 49,
+        Energy: 333,
+      },
+      {
+        Name: "all-out slashes you",
+        Acc: 140,
+        "AttTrue%": "42.4",
+        Min: 16,
+        Max: 80,
+        Energy: 333,
+      },
+      {
+        Name: "leaps into the air and kicks you",
+        Acc: 135,
+        "AttTrue%": "7.8",
+        Min: 27,
+        Max: 92,
+        Energy: 666,
+        HitSpell: 318,
+      },
+      {
+        Name: "leaps on you, visciously biting you",
+        Acc: 140,
+        "AttTrue%": "8.4",
+        Min: 28,
+        Max: 101,
+        Energy: 666,
+        HitSpell: 5515,
+      },
+    ],
+  },
+  {
+    Number: 2629,
+    Name: "skeletal servant",
+    Weapon: 0,
+    ArmourClass: 70,
+    DamageResist: 1,
+    "Follow%": 80,
+    MagicRes: 50,
+    EXP: 10000,
+    HP: 670,
+    HPRegen: 111,
+    CharmLVL: 99,
+    Type: 0,
+    Undead: 1,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 100,
+    NonLiving: 0,
+    Rfir: -15,
+    ResistStone: -15,
+    Rcol: 100,
+    Attacks: [
+      {
+        Name: "punches you",
+        Acc: 130,
+        "AttTrue%": "53.4",
+        Min: 18,
+        Max: 39,
+        Energy: 333,
+      },
+      {
+        Name: "whaps you with a brass jug",
+        Acc: 135,
+        "AttTrue%": "24.6",
+        Min: 36,
+        Max: 108,
+        Energy: 666,
+      },
+      {
+        Name: "pelts you with dishes",
+        Acc: 140,
+        "AttTrue%": "22.0",
+        Min: 1,
+        Max: 70,
+        Energy: 333,
       },
     ],
   },
@@ -63953,7 +65662,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 135,
-        "AttTrue%": "38.8",
+        "AttTrue%": "41.2",
         Min: 32,
         Max: 104,
         Energy: 500,
@@ -63961,7 +65670,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spurs forward, skewering you",
         Acc: 135,
-        "AttTrue%": "30.3",
+        "AttTrue%": "28.4",
         Min: 66,
         Max: 208,
         Energy: 500,
@@ -63970,7 +65679,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 140,
-        "AttTrue%": "15.9",
+        "AttTrue%": "15.5",
         Min: 72,
         Max: 166,
         Energy: 1000,
@@ -63978,7 +65687,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spurs forward and tramples you",
         Acc: 145,
-        "AttTrue%": "15.0",
+        "AttTrue%": "14.9",
         Min: 84,
         Max: 210,
         Energy: 1000,
@@ -64064,7 +65773,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a rotten fist",
         Acc: 135,
-        "AttTrue%": "90.8",
+        "AttTrue%": "90.5",
         Min: 11,
         Max: 68,
         Energy: 500,
@@ -64072,7 +65781,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you",
         Acc: 135,
-        "AttTrue%": "9.2",
+        "AttTrue%": "9.5",
         Min: 19,
         Max: 80,
         Energy: 1000,
@@ -64105,7 +65814,7 @@ export const monsterData: Monster[] = [
       {
         Name: "freezes you with its touch",
         Acc: 140,
-        "AttTrue%": "24.7",
+        "AttTrue%": "24.5",
         Min: 1,
         Max: 100,
         Energy: 500,
@@ -64123,7 +65832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "inflicts great pain upon you",
         Acc: 135,
-        "AttTrue%": "25.3",
+        "AttTrue%": "25.4",
         Min: 1,
         Max: 100,
         Energy: 500,
@@ -64138,2016 +65847,6 @@ export const monsterData: Monster[] = [
         Success: 100,
         Level: 50,
         Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2589,
-    Name: "dark sprite",
-    Weapon: 3613,
-    ArmourClass: 60,
-    DamageResist: 0,
-    "Follow%": 70,
-    MagicRes: 100,
-    EXP: 11000,
-    HP: 615,
-    HPRegen: 180,
-    CharmLVL: 85,
-    Type: 0,
-    Undead: 0,
-    Align: 1,
-    Magical: 4,
-    SpellImmune: 18,
-    Dodge: 70,
-    Drops: [{ Number: 3614, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "looses a tiny arrow at you",
-        Acc: 135,
-        "AttTrue%": "61.9",
-        Min: 9,
-        Max: 41,
-        Energy: 333,
-      },
-      {
-        Name: "looses an arrow, striking your vitals",
-        Acc: 135,
-        "AttTrue%": "8.3",
-        Min: 27,
-        Max: 79,
-        Energy: 666,
-        HitSpell: 81,
-      },
-      {
-        Name: "hits you with a well-aimed shot",
-        Acc: 135,
-        "AttTrue%": "16.5",
-        Min: 9,
-        Max: 41,
-        Energy: 333,
-        HitSpell: 5141,
-      },
-    ],
-    Spells: [
-      {
-        Name: "eldritch bolt",
-        "AttTrue%": "8.5",
-        Number: 5026,
-        Success: 100,
-        Level: 30,
-        Energy: 666,
-      },
-      {
-        Name: "sphere of implosion",
-        "AttTrue%": "4.8",
-        Number: 5018,
-        Success: 100,
-        Level: 20,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2590,
-    Name: "redcap",
-    Weapon: 3612,
-    ArmourClass: 70,
-    DamageResist: 0,
-    "Follow%": 95,
-    MagicRes: 80,
-    EXP: 12400,
-    HP: 680,
-    HPRegen: 110,
-    CharmLVL: 99,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Dodge: 10,
-    SpellImmune: 18,
-    Drops: [
-      { Number: 3612, Percent: 1 },
-      { Number: 3615, Percent: 1 },
-    ],
-    Attacks: [
-      {
-        Name: "gleefully guts you",
-        Acc: 135,
-        "AttTrue%": "28.7",
-        Min: 9,
-        Max: 44,
-        Energy: 250,
-      },
-      {
-        Name: "whirls a sling, firing a projectile at you",
-        Acc: 130,
-        "AttTrue%": "20.6",
-        Min: 27,
-        Max: 82,
-        Energy: 750,
-        HitSpell: 5488,
-      },
-      {
-        Name: "whirls a sling, firing a projectile at you",
-        Acc: 135,
-        "AttTrue%": "20.3",
-        Min: 34,
-        Max: 98,
-        Energy: 750,
-        HitSpell: 5141,
-      },
-    ],
-    Spells: [
-      {
-        Name: "eldritch storm",
-        "AttTrue%": "15.2",
-        Number: 1058,
-        Success: 100,
-        Level: 12,
-        Energy: 1000,
-      },
-      {
-        Name: "steal lifeforce",
-        "AttTrue%": "15.2",
-        Number: 5490,
-        Success: 100,
-        Level: 45,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2591,
-    Name: "elder leprechaun",
-    Weapon: 712,
-    ArmourClass: 0,
-    DamageResist: 0,
-    "Follow%": 75,
-    MagicRes: 75,
-    EXP: 9500,
-    HP: 575,
-    HPRegen: 160,
-    CharmLVL: 999,
-    Type: 0,
-    Undead: 0,
-    Align: 1,
-    Magical: 4,
-    SpellImmune: 20,
-    Dodge: 80,
-    Drops: [{ Number: 3834, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "happily pounds you",
-        Acc: 135,
-        "AttTrue%": "76.5",
-        Min: 14,
-        Max: 44,
-        Energy: 333,
-      },
-    ],
-    Spells: [
-      {
-        Name: "gold dust",
-        "AttTrue%": "4.2",
-        Number: 5495,
-        Success: 100,
-        Level: 16,
-        Energy: 666,
-      },
-      {
-        Name: "eldritch bolt",
-        "AttTrue%": "19.3",
-        Number: 5026,
-        Success: 100,
-        Level: 40,
-        Energy: 666,
-      },
-    ],
-  },
-  {
-    Number: 2592,
-    Name: "great huorn",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 6,
-    "Follow%": 40,
-    MagicRes: 75,
-    EXP: 10000,
-    HP: 690,
-    HPRegen: 160,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 1,
-    Magical: 4,
-    NonLiving: 0,
-    ImmuPoison: 0,
-    SpellImmune: 18,
-    Rfir: -60,
-    Rlit: -50,
-    Attacks: [
-      {
-        Name: "bashes your head with a heavy limb",
-        Acc: 135,
-        "AttTrue%": "89.2",
-        Min: 31,
-        Max: 127,
-        Energy: 1000,
-      },
-    ],
-    Spells: [
-      {
-        Name: "roots",
-        "AttTrue%": "10.8",
-        Number: 5497,
-        Success: 100,
-        Level: 50,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2593,
-    Name: "moss giant",
-    Weapon: 0,
-    ArmourClass: 60,
-    DamageResist: 8,
-    "Follow%": 35,
-    MagicRes: 90,
-    EXP: 10500,
-    HP: 640,
-    HPRegen: 250,
-    CharmLVL: 80,
-    Type: 0,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    NonLiving: 0,
-    Rfir: -100,
-    Rcol: 100,
-    ResistStone: 100,
-    Rlit: -50,
-    Attacks: [
-      {
-        Name: "thwacks you with a wet fist",
-        Acc: 130,
-        "AttTrue%": "74.1",
-        Min: 16,
-        Max: 95,
-        Energy: 1000,
-      },
-      {
-        Name: "batters you savagely",
-        Acc: 135,
-        "AttTrue%": "20.5",
-        Min: 27,
-        Max: 106,
-        Energy: 1000,
-      },
-      {
-        Name: "pummels you with both fists",
-        Acc: 140,
-        "AttTrue%": "5.4",
-        Min: 21,
-        Max: 107,
-        Energy: 1000,
-        HitSpell: 128,
-      },
-    ],
-  },
-  {
-    Number: 2594,
-    Name: "thorned hulk",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 6,
-    "Follow%": 50,
-    MagicRes: 80,
-    EXP: 12000,
-    HP: 670,
-    HPRegen: 110,
-    CharmLVL: 100,
-    Type: 0,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    NonLiving: 0,
-    Rfir: -60,
-    Rcol: 100,
-    ResistStone: 100,
-    Rlit: -40,
-    Attacks: [
-      {
-        Name: "rakes you with a thorny limb",
-        Acc: 140,
-        "AttTrue%": "57.3",
-        Min: 16,
-        Max: 72,
-        Energy: 500,
-      },
-      {
-        Name: "whips a limb, slashing you",
-        Acc: 145,
-        "AttTrue%": "28.0",
-        Min: 11,
-        Max: 66,
-        Energy: 500,
-        HitSpell: 201,
-      },
-    ],
-    Spells: [
-      {
-        Name: "flurry of thorns",
-        "AttTrue%": "14.7",
-        Number: 5458,
-        Success: 100,
-        Level: 15,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2595,
-    Name: "steelhead",
-    Weapon: 0,
-    ArmourClass: 50,
-    DamageResist: 3,
-    "Follow%": 65,
-    MagicRes: 70,
-    EXP: 9000,
-    HP: 540,
-    HPRegen: 160,
-    CharmLVL: 62,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    ResistWater: 200,
-    Rlit: -75,
-    Dodge: 20,
-    Attacks: [
-      {
-        Name: "darts in, smashing into you",
-        Acc: 130,
-        "AttTrue%": "85.0",
-        Min: 27,
-        Max: 74,
-        Energy: 1000,
-      },
-      {
-        Name: "darts in, ramming into you",
-        Acc: 135,
-        "AttTrue%": "15.0",
-        Min: 19,
-        Max: 86,
-        Energy: 1000,
-        HitSpell: 128,
-      },
-    ],
-  },
-  {
-    Number: 2596,
-    Name: "daggerfish",
-    Weapon: 0,
-    ArmourClass: 50,
-    DamageResist: 5,
-    "Follow%": 80,
-    MagicRes: 50,
-    EXP: 10000,
-    HP: 550,
-    HPRegen: 110,
-    CharmLVL: 70,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    Dodge: 50,
-    Rlit: -75,
-    ResistWater: 200,
-    Attacks: [
-      {
-        Name: "tears away a chunk of your flesh",
-        Acc: 125,
-        "AttTrue%": "65.2",
-        Min: 11,
-        Max: 36,
-        Energy: 333,
-      },
-      {
-        Name: "darts past you, slicing you with its fin",
-        Acc: 135,
-        "AttTrue%": "25.1",
-        Min: 19,
-        Max: 57,
-        Energy: 333,
-        HitSpell: 5409,
-      },
-      {
-        Name: "circles you and carves you up",
-        Acc: 140,
-        "AttTrue%": "9.7",
-        Min: 14,
-        Max: 64,
-        Energy: 333,
-        HitSpell: 201,
-      },
-    ],
-  },
-  {
-    Number: 2597,
-    Name: "leech swarm",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 1,
-    "Follow%": 80,
-    MagicRes: 30,
-    EXP: 8400,
-    HP: 500,
-    HPRegen: 40,
-    CharmLVL: 150,
-    Type: 2,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    Dodge: 20,
-    Attacks: [
-      {
-        Name: "darts forward and bites you",
-        Acc: 135,
-        "AttTrue%": "100.0",
-        Min: 1,
-        Max: 20,
-        Energy: 100,
-        HitSpell: 505,
-      },
-    ],
-  },
-  {
-    Number: 2598,
-    Name: "living water",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 0,
-    "Follow%": 70,
-    MagicRes: 65,
-    EXP: 11000,
-    HP: 680,
-    HPRegen: 140,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    NonLiving: 0,
-    ImmuPoison: 0,
-    Rlit: -100,
-    ResistWater: 300,
-    SpellImmune: 20,
-    Attacks: [
-      {
-        Name: "emerges and smashes you with its fist",
-        Acc: 135,
-        "AttTrue%": "34.2",
-        Min: 10,
-        Max: 52,
-        Energy: 500,
-      },
-      {
-        Name: "grabs you and drowns you",
-        Acc: 135,
-        "AttTrue%": "21.8",
-        Min: 20,
-        Max: 104,
-        Energy: 1000,
-        HitSpell: 5481,
-      },
-      {
-        Name: "surges over you, drowning you",
-        Acc: 145,
-        "AttTrue%": "22.6",
-        Min: 6,
-        Max: 51,
-        Energy: 500,
-        HitSpell: 5498,
-      },
-    ],
-    Spells: [
-      {
-        Name: "water jet",
-        "AttTrue%": "21.4",
-        Number: 5454,
-        Success: 100,
-        Level: 25,
-        Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2599,
-    Name: "highland eel",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 1,
-    "Follow%": 80,
-    MagicRes: 70,
-    EXP: 9000,
-    HP: 590,
-    HPRegen: 110,
-    CharmLVL: 80,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    ResistWater: 200,
-    Rlit: -75,
-    Dodge: 50,
-    Attacks: [
-      {
-        Name: "rips you with its toothy maw",
-        Acc: 135,
-        "AttTrue%": "67.2",
-        Min: 17,
-        Max: 52,
-        Energy: 500,
-      },
-      {
-        Name: "whips you with its spiked tail",
-        Acc: 130,
-        "AttTrue%": "18.4",
-        Min: 14,
-        Max: 46,
-        Energy: 250,
-        HitSpell: 81,
-      },
-    ],
-    Spells: [
-      {
-        Name: "water jet",
-        "AttTrue%": "14.4",
-        Number: 5454,
-        Success: 100,
-        Level: 45,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2600,
-    Name: "villager",
-    Weapon: 0,
-    ArmourClass: 10,
-    DamageResist: 1,
-    "Follow%": 10,
-    MagicRes: 60,
-    EXP: 600,
-    HP: 225,
-    HPRegen: 25,
-    CharmLVL: 40,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    MonsGuards: 2602,
-    Attacks: [
-      {
-        Name: "punches you",
-        Acc: 110,
-        "AttTrue%": "100.0",
-        Min: 15,
-        Max: 30,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2601,
-    Name: "villager",
-    Weapon: 0,
-    ArmourClass: 10,
-    DamageResist: 1,
-    "Follow%": 10,
-    MagicRes: 60,
-    EXP: 600,
-    HP: 225,
-    HPRegen: 25,
-    CharmLVL: 40,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    MonsGuards: 2602,
-    Attacks: [
-      {
-        Name: "punches you",
-        Acc: 110,
-        "AttTrue%": "100.0",
-        Min: 15,
-        Max: 30,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2602,
-    Name: "Lachlan guard",
-    Weapon: 3623,
-    ArmourClass: 85,
-    DamageResist: 10,
-    "Follow%": 70,
-    MagicRes: 85,
-    EXP: 7000,
-    HP: 600,
-    HPRegen: 120,
-    CharmLVL: 80,
-    Type: 2,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Drops: [{ Number: 3623, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "cleaves you",
-        Acc: 135,
-        "AttTrue%": "79.4",
-        Min: 16,
-        Max: 49,
-        Energy: 250,
-      },
-      {
-        Name: "all-out cleaves you",
-        Acc: 140,
-        "AttTrue%": "20.6",
-        Min: 48,
-        Max: 147,
-        Energy: 250,
-      },
-    ],
-  },
-  {
-    Number: 2603,
-    Name: "twisted treant",
-    Weapon: 0,
-    ArmourClass: 68,
-    DamageResist: 7,
-    "Follow%": 30,
-    MagicRes: 85,
-    EXP: 10500,
-    HP: 680,
-    HPRegen: 60,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    NonLiving: 0,
-    ImmuPoison: 0,
-    SpellImmune: 20,
-    Rfir: -50,
-    Attacks: [
-      {
-        Name: "bashes you with a heavy branch",
-        Acc: 130,
-        "AttTrue%": "39.5",
-        Min: 20,
-        Max: 80,
-        Energy: 600,
-      },
-      {
-        Name: "smashes you with its branches",
-        Acc: 135,
-        "AttTrue%": "16.5",
-        Min: 22,
-        Max: 91,
-        Energy: 800,
-      },
-      {
-        Name: "lashes you with a thorned vine",
-        Acc: 140,
-        "AttTrue%": "44.0",
-        Min: 9,
-        Max: 41,
-        Energy: 200,
-        HitSpell: 201,
-      },
-    ],
-  },
-  {
-    Number: 2604,
-    Name: "thornflayer",
-    Weapon: 0,
-    ArmourClass: 0,
-    DamageResist: 15,
-    "Follow%": 25,
-    MagicRes: 90,
-    EXP: 4600,
-    HP: 508,
-    HPRegen: 50,
-    CharmLVL: 1000,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Dodge: 95,
-    Attacks: [
-      {
-        Name: "lashes you with a thorned vine",
-        Acc: 140,
-        "AttTrue%": "33.3",
-        Min: 7,
-        Max: 48,
-        Energy: 250,
-        HitSpell: 5507,
-      },
-      {
-        Name: "whips you with a thorned vine",
-        Acc: 140,
-        "AttTrue%": "32.9",
-        Min: 11,
-        Max: 56,
-        Energy: 250,
-        HitSpell: 201,
-      },
-      {
-        Name: "whips you with a thorned vine",
-        Acc: 140,
-        "AttTrue%": "33.8",
-        Min: 1,
-        Max: 66,
-        Energy: 250,
-        HitSpell: 820,
-      },
-    ],
-  },
-  {
-    Number: 2605,
-    Name: "Vynne loyalist",
-    Weapon: 3033,
-    ArmourClass: 80,
-    DamageResist: 6,
-    "Follow%": 0,
-    MagicRes: 100,
-    EXP: 17500,
-    HP: 900,
-    HPRegen: 350,
-    CharmLVL: 120,
-    Type: 2,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Dodge: 60,
-    SpellImmune: 20,
-    Attacks: [
-      {
-        Name: "carves you up in a flurry of steel",
-        Acc: 155,
-        "AttTrue%": "52.6",
-        Min: 48,
-        Max: 80,
-        Energy: 250,
-      },
-      {
-        Name: "furiously slashes you",
-        Acc: 160,
-        "AttTrue%": "25.4",
-        Min: 89,
-        Max: 266,
-        Energy: 250,
-        HitSpell: 5118,
-      },
-      {
-        Name: "shoulder bashes you",
-        Acc: 165,
-        "AttTrue%": "22.0",
-        Min: 61,
-        Max: 114,
-        Energy: 500,
-        HitSpell: 318,
-      },
-    ],
-  },
-  {
-    Number: 2606,
-    Name: "giant dragonfly",
-    Weapon: 0,
-    ArmourClass: 80,
-    DamageResist: 0,
-    "Follow%": 50,
-    MagicRes: 50,
-    EXP: 9000,
-    HP: 570,
-    HPRegen: 100,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Dodge: 20,
-    ImmuPoison: 0,
-    Rlit: -25,
-    Animal: 0,
-    Attacks: [
-      {
-        Name: "swoops down and bites you",
-        Acc: 130,
-        "AttTrue%": "43.6",
-        Min: 31,
-        Max: 114,
-        Energy: 1000,
-        HitSpell: 81,
-      },
-      {
-        Name: "dives down and tears into you",
-        Acc: 135,
-        "AttTrue%": "56.4",
-        Min: 16,
-        Max: 58,
-        Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2607,
-    Name: "giant leech",
-    Weapon: 0,
-    ArmourClass: 0,
-    DamageResist: 0,
-    "Follow%": 40,
-    MagicRes: 50,
-    EXP: 8500,
-    HP: 540,
-    HPRegen: 1,
-    CharmLVL: 85,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    Dodge: 40,
-    Attacks: [
-      {
-        Name: "darts forward and bites you",
-        Acc: 135,
-        "AttTrue%": "100.0",
-        Min: 1,
-        Max: 38,
-        Energy: 200,
-        HitSpell: 505,
-      },
-    ],
-  },
-  {
-    Number: 2608,
-    Name: "gremlin",
-    Weapon: 0,
-    ArmourClass: 20,
-    DamageResist: 1,
-    "Follow%": 90,
-    MagicRes: 45,
-    EXP: 4500,
-    HP: 300,
-    HPRegen: 20,
-    CharmLVL: 45,
-    Type: 2,
-    Undead: 0,
-    Align: 2,
-    Magical: 1,
-    Dodge: 90,
-    SpellImmune: 15,
-    SeeHidden: 0,
-    Attacks: [
-      {
-        Name: "claws you",
-        Acc: 120,
-        "AttTrue%": "52.3",
-        Min: 6,
-        Max: 25,
-        Energy: 200,
-        HitSpell: 81,
-      },
-      {
-        Name: "bites you",
-        Acc: 120,
-        "AttTrue%": "47.7",
-        Min: 15,
-        Max: 30,
-        Energy: 400,
-      },
-    ],
-  },
-  {
-    Number: 2609,
-    Name: "gremlin witchdoctor",
-    Weapon: 0,
-    ArmourClass: 0,
-    DamageResist: 0,
-    "Follow%": 90,
-    MagicRes: 65,
-    EXP: 7500,
-    HP: 400,
-    HPRegen: 60,
-    CharmLVL: 50,
-    Type: 1,
-    Undead: 0,
-    Align: 2,
-    Magical: 2,
-    Dodge: 90,
-    SpellImmune: 20,
-    SeeHidden: 0,
-    Attacks: [
-      {
-        Name: "claws you",
-        Acc: 130,
-        "AttTrue%": "29.1",
-        Min: 1,
-        Max: 15,
-        Energy: 200,
-        HitSpell: 81,
-      },
-      {
-        Name: "bites you",
-        Acc: 125,
-        "AttTrue%": "39.8",
-        Min: 15,
-        Max: 30,
-        Energy: 400,
-      },
-    ],
-    Spells: [
-      {
-        Name: "eldritch bolt",
-        "AttTrue%": "15.5",
-        Number: 5026,
-        Success: 100,
-        Level: 25,
-        Energy: 1000,
-      },
-      {
-        Name: "plasma bolt",
-        "AttTrue%": "10.1",
-        Number: 5012,
-        Success: 100,
-        Level: 20,
-        Energy: 600,
-      },
-      {
-        Name: "voodoo stab",
-        "AttTrue%": "5.6",
-        Number: 763,
-        Success: 100,
-        Level: 25,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2610,
-    Name: "living gneiss",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 10,
-    "Follow%": 40,
-    MagicRes: 75,
-    EXP: 11500,
-    HP: 690,
-    HPRegen: 110,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    NonLiving: 0,
-    ImmuPoison: 0,
-    ResistStone: 200,
-    Rcol: -25,
-    ResistWater: -40,
-    Attacks: [
-      {
-        Name: "smashes you with a stone limb",
-        Acc: 135,
-        "AttTrue%": "78.5",
-        Min: 29,
-        Max: 78,
-        Energy: 500,
-      },
-      {
-        Name: "crushes you with both limbs",
-        Acc: 150,
-        "AttTrue%": "10.6",
-        Min: 46,
-        Max: 134,
-        Energy: 1000,
-      },
-      {
-        Name: "launches a massive boulder, which crushes you",
-        Acc: 145,
-        "AttTrue%": "10.9",
-        Min: 64,
-        Max: 161,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2611,
-    Name: "fachan",
-    Weapon: 3611,
-    ArmourClass: 55,
-    DamageResist: 10,
-    "Follow%": 40,
-    MagicRes: 80,
-    EXP: 10000,
-    HP: 700,
-    HPRegen: 75,
-    CharmLVL: 70,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Dodge: 20,
-    Drops: [{ Number: 3611, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "leaps forward and wallops you",
-        Acc: 140,
-        "AttTrue%": "34.8",
-        Min: 29,
-        Max: 86,
-        Energy: 1000,
-      },
-      {
-        Name: "all-out smashes you",
-        Acc: 145,
-        "AttTrue%": "34.2",
-        Min: 56,
-        Max: 131,
-        Energy: 1000,
-      },
-      {
-        Name: "hurls a huge stone, which clobbers you",
-        Acc: 135,
-        "AttTrue%": "21.1",
-        Min: 37,
-        Max: 89,
-        Energy: 1000,
-        HitSpell: 128,
-      },
-    ],
-    Spells: [
-      {
-        Name: "roar",
-        "AttTrue%": "9.8",
-        Number: 5486,
-        Success: 100,
-        Level: 55,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2612,
-    Name: "fachan brute",
-    Weapon: 3611,
-    ArmourClass: 55,
-    DamageResist: 10,
-    "Follow%": 40,
-    MagicRes: 80,
-    EXP: 11000,
-    HP: 750,
-    HPRegen: 75,
-    CharmLVL: 70,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Dodge: 20,
-    Drops: [{ Number: 3611, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "headbutts you",
-        Acc: 145,
-        "AttTrue%": "36.0",
-        Min: 44,
-        Max: 122,
-        Energy: 1000,
-      },
-      {
-        Name: "all-out smashes you",
-        Acc: 145,
-        "AttTrue%": "35.3",
-        Min: 56,
-        Max: 148,
-        Energy: 1000,
-      },
-      {
-        Name: "hurls a huge stone, which clobbers you",
-        Acc: 135,
-        "AttTrue%": "19.7",
-        Min: 37,
-        Max: 89,
-        Energy: 1000,
-        HitSpell: 128,
-      },
-    ],
-    Spells: [
-      {
-        Name: "roar",
-        "AttTrue%": "9.0",
-        Number: 5486,
-        Success: 100,
-        Level: 55,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2613,
-    Name: "crowned eagle",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 0,
-    "Follow%": 80,
-    MagicRes: 60,
-    EXP: 9750,
-    HP: 590,
-    HPRegen: 59,
-    CharmLVL: 75,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    Dodge: 15,
-    Attacks: [
-      {
-        Name: "rips you with its sharp beak",
-        Acc: 130,
-        "AttTrue%": "67.1",
-        Min: 11,
-        Max: 37,
-        Energy: 250,
-      },
-      {
-        Name: "swoops",
-        Acc: 135,
-        "AttTrue%": "15.8",
-        Min: 23,
-        Max: 56,
-        Energy: 500,
-        HitSpell: 5403,
-      },
-      {
-        Name: "swoops down and grips you in its claws, droppi...",
-        Acc: 140,
-        "AttTrue%": "10.8",
-        Min: 19,
-        Max: 57,
-        Energy: 1000,
-        HitSpell: 5487,
-      },
-      {
-        Name: "carves into you with a flurry of talons",
-        Acc: 135,
-        "AttTrue%": "6.4",
-        Min: 14,
-        Max: 96,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2614,
-    Name: "crysaetos",
-    Weapon: 0,
-    ArmourClass: 80,
-    DamageResist: 0,
-    "Follow%": 80,
-    MagicRes: 60,
-    EXP: 11000,
-    HP: 630,
-    HPRegen: 80,
-    CharmLVL: 75,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    Animal: 0,
-    Dodge: 15,
-    Attacks: [
-      {
-        Name: "rips you with its sharp beak",
-        Acc: 140,
-        "AttTrue%": "67.5",
-        Min: 14,
-        Max: 49,
-        Energy: 250,
-      },
-      {
-        Name: "swoops",
-        Acc: 140,
-        "AttTrue%": "15.9",
-        Min: 26,
-        Max: 62,
-        Energy: 500,
-        HitSpell: 5403,
-      },
-      {
-        Name: "swoops down and grips you in its claws, droppi...",
-        Acc: 150,
-        "AttTrue%": "9.6",
-        Min: 38,
-        Max: 74,
-        Energy: 1000,
-        HitSpell: 5487,
-      },
-      {
-        Name: "carves into you with a flurry of talons",
-        Acc: 140,
-        "AttTrue%": "7.0",
-        Min: 27,
-        Max: 131,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2615,
-    Name: "gryphon",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 4,
-    "Follow%": 80,
-    MagicRes: 65,
-    EXP: 11000,
-    HP: 625,
-    HPRegen: 62,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Dodge: 15,
-    Rlit: -25,
-    ResistStone: -25,
-    Attacks: [
-      {
-        Name: "rips you with its sharp beak",
-        Acc: 135,
-        "AttTrue%": "21.0",
-        Min: 11,
-        Max: 60,
-        Energy: 666,
-      },
-      {
-        Name: "dives at you, slashing you with its claws",
-        Acc: 140,
-        "AttTrue%": "19.9",
-        Min: 27,
-        Max: 92,
-        Energy: 666,
-        HitSpell: 201,
-      },
-      {
-        Name: "pounces on you, tearing you open",
-        Acc: 135,
-        "AttTrue%": "14.2",
-        Min: 26,
-        Max: 84,
-        Energy: 1000,
-      },
-      {
-        Name: "savagely bites you",
-        Acc: 135,
-        "AttTrue%": "39.2",
-        Min: 11,
-        Max: 64,
-        Energy: 333,
-      },
-    ],
-    Spells: [
-      {
-        Name: "shriek",
-        "AttTrue%": "5.6",
-        Number: 191,
-        Success: 100,
-        Level: 25,
-        Energy: 666,
-      },
-    ],
-  },
-  {
-    Number: 2616,
-    Name: "elder gryphon",
-    Weapon: 0,
-    ArmourClass: 75,
-    DamageResist: 4,
-    "Follow%": 80,
-    MagicRes: 65,
-    EXP: 11900,
-    HP: 670,
-    HPRegen: 62,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Dodge: 15,
-    Rlit: -25,
-    ResistStone: -25,
-    Attacks: [
-      {
-        Name: "rips you with its sharp beak",
-        Acc: 140,
-        "AttTrue%": "19.6",
-        Min: 18,
-        Max: 79,
-        Energy: 666,
-      },
-      {
-        Name: "dives at you, slashing you with its claws",
-        Acc: 145,
-        "AttTrue%": "20.2",
-        Min: 37,
-        Max: 109,
-        Energy: 666,
-      },
-      {
-        Name: "pounces on you, tearing you open",
-        Acc: 140,
-        "AttTrue%": "14.0",
-        Min: 26,
-        Max: 99,
-        Energy: 1000,
-        HitSpell: 201,
-      },
-      {
-        Name: "savagely bites you",
-        Acc: 140,
-        "AttTrue%": "40.4",
-        Min: 24,
-        Max: 81,
-        Energy: 333,
-      },
-    ],
-    Spells: [
-      {
-        Name: "shriek",
-        "AttTrue%": "5.9",
-        Number: 191,
-        Success: 100,
-        Level: 25,
-        Energy: 666,
-      },
-    ],
-  },
-  {
-    Number: 2617,
-    Name: "chimera",
-    Weapon: 0,
-    ArmourClass: 64,
-    DamageResist: 4,
-    "Follow%": 75,
-    MagicRes: 70,
-    EXP: 11000,
-    HP: 650,
-    HPRegen: 65,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Rfir: 25,
-    Rlit: -25,
-    ResistStone: -25,
-    Attacks: [
-      {
-        Name: "rakes you with a claw",
-        Acc: 130,
-        "AttTrue%": "23.6",
-        Min: 17,
-        Max: 51,
-        Energy: 333,
-      },
-      {
-        Name: "swoops",
-        Acc: 125,
-        "AttTrue%": "19.7",
-        Min: 27,
-        Max: 81,
-        Energy: 666,
-      },
-      {
-        Name: "charges forward, smashing into you",
-        Acc: 140,
-        "AttTrue%": "21.0",
-        Min: 12,
-        Max: 74,
-        Energy: 666,
-      },
-      {
-        Name: "savagely bites you",
-        Acc: 135,
-        "AttTrue%": "15.5",
-        Min: 36,
-        Max: 117,
-        Energy: 1000,
-      },
-    ],
-    Spells: [
-      {
-        Name: "cone of frost",
-        "AttTrue%": "20.1",
-        Number: 375,
-        Success: 100,
-        Level: 9,
-        Energy: 666,
-      },
-    ],
-  },
-  {
-    Number: 2618,
-    Name: "chimera",
-    Weapon: 0,
-    ArmourClass: 64,
-    DamageResist: 4,
-    "Follow%": 75,
-    MagicRes: 70,
-    EXP: 11000,
-    HP: 650,
-    HPRegen: 65,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    Rfir: 25,
-    Rlit: -25,
-    ResistStone: -25,
-    Attacks: [
-      {
-        Name: "rakes you with a claw",
-        Acc: 130,
-        "AttTrue%": "24.1",
-        Min: 17,
-        Max: 51,
-        Energy: 333,
-      },
-      {
-        Name: "swoops",
-        Acc: 125,
-        "AttTrue%": "20.2",
-        Min: 27,
-        Max: 81,
-        Energy: 666,
-      },
-      {
-        Name: "charges forward, smashing into you",
-        Acc: 140,
-        "AttTrue%": "20.5",
-        Min: 12,
-        Max: 74,
-        Energy: 666,
-      },
-      {
-        Name: "savagely bites you",
-        Acc: 135,
-        "AttTrue%": "14.3",
-        Min: 36,
-        Max: 117,
-        Energy: 1000,
-      },
-    ],
-    Spells: [
-      {
-        Name: "cone of lightning",
-        "AttTrue%": "20.9",
-        Number: 1031,
-        Success: 100,
-        Level: 18,
-        Energy: 666,
-      },
-    ],
-  },
-  {
-    Number: 2619,
-    Name: "water moccasin",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 0,
-    "Follow%": 40,
-    MagicRes: 75,
-    EXP: 8500,
-    HP: 480,
-    HPRegen: 110,
-    CharmLVL: 85,
-    Type: 0,
-    Undead: 0,
-    Align: 5,
-    Magical: 0,
-    ImmuPoison: 0,
-    Animal: 0,
-    Rlit: -35,
-    ResistWater: 100,
-    Attacks: [
-      {
-        Name: "strikes you viciously",
-        Acc: 125,
-        "AttTrue%": "80.2",
-        Min: 18,
-        Max: 66,
-        Energy: 500,
-      },
-      {
-        Name: "strikes you, sinking its fangs deep",
-        Acc: 135,
-        "AttTrue%": "19.8",
-        Min: 18,
-        Max: 66,
-        Energy: 500,
-        HitSpell: 5512,
-      },
-    ],
-  },
-  {
-    Number: 2620,
-    Name: "acidic ooze",
-    Weapon: 0,
-    ArmourClass: 0,
-    DamageResist: 5,
-    "Follow%": 40,
-    MagicRes: 70,
-    EXP: 9250,
-    HP: 580,
-    HPRegen: 25,
-    CharmLVL: 999,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 0,
-    NonLiving: 0,
-    Rcol: -35,
-    ResistWater: 200,
-    Rlit: -35,
-    Attacks: [
-      {
-        Name: "surges over you",
-        Acc: 130,
-        "AttTrue%": "41.5",
-        Min: 30,
-        Max: 80,
-        Energy: 1000,
-        HitSpell: 236,
-      },
-      {
-        Name: "whips you with a slimy appendage",
-        Acc: 135,
-        "AttTrue%": "29.3",
-        Min: 22,
-        Max: 56,
-        Energy: 500,
-        HitSpell: 5119,
-      },
-    ],
-    Spells: [
-      {
-        Name: "acid jet",
-        "AttTrue%": "29.2",
-        Number: 5013,
-        Success: 100,
-        Level: 20,
-        Energy: 500,
-      },
-    ],
-  },
-  {
-    Number: 2621,
-    Name: "mud ray",
-    Weapon: 0,
-    ArmourClass: 65,
-    DamageResist: 6,
-    "Follow%": 20,
-    MagicRes: 80,
-    EXP: 10000,
-    HP: 625,
-    HPRegen: 250,
-    CharmLVL: 90,
-    Type: 0,
-    Undead: 0,
-    Align: 3,
-    Magical: 0,
-    Animal: 0,
-    Rlit: -35,
-    ResistWater: 100,
-    Rcol: -25,
-    Attacks: [
-      {
-        Name: "bites you",
-        Acc: 135,
-        "AttTrue%": "48.7",
-        Min: 27,
-        Max: 69,
-        Energy: 500,
-      },
-      {
-        Name: "impales you you with its barbed tail",
-        Acc: 140,
-        "AttTrue%": "51.3",
-        Min: 27,
-        Max: 96,
-        Energy: 500,
-        HitSpell: 5409,
-      },
-    ],
-  },
-  {
-    Number: 2622,
-    Name: "spineshell",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 10,
-    "Follow%": 20,
-    MagicRes: 75,
-    EXP: 9000,
-    HP: 520,
-    HPRegen: 100,
-    CharmLVL: 20,
-    Type: 1,
-    Undead: 0,
-    Align: 5,
-    Magical: 0,
-    ImmuPoison: 0,
-    Animal: 0,
-    Rlit: -35,
-    ShockShield: 3,
-    Rcol: -25,
-    Drops: [{ Number: 3633, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "chomps you",
-        Acc: 130,
-        "AttTrue%": "80.2",
-        Min: 11,
-        Max: 60,
-        Energy: 500,
-      },
-    ],
-    Spells: [
-      {
-        Name: "shell spin",
-        "AttTrue%": "19.8",
-        Number: 5513,
-        Success: 100,
-        Level: 30,
-        Energy: 1000,
-      },
-    ],
-  },
-  {
-    Number: 2623,
-    Name: "muckworm",
-    Weapon: 0,
-    ArmourClass: 45,
-    DamageResist: 0,
-    "Follow%": 80,
-    MagicRes: 70,
-    EXP: 9000,
-    HP: 580,
-    HPRegen: 28,
-    CharmLVL: 90,
-    Type: 0,
-    Undead: 0,
-    Align: 2,
-    Magical: 0,
-    ImmuPoison: 0,
-    Animal: 0,
-    Dodge: 35,
-    Rlit: -25,
-    Rcol: -25,
-    ResistStone: 100,
-    ResistWater: 100,
-    Attacks: [
-      {
-        Name: "chomps you",
-        Acc: 135,
-        "AttTrue%": "49.0",
-        Min: 11,
-        Max: 58,
-        Energy: 500,
-      },
-      {
-        Name: "sinks its teeth in, tearing a chunk from you",
-        Acc: 135,
-        "AttTrue%": "51.0",
-        Min: 11,
-        Max: 58,
-        Energy: 500,
-        HitSpell: 5409,
-      },
-    ],
-  },
-  {
-    Number: 2624,
-    Name: "drowned dead",
-    Weapon: 3634,
-    ArmourClass: 70,
-    DamageResist: 5,
-    "Follow%": 80,
-    MagicRes: 80,
-    EXP: 8750,
-    HP: 570,
-    HPRegen: 25,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 0,
-    NonLiving: 0,
-    Rlit: -25,
-    Dodge: 20,
-    Drops: [{ Number: 3634, Percent: 1 }],
-    Attacks: [
-      {
-        Name: "slashes you",
-        Acc: 135,
-        "AttTrue%": "67.3",
-        Min: 16,
-        Max: 58,
-        Energy: 333,
-      },
-      {
-        Name: "all-out chops you",
-        Acc: 135,
-        "AttTrue%": "21.1",
-        Min: 16,
-        Max: 58,
-        Energy: 333,
-      },
-      {
-        Name: "grabs you and drowns you",
-        Acc: 140,
-        "AttTrue%": "11.6",
-        Min: 34,
-        Max: 79,
-        Energy: 666,
-        HitSpell: 5498,
-      },
-    ],
-  },
-  {
-    Number: 2625,
-    Name: "drowned dead",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 5,
-    "Follow%": 80,
-    MagicRes: 80,
-    EXP: 8750,
-    HP: 570,
-    HPRegen: 25,
-    CharmLVL: 9999,
-    Type: 0,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 0,
-    NonLiving: 0,
-    Rlit: -25,
-    Dodge: 20,
-    Attacks: [
-      {
-        Name: "pounds you with its fist",
-        Acc: 135,
-        "AttTrue%": "64.9",
-        Min: 16,
-        Max: 58,
-        Energy: 500,
-      },
-      {
-        Name: "claws you",
-        Acc: 135,
-        "AttTrue%": "20.2",
-        Min: 16,
-        Max: 58,
-        Energy: 500,
-        HitSpell: 5120,
-      },
-      {
-        Name: "grabs you and drowns you",
-        Acc: 135,
-        "AttTrue%": "14.9",
-        Min: 34,
-        Max: 79,
-        Energy: 500,
-        HitSpell: 5481,
-      },
-    ],
-  },
-  {
-    Number: 2626,
-    Name: "risen spearman",
-    Weapon: 1293,
-    ArmourClass: 80,
-    DamageResist: 5,
-    "Follow%": 50,
-    MagicRes: 75,
-    EXP: 11500,
-    HP: 700,
-    HPRegen: 100,
-    CharmLVL: 90,
-    Type: 1,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 100,
-    NonLiving: 0,
-    Rfir: -15,
-    Rcol: 100,
-    ResistStone: -15,
-    Attacks: [
-      {
-        Name: "lunges forward and skewers you",
-        Acc: 135,
-        "AttTrue%": "75.2",
-        Min: 11,
-        Max: 41,
-        Energy: 250,
-      },
-      {
-        Name: "impales you mercilessly",
-        Acc: 145,
-        "AttTrue%": "20.6",
-        Min: 22,
-        Max: 108,
-        Energy: 250,
-      },
-      {
-        Name: "hurls a heavy spear at you",
-        Acc: 135,
-        "AttTrue%": "4.2",
-        Min: 29,
-        Max: 132,
-        Energy: 1000,
-        HitSpell: 5514,
-      },
-    ],
-  },
-  {
-    Number: 2627,
-    Name: "risen archer",
-    Weapon: 3030,
-    ArmourClass: 75,
-    DamageResist: 1,
-    "Follow%": 40,
-    MagicRes: 70,
-    EXP: 11500,
-    HP: 690,
-    HPRegen: 88,
-    CharmLVL: 999,
-    Type: 2,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 100,
-    NonLiving: 0,
-    Rfir: -15,
-    ResistStone: -15,
-    Rcol: 100,
-    Attacks: [
-      {
-        Name: "draws an arrow and shoots you",
-        Acc: 135,
-        "AttTrue%": "43.2",
-        Min: 19,
-        Max: 49,
-        Energy: 333,
-      },
-      {
-        Name: "looses an arrow you",
-        Acc: 140,
-        "AttTrue%": "42.4",
-        Min: 29,
-        Max: 144,
-        Energy: 666,
-      },
-      {
-        Name: "looses an arrow, striking your vitals",
-        Acc: 145,
-        "AttTrue%": "14.4",
-        Min: 43,
-        Max: 162,
-        Energy: 666,
-        HitSpell: 5409,
-      },
-    ],
-  },
-  {
-    Number: 2628,
-    Name: "ghastly retainer",
-    Weapon: 514,
-    ArmourClass: 75,
-    DamageResist: 1,
-    "Follow%": 70,
-    MagicRes: 60,
-    EXP: 10900,
-    HP: 640,
-    HPRegen: 110,
-    CharmLVL: 99,
-    Type: 0,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 100,
-    NonLiving: 0,
-    Rfir: -15,
-    ResistStone: -15,
-    Rcol: 100,
-    Attacks: [
-      {
-        Name: "hacks at your head",
-        Acc: 135,
-        "AttTrue%": "41.3",
-        Min: 11,
-        Max: 49,
-        Energy: 333,
-      },
-      {
-        Name: "all-out slashes you",
-        Acc: 140,
-        "AttTrue%": "42.9",
-        Min: 16,
-        Max: 80,
-        Energy: 333,
-      },
-      {
-        Name: "leaps into the air and kicks you",
-        Acc: 135,
-        "AttTrue%": "8.3",
-        Min: 27,
-        Max: 92,
-        Energy: 666,
-        HitSpell: 318,
-      },
-      {
-        Name: "leaps on you, visciously biting you",
-        Acc: 140,
-        "AttTrue%": "7.5",
-        Min: 28,
-        Max: 101,
-        Energy: 666,
-        HitSpell: 5515,
-      },
-    ],
-  },
-  {
-    Number: 2629,
-    Name: "skeletal servant",
-    Weapon: 0,
-    ArmourClass: 70,
-    DamageResist: 1,
-    "Follow%": 80,
-    MagicRes: 50,
-    EXP: 10000,
-    HP: 670,
-    HPRegen: 111,
-    CharmLVL: 99,
-    Type: 0,
-    Undead: 1,
-    Align: 2,
-    Magical: 4,
-    ImmuPoison: 100,
-    NonLiving: 0,
-    Rfir: -15,
-    ResistStone: -15,
-    Rcol: 100,
-    Attacks: [
-      {
-        Name: "punches you",
-        Acc: 130,
-        "AttTrue%": "52.6",
-        Min: 18,
-        Max: 39,
-        Energy: 333,
-      },
-      {
-        Name: "whaps you with a brass jug",
-        Acc: 135,
-        "AttTrue%": "26.6",
-        Min: 36,
-        Max: 108,
-        Energy: 666,
-      },
-      {
-        Name: "pelts you with dishes",
-        Acc: 140,
-        "AttTrue%": "20.8",
-        Min: 1,
-        Max: 70,
-        Energy: 333,
       },
     ],
   },
@@ -66176,7 +65875,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves meat off your bones",
         Acc: 135,
-        "AttTrue%": "44.0",
+        "AttTrue%": "41.6",
         Min: 16,
         Max: 56,
         Energy: 333,
@@ -66184,7 +65883,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tenderizes you with a cast iron pan",
         Acc: 135,
-        "AttTrue%": "16.0",
+        "AttTrue%": "16.2",
         Min: 36,
         Max: 108,
         Energy: 666,
@@ -66192,7 +65891,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you with a spit",
         Acc: 140,
-        "AttTrue%": "31.8",
+        "AttTrue%": "33.4",
         Min: 1,
         Max: 70,
         Energy: 333,
@@ -66201,7 +65900,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "broils",
-        "AttTrue%": "8.2",
+        "AttTrue%": "8.8",
         Number: 5517,
         Success: 100,
         Level: 40,
@@ -66235,7 +65934,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns you with its touch",
         Acc: 140,
-        "AttTrue%": "25.1",
+        "AttTrue%": "25.3",
         Min: 1,
         Max: 100,
         Energy: 500,
@@ -66253,7 +65952,7 @@ export const monsterData: Monster[] = [
       {
         Name: "inflicts great pain upon you",
         Acc: 135,
-        "AttTrue%": "24.4",
+        "AttTrue%": "23.8",
         Min: 1,
         Max: 100,
         Energy: 500,
@@ -66263,7 +65962,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "25.2",
+        "AttTrue%": "25.7",
         Number: 391,
         Success: 100,
         Level: 50,
@@ -66295,7 +65994,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with a claw",
         Acc: 135,
-        "AttTrue%": "25.1",
+        "AttTrue%": "23.0",
         Min: 24,
         Max: 71,
         Energy: 333,
@@ -66303,7 +66002,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 130,
-        "AttTrue%": "20.0",
+        "AttTrue%": "19.7",
         Min: 29,
         Max: 102,
         Energy: 666,
@@ -66311,7 +66010,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges forward, smashing into you",
         Acc: 145,
-        "AttTrue%": "19.7",
+        "AttTrue%": "19.9",
         Min: 16,
         Max: 82,
         Energy: 666,
@@ -66320,7 +66019,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears at your flesh",
         Acc: 135,
-        "AttTrue%": "15.2",
+        "AttTrue%": "16.7",
         Min: 44,
         Max: 129,
         Energy: 1000,
@@ -66330,7 +66029,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of dark energy",
-        "AttTrue%": "20.0",
+        "AttTrue%": "20.7",
         Number: 5546,
         Success: 100,
         Level: 30,
@@ -66362,7 +66061,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its sharp beak",
         Acc: 140,
-        "AttTrue%": "20.7",
+        "AttTrue%": "20.3",
         Min: 19,
         Max: 71,
         Energy: 666,
@@ -66371,7 +66070,7 @@ export const monsterData: Monster[] = [
       {
         Name: "dives at you, gutting you with its claws",
         Acc: 145,
-        "AttTrue%": "20.5",
+        "AttTrue%": "21.2",
         Min: 36,
         Max: 104,
         Energy: 666,
@@ -66380,7 +66079,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, tearing you open",
         Acc: 140,
-        "AttTrue%": "15.9",
+        "AttTrue%": "14.2",
         Min: 34,
         Max: 95,
         Energy: 1000,
@@ -66388,7 +66087,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 140,
-        "AttTrue%": "20.3",
+        "AttTrue%": "21.7",
         Min: 23,
         Max: 79,
         Energy: 333,
@@ -66398,7 +66097,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "terrifying shriek",
-        "AttTrue%": "22.6",
+        "AttTrue%": "22.7",
         Number: 5547,
         Success: 100,
         Level: 25,
@@ -66430,7 +66129,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes your head in",
         Acc: 145,
-        "AttTrue%": "35.1",
+        "AttTrue%": "35.6",
         Min: 41,
         Max: 111,
         Energy: 1000,
@@ -66438,7 +66137,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 150,
-        "AttTrue%": "34.7",
+        "AttTrue%": "35.0",
         Min: 70,
         Max: 161,
         Energy: 1000,
@@ -66446,7 +66145,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a huge stone, which clobbers you",
         Acc: 140,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.8",
         Min: 46,
         Max: 101,
         Energy: 1000,
@@ -66456,7 +66155,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plague belch",
-        "AttTrue%": "9.7",
+        "AttTrue%": "8.6",
         Number: 5549,
         Success: 100,
         Level: 1,
@@ -66490,7 +66189,7 @@ export const monsterData: Monster[] = [
       {
         Name: "oozes over you",
         Acc: 150,
-        "AttTrue%": "59.8",
+        "AttTrue%": "60.5",
         Min: 49,
         Max: 122,
         Energy: 1000,
@@ -66500,7 +66199,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plague explosion",
-        "AttTrue%": "40.2",
+        "AttTrue%": "39.5",
         Number: 5552,
         Success: 100,
         Level: 60,
@@ -66530,7 +66229,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally guts you with its claws",
         Acc: 135,
-        "AttTrue%": "55.6",
+        "AttTrue%": "55.3",
         Min: 19,
         Max: 66,
         Energy: 500,
@@ -66538,7 +66237,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 140,
-        "AttTrue%": "13.7",
+        "AttTrue%": "15.6",
         Min: 44,
         Max: 101,
         Energy: 1000,
@@ -66547,7 +66246,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and mauls you",
         Acc: 135,
-        "AttTrue%": "6.4",
+        "AttTrue%": "6.9",
         Min: 59,
         Max: 122,
         Energy: 1000,
@@ -66555,7 +66254,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites into you, tearing off a chunk",
         Acc: 140,
-        "AttTrue%": "24.3",
+        "AttTrue%": "22.2",
         Min: 26,
         Max: 77,
         Energy: 500,
@@ -66585,7 +66284,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally guts you",
         Acc: 145,
-        "AttTrue%": "27.0",
+        "AttTrue%": "26.3",
         Min: 11,
         Max: 66,
         Energy: 250,
@@ -66594,7 +66293,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 140,
-        "AttTrue%": "17.5",
+        "AttTrue%": "19.4",
         Min: 29,
         Max: 113,
         Energy: 750,
@@ -66613,7 +66312,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "flesh-eating gas",
-        "AttTrue%": "14.2",
+        "AttTrue%": "14.4",
         Number: 5555,
         Success: 100,
         Level: 25,
@@ -66621,7 +66320,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic beam",
-        "AttTrue%": "23.0",
+        "AttTrue%": "21.4",
         Number: 391,
         Success: 100,
         Level: 55,
@@ -66687,7 +66386,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bludgeons you",
         Acc: 135,
-        "AttTrue%": "90.7",
+        "AttTrue%": "90.6",
         Min: 11,
         Max: 68,
         Energy: 500,
@@ -66695,7 +66394,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you",
         Acc: 135,
-        "AttTrue%": "9.3",
+        "AttTrue%": "9.4",
         Min: 19,
         Max: 80,
         Energy: 1000,
@@ -66729,7 +66428,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses a tiny arrow at you",
         Acc: 140,
-        "AttTrue%": "61.7",
+        "AttTrue%": "62.6",
         Min: 13,
         Max: 56,
         Energy: 333,
@@ -66738,7 +66437,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses an arrow, striking your vitals",
         Acc: 140,
-        "AttTrue%": "7.7",
+        "AttTrue%": "7.9",
         Min: 27,
         Max: 79,
         Energy: 666,
@@ -66747,7 +66446,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 145,
-        "AttTrue%": "17.8",
+        "AttTrue%": "16.3",
         Min: 13,
         Max: 59,
         Energy: 333,
@@ -66757,7 +66456,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "7.8",
+        "AttTrue%": "8.4",
         Number: 391,
         Success: 100,
         Level: 50,
@@ -66765,7 +66464,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "plasma bolt",
-        "AttTrue%": "5.1",
+        "AttTrue%": "4.8",
         Number: 5012,
         Success: 100,
         Level: 20,
@@ -66798,7 +66497,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slaps you with a wet limb",
         Acc: 150,
-        "AttTrue%": "33.1",
+        "AttTrue%": "33.2",
         Min: 11,
         Max: 32,
         Energy: 333,
@@ -66807,7 +66506,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "16.5",
+        "AttTrue%": "17.4",
         Number: 5454,
         Success: 100,
         Level: 40,
@@ -66815,7 +66514,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "air jet",
-        "AttTrue%": "16.9",
+        "AttTrue%": "17.0",
         Number: 5599,
         Success: 100,
         Level: 30,
@@ -66823,7 +66522,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "acid jet",
-        "AttTrue%": "33.5",
+        "AttTrue%": "32.4",
         Number: 95,
         Success: 100,
         Level: 30,
@@ -66884,7 +66583,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pummels you with a rotting fist",
         Acc: 145,
-        "AttTrue%": "62.1",
+        "AttTrue%": "62.7",
         Min: 29,
         Max: 74,
         Energy: 250,
@@ -66902,7 +66601,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "plague belch",
-        "AttTrue%": "12.1",
+        "AttTrue%": "11.5",
         Number: 5549,
         Success: 100,
         Level: 35,
@@ -66938,7 +66637,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns you with its touch",
         Acc: 145,
-        "AttTrue%": "24.2",
+        "AttTrue%": "23.6",
         Min: 1,
         Max: 120,
         Energy: 500,
@@ -66947,7 +66646,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 140,
-        "AttTrue%": "25.8",
+        "AttTrue%": "25.9",
         Min: 1,
         Max: 90,
         Energy: 500,
@@ -66956,7 +66655,7 @@ export const monsterData: Monster[] = [
       {
         Name: "inflicts great pain upon you",
         Acc: 150,
-        "AttTrue%": "24.9",
+        "AttTrue%": "24.8",
         Min: 1,
         Max: 130,
         Energy: 500,
@@ -66966,7 +66665,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "25.1",
+        "AttTrue%": "25.8",
         Number: 391,
         Success: 100,
         Level: 70,
@@ -66999,7 +66698,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a skeletal fist",
         Acc: 140,
-        "AttTrue%": "50.5",
+        "AttTrue%": "49.7",
         Min: 16,
         Max: 70,
         Energy: 200,
@@ -67007,7 +66706,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 145,
-        "AttTrue%": "21.3",
+        "AttTrue%": "21.7",
         Min: 44,
         Max: 126,
         Energy: 400,
@@ -67015,7 +66714,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 145,
-        "AttTrue%": "18.8",
+        "AttTrue%": "19.9",
         Min: 68,
         Max: 210,
         Energy: 600,
@@ -67024,7 +66723,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with its incredible bulk",
         Acc: 150,
-        "AttTrue%": "9.4",
+        "AttTrue%": "8.7",
         Min: 88,
         Max: 244,
         Energy: 1000,
@@ -67063,7 +66762,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 145,
-        "AttTrue%": "79.1",
+        "AttTrue%": "80.1",
         Min: 26,
         Max: 67,
         Energy: 250,
@@ -67071,7 +66770,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 145,
-        "AttTrue%": "20.9",
+        "AttTrue%": "19.9",
         Min: 52,
         Max: 188,
         Energy: 250,
@@ -67104,7 +66803,7 @@ export const monsterData: Monster[] = [
       {
         Name: "oozes over you",
         Acc: 140,
-        "AttTrue%": "61.3",
+        "AttTrue%": "62.1",
         Min: 30,
         Max: 126,
         Energy: 1000,
@@ -67113,7 +66812,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slaps you with a bloody appendage",
         Acc: 145,
-        "AttTrue%": "22.2",
+        "AttTrue%": "20.3",
         Min: 15,
         Max: 63,
         Energy: 500,
@@ -67123,7 +66822,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "ejects a stream of viscera",
-        "AttTrue%": "16.5",
+        "AttTrue%": "17.6",
         Number: 5609,
         Success: 100,
         Level: 50,
@@ -67156,7 +66855,7 @@ export const monsterData: Monster[] = [
       {
         Name: "winds up and pulverizes you",
         Acc: 145,
-        "AttTrue%": "26.5",
+        "AttTrue%": "29.6",
         Min: 26,
         Max: 84,
         Energy: 500,
@@ -67164,7 +66863,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and slams you on the ground",
         Acc: 145,
-        "AttTrue%": "28.6",
+        "AttTrue%": "27.8",
         Min: 45,
         Max: 117,
         Energy: 500,
@@ -67172,7 +66871,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you under foot",
         Acc: 150,
-        "AttTrue%": "44.8",
+        "AttTrue%": "42.5",
         Min: 81,
         Max: 219,
         Energy: 1000,
@@ -67203,7 +66902,7 @@ export const monsterData: Monster[] = [
       {
         Name: "unleashes a flurry of kicks at you",
         Acc: 130,
-        "AttTrue%": "88.6",
+        "AttTrue%": "88.7",
         Min: 11,
         Max: 46,
         Energy: 333,
@@ -67211,7 +66910,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 135,
-        "AttTrue%": "11.4",
+        "AttTrue%": "11.3",
         Min: 16,
         Max: 55,
         Energy: 666,
@@ -67275,7 +66974,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a skeletal fist",
         Acc: 140,
-        "AttTrue%": "51.5",
+        "AttTrue%": "51.1",
         Min: 8,
         Max: 56,
         Energy: 200,
@@ -67284,7 +66983,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 145,
-        "AttTrue%": "20.3",
+        "AttTrue%": "21.3",
         Min: 44,
         Max: 126,
         Energy: 400,
@@ -67293,7 +66992,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and smashes you down",
         Acc: 145,
-        "AttTrue%": "19.4",
+        "AttTrue%": "18.8",
         Min: 68,
         Max: 210,
         Energy: 600,
@@ -67302,7 +67001,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with its incredible bulk",
         Acc: 150,
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.8",
         Min: 88,
         Max: 244,
         Energy: 1000,
@@ -67380,7 +67079,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites your ankle",
         Acc: 130,
-        "AttTrue%": "69.7",
+        "AttTrue%": "70.2",
         Min: 1,
         Max: 29,
         Energy: 250,
@@ -67389,7 +67088,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites your ankle",
         Acc: 135,
-        "AttTrue%": "30.3",
+        "AttTrue%": "29.8",
         Min: 1,
         Max: 25,
         Energy: 250,
@@ -67421,7 +67120,7 @@ export const monsterData: Monster[] = [
       {
         Name: "unleashes a flurry of kicks at you",
         Acc: 130,
-        "AttTrue%": "88.0",
+        "AttTrue%": "88.1",
         Min: 11,
         Max: 46,
         Energy: 333,
@@ -67429,7 +67128,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 135,
-        "AttTrue%": "12.0",
+        "AttTrue%": "11.9",
         Min: 16,
         Max: 55,
         Energy: 666,
@@ -67460,7 +67159,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 150,
-        "AttTrue%": "79.3",
+        "AttTrue%": "79.9",
         Min: 37,
         Max: 82,
         Energy: 250,
@@ -67468,7 +67167,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 150,
-        "AttTrue%": "20.7",
+        "AttTrue%": "20.1",
         Min: 72,
         Max: 213,
         Energy: 250,
@@ -67501,7 +67200,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices and dices you",
         Acc: 140,
-        "AttTrue%": "45.1",
+        "AttTrue%": "43.1",
         Min: 13,
         Max: 36,
         Energy: 200,
@@ -67510,7 +67209,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts in, carving into you",
         Acc: 145,
-        "AttTrue%": "43.6",
+        "AttTrue%": "45.6",
         Min: 39,
         Max: 127,
         Energy: 200,
@@ -67520,7 +67219,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "dragonfire",
-        "AttTrue%": "11.3",
+        "AttTrue%": "11.4",
         Number: 5023,
         Success: 100,
         Level: 40,
@@ -67549,7 +67248,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 140,
-        "AttTrue%": "45.6",
+        "AttTrue%": "46.2",
         Min: 2,
         Max: 25,
         Energy: 250,
@@ -67559,7 +67258,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tainted word",
-        "AttTrue%": "42.7",
+        "AttTrue%": "43.5",
         Number: 5032,
         Success: 100,
         Level: 60,
@@ -67567,7 +67266,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spear of dark energy",
-        "AttTrue%": "11.6",
+        "AttTrue%": "10.3",
         Number: 5103,
         Success: 100,
         Level: 60,
@@ -67604,7 +67303,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you",
         Acc: 145,
-        "AttTrue%": "48.9",
+        "AttTrue%": "48.8",
         Min: 7,
         Max: 19,
         Energy: 200,
@@ -67612,7 +67311,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 150,
-        "AttTrue%": "51.1",
+        "AttTrue%": "51.2",
         Min: 19,
         Max: 66,
         Energy: 200,
@@ -67643,7 +67342,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 175,
-        "AttTrue%": "70.3",
+        "AttTrue%": "69.6",
         Min: 39,
         Max: 86,
         Energy: 333,
@@ -67652,7 +67351,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 180,
-        "AttTrue%": "29.7",
+        "AttTrue%": "30.4",
         Min: 78,
         Max: 244,
         Energy: 333,
@@ -67684,7 +67383,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a frozen fist",
         Acc: 170,
-        "AttTrue%": "90.5",
+        "AttTrue%": "89.4",
         Min: 71,
         Max: 180,
         Energy: 1000,
@@ -67693,7 +67392,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a frozen fist",
         Acc: 175,
-        "AttTrue%": "9.5",
+        "AttTrue%": "10.6",
         Min: 71,
         Max: 194,
         Energy: 1000,
@@ -67733,7 +67432,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 200,
-        "AttTrue%": "28.7",
+        "AttTrue%": "27.1",
         Min: 77,
         Max: 189,
         Energy: 250,
@@ -67742,7 +67441,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches a slab of ice, which crushes you",
         Acc: 250,
-        "AttTrue%": "18.9",
+        "AttTrue%": "18.3",
         Min: 190,
         Max: 618,
         Energy: 750,
@@ -67751,7 +67450,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 200,
-        "AttTrue%": "26.8",
+        "AttTrue%": "29.5",
         Min: 144,
         Max: 356,
         Energy: 250,
@@ -67761,7 +67460,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon ice elemental",
-        "AttTrue%": "12.5",
+        "AttTrue%": "13.4",
         Number: 5007,
         Success: 100,
         Level: 75,
@@ -67769,7 +67468,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frozen spike",
-        "AttTrue%": "13.0",
+        "AttTrue%": "11.7",
         Number: 1003,
         Success: 100,
         Level: 200,
@@ -67840,7 +67539,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves through you with its claws",
         Acc: 165,
-        "AttTrue%": "54.3",
+        "AttTrue%": "53.6",
         Min: 56,
         Max: 107,
         Energy: 500,
@@ -67848,7 +67547,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with both claws",
         Acc: 165,
-        "AttTrue%": "37.9",
+        "AttTrue%": "40.0",
         Min: 112,
         Max: 239,
         Energy: 1000,
@@ -67858,7 +67557,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "gazes",
-        "AttTrue%": "7.8",
+        "AttTrue%": "6.4",
         Number: 328,
         Success: 100,
         Level: 11,
@@ -67887,7 +67586,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a barbed tentacle",
         Acc: 160,
-        "AttTrue%": "28.8",
+        "AttTrue%": "27.9",
         Min: 14,
         Max: 119,
         Energy: 500,
@@ -67895,7 +67594,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 155,
-        "AttTrue%": "28.1",
+        "AttTrue%": "28.0",
         Min: 54,
         Max: 162,
         Energy: 500,
@@ -67904,7 +67603,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spears you with a tentacle",
         Acc: 155,
-        "AttTrue%": "29.5",
+        "AttTrue%": "30.2",
         Min: 14,
         Max: 119,
         Energy: 500,
@@ -67913,7 +67612,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "grabs and smashes",
-        "AttTrue%": "13.7",
+        "AttTrue%": "13.9",
         Number: 767,
         Success: 100,
         Level: 30,
@@ -67944,7 +67643,7 @@ export const monsterData: Monster[] = [
       {
         Name: "oozes over you",
         Acc: 155,
-        "AttTrue%": "48.7",
+        "AttTrue%": "48.9",
         Min: 1,
         Max: 300,
         Energy: 1000,
@@ -67952,7 +67651,7 @@ export const monsterData: Monster[] = [
       {
         Name: "envelops and squeezes you",
         Acc: 165,
-        "AttTrue%": "51.3",
+        "AttTrue%": "51.1",
         Min: 1,
         Max: 240,
         Energy: 1000,
@@ -67985,7 +67684,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you",
         Acc: 160,
-        "AttTrue%": "41.9",
+        "AttTrue%": "43.1",
         Min: 25,
         Max: 78,
         Energy: 250,
@@ -67994,7 +67693,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips into you",
         Acc: 170,
-        "AttTrue%": "42.6",
+        "AttTrue%": "42.7",
         Min: 71,
         Max: 210,
         Energy: 250,
@@ -68004,7 +67703,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "life energy",
-        "AttTrue%": "15.5",
+        "AttTrue%": "14.3",
         Number: 5628,
         Success: 100,
         Level: 10,
@@ -68068,7 +67767,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "eye beam",
-        "AttTrue%": "16.8",
+        "AttTrue%": "16.6",
         Number: 231,
         Success: 100,
         Level: 70,
@@ -68079,7 +67778,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 175,
-        "AttTrue%": "42.4",
+        "AttTrue%": "42.0",
         Min: 56,
         Max: 240,
         Energy: 1000,
@@ -68087,7 +67786,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams you with its fist",
         Acc: 180,
-        "AttTrue%": "21.9",
+        "AttTrue%": "22.6",
         Min: 36,
         Max: 110,
         Energy: 500,
@@ -68095,7 +67794,7 @@ export const monsterData: Monster[] = [
       {
         Name: "picks you up and slams you on the ground",
         Acc: 170,
-        "AttTrue%": "18.2",
+        "AttTrue%": "17.9",
         Min: 77,
         Max: 280,
         Energy: 1000,
@@ -68103,7 +67802,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 170,
-        "AttTrue%": "0.8",
+        "AttTrue%": "0.9",
         Min: 120,
         Max: 500,
         Energy: 1000,
@@ -68133,7 +67832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its sharp beak",
         Acc: 165,
-        "AttTrue%": "20.1",
+        "AttTrue%": "20.5",
         Min: 34,
         Max: 122,
         Energy: 666,
@@ -68141,7 +67840,7 @@ export const monsterData: Monster[] = [
       {
         Name: "dives at you, slashing you with its claws",
         Acc: 170,
-        "AttTrue%": "19.3",
+        "AttTrue%": "19.9",
         Min: 37,
         Max: 164,
         Energy: 666,
@@ -68149,7 +67848,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounces on you, tearing you open",
         Acc: 165,
-        "AttTrue%": "15.7",
+        "AttTrue%": "14.9",
         Min: 44,
         Max: 117,
         Energy: 1000,
@@ -68158,7 +67857,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 170,
-        "AttTrue%": "39.1",
+        "AttTrue%": "38.8",
         Min: 38,
         Max: 102,
         Energy: 333,
@@ -68167,7 +67866,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "shriek",
-        "AttTrue%": "5.7",
+        "AttTrue%": "6.0",
         Number: 191,
         Success: 100,
         Level: 25,
@@ -68198,7 +67897,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 175,
-        "AttTrue%": "38.0",
+        "AttTrue%": "37.0",
         Min: 36,
         Max: 89,
         Energy: 250,
@@ -68206,7 +67905,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls and whips you with its tail",
         Acc: 170,
-        "AttTrue%": "19.1",
+        "AttTrue%": "18.6",
         Min: 49,
         Max: 144,
         Energy: 750,
@@ -68214,7 +67913,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its fangs",
         Acc: 180,
-        "AttTrue%": "29.0",
+        "AttTrue%": "28.6",
         Min: 29,
         Max: 156,
         Energy: 750,
@@ -68223,7 +67922,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of dark flame",
-        "AttTrue%": "13.9",
+        "AttTrue%": "15.8",
         Number: 5159,
         Success: 100,
         Level: 25,
@@ -68254,7 +67953,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward, slashing you",
         Acc: 160,
-        "AttTrue%": "58.2",
+        "AttTrue%": "59.2",
         Min: 24,
         Max: 88,
         Energy: 250,
@@ -68262,7 +67961,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 160,
-        "AttTrue%": "23.9",
+        "AttTrue%": "22.9",
         Min: 48,
         Max: 144,
         Energy: 500,
@@ -68271,7 +67970,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "sphere of implosion",
-        "AttTrue%": "4.0",
+        "AttTrue%": "4.4",
         Number: 5018,
         Success: 100,
         Level: 20,
@@ -68279,7 +67978,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch bolt",
-        "AttTrue%": "13.9",
+        "AttTrue%": "13.5",
         Number: 5026,
         Success: 100,
         Level: 27,
@@ -68310,7 +68009,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward, slashing you",
         Acc: 160,
-        "AttTrue%": "32.3",
+        "AttTrue%": "32.7",
         Min: 12,
         Max: 44,
         Energy: 250,
@@ -68327,7 +68026,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "23.4",
+        "AttTrue%": "23.5",
         Number: 5018,
         Success: 100,
         Level: 30,
@@ -68335,7 +68034,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch bolt",
-        "AttTrue%": "22.8",
+        "AttTrue%": "23.0",
         Number: 5026,
         Success: 100,
         Level: 27,
@@ -68343,7 +68042,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sunbolt",
-        "AttTrue%": "17.3",
+        "AttTrue%": "16.6",
         Number: 5028,
         Success: 100,
         Level: 40,
@@ -68374,7 +68073,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward, slashing you",
         Acc: 175,
-        "AttTrue%": "53.7",
+        "AttTrue%": "53.1",
         Min: 29,
         Max: 101,
         Energy: 250,
@@ -68382,7 +68081,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 180,
-        "AttTrue%": "31.9",
+        "AttTrue%": "33.3",
         Min: 56,
         Max: 171,
         Energy: 500,
@@ -68390,7 +68089,7 @@ export const monsterData: Monster[] = [
       {
         Name: "impales you with its stinger",
         Acc: 175,
-        "AttTrue%": "14.4",
+        "AttTrue%": "13.6",
         Min: 41,
         Max: 132,
         Energy: 500,
@@ -68424,7 +68123,7 @@ export const monsterData: Monster[] = [
       {
         Name: "emerges and smashes you with its fist",
         Acc: 155,
-        "AttTrue%": "34.4",
+        "AttTrue%": "33.7",
         Min: 24,
         Max: 106,
         Energy: 500,
@@ -68441,7 +68140,7 @@ export const monsterData: Monster[] = [
       {
         Name: "surges over you, drowning you",
         Acc: 160,
-        "AttTrue%": "21.2",
+        "AttTrue%": "22.5",
         Min: 27,
         Max: 133,
         Energy: 500,
@@ -68451,7 +68150,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "22.2",
+        "AttTrue%": "21.6",
         Number: 5454,
         Success: 100,
         Level: 50,
@@ -68482,7 +68181,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a barbed tentacle",
         Acc: 160,
-        "AttTrue%": "56.0",
+        "AttTrue%": "57.3",
         Min: 19,
         Max: 70,
         Energy: 333,
@@ -68490,7 +68189,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you savagely",
         Acc: 160,
-        "AttTrue%": "23.9",
+        "AttTrue%": "22.6",
         Min: 38,
         Max: 121,
         Energy: 666,
@@ -68499,7 +68198,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sinks its teeth deep into you",
         Acc: 160,
-        "AttTrue%": "6.4",
+        "AttTrue%": "6.7",
         Min: 58,
         Max: 210,
         Energy: 1000,
@@ -68509,7 +68208,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "13.7",
+        "AttTrue%": "13.4",
         Number: 5454,
         Success: 100,
         Level: 40,
@@ -68540,7 +68239,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you",
         Acc: 160,
-        "AttTrue%": "90.0",
+        "AttTrue%": "90.1",
         Min: 20,
         Max: 76,
         Energy: 333,
@@ -68548,7 +68247,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out skewers you",
         Acc: 165,
-        "AttTrue%": "10.0",
+        "AttTrue%": "9.9",
         Min: 40,
         Max: 111,
         Energy: 333,
@@ -68581,7 +68280,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pinches you",
         Acc: 165,
-        "AttTrue%": "70.0",
+        "AttTrue%": "70.7",
         Min: 20,
         Max: 55,
         Energy: 250,
@@ -68589,7 +68288,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you in the head",
         Acc: 165,
-        "AttTrue%": "30.0",
+        "AttTrue%": "29.3",
         Min: 23,
         Max: 76,
         Energy: 250,
@@ -68616,7 +68315,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you with its toothy maw",
         Acc: 0,
-        "AttTrue%": "2.7",
+        "AttTrue%": "4.0",
         Min: 0,
         Max: 0,
         Energy: 1000,
@@ -68624,7 +68323,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with its talons",
         Acc: 0,
-        "AttTrue%": "95.7",
+        "AttTrue%": "94.5",
         Min: 3,
         Max: 12,
         Energy: 500,
@@ -68668,7 +68367,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "arcane assault",
-        "AttTrue%": "44.3",
+        "AttTrue%": "44.6",
         Number: 5083,
         Success: 100,
         Level: 80,
@@ -68676,7 +68375,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "summon arcane elemental",
-        "AttTrue%": "12.2",
+        "AttTrue%": "11.6",
         Number: 5641,
         Success: 100,
         Level: 80,
@@ -68684,7 +68383,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic bolt",
-        "AttTrue%": "14.0",
+        "AttTrue%": "13.3",
         Number: 1008,
         Success: 100,
         Level: 80,
@@ -68692,7 +68391,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch storm",
-        "AttTrue%": "13.4",
+        "AttTrue%": "13.7",
         Number: 1215,
         Success: 100,
         Level: 90,
@@ -68700,7 +68399,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "16.1",
+        "AttTrue%": "16.9",
         Number: 5018,
         Success: 100,
         Level: 80,
@@ -68752,7 +68451,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 130,
-        "AttTrue%": "22.5",
+        "AttTrue%": "24.6",
         Min: 12,
         Max: 39,
         Energy: 200,
@@ -68760,7 +68459,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you",
         Acc: 135,
-        "AttTrue%": "22.8",
+        "AttTrue%": "23.8",
         Min: 12,
         Max: 39,
         Energy: 200,
@@ -68769,7 +68468,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 140,
-        "AttTrue%": "24.8",
+        "AttTrue%": "23.7",
         Min: 48,
         Max: 133,
         Energy: 200,
@@ -68779,7 +68478,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon water elemental",
-        "AttTrue%": "24.2",
+        "AttTrue%": "22.5",
         Number: 5643,
         Success: 100,
         Level: 70,
@@ -68787,7 +68486,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "hail of stones",
-        "AttTrue%": "5.7",
+        "AttTrue%": "5.3",
         Number: 5080,
         Success: 100,
         Level: 50,
@@ -68819,7 +68518,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rakes you with a claw",
         Acc: 140,
-        "AttTrue%": "24.4",
+        "AttTrue%": "26.0",
         Min: 26,
         Max: 84,
         Energy: 500,
@@ -68827,7 +68526,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 130,
-        "AttTrue%": "24.0",
+        "AttTrue%": "25.2",
         Min: 11,
         Max: 90,
         Energy: 500,
@@ -68835,7 +68534,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips out a chunk of your flesh",
         Acc: 135,
-        "AttTrue%": "30.3",
+        "AttTrue%": "28.6",
         Min: 46,
         Max: 122,
         Energy: 1000,
@@ -68844,7 +68543,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a greenish cloud",
-        "AttTrue%": "2.9",
+        "AttTrue%": "2.7",
         Number: 322,
         Success: 100,
         Level: 50,
@@ -68852,7 +68551,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "cone of fire",
-        "AttTrue%": "18.3",
+        "AttTrue%": "17.5",
         Number: 1029,
         Success: 100,
         Level: 35,
@@ -68881,7 +68580,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 140,
-        "AttTrue%": "34.5",
+        "AttTrue%": "34.2",
         Min: 11,
         Max: 52,
         Energy: 333,
@@ -68889,7 +68588,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its talons",
         Acc: 140,
-        "AttTrue%": "32.3",
+        "AttTrue%": "31.5",
         Min: 18,
         Max: 107,
         Energy: 666,
@@ -68897,7 +68596,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 145,
-        "AttTrue%": "33.2",
+        "AttTrue%": "34.4",
         Min: 24,
         Max: 101,
         Energy: 666,
@@ -68934,7 +68633,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gleefully pounds you",
         Acc: 130,
-        "AttTrue%": "28.9",
+        "AttTrue%": "27.6",
         Min: 16,
         Max: 57,
         Energy: 250,
@@ -68942,7 +68641,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 135,
-        "AttTrue%": "19.3",
+        "AttTrue%": "18.9",
         Min: 34,
         Max: 98,
         Energy: 750,
@@ -68951,7 +68650,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 135,
-        "AttTrue%": "20.0",
+        "AttTrue%": "21.6",
         Min: 34,
         Max: 98,
         Energy: 750,
@@ -68961,7 +68660,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthquake",
-        "AttTrue%": "16.3",
+        "AttTrue%": "15.7",
         Number: 1369,
         Success: 100,
         Level: 20,
@@ -68969,7 +68668,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "stone shards",
-        "AttTrue%": "15.5",
+        "AttTrue%": "16.3",
         Number: 5646,
         Success: 100,
         Level: 80,
@@ -69046,7 +68745,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you",
         Acc: 130,
-        "AttTrue%": "88.8",
+        "AttTrue%": "88.5",
         Min: 11,
         Max: 42,
         Energy: 250,
@@ -69056,7 +68755,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "whirlwind",
-        "AttTrue%": "11.2",
+        "AttTrue%": "11.5",
         Number: 5647,
         Success: 100,
         Level: 40,
@@ -69087,7 +68786,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and skewers you",
         Acc: 140,
-        "AttTrue%": "44.2",
+        "AttTrue%": "42.2",
         Min: 18,
         Max: 41,
         Energy: 333,
@@ -69095,7 +68794,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with its talons",
         Acc: 140,
-        "AttTrue%": "37.0",
+        "AttTrue%": "37.8",
         Min: 22,
         Max: 80,
         Energy: 666,
@@ -69104,7 +68803,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 145,
-        "AttTrue%": "18.8",
+        "AttTrue%": "20.0",
         Min: 26,
         Max: 90,
         Energy: 666,
@@ -69133,7 +68832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and bites you",
         Acc: 95,
-        "AttTrue%": "49.3",
+        "AttTrue%": "47.3",
         Min: 5,
         Max: 16,
         Energy: 400,
@@ -69142,7 +68841,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and rips you",
         Acc: 105,
-        "AttTrue%": "50.7",
+        "AttTrue%": "52.7",
         Min: 5,
         Max: 18,
         Energy: 300,
@@ -69179,7 +68878,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gleefully pounds you",
         Acc: 145,
-        "AttTrue%": "28.4",
+        "AttTrue%": "28.9",
         Min: 16,
         Max: 57,
         Energy: 250,
@@ -69187,7 +68886,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 150,
-        "AttTrue%": "19.3",
+        "AttTrue%": "20.0",
         Min: 34,
         Max: 98,
         Energy: 750,
@@ -69196,7 +68895,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 150,
-        "AttTrue%": "20.8",
+        "AttTrue%": "20.1",
         Min: 34,
         Max: 98,
         Energy: 750,
@@ -69206,7 +68905,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthquake",
-        "AttTrue%": "15.9",
+        "AttTrue%": "14.6",
         Number: 1369,
         Success: 100,
         Level: 35,
@@ -69214,7 +68913,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "stone shards",
-        "AttTrue%": "15.5",
+        "AttTrue%": "16.5",
         Number: 5646,
         Success: 100,
         Level: 90,
@@ -69317,7 +69016,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 135,
-        "AttTrue%": "80.5",
+        "AttTrue%": "79.6",
         Min: 16,
         Max: 49,
         Energy: 250,
@@ -69325,7 +69024,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 140,
-        "AttTrue%": "19.5",
+        "AttTrue%": "20.4",
         Min: 48,
         Max: 147,
         Energy: 250,
@@ -69398,7 +69097,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes into your flesh",
         Acc: 135,
-        "AttTrue%": "69.2",
+        "AttTrue%": "68.5",
         Min: 10,
         Max: 47,
         Energy: 333,
@@ -69406,7 +69105,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you, tearing into your flesh",
         Acc: 145,
-        "AttTrue%": "30.8",
+        "AttTrue%": "31.5",
         Min: 26,
         Max: 94,
         Energy: 666,
@@ -69435,7 +69134,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with a barbed tentacle",
         Acc: 140,
-        "AttTrue%": "27.2",
+        "AttTrue%": "29.2",
         Min: 8,
         Max: 71,
         Energy: 500,
@@ -69443,7 +69142,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 145,
-        "AttTrue%": "28.9",
+        "AttTrue%": "29.1",
         Min: 19,
         Max: 82,
         Energy: 500,
@@ -69452,7 +69151,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spears you with a tentacle",
         Acc: 145,
-        "AttTrue%": "28.8",
+        "AttTrue%": "27.9",
         Min: 7,
         Max: 66,
         Energy: 500,
@@ -69461,7 +69160,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "grabs and smashes",
-        "AttTrue%": "15.0",
+        "AttTrue%": "13.9",
         Number: 767,
         Success: 100,
         Level: 20,
@@ -69545,7 +69244,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spear of dark energy",
-        "AttTrue%": "27.8",
+        "AttTrue%": "29.1",
         Number: 5103,
         Success: 100,
         Level: 50,
@@ -69553,7 +69252,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "shadowstrike",
-        "AttTrue%": "29.3",
+        "AttTrue%": "28.3",
         Number: 441,
         Success: 100,
         Level: 50,
@@ -69561,7 +69260,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "dark tendrils",
-        "AttTrue%": "14.1",
+        "AttTrue%": "13.7",
         Number: 5650,
         Success: 100,
         Level: 40,
@@ -69592,7 +69291,7 @@ export const monsterData: Monster[] = [
       {
         Name: "chomps you",
         Acc: 175,
-        "AttTrue%": "52.8",
+        "AttTrue%": "47.4",
         Min: 90,
         Max: 240,
         Energy: 1000,
@@ -69600,7 +69299,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with its gigantic bulk",
         Acc: 165,
-        "AttTrue%": "28.9",
+        "AttTrue%": "31.9",
         Min: 111,
         Max: 288,
         Energy: 1000,
@@ -69609,7 +69308,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "tail quake",
-        "AttTrue%": "18.3",
+        "AttTrue%": "20.7",
         Number: 1203,
         Success: 100,
         Level: 55,
@@ -69638,7 +69337,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 135,
-        "AttTrue%": "80.7",
+        "AttTrue%": "80.6",
         Min: 16,
         Max: 49,
         Energy: 250,
@@ -69646,10 +69345,299 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 140,
-        "AttTrue%": "19.3",
+        "AttTrue%": "19.4",
         Min: 48,
         Max: 147,
         Energy: 250,
+      },
+    ],
+  },
+  {
+    Number: 2701,
+    Name: "Forgrim",
+    Weapon: 0,
+    ArmourClass: 100,
+    DamageResist: 20,
+    "Follow%": 0,
+    MagicRes: 250,
+    EXP: 1,
+    HP: 9999,
+    HPRegen: 9999,
+    CharmLVL: 9999,
+    Type: 3,
+    Undead: 0,
+    Align: 4,
+    Magical: 999,
+    SpellImmune: 999,
+  },
+  {
+    Number: 2702,
+    Name: "fey dragonling",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 0,
+    "Follow%": 70,
+    MagicRes: 80,
+    EXP: 11250,
+    HP: 600,
+    HPRegen: 125,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    ImmuPoison: 100,
+    SpellImmune: 20,
+    Dodge: 20,
+    SeeHidden: 1,
+    Drops: [{ Number: 3752, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "rips out a chunk of your flesh",
+        Acc: 135,
+        "AttTrue%": "38.1",
+        Min: 10,
+        Max: 44,
+        Energy: 333,
+      },
+      {
+        Name: "rips you with its talons",
+        Acc: 135,
+        "AttTrue%": "39.2",
+        Min: 9,
+        Max: 41,
+        Energy: 333,
+      },
+    ],
+    Spells: [
+      {
+        Name: "creature illusion",
+        "AttTrue%": "1.7",
+        Number: 380,
+        Success: 100,
+        Level: 55,
+        Energy: 1000,
+      },
+      {
+        Name: "eldritch bolt",
+        "AttTrue%": "10.8",
+        Number: 5026,
+        Success: 100,
+        Level: 20,
+        Energy: 666,
+      },
+      {
+        Name: "rainbow beam",
+        "AttTrue%": "10.3",
+        Number: 399,
+        Success: 100,
+        Level: 55,
+        Energy: 666,
+      },
+    ],
+  },
+  {
+    Number: 2703,
+    Name: "goldcap",
+    Weapon: 460,
+    ArmourClass: 70,
+    DamageResist: 0,
+    "Follow%": 80,
+    MagicRes: 80,
+    EXP: 12400,
+    HP: 680,
+    HPRegen: 110,
+    CharmLVL: 99,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    Dodge: 10,
+    SpellImmune: 18,
+    Drops: [{ Number: 3776, Percent: 1 }],
+    Attacks: [
+      {
+        Name: "hacks at your vitals",
+        Acc: 135,
+        "AttTrue%": "26.9",
+        Min: 9,
+        Max: 44,
+        Energy: 250,
+      },
+      {
+        Name: "whirls a sling, firing a projectile at you",
+        Acc: 130,
+        "AttTrue%": "17.9",
+        Min: 27,
+        Max: 82,
+        Energy: 750,
+        HitSpell: 5652,
+      },
+      {
+        Name: "whirls a sling, firing a projectile at you",
+        Acc: 135,
+        "AttTrue%": "18.9",
+        Min: 34,
+        Max: 98,
+        Energy: 750,
+      },
+    ],
+    Spells: [
+      {
+        Name: "tempest",
+        "AttTrue%": "13.2",
+        Number: 5156,
+        Success: 100,
+        Level: 8,
+        Energy: 1000,
+      },
+      {
+        Name: "grain blast",
+        "AttTrue%": "23.0",
+        Number: 5651,
+        Success: 100,
+        Level: 25,
+        Energy: 500,
+      },
+    ],
+  },
+  {
+    Number: 2704,
+    Name: "axebeak",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 3,
+    "Follow%": 50,
+    MagicRes: 70,
+    EXP: 9250,
+    HP: 585,
+    HPRegen: 95,
+    CharmLVL: 70,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    Dodge: 10,
+    Attacks: [
+      {
+        Name: "cleaves you with its beak",
+        Acc: 135,
+        "AttTrue%": "85.3",
+        Min: 11,
+        Max: 66,
+        Energy: 500,
+      },
+      {
+        Name: "leaps and tears you with its talons",
+        Acc: 135,
+        "AttTrue%": "14.7",
+        Min: 16,
+        Max: 59,
+        Energy: 500,
+        HitSpell: 5409,
+      },
+    ],
+  },
+  {
+    Number: 2705,
+    Name: "feral courser",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 5,
+    "Follow%": 80,
+    MagicRes: 50,
+    EXP: 13000,
+    HP: 700,
+    HPRegen: 110,
+    CharmLVL: 9999,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 0,
+    Animal: 0,
+    Dodge: 40,
+    SpellImmune: 18,
+    Attacks: [
+      {
+        Name: "rears and kicks you",
+        Acc: 135,
+        "AttTrue%": "34.0",
+        Min: 28,
+        Max: 74,
+        Energy: 333,
+      },
+      {
+        Name: "bites you",
+        Acc: 140,
+        "AttTrue%": "38.8",
+        Min: 36,
+        Max: 68,
+        Energy: 333,
+      },
+      {
+        Name: "tramples you under its hooves",
+        Acc: 145,
+        "AttTrue%": "27.2",
+        Min: 46,
+        Max: 113,
+        Energy: 666,
+        HitSpell: 318,
+      },
+    ],
+  },
+  {
+    Number: 2706,
+    Name: "iron gorgon",
+    Weapon: 0,
+    ArmourClass: 65,
+    DamageResist: 7,
+    "Follow%": 40,
+    MagicRes: 75,
+    EXP: 9750,
+    HP: 630,
+    HPRegen: 110,
+    CharmLVL: 75,
+    Type: 0,
+    Undead: 0,
+    Align: 2,
+    Magical: 4,
+    SeeHidden: 0,
+    ImmuPoison: 100,
+    Attacks: [
+      {
+        Name: "strikes you with a hoof",
+        Acc: 130,
+        "AttTrue%": "36.5",
+        Min: 17,
+        Max: 68,
+        Energy: 500,
+      },
+      {
+        Name: "guts you with its horns",
+        Acc: 135,
+        "AttTrue%": "29.2",
+        Min: 26,
+        Max: 104,
+        Energy: 1000,
+      },
+      {
+        Name: "snorts and charges forth, goring you",
+        Acc: 140,
+        "AttTrue%": "28.4",
+        Min: 31,
+        Max: 116,
+        Energy: 1000,
+      },
+    ],
+    Spells: [
+      {
+        Name: "breathes a greenish cloud",
+        "AttTrue%": "5.9",
+        Number: 322,
+        Success: 100,
+        Level: 50,
+        Energy: 1000,
       },
     ],
   },
@@ -69675,7 +69663,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears your flesh with its beak",
         Acc: 130,
-        "AttTrue%": "68.7",
+        "AttTrue%": "68.2",
         Min: 11,
         Max: 37,
         Energy: 250,
@@ -69683,7 +69671,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 135,
-        "AttTrue%": "14.8",
+        "AttTrue%": "16.0",
         Min: 23,
         Max: 56,
         Energy: 500,
@@ -69692,7 +69680,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 140,
-        "AttTrue%": "9.9",
+        "AttTrue%": "9.2",
         Min: 19,
         Max: 57,
         Energy: 1000,
@@ -69730,7 +69718,7 @@ export const monsterData: Monster[] = [
       {
         Name: "skewers you deeply",
         Acc: 130,
-        "AttTrue%": "62.9",
+        "AttTrue%": "64.3",
         Min: 11,
         Max: 42,
         Energy: 250,
@@ -69738,7 +69726,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves you open",
         Acc: 135,
-        "AttTrue%": "23.3",
+        "AttTrue%": "22.2",
         Min: 14,
         Max: 66,
         Energy: 500,
@@ -69746,7 +69734,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 140,
-        "AttTrue%": "13.8",
+        "AttTrue%": "13.5",
         Min: 27,
         Max: 83,
         Energy: 500,
@@ -69796,7 +69784,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips out a chunk of your flesh",
         Acc: 140,
-        "AttTrue%": "36.6",
+        "AttTrue%": "36.1",
         Min: 19,
         Max: 68,
         Energy: 333,
@@ -69804,7 +69792,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips you with its talons",
         Acc: 140,
-        "AttTrue%": "35.8",
+        "AttTrue%": "35.6",
         Min: 22,
         Max: 71,
         Energy: 333,
@@ -69814,7 +69802,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "6.4",
+        "AttTrue%": "6.6",
         Number: 391,
         Success: 100,
         Level: 15,
@@ -69822,7 +69810,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "sphere of implosion",
-        "AttTrue%": "15.8",
+        "AttTrue%": "16.3",
         Number: 5018,
         Success: 100,
         Level: 5,
@@ -69862,7 +69850,7 @@ export const monsterData: Monster[] = [
       {
         Name: "remorselessly hacks into you",
         Acc: 140,
-        "AttTrue%": "85.1",
+        "AttTrue%": "84.9",
         Min: 11,
         Max: 66,
         Energy: 500,
@@ -69871,7 +69859,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps and tears you with its talons",
         Acc: 135,
-        "AttTrue%": "14.9",
+        "AttTrue%": "15.1",
         Min: 16,
         Max: 59,
         Energy: 500,
@@ -69904,7 +69892,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears into your flesh",
         Acc: 145,
-        "AttTrue%": "26.5",
+        "AttTrue%": "26.4",
         Min: 9,
         Max: 44,
         Energy: 250,
@@ -69912,7 +69900,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 140,
-        "AttTrue%": "19.5",
+        "AttTrue%": "18.4",
         Min: 29,
         Max: 113,
         Energy: 750,
@@ -69921,7 +69909,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 140,
-        "AttTrue%": "18.7",
+        "AttTrue%": "19.1",
         Min: 29,
         Max: 113,
         Energy: 750,
@@ -69931,7 +69919,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "putrefaction",
-        "AttTrue%": "13.6",
+        "AttTrue%": "14.4",
         Number: 5658,
         Success: 100,
         Level: 13,
@@ -69939,7 +69927,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic beam",
-        "AttTrue%": "21.7",
+        "AttTrue%": "21.8",
         Number: 391,
         Success: 100,
         Level: 60,
@@ -69971,7 +69959,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and stomps on your face",
         Acc: 145,
-        "AttTrue%": "56.5",
+        "AttTrue%": "57.7",
         Min: 33,
         Max: 89,
         Energy: 333,
@@ -69979,7 +69967,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you under its hooves",
         Acc: 150,
-        "AttTrue%": "22.2",
+        "AttTrue%": "21.5",
         Min: 58,
         Max: 129,
         Energy: 666,
@@ -69989,7 +69977,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of dark energy",
-        "AttTrue%": "21.3",
+        "AttTrue%": "20.7",
         Number: 5546,
         Success: 100,
         Level: 35,
@@ -70021,7 +70009,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with a hoof",
         Acc: 135,
-        "AttTrue%": "35.6",
+        "AttTrue%": "37.0",
         Min: 23,
         Max: 76,
         Energy: 500,
@@ -70029,7 +70017,7 @@ export const monsterData: Monster[] = [
       {
         Name: "eviscerates you with its horns",
         Acc: 140,
-        "AttTrue%": "29.5",
+        "AttTrue%": "28.4",
         Min: 29,
         Max: 117,
         Energy: 1000,
@@ -70037,7 +70025,7 @@ export const monsterData: Monster[] = [
       {
         Name: "snorts and charges forth, goring you",
         Acc: 145,
-        "AttTrue%": "29.1",
+        "AttTrue%": "28.7",
         Min: 44,
         Max: 122,
         Energy: 1000,
@@ -70046,7 +70034,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "breathes a greenish cloud",
-        "AttTrue%": "5.8",
+        "AttTrue%": "5.9",
         Number: 322,
         Success: 100,
         Level: 50,
@@ -70079,7 +70067,7 @@ export const monsterData: Monster[] = [
       {
         Name: "guts you with its beak",
         Acc: 135,
-        "AttTrue%": "66.8",
+        "AttTrue%": "68.2",
         Min: 17,
         Max: 44,
         Energy: 250,
@@ -70087,7 +70075,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops",
         Acc: 140,
-        "AttTrue%": "15.7",
+        "AttTrue%": "15.5",
         Min: 23,
         Max: 56,
         Energy: 500,
@@ -70096,7 +70084,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swoops down and grips you in its claws, droppi...",
         Acc: 140,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.0",
         Min: 19,
         Max: 57,
         Energy: 1000,
@@ -70105,7 +70093,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves into you with a flurry of talons",
         Acc: 140,
-        "AttTrue%": "7.4",
+        "AttTrue%": "6.3",
         Min: 19,
         Max: 107,
         Energy: 1000,
@@ -70134,7 +70122,7 @@ export const monsterData: Monster[] = [
       {
         Name: "jabs you with his spear",
         Acc: 135,
-        "AttTrue%": "84.6",
+        "AttTrue%": "84.7",
         Min: 11,
         Max: 41,
         Energy: 250,
@@ -70142,7 +70130,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 140,
-        "AttTrue%": "15.4",
+        "AttTrue%": "15.3",
         Min: 33,
         Max: 129,
         Energy: 250,
@@ -70177,7 +70165,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns you with its touch",
         Acc: 150,
-        "AttTrue%": "21.5",
+        "AttTrue%": "22.2",
         Min: 1,
         Max: 120,
         Energy: 500,
@@ -70195,7 +70183,7 @@ export const monsterData: Monster[] = [
       {
         Name: "inflicts great pain upon you",
         Acc: 150,
-        "AttTrue%": "21.8",
+        "AttTrue%": "22.9",
         Min: 1,
         Max: 130,
         Energy: 500,
@@ -70205,7 +70193,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "23.3",
+        "AttTrue%": "21.7",
         Number: 391,
         Success: 100,
         Level: 70,
@@ -70213,7 +70201,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "unholy wrath",
-        "AttTrue%": "11.6",
+        "AttTrue%": "11.4",
         Number: 252,
         Success: 100,
         Level: 75,
@@ -70246,7 +70234,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears into you with several limbs",
         Acc: 140,
-        "AttTrue%": "21.9",
+        "AttTrue%": "20.9",
         Min: 30,
         Max: 126,
         Energy: 1000,
@@ -70255,7 +70243,7 @@ export const monsterData: Monster[] = [
       {
         Name: "punches you with a skeletal fist",
         Acc: 145,
-        "AttTrue%": "11.4",
+        "AttTrue%": "11.6",
         Min: 15,
         Max: 63,
         Energy: 500,
@@ -70264,7 +70252,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips into you with a jagged limb",
         Acc: 145,
-        "AttTrue%": "44.5",
+        "AttTrue%": "45.0",
         Min: 18,
         Max: 70,
         Energy: 500,
@@ -70272,7 +70260,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you, pummeling you",
         Acc: 145,
-        "AttTrue%": "22.2",
+        "AttTrue%": "22.5",
         Min: 55,
         Max: 141,
         Energy: 1000,
@@ -70303,7 +70291,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally guts you with its spear",
         Acc: 145,
-        "AttTrue%": "75.7",
+        "AttTrue%": "75.6",
         Min: 19,
         Max: 58,
         Energy: 250,
@@ -70311,7 +70299,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out impales you",
         Acc: 145,
-        "AttTrue%": "24.3",
+        "AttTrue%": "24.4",
         Min: 44,
         Max: 151,
         Energy: 250,
@@ -70341,7 +70329,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a rotten fist",
         Acc: 140,
-        "AttTrue%": "41.1",
+        "AttTrue%": "42.7",
         Min: 11,
         Max: 44,
         Energy: 250,
@@ -70349,7 +70337,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally claws you",
         Acc: 140,
-        "AttTrue%": "19.2",
+        "AttTrue%": "18.4",
         Min: 19,
         Max: 76,
         Energy: 500,
@@ -70358,7 +70346,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps into the air and kicks you",
         Acc: 145,
-        "AttTrue%": "21.6",
+        "AttTrue%": "21.3",
         Min: 18,
         Max: 61,
         Energy: 250,
@@ -70366,7 +70354,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely bites you",
         Acc: 135,
-        "AttTrue%": "18.1",
+        "AttTrue%": "17.6",
         Min: 26,
         Max: 84,
         Energy: 500,
@@ -70406,7 +70394,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spurs forward, skewering you",
         Acc: 140,
-        "AttTrue%": "21.6",
+        "AttTrue%": "22.1",
         Min: 79,
         Max: 225,
         Energy: 500,
@@ -70415,7 +70403,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rears and kicks you",
         Acc: 145,
-        "AttTrue%": "16.2",
+        "AttTrue%": "15.8",
         Min: 72,
         Max: 166,
         Energy: 1000,
@@ -70469,7 +70457,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you to the bone",
         Acc: 145,
-        "AttTrue%": "49.9",
+        "AttTrue%": "49.6",
         Min: 11,
         Max: 45,
         Energy: 200,
@@ -70477,7 +70465,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slices you",
         Acc: 150,
-        "AttTrue%": "50.1",
+        "AttTrue%": "50.4",
         Min: 33,
         Max: 121,
         Energy: 200,
@@ -70508,7 +70496,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a rotten fist",
         Acc: 135,
-        "AttTrue%": "90.8",
+        "AttTrue%": "90.7",
         Min: 16,
         Max: 75,
         Energy: 500,
@@ -70517,7 +70505,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you",
         Acc: 135,
-        "AttTrue%": "9.2",
+        "AttTrue%": "9.3",
         Min: 24,
         Max: 88,
         Energy: 1000,
@@ -70554,7 +70542,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swiftly slashes you",
         Acc: 180,
-        "AttTrue%": "20.3",
+        "AttTrue%": "21.0",
         Min: 30,
         Max: 86,
         Energy: 200,
@@ -70562,7 +70550,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 180,
-        "AttTrue%": "21.6",
+        "AttTrue%": "21.7",
         Min: 77,
         Max: 214,
         Energy: 200,
@@ -70570,7 +70558,7 @@ export const monsterData: Monster[] = [
       {
         Name: "disappears, then reappears and backstabs you",
         Acc: 175,
-        "AttTrue%": "14.9",
+        "AttTrue%": "15.0",
         Min: 190,
         Max: 470,
         Energy: 1000,
@@ -70579,7 +70567,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a shuriken, striking you",
         Acc: 190,
-        "AttTrue%": "22.1",
+        "AttTrue%": "21.4",
         Min: 27,
         Max: 57,
         Energy: 200,
@@ -70589,7 +70577,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blade flurry",
-        "AttTrue%": "21.0",
+        "AttTrue%": "20.8",
         Number: 5668,
         Success: 100,
         Level: 50,
@@ -70635,7 +70623,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cracks your head open",
         Acc: 165,
-        "AttTrue%": "16.4",
+        "AttTrue%": "15.9",
         Min: 56,
         Max: 144,
         Energy: 250,
@@ -70644,7 +70632,7 @@ export const monsterData: Monster[] = [
       {
         Name: "strikes you with a devastating blow",
         Acc: 170,
-        "AttTrue%": "22.3",
+        "AttTrue%": "23.0",
         Min: 74,
         Max: 228,
         Energy: 500,
@@ -70654,7 +70642,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soulstrike",
-        "AttTrue%": "6.2",
+        "AttTrue%": "6.1",
         Number: 5089,
         Success: 100,
         Level: 50,
@@ -70691,7 +70679,7 @@ export const monsterData: Monster[] = [
       {
         Name: "swings in a wide arc, cleaving you",
         Acc: 170,
-        "AttTrue%": "23.0",
+        "AttTrue%": "24.3",
         Min: 44,
         Max: 108,
         Energy: 250,
@@ -70699,7 +70687,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brings his axe down swiftly, hacking you",
         Acc: 165,
-        "AttTrue%": "18.6",
+        "AttTrue%": "18.9",
         Min: 88,
         Max: 266,
         Energy: 500,
@@ -70708,7 +70696,7 @@ export const monsterData: Monster[] = [
       {
         Name: "unleashes a flurry of strikes on you",
         Acc: 170,
-        "AttTrue%": "19.6",
+        "AttTrue%": "18.7",
         Min: 67,
         Max: 152,
         Energy: 500,
@@ -70717,7 +70705,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely chops you",
         Acc: 170,
-        "AttTrue%": "25.6",
+        "AttTrue%": "24.9",
         Min: 51,
         Max: 162,
         Energy: 250,
@@ -70765,7 +70753,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rapidly draws and shoots you",
         Acc: 165,
-        "AttTrue%": "21.8",
+        "AttTrue%": "20.0",
         Min: 24,
         Max: 63,
         Energy: 250,
@@ -70774,7 +70762,7 @@ export const monsterData: Monster[] = [
       {
         Name: "fires a volley of arrows, striking you",
         Acc: 160,
-        "AttTrue%": "17.9",
+        "AttTrue%": "18.6",
         Min: 47,
         Max: 121,
         Energy: 500,
@@ -70782,7 +70770,7 @@ export const monsterData: Monster[] = [
       {
         Name: "fires a double shot, striking you",
         Acc: 165,
-        "AttTrue%": "17.3",
+        "AttTrue%": "18.4",
         Min: 44,
         Max: 130,
         Energy: 500,
@@ -70790,7 +70778,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 170,
-        "AttTrue%": "21.0",
+        "AttTrue%": "21.6",
         Min: 67,
         Max: 190,
         Energy: 250,
@@ -70798,7 +70786,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws his blade, slashing you",
         Acc: 170,
-        "AttTrue%": "22.0",
+        "AttTrue%": "21.3",
         Min: 14,
         Max: 78,
         Energy: 250,
@@ -70837,7 +70825,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cackles as he smacks you",
         Acc: 180,
-        "AttTrue%": "23.8",
+        "AttTrue%": "23.7",
         Min: 44,
         Max: 92,
         Energy: 250,
@@ -70847,7 +70835,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "stylus blast",
-        "AttTrue%": "22.3",
+        "AttTrue%": "23.6",
         Number: 5670,
         Success: 100,
         Level: 40,
@@ -70855,7 +70843,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic beam",
-        "AttTrue%": "23.7",
+        "AttTrue%": "23.3",
         Number: 391,
         Success: 100,
         Level: 40,
@@ -70863,7 +70851,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spear of dark energy",
-        "AttTrue%": "23.6",
+        "AttTrue%": "22.9",
         Number: 5103,
         Success: 100,
         Level: 60,
@@ -70871,7 +70859,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "bone storm",
-        "AttTrue%": "6.5",
+        "AttTrue%": "6.4",
         Number: 5672,
         Success: 100,
         Level: 70,
@@ -70902,7 +70890,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a rotten fist",
         Acc: 155,
-        "AttTrue%": "90.5",
+        "AttTrue%": "90.7",
         Min: 11,
         Max: 68,
         Energy: 500,
@@ -70910,7 +70898,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you",
         Acc: 155,
-        "AttTrue%": "9.5",
+        "AttTrue%": "9.3",
         Min: 19,
         Max: 80,
         Energy: 1000,
@@ -70942,7 +70930,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 165,
-        "AttTrue%": "80.4",
+        "AttTrue%": "80.3",
         Min: 26,
         Max: 67,
         Energy: 250,
@@ -70950,7 +70938,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out cleaves you",
         Acc: 165,
-        "AttTrue%": "19.6",
+        "AttTrue%": "19.7",
         Min: 52,
         Max: 188,
         Energy: 250,
@@ -70985,7 +70973,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips into you with its claws",
         Acc: 160,
-        "AttTrue%": "25.1",
+        "AttTrue%": "25.5",
         Min: 36,
         Max: 97,
         Energy: 250,
@@ -70993,7 +70981,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely slashes you",
         Acc: 165,
-        "AttTrue%": "25.7",
+        "AttTrue%": "26.3",
         Min: 72,
         Max: 194,
         Energy: 250,
@@ -71001,7 +70989,7 @@ export const monsterData: Monster[] = [
       {
         Name: "undercuts you",
         Acc: 165,
-        "AttTrue%": "22.0",
+        "AttTrue%": "21.3",
         Min: 44,
         Max: 122,
         Energy: 500,
@@ -71011,7 +70999,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches",
-        "AttTrue%": "27.2",
+        "AttTrue%": "26.9",
         Number: 556,
         Success: 100,
         Level: 60,
@@ -71048,7 +71036,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 190,
-        "AttTrue%": "42.9",
+        "AttTrue%": "42.2",
         Min: 43,
         Max: 88,
         Energy: 200,
@@ -71057,7 +71045,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically cleaves you",
         Acc: 190,
-        "AttTrue%": "9.7",
+        "AttTrue%": "9.0",
         Min: 86,
         Max: 264,
         Energy: 400,
@@ -71066,7 +71054,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves through your armor",
         Acc: 190,
-        "AttTrue%": "21.4",
+        "AttTrue%": "21.6",
         Min: 71,
         Max: 136,
         Energy: 200,
@@ -71075,7 +71063,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a great spear, impaling you",
         Acc: 190,
-        "AttTrue%": "18.2",
+        "AttTrue%": "18.7",
         Min: 116,
         Max: 246,
         Energy: 400,
@@ -71084,7 +71072,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls his axe, hacking at your neck",
         Acc: 190,
-        "AttTrue%": "7.8",
+        "AttTrue%": "8.5",
         Min: 162,
         Max: 378,
         Energy: 600,
@@ -71115,7 +71103,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with a huge fist",
         Acc: 150,
-        "AttTrue%": "89.8",
+        "AttTrue%": "89.9",
         Min: 33,
         Max: 91,
         Energy: 250,
@@ -71123,7 +71111,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pummels you with both fists",
         Acc: 150,
-        "AttTrue%": "10.2",
+        "AttTrue%": "10.1",
         Min: 68,
         Max: 180,
         Energy: 250,
@@ -71153,7 +71141,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 140,
-        "AttTrue%": "79.1",
+        "AttTrue%": "80.6",
         Min: 9,
         Max: 48,
         Energy: 333,
@@ -71162,7 +71150,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 145,
-        "AttTrue%": "20.9",
+        "AttTrue%": "19.4",
         Min: 12,
         Max: 56,
         Energy: 333,
@@ -71192,7 +71180,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps forward and chomps you",
         Acc: 140,
-        "AttTrue%": "69.4",
+        "AttTrue%": "69.2",
         Min: 18,
         Max: 48,
         Energy: 333,
@@ -71200,7 +71188,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you savagely",
         Acc: 140,
-        "AttTrue%": "30.6",
+        "AttTrue%": "30.8",
         Min: 11,
         Max: 71,
         Energy: 333,
@@ -71232,7 +71220,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whaps you",
         Acc: 200,
-        "AttTrue%": "61.0",
+        "AttTrue%": "61.4",
         Min: 20,
         Max: 70,
         Energy: 200,
@@ -71250,7 +71238,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "prismatic beam",
-        "AttTrue%": "13.4",
+        "AttTrue%": "13.2",
         Number: 1038,
         Success: 100,
         Level: 50,
@@ -71258,7 +71246,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "prismatic blast",
-        "AttTrue%": "4.6",
+        "AttTrue%": "4.4",
         Number: 1074,
         Success: 100,
         Level: 60,
@@ -71288,7 +71276,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 135,
-        "AttTrue%": "71.8",
+        "AttTrue%": "71.5",
         Min: 18,
         Max: 58,
         Energy: 250,
@@ -71296,7 +71284,7 @@ export const monsterData: Monster[] = [
       {
         Name: "brutally claws you",
         Acc: 140,
-        "AttTrue%": "20.5",
+        "AttTrue%": "20.6",
         Min: 18,
         Max: 58,
         Energy: 250,
@@ -71305,7 +71293,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and tears your throat",
         Acc: 140,
-        "AttTrue%": "7.6",
+        "AttTrue%": "7.9",
         Min: 34,
         Max: 108,
         Energy: 500,
@@ -71338,7 +71326,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 135,
-        "AttTrue%": "49.4",
+        "AttTrue%": "51.2",
         Min: 18,
         Max: 69,
         Energy: 333,
@@ -71346,7 +71334,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips its stinger, impaling you",
         Acc: 140,
-        "AttTrue%": "15.6",
+        "AttTrue%": "14.3",
         Min: 16,
         Max: 64,
         Energy: 333,
@@ -71355,7 +71343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips out a chunk of your flesh",
         Acc: 135,
-        "AttTrue%": "35.0",
+        "AttTrue%": "34.5",
         Min: 14,
         Max: 70,
         Energy: 333,
@@ -71384,7 +71372,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 145,
-        "AttTrue%": "45.1",
+        "AttTrue%": "45.8",
         Min: 19,
         Max: 79,
         Energy: 333,
@@ -71392,7 +71380,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gouges you with its huge horns",
         Acc: 145,
-        "AttTrue%": "28.4",
+        "AttTrue%": "26.3",
         Min: 49,
         Max: 102,
         Energy: 666,
@@ -71400,7 +71388,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with its tail",
         Acc: 140,
-        "AttTrue%": "23.6",
+        "AttTrue%": "25.3",
         Min: 31,
         Max: 96,
         Energy: 666,
@@ -71409,7 +71397,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "partial petrification",
-        "AttTrue%": "2.9",
+        "AttTrue%": "2.6",
         Number: 1362,
         Success: 100,
         Level: 24,
@@ -71443,7 +71431,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses a missile, striking you",
         Acc: 135,
-        "AttTrue%": "29.0",
+        "AttTrue%": "28.3",
         Min: 9,
         Max: 44,
         Energy: 250,
@@ -71451,7 +71439,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls a sling, firing a projectile at you",
         Acc: 130,
-        "AttTrue%": "24.2",
+        "AttTrue%": "23.7",
         Min: 27,
         Max: 82,
         Energy: 500,
@@ -71470,7 +71458,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "acid tempest",
-        "AttTrue%": "11.3",
+        "AttTrue%": "12.0",
         Number: 805,
         Success: 100,
         Level: 15,
@@ -71478,7 +71466,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "ichorous blast",
-        "AttTrue%": "12.1",
+        "AttTrue%": "12.5",
         Number: 5678,
         Success: 100,
         Level: 80,
@@ -71508,7 +71496,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you with a wet limb",
         Acc: 135,
-        "AttTrue%": "36.8",
+        "AttTrue%": "36.0",
         Min: 18,
         Max: 71,
         Energy: 500,
@@ -71516,7 +71504,7 @@ export const monsterData: Monster[] = [
       {
         Name: "groans and smashes you",
         Acc: 140,
-        "AttTrue%": "30.9",
+        "AttTrue%": "30.7",
         Min: 22,
         Max: 80,
         Energy: 500,
@@ -71525,7 +71513,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "engulfs",
-        "AttTrue%": "1.0",
+        "AttTrue%": "1.1",
         Number: 234,
         Success: 100,
         Level: 15,
@@ -71533,7 +71521,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spits a stream of acid",
-        "AttTrue%": "31.4",
+        "AttTrue%": "32.2",
         Number: 722,
         Success: 100,
         Level: 60,
@@ -71568,7 +71556,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smacks you with a muddy limb",
         Acc: 135,
-        "AttTrue%": "39.2",
+        "AttTrue%": "40.1",
         Min: 18,
         Max: 44,
         Energy: 500,
@@ -71576,7 +71564,7 @@ export const monsterData: Monster[] = [
       {
         Name: "ejects a ball of muck at you",
         Acc: 135,
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.1",
         Min: 11,
         Max: 65,
         Energy: 500,
@@ -71585,7 +71573,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "water jet",
-        "AttTrue%": "20.4",
+        "AttTrue%": "19.9",
         Number: 5454,
         Success: 100,
         Level: 15,
@@ -71593,7 +71581,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "muck shot",
-        "AttTrue%": "19.8",
+        "AttTrue%": "19.9",
         Number: 5679,
         Success: 100,
         Level: 25,
@@ -71623,7 +71611,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes your face",
         Acc: 135,
-        "AttTrue%": "72.7",
+        "AttTrue%": "72.6",
         Min: 11,
         Max: 67,
         Energy: 250,
@@ -71631,7 +71619,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs into your guts",
         Acc: 140,
-        "AttTrue%": "19.0",
+        "AttTrue%": "18.7",
         Min: 16,
         Max: 78,
         Energy: 500,
@@ -71639,7 +71627,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you with a shoulder bash",
         Acc: 135,
-        "AttTrue%": "8.3",
+        "AttTrue%": "8.6",
         Min: 23,
         Max: 88,
         Energy: 1000,
@@ -71669,7 +71657,7 @@ export const monsterData: Monster[] = [
       {
         Name: "sinks its teeth into your flesh",
         Acc: 145,
-        "AttTrue%": "47.6",
+        "AttTrue%": "49.1",
         Min: 19,
         Max: 76,
         Energy: 333,
@@ -71677,7 +71665,7 @@ export const monsterData: Monster[] = [
       {
         Name: "gores you with its horns",
         Acc: 145,
-        "AttTrue%": "20.2",
+        "AttTrue%": "17.9",
         Min: 36,
         Max: 91,
         Energy: 666,
@@ -71686,7 +71674,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with its spiked tail",
         Acc: 145,
-        "AttTrue%": "18.3",
+        "AttTrue%": "18.9",
         Min: 49,
         Max: 102,
         Energy: 666,
@@ -71694,7 +71682,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with its spiked tail",
         Acc: 145,
-        "AttTrue%": "13.9",
+        "AttTrue%": "14.1",
         Min: 49,
         Max: 102,
         Energy: 666,
@@ -71726,7 +71714,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears at your flesh",
         Acc: 130,
-        "AttTrue%": "69.5",
+        "AttTrue%": "70.2",
         Min: 16,
         Max: 62,
         Energy: 500,
@@ -71734,7 +71722,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward and snaps you",
         Acc: 135,
-        "AttTrue%": "30.5",
+        "AttTrue%": "29.8",
         Min: 11,
         Max: 76,
         Energy: 500,
@@ -71764,7 +71752,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lashes you with vines",
         Acc: 130,
-        "AttTrue%": "37.0",
+        "AttTrue%": "37.4",
         Min: 18,
         Max: 71,
         Energy: 500,
@@ -71772,7 +71760,7 @@ export const monsterData: Monster[] = [
       {
         Name: "groans and smashes you",
         Acc: 135,
-        "AttTrue%": "31.6",
+        "AttTrue%": "31.4",
         Min: 22,
         Max: 66,
         Energy: 500,
@@ -71789,7 +71777,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "spits a stream of acid",
-        "AttTrue%": "30.3",
+        "AttTrue%": "30.0",
         Number: 722,
         Success: 100,
         Level: 60,
@@ -71823,7 +71811,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts and impales you",
         Acc: 135,
-        "AttTrue%": "65.0",
+        "AttTrue%": "65.5",
         Min: 11,
         Max: 36,
         Energy: 333,
@@ -71831,7 +71819,7 @@ export const monsterData: Monster[] = [
       {
         Name: "runs you through",
         Acc: 130,
-        "AttTrue%": "25.2",
+        "AttTrue%": "24.7",
         Min: 19,
         Max: 57,
         Energy: 333,
@@ -71870,7 +71858,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes into you with its claws",
         Acc: 135,
-        "AttTrue%": "83.4",
+        "AttTrue%": "83.9",
         Min: 11,
         Max: 57,
         Energy: 333,
@@ -71887,7 +71875,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws at your legs",
         Acc: 135,
-        "AttTrue%": "8.7",
+        "AttTrue%": "8.2",
         Min: 11,
         Max: 57,
         Energy: 666,
@@ -71916,7 +71904,7 @@ export const monsterData: Monster[] = [
       {
         Name: "mercilessly hacks you",
         Acc: 140,
-        "AttTrue%": "50.2",
+        "AttTrue%": "52.4",
         Min: 16,
         Max: 67,
         Energy: 333,
@@ -71924,7 +71912,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls and chops you",
         Acc: 140,
-        "AttTrue%": "21.3",
+        "AttTrue%": "20.4",
         Min: 32,
         Max: 114,
         Energy: 333,
@@ -71932,7 +71920,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a dagger at you",
         Acc: 140,
-        "AttTrue%": "8.1",
+        "AttTrue%": "7.2",
         Min: 23,
         Max: 64,
         Energy: 666,
@@ -71941,7 +71929,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a pommel strike",
         Acc: 145,
-        "AttTrue%": "20.4",
+        "AttTrue%": "20.0",
         Min: 11,
         Max: 55,
         Energy: 333,
@@ -71973,7 +71961,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices and dices you",
         Acc: 200,
-        "AttTrue%": "22.1",
+        "AttTrue%": "22.3",
         Min: 40,
         Max: 121,
         Energy: 200,
@@ -71982,7 +71970,7 @@ export const monsterData: Monster[] = [
       {
         Name: "critically carves into you",
         Acc: 210,
-        "AttTrue%": "23.6",
+        "AttTrue%": "23.0",
         Min: 96,
         Max: 278,
         Energy: 200,
@@ -71991,7 +71979,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 205,
-        "AttTrue%": "13.9",
+        "AttTrue%": "14.3",
         Min: 174,
         Max: 490,
         Energy: 800,
@@ -72001,7 +71989,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "soul rip",
-        "AttTrue%": "17.7",
+        "AttTrue%": "16.6",
         Number: 5033,
         Success: 100,
         Level: 60,
@@ -72009,7 +71997,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "tainted word",
-        "AttTrue%": "22.8",
+        "AttTrue%": "23.7",
         Number: 5032,
         Success: 100,
         Level: 60,
@@ -72038,7 +72026,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward, slashing you",
         Acc: 135,
-        "AttTrue%": "85.3",
+        "AttTrue%": "85.1",
         Min: 10,
         Max: 44,
         Energy: 250,
@@ -72046,7 +72034,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 140,
-        "AttTrue%": "14.7",
+        "AttTrue%": "14.9",
         Min: 21,
         Max: 111,
         Energy: 250,
@@ -72074,7 +72062,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws an arrow and shoots you",
         Acc: 135,
-        "AttTrue%": "64.8",
+        "AttTrue%": "64.4",
         Min: 16,
         Max: 44,
         Energy: 333,
@@ -72082,7 +72070,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hits you with a well-aimed shot",
         Acc: 130,
-        "AttTrue%": "21.1",
+        "AttTrue%": "23.1",
         Min: 48,
         Max: 132,
         Energy: 666,
@@ -72090,7 +72078,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 130,
-        "AttTrue%": "14.0",
+        "AttTrue%": "12.5",
         Min: 57,
         Max: 138,
         Energy: 666,
@@ -72120,7 +72108,7 @@ export const monsterData: Monster[] = [
       {
         Name: "claws at your face",
         Acc: 135,
-        "AttTrue%": "91.1",
+        "AttTrue%": "91.6",
         Min: 11,
         Max: 68,
         Energy: 500,
@@ -72128,7 +72116,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you",
         Acc: 135,
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.4",
         Min: 19,
         Max: 80,
         Energy: 1000,
@@ -72198,7 +72186,7 @@ export const monsterData: Monster[] = [
       {
         Name: "burns your flesh with its touch",
         Acc: 145,
-        "AttTrue%": "25.3",
+        "AttTrue%": "24.5",
         Min: 1,
         Max: 120,
         Energy: 500,
@@ -72207,7 +72195,7 @@ export const monsterData: Monster[] = [
       {
         Name: "touches you with a ghostly hand",
         Acc: 140,
-        "AttTrue%": "25.0",
+        "AttTrue%": "24.7",
         Min: 1,
         Max: 90,
         Energy: 500,
@@ -72216,7 +72204,7 @@ export const monsterData: Monster[] = [
       {
         Name: "inflicts great pain upon you",
         Acc: 150,
-        "AttTrue%": "24.2",
+        "AttTrue%": "25.8",
         Min: 1,
         Max: 130,
         Energy: 500,
@@ -72226,7 +72214,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "necromantic beam",
-        "AttTrue%": "25.5",
+        "AttTrue%": "25.0",
         Number: 391,
         Success: 100,
         Level: 70,
@@ -72258,7 +72246,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a rotten fist",
         Acc: 135,
-        "AttTrue%": "90.0",
+        "AttTrue%": "91.3",
         Min: 16,
         Max: 75,
         Energy: 500,
@@ -72267,7 +72255,7 @@ export const monsterData: Monster[] = [
       {
         Name: "barrels into you",
         Acc: 135,
-        "AttTrue%": "10.0",
+        "AttTrue%": "8.7",
         Min: 24,
         Max: 88,
         Energy: 1000,
@@ -72301,7 +72289,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds the hell out of you",
         Acc: 135,
-        "AttTrue%": "38.0",
+        "AttTrue%": "37.9",
         Min: 16,
         Max: 56,
         Energy: 333,
@@ -72309,7 +72297,7 @@ export const monsterData: Monster[] = [
       {
         Name: "drives nails into you",
         Acc: 135,
-        "AttTrue%": "29.7",
+        "AttTrue%": "29.8",
         Min: 36,
         Max: 108,
         Energy: 666,
@@ -72347,7 +72335,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hacks you",
         Acc: 140,
-        "AttTrue%": "38.1",
+        "AttTrue%": "37.1",
         Min: 16,
         Max: 56,
         Energy: 333,
@@ -72355,7 +72343,7 @@ export const monsterData: Monster[] = [
       {
         Name: "runs you through",
         Acc: 145,
-        "AttTrue%": "29.7",
+        "AttTrue%": "29.9",
         Min: 36,
         Max: 108,
         Energy: 666,
@@ -72364,7 +72352,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 140,
-        "AttTrue%": "32.3",
+        "AttTrue%": "32.9",
         Min: 11,
         Max: 77,
         Energy: 333,
@@ -72396,7 +72384,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with its fist",
         Acc: 150,
-        "AttTrue%": "92.9",
+        "AttTrue%": "93.3",
         Min: 21,
         Max: 86,
         Energy: 333,
@@ -72404,7 +72392,7 @@ export const monsterData: Monster[] = [
       {
         Name: "charges forward, barreling into you",
         Acc: 145,
-        "AttTrue%": "7.1",
+        "AttTrue%": "6.7",
         Min: 44,
         Max: 189,
         Energy: 666,
@@ -72437,7 +72425,7 @@ export const monsterData: Monster[] = [
       {
         Name: "darts forward, slashing you",
         Acc: 145,
-        "AttTrue%": "85.4",
+        "AttTrue%": "84.7",
         Min: 16,
         Max: 59,
         Energy: 250,
@@ -72445,7 +72433,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out slashes you",
         Acc: 145,
-        "AttTrue%": "14.6",
+        "AttTrue%": "15.3",
         Min: 26,
         Max: 122,
         Energy: 250,
@@ -72475,7 +72463,7 @@ export const monsterData: Monster[] = [
       {
         Name: "draws an arrow and shoots you",
         Acc: 145,
-        "AttTrue%": "64.1",
+        "AttTrue%": "62.9",
         Min: 22,
         Max: 61,
         Energy: 333,
@@ -72483,7 +72471,7 @@ export const monsterData: Monster[] = [
       {
         Name: "looses an arrow at you",
         Acc: 150,
-        "AttTrue%": "21.7",
+        "AttTrue%": "23.4",
         Min: 56,
         Max: 145,
         Energy: 666,
@@ -72491,7 +72479,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 130,
-        "AttTrue%": "14.2",
+        "AttTrue%": "13.7",
         Min: 57,
         Max: 138,
         Energy: 666,
@@ -72522,7 +72510,7 @@ export const monsterData: Monster[] = [
       {
         Name: "crushes you with a mightly blow",
         Acc: 155,
-        "AttTrue%": "21.7",
+        "AttTrue%": "21.3",
         Min: 38,
         Max: 101,
         Energy: 333,
@@ -72531,7 +72519,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you",
         Acc: 150,
-        "AttTrue%": "63.1",
+        "AttTrue%": "62.6",
         Min: 45,
         Max: 117,
         Energy: 333,
@@ -72539,7 +72527,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out smashes you",
         Acc: 160,
-        "AttTrue%": "15.2",
+        "AttTrue%": "16.1",
         Min: 91,
         Max: 244,
         Energy: 666,
@@ -72575,7 +72563,7 @@ export const monsterData: Monster[] = [
       {
         Name: "delivers an angled strike, slashing you",
         Acc: 190,
-        "AttTrue%": "24.1",
+        "AttTrue%": "24.2",
         Min: 26,
         Max: 81,
         Energy: 200,
@@ -72583,7 +72571,7 @@ export const monsterData: Monster[] = [
       {
         Name: "unleashes",
         Acc: 190,
-        "AttTrue%": "10.6",
+        "AttTrue%": "11.5",
         Min: 118,
         Max: 244,
         Energy: 400,
@@ -72592,7 +72580,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you with an overpowering strike",
         Acc: 190,
-        "AttTrue%": "10.9",
+        "AttTrue%": "11.6",
         Min: 144,
         Max: 290,
         Energy: 400,
@@ -72601,7 +72589,7 @@ export const monsterData: Monster[] = [
       {
         Name: "hurls a shortsword, impaling you",
         Acc: 190,
-        "AttTrue%": "44.6",
+        "AttTrue%": "43.8",
         Min: 90,
         Max: 176,
         Energy: 400,
@@ -72610,7 +72598,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "onslaught",
-        "AttTrue%": "9.8",
+        "AttTrue%": "8.9",
         Number: 5683,
         Success: 100,
         Level: 110,
@@ -72643,7 +72631,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rips into you with its claws",
         Acc: 160,
-        "AttTrue%": "26.7",
+        "AttTrue%": "25.7",
         Min: 36,
         Max: 97,
         Energy: 250,
@@ -72651,7 +72639,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely slashes you",
         Acc: 165,
-        "AttTrue%": "24.9",
+        "AttTrue%": "25.7",
         Min: 72,
         Max: 194,
         Energy: 250,
@@ -72659,7 +72647,7 @@ export const monsterData: Monster[] = [
       {
         Name: "leaps on you and pummels you",
         Acc: 165,
-        "AttTrue%": "21.4",
+        "AttTrue%": "22.1",
         Min: 61,
         Max: 149,
         Energy: 500,
@@ -72669,7 +72657,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "belches",
-        "AttTrue%": "26.9",
+        "AttTrue%": "26.5",
         Number: 556,
         Success: 100,
         Level: 60,
@@ -72704,7 +72692,7 @@ export const monsterData: Monster[] = [
       {
         Name: "batters you with a stone fist",
         Acc: 150,
-        "AttTrue%": "68.7",
+        "AttTrue%": "66.9",
         Min: 32,
         Max: 80,
         Energy: 250,
@@ -72712,7 +72700,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 145,
-        "AttTrue%": "23.2",
+        "AttTrue%": "24.5",
         Min: 64,
         Max: 160,
         Energy: 500,
@@ -72720,7 +72708,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches forward, crashing into you",
         Acc: 150,
-        "AttTrue%": "8.1",
+        "AttTrue%": "8.6",
         Min: 77,
         Max: 168,
         Energy: 1000,
@@ -72750,7 +72738,7 @@ export const monsterData: Monster[] = [
       {
         Name: "mercilessly hacks you",
         Acc: 140,
-        "AttTrue%": "52.1",
+        "AttTrue%": "52.7",
         Min: 21,
         Max: 72,
         Energy: 250,
@@ -72758,7 +72746,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whirls and chops you",
         Acc: 150,
-        "AttTrue%": "17.8",
+        "AttTrue%": "18.3",
         Min: 42,
         Max: 136,
         Energy: 500,
@@ -72766,7 +72754,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 150,
-        "AttTrue%": "8.6",
+        "AttTrue%": "8.4",
         Min: 81,
         Max: 168,
         Energy: 500,
@@ -72774,7 +72762,7 @@ export const monsterData: Monster[] = [
       {
         Name: "smashes you with a pommel strike",
         Acc: 145,
-        "AttTrue%": "21.5",
+        "AttTrue%": "20.6",
         Min: 30,
         Max: 91,
         Energy: 250,
@@ -72802,7 +72790,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves you up with a sharp blade",
         Acc: 145,
-        "AttTrue%": "71.6",
+        "AttTrue%": "71.9",
         Min: 17,
         Max: 70,
         Energy: 250,
@@ -72810,7 +72798,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs into your guts",
         Acc: 140,
-        "AttTrue%": "19.4",
+        "AttTrue%": "19.5",
         Min: 41,
         Max: 92,
         Energy: 500,
@@ -72818,7 +72806,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges forward, stabbing you",
         Acc: 145,
-        "AttTrue%": "8.9",
+        "AttTrue%": "8.6",
         Min: 76,
         Max: 177,
         Energy: 1000,
@@ -72850,7 +72838,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 135,
-        "AttTrue%": "64.1",
+        "AttTrue%": "64.7",
         Min: 22,
         Max: 59,
         Energy: 500,
@@ -72867,7 +72855,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips you with a tentacle",
         Acc: 140,
-        "AttTrue%": "22.3",
+        "AttTrue%": "21.8",
         Min: 22,
         Max: 59,
         Energy: 500,
@@ -72902,7 +72890,7 @@ export const monsterData: Monster[] = [
       {
         Name: "batters you with a stone fist",
         Acc: 160,
-        "AttTrue%": "58.6",
+        "AttTrue%": "60.5",
         Min: 32,
         Max: 80,
         Energy: 250,
@@ -72910,7 +72898,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 155,
-        "AttTrue%": "21.7",
+        "AttTrue%": "20.5",
         Min: 64,
         Max: 160,
         Energy: 500,
@@ -72918,7 +72906,7 @@ export const monsterData: Monster[] = [
       {
         Name: "launches forward, crashing into you",
         Acc: 160,
-        "AttTrue%": "12.9",
+        "AttTrue%": "12.7",
         Min: 77,
         Max: 168,
         Energy: 1000,
@@ -72928,7 +72916,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "blast of lightning",
-        "AttTrue%": "6.7",
+        "AttTrue%": "6.4",
         Number: 478,
         Success: 100,
         Level: 125,
@@ -72967,7 +72955,7 @@ export const monsterData: Monster[] = [
       {
         Name: "batters you with a wrench",
         Acc: 170,
-        "AttTrue%": "41.7",
+        "AttTrue%": "42.5",
         Min: 21,
         Max: 86,
         Energy: 250,
@@ -72975,7 +72963,7 @@ export const monsterData: Monster[] = [
       {
         Name: "levels his flintlock and fires at you",
         Acc: 165,
-        "AttTrue%": "5.1",
+        "AttTrue%": "5.3",
         Min: 89,
         Max: 344,
         Energy: 1000,
@@ -72984,7 +72972,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pelts you with nuts and bolts",
         Acc: 175,
-        "AttTrue%": "16.0",
+        "AttTrue%": "15.8",
         Min: 10,
         Max: 125,
         Energy: 250,
@@ -72993,7 +72981,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "bomb",
-        "AttTrue%": "16.6",
+        "AttTrue%": "16.0",
         Number: 5691,
         Success: 100,
         Level: 10,
@@ -73001,7 +72989,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "blast of lightning",
-        "AttTrue%": "20.6",
+        "AttTrue%": "20.4",
         Number: 478,
         Success: 100,
         Level: 40,
@@ -73064,7 +73052,7 @@ export const monsterData: Monster[] = [
       {
         Name: "jabs you",
         Acc: 135,
-        "AttTrue%": "74.0",
+        "AttTrue%": "75.2",
         Min: 10,
         Max: 45,
         Energy: 250,
@@ -73072,7 +73060,7 @@ export const monsterData: Monster[] = [
       {
         Name: "jabs you",
         Acc: 135,
-        "AttTrue%": "26.0",
+        "AttTrue%": "24.8",
         Min: 30,
         Max: 120,
         Energy: 250,
@@ -73109,7 +73097,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips a tentacle, bludgeoning you",
         Acc: 200,
-        "AttTrue%": "34.8",
+        "AttTrue%": "35.1",
         Min: 41,
         Max: 139,
         Energy: 125,
@@ -73118,7 +73106,7 @@ export const monsterData: Monster[] = [
       {
         Name: "whips a tentacle, slashing you",
         Acc: 200,
-        "AttTrue%": "28.5",
+        "AttTrue%": "27.9",
         Min: 61,
         Max: 190,
         Energy: 250,
@@ -73127,7 +73115,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 210,
-        "AttTrue%": "14.2",
+        "AttTrue%": "13.9",
         Min: 107,
         Max: 296,
         Energy: 500,
@@ -73136,7 +73124,7 @@ export const monsterData: Monster[] = [
       {
         Name: "Physical",
         Acc: 210,
-        "AttTrue%": "16.0",
+        "AttTrue%": "16.3",
         Min: 44,
         Max: 177,
         Energy: 375,
@@ -73146,7 +73134,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "thrash",
-        "AttTrue%": "6.6",
+        "AttTrue%": "6.9",
         Number: 5107,
         Success: 100,
         Level: 250,
@@ -73178,7 +73166,7 @@ export const monsterData: Monster[] = [
       {
         Name: "stabs you with a dagger",
         Acc: 210,
-        "AttTrue%": "37.8",
+        "AttTrue%": "35.8",
         Min: 17,
         Max: 88,
         Energy: 200,
@@ -73196,7 +73184,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "deathtouch",
-        "AttTrue%": "24.4",
+        "AttTrue%": "26.1",
         Number: 58,
         Success: 100,
         Level: 60,
@@ -73204,7 +73192,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "inferno",
-        "AttTrue%": "11.0",
+        "AttTrue%": "11.2",
         Number: 1048,
         Success: 100,
         Level: 80,
@@ -73212,7 +73200,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "eldritch storm",
-        "AttTrue%": "11.6",
+        "AttTrue%": "11.8",
         Number: 1058,
         Success: 100,
         Level: 60,
@@ -73244,7 +73232,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pulverizes you with its massive fist",
         Acc: 250,
-        "AttTrue%": "48.2",
+        "AttTrue%": "45.7",
         Min: 126,
         Max: 241,
         Energy: 500,
@@ -73253,7 +73241,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bites you",
         Acc: 250,
-        "AttTrue%": "11.9",
+        "AttTrue%": "12.6",
         Min: 71,
         Max: 310,
         Energy: 500,
@@ -73263,7 +73251,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "annihilation beam",
-        "AttTrue%": "8.2",
+        "AttTrue%": "8.3",
         Number: 5708,
         Success: 100,
         Level: 50,
@@ -73271,7 +73259,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "necromantic beam",
-        "AttTrue%": "23.5",
+        "AttTrue%": "24.2",
         Number: 391,
         Success: 100,
         Level: 60,
@@ -73279,7 +73267,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "ground smash",
-        "AttTrue%": "8.2",
+        "AttTrue%": "9.2",
         Number: 5710,
         Success: 100,
         Level: 20,
@@ -73344,7 +73332,7 @@ export const monsterData: Monster[] = [
       {
         Name: "savagely slashes you",
         Acc: 200,
-        "AttTrue%": "24.0",
+        "AttTrue%": "24.6",
         Min: 57,
         Max: 172,
         Energy: 250,
@@ -73353,7 +73341,7 @@ export const monsterData: Monster[] = [
       {
         Name: "all-out hacks you",
         Acc: 200,
-        "AttTrue%": "23.9",
+        "AttTrue%": "24.1",
         Min: 108,
         Max: 261,
         Energy: 250,
@@ -73362,7 +73350,7 @@ export const monsterData: Monster[] = [
       {
         Name: "shoulder bashes you",
         Acc: 200,
-        "AttTrue%": "17.6",
+        "AttTrue%": "17.3",
         Min: 67,
         Max: 123,
         Energy: 500,
@@ -73372,7 +73360,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "spirit horde",
-        "AttTrue%": "17.8",
+        "AttTrue%": "16.9",
         Number: 5097,
         Success: 100,
         Level: 60,
@@ -73380,7 +73368,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "colour spray",
-        "AttTrue%": "16.8",
+        "AttTrue%": "17.1",
         Number: 254,
         Success: 100,
         Level: 40,
@@ -73412,7 +73400,7 @@ export const monsterData: Monster[] = [
       {
         Name: "spins and hacks you",
         Acc: 215,
-        "AttTrue%": "25.5",
+        "AttTrue%": "25.6",
         Min: 36,
         Max: 112,
         Energy: 250,
@@ -73420,7 +73408,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you mightily",
         Acc: 220,
-        "AttTrue%": "24.8",
+        "AttTrue%": "25.2",
         Min: 78,
         Max: 216,
         Energy: 250,
@@ -73429,7 +73417,7 @@ export const monsterData: Monster[] = [
       {
         Name: "bashes you with his shield",
         Acc: 210,
-        "AttTrue%": "23.0",
+        "AttTrue%": "22.7",
         Min: 46,
         Max: 191,
         Energy: 500,
@@ -73438,7 +73426,7 @@ export const monsterData: Monster[] = [
       {
         Name: "rends you with a colossal blow",
         Acc: 200,
-        "AttTrue%": "13.3",
+        "AttTrue%": "13.1",
         Min: 146,
         Max: 419,
         Energy: 1000,
@@ -73448,7 +73436,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "onslaught",
-        "AttTrue%": "13.4",
+        "AttTrue%": "13.5",
         Number: 5683,
         Success: 100,
         Level: 50,
@@ -73494,7 +73482,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes in an upward arc, wounding you",
         Acc: 200,
-        "AttTrue%": "50.8",
+        "AttTrue%": "51.1",
         Min: 48,
         Max: 80,
         Energy: 250,
@@ -73502,7 +73490,7 @@ export const monsterData: Monster[] = [
       {
         Name: "furiously slashes you",
         Acc: 220,
-        "AttTrue%": "26.9",
+        "AttTrue%": "26.7",
         Min: 120,
         Max: 219,
         Energy: 250,
@@ -73565,7 +73553,7 @@ export const monsterData: Monster[] = [
       {
         Name: "lunges and impales you",
         Acc: 180,
-        "AttTrue%": "25.4",
+        "AttTrue%": "25.6",
         Min: 16,
         Max: 88,
         Energy: 250,
@@ -73573,7 +73561,7 @@ export const monsterData: Monster[] = [
       {
         Name: "circles around behind you and backstabs you",
         Acc: 185,
-        "AttTrue%": "22.8",
+        "AttTrue%": "22.4",
         Min: 79,
         Max: 189,
         Energy: 500,
@@ -73581,7 +73569,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pierces your vitals",
         Acc: 190,
-        "AttTrue%": "25.5",
+        "AttTrue%": "26.4",
         Min: 64,
         Max: 208,
         Energy: 250,
@@ -73591,7 +73579,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "song of shrieking blast",
-        "AttTrue%": "26.3",
+        "AttTrue%": "25.5",
         Number: 5598,
         Success: 100,
         Level: 60,
@@ -73625,7 +73613,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slashes you with an ice shard",
         Acc: 165,
-        "AttTrue%": "32.7",
+        "AttTrue%": "33.5",
         Min: 36,
         Max: 91,
         Energy: 250,
@@ -73635,7 +73623,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "cone of cold",
-        "AttTrue%": "42.3",
+        "AttTrue%": "41.3",
         Number: 5745,
         Success: 100,
         Level: 60,
@@ -73643,7 +73631,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "frozen orb",
-        "AttTrue%": "25.0",
+        "AttTrue%": "25.2",
         Number: 5147,
         Success: 100,
         Level: 60,
@@ -73677,7 +73665,7 @@ export const monsterData: Monster[] = [
       {
         Name: "cleaves you",
         Acc: 165,
-        "AttTrue%": "44.3",
+        "AttTrue%": "43.7",
         Min: 41,
         Max: 87,
         Energy: 250,
@@ -73687,7 +73675,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon lightning elemental",
-        "AttTrue%": "46.8",
+        "AttTrue%": "47.8",
         Number: 241,
         Success: 100,
         Level: 60,
@@ -73695,7 +73683,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "whirlwind",
-        "AttTrue%": "8.8",
+        "AttTrue%": "8.5",
         Number: 5647,
         Success: 100,
         Level: 40,
@@ -73725,7 +73713,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 190,
-        "AttTrue%": "33.4",
+        "AttTrue%": "32.4",
         Min: 85,
         Max: 174,
         Energy: 500,
@@ -73733,7 +73721,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 195,
-        "AttTrue%": "32.7",
+        "AttTrue%": "32.6",
         Min: 105,
         Max: 260,
         Energy: 500,
@@ -73742,7 +73730,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you asunder",
         Acc: 210,
-        "AttTrue%": "33.9",
+        "AttTrue%": "35.0",
         Min: 126,
         Max: 244,
         Energy: 500,
@@ -73771,7 +73759,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slams into you",
         Acc: 210,
-        "AttTrue%": "33.4",
+        "AttTrue%": "33.0",
         Min: 85,
         Max: 174,
         Energy: 500,
@@ -73779,7 +73767,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tramples you",
         Acc: 215,
-        "AttTrue%": "32.9",
+        "AttTrue%": "33.3",
         Min: 105,
         Max: 260,
         Energy: 500,
@@ -73788,7 +73776,7 @@ export const monsterData: Monster[] = [
       {
         Name: "tears you asunder",
         Acc: 225,
-        "AttTrue%": "33.7",
+        "AttTrue%": "33.6",
         Min: 126,
         Max: 244,
         Energy: 500,
@@ -73844,7 +73832,7 @@ export const monsterData: Monster[] = [
       {
         Name: "carves through you",
         Acc: 300,
-        "AttTrue%": "23.2",
+        "AttTrue%": "23.0",
         Min: 36,
         Max: 67,
         Energy: 400,
@@ -73853,7 +73841,7 @@ export const monsterData: Monster[] = [
       {
         Name: "slices through your armour",
         Acc: 300,
-        "AttTrue%": "23.6",
+        "AttTrue%": "23.4",
         Min: 72,
         Max: 124,
         Energy: 400,
@@ -73863,7 +73851,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "summon arcane elemental",
-        "AttTrue%": "10.9",
+        "AttTrue%": "11.2",
         Number: 5641,
         Success: 100,
         Level: 55,
@@ -73871,7 +73859,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "ethereal daggers",
-        "AttTrue%": "31.4",
+        "AttTrue%": "31.9",
         Number: 5750,
         Success: 100,
         Level: 5,
@@ -73879,7 +73867,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "mana tempest",
-        "AttTrue%": "10.9",
+        "AttTrue%": "10.5",
         Number: 5747,
         Success: 100,
         Level: 70,
@@ -73913,7 +73901,7 @@ export const monsterData: Monster[] = [
       {
         Name: "pounds you",
         Acc: 165,
-        "AttTrue%": "43.6",
+        "AttTrue%": "43.9",
         Min: 21,
         Max: 84,
         Energy: 250,
@@ -73923,7 +73911,7 @@ export const monsterData: Monster[] = [
     Spells: [
       {
         Name: "earthfist",
-        "AttTrue%": "26.3",
+        "AttTrue%": "26.2",
         Number: 5010,
         Success: 100,
         Level: 30,
@@ -73931,7 +73919,7 @@ export const monsterData: Monster[] = [
       },
       {
         Name: "boulder",
-        "AttTrue%": "30.1",
+        "AttTrue%": "29.8",
         Number: 1047,
         Success: 100,
         Level: 60,
