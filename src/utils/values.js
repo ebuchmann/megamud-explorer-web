@@ -133,6 +133,7 @@ export const specialProperties = new Map([
   [150, 'HealMana'],
   [151, 'EndCast'],
   [158, 'ReqToHit'],
+  [161, 'OpenDoor'],
   [164, 'EndCast%'],
   [165, 'AlterSpDmg'],
   [166, 'AlterSpLength'],

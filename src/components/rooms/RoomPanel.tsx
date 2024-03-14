@@ -3,7 +3,7 @@ import { Room } from '../../types';
 import { For, Show, createEffect, createSignal } from 'solid-js';
 import { roomData } from '../../data';
 import { RoomReference } from '../references/RoomReference';
-import { ShopReference } from '../references';
+import { MonsterReference, ShopReference } from '../references';
 
 const DirectionsAndNames = [
   ['North', 'N'],
@@ -59,7 +59,16 @@ export function RoomPanel() {
             </div>
           </Show>
         </div>
-        <h3 class="my-4">Lairs (TODO)</h3>
+        <Show when={room()?.Lair}>
+          <h3 class="my-4">Lairs (Max: {room()?.LairMax})</h3>
+          <For each={room()?.Lair}>
+            {(number) => (
+              <div>
+                <MonsterReference number={number} />
+              </div>
+            )}
+          </For>
+        </Show>
       </Show>
     </>
   );

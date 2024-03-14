@@ -4,7 +4,7 @@ import { createEffect, createSignal } from 'solid-js';
 import { spellData } from '../../data';
 import { Show } from 'solid-js';
 import { SpellReference } from '../references';
-import { getPerLevelInc } from '../../utils/formatting';
+import { formatSpellPanelJSX, getPerLevelInc } from '../../utils/formatting';
 import { AttackType, TargetTypes } from '../../utils/data-types';
 
 export function SpellPanel() {
@@ -25,7 +25,7 @@ export function SpellPanel() {
   return (
     <>
       <Show when={spell()}>
-        <div class="grid grid-cols-[1fr,2fr]">
+        <div class="grid grid-cols-[1fr,2fr] gap-x-4">
           <div>Name</div>
           <div>
             {spell()?.Name} ({spell()?.Number})
@@ -33,31 +33,39 @@ export function SpellPanel() {
           <div>Mana</div>
           <div>{spell()?.ManaCost}</div>
           <div>Targets</div>
-          <div>{TargetTypes[spell()?.Targets]}</div>
+          <div>{TargetTypes[spell()?.Targets ?? 0]}</div>
           <div>Attack Type</div>
-          <div>{AttackType[spell()?.AttType]}</div>
+          <div>{AttackType[spell()?.AttType ?? 0]}</div>
           <div>Req Lvl</div>
           <div>{spell()?.ReqLevel}</div>
-          <Show when={true}>
-            <div>Min Range</div>
+
+          {formatSpellPanelJSX(spell()?.Number ?? 0)}
+
+          <Show when={calulcations()?.minLvlDur}>
+            <div>Duration</div>
             <div>
-              {calulcations()?.minLvlVal} to {calulcations()?.maxLvlVal} @ lvl{' '}
-              {spell()?.ReqLevel}
+              {calulcations()?.minLvlDur} rounds
+              {calulcations()?.hasDurInc && ` @ lvl ${spell()?.ReqLevel}`}
             </div>
-            <div>Max Range</div>
-            <div>
-              {calulcations()?.minCapVal} to {calulcations()?.maxCapVal} @ lvl{' '}
-              {spell()?.Cap}
-            </div>
-            <div>Inc Per Lvl</div>
-            <div>
-              +{calulcations()?.minIncPerLvl} to +{calulcations()?.maxIncPerLvl}
-            </div>
+            <Show
+              when={calulcations()?.minLvlDur !== calulcations()?.maxLvlDur}
+            >
+              <div></div>
+              <div>
+                {calulcations()?.maxLvlDur} rounds
+                {calulcations()?.hasDurInc && ` @ lvl ${spell()?.Cap}`}
+              </div>
+            </Show>
+            <Show when={calulcations()?.hasDurInc}>
+              <div>Dur Inc</div>
+              <div>+{calulcations()?.durIncPerLvl} * lvl</div>
+            </Show>
           </Show>
           <Show when={(spell()?.EnergyCost ?? 0) > 0}>
             <div>Energy</div>
             <div>
-              {spell()?.EnergyCost} ({1000 / spell()?.EnergyCost}x/round)
+              {spell()?.EnergyCost} ({1000 / (spell()?.EnergyCost ?? 1000)}
+              x/round)
             </div>
           </Show>
 

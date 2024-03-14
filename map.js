@@ -14,7 +14,10 @@ async function formatFile(content, type, name) {
 
 const numberRegex = /([0-9.]+)/g;
 
-const townGate = roomsData[0];
+// const townGate = roomsData[0];
+const townGate = roomsData.find(
+  (room) => room['Map Number'] === 1 && room['Room Number'] === 736,
+);
 
 const directions = [
   ['N', 0, -1, 0],
@@ -25,6 +28,8 @@ const directions = [
   ['S', 0, 1, 0],
   ['SW', -1, 1, 0],
   ['NW', -1, -1, 0],
+  // ['U', 0, 0, 1],
+  // ['D', 0, 0, -1],
 ];
 
 // These rooms / exits end up teleporting you to another spot in the area, which messes up the mapper
@@ -53,6 +58,15 @@ const ancientCryptIgnoreList = [
 ];
 
 const data = [];
+
+const getLairInfo = (room) => {
+  const [count, ...rest] = room.Lair.match(numberRegex);
+
+  return {
+    LairMax: Number(count),
+    Lair: rest.map(Number),
+  };
+};
 
 const getNextRoomNumbers = (directionValue) => {
   if (directionValue.startsWith('Action')) {
@@ -102,6 +116,11 @@ const traverse = (room, x, y, z) => {
 
   if (room.Shop !== 0) thisRoom.Shop = room.Shop;
   if (room.NPC !== 0) thisRoom.NPC = room.NPC;
+  if (room.Lair) {
+    const { LairMax, Lair } = getLairInfo(room);
+    thisRoom.LairMax = LairMax;
+    thisRoom.Lair = Lair;
+  }
 
   room.Visited = true;
 

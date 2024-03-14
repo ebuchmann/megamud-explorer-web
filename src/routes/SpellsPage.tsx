@@ -21,7 +21,7 @@ import {
 } from '@tanstack/solid-table';
 import { useNavigate } from '@solidjs/router';
 import { MageryTypes } from '../utils/data-types';
-import { formatSpell } from '../utils/formatting';
+import { formatSpell, formatSpellJSX } from '../utils/formatting';
 import { SpellPanel } from '../components/spells/SpellPanel';
 import { LevelInput } from '../components/LevelInput';
 import { ClassSelect } from '../components/ClassSelect';
@@ -58,7 +58,8 @@ const columns = [
   }),
   columnHelper.display({
     header: 'Detail',
-    cell: (info) => formatSpell(info.row.original.Number),
+    // cell: (info) => formatSpell(info.row.original.Number),
+    cell: (info) => formatSpellJSX(info.row.original.Number),
   }),
 ];
 

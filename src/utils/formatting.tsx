@@ -1,8 +1,8 @@
 import { specialProperties } from './values';
 import { classData, spellData } from '../data';
-import { AllItemTypes, Armor, Item, Spell, Weapon } from '../types';
-import { SpellReference } from '../components/references';
-import { spec } from 'node:test/reporters';
+import { AllItemTypes, Item, Spell, Weapon } from '../types';
+import { MonsterReference, SpellReference } from '../components/references';
+import { JSX } from 'solid-js';
 
 export const getNumberString = (value: number): string => {
   if (value > 0) return ` +${value}`;
@@ -138,10 +138,19 @@ export const getPerLevelInc = (spell: Spell) => {
   const durIncPerLvl =
     Math.round((spell.DurInc / spell.DurIncLVLs) * 100) / 100;
   const minMaxSame = minIncPerLvl === maxIncPerLvl;
-  const minCapVal = Math.floor(spell.MinBase + minIncPerLvl * spell.Cap);
-  const maxCapVal = Math.floor(spell.MaxBase + maxIncPerLvl * spell.Cap);
-  const minLvlVal = Math.floor(spell.MinBase + minIncPerLvl * spell.ReqLevel);
-  const maxLvlVal = Math.floor(spell.MaxBase + maxIncPerLvl * spell.ReqLevel);
+  const minCapVal =
+    Math.floor(spell.MinBase + minIncPerLvl * spell.Cap) || spell.MaxBase;
+  const maxCapVal =
+    Math.floor(spell.MaxBase + maxIncPerLvl * spell.Cap) || spell.MaxBase;
+  const minLvlVal =
+    Math.floor(spell.MinBase + minIncPerLvl * spell.ReqLevel) || spell.MinBase;
+  const maxLvlVal =
+    Math.floor(spell.MaxBase + maxIncPerLvl * spell.ReqLevel) || spell.MaxBase;
+  const hasRange = minLvlVal !== maxLvlVal;
+  const minLvlDur =
+    Math.floor(spell.Dur + durIncPerLvl * spell.ReqLevel) || spell.Dur;
+  const maxLvlDur =
+    Math.floor(spell.Dur + durIncPerLvl * spell.Cap) || spell.Dur;
 
   return {
     hasMinInc,
@@ -155,118 +164,282 @@ export const getPerLevelInc = (spell: Spell) => {
     maxCapVal,
     minLvlVal,
     maxLvlVal,
+    minLvlDur,
+    maxLvlDur,
+    hasRange,
   };
 };
 
-const spellEffects = [20, 58, 80, 87, 123];
-const singleEffects = [
-  3, 4, 5, 10, 18, 22, 24, 36, 44, 45, 46, 47, 48, 49, 65, 66, 77, 147, 1113,
+const onlyShowAbilityName = [
+  specialProperties.get(6),
+  specialProperties.get(23),
+  specialProperties.get(52),
+  specialProperties.get(97),
+  specialProperties.get(98),
+  specialProperties.get(108),
+  specialProperties.get(111),
+  specialProperties.get(112),
+  specialProperties.get(144),
 ];
-const singleEffectsNoRange = [2, 7, 74];
 
 export const formatSpell = (number: number): string => {
   const spell = spellData.find((sp) => sp.Number === number);
   if (!spell) return '<spell not found>';
 
-  const {
-    hasMaxInc,
-    hasMinInc,
-    minIncPerLvl,
-    maxIncPerLvl,
-    hasDurInc,
-    durIncPerLvl,
-    minMaxSame,
-  } = getPerLevelInc(spell);
+  const { minMaxSame, minLvlVal, maxLvlVal, hasRange } = getPerLevelInc(spell);
 
   let value = '';
 
-  const hasEffects = spellEffects.some((effNum) =>
-    spell.hasOwnProperty(specialProperties.get(effNum)),
-  );
-  const hasSingleEffects = singleEffects.some((effNum) =>
-    spell.hasOwnProperty(specialProperties.get(effNum)),
-  );
-  const hasSingleEffectsNoRange = singleEffectsNoRange.some((effNum) =>
-    spell.hasOwnProperty(specialProperties.get(effNum)),
-  );
-
-  if (
-    spell.hasOwnProperty(specialProperties.get(1)) ||
-    spell.hasOwnProperty(specialProperties.get(17))
-  ) {
-    const armorType = spell.hasOwnProperty(specialProperties.get(1))
-      ? specialProperties.get(1)
-      : specialProperties.get(17);
-
-    value += `${armorType} ${spell.MinBase}${hasMinInc ? `+(${minIncPerLvl}*lvl)` : ''} to ${spell.MaxBase}${hasMaxInc ? `+(${maxIncPerLvl}*lvl), ` : ''}`;
-  }
-
-  if (hasEffects) {
-    spellEffects.forEach((effNum) => {
-      const effectName = specialProperties.get(effNum);
-      if (spell.hasOwnProperty(effectName)) {
-        const effectValue = spell[effectName as keyof Spell] as number;
-
-        value += `${effectName} ${getNumberString(effectValue > 0 ? effectValue : spell.MinBase)}, `;
+  Object.entries(spell.Abilities).forEach(([ability, val]) => {
+    if (onlyShowAbilityName.includes(ability)) {
+      value += `${ability}, `;
+      return;
+    }
+    // Dispel
+    if (specialProperties.get(73) === ability) {
+      value += `${ability} ${specialProperties.get(val)}`;
+      return;
+    }
+    if (val !== 0) {
+      // For items that don't increase or change at all
+      value += `${ability} ${getNumberString(val)}, `;
+    } else {
+      // For items that use + per level elements
+      if (!hasRange) {
+        value += `${ability} ${getNumberString(minLvlVal)}, `;
+      } else {
+        value += `${ability} ${minLvlVal}${!minMaxSame ? ` to ${maxLvlVal}` : ''}, `;
       }
-    });
-  }
+    }
+  });
 
-  // if (hasMinInc && hasMaxInc) {
-  //   value += `${specialProperties.get()}`
-  // }
+  return removeTrailingComma(value);
+};
 
-  if (hasSingleEffects) {
-    singleEffects.forEach((effNum) => {
-      const effectName = specialProperties.get(effNum);
-      if (spell.hasOwnProperty(effectName)) {
-        const effectValue =
-          (spell[effectName as keyof Spell] as number) || spell.MinBase;
+// For the table column
+export const formatSpellJSX = (number: number): JSX.Element => {
+  const spell = spellData.find((sp) => sp.Number === number);
+  if (!spell) return '<spell not found>';
 
-        value += `${effectName} ${effectValue}${hasMinInc ? `+(${minIncPerLvl}*lvl)` : ''}${hasMaxInc && !minMaxSame ? ` to ${effectValue}+(${maxIncPerLvl}*lvl)` : ''}, `;
-      }
-    });
-  }
+  const { minLvlVal, maxLvlVal, hasRange } = getPerLevelInc(spell);
 
-  if (hasSingleEffectsNoRange) {
-    singleEffectsNoRange.forEach((effNum) => {
-      const effectName = specialProperties.get(effNum);
-      if (spell.hasOwnProperty(effectName)) {
-        const effectValue =
-          (spell[effectName as keyof Spell] as number) || spell.MinBase;
+  const values: JSX.Element[] = [];
 
-        value += `${effectName} ${getNumberString(effectValue)}, `;
-      }
-    });
-  }
+  Object.entries(spell.Abilities).forEach(([ability, val]) => {
+    if (specialProperties.get(164) === ability) return; // EndCast%
+    if (onlyShowAbilityName.includes(ability)) {
+      values.push(<>{ability}</>);
+      return;
+    }
 
-  // // Effects with ranges
-  // if (spell.hasOwnProperty(specialProperties.get(165))) {
-  //   value += `${specialProperties.get(165)} ${getNumberString(spell.MinBase)} to ${getNumberString(spell.MaxBase)}`;
-  // }
+    // Dispel
+    if (specialProperties.get(73) === ability) {
+      values.push(
+        <>
+          {ability} {specialProperties.get(val)}
+        </>,
+      );
+      return;
+    }
+    // Casts spell
+    if (specialProperties.get(43) === ability) {
+      values.push(
+        <>
+          Casts <SpellReference number={val} />
+        </>,
+      );
+      return;
+    }
+    // EndCast
+    if (specialProperties.get(151) === ability) {
+      values.push(
+        <>
+          EndCast <SpellReference number={val} />
+          {spell.Abilities.hasOwnProperty(specialProperties.get(164)) && (
+            <> ({spell.Abilities[specialProperties.get(164)]}%)</>
+          )}
+        </>,
+      );
+      return;
+    }
 
-  // // Effects with single values
-  // if (spell.hasOwnProperty(specialProperties.get(4))) {
-  //   const property = specialProperties.get(4);
-  //   value += `${property} ${getNumberString(spell[property] || spell.MinBase)}`;
-  // }
+    // Summon monster
+    if (specialProperties.get(12) === ability) {
+      values.push(
+        <>
+          Summons <MonsterReference number={val || spell.MinBase} />
+        </>,
+      );
+      return;
+    }
+    if (val !== 0) {
+      // For items that don't increase or change at all
+      values.push(
+        <>
+          {ability} {getNumberString(val)}
+        </>,
+      );
+      return;
+    }
+    // For items that use + per level elements
+    if (!hasRange) {
+      values.push(
+        <>
+          {ability} {getNumberString(minLvlVal)}
+        </>,
+      );
+      return;
+    }
 
-  value = removeTrailingComma(value);
+    values.push(
+      <>
+        {ability} {minLvlVal}
+        {minLvlVal !== maxLvlVal ? ` to ${maxLvlVal}` : ''}
+      </>,
+    );
+  });
 
-  if (spell.Dur)
-    value += ` for ${spell.Dur}${hasDurInc ? `+(${durIncPerLvl}*lvl)` : ''} rounds`;
+  return values.map((val, index) => (
+    <>
+      {val}
+      {index !== values.length - 1 && ', '}
+    </>
+  ));
+};
 
-  // if (spell.hasOwnProperty('RemovesSpell')) {
-  //   value += ` - Removes Spell(`;
-  //   spell.RemovesSpell?.forEach((removeNumber) => {
-  //     const spellToRemove = spellData.find((sp) => sp.Number === removeNumber);
-  //     if (!spellToRemove) value += `<unknown spell ${removeNumber}>, `;
-  //     else value += spellToRemove.Name + ', ';
-  //   });
-  //   value = removeTrailingComma(value) + ')';
-  // }
+export const formatSpellPanelJSX = (number: number): JSX.Element => {
+  const spell = spellData.find((sp) => sp.Number === number);
+  if (!spell) return '<spell not found>';
 
-  return value;
+  const {
+    minLvlVal,
+    maxLvlVal,
+    hasRange,
+    hasMinInc,
+    minCapVal,
+    maxCapVal,
+    minIncPerLvl,
+    maxIncPerLvl,
+  } = getPerLevelInc(spell);
+
+  const values: JSX.Element[] = [];
+
+  Object.entries(spell.Abilities).forEach(([ability, val]) => {
+    if (specialProperties.get(164) === ability) return; // EndCast%
+    if (onlyShowAbilityName.includes(ability)) {
+      values.push(
+        <>
+          <div></div>
+          <div>{ability}</div>
+        </>,
+      );
+      return;
+    }
+
+    // Dispel
+    if (specialProperties.get(73) === ability) {
+      values.push(
+        <>
+          <div>{ability}</div>
+          <div>{specialProperties.get(val)}</div>
+        </>,
+      );
+      return;
+    }
+    // Casts spell
+    if (specialProperties.get(43) === ability) {
+      values.push(
+        <>
+          <div>Casts</div>
+          <div>
+            <SpellReference number={val} />
+          </div>
+        </>,
+      );
+      return;
+    }
+    // EndCast
+    if (specialProperties.get(151) === ability) {
+      values.push(
+        <>
+          EndCast <SpellReference number={val} />
+          {spell.Abilities.hasOwnProperty(specialProperties.get(164)) && (
+            <> ({spell.Abilities[specialProperties.get(164)]}%)</>
+          )}
+        </>,
+      );
+      return;
+    }
+
+    // Summon monster
+    if (specialProperties.get(12) === ability) {
+      values.push(
+        <>
+          Summons <MonsterReference number={val || spell.MinBase} />
+        </>,
+      );
+      return;
+    }
+    if (val !== 0) {
+      // For items that don't increase or change at all
+      values.push(
+        <>
+          <div>{ability}</div>
+          <div>{getNumberString(val)}</div>
+        </>,
+      );
+      return;
+    }
+    if (minLvlVal !== minCapVal && !hasRange) {
+      values.push(
+        <>
+          <div>{ability}</div>
+          <div>
+            {getNumberString(minLvlVal)} @ lvl {spell.ReqLevel}
+            <br />
+            {getNumberString(minCapVal)} @ lvl {spell.Cap}
+            <br />
+            {getNumberString(minIncPerLvl)} * lvl
+          </div>
+        </>,
+      );
+      return;
+    }
+    // For items that use + per level elements
+    if (!hasRange) {
+      values.push(
+        <>
+          <div>{ability}</div>
+          <div>{getNumberString(minLvlVal)}</div>
+        </>,
+      );
+      return;
+    }
+
+    values.push(
+      <>
+        <div>{ability}</div>
+        <div>
+          {minLvlVal}
+          {minLvlVal !== maxLvlVal ? ` to ${maxLvlVal}` : ''}
+          {hasMinInc ? ` @ lvl ${spell.ReqLevel}` : ''}
+          {spell.Cap > 0 ? (
+            <>
+              <br />
+              {minCapVal} to {maxCapVal} @ lvl {spell.Cap}
+              <br />
+              {getNumberString(minIncPerLvl)} / {getNumberString(maxIncPerLvl)}{' '}
+              * lvl
+            </>
+          ) : (
+            ''
+          )}
+        </div>
+      </>,
+    );
+  });
+
+  return values;
 };
 
 const commonSkipKeys = [

@@ -12,11 +12,7 @@ import { DataTable } from '../components/DataTable';
 import { ItemTypes } from '../utils/data-types';
 import { createSignal } from 'solid-js';
 import { TextSearch } from '../components/TextSearch';
-import {
-  expandKeyValueJSX,
-  getRemainingPropertiesTable,
-  itemSkipKeys,
-} from '../utils/formatting';
+import { getRemainingPropertiesTable, itemSkipKeys } from '../utils/formatting';
 import { SidePanel } from '../components/layout/SidePanel';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';

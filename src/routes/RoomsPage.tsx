@@ -43,44 +43,46 @@ export function RoomsPage() {
 
   svg.call(zoom);
 
-  roomData.forEach((room) => {
-    const roomGroup = outerGroup
-      .append('g')
-      .attr('transform', `translate(${room.x * 22},${room.y * 22})`);
+  roomData
+    .filter((room) => room.z === 0)
+    .forEach((room) => {
+      const roomGroup = outerGroup
+        .append('g')
+        .attr('transform', `translate(${room.x * 22},${room.y * 22})`);
 
-    roomGroup
-      .append('rect')
-      .attr('width', 14)
-      .attr('height', 14)
-      // .attr('x', room.x * 22)
-      // .attr('y', room.y * 22)
-      .attr('fill', room.RoomNum === 452 ? 'yellow' : getRoomColor(room))
-      .on('click', (e) => {
-        if (lastNodeClicked) lastNodeClicked.setAttribute('fill', 'black');
-        e.target.setAttribute('fill', 'red');
-        lastNodeClicked = e.target;
-        setSelectedNode(room);
-        navigate(`${String(room.MapNum)}/${String(room.RoomNum)}`, {
-          replace: true,
+      roomGroup
+        .append('rect')
+        .attr('width', 14)
+        .attr('height', 14)
+        // .attr('x', room.x * 22)
+        // .attr('y', room.y * 22)
+        .attr('fill', room.RoomNum === 793 ? 'yellow' : getRoomColor(room))
+        .on('click', (e) => {
+          if (lastNodeClicked) lastNodeClicked.setAttribute('fill', 'black');
+          e.target.setAttribute('fill', 'red');
+          lastNodeClicked = e.target;
+          setSelectedNode(room);
+          navigate(`${String(room.MapNum)}/${String(room.RoomNum)}`, {
+            replace: true,
+          });
         });
-      });
 
-    linePositions.forEach(([dir, x1, y1, x2, y2]) => {
-      if (room[dir]) {
-        const isWarp = room[dir]?.includes('WARP');
-        roomGroup
-          .append('line')
-          .attr(
-            'style',
-            `stroke:${isWarp ? 'yellow' : 'black'};stroke-width:2;`,
-          )
-          .attr('x1', x1)
-          .attr('y1', y1)
-          .attr('x2', x2)
-          .attr('y2', y2);
-      }
+      linePositions.forEach(([dir, x1, y1, x2, y2]) => {
+        if (room[dir]) {
+          const isWarp = room[dir]?.includes('WARP');
+          roomGroup
+            .append('line')
+            .attr(
+              'style',
+              `stroke:${isWarp ? 'yellow' : 'black'};stroke-width:2;`,
+            )
+            .attr('x1', x1)
+            .attr('y1', y1)
+            .attr('x2', x2)
+            .attr('y2', y2);
+        }
+      });
     });
-  });
 
   return (
     <div class="flex gap-4 h-[100%]">

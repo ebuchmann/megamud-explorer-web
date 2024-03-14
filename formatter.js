@@ -324,15 +324,20 @@ for (const index in spellData) {
 
   if (original.EnergyCost > 0) item.EnergyCost = original.EnergyCost;
 
+  item.Abilities = {};
+
   for (let x = 0; x < 10; x++) {
     if (allValues.includes(original[`Abil-${x}`])) {
       const key = specialProperties.get(original[`Abil-${x}`]);
+      if (key === 'DescMsg' || key === 'StartMsg' || key === 'ConfuseMsg') {
+        continue;
+      }
 
       if (key === 'RemovesSpell') {
         if (!item.RemovesSpell) item.RemovesSpell = [];
         item.RemovesSpell.push(original[`AbilVal-${x}`]);
       } else {
-        item[key] = original[`AbilVal-${x}`];
+        item.Abilities[key] = original[`AbilVal-${x}`];
       }
     }
   }
