@@ -1,4 +1,26 @@
 import fs from 'fs';
+import { exec as execCallback } from 'child_process';
+import { promisify } from 'util';
+
+const exec = promisify(execCallback, () => {});
+
+const tableList = [
+  'Classes',
+  'Info',
+  'Items',
+  'Monsters',
+  'Races',
+  'Rooms',
+  'Shops',
+  'Spells',
+  'TBInfo',
+];
+
+for await (const table of tableList) {
+  await exec(
+    `mdb-json './db/Paramud Data 1.6 Final 3-13-24.mdb' ${table} > './db/${table.toLowerCase()}.json'`,
+  );
+}
 
 function formatFile(path) {
   const file = fs.readFileSync(path, 'utf8');

@@ -1,9 +1,9 @@
 import { useParams } from '@solidjs/router';
 import { Spell } from '../../types';
-import { createEffect, createSignal } from 'solid-js';
+import { For, createEffect, createSignal } from 'solid-js';
 import { spellData } from '../../data';
 import { Show } from 'solid-js';
-import { SpellReference } from '../references';
+import { ItemReference, MonsterReference, SpellReference } from '../references';
 import { formatSpellPanelJSX, getPerLevelInc } from '../../utils/formatting';
 import { AttackType, TargetTypes } from '../../utils/data-types';
 
@@ -39,6 +39,25 @@ export function SpellPanel() {
           <div>Req Lvl</div>
           <div>{spell()?.ReqLevel}</div>
 
+          <Show when={spell()?.Learnable === 1}>
+            <div>Learned from</div>
+            <div>
+              <For each={spell()?.LearnedFrom}>
+                {(learnedFrom) => {
+                  const [type, number] = learnedFrom.split('|');
+                  switch (type) {
+                    case 'item':
+                      return <ItemReference number={Number(number)} />;
+                    case 'npc':
+                      return <MonsterReference number={Number(number)} />;
+                    case 'textblock':
+                      return `Textblock ${number}`;
+                  }
+                }}
+              </For>
+            </div>
+          </Show>
+
           {formatSpellPanelJSX(spell()?.Number ?? 0)}
 
           <Show when={calulcations()?.minLvlDur}>
@@ -64,7 +83,8 @@ export function SpellPanel() {
           <Show when={(spell()?.EnergyCost ?? 0) > 0}>
             <div>Energy</div>
             <div>
-              {spell()?.EnergyCost} ({1000 / (spell()?.EnergyCost ?? 1000)}
+              {spell()?.EnergyCost} (
+              {Math.floor(1000 / (spell()?.EnergyCost ?? 1000))}
               x/round)
             </div>
           </Show>

@@ -323,6 +323,16 @@ for (const index in spellData) {
   };
 
   if (original.EnergyCost > 0) item.EnergyCost = original.EnergyCost;
+  if (original['Learned From']) {
+    item.LearnedFrom = [];
+    const splitValues = original['Learned From']
+      .split(/[#, ]/g)
+      .filter(Boolean);
+    splitValues.forEach((val, index) => {
+      if (index % 2 === 0) return;
+      item.LearnedFrom.push(`${splitValues[index - 1].toLowerCase()}|${val}`);
+    });
+  }
 
   item.Abilities = {};
 

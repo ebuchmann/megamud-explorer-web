@@ -348,7 +348,7 @@ export type Spell = {
   DurInc: number;
   EnergyCost?: number;
   Short?: string;
-
+  LearnedFrom?: string[];
   Abilities: Record<string, number>;
 };
 
