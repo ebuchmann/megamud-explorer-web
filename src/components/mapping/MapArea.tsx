@@ -126,6 +126,7 @@ export function MapArea(props: MapProps) {
 
     roomGroup
       .append('rect')
+      .attr('fill', 'black')
       .attr('width', 14)
       .attr('height', 14)
       .attr('class', x === 0 && y === 0 ? 'outline-dashed' : '')
