@@ -377,9 +377,6 @@ export type Room = {
   Name: string;
   MapNum: number;
   RoomNum: number;
-  x: number;
-  y: number;
-  z: number;
   Shop?: number;
   NPC?: number;
   N?: string;

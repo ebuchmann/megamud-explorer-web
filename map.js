@@ -149,9 +149,47 @@ const traverse = (room, x, y, z) => {
   data.push(thisRoom);
 };
 
-traverse(townGate, 0, 0, 0);
+// traverse(townGate, 0, 0, 0);
+
+const allMapData = [];
+const allMapDataObj = {};
+
+const dirs = ['N', 'E', 'S', 'W', 'NE', 'SE', 'SW', 'NW'];
+
+for (const index in roomsData) {
+  const original = roomsData[index];
+
+  if (original['Map Number'] !== 1) continue;
+
+  const item = {
+    MapNum: original['Map Number'],
+    RoomNum: original['Room Number'],
+    Name: original.Name,
+  };
+
+  if (original.Lair) {
+    const { LairMax, Lair } = getLairInfo(original);
+    item.LairMax = LairMax;
+    item.Lair = Lair;
+  }
+
+  dirs.forEach((dir) => {
+    if (original[dir] !== '0') {
+      const val = getNextRoomNumbers(original[dir]);
+      item[dir] = val.join('/');
+    }
+  });
+
+  allMapData.push(item);
+  allMapDataObj[item.RoomNum] = item;
+}
 
 fs.writeFileSync(
   './src/data/rooms.ts',
-  await formatFile(data, 'Room', 'roomData'),
+  await formatFile(allMapData, 'Room', 'roomData'),
+);
+
+fs.writeFileSync(
+  './src/data/roomsObj.ts',
+  await formatFile(allMapDataObj, 'Room', 'roomData'),
 );
