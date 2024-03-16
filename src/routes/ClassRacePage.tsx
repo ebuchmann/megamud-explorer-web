@@ -240,6 +240,7 @@ export function ClassRacePage() {
       },
     },
     columns: classesColumns,
+    enableRowSelection: false,
     onColumnVisibilityChange: setClassColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),

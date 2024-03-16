@@ -61,17 +61,21 @@ export function DataTable<T extends { Number: number }>({
           {(row) => (
             <tr
               onClick={row.getToggleSelectedHandler()}
-              class={classNames({
-                'font-bold text-cyan-100':
-                  highlightEquipment &&
-                  selectedCharacterData() &&
-                  Object.values(selectedCharacterData()!.worn).some(
-                    (val) => val === row.original.Number,
-                  ),
-                'font-bold text-amber-100':
-                  highlightRoute &&
-                  Number(params.number) === row.original.Number,
-              })}
+              class={classNames(
+                {
+                  'font-bold text-cyan-100':
+                    highlightEquipment &&
+                    selectedCharacterData() &&
+                    Object.values(selectedCharacterData()!.worn).some(
+                      (val) => val === row.original.Number,
+                    ),
+                  'font-bold text-amber-100':
+                    highlightRoute &&
+                    Number(params.number) === row.original.Number,
+                  'cursor-pointer': row.getCanSelect(),
+                },
+                'hover:bg-gray-800',
+              )}
             >
               <For each={row.getVisibleCells()}>
                 {(cell) => (

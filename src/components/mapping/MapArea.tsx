@@ -1,11 +1,15 @@
 import { useNavigate, useParams } from '@solidjs/router';
 import { roomData } from '../../data';
 import * as d3 from 'd3';
-import { Accessor, createEffect, createSignal } from 'solid-js';
-import { Direction } from '../../types';
+import { Accessor, createEffect, createSignal, onCleanup } from 'solid-js';
+import { Direction, Room } from '../../types';
 // import { roomDataObj } from '../../data/roomsObj';
 
-const directions: [string, ...number[]][] = [
+const ROOM_SIZE = 15;
+const ROOM_OFFSET = 22;
+const CENTER_OFFSET = 200;
+
+const directions: [Direction, ...number[]][] = [
   ['N', 0, -1, 0],
   ['NE', 1, -1, 0],
   ['E', 1, 0, 0],
@@ -20,8 +24,8 @@ const directions: [string, ...number[]][] = [
 
 const linePositions: [Direction, ...number[]][] = [
   ['N', 7, 0, 7, -4],
-  ['S', 7, 14, 7, 18],
-  ['E', 14, 7, 18, 7],
+  ['S', 7, ROOM_SIZE, 7, 18],
+  ['E', ROOM_SIZE, 7, 18, 7],
   ['W', 0, 7, -4, 7],
   ['NE', 13, 1, 18, -4],
   ['SW', 1, 13, -4, 18],
@@ -29,11 +33,21 @@ const linePositions: [Direction, ...number[]][] = [
   ['SE', 13, 13, 18, 18],
 ];
 
+type TraverseProps = {
+  room: Room;
+  x: number;
+  y: number;
+  z: number;
+  limit: number;
+  svgGroup: d3.Selection<SVGGElement, undefined, null, undefined>;
+};
+
 type MapProps = {
   drawDistance: Accessor<string>;
 };
 
 export function MapArea(props: MapProps) {
+  let containerRef: HTMLDivElement;
   const params = useParams();
   const navigate = useNavigate();
   const [mapNum, roomNum] = params.number.split('/');
@@ -44,18 +58,12 @@ export function MapArea(props: MapProps) {
     ),
   );
 
-  type TraverseProps = {
-    room: any;
-    x: number;
-    y: number;
-    z: number;
-    limit: number;
-    svgGroup: any;
-  };
-
   let lastTransform: string = '';
 
-  const svg = d3.create('svg').attr('viewBox', [0, 0, 800, 800]);
+  const svg = d3
+    .create('svg')
+    .attr('class', 'h-[100%]')
+    .attr('preserveAspectRatio', 'xMinYMin meet');
 
   function handleZoom(e) {
     svg.select('g').attr('transform', e.transform);
@@ -63,32 +71,44 @@ export function MapArea(props: MapProps) {
   }
   const zoom = d3.zoom().on('zoom', handleZoom);
 
+  onCleanup(() => {
+    d3.select('body').on('keydown', null);
+  });
+
+  const handleMoveDirection = (direction: Direction) => {
+    if (startingRoom()?.[direction]) navigate(startingRoom()?.[direction]!);
+  };
+
   d3.select('body').on('keydown', (e) => {
     switch (e.key) {
-      case 'ArrowLeft': {
-        if (startingRoom().W) {
-          navigate(startingRoom().W!);
-        }
-        return;
-      }
-      case 'ArrowRight': {
-        if (startingRoom().E) {
-          navigate(startingRoom().E!);
-        }
-        return;
-      }
-      case 'ArrowDown': {
-        if (startingRoom().S) {
-          navigate(startingRoom().S!);
-        }
-        return;
-      }
-      case 'ArrowUp': {
-        if (startingRoom().N) {
-          navigate(startingRoom().N!);
-        }
-        return;
-      }
+      case 'Numpad4':
+      case 'ArrowLeft':
+      case 'a':
+        return handleMoveDirection('W');
+      case 'Numpad6':
+      case 'ArrowRight':
+      case 'd':
+        return handleMoveDirection('E');
+      case 'Numpad2':
+      case 'ArrowDown':
+      case 'x':
+        return handleMoveDirection('S');
+      case 'ArrowUp':
+      case 'Numpad8':
+      case 'w':
+        return handleMoveDirection('N');
+      case 'Numpad9':
+      case 'e':
+        return handleMoveDirection('NE');
+      case 'Numpad3':
+      case 'c':
+        return handleMoveDirection('SE');
+      case 'Numpad1':
+      case 'z':
+        return handleMoveDirection('SW');
+      case 'Numpad7':
+      case 'q':
+        return handleMoveDirection('NW');
     }
   });
 
@@ -104,9 +124,13 @@ export function MapArea(props: MapProps) {
     )
       return;
 
+    // Each room's containing group
     const roomGroup = svgGroup
       .append('g')
-      .attr('transform', `translate(${x * 22},${y * 22})`);
+      .attr(
+        'transform',
+        `translate(${x * ROOM_OFFSET - ROOM_SIZE / 2},${y * ROOM_OFFSET - ROOM_SIZE / 2})`,
+      );
 
     linePositions.forEach(([dir, x1, y1, x2, y2]) => {
       if (room[dir]) {
@@ -124,11 +148,12 @@ export function MapArea(props: MapProps) {
       }
     });
 
+    // Each room
     roomGroup
       .append('rect')
       .attr('fill', 'black')
-      .attr('width', 14)
-      .attr('height', 14)
+      .attr('width', ROOM_SIZE)
+      .attr('height', ROOM_SIZE)
       .attr('class', x === 0 && y === 0 ? 'outline-dashed' : '')
       .on('click', () => {
         navigate(`${String(room.MapNum)}/${String(room.RoomNum)}`, {
@@ -136,12 +161,21 @@ export function MapArea(props: MapProps) {
         });
       });
 
+    if (room.LairMax) {
+      roomGroup
+        .append('text')
+        .text(room.LairMax)
+        .attr('fill', 'white')
+        .attr('class', 'text-xs pointer-events-none')
+        .attr('transform', 'translate(4, 11)');
+    }
+
     visited[`${room.MapNum}-${room.RoomNum}`] = true;
 
     directions.forEach(([dir, nextX, nextY, nextZ]) => {
-      if (!room[dir]) return;
+      if (!room || !room[dir]) return;
 
-      const [nextMapNum, nextRoomNum] = room[dir].split('/');
+      const [nextMapNum, nextRoomNum] = room?.[dir]?.split('/') || [];
       const nextRoom = roomData.find(
         (rm) =>
           rm.MapNum === Number(nextMapNum) &&
@@ -161,6 +195,10 @@ export function MapArea(props: MapProps) {
   }
 
   createEffect(() => {
+    console.log(containerRef);
+    const width = containerRef.clientWidth;
+    const height = containerRef.clientHeight;
+    svg.attr('viewBox', [-width / 2, -height / 2, width, height]);
     d3.select('g').remove();
     const svgGroup = svg.append('g');
     const limit = Number(props.drawDistance());
@@ -177,7 +215,7 @@ export function MapArea(props: MapProps) {
 
     visited = {};
     traverse({
-      room: startingRoom(),
+      room: startingRoom()!,
       x: 0,
       y: 0,
       z: 0,
@@ -185,21 +223,23 @@ export function MapArea(props: MapProps) {
       svgGroup,
     });
 
-    const limitWidth = limit * 48;
-    const limitHeight = limit * 48;
+    const limitWidth = ROOM_OFFSET * (limit * 2 + 1);
+    const limitHeight = ROOM_OFFSET * (limit * 2 + 1);
 
+    // Draw distance outline
     svgGroup
       .append('rect')
       .attr('width', limitWidth)
       .attr('height', limitHeight)
       .attr('z-index', -1)
-      .attr(
-        'transform',
-        `translate(-${limitWidth / 2 - 10}, -${limitHeight / 2 - 10})`,
-      )
+      .attr('transform', `translate(-${limitWidth / 2}, -${limitHeight / 2})`)
       .attr('fill', 'none')
       .attr('class', 'outline-dotted');
   });
 
-  return <div>{svg.node()}</div>;
+  return (
+    <div ref={containerRef} class="h-[100%]">
+      {svg.node()}
+    </div>
+  );
 }
