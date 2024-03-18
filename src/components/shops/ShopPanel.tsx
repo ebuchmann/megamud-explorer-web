@@ -5,6 +5,7 @@ import { shopData } from '../../data';
 import { Show } from 'solid-js';
 import { ShopTypes } from '../../utils/data-types';
 import { InventoryTable } from './InventoryTable';
+import { RoomReference } from '../references/RoomReference';
 
 export function ShopPanel() {
   const params = useParams();
@@ -34,6 +35,14 @@ export function ShopPanel() {
           </div>
           <div>Markup</div>
           <div>{shop()?.['Markup%']}%</div>
+          <div>Location</div>
+          <div>
+            {shop()?.AssignedTo.map((number) => (
+              <div>
+                <RoomReference number={number} />
+              </div>
+            ))}
+          </div>
         </div>
         <Show when={shop()?.Inventory}>
           <h3 class="my-4">Inventory</h3>

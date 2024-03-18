@@ -6,4 +6,3 @@ export * from './races';
 export * from './classes';
 export * from './armor';
 export * from './weapons';
-export * from './rooms';

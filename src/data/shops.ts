@@ -9,6 +9,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/334"],
     Inventory: [
       { Number: 175, Max: 250, Time: 1, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 2, Amount: 20, Percent: 100 },
@@ -30,6 +31,7 @@ export const shopData: Shop[] = [
     MaxLVL: 500,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/2190"],
   },
   {
     Number: 5,
@@ -39,6 +41,7 @@ export const shopData: Shop[] = [
     MaxLVL: 500,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/355"],
     Inventory: [
       { Number: 64, Max: 32, Time: 240, Amount: 2, Percent: 100 },
       { Number: 65, Max: 25, Time: 240, Amount: 1, Percent: 100 },
@@ -67,6 +70,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["1/306"],
     Inventory: [
       { Number: 14, Max: 25, Time: 180, Amount: 1, Percent: 35 },
       { Number: 24, Max: 24, Time: 180, Amount: 1, Percent: 35 },
@@ -94,6 +98,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/297", "6/1334"],
   },
   {
     Number: 9,
@@ -103,6 +108,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/398"],
     Inventory: [
       { Number: 119, Max: 40, Time: 1, Amount: 3, Percent: 100 },
       { Number: 1340, Max: 32, Time: 1, Amount: 3, Percent: 100 },
@@ -133,6 +139,7 @@ export const shopData: Shop[] = [
     MaxLVL: 2,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/307"],
     Inventory: [
       { Number: 71, Max: 30, Time: 240, Amount: 1, Percent: 100 },
       { Number: 75, Max: 30, Time: 240, Amount: 1, Percent: 100 },
@@ -155,6 +162,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/310"],
     Inventory: [
       { Number: 13, Max: 40, Time: 240, Amount: 1, Percent: 100 },
       { Number: 12, Max: 40, Time: 240, Amount: 1, Percent: 100 },
@@ -178,6 +186,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 1,
+    AssignedTo: ["1/497"],
   },
   {
     Number: 15,
@@ -187,6 +196,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 3,
+    AssignedTo: ["1/499"],
   },
   {
     Number: 16,
@@ -196,6 +206,7 @@ export const shopData: Shop[] = [
     MaxLVL: 2,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/2154"],
     Inventory: [
       { Number: 30, Max: 25, Time: 240, Amount: 1, Percent: 100 },
       { Number: 33, Max: 48, Time: 240, Amount: 1, Percent: 100 },
@@ -213,6 +224,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/354"],
     Inventory: [
       { Number: 87, Max: 30, Time: 240, Amount: 1, Percent: 100 },
       { Number: 89, Max: 30, Time: 240, Amount: 1, Percent: 100 },
@@ -243,6 +255,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 2,
+    AssignedTo: ["1/498"],
   },
   {
     Number: 20,
@@ -252,6 +265,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 6,
+    AssignedTo: ["1/500"],
   },
   {
     Number: 21,
@@ -261,6 +275,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 10,
+    AssignedTo: ["1/384"],
   },
   {
     Number: 22,
@@ -270,6 +285,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 11,
+    AssignedTo: ["1/274"],
   },
   {
     Number: 23,
@@ -279,6 +295,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 13,
+    AssignedTo: ["1/501", "1/504"],
   },
   {
     Number: 24,
@@ -288,6 +305,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 14,
+    AssignedTo: ["1/502"],
   },
   {
     Number: 25,
@@ -297,6 +315,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 8,
+    AssignedTo: ["1/201"],
     Inventory: [{ Number: 3698, Max: 0, Time: 0, Amount: 0, Percent: 0 }],
   },
   {
@@ -307,6 +326,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 7,
+    AssignedTo: ["1/200"],
   },
   {
     Number: 27,
@@ -316,6 +336,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 200,
     ClassRest: 9,
+    AssignedTo: ["1/852"],
     Inventory: [
       { Number: 225, Max: 20, Time: 480, Amount: 1, Percent: 50 },
       { Number: 529, Max: 15, Time: 480, Amount: 1, Percent: 45 },
@@ -338,6 +359,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 12,
+    AssignedTo: ["1/399"],
   },
   {
     Number: 29,
@@ -347,6 +369,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 5,
+    AssignedTo: ["1/526"],
   },
   {
     Number: 30,
@@ -356,6 +379,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 4,
+    AssignedTo: ["1/523"],
   },
   {
     Number: 31,
@@ -365,6 +389,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 15,
+    AssignedTo: ["1/333"],
   },
   {
     Number: 32,
@@ -374,6 +399,7 @@ export const shopData: Shop[] = [
     MaxLVL: 2,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/522"],
     Inventory: [
       { Number: 130, Max: 50, Time: 1, Amount: 3, Percent: 100 },
       { Number: 131, Max: 50, Time: 1, Amount: 3, Percent: 100 },
@@ -405,6 +431,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/290"],
     Inventory: [
       { Number: 161, Max: 72, Time: 240, Amount: 2, Percent: 100 },
       { Number: 162, Max: 68, Time: 240, Amount: 1, Percent: 100 },
@@ -435,6 +462,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/312"],
     Inventory: [
       { Number: 53, Max: 30, Time: 24, Amount: 1, Percent: 70 },
       { Number: 55, Max: 30, Time: 24, Amount: 1, Percent: 70 },
@@ -449,6 +477,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/1314"],
     Inventory: [
       { Number: 142, Max: 45, Time: 1, Amount: 3, Percent: 100 },
       { Number: 143, Max: 41, Time: 1, Amount: 3, Percent: 100 },
@@ -480,6 +509,7 @@ export const shopData: Shop[] = [
     MaxLVL: 4,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["1/851"],
     Inventory: [
       { Number: 153, Max: 65, Time: 1, Amount: 3, Percent: 100 },
       { Number: 154, Max: 60, Time: 24, Amount: 3, Percent: 100 },
@@ -509,6 +539,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/1376", "1/2147"],
   },
   {
     Number: 39,
@@ -518,6 +549,7 @@ export const shopData: Shop[] = [
     MaxLVL: 999,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["4/1", "1/289"],
   },
   {
     Number: 40,
@@ -527,6 +559,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/309"],
     Inventory: [
       { Number: 275, Max: 72, Time: 240, Amount: 2, Percent: 100 },
       { Number: 9, Max: 60, Time: 240, Amount: 2, Percent: 100 },
@@ -548,6 +581,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/2153"],
     Inventory: [
       { Number: 57, Max: 52, Time: 240, Amount: 1, Percent: 35 },
       { Number: 58, Max: 45, Time: 240, Amount: 1, Percent: 35 },
@@ -569,6 +603,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/332"],
     Inventory: [
       { Number: 284, Max: 125, Time: 240, Amount: 2, Percent: 100 },
       { Number: 285, Max: 30, Time: 720, Amount: 1, Percent: 5 },
@@ -600,6 +635,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["1/305"],
     Inventory: [
       { Number: 34, Max: 30, Time: 240, Amount: 2, Percent: 100 },
       { Number: 35, Max: 30, Time: 240, Amount: 2, Percent: 100 },
@@ -631,6 +667,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 150,
     ClassRest: 0,
+    AssignedTo: ["1/2307"],
     Inventory: [
       { Number: 130, Max: 35, Time: 0, Amount: 3, Percent: 100 },
       { Number: 133, Max: 30, Time: 24, Amount: 3, Percent: 100 },
@@ -662,6 +699,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/2141"],
     Inventory: [
       { Number: 100, Max: 31, Time: 1, Amount: 30, Percent: 100 },
       { Number: 90, Max: 30, Time: 1, Amount: 30, Percent: 100 },
@@ -675,6 +713,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/2142"],
     Inventory: [
       { Number: 332, Max: 35, Time: 1, Amount: 30, Percent: 100 },
       { Number: 333, Max: 35, Time: 1, Amount: 30, Percent: 100 },
@@ -691,6 +730,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/2145"],
     Inventory: [
       { Number: 175, Max: 820, Time: 1, Amount: 100, Percent: 100 },
       { Number: 176, Max: 63, Time: 1, Amount: 50, Percent: 100 },
@@ -704,6 +744,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/2144"],
     Inventory: [
       { Number: 119, Max: 120, Time: 1, Amount: 5, Percent: 100 },
       { Number: 120, Max: 100, Time: 240, Amount: 4, Percent: 100 },
@@ -729,6 +770,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 1,
+    AssignedTo: ["1/2231"],
   },
   {
     Number: 50,
@@ -738,6 +780,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 2,
+    AssignedTo: ["1/2236"],
   },
   {
     Number: 51,
@@ -747,6 +790,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 15,
+    AssignedTo: ["1/2240"],
   },
   {
     Number: 52,
@@ -756,6 +800,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 14,
+    AssignedTo: ["1/2241"],
   },
   {
     Number: 53,
@@ -765,6 +810,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 5,
+    AssignedTo: ["1/2256"],
   },
   {
     Number: 54,
@@ -774,6 +820,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 4,
+    AssignedTo: ["1/2258"],
   },
   {
     Number: 55,
@@ -783,6 +830,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 3,
+    AssignedTo: ["1/2260"],
   },
   {
     Number: 56,
@@ -792,6 +840,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 6,
+    AssignedTo: ["1/2262"],
   },
   {
     Number: 57,
@@ -801,6 +850,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 7,
+    AssignedTo: ["1/2273"],
   },
   {
     Number: 58,
@@ -810,6 +860,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 8,
+    AssignedTo: ["1/2275"],
   },
   {
     Number: 59,
@@ -819,6 +870,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 9,
+    AssignedTo: ["1/2278"],
   },
   {
     Number: 60,
@@ -828,6 +880,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 10,
+    AssignedTo: ["1/2300"],
   },
   {
     Number: 61,
@@ -837,6 +890,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 11,
+    AssignedTo: ["1/2301"],
   },
   {
     Number: 62,
@@ -846,6 +900,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 12,
+    AssignedTo: ["1/2302"],
   },
   {
     Number: 63,
@@ -855,6 +910,7 @@ export const shopData: Shop[] = [
     MaxLVL: 11,
     "Markup%": 500,
     ClassRest: 13,
+    AssignedTo: ["1/2303"],
   },
   {
     Number: 64,
@@ -864,6 +920,7 @@ export const shopData: Shop[] = [
     MaxLVL: 20,
     "Markup%": 2500,
     ClassRest: 0,
+    AssignedTo: ["1/2305"],
   },
   {
     Number: 65,
@@ -873,6 +930,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/2306"],
     Inventory: [
       { Number: 317, Max: 5, Time: 48, Amount: 1, Percent: 25 },
       { Number: 318, Max: 5, Time: 48, Amount: 1, Percent: 25 },
@@ -904,6 +962,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/2308"],
     Inventory: [
       { Number: 363, Max: 15, Time: 240, Amount: 1, Percent: 10 },
       { Number: 364, Max: 10, Time: 240, Amount: 1, Percent: 5 },
@@ -932,6 +991,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 175,
     ClassRest: 0,
+    AssignedTo: ["1/2324"],
     Inventory: [
       { Number: 1337, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 179, Max: 12, Time: 480, Amount: 1, Percent: 10 },
@@ -962,6 +1022,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/525"],
     Inventory: [
       { Number: 400, Max: 3, Time: 240, Amount: 1, Percent: 10 },
       { Number: 406, Max: 10, Time: 0, Amount: 0, Percent: 0 },
@@ -990,6 +1051,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["7/1136"],
     Inventory: [
       { Number: 179, Max: 15, Time: 480, Amount: 1, Percent: 50 },
       { Number: 202, Max: 5, Time: 720, Amount: 1, Percent: 3 },
@@ -1021,6 +1083,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/2328"],
     Inventory: [
       { Number: 419, Max: 10, Time: 240, Amount: 1, Percent: 4 },
       { Number: 1857, Max: 10, Time: 240, Amount: 1, Percent: 8 },
@@ -1048,6 +1111,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/2330"],
     Inventory: [
       { Number: 3315, Max: 5, Time: 240, Amount: 1, Percent: 10 },
       { Number: 3227, Max: 5, Time: 240, Amount: 1, Percent: 10 },
@@ -1079,6 +1143,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/2329"],
     Inventory: [
       { Number: 1069, Max: 10, Time: 360, Amount: 1, Percent: 6 },
       { Number: 877, Max: 10, Time: 0, Amount: 0, Percent: 0 },
@@ -1098,6 +1163,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/2334"],
     Inventory: [
       { Number: 550, Max: 10, Time: 48, Amount: 1, Percent: 20 },
       { Number: 551, Max: 10, Time: 48, Amount: 1, Percent: 20 },
@@ -1122,6 +1188,7 @@ export const shopData: Shop[] = [
     MaxLVL: 50,
     "Markup%": 6000,
     ClassRest: 0,
+    AssignedTo: ["10/271", "3/542"],
   },
   {
     Number: 75,
@@ -1131,6 +1198,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["10/273"],
     Inventory: [
       { Number: 554, Max: 30, Time: 8, Amount: 1, Percent: 15 },
       { Number: 555, Max: 30, Time: 8, Amount: 1, Percent: 15 },
@@ -1162,6 +1230,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/159"],
     Inventory: [
       { Number: 208, Max: 30, Time: 240, Amount: 1, Percent: 100 },
       { Number: 591, Max: 30, Time: 240, Amount: 1, Percent: 75 },
@@ -1182,6 +1251,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["2/2562"],
     Inventory: [
       { Number: 68, Max: 40, Time: 240, Amount: 2, Percent: 100 },
       { Number: 67, Max: 35, Time: 240, Amount: 2, Percent: 100 },
@@ -1213,6 +1283,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["2/2567"],
     Inventory: [
       { Number: 12, Max: 50, Time: 240, Amount: 2, Percent: 100 },
       { Number: 23, Max: 50, Time: 240, Amount: 2, Percent: 100 },
@@ -1242,6 +1313,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["2/2566"],
     Inventory: [
       { Number: 3545, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3546, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -1273,6 +1345,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["2/2574"],
     Inventory: [
       { Number: 274, Max: 50, Time: 240, Amount: 1, Percent: 100 },
       { Number: 20, Max: 50, Time: 240, Amount: 1, Percent: 100 },
@@ -1303,6 +1376,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["2/2563"],
     Inventory: [
       { Number: 208, Max: 30, Time: 480, Amount: 1, Percent: 50 },
       { Number: 591, Max: 20, Time: 480, Amount: 1, Percent: 25 },
@@ -1321,6 +1395,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["2/2561"],
     Inventory: [
       { Number: 46, Max: 10, Time: 720, Amount: 1, Percent: 25 },
       { Number: 366, Max: 12, Time: 720, Amount: 1, Percent: 50 },
@@ -1352,6 +1427,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["2/2568"],
   },
   {
     Number: 84,
@@ -1361,6 +1437,7 @@ export const shopData: Shop[] = [
     MaxLVL: 30,
     "Markup%": 6000,
     ClassRest: 0,
+    AssignedTo: ["2/2570"],
   },
   {
     Number: 85,
@@ -1370,6 +1447,15 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: [
+      "1/164",
+      "3/788",
+      "8/1407",
+      "9/1432",
+      "1/2780",
+      "6/3275",
+      "1/3347",
+    ],
     Inventory: [
       { Number: 657, Max: 1000, Time: 480, Amount: 10, Percent: 100 },
       { Number: 1964, Max: 1, Time: 480, Amount: 1, Percent: 100 },
@@ -1383,6 +1469,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 400,
     ClassRest: 0,
+    AssignedTo: ["17/580", "1/1813"],
     Inventory: [
       { Number: 691, Max: 100, Time: 2, Amount: 10, Percent: 100 },
       { Number: 690, Max: 250, Time: 2, Amount: 25, Percent: 100 },
@@ -1397,6 +1484,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 150,
     ClassRest: 0,
+    AssignedTo: ["3/541"],
     Inventory: [
       { Number: 731, Max: 30, Time: 240, Amount: 1, Percent: 100 },
       { Number: 290, Max: 100, Time: 240, Amount: 100, Percent: 100 },
@@ -1428,6 +1516,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["1/168", "1/2337"],
     Inventory: [
       { Number: 113, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 167, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -1459,6 +1548,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["1/169", "1/291"],
     Inventory: [
       { Number: 203, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 541, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -1490,6 +1580,7 @@ export const shopData: Shop[] = [
     MaxLVL: 54,
     "Markup%": 9999,
     ClassRest: 0,
+    AssignedTo: ["8/1041"],
   },
   {
     Number: 91,
@@ -1499,6 +1590,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["8/486"],
     Inventory: [
       { Number: 176, Max: 50, Time: 240, Amount: 1, Percent: 100 },
       { Number: 1854, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -1530,6 +1622,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["6/126"],
     Inventory: [
       { Number: 290, Max: 1000, Time: 240, Amount: 100, Percent: 100 },
       { Number: 291, Max: 1000, Time: 240, Amount: 100, Percent: 100 },
@@ -1561,6 +1654,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/124"],
     Inventory: [
       { Number: 191, Max: 50, Time: 240, Amount: 1, Percent: 100 },
       { Number: 925, Max: 30, Time: 240, Amount: 5, Percent: 100 },
@@ -1581,6 +1675,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/645"],
     Inventory: [
       { Number: 223, Max: 25, Time: 240, Amount: 1, Percent: 100 },
       { Number: 269, Max: 18, Time: 240, Amount: 1, Percent: 100 },
@@ -1598,6 +1693,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/567"],
     Inventory: [
       { Number: 881, Max: 100, Time: 240, Amount: 1, Percent: 100 },
       { Number: 882, Max: 100, Time: 240, Amount: 1, Percent: 100 },
@@ -1628,6 +1724,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/566"],
     Inventory: [
       { Number: 282, Max: 100, Time: 240, Amount: 10, Percent: 100 },
       { Number: 191, Max: 50, Time: 240, Amount: 1, Percent: 100 },
@@ -1645,6 +1742,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1335"],
     Inventory: [
       { Number: 175, Max: 500, Time: 240, Amount: 100, Percent: 100 },
       { Number: 176, Max: 100, Time: 240, Amount: 10, Percent: 100 },
@@ -1665,6 +1763,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1337"],
     Inventory: [
       { Number: 419, Max: 5, Time: 240, Amount: 1, Percent: 5 },
       { Number: 1857, Max: 5, Time: 240, Amount: 1, Percent: 5 },
@@ -1696,6 +1795,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1336"],
     Inventory: [
       { Number: 71, Max: 100, Time: 240, Amount: 10, Percent: 100 },
       { Number: 75, Max: 100, Time: 240, Amount: 10, Percent: 100 },
@@ -1721,6 +1821,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1344"],
     Inventory: [
       { Number: 295, Max: 25, Time: 240, Amount: 5, Percent: 100 },
       { Number: 864, Max: 25, Time: 240, Amount: 5, Percent: 100 },
@@ -1742,6 +1843,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1342"],
     Inventory: [
       { Number: 9, Max: 100, Time: 240, Amount: 10, Percent: 100 },
       { Number: 20, Max: 100, Time: 240, Amount: 10, Percent: 100 },
@@ -1763,6 +1865,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1343"],
     Inventory: [
       { Number: 12, Max: 50, Time: 240, Amount: 5, Percent: 100 },
       { Number: 23, Max: 50, Time: 240, Amount: 5, Percent: 100 },
@@ -1792,6 +1895,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1346"],
     Inventory: [
       { Number: 892, Max: 100, Time: 240, Amount: 10, Percent: 100 },
       { Number: 893, Max: 100, Time: 240, Amount: 10, Percent: 100 },
@@ -1821,6 +1925,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1328"],
     Inventory: [
       { Number: 924, Max: 1000, Time: 240, Amount: 100, Percent: 100 },
     ],
@@ -1833,6 +1938,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1332"],
     Inventory: [
       { Number: 290, Max: 1000, Time: 240, Amount: 100, Percent: 100 },
       { Number: 291, Max: 1000, Time: 240, Amount: 100, Percent: 100 },
@@ -1850,6 +1956,7 @@ export const shopData: Shop[] = [
     MaxLVL: 30,
     "Markup%": 4000,
     ClassRest: 0,
+    AssignedTo: ["6/1352"],
   },
   {
     Number: 111,
@@ -1859,6 +1966,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["12/49"],
     Inventory: [
       { Number: 72, Max: 20, Time: 240, Amount: 1, Percent: 100 },
       { Number: 105, Max: 45, Time: 240, Amount: 1, Percent: 100 },
@@ -1887,6 +1995,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["12/52"],
     Inventory: [
       { Number: 924, Max: 100, Time: 240, Amount: 100, Percent: 100 },
       { Number: 1121, Max: 100, Time: 240, Amount: 100, Percent: 100 },
@@ -1903,6 +2012,7 @@ export const shopData: Shop[] = [
     MaxLVL: 75,
     "Markup%": 9999,
     ClassRest: 0,
+    AssignedTo: ["14/1792", "12/2249"],
   },
   {
     Number: 114,
@@ -1912,6 +2022,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["16/317"],
     Inventory: [
       { Number: 1192, Max: 10, Time: 400, Amount: 2, Percent: 5 },
       { Number: 1193, Max: 10, Time: 350, Amount: 2, Percent: 5 },
@@ -1943,6 +2054,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["16/318"],
     Inventory: [
       { Number: 1184, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1218, Max: 3, Time: 500, Amount: 1, Percent: 2 },
@@ -1972,6 +2084,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["16/320"],
   },
   {
     Number: 117,
@@ -1981,6 +2094,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["16/330"],
     Inventory: [
       { Number: 1201, Max: 5, Time: 200, Amount: 2, Percent: 10 },
       { Number: 1202, Max: 3, Time: 500, Amount: 1, Percent: 5 },
@@ -2003,6 +2117,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["16/331"],
     Inventory: [
       { Number: 1189, Max: 5, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1190, Max: 10, Time: 100, Amount: 2, Percent: 10 },
@@ -2027,6 +2142,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 400,
     ClassRest: 0,
+    AssignedTo: ["16/329"],
     Inventory: [
       { Number: 1195, Max: 5, Time: 280, Amount: 1, Percent: 7 },
       { Number: 1196, Max: 5, Time: 300, Amount: 1, Percent: 7 },
@@ -2055,6 +2171,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 400,
     ClassRest: 0,
+    AssignedTo: ["16/434"],
     Inventory: [
       { Number: 1220, Max: 8, Time: 260, Amount: 1, Percent: 10 },
       { Number: 1221, Max: 8, Time: 250, Amount: 1, Percent: 8 },
@@ -2075,6 +2192,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 150,
     ClassRest: 0,
+    AssignedTo: ["16/435"],
     Inventory: [
       { Number: 175, Max: 600, Time: 240, Amount: 55, Percent: 100 },
       { Number: 176, Max: 600, Time: 240, Amount: 55, Percent: 100 },
@@ -2092,6 +2210,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["16/2663"],
     Inventory: [
       { Number: 1294, Max: 2, Time: 0, Amount: 100, Percent: 100 },
       { Number: 1293, Max: 5, Time: 1, Amount: 24, Percent: 100 },
@@ -2123,6 +2242,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["1/1809"],
   },
   {
     Number: 124,
@@ -2132,6 +2252,7 @@ export const shopData: Shop[] = [
     MaxLVL: 9999,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["15/732"],
     Inventory: [
       { Number: 1008, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1009, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -2153,6 +2274,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/861"],
   },
   {
     Number: 126,
@@ -2162,6 +2284,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/875"],
   },
   {
     Number: 127,
@@ -2171,6 +2294,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/890"],
   },
   {
     Number: 128,
@@ -2180,6 +2304,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/902"],
   },
   {
     Number: 129,
@@ -2189,6 +2314,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/919"],
   },
   {
     Number: 130,
@@ -2198,6 +2324,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/946"],
   },
   {
     Number: 131,
@@ -2207,6 +2334,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/948"],
   },
   {
     Number: 134,
@@ -2216,6 +2344,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/968"],
   },
   {
     Number: 135,
@@ -2225,6 +2354,7 @@ export const shopData: Shop[] = [
     MaxLVL: 52,
     "Markup%": 9999,
     ClassRest: 0,
+    AssignedTo: ["16/384"],
   },
   {
     Number: 136,
@@ -2234,6 +2364,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/973"],
   },
   {
     Number: 137,
@@ -2243,6 +2374,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/974"],
   },
   {
     Number: 138,
@@ -2252,6 +2384,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/975"],
   },
   {
     Number: 139,
@@ -2261,6 +2394,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/976"],
   },
   {
     Number: 140,
@@ -2270,6 +2404,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/977"],
   },
   {
     Number: 141,
@@ -2279,6 +2414,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/978"],
   },
   {
     Number: 142,
@@ -2288,6 +2424,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/979"],
   },
   {
     Number: 143,
@@ -2297,6 +2434,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/980"],
   },
   {
     Number: 144,
@@ -2306,6 +2444,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/981"],
   },
   {
     Number: 145,
@@ -2315,6 +2454,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["15/982"],
   },
   {
     Number: 146,
@@ -2324,6 +2464,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["1/536"],
     Inventory: [
       { Number: 347, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 348, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -2355,6 +2496,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["1/39"],
     Inventory: [
       { Number: 821, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 822, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -2386,6 +2528,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["1/40"],
     Inventory: [
       { Number: 1170, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1172, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -2416,6 +2559,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["6/1338"],
     Inventory: [
       { Number: 845, Max: 5, Time: 4, Amount: 1, Percent: 10 },
       { Number: 1998, Max: 5, Time: 4, Amount: 1, Percent: 10 },
@@ -2433,6 +2577,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["17/2438"],
     Inventory: [
       { Number: 1651, Max: 10, Time: 10, Amount: 10, Percent: 100 },
       { Number: 1652, Max: 10, Time: 10, Amount: 10, Percent: 100 },
@@ -2464,6 +2609,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["17/2440"],
     Inventory: [
       { Number: 1843, Max: 6, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1676, Max: 6, Time: 0, Amount: 0, Percent: 0 },
@@ -2495,6 +2641,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["17/2439"],
     Inventory: [
       { Number: 3654, Max: 6, Time: 120, Amount: 1, Percent: 10 },
       { Number: 176, Max: 25, Time: 120, Amount: 1, Percent: 50 },
@@ -2526,6 +2673,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["1/205"],
     Inventory: [
       { Number: 970, Max: 10, Time: 120, Amount: 1, Percent: 10 },
       { Number: 293, Max: 10, Time: 120, Amount: 1, Percent: 10 },
@@ -2542,6 +2690,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["17/2433"],
     Inventory: [
       { Number: 1658, Max: 1, Time: 12, Amount: 1, Percent: 50 },
       { Number: 1659, Max: 1, Time: 24, Amount: 1, Percent: 50 },
@@ -2561,6 +2710,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["17/2436", "17/2471"],
     Inventory: [
       { Number: 208, Max: 5, Time: 240, Amount: 1, Percent: 25 },
       { Number: 591, Max: 5, Time: 240, Amount: 1, Percent: 25 },
@@ -2584,6 +2734,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["17/2435"],
   },
   {
     Number: 158,
@@ -2593,6 +2744,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["17/2441"],
     Inventory: [
       { Number: 290, Max: 100, Time: 5, Amount: 25, Percent: 55 },
       { Number: 291, Max: 100, Time: 5, Amount: 25, Percent: 55 },
@@ -2612,6 +2764,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 1000,
     ClassRest: 0,
+    AssignedTo: ["17/776"],
     Inventory: [
       { Number: 1450, Max: 10, Time: 1, Amount: 10, Percent: 5 },
       { Number: 1451, Max: 10, Time: 1, Amount: 10, Percent: 5 },
@@ -2640,6 +2793,7 @@ export const shopData: Shop[] = [
     MaxLVL: 999,
     "Markup%": 12000,
     ClassRest: 0,
+    AssignedTo: ["12/2381", "17/2867"],
   },
   {
     Number: 161,
@@ -2649,6 +2803,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 420,
     ClassRest: 0,
+    AssignedTo: ["1/239"],
     Inventory: [
       { Number: 486, Max: 200, Time: 360, Amount: 3, Percent: 5 },
       { Number: 3222, Max: 200, Time: 360, Amount: 3, Percent: 5 },
@@ -2679,6 +2834,7 @@ export const shopData: Shop[] = [
     MaxLVL: 85,
     "Markup%": 9000,
     ClassRest: 0,
+    AssignedTo: ["17/2940"],
   },
   {
     Number: 163,
@@ -2688,6 +2844,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/1567"],
     Inventory: [
       { Number: 942, Max: 100, Time: 240, Amount: 10, Percent: 100 },
       { Number: 936, Max: 50, Time: 240, Amount: 5, Percent: 100 },
@@ -2706,6 +2863,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 250,
     ClassRest: 0,
+    AssignedTo: ["1/311", "1/315"],
     Inventory: [
       { Number: 290, Max: 10, Time: 2, Amount: 10, Percent: 100 },
       { Number: 291, Max: 10, Time: 2, Amount: 10, Percent: 100 },
@@ -2723,6 +2881,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/3304"],
     Inventory: [
       { Number: 1005, Max: 10, Time: 360, Amount: 1, Percent: 4 },
       { Number: 523, Max: 10, Time: 360, Amount: 1, Percent: 10 },
@@ -2752,6 +2911,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/3305"],
     Inventory: [
       { Number: 459, Max: 10, Time: 360, Amount: 1, Percent: 10 },
       { Number: 461, Max: 10, Time: 360, Amount: 1, Percent: 6 },
@@ -2774,6 +2934,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/3303"],
     Inventory: [
       { Number: 752, Max: 10, Time: 240, Amount: 1, Percent: 6 },
       { Number: 753, Max: 10, Time: 240, Amount: 1, Percent: 6 },
@@ -2804,6 +2965,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/3302"],
     Inventory: [
       { Number: 3380, Max: 10, Time: 240, Amount: 1, Percent: 6 },
       { Number: 3382, Max: 10, Time: 240, Amount: 0, Percent: 0 },
@@ -2834,6 +2996,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/3306"],
     Inventory: [
       { Number: 423, Max: 10, Time: 240, Amount: 1, Percent: 6 },
       { Number: 424, Max: 10, Time: 240, Amount: 1, Percent: 10 },
@@ -2859,6 +3022,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["1/3307"],
     Inventory: [
       { Number: 407, Max: 10, Time: 240, Amount: 1, Percent: 10 },
       { Number: 1006, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -2882,6 +3046,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/3308"],
     Inventory: [
       { Number: 324, Max: 10, Time: 56, Amount: 1, Percent: 25 },
       { Number: 326, Max: 10, Time: 56, Amount: 1, Percent: 25 },
@@ -2908,6 +3073,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/3309"],
     Inventory: [
       { Number: 317, Max: 10, Time: 56, Amount: 1, Percent: 15 },
       { Number: 318, Max: 10, Time: 56, Amount: 1, Percent: 15 },
@@ -2936,6 +3102,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/516"],
     Inventory: [
       { Number: 1309, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1310, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -2967,6 +3134,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/271"],
     Inventory: [
       { Number: 1520, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1000, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -2993,6 +3161,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/263"],
     Inventory: [
       { Number: 3349, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3350, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -3024,6 +3193,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/537"],
     Inventory: [
       { Number: 3335, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3336, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -3055,6 +3225,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/529"],
     Inventory: [
       { Number: 3281, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3282, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -3086,6 +3257,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["1/530"],
     Inventory: [
       { Number: 3286, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3287, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -3117,6 +3289,7 @@ export const shopData: Shop[] = [
     MaxLVL: 999,
     "Markup%": 32760,
     ClassRest: 0,
+    AssignedTo: ["12/2382"],
   },
   {
     Number: 182,
@@ -3126,6 +3299,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 1900,
     ClassRest: 0,
+    AssignedTo: ["17/3247"],
     Inventory: [{ Number: 1975, Max: 3, Time: 60, Amount: 3, Percent: 100 }],
   },
   {
@@ -3136,6 +3310,7 @@ export const shopData: Shop[] = [
     MaxLVL: 2,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["1/2437"],
     Inventory: [
       { Number: 412, Max: 10, Time: 240, Amount: 1, Percent: 10 },
       { Number: 1194, Max: 10, Time: 240, Amount: 1, Percent: 10 },
@@ -3163,6 +3338,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["17/3357"],
     Inventory: [
       { Number: 3271, Max: 3, Time: 720, Amount: 1, Percent: 20 },
       { Number: 3272, Max: 3, Time: 720, Amount: 1, Percent: 20 },
@@ -3194,6 +3370,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["14/1", "14/267"],
   },
   {
     Number: 186,
@@ -3203,6 +3380,7 @@ export const shopData: Shop[] = [
     MaxLVL: 85,
     "Markup%": 12000,
     ClassRest: 0,
+    AssignedTo: ["5/282"],
   },
   {
     Number: 188,
@@ -3212,6 +3390,7 @@ export const shopData: Shop[] = [
     MaxLVL: 85,
     "Markup%": 12000,
     ClassRest: 9,
+    AssignedTo: ["5/787"],
   },
   {
     Number: 196,
@@ -3221,6 +3400,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/272"],
     Inventory: [
       { Number: 732, Max: 30, Time: 240, Amount: 1, Percent: 100 },
       { Number: 2224, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -3234,6 +3414,7 @@ export const shopData: Shop[] = [
     MaxLVL: 2,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/276"],
   },
   {
     Number: 198,
@@ -3243,6 +3424,7 @@ export const shopData: Shop[] = [
     MaxLVL: 10,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/140"],
   },
   {
     Number: 199,
@@ -3252,6 +3434,7 @@ export const shopData: Shop[] = [
     MaxLVL: 500,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/274"],
     Inventory: [
       { Number: 3703, Max: 10, Time: 240, Amount: 1, Percent: 100 },
       { Number: 1436, Max: 5, Time: 240, Amount: 1, Percent: 100 },
@@ -3268,6 +3451,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/296"],
     Inventory: [
       { Number: 2195, Max: 25, Time: 240, Amount: 2, Percent: 100 },
       { Number: 2194, Max: 25, Time: 240, Amount: 1, Percent: 100 },
@@ -3289,6 +3473,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/297"],
     Inventory: [
       { Number: 2190, Max: 25, Time: 180, Amount: 1, Percent: 35 },
       { Number: 2191, Max: 24, Time: 180, Amount: 1, Percent: 35 },
@@ -3306,6 +3491,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/129"],
     Inventory: [
       { Number: 2213, Max: 25, Time: 180, Amount: 1, Percent: 35 },
       { Number: 2214, Max: 24, Time: 180, Amount: 1, Percent: 35 },
@@ -3322,6 +3508,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/130"],
     Inventory: [
       { Number: 2207, Max: 25, Time: 180, Amount: 1, Percent: 35 },
       { Number: 2208, Max: 24, Time: 180, Amount: 1, Percent: 35 },
@@ -3338,6 +3525,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/131"],
     Inventory: [
       { Number: 2212, Max: 25, Time: 180, Amount: 1, Percent: 35 },
       { Number: 2218, Max: 24, Time: 180, Amount: 1, Percent: 35 },
@@ -3351,6 +3539,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/142"],
     Inventory: [
       { Number: 208, Max: 5, Time: 240, Amount: 1, Percent: 25 },
       { Number: 591, Max: 5, Time: 240, Amount: 1, Percent: 25 },
@@ -3373,6 +3562,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/533"],
   },
   {
     Number: 208,
@@ -3382,6 +3572,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/532"],
   },
   {
     Number: 209,
@@ -3391,6 +3582,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/531"],
   },
   {
     Number: 210,
@@ -3400,6 +3592,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/249"],
     Inventory: [
       { Number: 2219, Max: 10, Time: 24, Amount: 1, Percent: 70 },
       { Number: 2227, Max: 5, Time: 24, Amount: 1, Percent: 70 },
@@ -3413,6 +3606,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/250"],
   },
   {
     Number: 213,
@@ -3422,6 +3616,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["5/330"],
   },
   {
     Number: 214,
@@ -3431,6 +3626,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/327"],
   },
   {
     Number: 215,
@@ -3440,6 +3636,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/211"],
     Inventory: [
       { Number: 400, Max: 12, Time: 240, Amount: 1, Percent: 10 },
       { Number: 406, Max: 10, Time: 0, Amount: 0, Percent: 0 },
@@ -3463,6 +3660,17 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: [
+      "14/246",
+      "14/247",
+      "14/248",
+      "14/1806",
+      "14/1807",
+      "14/1808",
+      "14/1809",
+      "14/1810",
+      "14/1811",
+    ],
     Inventory: [
       { Number: 290, Max: 10, Time: 2, Amount: 10, Percent: 100 },
       { Number: 291, Max: 10, Time: 2, Amount: 10, Percent: 100 },
@@ -3484,6 +3692,22 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: [
+      "14/237",
+      "14/238",
+      "14/326",
+      "14/327",
+      "14/328",
+      "14/1725",
+      "14/1726",
+      "14/1727",
+      "14/1794",
+      "14/1795",
+      "14/1796",
+      "14/1797",
+      "14/8756",
+      "14/8757",
+    ],
     Inventory: [
       { Number: 290, Max: 10, Time: 2, Amount: 10, Percent: 100 },
       { Number: 291, Max: 10, Time: 2, Amount: 10, Percent: 100 },
@@ -3506,6 +3730,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/239"],
     Inventory: [
       { Number: 53, Max: 30, Time: 24, Amount: 15, Percent: 70 },
       { Number: 55, Max: 20, Time: 24, Amount: 10, Percent: 70 },
@@ -3524,6 +3749,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/249"],
     Inventory: [
       { Number: 175, Max: 250, Time: 120, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 120, Amount: 20, Percent: 100 },
@@ -3544,6 +3770,7 @@ export const shopData: Shop[] = [
     MaxLVL: 500,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/300"],
     Inventory: [
       { Number: 3009, Max: 32, Time: 240, Amount: 2, Percent: 100 },
       { Number: 3018, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -3564,6 +3791,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/301"],
     Inventory: [
       { Number: 419, Max: 5, Time: 240, Amount: 1, Percent: 5 },
       { Number: 1857, Max: 5, Time: 240, Amount: 1, Percent: 5 },
@@ -3595,6 +3823,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["14/302"],
     Inventory: [
       { Number: 3021, Max: 10, Time: 320, Amount: 1, Percent: 15 },
       { Number: 3024, Max: 10, Time: 320, Amount: 1, Percent: 15 },
@@ -3614,6 +3843,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/306"],
   },
   {
     Number: 224,
@@ -3623,6 +3853,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["14/324"],
     Inventory: [
       { Number: 3022, Max: 6, Time: 400, Amount: 1, Percent: 3 },
       { Number: 3023, Max: 6, Time: 400, Amount: 1, Percent: 3 },
@@ -3638,6 +3869,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/317"],
     Inventory: [
       { Number: 854, Max: 5, Time: 520, Amount: 1, Percent: 10 },
       { Number: 412, Max: 10, Time: 550, Amount: 1, Percent: 15 },
@@ -3663,6 +3895,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/318"],
     Inventory: [
       { Number: 3350, Max: 12, Time: 240, Amount: 1, Percent: 15 },
       { Number: 3349, Max: 12, Time: 240, Amount: 1, Percent: 15 },
@@ -3688,6 +3921,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/323"],
   },
   {
     Number: 228,
@@ -3697,6 +3931,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/325"],
   },
   {
     Number: 229,
@@ -3706,6 +3941,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["14/319"],
     Inventory: [
       { Number: 1721, Max: 5, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1722, Max: 5, Time: 0, Amount: 0, Percent: 0 },
@@ -3722,6 +3958,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/322"],
     Inventory: [{ Number: 2157, Max: 5, Time: 520, Amount: 1, Percent: 10 }],
   },
   {
@@ -3732,6 +3969,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/321"],
   },
   {
     Number: 232,
@@ -3741,6 +3979,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 275,
     ClassRest: 0,
+    AssignedTo: ["14/320"],
     Inventory: [
       { Number: 1716, Max: 5, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1717, Max: 5, Time: 0, Amount: 0, Percent: 0 },
@@ -3772,6 +4011,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1461"],
     Inventory: [{ Number: 3684, Max: 12, Time: 240, Amount: 1, Percent: 10 }],
   },
   {
@@ -3782,6 +4022,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1462"],
     Inventory: [
       { Number: 465, Max: 100, Time: 100, Amount: 10, Percent: 25 },
       { Number: 879, Max: 10, Time: 300, Amount: 2, Percent: 5 },
@@ -3804,6 +4045,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1722"],
     Inventory: [
       { Number: 204, Max: 300, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3802, Max: 3, Time: 0, Amount: 0, Percent: 0 },
@@ -3835,6 +4077,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1723"],
     Inventory: [{ Number: 3805, Max: 3, Time: 0, Amount: 0, Percent: 0 }],
   },
   {
@@ -3845,6 +4088,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1766"],
     Inventory: [
       { Number: 1707, Max: 10, Time: 120, Amount: 1, Percent: 10 },
       { Number: 1864, Max: 10, Time: 120, Amount: 1, Percent: 10 },
@@ -3874,6 +4118,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1769"],
     Inventory: [
       { Number: 860, Max: 10, Time: 120, Amount: 1, Percent: 10 },
       { Number: 3380, Max: 10, Time: 120, Amount: 1, Percent: 10 },
@@ -3900,6 +4145,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1767"],
     Inventory: [
       { Number: 62, Max: 15, Time: 120, Amount: 1, Percent: 10 },
       { Number: 370, Max: 15, Time: 120, Amount: 1, Percent: 10 },
@@ -3926,6 +4172,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1768"],
     Inventory: [
       { Number: 423, Max: 10, Time: 240, Amount: 1, Percent: 50 },
       { Number: 3762, Max: 5, Time: 0, Amount: 0, Percent: 0 },
@@ -3939,6 +4186,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1770"],
     Inventory: [
       { Number: 1716, Max: 10, Time: 120, Amount: 1, Percent: 10 },
       { Number: 1717, Max: 10, Time: 120, Amount: 1, Percent: 10 },
@@ -3967,6 +4215,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1771"],
     Inventory: [
       { Number: 1518, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3601, Max: 2, Time: 0, Amount: 0, Percent: 0 },
@@ -3983,6 +4232,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 150,
     ClassRest: 0,
+    AssignedTo: ["14/1772"],
     Inventory: [
       { Number: 1848, Max: 10, Time: 120, Amount: 1, Percent: 10 },
       { Number: 1849, Max: 10, Time: 120, Amount: 1, Percent: 10 },
@@ -4006,6 +4256,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1773"],
   },
   {
     Number: 245,
@@ -4015,6 +4266,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1774"],
     Inventory: [
       { Number: 3030, Max: 300, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3613, Max: 300, Time: 0, Amount: 0, Percent: 0 },
@@ -4033,6 +4285,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1775"],
   },
   {
     Number: 247,
@@ -4042,6 +4295,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1776"],
     Inventory: [
       { Number: 288, Max: 5, Time: 120, Amount: 1, Percent: 10 },
       { Number: 999, Max: 2, Time: 0, Amount: 0, Percent: 0 },
@@ -4071,6 +4325,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1777"],
   },
   {
     Number: 249,
@@ -4080,6 +4335,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1778"],
   },
   {
     Number: 250,
@@ -4089,6 +4345,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1779"],
   },
   {
     Number: 251,
@@ -4098,6 +4355,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 400,
     ClassRest: 0,
+    AssignedTo: ["14/1780"],
     Inventory: [
       { Number: 216, Max: 25, Time: 120, Amount: 2, Percent: 10 },
       { Number: 1984, Max: 50, Time: 120, Amount: 5, Percent: 10 },
@@ -4127,6 +4385,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1781"],
     Inventory: [
       { Number: 3025, Max: 100, Time: 720, Amount: 1, Percent: 25 },
       { Number: 3026, Max: 100, Time: 0, Amount: 0, Percent: 0 },
@@ -4158,6 +4417,7 @@ export const shopData: Shop[] = [
     MaxLVL: 3,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1782"],
     Inventory: [
       { Number: 3742, Max: 100, Time: 240, Amount: 5, Percent: 100 },
       { Number: 1652, Max: 100, Time: 100, Amount: 5, Percent: 100 },
@@ -4183,6 +4443,7 @@ export const shopData: Shop[] = [
     MaxLVL: 9999,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1786"],
   },
   {
     Number: 255,
@@ -4192,6 +4453,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1793"],
     Inventory: [
       { Number: 175, Max: 250, Time: 2, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 2, Amount: 20, Percent: 100 },
@@ -4211,6 +4473,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1798"],
     Inventory: [
       { Number: 53, Max: 30, Time: 24, Amount: 15, Percent: 70 },
       { Number: 55, Max: 20, Time: 24, Amount: 10, Percent: 70 },
@@ -4229,6 +4492,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["16/432"],
     Inventory: [
       { Number: 3399, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3400, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -4250,6 +4514,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["16/433"],
     Inventory: [
       { Number: 1879, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 1876, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -4281,6 +4546,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 0,
     ClassRest: 0,
+    AssignedTo: ["5/245"],
   },
   {
     Number: 260,
@@ -4290,6 +4556,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["13/2285"],
     Inventory: [
       { Number: 175, Max: 250, Time: 120, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 120, Amount: 20, Percent: 100 },
@@ -4318,6 +4585,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/560"],
     Inventory: [
       { Number: 175, Max: 250, Time: 2, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 2, Amount: 20, Percent: 100 },
@@ -4337,6 +4605,17 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 400,
     ClassRest: 0,
+    AssignedTo: [
+      "14/1837",
+      "14/1923",
+      "14/1924",
+      "14/2340",
+      "14/2453",
+      "14/2575",
+      "14/3799",
+      "14/6804",
+      "14/8179",
+    ],
     Inventory: [
       { Number: 691, Max: 100, Time: 2, Amount: 10, Percent: 100 },
       { Number: 690, Max: 250, Time: 2, Amount: 25, Percent: 100 },
@@ -4351,6 +4630,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 1000,
     ClassRest: 0,
+    AssignedTo: ["14/2048"],
     Inventory: [
       { Number: 175, Max: 250, Time: 120, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 120, Amount: 20, Percent: 100 },
@@ -4366,6 +4646,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1783"],
     Inventory: [
       { Number: 3614, Max: 30, Time: 999, Amount: 0, Percent: 0 },
       { Number: 3615, Max: 30, Time: 999, Amount: 0, Percent: 0 },
@@ -4391,6 +4672,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["14/1785"],
     Inventory: [
       { Number: 898, Max: 300, Time: 240, Amount: 10, Percent: 100 },
       { Number: 899, Max: 300, Time: 240, Amount: 10, Percent: 100 },
@@ -4413,6 +4695,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 2000,
     ClassRest: 0,
+    AssignedTo: ["14/2907"],
     Inventory: [
       { Number: 175, Max: 250, Time: 60, Amount: 50, Percent: 100 },
       { Number: 176, Max: 250, Time: 60, Amount: 50, Percent: 100 },
@@ -4430,6 +4713,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["14/1484"],
     Inventory: [
       { Number: 922, Max: 10, Time: 240, Amount: 1, Percent: 100 },
       { Number: 1650, Max: 5, Time: 240, Amount: 1, Percent: 10 },
@@ -4448,6 +4732,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["17/2424"],
     Inventory: [
       { Number: 3594, Max: 5, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3592, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -4462,6 +4747,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["1/532"],
     Inventory: [
       { Number: 1513, Max: 0, Time: 0, Amount: 0, Percent: 0 },
       { Number: 3647, Max: 0, Time: 0, Amount: 0, Percent: 0 },
@@ -4487,6 +4773,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 500,
     ClassRest: 0,
+    AssignedTo: ["14/1787"],
     Inventory: [
       { Number: 3677, Max: 50, Time: 60, Amount: 3, Percent: 25 },
       { Number: 1662, Max: 10, Time: 240, Amount: 1, Percent: 10 },
@@ -4500,6 +4787,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["10/307"],
     Inventory: [
       { Number: 3682, Max: 30, Time: 252, Amount: 1, Percent: 15 },
       { Number: 3683, Max: 30, Time: 252, Amount: 1, Percent: 15 },
@@ -4516,6 +4804,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 1000,
     ClassRest: 0,
+    AssignedTo: ["14/6813"],
     Inventory: [
       { Number: 175, Max: 250, Time: 60, Amount: 50, Percent: 100 },
       { Number: 176, Max: 250, Time: 60, Amount: 50, Percent: 100 },
@@ -4539,6 +4828,7 @@ export const shopData: Shop[] = [
     MaxLVL: 9999,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["6/565"],
     Inventory: [
       { Number: 2130, Max: 1, Time: 0, Amount: 0, Percent: 0 },
       { Number: 2131, Max: 1, Time: 0, Amount: 0, Percent: 0 },
@@ -4554,6 +4844,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3390"],
   },
   {
     Number: 302,
@@ -4563,6 +4854,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3410"],
   },
   {
     Number: 303,
@@ -4572,6 +4864,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3428"],
   },
   {
     Number: 304,
@@ -4581,6 +4874,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3451"],
   },
   {
     Number: 305,
@@ -4590,6 +4884,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3474"],
   },
   {
     Number: 306,
@@ -4599,6 +4894,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3476"],
   },
   {
     Number: 307,
@@ -4608,6 +4904,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3473"],
   },
   {
     Number: 308,
@@ -4617,6 +4914,7 @@ export const shopData: Shop[] = [
     MaxLVL: 1,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["6/3475"],
   },
   {
     Number: 311,
@@ -4626,6 +4924,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["13/2795"],
     Inventory: [
       { Number: 175, Max: 250, Time: 120, Amount: 50, Percent: 100 },
       { Number: 176, Max: 40, Time: 120, Amount: 20, Percent: 100 },
@@ -4644,6 +4943,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 200,
     ClassRest: 0,
+    AssignedTo: ["13/2796"],
     Inventory: [
       { Number: 1005, Max: 40, Time: 120, Amount: 50, Percent: 100 },
       { Number: 1070, Max: 40, Time: 120, Amount: 20, Percent: 100 },
@@ -4669,6 +4969,7 @@ export const shopData: Shop[] = [
     MaxLVL: 0,
     "Markup%": 300,
     ClassRest: 0,
+    AssignedTo: ["5/1051"],
     Inventory: [
       { Number: 731, Max: 30, Time: 240, Amount: 1, Percent: 100 },
       { Number: 290, Max: 100, Time: 240, Amount: 100, Percent: 100 },
@@ -4700,6 +5001,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["5/490"],
   },
   {
     Number: 316,
@@ -4709,6 +5011,7 @@ export const shopData: Shop[] = [
     MaxLVL: 5,
     "Markup%": 100,
     ClassRest: 0,
+    AssignedTo: ["5/298"],
     Inventory: [{ Number: 2192, Max: 10, Time: 24, Amount: 1, Percent: 70 }],
   },
 ];

@@ -19,7 +19,7 @@ import { MainPage } from './routes/MainPage';
 import { SpellsPage } from './routes/SpellsPage';
 import { RoomsPage } from './routes/RoomsPage';
 
-inject();
+inject({ debug: false });
 
 const root = document.getElementById('root');
 

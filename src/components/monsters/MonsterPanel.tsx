@@ -11,6 +11,7 @@ import { getNumberString } from '../../utils/formatting';
 import { SpellListing } from './SpellListing';
 import { Alignments, MonsterTypes } from '../../utils/data-types';
 import { UnknownReference, WeaponReference } from '../references';
+import { RoomReference } from '../references/RoomReference';
 
 export function MonsterPanel() {
   const params = useParams();
@@ -123,6 +124,13 @@ export function MonsterPanel() {
             {(spell) => <SpellListing spell={spell} />}
           </For>
         </Show>
+
+        <h3 class="my-4">Location</h3>
+        {monster()?.SummonedBy?.map((number) => (
+          <div>
+            <RoomReference number={number} />
+          </div>
+        ))}
       </Show>
     </>
   );

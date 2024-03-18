@@ -3,6 +3,7 @@ import { Item, Weapon } from '../../types';
 import { ShopReference } from './ShopReference';
 import { MonsterReference } from './MonsterReference';
 import { ItemReference } from './ItemReference';
+import { RoomReference } from './RoomReference';
 
 type ReferencesPanelProps = {
   item: Accessor<Weapon | Item | undefined>;
@@ -50,11 +51,10 @@ export function ReferencesPanel({ item }: ReferencesPanelProps) {
         <Show when={item()?.Obtained?.room}>
           <div>Room</div>
           <div>
-            {item()?.Obtained?.room?.map((rm) => {
-              const [map, room] = rm.split('|');
+            {item()?.Obtained?.room?.map((number) => {
               return (
                 <div>
-                  {map}/{room}
+                  <RoomReference number={number} />
                 </div>
               );
             })}

@@ -105,7 +105,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 5,
     CastsSp: 201,
     Classes: [1],
-    Obtained: { room: ["1|2231"], sell: [146] },
+    Obtained: { room: ["1/2231"], sell: [146] },
   },
   {
     Number: 342,
@@ -133,7 +133,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 353,
     Classes: [2],
-    Obtained: { room: ["1|2236"], sell: [146] },
+    Obtained: { room: ["1/2236"], sell: [146] },
   },
   {
     Number: 347,
@@ -161,7 +161,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 170,
     "% Spell": 40,
     Classes: [3],
-    Obtained: { room: ["1|2260"], sell: [146] },
+    Obtained: { room: ["1/2260"], sell: [146] },
   },
   {
     Number: 348,
@@ -193,7 +193,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     ClassOk: [5],
     Classes: [5],
-    Obtained: { room: ["1|2256"], sell: [146] },
+    Obtained: { room: ["1/2256"], sell: [146] },
   },
   {
     Number: 349,
@@ -222,7 +222,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 2,
     ManaRgn: 10,
     Classes: [4],
-    Obtained: { room: ["1|2258"], sell: [146] },
+    Obtained: { room: ["1/2258"], sell: [146] },
   },
   {
     Number: 350,
@@ -253,7 +253,7 @@ export const weaponData: Weapon[] = [
     FindTrapsValue: 10,
     PickLocksValue: 10,
     Classes: [8],
-    Obtained: { room: ["1|2275"], sell: [146] },
+    Obtained: { room: ["1/2275"], sell: [146] },
   },
   {
     Number: 351,
@@ -281,7 +281,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 10,
     Stealth: 5,
     Classes: [7],
-    Obtained: { room: ["1|2273"], sell: [146] },
+    Obtained: { room: ["1/2273"], sell: [146] },
   },
   {
     Number: 352,
@@ -313,7 +313,7 @@ export const weaponData: Weapon[] = [
     BsAccu: 0,
     Illu: 100,
     Classes: [11],
-    Obtained: { room: ["1|2301"], sell: [146] },
+    Obtained: { room: ["1/2301"], sell: [146] },
   },
   {
     Number: 353,
@@ -344,7 +344,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 10,
     CastsSp: 849,
     Classes: [13],
-    Obtained: { room: ["1|2303"], sell: [146] },
+    Obtained: { room: ["1/2303"], sell: [146] },
   },
   {
     Number: 354,
@@ -374,7 +374,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 5,
     ManaRgn: 15,
     Classes: [12],
-    Obtained: { room: ["1|2302"], sell: [146] },
+    Obtained: { room: ["1/2302"], sell: [146] },
   },
   {
     Number: 356,
@@ -406,7 +406,7 @@ export const weaponData: Weapon[] = [
     Crits: 4,
     "S.C.": 2,
     Classes: [10],
-    Obtained: { room: ["1|2300"], sell: [146] },
+    Obtained: { room: ["1/2300"], sell: [146] },
   },
   {
     Number: 358,
@@ -437,7 +437,7 @@ export const weaponData: Weapon[] = [
     "S.C.": 1,
     ManaRgn: 5,
     Classes: [14],
-    Obtained: { room: ["1|2241"], sell: [146] },
+    Obtained: { room: ["1/2241"], sell: [146] },
   },
   {
     Number: 359,
@@ -467,7 +467,7 @@ export const weaponData: Weapon[] = [
     ManaRgn: 10,
     CastsSp: 114,
     Classes: [6],
-    Obtained: { room: ["1|2262"], sell: [146] },
+    Obtained: { room: ["1/2262"], sell: [146] },
   },
   {
     Number: 361,
@@ -885,7 +885,7 @@ export const weaponData: Weapon[] = [
     Speed: 1100,
     MinLevel: 0,
     BsAccu: -10,
-    Obtained: { room: ["8|436"], buy: [10] },
+    Obtained: { room: ["8/436"], buy: [10] },
   },
   {
     Number: 74,
@@ -1441,7 +1441,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 5053,
     MaxMana: 15,
     Classes: [9],
-    Obtained: { room: ["1|2278"], sell: [146] },
+    Obtained: { room: ["1/2278"], sell: [146] },
   },
   {
     Number: 116,
@@ -1633,7 +1633,7 @@ export const weaponData: Weapon[] = [
     "% Spell": 20,
     CastsSp: 180,
     BsAccu: -15,
-    Obtained: { room: ["1|2249"], buy: [87, 313] },
+    Obtained: { room: ["1/2249"], buy: [87, 313] },
   },
   {
     Number: 208,
@@ -1837,7 +1837,7 @@ export const weaponData: Weapon[] = [
     BsAccu: -15,
     RoomIllu: 100,
     Obtained: {
-      room: ["1|2249"],
+      room: ["1/2249"],
       nogen: [167],
       text: ["889|1", "898|5", "9062|5"],
       item: [
@@ -3151,7 +3151,7 @@ export const weaponData: Weapon[] = [
     Speed: 1800,
     MinLevel: 0,
     Dodge: 5,
-    Obtained: { room: ["8|436"], buy: [76, 81, 155, 205], text: ["9126|4"] },
+    Obtained: { room: ["8/436"], buy: [76, 81, 155, 205], text: ["9126|4"] },
   },
   {
     Number: 624,
@@ -5321,7 +5321,7 @@ export const weaponData: Weapon[] = [
     MinLevel: 0,
     ClassOk: [12, 15],
     "Del@Maint": 1,
-    Obtained: { room: ["9|497"], buy: [153] },
+    Obtained: { room: ["9/497"], buy: [153] },
   },
   {
     Number: 983,
@@ -6153,7 +6153,7 @@ export const weaponData: Weapon[] = [
     CastsSp: 757,
     ClassOk: [6, 8, 9, 10, 11, 12, 15],
     Obtained: {
-      room: ["1|311", "1|315", "1|391", "15|1101", "8|1852", "2|2550"],
+      room: ["1/311", "1/315", "1/391", "15/1101", "8/1852", "2/2550"],
     },
   },
   {

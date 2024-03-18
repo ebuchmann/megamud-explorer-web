@@ -308,6 +308,7 @@ export type Monster = {
   Drops?: MonsterDrop[];
   Attacks?: MonsterAttack[];
   Spells?: MonsterSpell[];
+  SummonedBy: string[];
 };
 
 export type Character = {
@@ -368,6 +369,7 @@ export type Shop = {
   MaxLVL: number;
   'Markup%': number;
   ClassRest: number;
+  AssignedTo: string[];
   Inventory?: ShopInventory[];
 };
 

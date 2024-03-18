@@ -1,9 +1,8 @@
 import { useNavigate, useParams } from '@solidjs/router';
-import { roomData } from '../../data';
 import * as d3 from 'd3';
 import { Accessor, createEffect, createSignal, onCleanup } from 'solid-js';
 import { Direction, Room } from '../../types';
-// import { roomDataObj } from '../../data/roomsObj';
+import { getRoom } from '../../utils/rooms';
 
 const ROOM_SIZE = 15;
 const ROOM_OFFSET = 22;
@@ -50,13 +49,7 @@ export function MapArea(props: MapProps) {
   let containerRef: HTMLDivElement;
   const params = useParams();
   const navigate = useNavigate();
-  const [mapNum, roomNum] = params.number.split('/');
-  const [startingRoom, setStartingRoom] = createSignal(
-    // roomDataObj[roomNum],
-    roomData.find(
-      (rm) => rm.MapNum === Number(mapNum) && rm.RoomNum === Number(roomNum),
-    ),
-  );
+  const [startingRoom, setStartingRoom] = createSignal(getRoom(params.number));
 
   let lastTransform: string = '';
 
@@ -175,12 +168,9 @@ export function MapArea(props: MapProps) {
     directions.forEach(([dir, nextX, nextY, nextZ]) => {
       if (!room || !room[dir]) return;
 
-      const [nextMapNum, nextRoomNum] = room?.[dir]?.split('/') || [];
-      const nextRoom = roomData.find(
-        (rm) =>
-          rm.MapNum === Number(nextMapNum) &&
-          rm.RoomNum === Number(nextRoomNum),
-      );
+      const nextRoom = getRoom(room[dir]!);
+
+      if (nextRoom.MapNum !== startingRoom().MapNum) return;
 
       if (nextRoom)
         traverse({
@@ -195,7 +185,6 @@ export function MapArea(props: MapProps) {
   }
 
   createEffect(() => {
-    console.log(containerRef);
     const width = containerRef.clientWidth;
     const height = containerRef.clientHeight;
     svg.attr('viewBox', [-width / 2, -height / 2, width, height]);
@@ -205,23 +194,7 @@ export function MapArea(props: MapProps) {
 
     if (lastTransform) svgGroup.attr('transform', lastTransform);
 
-    const [mapNum, roomNum] = (params.number || '1/1').split('/');
-    setStartingRoom(
-      // roomDataObj[roomNum],
-      roomData.find(
-        (rm) => rm.MapNum === Number(mapNum) && rm.RoomNum === Number(roomNum),
-      ),
-    );
-
-    visited = {};
-    traverse({
-      room: startingRoom()!,
-      x: 0,
-      y: 0,
-      z: 0,
-      limit,
-      svgGroup,
-    });
+    setStartingRoom(getRoom(params.number));
 
     const limitWidth = ROOM_OFFSET * (limit * 2 + 1);
     const limitHeight = ROOM_OFFSET * (limit * 2 + 1);
@@ -233,12 +206,22 @@ export function MapArea(props: MapProps) {
       .attr('height', limitHeight)
       .attr('z-index', -1)
       .attr('transform', `translate(-${limitWidth / 2}, -${limitHeight / 2})`)
-      .attr('fill', 'none')
-      .attr('class', 'outline-dotted');
+      .attr('fill', 'currentColor')
+      .attr('class', 'text-slate-600 outline-dotted');
+
+    visited = {};
+    traverse({
+      room: startingRoom()!,
+      x: 0,
+      y: 0,
+      z: 0,
+      limit,
+      svgGroup,
+    });
   });
 
   return (
-    <div ref={containerRef} class="h-[100%]">
+    <div ref={containerRef!} class="h-[100%] overflow-hidden">
       {svg.node()}
     </div>
   );

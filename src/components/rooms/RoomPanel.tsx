@@ -1,9 +1,9 @@
 import { useParams } from '@solidjs/router';
 import { Room } from '../../types';
 import { For, Show, createEffect, createSignal } from 'solid-js';
-import { roomData } from '../../data';
 import { RoomReference } from '../references/RoomReference';
 import { MonsterReference, ShopReference } from '../references';
+import { getRoom } from '../../utils/rooms';
 
 const DirectionsAndNames = [
   ['North', 'N'],
@@ -14,6 +14,8 @@ const DirectionsAndNames = [
   ['Southwest', 'SW'],
   ['West', 'W'],
   ['Northwest', 'NW'],
+  ['Up', 'U'],
+  ['Down', 'D'],
 ];
 
 export function RoomPanel() {
@@ -23,9 +25,7 @@ export function RoomPanel() {
   createEffect(() => {
     const [map, room] = params.number.split('/');
     if (map && room) {
-      const rm = roomData.find(
-        (r) => r.MapNum === Number(map) && r.RoomNum === Number(room),
-      );
+      const rm = getRoom(params.number);
       setRoom(rm);
     }
   });

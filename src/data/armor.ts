@@ -205,7 +205,7 @@ export const armorData: Armor[] = [
     PunchDmg: 3,
     PunchAcc: 3,
     Classes: [15],
-    Obtained: { room: ["1|2240"], sell: [146] },
+    Obtained: { room: ["1/2240"], sell: [146] },
   },
   {
     Number: 362,
@@ -1484,7 +1484,7 @@ export const armorData: Armor[] = [
     MinLevel: 20,
     Magical: 1,
     Obtained: {
-      room: ["1|2249"],
+      room: ["1/2249"],
       nogen: [169],
       text: ["889|2"],
       item: [
@@ -1698,7 +1698,7 @@ export const armorData: Armor[] = [
     "Del@Maint": 0,
     "Remove@Maint": 0,
     Health: 10,
-    Obtained: { room: ["1|2249"] },
+    Obtained: { room: ["1/2249"] },
   },
   {
     Number: 169,
@@ -1749,7 +1749,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Illu: 25,
     Obtained: {
-      room: ["1|2249"],
+      room: ["1/2249"],
       buy: [33],
       monster: ["242|1"],
       text: ["9126|1"],
@@ -4758,7 +4758,7 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     ManaRgn: 10,
     Classes: [13],
-    Obtained: { room: ["3|214"], sell: [89] },
+    Obtained: { room: ["3/214"], sell: [89] },
   },
   {
     Number: 720,
@@ -4784,7 +4784,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     MaxMana: 10,
     ManaRgn: 5,
-    Obtained: { room: ["3|214"], sell: [89] },
+    Obtained: { room: ["3/214"], sell: [89] },
   },
   {
     Number: 727,
@@ -10229,7 +10229,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     "Del@Maint": 0,
     Charm: 2,
-    Obtained: { room: ["1|817"], monster: ["115|10", "115|1"] },
+    Obtained: { room: ["1/817"], monster: ["115|10", "115|1"] },
   },
   {
     Number: 1463,
@@ -13739,7 +13739,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Alter HP": 10,
-    Obtained: { room: ["1|2411", "1|2412"] },
+    Obtained: { room: ["1/2411", "1/2412"] },
   },
   {
     Number: 2016,
@@ -13763,7 +13763,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Alter HP": 10,
-    Obtained: { room: ["6|3109"] },
+    Obtained: { room: ["6/3109"] },
   },
   {
     Number: 2032,

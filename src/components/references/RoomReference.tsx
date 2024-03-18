@@ -1,7 +1,7 @@
 import { A } from '@solidjs/router';
-import { roomData } from '../../data';
 import { createEffect, createSignal } from 'solid-js';
 import { Room } from '../../types';
+import { getRoom } from '../../utils/rooms';
 
 type RoomReferenceProps = {
   number: string;
@@ -11,10 +11,7 @@ export function RoomReference(props: RoomReferenceProps) {
   const [room, setRoom] = createSignal<Room>();
 
   createEffect(() => {
-    const [mapNum, roomNum] = props.number.split('/');
-    const foundRoom = roomData.find(
-      (rm) => rm.MapNum === Number(mapNum) && rm.RoomNum === Number(roomNum),
-    );
+    const foundRoom = getRoom(props.number);
 
     setRoom(foundRoom);
   });

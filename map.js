@@ -4,9 +4,11 @@ import fs from 'fs';
 
 async function formatFile(content, type, name) {
   const contentString = `
-    import { ${type} } from '../types'
+    import { ${type} } from '../../types'
 
-    export const ${name}: ${type}[] = ${JSON.stringify(content)}
+    const ${name}: ${type}[] = ${JSON.stringify(content)}
+
+    export default ${name}
   `;
 
   return await prettier.format(contentString, { parser: 'babel-ts' });
@@ -100,66 +102,65 @@ const getNextRoomNumbers = (directionValue) => {
   return [Number(map), Number(room)];
 };
 
-const traverse = (room, x, y, z) => {
-  if (room.Visited || room['Map Number'] !== 1) return;
+// const traverse = (room, x, y, z) => {
+//   if (room.Visited || room['Map Number'] !== 1) return;
 
-  if (room['Room Number'] === 2149) y = y - 2; // Newhaven, to avoid overlapping river
-  const thisRoom = {
-    Name: room.Name,
-    MapNum: room['Map Number'],
-    RoomNum: room['Room Number'],
-    x,
-    y,
-    z,
-    // org: room,
-  };
+//   if (room['Room Number'] === 2149) y = y - 2; // Newhaven, to avoid overlapping river
+//   const thisRoom = {
+//     Name: room.Name,
+//     MapNum: room['Map Number'],
+//     RoomNum: room['Room Number'],
+//     x,
+//     y,
+//     z,
+//     // org: room,
+//   };
 
-  if (room.Shop !== 0) thisRoom.Shop = room.Shop;
-  if (room.NPC !== 0) thisRoom.NPC = room.NPC;
-  if (room.Lair) {
-    const { LairMax, Lair } = getLairInfo(room);
-    thisRoom.LairMax = LairMax;
-    thisRoom.Lair = Lair;
-  }
+//   if (room.Shop !== 0) thisRoom.Shop = room.Shop;
+//   if (room.NPC !== 0) thisRoom.NPC = room.NPC;
+//   if (room.Lair) {
+//     const { LairMax, Lair } = getLairInfo(room);
+//     thisRoom.LairMax = LairMax;
+//     thisRoom.Lair = Lair;
+//   }
 
-  room.Visited = true;
+//   room.Visited = true;
 
-  directions.forEach(([dir, nextX, nextY, nextZ]) => {
-    if (room[dir] !== '0') {
-      const [nextMapNum, nextRoomNum] = getNextRoomNumbers(room[dir]);
-      const nextRoom = roomsData.find(
-        (rm) =>
-          rm['Map Number'] === nextMapNum && rm['Room Number'] === nextRoomNum,
-      );
-      for (let index in ancientCryptIgnoreList) {
-        const [ignoreNum, ignoreDir] = ancientCryptIgnoreList[index];
-        if (thisRoom.RoomNum === ignoreNum && dir === ignoreDir) {
-          thisRoom[dir] =
-            `${nextRoom['Map Number']}/${nextRoom['Room Number']}|WARP`;
-          return;
-        }
-      }
-      if (nextRoom) {
-        thisRoom[dir] = `${nextRoom['Map Number']}/${nextRoom['Room Number']}`;
-        traverse(nextRoom, x + nextX, y + nextY, z + nextZ);
-      }
-    }
-  });
+//   directions.forEach(([dir, nextX, nextY, nextZ]) => {
+//     if (room[dir] !== '0') {
+//       const [nextMapNum, nextRoomNum] = getNextRoomNumbers(room[dir]);
+//       const nextRoom = roomsData.find(
+//         (rm) =>
+//           rm['Map Number'] === nextMapNum && rm['Room Number'] === nextRoomNum,
+//       );
+//       for (let index in ancientCryptIgnoreList) {
+//         const [ignoreNum, ignoreDir] = ancientCryptIgnoreList[index];
+//         if (thisRoom.RoomNum === ignoreNum && dir === ignoreDir) {
+//           thisRoom[dir] =
+//             `${nextRoom['Map Number']}/${nextRoom['Room Number']}|WARP`;
+//           return;
+//         }
+//       }
+//       if (nextRoom) {
+//         thisRoom[dir] = `${nextRoom['Map Number']}/${nextRoom['Room Number']}`;
+//         traverse(nextRoom, x + nextX, y + nextY, z + nextZ);
+//       }
+//     }
+//   });
 
-  data.push(thisRoom);
-};
+//   data.push(thisRoom);
+// };
 
 // traverse(townGate, 0, 0, 0);
 
-const allMapData = [];
-const allMapDataObj = {};
+const allMapData = {};
 
-const dirs = ['N', 'E', 'S', 'W', 'NE', 'SE', 'SW', 'NW'];
+const dirs = ['N', 'E', 'S', 'W', 'NE', 'SE', 'SW', 'NW', 'U', 'D'];
 
 for (const index in roomsData) {
   const original = roomsData[index];
 
-  if (original['Map Number'] !== 1) continue;
+  // if (original['Map Number'] !== 1) continue;
 
   const item = {
     MapNum: original['Map Number'],
@@ -180,16 +181,14 @@ for (const index in roomsData) {
     }
   });
 
-  allMapData.push(item);
-  allMapDataObj[item.RoomNum] = item;
+  if (!allMapData[item.MapNum]) allMapData[item.MapNum] = [];
+
+  allMapData[item.MapNum].push(item);
 }
 
-fs.writeFileSync(
-  './src/data/rooms.ts',
-  await formatFile(allMapData, 'Room', 'roomData'),
-);
-
-fs.writeFileSync(
-  './src/data/roomsObj.ts',
-  await formatFile(allMapDataObj, 'Room', 'roomData'),
-);
+Object.keys(allMapData).forEach(async (mapNum) => {
+  fs.writeFileSync(
+    `./src/data/rooms/${mapNum}.ts`,
+    await formatFile(allMapData[mapNum], 'Room', 'roomData'),
+  );
+});

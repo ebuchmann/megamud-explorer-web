@@ -81,7 +81,7 @@ export function App({ children }: AppProps) {
           <A
             activeClass="text-blue-400"
             inactiveClass="text-neutral-100"
-            href="/rooms"
+            href="/rooms/1/1"
           >
             Rooms
           </A>

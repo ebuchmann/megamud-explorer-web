@@ -3,6 +3,7 @@ import prettier from 'prettier';
 import { allValues, specialProperties } from './src/utils/values.js';
 
 const numberRegex = /([0-9.]+)/g;
+const roomRegex = /(\d+\/\d+)/g;
 
 const itemData = JSON.parse(fs.readFileSync('./db/items.json', 'utf8'));
 const classData = JSON.parse(fs.readFileSync('./db/classes.json', 'utf8'));
@@ -234,6 +235,7 @@ for (const index in monsterData) {
     Align: original.Align,
     // RegenTime: 0,
     Magical: 0,
+    SummonedBy: original['Summoned By'].match(roomRegex),
   };
 
   for (let x = 0; x < 10; x++) {
@@ -368,6 +370,7 @@ for (const index in shopData) {
     MaxLVL: original.MaxLVL,
     'Markup%': original['Markup%'],
     ClassRest: original.ClassRest,
+    AssignedTo: original['Assigned To'].match(roomRegex),
   };
 
   for (let x = 0; x < 20; x++) {
@@ -413,7 +416,7 @@ function obtainedFrom(value) {
       Obtained.item.push(val.match(numberRegex).join('|'));
     } else if (val.includes('Room')) {
       if (!Obtained.room) Obtained.room = [];
-      Obtained.room.push(val.match(numberRegex).join('|'));
+      Obtained.room.push(val.match(numberRegex).join('/'));
     } else if (val.includes('Textblock')) {
       if (!Obtained.text) Obtained.text = [];
       const result = val.match(numberRegex);
