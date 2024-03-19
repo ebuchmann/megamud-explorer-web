@@ -6566,7 +6566,7 @@ const roomData: Room[] = [
     Lair: [143, 144, 145],
     N: "7/1132",
   },
-  { MapNum: 7, RoomNum: 1136, Name: "Small Store", S: "7/1133" },
+  { MapNum: 7, RoomNum: 1136, Name: "Small Store", Shop: 69, S: "7/1133" },
   {
     MapNum: 7,
     RoomNum: 1137,

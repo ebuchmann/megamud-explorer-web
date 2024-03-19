@@ -69,7 +69,7 @@ export function MonsterPanel() {
           <Show when={monster()?.Weapon}>
             <div>Weapon</div>
             <div>
-              <WeaponReference number={monster()!.Weapon} />
+              <WeaponReference number={monster()!.Weapon!} />
             </div>
           </Show>
           <Show when={abilities()}>

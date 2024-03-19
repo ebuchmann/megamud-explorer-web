@@ -168,6 +168,8 @@ for (const index in roomsData) {
     Name: original.Name,
   };
 
+  if (original.Shop !== 0) item.Shop = original.Shop;
+
   if (original.Lair) {
     const { LairMax, Lair } = getLairInfo(original);
     item.LairMax = LairMax;
@@ -185,6 +187,13 @@ for (const index in roomsData) {
 
   allMapData[item.MapNum].push(item);
 }
+
+// Apply fixes for warp rooms (ancient crypt)
+ancientCryptIgnoreList.forEach(([roomNum, direction]) => {
+  const room = allMapData['1'].find((rm) => rm.RoomNum === roomNum);
+
+  room[direction] = `${room[direction]}|warp`;
+});
 
 Object.keys(allMapData).forEach(async (mapNum) => {
   fs.writeFileSync(

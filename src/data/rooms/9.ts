@@ -7623,7 +7623,13 @@ const roomData: Room[] = [
     Lair: [493],
     W: "9/1430",
   },
-  { MapNum: 9, RoomNum: 1432, Name: "Module 5 Test Room", SE: "1/2779" },
+  {
+    MapNum: 9,
+    RoomNum: 1432,
+    Name: "Module 5 Test Room",
+    Shop: 85,
+    SE: "1/2779",
+  },
 ];
 
 export default roomData;

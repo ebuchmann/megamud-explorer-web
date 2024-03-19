@@ -1364,6 +1364,7 @@ const roomData: Room[] = [
     MapNum: 10,
     RoomNum: 271,
     Name: "Ancient Keep, Throne Room",
+    Shop: 74,
     N: "10/270",
     E: "",
     W: "10/272",
@@ -1373,6 +1374,7 @@ const roomData: Room[] = [
     MapNum: 10,
     RoomNum: 273,
     Name: "Large Stone Chamber",
+    Shop: 75,
     E: "10/272",
     U: "10/307",
   },
@@ -1547,7 +1549,13 @@ const roomData: Room[] = [
   { MapNum: 10, RoomNum: 304, Name: "Rocky Trail", E: "10/20", D: "10/19" },
   { MapNum: 10, RoomNum: 305, Name: "Rocky Trail", NE: "10/24", D: "10/23" },
   { MapNum: 10, RoomNum: 306, Name: "Rocky Trail", S: "10/268", D: "10/267" },
-  { MapNum: 10, RoomNum: 307, Name: "Upper Stone Chamber", D: "10/273" },
+  {
+    MapNum: 10,
+    RoomNum: 307,
+    Name: "Upper Stone Chamber",
+    Shop: 271,
+    D: "10/273",
+  },
 ];
 
 export default roomData;

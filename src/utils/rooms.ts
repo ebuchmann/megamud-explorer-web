@@ -37,8 +37,13 @@ const allRooms: Record<string, Room[]> = {
   '17': rooms17,
 };
 
+export function cleanRoomNum(number: string): string {
+  return number.split('|')[0];
+}
+
 export function getRoom(number: string): Room {
-  const [mapNum, roomNum] = number.split('/');
+  console.log(number);
+  const [mapNum, roomNum] = number.split('|')[0].split('/');
 
   return allRooms[mapNum].find((room) => room.RoomNum === Number(roomNum))!;
 }

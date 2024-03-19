@@ -1,11 +1,11 @@
 import { useParams } from '@solidjs/router';
-import { Room } from '../../types';
+import { Direction, Room } from '../../types';
 import { For, Show, createEffect, createSignal } from 'solid-js';
 import { RoomReference } from '../references/RoomReference';
 import { MonsterReference, ShopReference } from '../references';
 import { getRoom } from '../../utils/rooms';
 
-const DirectionsAndNames = [
+const DirectionsAndNames: [string, Direction][] = [
   ['North', 'N'],
   ['Northeast', 'NE'],
   ['East', 'E'],
@@ -41,24 +41,24 @@ export function RoomPanel() {
         <div class="grid grid-cols-[1fr,2fr]">
           <For each={DirectionsAndNames}>
             {([roomLong, roomShort]) => (
-              <Show when={room()[roomShort]}>
+              <Show when={room()?.[roomShort]}>
                 <div>{roomLong}</div>
                 <div>
-                  <RoomReference number={room()[roomShort]} />
+                  <RoomReference number={room()![roomShort]!} />
                 </div>
               </Show>
             )}
           </For>
         </div>
-        <h3 class="my-4">References</h3>
-        <div class="grid grid-cols-[1fr,2fr]">
-          <Show when={room()?.Shop}>
+        <Show when={room()?.Shop}>
+          <h3 class="my-4">References</h3>
+          <div class="grid grid-cols-[1fr,2fr]">
             <div>Shop</div>
             <div>
-              <ShopReference number={room()?.Shop} />
+              <ShopReference number={room()?.Shop!} />
             </div>
-          </Show>
-        </div>
+          </div>
+        </Show>
         <Show when={room()?.Lair}>
           <h3 class="my-4">Lairs (Max: {room()?.LairMax})</h3>
           <For each={room()?.Lair}>

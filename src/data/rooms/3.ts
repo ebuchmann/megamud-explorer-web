@@ -3723,8 +3723,8 @@ const roomData: Room[] = [
     Lair: [286],
     D: "3/535",
   },
-  { MapNum: 3, RoomNum: 541, Name: "Common Area", D: "3/539" },
-  { MapNum: 3, RoomNum: 542, Name: "Training Area", D: "3/537" },
+  { MapNum: 3, RoomNum: 541, Name: "Common Area", Shop: 87, D: "3/539" },
+  { MapNum: 3, RoomNum: 542, Name: "Training Area", Shop: 74, D: "3/537" },
   {
     MapNum: 3,
     RoomNum: 543,
@@ -4876,7 +4876,13 @@ const roomData: Room[] = [
     E: "3/786",
     W: "3/675",
   },
-  { MapNum: 3, RoomNum: 788, Name: "Module 2 Test Room", W: "1/2779" },
+  {
+    MapNum: 3,
+    RoomNum: 788,
+    Name: "Module 2 Test Room",
+    Shop: 85,
+    W: "1/2779",
+  },
   {
     MapNum: 3,
     RoomNum: 789,

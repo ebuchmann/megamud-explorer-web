@@ -389,8 +389,20 @@ export type Room = {
   SW?: string;
   W?: string;
   NW?: string;
+  U?: string;
+  D?: string;
   LairMax?: number;
   Lair?: number[];
 };
 
-export type Direction = 'N' | 'NE' | 'E' | 'SE' | 'S' | 'SW' | 'W' | 'NW';
+export type Direction =
+  | 'N'
+  | 'NE'
+  | 'E'
+  | 'SE'
+  | 'S'
+  | 'SW'
+  | 'W'
+  | 'NW'
+  | 'U'
+  | 'D';

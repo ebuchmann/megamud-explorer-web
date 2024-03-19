@@ -3165,7 +3165,7 @@ const roomData: Room[] = [
     S: "8/472",
     W: "8/492",
   },
-  { MapNum: 8, RoomNum: 486, Name: "Musty Store", E: "8/481" },
+  { MapNum: 8, RoomNum: 486, Name: "Musty Store", Shop: 91, E: "8/481" },
   { MapNum: 8, RoomNum: 487, Name: "Narrow Alley", E: "8/483", W: "8/477" },
   { MapNum: 8, RoomNum: 488, Name: "Narrow Alley", E: "8/467", W: "8/484" },
   {
@@ -7061,7 +7061,7 @@ const roomData: Room[] = [
     W: "8/1068",
     U: "8/1041",
   },
-  { MapNum: 8, RoomNum: 1041, Name: "Ethereal Prison", D: "8/1000" },
+  { MapNum: 8, RoomNum: 1041, Name: "Ethereal Prison", Shop: 90, D: "8/1000" },
   {
     MapNum: 8,
     RoomNum: 1042,
@@ -10125,7 +10125,13 @@ const roomData: Room[] = [
   { MapNum: 8, RoomNum: 1404, Name: "Negative Power Plane", D: "8/1332" },
   { MapNum: 8, RoomNum: 1405, Name: "Negative Power Plane", D: "8/1362" },
   { MapNum: 8, RoomNum: 1406, Name: "Negative Power Plane", SE: "8/1166" },
-  { MapNum: 8, RoomNum: 1407, Name: "Module 3 Test Room", N: "1/2779" },
+  {
+    MapNum: 8,
+    RoomNum: 1407,
+    Name: "Module 3 Test Room",
+    Shop: 85,
+    N: "1/2779",
+  },
   {
     MapNum: 8,
     RoomNum: 1408,
