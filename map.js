@@ -16,24 +16,6 @@ async function formatFile(content, type, name) {
 
 const numberRegex = /([0-9.]+)/g;
 
-// const townGate = roomsData[0];
-const townGate = roomsData.find(
-  (room) => room['Map Number'] === 1 && room['Room Number'] === 736,
-);
-
-const directions = [
-  ['N', 0, -1, 0],
-  ['W', -1, 0, 0],
-  ['NE', 1, -1, 0],
-  ['E', 1, 0, 0],
-  ['SE', 1, 1, 0],
-  ['S', 0, 1, 0],
-  ['SW', -1, 1, 0],
-  ['NW', -1, -1, 0],
-  // ['U', 0, 0, 1],
-  // ['D', 0, 0, -1],
-];
-
 // These rooms / exits end up teleporting you to another spot in the area, which messes up the mapper
 const ancientCryptIgnoreList = [
   [1839, 'N'],
@@ -72,86 +54,93 @@ const getLairInfo = (room) => {
 
 const getNextRoomNumbers = (directionValue) => {
   if (directionValue.startsWith('Action')) {
-    console.log('no action yet');
+    // console.log('no action yet');
     return [];
   }
   const [mapRoomValue, extra] = directionValue.split(' ');
   const [map, room] = mapRoomValue.match(numberRegex);
 
+  const returnValue = [Number(map), Number(room)];
+
   if (extra) {
-    if (directionValue.includes('1/296 (Level: 0 to 5)')) {
-      // Newhaven overlaps the river
-    } else if (
-      // Need to add at some point for extra info
-      extra === '(Door)' ||
-      extra === '(Door' ||
-      extra === '(Toll:' ||
-      extra === '(Alignment:' ||
-      extra === '(Text:' ||
-      extra === '(Key:' ||
-      extra === '(Hidden/Needs' ||
-      extra === '(Hidden/Searchable)'
-      // extra === '(Level:'
-    ) {
-    } else {
-      console.log(extra);
-      return [];
+    switch (extra) {
+      case '(Door)': {
+        returnValue.push('Door');
+        break;
+      }
+      case '(Key:': {
+        const numbers = directionValue.match(/(\d+)/g);
+        returnValue.push(`Key: ${numbers[2]}`);
+        if (
+          directionValue.includes('picklocks') ||
+          directionValue.includes('strength')
+        ) {
+          const types = [];
+          if (directionValue.includes('picklocks')) types.push('Picklocks');
+          if (directionValue.includes('strength')) types.push('Strength');
+          returnValue.push(`${numbers[3] || 'any'} ${types.join('/')}`);
+        }
+        break;
+      }
+      case '(Door': {
+        const numbers = directionValue.match(/(\d+)/g);
+        let doorValue = 'Door';
+        if (
+          directionValue.includes('picklocks') ||
+          directionValue.includes('strength')
+        ) {
+          const types = [];
+          if (directionValue.includes('picklocks')) types.push('Picklocks');
+          if (directionValue.includes('strength')) types.push('Strength');
+          doorValue += ` (${numbers[2] || 'any'} ${types.join('/')})`;
+        }
+        returnValue.push(doorValue);
+        break;
+      }
+      case '(Hidden/Searchable)': {
+        returnValue.push('Hidden/Searchable');
+        break;
+      }
+      case '(Hidden/Passable)': {
+        returnValue.push('Hidden/Passable');
+        break;
+      }
+      case '(Toll:': {
+        returnValue.push(`Toll: ${directionValue.match(/(\d+)/g)[2]} gold`);
+        break;
+      }
+      case '(Text:':
+      case '(Timed:':
+      case '(Level:':
+      case '(Alignment:': {
+        const stuff = directionValue
+          .match(/\(([^\)]+)\)/gm)[0]
+          .replace('(', '')
+          .replace(')', '');
+        returnValue.push(stuff);
+        break;
+      }
+      case '(Trap,': {
+        returnValue.push(`Trap: ${directionValue.match(/(\d+)/g)[2]} damage`);
+        break;
+      }
+      case '(Spell': {
+        returnValue.push(`Trap: ${directionValue.match(/(\d+)/g)[2]} spell`);
+        break;
+      }
+      case '(Cast:': {
+        const [, , pre, post] = directionValue.match(/(\d+)/g);
+        returnValue.push(`Cast: ${pre}|${post}`);
+        break;
+      }
+      case '(Hidden/Needs': {
+        break;
+      }
     }
   }
 
-  return [Number(map), Number(room)];
+  return returnValue;
 };
-
-// const traverse = (room, x, y, z) => {
-//   if (room.Visited || room['Map Number'] !== 1) return;
-
-//   if (room['Room Number'] === 2149) y = y - 2; // Newhaven, to avoid overlapping river
-//   const thisRoom = {
-//     Name: room.Name,
-//     MapNum: room['Map Number'],
-//     RoomNum: room['Room Number'],
-//     x,
-//     y,
-//     z,
-//     // org: room,
-//   };
-
-//   if (room.Shop !== 0) thisRoom.Shop = room.Shop;
-//   if (room.NPC !== 0) thisRoom.NPC = room.NPC;
-//   if (room.Lair) {
-//     const { LairMax, Lair } = getLairInfo(room);
-//     thisRoom.LairMax = LairMax;
-//     thisRoom.Lair = Lair;
-//   }
-
-//   room.Visited = true;
-
-//   directions.forEach(([dir, nextX, nextY, nextZ]) => {
-//     if (room[dir] !== '0') {
-//       const [nextMapNum, nextRoomNum] = getNextRoomNumbers(room[dir]);
-//       const nextRoom = roomsData.find(
-//         (rm) =>
-//           rm['Map Number'] === nextMapNum && rm['Room Number'] === nextRoomNum,
-//       );
-//       for (let index in ancientCryptIgnoreList) {
-//         const [ignoreNum, ignoreDir] = ancientCryptIgnoreList[index];
-//         if (thisRoom.RoomNum === ignoreNum && dir === ignoreDir) {
-//           thisRoom[dir] =
-//             `${nextRoom['Map Number']}/${nextRoom['Room Number']}|WARP`;
-//           return;
-//         }
-//       }
-//       if (nextRoom) {
-//         thisRoom[dir] = `${nextRoom['Map Number']}/${nextRoom['Room Number']}`;
-//         traverse(nextRoom, x + nextX, y + nextY, z + nextZ);
-//       }
-//     }
-//   });
-
-//   data.push(thisRoom);
-// };
-
-// traverse(townGate, 0, 0, 0);
 
 const allMapData = {};
 
@@ -169,6 +158,7 @@ for (const index in roomsData) {
   };
 
   if (original.Shop !== 0) item.Shop = original.Shop;
+  if (original.Spell !== 0) item.Spell = original.Spell;
 
   if (original.Lair) {
     const { LairMax, Lair } = getLairInfo(original);
@@ -178,8 +168,14 @@ for (const index in roomsData) {
 
   dirs.forEach((dir) => {
     if (original[dir] !== '0') {
-      const val = getNextRoomNumbers(original[dir]);
-      item[dir] = val.join('/');
+      const [mapNum, roomNum, ...extra] = getNextRoomNumbers(original[dir]);
+      let directionValue = `${mapNum}/${roomNum}`;
+      if (mapNum === undefined) return;
+      if (extra.length > 0) {
+        item[dir] = [directionValue, ...extra];
+      } else {
+        item[dir] = directionValue;
+      }
     }
   });
 

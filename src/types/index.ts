@@ -375,22 +375,25 @@ export type Shop = {
 
 export type AllItemTypes = Weapon | Armor | Item;
 
+export type RoomLink = string | string[];
+
 export type Room = {
   Name: string;
   MapNum: number;
   RoomNum: number;
+  Spell?: number;
   Shop?: number;
   NPC?: number;
-  N?: string;
-  NE?: string;
-  E?: string;
-  SE?: string;
-  S?: string;
-  SW?: string;
-  W?: string;
-  NW?: string;
-  U?: string;
-  D?: string;
+  N?: RoomLink;
+  NE?: RoomLink;
+  E?: RoomLink;
+  SE?: RoomLink;
+  S?: RoomLink;
+  SW?: RoomLink;
+  W?: RoomLink;
+  NW?: RoomLink;
+  U?: RoomLink;
+  D?: RoomLink;
   LairMax?: number;
   Lair?: number[];
 };

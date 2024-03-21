@@ -2,20 +2,20 @@ import { useParams } from '@solidjs/router';
 import { Direction, Room } from '../../types';
 import { For, Show, createEffect, createSignal } from 'solid-js';
 import { RoomReference } from '../references/RoomReference';
-import { MonsterReference, ShopReference } from '../references';
+import { MonsterReference, ShopReference, SpellReference } from '../references';
 import { getRoom } from '../../utils/rooms';
 
-const DirectionsAndNames: [string, Direction][] = [
-  ['North', 'N'],
-  ['Northeast', 'NE'],
-  ['East', 'E'],
-  ['Southeast', 'SE'],
-  ['South', 'S'],
-  ['Southwest', 'SW'],
-  ['West', 'W'],
-  ['Northwest', 'NW'],
-  ['Up', 'U'],
-  ['Down', 'D'],
+const Directions: Direction[] = [
+  'N',
+  'NE',
+  'E',
+  'SE',
+  'S',
+  'SW',
+  'W',
+  'NW',
+  'U',
+  'D',
 ];
 
 export function RoomPanel() {
@@ -33,18 +33,22 @@ export function RoomPanel() {
   return (
     <>
       <Show when={room()}>
-        <div class="grid grid-cols-[1fr,2fr]">
-          <div>Name</div>
-          <div>{room()?.Name}</div>
+        <div>
+          {room()?.Name} ({room()?.MapNum}/{room()?.RoomNum})
         </div>
+        <Show when={room()?.Spell}>
+          <div>
+            Spell: <SpellReference number={room()?.Spell!} />
+          </div>
+        </Show>
         <h3 class="my-4">Exits</h3>
-        <div class="grid grid-cols-[1fr,2fr]">
-          <For each={DirectionsAndNames}>
-            {([roomLong, roomShort]) => (
-              <Show when={room()?.[roomShort]}>
-                <div>{roomLong}</div>
-                <div>
-                  <RoomReference number={room()![roomShort]!} />
+        <div class="grid grid-cols-[2rem,2fr]">
+          <For each={Directions}>
+            {(dir) => (
+              <Show when={room()?.[dir]}>
+                <div>{dir}</div>
+                <div class="flex flex-col">
+                  <RoomReference number={room()![dir]!} />
                 </div>
               </Show>
             )}

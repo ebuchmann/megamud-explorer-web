@@ -1,4 +1,4 @@
-import { Room } from '../types';
+import { Room, RoomLink } from '../types';
 import rooms1 from '../data/rooms/1';
 import rooms2 from '../data/rooms/2';
 import rooms3 from '../data/rooms/3';
@@ -37,13 +37,13 @@ const allRooms: Record<string, Room[]> = {
   '17': rooms17,
 };
 
-export function cleanRoomNum(number: string): string {
-  return number.split('|')[0];
+export function cleanRoomNum(roomNumber: RoomLink): string {
+  return typeof roomNumber === 'string' ? roomNumber : roomNumber[0];
 }
 
-export function getRoom(number: string): Room {
-  console.log(number);
-  const [mapNum, roomNum] = number.split('|')[0].split('/');
+export function getRoom(roomId: string | string[]): Room {
+  const [mapNum, roomNum] =
+    typeof roomId === 'string' ? roomId.split('/') : roomId[0].split('/');
 
   return allRooms[mapNum].find((room) => room.RoomNum === Number(roomNum))!;
 }
