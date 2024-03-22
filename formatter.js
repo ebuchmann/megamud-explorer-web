@@ -228,15 +228,17 @@ for (const index in monsterData) {
     // Energy: 1000,
     // AvgDmg: 9.9,
     // GreetTXT: 23,
+    Money: [original.C, original.S, original.G, original.P, original.R],
     HPRegen: original.HPRegen,
     CharmLVL: original.CharmLVL,
     Type: original.Type,
     Undead: original.Undead,
     Align: original.Align,
-    // RegenTime: 0,
     Magical: 0,
     SummonedBy: original['Summoned By'].match(roomRegex),
   };
+
+  if (original.RegenTime > 0) item.RegenTime = original.RegenTime;
 
   for (let x = 0; x < 10; x++) {
     if (allValues.includes(original[`Abil-${x}`])) {

@@ -297,6 +297,8 @@ export type Monster = {
   Undead: number;
   Align: number;
   Magical: number;
+  Money: number[];
+  RegenTime?: number;
   Rcol?: number;
   Rfir?: number;
   Rlit?: number;

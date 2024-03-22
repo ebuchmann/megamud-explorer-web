@@ -13,6 +13,14 @@ import { Alignments, MonsterTypes } from '../../utils/data-types';
 import { UnknownReference, WeaponReference } from '../references';
 import { RoomReference } from '../references/RoomReference';
 
+const moneyIndex = ['c', 's', 'g', 'p', 'r'];
+const formatMoney = (money: number[]) => {
+  return money
+    .map((value, index) => (value > 0 ? `${value}${moneyIndex[index]}` : null))
+    .filter(Boolean)
+    .join(', ');
+};
+
 export function MonsterPanel() {
   const params = useParams();
   const [monster, setMonster] = createSignal<Monster>();
@@ -66,6 +74,14 @@ export function MonsterPanel() {
           <div>{monster()!['Follow%']}%</div>
           <div>Charm LVL</div>
           <div>{monster()!.CharmLVL}</div>
+          <Show when={monster()?.Money.reduce((p, c) => c + p, 0)}>
+            <div>Money</div>
+            <div>{formatMoney(monster()!.Money)}</div>
+          </Show>
+          <Show when={monster()?.RegenTime}>
+            <div>Regen Time</div>
+            <div>{monster()?.RegenTime} hours</div>
+          </Show>
           <Show when={monster()?.Weapon}>
             <div>Weapon</div>
             <div>

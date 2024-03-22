@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from '@solidjs/router';
 import * as d3 from 'd3';
 import { Accessor, createEffect, createSignal, onCleanup } from 'solid-js';
-import { Direction, Room } from '../../types';
+import { Direction, Room, RoomLink } from '../../types';
 import { cleanRoomNum, getRoom } from '../../utils/rooms';
 import classNames from 'classnames';
 
@@ -74,35 +74,39 @@ export function MapArea(props: MapProps) {
   };
 
   d3.select('body').on('keydown', (e) => {
-    switch (e.key) {
+    switch (e.code) {
       case 'Numpad4':
       case 'ArrowLeft':
-      case 'a':
+      case 'KeyA':
         return handleMoveDirection('W');
       case 'Numpad6':
       case 'ArrowRight':
-      case 'd':
+      case 'KeyD':
         return handleMoveDirection('E');
       case 'Numpad2':
       case 'ArrowDown':
-      case 'x':
+      case 'KeyX':
         return handleMoveDirection('S');
       case 'ArrowUp':
       case 'Numpad8':
-      case 'w':
+      case 'KeyW':
         return handleMoveDirection('N');
       case 'Numpad9':
-      case 'e':
+      case 'KeyE':
         return handleMoveDirection('NE');
       case 'Numpad3':
-      case 'c':
+      case 'KeyC':
         return handleMoveDirection('SE');
       case 'Numpad1':
-      case 'z':
+      case 'KeyZ':
         return handleMoveDirection('SW');
       case 'Numpad7':
-      case 'q':
+      case 'KeyQ':
         return handleMoveDirection('NW');
+      case 'KeyR':
+        return handleMoveDirection('U');
+      case 'KeyF':
+        return handleMoveDirection('D');
     }
   });
 
@@ -112,7 +116,7 @@ export function MapArea(props: MapProps) {
 
   const addUpArrow = (
     svgGroup: d3.Selection<SVGGElement, undefined, null, undefined>,
-    roomNum: string,
+    roomNum: RoomLink,
   ) => {
     svgGroup
       .append('path')
@@ -129,7 +133,7 @@ export function MapArea(props: MapProps) {
 
   const addDownArrow = (
     svgGroup: d3.Selection<SVGGElement, undefined, null, undefined>,
-    roomNum: string,
+    roomNum: RoomLink,
   ) => {
     svgGroup
       .append('path')
@@ -146,6 +150,7 @@ export function MapArea(props: MapProps) {
 
   function traverse({ room, x, y, z, limit, svgGroup }: TraverseProps) {
     if (
+      !room ||
       Math.abs(x) > limit ||
       Math.abs(y) > limit ||
       visited[`${room.MapNum}-${room.RoomNum}`]
