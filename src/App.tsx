@@ -1,6 +1,5 @@
 import { A } from '@solidjs/router';
 import { JSX, createEffect } from 'solid-js';
-import { CharacterPanel } from './components/CharacterPanel';
 import {
   characters,
   selectedCharacter,

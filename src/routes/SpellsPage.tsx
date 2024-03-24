@@ -21,7 +21,7 @@ import {
 } from '@tanstack/solid-table';
 import { useNavigate } from '@solidjs/router';
 import { MageryTypes } from '../utils/data-types';
-import { formatSpell, formatSpellJSX } from '../utils/formatting';
+import { formatSpellJSX } from '../utils/formatting';
 import { SpellPanel } from '../components/spells/SpellPanel';
 import { LevelInput } from '../components/LevelInput';
 import { ClassSelect } from '../components/ClassSelect';
@@ -58,7 +58,6 @@ const columns = [
   }),
   columnHelper.display({
     header: 'Detail',
-    // cell: (info) => formatSpell(info.row.original.Number),
     cell: (info) => formatSpellJSX(info.row.original.Number),
   }),
 ];
@@ -86,7 +85,7 @@ export function SpellsPage() {
     getSortedRowModel: getSortedRowModel(),
     globalFilterFn: ({ original }, _field, value) => {
       if (value === '') return true;
-      if (original.Learnable === 0) return false;
+      if (original.Learnable === 0 && value !== 15) return false;
 
       const cls = classData.find((cls) => cls.Number === value);
       if (!cls) return false;
