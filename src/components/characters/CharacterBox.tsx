@@ -7,6 +7,7 @@ import { CharacterWornSlots } from '../../utils/data-types';
 import { EquipmentSelect } from './EquipmentSelect';
 import { useNavigate, useParams } from '@solidjs/router';
 import { StatInput } from './StatInput';
+import { PasteModal } from './PasteModal';
 
 export function CharacterBox() {
   const params = useParams();
@@ -177,6 +178,9 @@ export function CharacterBox() {
             )}
           </For>
         </div>
+
+        <PasteModal />
+
         <button
           onClick={() => {
             navigate('/characters', { replace: true });

@@ -55,7 +55,7 @@ const columns = [
   }),
   columnHelper.accessor('Undead', {
     cell: (info) => info.getValue(),
-    filterFn: ({ original }, _, value) => {
+    filterFn: ({ original }) => {
       return original.Undead === 1;
     },
   }),
