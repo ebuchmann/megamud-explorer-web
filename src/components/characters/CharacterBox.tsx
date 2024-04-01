@@ -179,7 +179,7 @@ export function CharacterBox() {
           </For>
         </div>
 
-        <PasteModal />
+        <PasteModal characterIndex={selectedIndex} />
 
         <button
           onClick={() => {

@@ -28,7 +28,7 @@ export function RoomReference(props: RoomReferenceProps) {
         class="decoration-dotted underline underline-offset-2 hover:text-sky-300"
         href={`/rooms/${room()?.MapNum}/${room()?.RoomNum}`}
       >
-        {room()?.Name}
+        {room()?.Name} {room()?.LairMax && `(${room()?.LairMax})`}
       </A>
       <Show when={roomExtra()}>
         <div>

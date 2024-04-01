@@ -1,7 +1,16 @@
-import { createSignal, onCleanup, onMount } from 'solid-js';
+import { Accessor, createSignal, onCleanup, onMount } from 'solid-js';
 import { Modal, initTWE } from 'tw-elements';
+import { Armor, Weapon } from '../../types';
+import { armorData, weaponData } from '../../data';
+import { setCharacters } from '../../state/character-state';
+import { produce } from 'solid-js/store';
+import { CharacterWornSlots } from '../../utils/data-types';
 
-export function PasteModal() {
+type PasteModalProps = {
+  characterIndex: Accessor<number>;
+};
+
+export function PasteModal(props: PasteModalProps) {
   const [content, setContent] = createSignal<string>('');
   onMount(() => {
     initTWE({ Modal }, { allowReinits: true });
@@ -13,10 +22,54 @@ export function PasteModal() {
 
   const onSave = () => {
     const betweenParens = /\(([^)]+)\)/;
+    const uptoParens = /(.+?(?=\())/;
+    let fingerIndex = 0;
+    let wristIndex = 0;
+    let splitType = content().includes('You are carrying') ? ',' : /\n/;
     content()
-      .split(/\n/)
+      .split(splitType)
       .forEach((line) => {
-        const type = '';
+        const [, slot] = line.match(betweenParens) || [];
+        if (!slot) return;
+
+        const name = line.replace(/\n/, ' ').match(uptoParens)?.[0].trim();
+        let wornIndex = CharacterWornSlots.findIndex((worn) => worn === slot);
+
+        if (slot === 'Finger') {
+          wornIndex += fingerIndex;
+          fingerIndex += 1;
+        }
+        if (slot == 'Wrist') {
+          wornIndex += wristIndex;
+          wristIndex += 1;
+        }
+
+        if (name === '<empty>') {
+          setCharacters(
+            props.characterIndex(),
+            'worn',
+            produce((worn) => {
+              worn[wornIndex] = 0;
+            }),
+          );
+          return;
+        }
+
+        let item: Weapon | Armor;
+
+        if (slot === 'Weapon Hand') {
+          item = weaponData.find((wpn) => wpn.Name === name)!;
+        } else {
+          item = armorData.find((arm) => arm.Name === name)!;
+        }
+
+        setCharacters(
+          props.characterIndex(),
+          'worn',
+          produce((worn) => {
+            worn[wornIndex] = item.Number;
+          }),
+        );
       });
   };
 

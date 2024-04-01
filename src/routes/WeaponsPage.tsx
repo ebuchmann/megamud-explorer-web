@@ -46,7 +46,9 @@ const columns = [
   }),
   columnHelper.accessor('WeaponType', {
     header: 'Type',
-    cell: (info) => WeaponTypes[info.getValue()],
+    cell: (info) => (
+      <div class="whitespace-nowrap">{WeaponTypes[info.getValue()]}</div>
+    ),
     filterFn: ({ original }, _type, value) => {
       return value.includes(original.WeaponType);
     },
