@@ -45,7 +45,11 @@ const columns = [
     cell: (info) => info.getValue(),
   }),
   columnHelper.accessor('Worn', {
-    cell: (info) => WornSpots[info.getValue()] || info.getValue(),
+    cell: (info) => (
+      <div class="whitespace-nowrap">
+        {WornSpots[info.getValue()] || info.getValue()}
+      </div>
+    ),
     filterFn: ({ original }, _type, value) => {
       return original.Worn === Number(value);
     },

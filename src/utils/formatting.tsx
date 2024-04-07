@@ -217,8 +217,11 @@ export const formatSpell = (number: number): string => {
 };
 
 // For the table column
-export const formatSpellJSX = (number: number): JSX.Element => {
-  const spell = spellData.find((sp) => sp.Number === number);
+export const formatSpellJSX = (value: number | Spell): JSX.Element => {
+  const spell =
+    typeof value === 'number'
+      ? spellData.find((sp) => sp.Number === value)
+      : value;
   if (!spell) return '<spell not found>';
 
   const { minLvlVal, maxLvlVal, hasRange } = getPerLevelInc(spell);

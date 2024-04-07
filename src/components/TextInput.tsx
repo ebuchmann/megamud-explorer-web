@@ -13,7 +13,6 @@ type TextInputProps = {
 };
 
 export function TextInput(props: TextInputProps) {
-  console.log(typeof props.value);
   return (
     <div class={classNames('flex relative', props.class)}>
       <input
