@@ -197,6 +197,20 @@ const racesColumns = [
     ],
   },
   {
+    id: 'Total',
+    header: <div class="text-center">Total</div>,
+    columns: [
+      columnHelperRaces.accessor('mTOT', {
+        header: 'Min',
+        cell: (info) => info.getValue(),
+      }),
+      columnHelperRaces.accessor('xTOT', {
+        header: 'Max',
+        cell: (info) => info.getValue(),
+      }),
+    ],
+  },
+  {
     id: 'Abilities',
     columns: [
       columnHelperClasses.display({

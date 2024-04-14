@@ -15,6 +15,7 @@ export type Weapon = {
   Min: number;
   Max: number;
   Speed: number;
+  spdDmg: number;
   MinLevel: number;
   StrReq: number;
   Encum: number;
@@ -229,12 +230,14 @@ export type Race = {
   mHEA: number;
   mAGL: number;
   mCHM: number;
+  mTOT: number;
   xINT: number;
   xWIL: number;
   xSTR: number;
   xHEA: number;
   xAGL: number;
   xCHM: number;
+  xTOT: number;
   HPPerLVL?: number;
   ExpTable: number;
   BaseCP: number;

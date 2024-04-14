@@ -52,6 +52,7 @@ for (const index in itemData) {
   };
 
   if (original['ItemType'] === 1) {
+    item.spdDmg = ((original.Min + original.Max) / 2 / original.Speed) * 2000;
     for (let x = 0; x < 20; x++) {
       if (allValues.includes(original[`Abil-${x}`])) {
         const key = specialProperties.get(original[`Abil-${x}`]);
@@ -180,12 +181,26 @@ for (const index in raceData) {
     mHEA: original.mHEA,
     mAGL: original.mAGL,
     mCHM: original.mCHM,
+    mTOT:
+      original.mINT +
+      original.mWIL +
+      original.mSTR +
+      original.mHEA +
+      original.mAGL +
+      original.mCHM,
     xINT: original.xINT,
     xWIL: original.xWIL,
     xSTR: original.xSTR,
     xHEA: original.xHEA,
     xAGL: original.xAGL,
     xCHM: original.xCHM,
+    xTOT:
+      original.xINT +
+      original.xWIL +
+      original.xSTR +
+      original.xHEA +
+      original.xAGL +
+      original.xCHM,
     ExpTable: original.ExpTable,
     BaseCP: original.BaseCP,
   };

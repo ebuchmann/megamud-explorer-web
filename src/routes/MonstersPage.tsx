@@ -5,6 +5,7 @@ import {
   createSolidTable,
   getCoreRowModel,
   getFilteredRowModel,
+  getPaginationRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
 import { Monster } from '../types';
@@ -15,7 +16,6 @@ import { DataTable } from '../components/DataTable';
 import { TextSearch } from '../components/TextSearch';
 import { MonsterPanel } from '../components/monsters/MonsterPanel';
 import { useNavigate } from '@solidjs/router';
-import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { MainPanel } from '../components/layout/MainPanel';
 import { SidePanel } from '../components/layout/SidePanel';
 
@@ -23,6 +23,7 @@ import { Dropdown, initTWE } from 'tw-elements';
 import { ColumnVisibilityMenu } from '../components/ColumnVisibilityMenu';
 import { TextInput } from '../components/TextInput';
 import { ChevronDown } from '../icons/ChevronDown';
+import { TableScrollContainer } from '../components/layout/TableScrollContainer';
 
 const columnHelper = createColumnHelper<Monster>();
 
@@ -148,7 +149,23 @@ export function MonstersPage() {
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    initialState: {
+      pagination: {
+        pageSize: 50,
+      },
+    },
   });
+
+  let scroll: HTMLDivElement;
+
+  const paginationReset = (setter?: any) => {
+    return (e: any) => {
+      scroll.scrollTop = 0;
+      table.setPageSize(50);
+      setter?.(e);
+    };
+  };
 
   return (
     <div class="flex gap-4 h-[100%]">
@@ -156,7 +173,7 @@ export function MonstersPage() {
         <div class="flex gap-4">
           <TextSearch
             value={searchValue}
-            setValue={setSearchValue}
+            setValue={paginationReset(setSearchValue)}
             column={table.getColumn('Name')}
           />
 
@@ -169,14 +186,15 @@ export function MonstersPage() {
                 table.getColumn('HP')?.getFilterValue() as [number, number]
               )?.[0] ?? ''
             }
-            onInput={(e) =>
+            onInput={(e) => {
+              paginationReset()('');
               table
                 .getColumn('HP')
                 ?.setFilterValue((old: [number, number]) => [
                   e.target.value,
                   old?.[1],
-                ])
-            }
+                ]);
+            }}
           />
           <TextInput
             class="w-20"
@@ -187,14 +205,15 @@ export function MonstersPage() {
                 table.getColumn('HP')?.getFilterValue() as [number, number]
               )?.[1] ?? ''
             }
-            onInput={(e) =>
+            onInput={(e) => {
+              paginationReset()('');
               table
                 .getColumn('HP')
                 ?.setFilterValue((old: [number, number]) => [
                   old?.[0],
                   e.target.value,
-                ])
-            }
+                ]);
+            }}
           />
 
           <ColumnVisibilityMenu columns={table.getAllLeafColumns()} />
@@ -224,6 +243,7 @@ export function MonstersPage() {
                     type="checkbox"
                     value={!!table.getColumn(col)?.getFilterValue()}
                     onClick={(e) => {
+                      paginationReset()('');
                       e.target.checked
                         ? table.getColumn(col)?.setFilterValue(true)
                         : table.getColumn(col)?.setFilterValue('');
@@ -235,9 +255,9 @@ export function MonstersPage() {
             </div>
           </div>
         </div>
-        <ScrollContainer>
+        <TableScrollContainer ref={scroll!} table={table}>
           <DataTable highlightRoute table={table} />
-        </ScrollContainer>
+        </TableScrollContainer>
       </MainPanel>
       <SidePanel>
         <MonsterPanel />

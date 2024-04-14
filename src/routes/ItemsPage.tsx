@@ -3,11 +3,11 @@ import {
   createSolidTable,
   getCoreRowModel,
   getFilteredRowModel,
+  getPaginationRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
 import { Item } from '../types';
 import { itemData } from '../data';
-import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { DataTable } from '../components/DataTable';
 import { ItemTypes } from '../utils/data-types';
 import { createSignal } from 'solid-js';
@@ -17,6 +17,7 @@ import { SidePanel } from '../components/layout/SidePanel';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';
 import { ItemPanel } from '../components/items/ItemPanel';
+import { TableScrollContainer } from '../components/layout/TableScrollContainer';
 
 const columnHelper = createColumnHelper<Item>();
 
@@ -66,7 +67,23 @@ export function ItemsPage() {
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    initialState: {
+      pagination: {
+        pageSize: 50,
+      },
+    },
   });
+
+  let scroll: HTMLDivElement;
+
+  const paginationReset = (setter?: any) => {
+    return (e: any) => {
+      scroll.scrollTop = 0;
+      table.setPageSize(50);
+      setter?.(e);
+    };
+  };
 
   return (
     <div class="flex gap-4 h-[100%]">
@@ -74,14 +91,14 @@ export function ItemsPage() {
         <div class="flex gap-4">
           <TextSearch
             value={searchValue}
-            setValue={setSearchValue}
+            setValue={paginationReset(setSearchValue)}
             column={table.getColumn('Name')}
           />
         </div>
 
-        <ScrollContainer>
+        <TableScrollContainer ref={scroll!} table={table}>
           <DataTable highlightRoute table={table} />
-        </ScrollContainer>
+        </TableScrollContainer>
       </MainPanel>
       <SidePanel>
         <ItemPanel />

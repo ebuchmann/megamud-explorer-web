@@ -5,6 +5,7 @@ import {
   createSolidTable,
   getCoreRowModel,
   getFilteredRowModel,
+  getPaginationRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
 import { classData, weaponData } from '../data';
@@ -24,7 +25,6 @@ import {
   weaponTableSkipKeys,
 } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
-import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { TextSearch } from '../components/TextSearch';
 import { MainPanel } from '../components/layout/MainPanel';
 import { SidePanel } from '../components/layout/SidePanel';
@@ -32,6 +32,7 @@ import { useNavigate } from '@solidjs/router';
 import { Weapon } from '../types';
 import { WeaponPanel } from '../components/weapons/WeaponPanel';
 import { WeaponTypes } from '../utils/data-types';
+import { TableScrollContainer } from '../components/layout/TableScrollContainer';
 
 const defaultWeaponTypeFilter = [0, 1, 2, 3];
 
@@ -61,6 +62,10 @@ const columns = [
   }),
   columnHelper.accessor('Speed', {
     cell: (info) => info.getValue(),
+  }),
+  columnHelper.accessor('spdDmg', {
+    header: 'Dmg/Spd',
+    cell: (info) => info.getValue().toFixed(2),
   }),
   columnHelper.accessor('MinLevel', {
     header: 'Lvl',
@@ -192,11 +197,27 @@ export function WeaponsPage() {
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    initialState: {
+      pagination: {
+        pageSize: 50,
+      },
+    },
   });
 
   if (!!globalFilter()) table.setGlobalFilter(Number(globalFilter()));
   if (!!levelFilter())
     table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
+
+  let scroll: HTMLDivElement;
+
+  const paginationReset = (setter?: any) => {
+    return (e: any) => {
+      scroll.scrollTop = 0;
+      table.setPageSize(50);
+      setter?.(e);
+    };
+  };
 
   return (
     <div class="flex gap-4 h-[100%]">
@@ -204,23 +225,24 @@ export function WeaponsPage() {
         <div class="flex gap-4">
           <TextSearch
             value={searchValue}
-            setValue={setSearchValue}
+            setValue={paginationReset(setSearchValue)}
             column={table.getColumn('Name')}
           />
           <LevelInput
             value={levelFilter}
-            setValue={setLevelFilter}
+            setValue={paginationReset(setLevelFilter)}
             column={table.getColumn('MinLevel')!}
           />
           <ClassSelect
             value={globalFilter}
-            setValue={setGlobalFilter}
+            setValue={paginationReset(setGlobalFilter)}
             onChange={(val) => table.setGlobalFilter(val)}
           />
           <button
             onClick={() => {
               table.resetColumnFilters(true);
               table.resetGlobalFilter(true);
+              paginationReset()('');
               setSearchValue('');
               setLevelFilter('');
               setBsValue(false);
@@ -273,9 +295,9 @@ export function WeaponsPage() {
             BS'able
           </label>
         </div>
-        <ScrollContainer>
+        <TableScrollContainer ref={scroll!} table={table}>
           <DataTable highlightEquipment highlightRoute table={table} />
-        </ScrollContainer>
+        </TableScrollContainer>
       </MainPanel>
       <SidePanel>
         <WeaponPanel />

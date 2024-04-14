@@ -8,7 +8,6 @@ import {
 } from '../components/DataTable';
 import { TextSearch } from '../components/TextSearch';
 import { MainPanel } from '../components/layout/MainPanel';
-import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { SidePanel } from '../components/layout/SidePanel';
 import { classData, spellData } from '../data';
 import { Spell } from '../types';
@@ -17,6 +16,7 @@ import {
   createSolidTable,
   getCoreRowModel,
   getFilteredRowModel,
+  getPaginationRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
 import { useNavigate } from '@solidjs/router';
@@ -25,6 +25,7 @@ import { formatSpellJSX } from '../utils/formatting';
 import { SpellPanel } from '../components/spells/SpellPanel';
 import { LevelInput } from '../components/LevelInput';
 import { ClassSelect } from '../components/ClassSelect';
+import { TableScrollContainer } from '../components/layout/TableScrollContainer';
 
 const columnHelper = createColumnHelper<Spell>();
 
@@ -83,6 +84,7 @@ export function SpellsPage() {
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
     globalFilterFn: ({ original }, _field, value) => {
       if (value === '') return true;
       if (original.Learnable === 0 && value !== 15) return false;
@@ -96,11 +98,26 @@ export function SpellsPage() {
 
       return true;
     },
+    initialState: {
+      pagination: {
+        pageSize: 50,
+      },
+    },
   });
 
   if (!!globalFilter()) table.setGlobalFilter(Number(globalFilter()));
   if (!!levelFilter())
     table.getColumn('ReqLevel')?.setFilterValue(Number(levelFilter()));
+
+  let scroll: HTMLDivElement;
+
+  const paginationReset = (setter?: any) => {
+    return (e: any) => {
+      scroll.scrollTop = 0;
+      table.setPageSize(50);
+      setter?.(e);
+    };
+  };
 
   return (
     <div class="flex gap-4 h-[100%]">
@@ -108,23 +125,35 @@ export function SpellsPage() {
         <div class="flex gap-4">
           <TextSearch
             value={searchValue}
-            setValue={setSearchValue}
+            setValue={paginationReset(setSearchValue)}
             column={table.getColumn('Name')}
           />
           <LevelInput
             value={levelFilter}
-            setValue={setLevelFilter}
+            setValue={paginationReset(setLevelFilter)}
             column={table.getColumn('ReqLevel')!}
           />
           <ClassSelect
             value={globalFilter}
             setValue={setGlobalFilter}
-            onChange={(val) => table.setGlobalFilter(val)}
+            onChange={paginationReset(table.setGlobalFilter)}
           />
+          <button
+            onClick={() => {
+              paginationReset()('');
+              table.resetColumnFilters(true);
+              table.resetGlobalFilter(true);
+              setSearchValue('');
+              setLevelFilter('');
+              setGlobalFilter('');
+            }}
+          >
+            Clear Filters
+          </button>
         </div>
-        <ScrollContainer>
+        <TableScrollContainer ref={scroll!} table={table}>
           <DataTable highlightRoute table={table} />
-        </ScrollContainer>
+        </TableScrollContainer>
       </MainPanel>
       <SidePanel>
         <SpellPanel />

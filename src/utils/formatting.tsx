@@ -485,6 +485,7 @@ export const weaponTableSkipKeys = [
   ...commonSkipKeys,
   ...weaponSkipKeys,
   'BsAccu',
+  'spdDmg',
 ];
 export const weaponPanelSkipKeys = [...commonSkipKeys, ...weaponSkipKeys];
 

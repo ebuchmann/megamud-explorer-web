@@ -5,6 +5,7 @@ import {
   createSolidTable,
   getCoreRowModel,
   getFilteredRowModel,
+  getPaginationRowModel,
   getSortedRowModel,
 } from '@tanstack/solid-table';
 import { armorData, classData } from '../data';
@@ -25,13 +26,13 @@ import {
   getRemainingPropertiesTable,
 } from '../utils/formatting';
 import { GlobalFilterMenu } from '../components/GlobalFilterMenu';
-import { ScrollContainer } from '../components/layout/ScrollContainer';
 import { Armor } from '../types';
 import { TextSearch } from '../components/TextSearch';
 import { useNavigate } from '@solidjs/router';
 import { MainPanel } from '../components/layout/MainPanel';
 import { SidePanel } from '../components/layout/SidePanel';
 import { ArmorPanel } from '../components/armor/ArmorPanel';
+import { TableScrollContainer } from '../components/layout/TableScrollContainer';
 
 const defaultArmorTypeFilter = [0, 1, 2, 6, 7, 8, 9];
 
@@ -166,11 +167,27 @@ export function ArmorPage() {
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    initialState: {
+      pagination: {
+        pageSize: 50,
+      },
+    },
   });
 
   if (!!globalFilter()) table.setGlobalFilter(Number(globalFilter()));
   if (!!levelFilter())
     table.getColumn('MinLevel')?.setFilterValue(Number(levelFilter()));
+
+  let scroll: HTMLDivElement;
+
+  const paginationReset = (setter?: any) => {
+    return (e: any) => {
+      scroll.scrollTop = 0;
+      table.setPageSize(50);
+      setter?.(e);
+    };
+  };
 
   return (
     <div class="flex gap-4 h-[100%]">
@@ -179,12 +196,12 @@ export function ArmorPage() {
         <div class="flex gap-4">
           <TextSearch
             value={searchValue}
-            setValue={setSearchValue}
+            setValue={paginationReset(setSearchValue)}
             column={table.getColumn('Name')}
           />
           <LevelInput
             value={levelFilter}
-            setValue={setLevelFilter}
+            setValue={paginationReset(setLevelFilter)}
             column={table.getColumn('MinLevel')!}
           />
           <select
@@ -197,6 +214,7 @@ export function ArmorPage() {
                 ? column?.setFilterValue('')
                 : column?.setFilterValue(value);
 
+              paginationReset()('');
               setWornValue(value);
             }}
           >
@@ -210,13 +228,14 @@ export function ArmorPage() {
           </select>
           <ClassSelect
             value={globalFilter}
-            setValue={setGlobalFilter}
+            setValue={paginationReset(setGlobalFilter)}
             onChange={(val) => table.setGlobalFilter(val)}
           />
           <button
             onClick={() => {
               table.resetColumnFilters(true);
               table.resetGlobalFilter(true);
+              paginationReset()('');
               setSearchValue('');
               setLevelFilter('');
               setGlobalFilter('');
@@ -262,9 +281,9 @@ export function ArmorPage() {
             }}
           </For>
         </div>
-        <ScrollContainer>
+        <TableScrollContainer ref={scroll!} table={table}>
           <DataTable highlightEquipment highlightRoute table={table} />
-        </ScrollContainer>
+        </TableScrollContainer>
       </MainPanel>
       <SidePanel>
         <ArmorPanel />
