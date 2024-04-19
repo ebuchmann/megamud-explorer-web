@@ -30,7 +30,6 @@ export function TableScrollContainer<T>({
       table.getFilteredRowModel().rows.length >
         table.getState().pagination.pageSize
     ) {
-      console.log('increase');
       table.setPageSize(table.getState().pagination.pageSize + 100);
     }
   };

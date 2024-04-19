@@ -7,6 +7,7 @@ import { makePersisted } from '@solid-primitives/storage';
 import { debounce } from '@solid-primitives/scheduled';
 import { TextInput } from '../components/TextInput';
 import { useNavigate } from '@solidjs/router';
+import { setStopAtMap, stopAtMap } from '../state/map-options';
 
 export function RoomsPage() {
   const navigate = useNavigate();
@@ -29,6 +30,14 @@ export function RoomsPage() {
               debounce={500}
               onInput={(e) => setDrawDistance(e.target.value)}
             />
+            <label>
+              <input
+                type="checkbox"
+                checked={stopAtMap() === 'true'}
+                onChange={(e) => setStopAtMap(String(e.target.checked))}
+              />{' '}
+              Stop at map #
+            </label>
             <form
               onsubmit={(e) => {
                 e.preventDefault();

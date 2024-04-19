@@ -101,12 +101,18 @@ export function PasteModal(props: PasteModalProps) {
         >
           <div class="pointer-events-auto relative flex w-full flex-col rounded-md border-none bg-white bg-clip-padding text-current shadow-4 outline-none dark:bg-surface-dark">
             <div class="flex flex-shrink-0 items-center justify-between rounded-t-md border-b-2 border-neutral-100 p-4 dark:border-white/10">
-              <h5
-                class="text-xl font-medium leading-normal text-surface dark:text-white"
-                id="exampleModalCenterTitle"
-              >
-                Modal title
-              </h5>
+              <div class="flex flex-col">
+                <h5
+                  class="text-xl font-medium leading-normal text-surface dark:text-white"
+                  id="exampleModalCenterTitle"
+                >
+                  Paste Inventory
+                </h5>
+                <p>
+                  You can paste the inventory list or the output when you look
+                  at yourself.
+                </p>
+              </div>
               <button
                 type="button"
                 class="box-content rounded-none border-none text-neutral-500 hover:text-neutral-800 hover:no-underline focus:text-neutral-800 focus:opacity-100 focus:shadow-none focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
@@ -132,7 +138,6 @@ export function PasteModal(props: PasteModalProps) {
             </div>
 
             <div class="relative p-4">
-              {content()}
               <textarea
                 value={content()}
                 onInput={(e) => setContent(e.target.value)}

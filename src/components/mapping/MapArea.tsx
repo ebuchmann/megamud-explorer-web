@@ -4,6 +4,7 @@ import { Accessor, createEffect, createSignal, onCleanup } from 'solid-js';
 import { Direction, Room, RoomLink } from '../../types';
 import { cleanRoomNum, getRoom } from '../../utils/rooms';
 import classNames from 'classnames';
+import { stopAtMap } from '../../state/map-options';
 
 const ROOM_SIZE = 15;
 const ROOM_OFFSET = 22;
@@ -223,7 +224,8 @@ export function MapArea(props: MapProps) {
 
       const nextRoom = getRoom(room[dir]!);
 
-      if (nextRoom.MapNum !== startingRoom().MapNum) return;
+      if (stopAtMap() === 'true' && nextRoom.MapNum !== startingRoom().MapNum)
+        return;
 
       if (nextRoom)
         traverse({
