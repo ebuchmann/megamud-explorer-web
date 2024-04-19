@@ -47,9 +47,19 @@ export function SpellPanel() {
                   const [type, number] = learnedFrom.split('|');
                   switch (type) {
                     case 'item':
-                      return <ItemReference number={Number(number)} />;
+                      return (
+                        <>
+                          <ItemReference number={Number(number)} />
+                          <br />
+                        </>
+                      );
                     case 'npc':
-                      return <MonsterReference number={Number(number)} />;
+                      return (
+                        <>
+                          <MonsterReference number={Number(number)} />
+                          <br />
+                        </>
+                      );
                     case 'textblock':
                       return `Textblock ${number}`;
                   }

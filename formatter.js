@@ -352,6 +352,9 @@ for (const index in spellData) {
       item.LearnedFrom.push(`${splitValues[index - 1].toLowerCase()}|${val}`);
     });
   }
+  if (original.Classes && original.Classes !== '(*)') {
+    item.Classes = original.Classes.match(numberRegex).map(Number);
+  }
 
   item.Abilities = {};
 

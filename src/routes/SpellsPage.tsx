@@ -92,6 +92,7 @@ export function SpellsPage() {
       const cls = classData.find((cls) => cls.Number === value);
       if (!cls) return false;
 
+      if (original.Classes && !original.Classes.includes(value)) return false;
       if (cls.MageryType === 0) return false;
       if (cls.MageryType !== original.Magery) return false;
       if (original.MageryLVL > cls.MageryLVL) return false;

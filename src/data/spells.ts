@@ -20154,6 +20154,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "cfrm",
     LearnedFrom: ["textblock|2903"],
+    Classes: [15],
     Abilities: {},
   },
   {
@@ -20179,6 +20180,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "dfrm",
     LearnedFrom: ["textblock|2903"],
+    Classes: [15],
     Abilities: {},
   },
   {
@@ -20204,6 +20206,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gfrm",
     LearnedFrom: ["textblock|2903"],
+    Classes: [15],
     Abilities: {},
   },
   {
@@ -20229,6 +20232,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "mfrm",
     LearnedFrom: ["textblock|2903"],
+    Classes: [15],
     Abilities: {},
   },
   {
@@ -20254,6 +20258,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "vfrm",
     LearnedFrom: ["textblock|2903"],
+    Classes: [15],
     Abilities: {},
   },
   {
@@ -24102,6 +24107,7 @@ export const spellData: Spell[] = [
     Short: "fspk",
     EnergyCost: 333,
     LearnedFrom: ["npc|244"],
+    Classes: [13],
     Abilities: { "Damage(-MR)": 0, GoodOnly: 0 },
   },
   {
@@ -24127,6 +24133,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "mans",
     LearnedFrom: ["npc|244"],
+    Classes: [12],
     Abilities: { DR: 50, AC: 20, GoodOnly: 0, Dodge: 15 },
     RemovesSpell: [132, 4],
   },
@@ -24154,6 +24161,7 @@ export const spellData: Spell[] = [
     Short: "word",
     EnergyCost: 200,
     LearnedFrom: ["npc|244"],
+    Classes: [5],
     Abilities: { "Damage(-MR)": 0, EndCast: 1007, GoodOnly: 0 },
   },
   {
@@ -24227,6 +24235,7 @@ export const spellData: Spell[] = [
     Short: "nebo",
     EnergyCost: 999,
     LearnedFrom: ["npc|263"],
+    Classes: [12],
     Abilities: {
       "Damage(-MR)": 0,
       EvilOnly: 0,
@@ -24484,6 +24493,7 @@ export const spellData: Spell[] = [
     Short: "chai",
     EnergyCost: 1000,
     LearnedFrom: ["npc|244"],
+    Classes: [12],
     Abilities: { "Damage(-MR)": 0, GoodOnly: 0 },
   },
   {
@@ -24706,6 +24716,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "spor",
     LearnedFrom: ["npc|263"],
+    Classes: [13],
     Abilities: {
       "Damage(No AC)": 0,
       Confusion: 10,
@@ -24999,6 +25010,7 @@ export const spellData: Spell[] = [
     Short: "prbe",
     EnergyCost: 900,
     LearnedFrom: ["npc|251"],
+    Classes: [12],
     Abilities: { "Damage(-MR)": 0, EndCast: 1052, NeutralOnly: 0 },
   },
   {
@@ -25071,6 +25083,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "blsh",
     LearnedFrom: ["npc|263"],
+    Classes: [12],
     Abilities: { "M.R.": 10, DR: 50, ShockShield: 15, EvilOnly: 0, AC: 20 },
     RemovesSpell: [132, 4],
   },
@@ -25097,6 +25110,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gmst",
     LearnedFrom: ["npc|244"],
+    Classes: [13],
     Abilities: {
       "Damage(No AC)": 0,
       Confusion: 10,
@@ -25130,6 +25144,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "clwo",
     LearnedFrom: ["npc|244"],
+    Classes: [13],
     Abilities: { Heal: 0, GoodOnly: 0 },
   },
   {
@@ -25178,6 +25193,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "prsl",
     LearnedFrom: ["npc|251"],
+    Classes: [12],
     Abilities: { DR: 50, AC: 20, NeutralOnly: 0, "M.R.": 30 },
     RemovesSpell: [132, 4],
   },
@@ -25205,6 +25221,7 @@ export const spellData: Spell[] = [
     Short: "boul",
     EnergyCost: 333,
     LearnedFrom: ["npc|251"],
+    Classes: [13],
     Abilities: { "Damage(-MR)": 0, NeutralOnly: 0 },
   },
   {
@@ -25231,6 +25248,7 @@ export const spellData: Spell[] = [
     Short: "infe",
     EnergyCost: 333,
     LearnedFrom: ["npc|263"],
+    Classes: [13],
     Abilities: { "Damage(-MR)": 0, EvilOnly: 0 },
   },
   {
@@ -25423,6 +25441,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "dbin",
     LearnedFrom: ["npc|263"],
+    Classes: [13],
     Abilities: { HPRegen: -50, ManaRgn: 0, EvilOnly: 0 },
     RemovesSpell: [138],
   },
@@ -25450,6 +25469,7 @@ export const spellData: Spell[] = [
     Short: "hsto",
     EnergyCost: 1000,
     LearnedFrom: ["npc|263"],
+    Classes: [12],
     Abilities: { "Damage(-MR)": 0, EvilOnly: 0 },
   },
   {
@@ -25501,6 +25521,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "dihe",
     LearnedFrom: ["npc|244"],
+    Classes: [5],
     Abilities: { Heal: 0, GoodOnly: 0 },
   },
   {
@@ -25526,6 +25547,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "prbe",
     LearnedFrom: ["npc|251"],
+    Classes: [5],
     Abilities: { Heal: 0, NeutralOnly: 0 },
   },
   {
@@ -25575,6 +25597,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "barb",
     LearnedFrom: ["npc|251"],
+    Classes: [13],
     Abilities: { ShockShield: 0, DR: 50, AC: 0, NeutralOnly: 0 },
     RemovesSpell: [422, 34, 289, 1381],
   },
@@ -25602,6 +25625,7 @@ export const spellData: Spell[] = [
     Short: "come",
     EnergyCost: 333,
     LearnedFrom: ["npc|244"],
+    Classes: [12],
     Abilities: { "Damage(-MR)": 0, GoodOnly: 0 },
   },
   {
@@ -25880,6 +25904,7 @@ export const spellData: Spell[] = [
     Short: "pbla",
     EnergyCost: 800,
     LearnedFrom: ["npc|251"],
+    Classes: [12],
     Abilities: { "Damage(-MR)": 0, EndCast: 1075, NeutralOnly: 0 },
   },
   {
@@ -26045,6 +26070,7 @@ export const spellData: Spell[] = [
     Short: "word",
     EnergyCost: 200,
     LearnedFrom: ["npc|263"],
+    Classes: [5],
     Abilities: { "Damage(-MR)": 0, EndCast: 1080, EvilOnly: 0 },
   },
   {
@@ -26393,6 +26419,7 @@ export const spellData: Spell[] = [
     Short: "word",
     EnergyCost: 200,
     LearnedFrom: ["npc|251"],
+    Classes: [5],
     Abilities: { "Damage(-MR)": 0, EndCast: 1097, NeutralOnly: 0 },
   },
   {
@@ -26443,6 +26470,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "halo",
     LearnedFrom: ["npc|244"],
+    Classes: [5],
     Abilities: { RoomIllu: 0, GoodOnly: 0, Dodge: -10, ProtEvil: 5 },
   },
   {
@@ -26468,6 +26496,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "bals",
     LearnedFrom: ["npc|251"],
+    Classes: [5],
     Abilities: {
       RoomIllu: 0,
       Percep: 50,
@@ -26546,6 +26575,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "dark",
     LearnedFrom: ["npc|263"],
+    Classes: [5],
     Abilities: {
       Illu: -9999,
       EvilOnly: 0,
@@ -26799,6 +26829,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "ebin",
     LearnedFrom: ["npc|251"],
+    Classes: [13],
     Abilities: { HPRegen: 0, ManaRgn: 0, NeutralOnly: 0 },
   },
   {
@@ -36068,6 +36099,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "disf",
     LearnedFrom: ["npc|696"],
+    Classes: [3],
     Abilities: { Accuracy: 0, EvilInCombat: 0 },
     RemovesSpell: [62],
   },
@@ -36094,6 +36126,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "grhe",
     LearnedFrom: ["npc|696"],
+    Classes: [3],
     Abilities: { Heal: 0, AffectsLivingOnly: 0 },
   },
   {
@@ -36120,6 +36153,7 @@ export const spellData: Spell[] = [
     Short: "soul",
     EnergyCost: 1000,
     LearnedFrom: ["npc|696"],
+    Classes: [4, 6],
     Abilities: { "Damage(-MR)": 0 },
   },
   {
@@ -36145,6 +36179,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gdhe",
     LearnedFrom: ["npc|696"],
+    Classes: [4, 6],
     Abilities: { Heal: 0, AffectsLivingOnly: 0 },
   },
   {
@@ -36170,6 +36205,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "plag",
     LearnedFrom: ["npc|696"],
+    Classes: [14],
     Abilities: {
       "Damage(No AC)": 0,
       EvilInCombat: 0,
@@ -36201,6 +36237,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "sfog",
     LearnedFrom: ["npc|696"],
+    Classes: [10],
     Abilities: { Dodge: -20, EvilInCombat: 0, Slowness: 200 },
     RemovesSpell: [57, 272, 283, 106],
   },
@@ -36251,6 +36288,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gele",
     LearnedFrom: ["npc|696"],
+    Classes: [14],
     Abilities: { Rcol: 0, Rfir: 0, Rlit: 0, ResistStone: 0 },
     RemovesSpell: [1053, 28, 29, 32],
   },
@@ -36324,6 +36362,7 @@ export const spellData: Spell[] = [
     Short: "spir",
     EnergyCost: 1000,
     LearnedFrom: ["npc|696"],
+    Classes: [11],
     Abilities: { "Damage(-MR)": 0 },
   },
   {
@@ -36349,6 +36388,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "mist",
     LearnedFrom: ["npc|696"],
+    Classes: [11],
     Abilities: { Confusion: 0, EvilInCombat: 0 },
   },
   {
@@ -36375,6 +36415,7 @@ export const spellData: Spell[] = [
     Short: "esto",
     EnergyCost: 1000,
     LearnedFrom: ["npc|696"],
+    Classes: [10],
     Abilities: { "Damage(-MR)": 0 },
   },
   {
@@ -43204,6 +43245,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "lfir",
     LearnedFrom: ["npc|1288"],
+    Classes: [11],
     Abilities: { Enchant: 0, CastsSp: 5540 },
   },
   {
@@ -43253,6 +43295,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "garc",
     LearnedFrom: ["npc|1288"],
+    Classes: [11],
     Abilities: { Enchant: 0, CastsSp: 5559 },
   },
   {
@@ -43737,6 +43780,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "lven",
     LearnedFrom: ["npc|1288"],
+    Classes: [11],
     Abilities: { Enchant: 0, CastsSp: 5561 },
   },
   {
@@ -43785,6 +43829,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gven",
     LearnedFrom: ["npc|263"],
+    Classes: [11],
     Abilities: { Enchant: 0, CastsSp: 5563, EvilOnly: 0 },
   },
   {
@@ -43833,6 +43878,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "penc",
     LearnedFrom: ["npc|251"],
+    Classes: [11],
     Abilities: { Enchant: 0, CastsSp: 5565, NeutralOnly: 0 },
   },
   {
@@ -43882,6 +43928,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "cenc",
     LearnedFrom: ["npc|244"],
+    Classes: [11],
     Abilities: { Enchant: 0, CastsSp: 5567, GoodOnly: 0, Illu: 50 },
   },
   {
@@ -43931,6 +43978,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "venc",
     LearnedFrom: ["npc|1288"],
+    Classes: [11],
     Abilities: { Enchant: 35, CastsSp: 5569 },
   },
   {
@@ -43980,6 +44028,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "menc",
     LearnedFrom: ["npc|1288"],
+    Classes: [11],
     Abilities: { Enchant: 35, CastsSp: 5571 },
   },
   {
@@ -44055,6 +44104,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "chao",
     LearnedFrom: ["npc|385", "npc|1288"],
+    Classes: [11, 10],
     Abilities: { DR: 0, AC: 5 },
   },
   {
@@ -44080,6 +44130,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gist",
     LearnedFrom: ["npc|1288"],
+    Classes: [11],
     Abilities: { Strength: 0, Encum: 5 },
     RemovesSpell: [276, 1106, 47],
   },
@@ -44204,6 +44255,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "pilg",
     LearnedFrom: ["npc|1289"],
+    Classes: [6],
     Abilities: { Stealth: 10, Quickness: 20, ManaRgn: 10, Dodge: 5 },
   },
   {
@@ -44229,6 +44281,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "apaw",
     LearnedFrom: ["npc|1289"],
+    Classes: [6],
     Abilities: { DR: 3, AC: 10 },
   },
   {
@@ -44280,6 +44333,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "cdem",
     LearnedFrom: ["npc|1289"],
+    Classes: [6],
     Abilities: {
       Accuracy: 0,
       EvilInCombat: 10,
@@ -44313,6 +44367,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "bevi",
     LearnedFrom: ["npc|1290"],
+    Classes: [4],
     Abilities: { Dispel: 107 },
     RemovesSpell: [440, 443, 933, 1102, 1113, 1310, 5077, 5505],
   },
@@ -44339,6 +44394,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "flag",
     LearnedFrom: ["npc|263"],
+    Classes: [5],
     Abilities: {
       "Damage(No AC)": 0,
       AlterSpDmg: 4,
@@ -44397,6 +44453,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "cwit",
     LearnedFrom: ["npc|385"],
+    Classes: [10],
     Abilities: {
       "Damage(No AC)": 0,
       EvilInCombat: 0,
@@ -44429,6 +44486,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "gshd",
     LearnedFrom: ["npc|385"],
+    Classes: [10],
     Abilities: {
       BsMinDmg: 0,
       BsMaxDmg: 0,
@@ -44461,6 +44519,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "sbar",
     LearnedFrom: ["npc|385"],
+    Classes: [10],
     Abilities: {},
   },
   {
@@ -44486,6 +44545,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "slep",
     LearnedFrom: ["npc|385"],
+    Classes: [10],
     Abilities: { Confusion: 0, EvilInCombat: 0 },
   },
   {
@@ -44511,6 +44571,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "frai",
     LearnedFrom: ["npc|385"],
+    Classes: [10],
     Abilities: {
       Encum: 0,
       Accuracy: 0,
@@ -44544,6 +44605,7 @@ export const spellData: Spell[] = [
     Learnable: 1,
     Short: "link",
     LearnedFrom: ["npc|385"],
+    Classes: [10],
     Abilities: { Dodge: 0, ManaRgn: 10, "S.C.": 25, AlterSpDmg: 2, Heal: 1 },
   },
   {
