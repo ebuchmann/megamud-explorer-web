@@ -23,7 +23,7 @@ const allShops = [];
 
 for (const index in itemData) {
   const original = itemData[index];
-  // if (original['In Game'] === 0) continue;
+  if (original['In Game'] === 0) continue;
 
   const item = {
     Number: original.Number,
@@ -227,7 +227,7 @@ for (const index in raceData) {
 for (const index in monsterData) {
   const original = monsterData[index];
 
-  // if (original['In Game'] === 0) continue;
+  if (original['In Game'] === 0) continue;
 
   const item = {
     Number: original.Number,
@@ -380,7 +380,7 @@ for (const index in spellData) {
 for (const index in shopData) {
   const original = shopData[index];
 
-  // if (original['In Game'] === 0) continue;
+  if (original['In Game'] === 0) continue;
 
   const shop = {
     Number: original.Number,
