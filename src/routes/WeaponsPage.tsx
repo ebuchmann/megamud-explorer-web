@@ -65,7 +65,7 @@ const columns = [
   }),
   columnHelper.accessor('spdDmg', {
     header: 'Dmg/Spd',
-    cell: (info) => info.getValue().toFixed(2),
+    cell: (info) => info.getValue()?.toFixed(2),
   }),
   columnHelper.accessor('MinLevel', {
     header: 'Lvl',

@@ -23,7 +23,7 @@ const allShops = [];
 
 for (const index in itemData) {
   const original = itemData[index];
-  if (original['In Game'] === 0) continue;
+  // if (original['In Game'] === 0) continue;
 
   const item = {
     Number: original.Number,
@@ -227,7 +227,7 @@ for (const index in raceData) {
 for (const index in monsterData) {
   const original = monsterData[index];
 
-  if (original['In Game'] === 0) continue;
+  // if (original['In Game'] === 0) continue;
 
   const item = {
     Number: original.Number,
@@ -250,7 +250,7 @@ for (const index in monsterData) {
     Undead: original.Undead,
     Align: original.Align,
     Magical: 0,
-    SummonedBy: original['Summoned By'].match(roomRegex),
+    SummonedBy: original['Summoned By']?.match(roomRegex),
   };
 
   if (original.RegenTime > 0) item.RegenTime = original.RegenTime;
@@ -380,7 +380,7 @@ for (const index in spellData) {
 for (const index in shopData) {
   const original = shopData[index];
 
-  if (original['In Game'] === 0) continue;
+  // if (original['In Game'] === 0) continue;
 
   const shop = {
     Number: original.Number,
@@ -390,7 +390,7 @@ for (const index in shopData) {
     MaxLVL: original.MaxLVL,
     'Markup%': original['Markup%'],
     ClassRest: original.ClassRest,
-    AssignedTo: original['Assigned To'].match(roomRegex),
+    AssignedTo: original['Assigned To']?.match(roomRegex),
   };
 
   for (let x = 0; x < 20; x++) {
