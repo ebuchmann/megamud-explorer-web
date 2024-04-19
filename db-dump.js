@@ -18,7 +18,7 @@ const tableList = [
 
 for await (const table of tableList) {
   await exec(
-    `mdb-json './db/Paramud Data 1.6 Final 3-13-24.mdb' ${table} > './db/${table.toLowerCase()}.json'`,
+    `mdb-json './db/Paramud Data 1.6 Final 4-18-24.mdb' ${table} > './db/${table.toLowerCase()}.json'`,
   );
 }
 
