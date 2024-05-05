@@ -10,7 +10,11 @@ import {
 import { getNumberString } from '../../utils/formatting';
 import { SpellListing } from './SpellListing';
 import { Alignments, MonsterTypes } from '../../utils/data-types';
-import { UnknownReference, WeaponReference } from '../references';
+import {
+  SpellReference,
+  UnknownReference,
+  WeaponReference,
+} from '../references';
 import { RoomReference } from '../references/RoomReference';
 
 const moneyIndex = ['c', 's', 'g', 'p', 'r'];
@@ -127,7 +131,9 @@ export function MonsterPanel() {
                   </div>
                   <Show when={attack.HitSpell}>
                     <div>Hit spell</div>
-                    <div>{attack.HitSpell}</div>
+                    <div>
+                      <SpellReference number={attack.HitSpell!} />
+                    </div>
                   </Show>
                 </div>
               </div>

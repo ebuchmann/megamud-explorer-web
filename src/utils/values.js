@@ -148,6 +148,7 @@ export const specialProperties = new Map([
   [1004, 'Tracking'],
   [1103, 'Shadowrest'],
   [1109, 'Enchant'],
+  [1111, 'Absorb'],
   [1113, 'VileWard'],
   [9998, 'HPPerLVL'],
   [9999, 'Classes'],

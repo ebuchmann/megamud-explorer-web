@@ -8,7 +8,7 @@ export function CharacterSelect() {
   return (
     <>
       <fieldset>
-        <legend>Filter</legend>
+        <legend>Highlight Equipment</legend>
         <select
           value={selectedCharacter()}
           onChange={(e) => setSelectedCharacter(e.target.value)}

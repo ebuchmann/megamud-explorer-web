@@ -44520,7 +44520,7 @@ export const spellData: Spell[] = [
     Short: "sbar",
     LearnedFrom: ["npc|385"],
     Classes: [10],
-    Abilities: {},
+    Abilities: { Absorb: 0 },
   },
   {
     Number: 5589,
@@ -45761,7 +45761,7 @@ export const spellData: Spell[] = [
     Targets: 1,
     Learnable: 0,
     Short: "aaeg",
-    Abilities: {},
+    Abilities: { Absorb: 0 },
   },
   {
     Number: 5639,
@@ -45857,7 +45857,7 @@ export const spellData: Spell[] = [
     Targets: 1,
     Learnable: 0,
     Short: "kbar",
-    Abilities: {},
+    Abilities: { Absorb: 0 },
   },
   {
     Number: 5643,
@@ -47069,7 +47069,7 @@ export const spellData: Spell[] = [
     Targets: 1,
     Learnable: 0,
     Short: "fiel",
-    Abilities: {},
+    Abilities: { Absorb: 0 },
   },
   {
     Number: 5693,
