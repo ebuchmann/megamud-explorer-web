@@ -9,6 +9,7 @@ import {
   armorPanelSkipKeys,
   getRemainingProperties,
 } from '../../utils/formatting';
+import { SpellReference } from '../references';
 
 export function ArmorPanel() {
   const params = useParams();
@@ -43,6 +44,16 @@ export function ArmorPanel() {
             {(armor()?.DamageResist ?? 0) / 10}
           </div>
           {getRemainingProperties(armor()!, armorPanelSkipKeys)}
+          <Show when={armor()?.NegateSpell}>
+            <div>NegateSpell</div>
+            <div>
+              {armor()?.NegateSpell?.map((spellNum) => (
+                <div>
+                  <SpellReference number={spellNum} />
+                </div>
+              ))}
+            </div>
+          </Show>
         </div>
         <ReferencesPanel item={armor} />
       </Show>

@@ -18,7 +18,9 @@ export function ReferencesPanel({ item }: ReferencesPanelProps) {
           <div>Buy</div>
           <div class="flex flex-col">
             {item()?.Obtained?.buy?.map((buy) => (
-              <ShopReference number={buy} />
+              <div>
+                <ShopReference number={buy} />
+              </div>
             ))}
             {item()?.Obtained?.nogen?.map((buy) => (
               <div>
@@ -44,7 +46,9 @@ export function ReferencesPanel({ item }: ReferencesPanelProps) {
           <div>Sell</div>
           <div>
             {item()?.Obtained?.sell?.map((sell) => (
-              <ShopReference number={sell} />
+              <div>
+                <ShopReference number={sell} />
+              </div>
             ))}
           </div>
         </Show>

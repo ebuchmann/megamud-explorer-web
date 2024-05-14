@@ -489,7 +489,7 @@ export const weaponTableSkipKeys = [
 ];
 export const weaponPanelSkipKeys = [...commonSkipKeys, ...weaponSkipKeys];
 
-export const armorPanelSkipKeys = [...commonSkipKeys];
+export const armorPanelSkipKeys = [...commonSkipKeys, 'NegateSpell'];
 export const armorTableSkipKeys = [
   ...commonSkipKeys,
   'Accy',

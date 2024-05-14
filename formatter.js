@@ -102,6 +102,13 @@ for (const index in itemData) {
       }
     }
 
+    for (let x = 0; x < 10; x++) {
+      if (original[`NegateSpell-${x}`] > 0) {
+        if (!item.NegateSpell) item.NegateSpell = [];
+        item.NegateSpell.push(original[`NegateSpell-${x}`]);
+      }
+    }
+
     if (original['Obtained From']) {
       item.Obtained = obtainedFrom(original['Obtained From']);
     }

@@ -160,6 +160,7 @@ export const armorData: Armor[] = [
     "S.C.": 3,
     MaxMana: 10,
     Classes: [3, 4, 5, 6],
+    NegateSpell: [991],
     Obtained: {
       sell: [88],
       monster: ["68|10"],
@@ -2019,6 +2020,7 @@ export const armorData: Armor[] = [
     StrReq: 0,
     Speed: 0,
     MinLevel: 0,
+    NegateSpell: [141, 392, 769, 1362],
     Obtained: { buy: [42] },
   },
   {
@@ -3645,6 +3647,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Magical: 1,
     Rcol: 25,
+    NegateSpell: [5242],
     Obtained: {
       buy: [33, 96, 104, 171],
       text: [874, 882],
@@ -4091,6 +4094,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     Stealth: 5,
+    NegateSpell: [485, 331, 238, 80],
     Obtained: { monster: ["241|100"] },
   },
   {
@@ -4118,6 +4122,7 @@ export const armorData: Armor[] = [
     CastsSp: 169,
     Recharge: 10,
     Stealth: -5,
+    NegateSpell: [141, 392, 769, 1362],
     Obtained: { buy: [170] },
   },
   {
@@ -4193,6 +4198,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    NegateSpell: [526, 218],
     Obtained: { text: [181, 2833] },
   },
   {
@@ -4711,6 +4717,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 30,
     Stealth: -10,
+    NegateSpell: [485, 5682],
     Obtained: { buy: [94, 97, 152, 255, 261, 311] },
   },
   {
@@ -4736,6 +4743,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     Percep: -10,
     RemovesSpell: 514,
+    NegateSpell: [512, 513, 514, 453, 5256, 5257, 5687],
     Obtained: { buy: [122, 272], monster: ["2776|7"] },
   },
   {
@@ -5409,6 +5417,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    NegateSpell: [5028],
     Obtained: { monster: ["346|100"] },
   },
   {
@@ -5564,6 +5573,7 @@ export const armorData: Armor[] = [
     MaxMana: 20,
     MaxDamage: 3,
     Classes: [3, 4, 5, 6],
+    NegateSpell: [101, 361, 432, 894, 958, 963, 391, 955, 1246, 991],
     Obtained: {
       nogen: [91],
       sell: [147],
@@ -6441,6 +6451,7 @@ export const armorData: Armor[] = [
     BsAccu: 5,
     Magical: 1,
     Classes: [9],
+    NegateSpell: [68],
     Obtained: {
       nogen: [115],
       buy: [267],
@@ -6480,6 +6491,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     HPRegen: 10,
     Rfir: -20,
+    NegateSpell: [485],
     Obtained: {
       nogen: [119],
       buy: [183],
@@ -6843,6 +6855,7 @@ export const armorData: Armor[] = [
     LoyalItem: 0,
     Rfir: 10,
     "Alter HP": 25,
+    NegateSpell: [526, 218],
     Obtained: { sell: [176], text: [1450, 1458] },
   },
   {
@@ -7208,6 +7221,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     LoyalItem: 1,
     Classes: [2],
+    NegateSpell: [1, 5060, 5038, 5039, 5028, 5026, 5036, 5012],
     Obtained: { sell: [175, 261] },
   },
   {
@@ -7233,6 +7247,7 @@ export const armorData: Armor[] = [
     MinLevel: 50,
     LoyalItem: 1,
     Classes: [2],
+    NegateSpell: [5010, 5035, 961, 60, 397, 430, 822, 930, 836, 1027],
     Obtained: { sell: [175, 261] },
   },
   {
@@ -7301,6 +7316,7 @@ export const armorData: Armor[] = [
     MinLevel: 60,
     LoyalItem: 1,
     Classes: [2],
+    NegateSpell: [5018, 5034, 1025, 853, 5033, 1262, 1210],
     Obtained: { sell: [175, 261] },
   },
   {
@@ -7493,6 +7509,7 @@ export const armorData: Armor[] = [
     MaxDamage: 1,
     LoyalItem: 1,
     MaxMana: 10,
+    NegateSpell: [63, 300, 191, 380, 381, 713, 829, 53, 83, 328],
     Obtained: { sell: [148], text: [1450] },
   },
   {
@@ -8504,6 +8521,7 @@ export const armorData: Armor[] = [
     Cursed: 100,
     ManaRgn: 100,
     HPRegen: -50,
+    NegateSpell: [13, 17, 89, 123, 145, 152, 27, 5239, 5093, 5088],
     Obtained: { monster: ["215|5"] },
   },
   {
@@ -9499,6 +9517,7 @@ export const armorData: Armor[] = [
     Crits: 5,
     CastsSp: 1009,
     Classes: [3, 4, 5, 6],
+    NegateSpell: [991],
     Obtained: { nogen: [184], text: [5168], item: ["3629|4", "3710|4"] },
   },
   {
@@ -10794,6 +10813,7 @@ export const armorData: Armor[] = [
     Cursed: 100,
     Magical: 1,
     "M.R.": -25,
+    NegateSpell: [1027, 60, 397, 430, 822, 930, 836],
     Obtained: { monster: ["937|5"] },
   },
   {
@@ -11388,6 +11408,7 @@ export const armorData: Armor[] = [
     MinLevel: 40,
     Magical: 1,
     ResistWater: 2,
+    NegateSpell: [485, 5682],
     Obtained: { nogen: [232] },
   },
   {
@@ -12432,6 +12453,7 @@ export const armorData: Armor[] = [
     Crits: 5,
     ManaRgn: 15,
     Classes: [3, 6, 11, 4, 9, 5, 10, 14],
+    NegateSpell: [991],
     Obtained: {
       nogen: [184],
       monster: ["817|5"],
@@ -13015,6 +13037,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 45,
     Magical: 1,
+    NegateSpell: [485],
     Obtained: { nogen: [232] },
   },
   {
@@ -13250,6 +13273,7 @@ export const armorData: Armor[] = [
     NotEvil: 0,
     MaxMana: 5,
     Classes: [3, 4, 5, 6],
+    NegateSpell: [101, 361, 432, 894, 958, 963, 391, 955, 1246, 991],
     Obtained: { buy: [68, 215, 234] },
   },
   {
@@ -13488,6 +13512,7 @@ export const armorData: Armor[] = [
     ManaRgn: 10,
     VileWard: 25,
     Classes: [5, 3, 4, 6],
+    NegateSpell: [101, 361, 432, 894, 958, 963, 391, 955, 1246, 991],
     Obtained: { buy: [69] },
   },
   {
@@ -15144,6 +15169,7 @@ export const armorData: Armor[] = [
     MinLevel: 10,
     Stealth: -8,
     Rcol: 10,
+    NegateSpell: [5242],
     Obtained: { buy: [260] },
   },
   {
@@ -17557,6 +17583,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 30,
     Percep: 10,
+    NegateSpell: [60, 397, 430, 822, 930, 836],
     Obtained: {
       text: [2944, 10009],
       item: ["1344|9.2", "1485|3.3", "1496|5.3", "1667|3.3"],
@@ -18399,6 +18426,7 @@ export const armorData: Armor[] = [
     Illu: 200,
     Magical: 1,
     Percep: 5,
+    NegateSpell: [440, 1033],
     Obtained: {
       sell: [176],
       text: [4104, 4149, 5168],
@@ -18709,6 +18737,7 @@ export const armorData: Armor[] = [
     MinLevel: 0,
     "Del@Maint": 0,
     ResistStone: 28,
+    NegateSpell: [5077, 5101],
     Obtained: { monster: ["1207|100"] },
   },
   {
@@ -19360,6 +19389,7 @@ export const armorData: Armor[] = [
     ManaRgn: 15,
     MaxMana: 25,
     Classes: [5, 3, 4, 6, 9, 10, 11, 12, 13, 14],
+    NegateSpell: [991],
     Obtained: { nogen: [79], monster: ["1269|15"] },
   },
   {
@@ -20325,6 +20355,7 @@ export const armorData: Armor[] = [
     Rcol: 10,
     Dodge: -25,
     Stealth: -35,
+    NegateSpell: [5242],
     Obtained: {
       nogen: [260],
       monster: ["2549|5"],
@@ -20617,6 +20648,7 @@ export const armorData: Armor[] = [
     Speed: 8224,
     MinLevel: 60,
     Rcol: 15,
+    NegateSpell: [5242],
     Obtained: { text: [10102], item: ["3836|2", "3837|2", "3838|2"] },
   },
   {
@@ -21088,6 +21120,7 @@ export const armorData: Armor[] = [
     Speed: 0,
     MinLevel: 0,
     "Del@Maint": 0,
+    NegateSpell: [1325, 1326, 1327, 1337],
     Obtained: {},
   },
   {
@@ -21286,6 +21319,7 @@ export const armorData: Armor[] = [
     Magical: 1,
     Rcol: 10,
     Quickness: 50,
+    NegateSpell: [5242],
     Obtained: { nogen: [225, 260], monster: ["2661|7"] },
   },
   {

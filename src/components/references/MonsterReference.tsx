@@ -1,6 +1,7 @@
 import { A } from '@solidjs/router';
 import { monsterData } from '../../data';
 import { Tooltip } from '../Tooltip';
+import { Show } from 'solid-js';
 
 type MonsterReferenceProps = {
   number: number;
@@ -24,6 +25,9 @@ export function MonsterReference({ number }: MonsterReferenceProps) {
             AC/DR: {monster?.ArmourClass}/{monster?.DamageResist}, MR:{' '}
             {monster?.MagicRes}
           </div>
+          <Show when={monster?.Magical ?? 0 > 0}>
+            <div>Mag: {monster?.Magical}</div>
+          </Show>
         </div>
       }
     >

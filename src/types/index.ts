@@ -160,6 +160,7 @@ export type Armor = {
   AlterSpDmg?: number;
   ClassOk?: number[];
   Classes?: number[];
+  NegateSpell?: number[];
   Obtained?: Obtained;
 };
 
