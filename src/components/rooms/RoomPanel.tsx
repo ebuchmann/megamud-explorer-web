@@ -36,6 +36,7 @@ export function RoomPanel() {
         <div>
           {room()?.Name} ({room()?.MapNum}/{room()?.RoomNum})
         </div>
+        <div>Light {room().Light}</div>
         <Show when={room()?.Spell}>
           <div>
             Spell: <SpellReference number={room()?.Spell!} />

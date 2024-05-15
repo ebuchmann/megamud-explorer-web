@@ -155,6 +155,7 @@ for (const index in roomsData) {
     MapNum: original['Map Number'],
     RoomNum: original['Room Number'],
     Name: original.Name,
+    Light: original.Light,
   };
 
   if (original.Shop !== 0) item.Shop = original.Shop;
