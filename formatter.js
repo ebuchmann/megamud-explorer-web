@@ -23,7 +23,8 @@ const allShops = [];
 
 for (const index in itemData) {
   const original = itemData[index];
-  if (original['In Game'] === 0) continue;
+  if (original['In Game'] === 0 && !original.Name.includes('parchment deed'))
+    continue;
 
   const item = {
     Number: original.Number,
