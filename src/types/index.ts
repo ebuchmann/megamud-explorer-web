@@ -295,6 +295,7 @@ export type Monster = {
   MagicRes: number;
   EXP: number;
   HP: number;
+  SeeHidden?: number;
   HPRegen: number;
   CharmLVL: number;
   Type: number;

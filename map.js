@@ -160,6 +160,7 @@ for (const index in roomsData) {
 
   if (original.Shop !== 0) item.Shop = original.Shop;
   if (original.Spell !== 0) item.Spell = original.Spell;
+  if (original.NPC !== 0) item.NPC = original.NPC;
 
   if (original.Lair) {
     const { LairMax, Lair } = getLairInfo(original);

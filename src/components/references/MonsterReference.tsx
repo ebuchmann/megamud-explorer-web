@@ -28,6 +28,7 @@ export function MonsterReference({ number }: MonsterReferenceProps) {
           <Show when={monster?.Magical ?? 0 > 0}>
             <div>Mag: {monster?.Magical}</div>
           </Show>
+          <Show when={monster?.SeeHidden}>SeeHidden</Show>
         </div>
       }
     >

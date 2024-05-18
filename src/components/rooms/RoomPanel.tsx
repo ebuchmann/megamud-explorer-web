@@ -64,6 +64,12 @@ export function RoomPanel() {
             </div>
           </div>
         </Show>
+        <Show when={room()?.NPC}>
+          <h3 class="my-4">NPC</h3>
+          <div>
+            <MonsterReference number={room()?.NPC!} />
+          </div>
+        </Show>
         <Show when={room()?.Lair}>
           <h3 class="my-4">Lairs (Max: {room()?.LairMax})</h3>
           <For each={room()?.Lair}>
