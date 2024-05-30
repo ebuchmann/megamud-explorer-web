@@ -7,6 +7,7 @@ import classNames from 'classnames';
 
 export const [levelFilter, setLevelFilter] = createSignal<string>('');
 export const [globalFilter, setGlobalFilter] = createSignal<string>('');
+export const [wornFilter, setWornFilter] = createSignal<string>('Anywhere');
 
 type TableProps<T> = {
   table: Table<T>;

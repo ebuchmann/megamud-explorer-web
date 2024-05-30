@@ -41,8 +41,8 @@ export function MonsterPanel() {
     allMonsterValuesAbilities
       .reduce((curr: string, mapKey: number) => {
         const key: keyof Monster = specialProperties.get(mapKey);
-        if (monster()?.[key]) {
-          curr += `${key} ${getNumberString(monster()[key])}, `;
+        if (monster()?.hasOwnProperty(key)) {
+          curr += `${key}${getNumberString(monster()[key])}, `;
         }
 
         return curr;

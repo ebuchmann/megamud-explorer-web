@@ -16,6 +16,8 @@ import {
   levelFilter,
   setGlobalFilter,
   setLevelFilter,
+  setWornFilter,
+  wornFilter,
 } from '../components/DataTable';
 import { ClassSelect } from '../components/ClassSelect';
 import { LevelInput } from '../components/LevelInput';
@@ -106,7 +108,6 @@ const defaultColumnVisibility = {
 export function ArmorPage() {
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = createSignal<string>('');
-  const [wornValue, setWornValue] = createSignal<string>('Anywhere');
   const [armorTypes, setArmorTypes] = createSignal<number[]>(
     defaultArmorTypeFilter,
   );
@@ -205,7 +206,7 @@ export function ArmorPage() {
             column={table.getColumn('MinLevel')!}
           />
           <select
-            value={wornValue()}
+            value={wornFilter()}
             onChange={(e) => {
               const value = e.target.value;
               const column = table.getColumn('Worn');
@@ -215,7 +216,7 @@ export function ArmorPage() {
                 : column?.setFilterValue(value);
 
               paginationReset()('');
-              setWornValue(value);
+              setWornFilter(value);
             }}
           >
             <option value="Anywhere">Anywhere</option>
@@ -239,7 +240,7 @@ export function ArmorPage() {
               setSearchValue('');
               setLevelFilter('');
               setGlobalFilter('');
-              setWornValue('Anywhere');
+              setWornFilter('Anywhere');
               setArmorTypes(defaultArmorTypeFilter);
             }}
           >

@@ -63,6 +63,8 @@ const columns = [
   }),
 ];
 
+const [sorting, setSorting] = createSignal([]);
+
 export function SpellsPage() {
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = createSignal<string>('');
@@ -98,6 +100,12 @@ export function SpellsPage() {
       if (original.MageryLVL > cls.MageryLVL) return false;
 
       return true;
+    },
+    onSortingChange: setSorting,
+    state: {
+      get sorting() {
+        return sorting();
+      },
     },
     initialState: {
       pagination: {
